@@ -207,7 +207,7 @@ def randomly_distribute_attributes(character_data, legend):
 	for _ in range(1, 10):
 		random.shuffle(attribute_order)
 	
-	#print(attribute_order)
+	# print(attribute_order)
 	attr_order = [
 		attribute_order[0],
 		attribute_order[1],

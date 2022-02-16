@@ -1,0 +1,225 @@
+{
+    "attributes": {
+        "stre": 1,
+        "dex": 1,
+        "sta": 1,
+        "cha": 1,
+        "man": 1,
+        "app": 1,
+        "per": 1,
+        "inte": 1,
+        "wits": 1
+    },
+    "epic_attributes": {
+        "epic_stre": 0,
+        "epic_dex": 1,
+        "epic_sta": 0,
+        "epic_cha": 0,
+        "epic_man": 0,
+        "epic_app": 1,
+        "epic_per": 0,
+        "epic_int": 0,
+        "epic_wits": 1
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        2,
+        2,
+        1,
+        0
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Cipher",
+            "description": [
+                "The Scion\u2019s brain is his own personal Enigma machine. He can break any encryption and decode any message created by someone without Epic Intelligence, without the need for a roll. He can also design a one- time code for a speci\ufb01c recipient that cannot be broken by anyone without Epic Intelligence (regardless of how smart such a person is or what decryption equipment he might have on hand). Only a fellow Scion with Epic Intelligence can even attempt to break the code\u2014calling for opposed (Intelligence + Academics) rolls. The person for whom the coded message is intended can automatically read the message as clearly as if it were written in his native language.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Psychic Profiler",
+            "description": [
+                "Within seconds, the character with this Knack can size up a character with a lesser Legend rating than his own. Just by looking at the person, he can tell her weight, height, age, sex (if it\u2019s unclear to casual inspection) and whether she has a divine heritage or not. With just a few lines of conversation, he can also tell the subject\u2019s Nature, calling and primary Virtue (if any). Finally, if the subject is Fatebound to someone and is acting out a Fatebound Role, he can figure out what that role is. He might not know to whom it applies, but he can probably figure it out from context if he watches the person long enough.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Blessing of Health/Curse of Frailty",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend \nThe Boon can take away a patient\u2019s reproductive capabilities or restore them, provided the patient already has all the necessary organs. This effect lasts for one year per success on the activation roll."
+        ],
+        [
+            "Assess Health",
+            "Dice Pool: None \nCost: None \nThe Scion can instantly, automatically assess the current medical condition of a single living patient in his presence. He can tell how many levels of damage the patient is suffering, as well as any physical addictions he suffers, any illnesses or diseases with which he is infected and any genetic defects that afflict him."
+        ],
+        [
+            "Blessing of Bravery",
+            "Dice Pool: Charisma + Command \nCost: None \nIntoning a benediction over a person or group prepared to engage in battle, the Scion bolsters their courage and determination. Every character on the Scion\u2019s side of the conflict who hears the benediction gains a point of Willpower as well as two temporary bonus dots of Valor that last until the battle ends. The Scion may amplify his voice electronically, but he must be present at the battle and give the blessing live."
+        ],
+        [
+            "Animal Communication",
+            "Dice Pool: Intelligence + Animal Ken \nCost: None \nThe Scion can understand and make himself understood by an animal as he speaks his native language and the animal responds with its own postures, scents and/or vocalizations. This Boon doesn\u2019t make animals smart, calm or loyal, but most are curious enough about having a person address them that they\u2019ll hear a Scion out before defaulting to aggression, panic or indifference."
+        ],
+        [
+            "Battle Cry",
+            "Dice Pool: Charisma + Presence \nCost: 1 Legend \nDuring a battle, be it a pitched field engagement or an alley fight between a Band of Scions and a gang of frost giants, the Scion can loose a horrible battle cry that unnerves his foes. Every fighter on the Scion\u2019s enemies\u2019 side who hears the unearthly shriek loses one die from all attack rolls for a number of attacks equal to the Scion\u2019s Legend rating."
+        ],
+        [
+            "Guilt Apparitions",
+            "Dice Pool: Manipulation + Integrity \nCost: 1 Legend \nWhen a Scion knows that someone is guilty of an injustice but she lacks either the evidence to prove it or the leverage to make him admit it, she can rely on this Boon instead. To use it, she accuses the guilty party of the injustice (be it in person, in a letter, over the phone, via skywriting\u2026), and her player spends a point of Legend and rolls (Manipulation + Integrity). If the roll succeeds, the accusation causes the victim to periodically hallucinate like Macbeth or his wife. These hallucinations occur randomly, torturing the guilty party with the knowledge that justice hasn\u2019t been served. They also render him unable to regain Willpower."
+        ]
+    ],
+    "nature": "Caregiver",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 8,
+        "move": 2,
+        "climb": 1,
+        "jump": {
+            "horizontal": 6,
+            "vertical": 3
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 6,
+        "parry_dv": 5
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 3,
+        "animal_ken": 0,
+        "art": 1,
+        "athletics": 2,
+        "awareness": 0,
+        "brawl": 3,
+        "command": 3,
+        "control": 2,
+        "craft": 2,
+        "empathy": 3,
+        "fortitude": 0,
+        "integrity": 2,
+        "investigation": 3,
+        "larceny": 1,
+        "marksmanship": 0,
+        "medicine": 0,
+        "melee": 3,
+        "occult": 0,
+        "presence": 1,
+        "politics": 2,
+        "science": 3,
+        "stealth": 1,
+        "survival": 1,
+        "thrown": 1
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 1,
+        "lethal": 0.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 2,
+    "god": "Athena",
+    "pantheon": "Dodekatheon",
+    "name": "Andres Evans"
+}

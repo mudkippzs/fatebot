@@ -1,0 +1,329 @@
+{
+    "attributes": {
+        "stre": 7,
+        "dex": 11,
+        "sta": 9,
+        "cha": 7,
+        "man": 7,
+        "app": 7,
+        "per": 5,
+        "inte": 7,
+        "wits": 3
+    },
+    "epic_attributes": {
+        "epic_stre": 5,
+        "epic_dex": 5,
+        "epic_sta": 4,
+        "epic_cha": 5,
+        "epic_man": 4,
+        "epic_app": 4,
+        "epic_per": 4,
+        "epic_int": 0,
+        "epic_wits": 3
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Stench of Guilt",
+            "description": [
+                "This Knack gives a Scion an insight into the workings of a victim\u2019s mind. If the Scion hears a topic come up while the victim is speaking that reminds the victim of a misdeed he\u2019s keeping secret, the Scion senses the presence of that secret. The victim needn\u2019t feel guilty about the wrongs he\u2019s done, but as long as he\u2019s taken, or is taking, pains to hide them, the Scion catches on. This Knack can\u2019t reveal what secret the victim hides, nor does it point out speci\ufb01cally what was said in the conversation that reminded him of the transgression. Conversational context is usually enough for a crafty Scion to \ufb01gure out where to start looking, though.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Benefit of the Doubt",
+            "description": [
+                "Sometimes, for a Scion to be able to help people\u2014or convince them to stay out of harm\u2019s way\u2014those people have to accept ideas that would seem patently ridiculous if they weren\u2019t true. The player of a Scion with this Knack spends a point of Legend, and something in the Scion\u2019s bearing or expression convinces a single listener not to dismiss what he\u2019s saying. Maybe it\u2019s the fact that the Scion is taking his words so seriously, or maybe he just has an honest face. Maybe he came highly recommended by a respected colleague. Whatever the reason, the listener gives the Scion the bene\ufb01t of the doubt in regards to what the Scion next tries to explain, despite what he might be otherwise inclined to believe.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Engender Love",
+            "description": [
+                "Prerequisite Knack: Charmer (Scion: Hero, p. 130) Being able to charm someone is always helpful, but it doesn\u2019t always make getting what you want from that person easy. A charmed person can still think clearly, question one\u2019s motives and turn someone down if something about what she\u2019s saying doesn\u2019t feel quite right. Not so the person affected by this Knack. The character who uses it spends one Legend point as his player rolls (Charisma + Presence + Legend). The victim\u2019s player contests this effect with a (Willpower + Integrity + Legend) roll. If the victim\u2019s roll fails to garner the necessary successes, the victim falls madly, unquestioningly in love with the user of the Knack for a number of days equal to the user\u2019s threshold successes. The victim is blindly enthralled and will do anything in her power to please the object of her affection. This Knack works regardless of the relative Legend disparity between the user and his victim. Using it unwisely against a more powerful character is ill advised, however. Fool Odin once, shame on him. Fool him twice, wolves on you.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "BFF",
+            "description": [
+                "Prerequisite Knack: Blessing of Importance (Scion: Hero, p. 130) A heroic Scion with Epic Charisma can help restore a mortal\u2019s sense of self worth and empowerment just by paying a bit of attention to him and making him feel special. The charismatic Scion can even replenish a measure of the same for one of his fellow Scions. A demigod Scion\u2019s attention makes a person feel even more important, though, especially when the Scion goes out of his way to treat the person like a true friend. When the demigod does so (and spends a point of Legend), he completely re\ufb01 lls a fellow Scion\u2019s spent Willpower points (if that amount is higher than the charismatic Scion\u2019s Epic Charisma). Should he treat a mortal with such affection, the mortal not only regains all his spent Willpower, as per Blessing of Importance, he gains an extra dot of Willpower for the scene. When that extra dot goes away at the end of the scene, the mortal\u2019s spent Willpower completely replenishes again. The Scion can affect a person only once per scene with this Knack.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Return To Sender",
+            "description": [
+                "Prerequisite Knack: Overt Order (Scion: Hero, pp. 131-132) Sometimes, when you send a minion off to do your bidding, you want that minion to come back for more work. At the very least, you want to know if the minion was killed in the attempt. With Return to Sender, the Scion prompts someone to return immediately to her after performing a task delegated with Epic Manipulation. The player spends an additional point of Legend to activate this power when using any other Epic Manipulation Knack to force a subject to take an action. Immediately after performing the order, the commanded subject will attempt to return to the Scion by the most convenient means possible, although not at the expense of his own safety. If the initial command fails, then Return to Sender has no effect, but the Legend point is still expended.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Blurt It Out",
+            "description": [
+                "This Knack represents a gift for making people speak their minds. Scions who have it normally corner a person who has information they want, strike up a conversation, direct that conversation toward the information in question, then pry it loose when it\u2019s top of mind. Others confront victims who are surrounded by family, friends or coworkers, in order to make those victims admit damning information when it will do the most harm. The Scion\u2019s player must spend a point of Legend to activate the Knack, and the information must have legitimately come up in conversation. The Scion cannot simply shout \u201cJ\u2019accuse!\u201d then use Blurt It Out to force a random confession from a guilty person. (The declamatory French comes only after the Scion uses Blurt It Out effectively.) Regardless, a victim still has a slim chance to catch himself before bringing disaster crashing down. The victim\u2019s player rolls (Willpower + Integrity + Legend) against a dif\ufb01culty equal to (the Scion\u2019s Epic Manipulation + 1). If this roll succeeds, the player may then spend a point of Willpower to avert the slip of the tongue.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Deprogramming",
+            "description": [
+                "Prerequisite Knack: Takes One to Know One (Scion: Hero, p. 132); possibly others (see text) Usually, mortals and even other Scions who\u2019ve been influenced by Epic Charisma or Epic Manipulation go about their business blissfully unaware that they\u2019ve been duped. With a few well-chosen words to reinforce the subject\u2019s awareness of the situation, though, a Scion with this Knack can help people snap out of the unnatural influence of others. The player spends Legend equal to the cost of the power being countered plus one (plus an additional three Legend for every point of Willpower spent on the power being countered), then rolls (Manipulation + Presence + Legend). If the player rolls more successes than the original command, the subject immediately snaps out of it and realizes that he didn\u2019t want to do whatever it is that he was compelled to do. If the original power didn\u2019t require a roll to succeed (like Overt Order), then the Scion\u2019s player must simply score a number of successes equal to the original commander\u2019s (Manipulation + Command + Legend). In order to countermand a specific Epic Charisma or Epic Manipulation Knack, the Scion using Deprogramming must also know the Knack being used. That is, using Deprogramming to stop Overt Order requires that the Scion performing the countermand must also know Overt Order. Using this Knack in combat can be tricky: Typically, the Scion will want to wait (perhaps taking a Guard action) and then interrupt when needed.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Faunaphagia",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + 1 Legend \nSome shamans believe that consuming a creature grants a measure of its strength. Scions who engage in this practice learn to absorb the capabilities of an animal by devouring such a creature and drawing forth its essence from the digested flesh. The Scion must eat a piece of meat from the appropriate animal (a potentially risky act, considering that the animal is probably considered sacred to his patron God). Then, the player expends the Willpower and Legend and rolls (Stamina + Animal Ken). The successes scored indicate the number of points of Abilities that the Scion may borrow from the animal. A Scion can only borrow Abilities up to the level possessed by the animal, although these dots can add on to his existing skill dots to a maximum total of five. Skills gained with Faunaphagia remain for the rest of the scene."
+        ],
+        [
+            "Blessing of Health/Curse of Frailty",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend \nThe Boon can take away a patient\u2019s reproductive capabilities or restore them, provided the patient already has all the necessary organs. This effect lasts for one year per success on the activation roll."
+        ],
+        [
+            "Animal Communication",
+            "Dice Pool: Intelligence + Animal Ken \nCost: None \nThe Scion can understand and make himself understood by an animal as he speaks his native language and the animal responds with its own postures, scents and/or vocalizations. This Boon doesn\u2019t make animals smart, calm or loyal, but most are curious enough about having a person address them that they\u2019ll hear a Scion out before defaulting to aggression, panic or indifference."
+        ],
+        [
+            "Create Animal",
+            "Dice Pool: None \nCost: (1 Willpower + 1 lethal health level) per act of creation; 1 Legend per set of units \nBy spending one Willpower point and inflicting one lethal health level of damage on himself, the Scion can create mundane animals of his chosen type from his very blood. Such animals are as loyal to him as those granted by the Creatures Birthright, and he can automatically command them mentally. They follow any command the Scion gives them to the best of their ability, and they last for one scene before dissolving into nothingness once again. To grant the creatures solidity, the Scion must pay a number of Legend points relative to the creature\u2019s size. Doing so allows him to create a number of units of the creature per Legend point spent, as follows:"
+        ],
+        [
+            "Bolster",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend \nThe Scion speaks a few heartening words and waves his Relic or activates the pressure points and meridians on a series of targets. The Scion spends one Legend point and her player rolls (Stamina + Medicine). For each success scored, one target gains one temporary health level. This bonus health level lasts for the remainder of the scene. When the health level disappears, any wounds that filled it also subside; it does not overflow into normal damage."
+        ],
+        [
+            "Animal Form",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + 1 Legend \nIn one action (Speed 5, DV -1), the character transforms into a specimen of his chosen animal. The character\u2019s Physical Attributes are normal for a mundane specimen of the animal he\u2019s become, but his Mental Attributes remain his own. He also retains access to his Epic Mental Attributes and Knacks, though his other Epic Attributes are off limits until he regains his human form. He can communicate with other animals of his type. Other Scions who use Animal Communication can understand him perfectly clearly. He is immune to other Scions\u2019 uses of Animal Command or Ride Animal."
+        ],
+        [
+            "Heal/Infect",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend or 1 Willpower \nThe Scion can repair a patient\u2019s injuries or inflict harm directly. On one hand, he can heal as many health levels of bashing damage as his player gets successes on a (Stamina + Medicine) roll. Doing so costs one Legend. Alternatively, he can downgrade a number of health levels equal to successes on the roll from lethal to bashing damage. Doing so costs one Willpower."
+        ],
+        [
+            "Animal Aspect",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Legend per action \nBy meditating for one action (Speed 3) on a token representing his animal, the Scion takes on a metaphorical characteristic associated with it, creating a dice bonus for rolls involving the Attribute most closely associated with that characteristic. A Scion might take on a snake\u2019s sinuous grace (Dexterity), a peacock\u2019s beauty (Appearance), an elephant\u2019s proverbial memory (via Intelligence) or any other justifiable characteristic. The bonus dice are equal to the number of successes on the activation roll, and the benefit lasts for one action per Legend point spent up front to fuel the Boon."
+        ],
+        [
+            "Control Aging",
+            "Dice Pool: Stamina + Medicine \nCost: Varies \nWith a touch, the Scion can greatly slow down or accelerate a mortal\u2019s aging. So doing, he can either devastate an enemy with the ravages of time or bless a friend with nigh-eternal life. The more Legend points spent to fuel this effect, the quicker or slower the affected target ages. For one Legend point, the person ages one week in one day. For three Legend points, the person ages one month in one day. For five Legend points, the person ages one year in one day. For seven Legend points, the person ages one decade in one day. The number of successes the player gets on the roll determines the number of days the Scion is able to make the victim age at the accelerated rate."
+        ],
+        [
+            "Animal Feature",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + (1 Legend per feature) \nThe Scion can change a portion of his anatomy to a shape matching the analogous portion of his chosen animal\u2019s anatomy for one scene. If his chosen animal is an armadillo, he can cover himself in a flexible armor. If his animal is a monkey, he can grow a long prehensile tail that is as dexterous as a hand with no thumb. If his animal is a spider or gecko, he can change the surfaces of his hands and feet to enable himself to climb on walls. If his animal is a bird or bat or airborne insect, he can transform his arms into wings that allow him to fly at a rate equal to his Move rate. The exact effect of the change is up to the player, dependent upon Storyteller approval. As a general guideline, though, if the change boosts some trait or grants bonus dice on a special attack, the total bonus value granted cannot be greater than the character\u2019s Legend."
+        ],
+        [
+            "Animal Form",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + 1 Legend \nIn one action (Speed 5, DV -1), the character transforms into a specimen of his chosen animal. The character\u2019s Physical Attributes are normal for a mundane specimen of the animal he\u2019s become, but his Mental Attributes remain his own. He also retains access to his Epic Mental Attributes and Knacks, though his other Epic Attributes are off limits until he regains his human form. He can communicate with other animals of his type. Other Scions who use Animal Communication can understand him perfectly clearly. He is immune to other Scions\u2019 uses of Animal Command or Ride Animal."
+        ],
+        [
+            "Restore/Wither",
+            "Dice Pool: None or (Intelligence + Medicine) \nCost: 1 Legend \nThe Scion can either heal the most terrible damage a patient suffers or inflict awful damage that\u2019s almost impossible to resist. The Scion need only touch his patient or victim and will that person\u2019s body to react. If the Scion chooses to heal and his patient is mortal, he can instantly heal all of a patient\u2019s bashing damage, heal three points of her lethal damage or heal one point of her aggravated damage. (This Boon can\u2019t bring a patient back from the dead, though.) Alternatively, the Scion can restore one lost or damaged body part or internal organ to its full functionality without a scar. From restoring an amputated leg to replacing a punctured eye to re-inflating a collapsed lung, the Scion can effect miraculous cures instantaneously."
+        ],
+        [
+            "Restore/Wither",
+            "Dice Pool: None or (Intelligence + Medicine) \nCost: 1 Legend \nThe Scion can either heal the most terrible damage a patient suffers or inflict awful damage that\u2019s almost impossible to resist. The Scion need only touch his patient or victim and will that person\u2019s body to react. If the Scion chooses to heal and his patient is mortal, he can instantly heal all of a patient\u2019s bashing damage, heal three points of her lethal damage or heal one point of her aggravated damage. (This Boon can\u2019t bring a patient back from the dead, though.) Alternatively, the Scion can restore one lost or damaged body part or internal organ to its full functionality without a scar. From restoring an amputated leg to replacing a punctured eye to re-inflating a collapsed lung, the Scion can effect miraculous cures instantaneously."
+        ],
+        [
+            "Animal Communication",
+            "Dice Pool: Intelligence + Animal Ken \nCost: None \nThe Scion can understand and make himself understood by an animal as he speaks his native language and the animal responds with its own postures, scents and/or vocalizations. This Boon doesn\u2019t make animals smart, calm or loyal, but most are curious enough about having a person address them that they\u2019ll hear a Scion out before defaulting to aggression, panic or indifference."
+        ],
+        [
+            "Cradlesong",
+            "Dice Pool: Manipulation + Medicine \nCost: 1 Legend (or 1 Legend + 1 Willpower) \nBy singing or playing some sweet lullaby, the Scion makes a number of people equal to the successes on the activation roll drift quietly off to sleep. Characters of higher Legend than the singer are not affected. Those of equal Legend get to oppose the activation roll with a (Willpower + Integrity + Legend) roll. This soporific effect knocks out any living creature that can hear the Scion\u2019s voice, for a number of hours equal to the Scion\u2019s Legend. Victims with no Legend rating remain asleep the whole time, never waking up regardless of what\u2019s going on around them. Characters with a Legend rating can be woken up by those who went unaffected, if the player of the character trying to rouse the sleeper makes more successes on an extended (Manipulation + Medicine) action to bring the sleeper around. (Such an action constitutes shaking the sleeping person, slapping his cheeks, pinching him, hollering at him or whatever else might wake him from a dead sleep.) Suffering a level of lethal or aggravated damage will also wake a sleeper with a Legend rating."
+        ],
+        [
+            "Bolster",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend \nThe Scion speaks a few heartening words and waves his Relic or activates the pressure points and meridians on a series of targets. The Scion spends one Legend point and her player rolls (Stamina + Medicine). For each success scored, one target gains one temporary health level. This bonus health level lasts for the remainder of the scene. When the health level disappears, any wounds that filled it also subside; it does not overflow into normal damage."
+        ],
+        [
+            "Blessing of Health/Curse of Frailty",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend \nThe Boon can take away a patient\u2019s reproductive capabilities or restore them, provided the patient already has all the necessary organs. This effect lasts for one year per success on the activation roll."
+        ],
+        [
+            "Animal Communication",
+            "Dice Pool: Intelligence + Animal Ken \nCost: None \nThe Scion can understand and make himself understood by an animal as he speaks his native language and the animal responds with its own postures, scents and/or vocalizations. This Boon doesn\u2019t make animals smart, calm or loyal, but most are curious enough about having a person address them that they\u2019ll hear a Scion out before defaulting to aggression, panic or indifference."
+        ],
+        [
+            "Animal Command",
+            "Dice Pool: Charisma + Animal Ken \nCost: 1 Willpower \nThe Scion spends one Willpower and names one task that the animal must perform. The task cannot seem suicidal or impossible to the animal, but the animal cannot balk at an order that doesn\u2019t immediately seem so. \u201cHey rabbit, go rip that lion\u2019s throat open,\u201d would seem impossible to the rabbit so commanded. \u201cRun to that grass across this street,\u201d would be a fine order for that same rabbit, though, even if cars were zipping by. The order can describe a single immediate action (\u201cBite that guy!\u201d) or one with a single condition (\u201cCome find me when a blue car stops here.\u201d). If he lacks the previous Boon, the Scion can deliver his command only through simplistic nonverbal signals."
+        ],
+        [
+            "Animal Form",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + 1 Legend \nIn one action (Speed 5, DV -1), the character transforms into a specimen of his chosen animal. The character\u2019s Physical Attributes are normal for a mundane specimen of the animal he\u2019s become, but his Mental Attributes remain his own. He also retains access to his Epic Mental Attributes and Knacks, though his other Epic Attributes are off limits until he regains his human form. He can communicate with other animals of his type. Other Scions who use Animal Communication can understand him perfectly clearly. He is immune to other Scions\u2019 uses of Animal Command or Ride Animal."
+        ],
+        [
+            "Control Aging",
+            "Dice Pool: Stamina + Medicine \nCost: Varies \nWith a touch, the Scion can greatly slow down or accelerate a mortal\u2019s aging. So doing, he can either devastate an enemy with the ravages of time or bless a friend with nigh-eternal life. The more Legend points spent to fuel this effect, the quicker or slower the affected target ages. For one Legend point, the person ages one week in one day. For three Legend points, the person ages one month in one day. For five Legend points, the person ages one year in one day. For seven Legend points, the person ages one decade in one day. The number of successes the player gets on the roll determines the number of days the Scion is able to make the victim age at the accelerated rate."
+        ],
+        [
+            "Ride Animal",
+            "Dice Pool: Intelligence + Animal Ken \nCost: 1 Legend \nThe Scion stares into the eyes of a specimen of his chosen animal, the one to which his Boon pertains, and overwhelms its mind with his own. For the rest of the scene, the Scion controls the animal\u2019s body just as a character with Horse (Cheval \u2022\u2022\u2022) can control a human\u2019s body. This Boon functions exactly as that one does, with the same limitations and effects on the Scion\u2019s body. The only difference is that Horse applies to possession of a human\u2019s body, while Ride Animal applies to specimens of the Scion\u2019s chosen animal or to his Birthright creature."
+        ]
+    ],
+    "nature": "Cynic",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 28,
+        "move": 22,
+        "climb": 18,
+        "jump": {
+            "horizontal": 38,
+            "vertical": 19
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 27,
+        "parry_dv": 19
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 3,
+        "animal_ken": 0,
+        "art": 2,
+        "athletics": 1,
+        "awareness": 1,
+        "brawl": 1,
+        "command": 2,
+        "control": 0,
+        "craft": 3,
+        "empathy": 0,
+        "fortitude": 1,
+        "integrity": 3,
+        "investigation": 1,
+        "larceny": 1,
+        "marksmanship": 2,
+        "medicine": 0,
+        "melee": 2,
+        "occult": 2,
+        "presence": 3,
+        "politics": 2,
+        "science": 1,
+        "stealth": 2,
+        "survival": 1,
+        "thrown": 1
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 16,
+        "lethal": 15.0,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 9,
+    "god": "Hera",
+    "pantheon": "Dodekatheon",
+    "name": "Jose Arellano"
+}
