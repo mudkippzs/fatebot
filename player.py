@@ -32,6 +32,9 @@ import random
 
 import namegenerator
 
+with open("config.json", "r") as f:
+    config = json.load(f)
+
 class Player:
 	name = None
 	npc = False
@@ -421,7 +424,7 @@ def generate_random_npc(name, challenge_level, npc_template_copy, pantheon=None,
 	for lp in range(1, npc_template_copy["legend"]):
 		npc_template_copy = apply_experience(npc_template_copy, god_data, lp)	
 
-	npc = Player(name, 218521566412013568, True, npc_template_copy["legend"], npc_template_copy)
+	npc = Player(name, config["gamemaster"]["ganj"], True, npc_template_copy["legend"], npc_template_copy)
 	
 	return npc, npc_template_copy
 
@@ -436,12 +439,12 @@ def legend_bumper():
 if __name__ == "__main__":
 	# Players
 
-	bob_joe = Player("Bob",382348220405383171, False, 3, pc_bob.PLAYER_CHARACTER_SHEET)
-	vasily_tom = Player("Vasily Volkov",514859386116767765, False, 3, pc_vasily.PLAYER_CHARACTER_SHEET)
-	jean_potato = Player("Jeanne Chadwick",374853432168808448, False, 3, pc_jean.PLAYER_CHARACTER_SHEET)
-	set_liddy = Player("Set", 433097995832000513, False, 3, pc_set.PLAYER_CHARACTER_SHEET)
-	set_ferdiad = Player("Ferdiad (Set's Summon)", 433097995832000513, False, 3, pc_set_ferdiad.PLAYER_CHARACTER_SHEET)
-	set_standard_summon = Player("Fianna Warrior (Set's Summon)", 433097995832000513, False, 3, pc_set_standard_summon.PLAYER_CHARACTER_SHEET)
+	bob_joe = Player("Bob",config["players"]["bob"], False, 3, pc_bob.PLAYER_CHARACTER_SHEET)
+	vasily_tom = Player("Vasily Volkov",config["players"]["vasily"], False, 3, pc_vasily.PLAYER_CHARACTER_SHEET)
+	jean_potato = Player("Jeanne Chadwick",config["players"]["jean"], False, 3, pc_jean.PLAYER_CHARACTER_SHEET)
+	set_liddy = Player("Set", config["players"]["set"], False, 3, pc_set.PLAYER_CHARACTER_SHEET)
+	set_ferdiad = Player("Ferdiad (Set's Summon)", config["players"]["set"], False, 3, pc_set_ferdiad.PLAYER_CHARACTER_SHEET)
+	set_standard_summon = Player("Fianna Warrior (Set's Summon)", config["players"]["set"], False, 3, pc_set_standard_summon.PLAYER_CHARACTER_SHEET)
 	
 	# NPCs
 	country_dict = {

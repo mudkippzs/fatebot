@@ -1,9 +1,3 @@
-"""
-1. Using discordpy create a bootstrapped bot.
-2. When the command "order66" is given by user ID 218521566412013568: get a list of users who reacted to message id 918514312186839050 in channel id 820097765442191360.
-3. Kick all members who only have the role id 305756022562095104 who didn't react to the message with id 918514312186839050.
-"""
-
 import discord
 from discord.ext import commands
 from discord.utils import get
@@ -478,10 +472,10 @@ async def returnDiceLogs(ctx, logs_list:list=[], dicelogger:list=[], limit:int =
 async def shieldsmoke(ctx):
     cigarette_brands = config["brands"].split(",")
     
-    if ctx.message.author.id not in [218521566412013568, 514859386116767765]:
+    if ctx.message.author.id not in [config["gamemaster"]["ganj"], config["players"]["vasily"]]:
         await ctx.send("You are not Vasily, only Vasily can smoke Vasily's smokes...")
     else:
-        if ctx.message.author.id == 514859386116767765:
+        if ctx.message.author.id == config["players"]["vasily"]:
             vasily = "Vasily opens his"
         else:
             vasily = f"{ctx.message.author.display_name} opens Vasily's"

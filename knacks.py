@@ -1,8 +1,3 @@
-"""
-1. Create a web crawler to extract the content at http://scion-mmp.wikidot.com/dex-knacks
-2. Store the content in a JSON object and print it out.
-"""
-
 import requests
 import bs4
 import json
@@ -10,9 +5,14 @@ from pprint import pprint as pp
 import re
 import random
 
+import argparse
+
 from tableparser import parse_table
 
 KNACKS_WITH_TABLES = ["Rumor Mill", "Trendsetter", "Scent The Divine", "Concept To Execution"]
+
+with open("config.json", "r") as f:
+    config = json.load(f)
 
 def get_all_knacks_by_attr(attr, character_data, god_data):
     with open("knacks.json") as f:
@@ -138,7 +138,7 @@ def get_knacks(url):
 
     return knacks
 
-def main():
+def main(crawl, test):
     knack_urls = {
         "str" : "http://scion-mmp.wikidot.com/str-knacks",
         "dex" : "http://scion-mmp.wikidot.com/dex-knacks",
@@ -153,13 +153,24 @@ def main():
 
     knacks = {}
 
-    for knack_attr, url in enumerate(knack_urls):
-        knacks[url] = get_knacks(knack_urls[url])
-    
-    with open("knacks.json", "w") as f:
-        json.dump(knacks, f, indent=4)
+    if crawl:
+        for knack_attr, url in enumerate(knack_urls):
+            knacks[url] = get_knacks(knack_urls[url])
+        
+        with open("knacks.json", "w") as f:
+            json.dump(knacks, f, indent=4)
 
+    if test:
+        print("Knack Debugger")
+        print("==============")
     
 if __name__ == "__main__":
-    #main()
-    pass
+    
+    parser = argparse.ArgumentParser(description="Knack scanner for Scion 1e.")
+    parser.add_argument('--crawl','-c', action='store_true')
+    parser.add_argument('--test','-t', action='store_true')
+
+    args = parser.parse_args()
+
+    main(args.crawl, args.test)
+    

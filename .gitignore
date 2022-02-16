@@ -154,3 +154,4 @@ cython_debug/
 # /** Discord config **/
 config.json
 npcs/generated/**/*.json
+*.json
