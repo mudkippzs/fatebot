@@ -492,9 +492,9 @@ if __name__ == "__main__":
 		wit = npc.attributes["wits"]
 
 		print(f"{npc.legend} | \n\tSTR {stre} |DEX {dex} |STA {sta}\n\tCHA {cha} |MAN {man} |APP {app}\n\tPER {per} |INT {inte} |WIT {wit}")
-		#count += 1
-		#print(f"{npc.name}, a Scion of {npc.god}")
-		#pp(npc.name)
+		# count += 1
+		# print(f"{npc.name}, a Scion of {npc.god}")
+		# pp(npc.name)
 		# pp(npc.discord_tag)
 		# pp(npc.pantheon)
 		# pp(npc.god)
@@ -503,7 +503,7 @@ if __name__ == "__main__":
 		# pp(npc.attributes)
 		# pp(npc.epic_attributes)
 		# pp(npc.abilities)
-		#pp(npc.knacks)
+		# pp(npc.knacks)
 		# pp(npc.boons)
 		# pp(npc.relics)
 		# pp(npc.combat)
