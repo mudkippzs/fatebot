@@ -181,7 +181,7 @@ def randomly_distribute_attributes(character_data, legend):
 	#print(f" Total points to distriubte: {total_points}")
 
 	attribute_dict = {
-		"0": [0,0,0],
+		"0": [2,2,1],
 		"1": [0,0,0],
 		"2": [8,6,4],
 		"3": [0,0,0],
