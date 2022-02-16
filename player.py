@@ -24,6 +24,7 @@ import matplotlib.pyplot as plt
 from epiccalc import calculate_epic
 from main import rolldice
 
+import argparse
 import datetime
 import json
 import math
@@ -424,7 +425,7 @@ def generate_random_npc(name, challenge_level, npc_template_copy, pantheon=None,
 	for lp in range(1, npc_template_copy["legend"]):
 		npc_template_copy = apply_experience(npc_template_copy, god_data, lp)	
 
-	npc = Player(name, config["gamemaster"]["ganj"], True, npc_template_copy["legend"], npc_template_copy)
+	npc = Player(name, config["gamemaster"][0]["ganj"], True, npc_template_copy["legend"], npc_template_copy)
 	
 	return npc, npc_template_copy
 
@@ -437,94 +438,102 @@ def legend_bumper():
         	i = 0
 
 if __name__ == "__main__":
+	
+	parser = argparse.ArgumentParser(description="NPC Generator for Scion 1e.")
+	parser.add_argument('--generate_npc','-n', type=int)
+	parser.add_argument('--test','-t', action='store_true')
+	args = parser.parse_args()
+
 	# Players
 
-	bob_joe = Player("Bob",config["players"]["bob"], False, 3, pc_bob.PLAYER_CHARACTER_SHEET)
-	vasily_tom = Player("Vasily Volkov",config["players"]["vasily"], False, 3, pc_vasily.PLAYER_CHARACTER_SHEET)
-	jean_potato = Player("Jeanne Chadwick",config["players"]["jean"], False, 3, pc_jean.PLAYER_CHARACTER_SHEET)
-	set_liddy = Player("Set", config["players"]["set"], False, 3, pc_set.PLAYER_CHARACTER_SHEET)
-	set_ferdiad = Player("Ferdiad (Set's Summon)", config["players"]["set"], False, 3, pc_set_ferdiad.PLAYER_CHARACTER_SHEET)
-	set_standard_summon = Player("Fianna Warrior (Set's Summon)", config["players"]["set"], False, 3, pc_set_standard_summon.PLAYER_CHARACTER_SHEET)
-	
-	# NPCs
-	country_dict = {
-		"Pesedjet": ["EG", "EG", "US"],
-		"Dodekatheon": ["GR", "IT", "GR", "US"],
-		"Aesir": ["DE", "FI", "NO", "US", "IE"],
-		"Atzlanti": ["MX", "ES", "US"],
-		"Amatsukami": ["JP", "US"],
-		"Loa": ["FR", "FR", "FR", "US"],
-		"Tuatha": ["IE", "IE", "IE", "US"],
-		"Celestial Bureaucracy": ["TW", "TW", "CN"],
-		"Devas": ["IN",],
-		"Yazata": ["IR", "IQ", "AZ", "YE"],
-		"Atlantean": ["GR", "IT"],
-		"None": ["US", "IE", "ES", "DE", "JP", "FR", "IT", "US"]
-	}
+	bob_joe = Player("Bob",config["players"][0]["bob"], False, 3, pc_bob.PLAYER_CHARACTER_SHEET)
+	vasily_tom = Player("Vasily Volkov",config["players"][0]["vasily"], False, 3, pc_vasily.PLAYER_CHARACTER_SHEET)
+	jean_potato = Player("Jeanne Chadwick",config["players"][0]["jean"], False, 3, pc_jean.PLAYER_CHARACTER_SHEET)
+	set_liddy = Player("Set", config["players"][0]["set"], False, 3, pc_set.PLAYER_CHARACTER_SHEET)
+	set_ferdiad = Player("Ferdiad (Set's Summon)", config["players"][0]["set"], False, 3, pc_set_ferdiad.PLAYER_CHARACTER_SHEET)
+	set_standard_summon = Player("Fianna Warrior (Set's Summon)", config["players"][0]["set"], False, 3, pc_set_standard_summon.PLAYER_CHARACTER_SHEET)
+	npc_gen_flag = args.generate_npc if args.generate_npc else 0
 
-	l = legend_bumper()
+	if npc_gen_flag > 0:
+		# NPCs
+		country_dict = {
+			"Pesedjet": ["EG", "EG", "US"],
+			"Dodekatheon": ["GR", "IT", "GR", "US"],
+			"Aesir": ["DE", "FI", "NO", "US", "IE"],
+			"Atzlanti": ["MX", "ES", "US"],
+			"Amatsukami": ["JP", "US"],
+			"Loa": ["FR", "FR", "FR", "US"],
+			"Tuatha": ["IE", "IE", "IE", "US"],
+			"Celestial Bureaucracy": ["TW", "TW", "CN"],
+			"Devas": ["IN",],
+			"Yazata": ["IR", "IQ", "AZ", "YE"],
+			"Atlantean": ["GR", "IT"],
+			"None": ["US", "IE", "ES", "DE", "JP", "FR", "IT", "US"]
+		}
 
-	#print("Name| God | Pantheon | Legend|Attrs[>\t\t\tSTR | DEX | STA || CHA | MAN | APP || PER | INT | WIT ]")
-	for _ in range(0, 500):
-		template = deepcopy(npc_template.PLAYER_CHARACTER_SHEET)
-		npc, npc_dict = generate_random_npc(name=None, challenge_level=next(l), npc_template_copy=template)
-		
-		if npc.name is None:
-			if npc.pantheon:
-				random_country = random.choice(country_dict[npc.pantheon])
+		l = legend_bumper()
+
+		#print("Name| God | Pantheon | Legend|Attrs[>\t\t\tSTR | DEX | STA || CHA | MAN | APP || PER | INT | WIT ]")
+		for _ in range(0, npc_gen_flag):
+			template = deepcopy(npc_template.PLAYER_CHARACTER_SHEET)
+			npc, npc_dict = generate_random_npc(name=None, challenge_level=next(l), npc_template_copy=template)
+			
+			if npc.name is None:
+				if npc.pantheon:
+					random_country = random.choice(country_dict[npc.pantheon])
+				else:
+					random_country = random.choice(country_dict["None"])
+
+				random_gender = random.choice(["Male", "Male", "Female"])
+
+				first_name_list = namegenerator.get_random_first_names_by_country(random_country, random_gender)
+				last_name_list = namegenerator.get_random_last_names_by_country(random_country)
+				f_name = random.choice(first_name_list[random_country][random_gender[0]])
+				l_name = random.choice(last_name_list[random_country])
+				npc.name = f"{f_name} {l_name}"
+				npc_dict["name"] = npc.name
+
+			stre = npc.attributes["stre"]
+			dex = npc.attributes["dex"]
+			sta = npc.attributes["sta"]
+			cha = npc.attributes["cha"]
+			man = npc.attributes["man"]
+			app = npc.attributes["app"]
+			per = npc.attributes["per"]
+			inte = npc.attributes["inte"]
+			wit = npc.attributes["wits"]
+
+			print(f"{npc.legend} | \n\tSTR {stre} |DEX {dex} |STA {sta}\n\tCHA {cha} |MAN {man} |APP {app}\n\tPER {per} |INT {inte} |WIT {wit}")
+			# count += 1
+			# print(f"{npc.name}, a Scion of {npc.god}")
+			# pp(npc.name)
+			# pp(npc.discord_tag)
+			# pp(npc.pantheon)
+			# pp(npc.god)
+			# pp(npc.legend)
+			# pp(npc.nature)
+			# pp(npc.attributes)
+			# pp(npc.epic_attributes)
+			# pp(npc.abilities)
+			# pp(npc.knacks)
+			# pp(npc.boons)
+			# pp(npc.relics)
+			# pp(npc.combat)
+			# pp(npc.movement)
+			now = datetime.datetime.now()
+			timestamp = now.strftime('%Y-%m-%dT%H:%M:%S') + ('-%d' % (now.microsecond))
+			
+			npc_path = pathlib.Path(f"/home/dev/Code/fatebot/npcs/generated/{npc.legend}/")
+			npc_path.mkdir(parents=True, exist_ok=True)
+			
+			if npc.god:			
+				npc_path = pathlib.Path(f"/home/dev/Code/fatebot/npcs/generated/{npc.legend}/{npc.name}_{npc.pantheon}_{npc.god}_{timestamp}.json")
 			else:
-				random_country = random.choice(country_dict["None"])
-
-			random_gender = random.choice(["Male", "Male", "Female"])
-
-			first_name_list = namegenerator.get_random_first_names_by_country(random_country, random_gender)
-			last_name_list = namegenerator.get_random_last_names_by_country(random_country)
-			f_name = random.choice(first_name_list[random_country][random_gender[0]])
-			l_name = random.choice(last_name_list[random_country])
-			npc.name = f"{f_name} {l_name}"
-			npc_dict["name"] = npc.name
-
-		stre = npc.attributes["stre"]
-		dex = npc.attributes["dex"]
-		sta = npc.attributes["sta"]
-		cha = npc.attributes["cha"]
-		man = npc.attributes["man"]
-		app = npc.attributes["app"]
-		per = npc.attributes["per"]
-		inte = npc.attributes["inte"]
-		wit = npc.attributes["wits"]
-
-		print(f"{npc.legend} | \n\tSTR {stre} |DEX {dex} |STA {sta}\n\tCHA {cha} |MAN {man} |APP {app}\n\tPER {per} |INT {inte} |WIT {wit}")
-		# count += 1
-		# print(f"{npc.name}, a Scion of {npc.god}")
-		# pp(npc.name)
-		# pp(npc.discord_tag)
-		# pp(npc.pantheon)
-		# pp(npc.god)
-		# pp(npc.legend)
-		# pp(npc.nature)
-		# pp(npc.attributes)
-		# pp(npc.epic_attributes)
-		# pp(npc.abilities)
-		# pp(npc.knacks)
-		# pp(npc.boons)
-		# pp(npc.relics)
-		# pp(npc.combat)
-		# pp(npc.movement)
-		now = datetime.datetime.now()
-		timestamp = now.strftime('%Y-%m-%dT%H:%M:%S') + ('-%d' % (now.microsecond))
-		
-		npc_path = pathlib.Path(f"/home/dev/Code/fatebot/npcs/generated/{npc.legend}/")
-		npc_path.mkdir(parents=True, exist_ok=True)
-		
-		if npc.god:			
-			npc_path = pathlib.Path(f"/home/dev/Code/fatebot/npcs/generated/{npc.legend}/{npc.name}_{npc.pantheon}_{npc.god}_{timestamp}.json")
-		else:
-			npc_path = pathlib.Path(f"/home/dev/Code/fatebot/npcs/generated/{npc.legend}/{npc.name}_NPC_{timestamp}.json")
+				npc_path = pathlib.Path(f"/home/dev/Code/fatebot/npcs/generated/{npc.legend}/{npc.name}_NPC_{timestamp}.json")
 
 
-		with open(npc_path, "w") as f:
-			json.dump(npc_dict, f, indent=4)
+			with open(npc_path, "w") as f:
+				json.dump(npc_dict, f, indent=4)
 
 	band = [
 		bob_joe,
