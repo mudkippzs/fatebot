@@ -377,7 +377,8 @@ def apply_experience(character_data, god_data, legend):
 def generate_random_npc(name, challenge_level, npc_template_copy, pantheon=None, god=None):
 	
 
-	random_challenge_level = random.randint(challenge_level -1, challenge_level +1)
+	#random_challenge_level = random.randint(challenge_level -1, challenge_level +1)
+	random_challenge_level = challenge_level
 	if random_challenge_level < 0:
 		random_challenge_level = 0
 
@@ -523,13 +524,15 @@ if __name__ == "__main__":
 			now = datetime.datetime.now()
 			timestamp = now.strftime('%Y-%m-%dT%H:%M:%S') + ('-%d' % (now.microsecond))
 			
-			npc_path = pathlib.Path(f"/home/dev/Code/fatebot/npcs/generated/{npc.legend}/")
+			if len(str(npc.legend)) == 1:
+				npc_legend_label = f"0{npc.legend}"
+			npc_path = pathlib.Path(f"/home/dev/Code/fatebot/npcs/generated/{npc_legend_label}/")
 			npc_path.mkdir(parents=True, exist_ok=True)
 			
-			if npc.god:			
-				npc_path = pathlib.Path(f"/home/dev/Code/fatebot/npcs/generated/{npc.legend}/{npc.name}_{npc.pantheon}_{npc.god}_{timestamp}.json")
+			if npc.legend:			
+				npc_path = pathlib.Path(f"/home/dev/Code/fatebot/npcs/generated/{npc_legend_label}/{npc.name}_{npc.pantheon}_{npc.god}_{timestamp}.json")
 			else:
-				npc_path = pathlib.Path(f"/home/dev/Code/fatebot/npcs/generated/{npc.legend}/{npc.name}_NPC_{timestamp}.json")
+				npc_path = pathlib.Path(f"/home/dev/Code/fatebot/npcs/generated/{npc_legend_label}/{npc.name}_NPC_{timestamp}.json")
 
 
 			with open(npc_path, "w") as f:
