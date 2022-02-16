@@ -1,0 +1,326 @@
+{
+    "attributes": {
+        "stre": 3,
+        "dex": 5,
+        "sta": 3,
+        "cha": 5,
+        "man": 5,
+        "app": 5,
+        "per": 5,
+        "inte": 7,
+        "wits": 7
+    },
+    "epic_attributes": {
+        "epic_stre": 1,
+        "epic_dex": 0,
+        "epic_sta": 1,
+        "epic_cha": 2,
+        "epic_man": 2,
+        "epic_app": 4,
+        "epic_per": 4,
+        "epic_int": 3,
+        "epic_wits": 4
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        2,
+        0,
+        0,
+        0
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Mass Hypnosis",
+            "description": [
+                "Prerequisite Knack: Instant Hypnosis (Scion: Demigod, p. 61) Mass Hypnosis works similarly to its prerequisite in that it implants a command for an affected victim to perform some action that takes no more than one scene to accomplish at a time of the user\u2019s choosing. This Knack expands the scope of the effect so that a character can hypnotize a whole group of people. The character\u2019s player rolls (Manipulation + Command + Legend) and spends a point of Legend and a point of Willpower. If the roll scores more successes than the average (Willpower + Legend) of the assembled audience, the character successfully implants the post-hypnotic suggestion in as many members of the audience as he has successes on the roll. Mortals cannot resist the effect or the compulsion to perform the implanted action. Characters with a Legend rating resist at the moment of hypnosis or at the moment the action is designated to take place, as with Instant Hypnosis. Hypnotizing a crowd of people does require that the character capture everyone\u2019s attention at the instant of hypnosis.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Scathing Retort",
+            "description": [
+                "Prerequisite Knack: Opening Salvo It\u2019s pretty nice to be able to lay into someone with a witty bon mot and shake his faith in himself, as the prerequisite Knack allows. Yet, it\u2019s undeniably sweeter to let some pompous douchebag take the first swing and then utterly annihilate him with a cunning verbal riposte. To hit an attacker with a devastating comeback costs a single point of Legend. Doing so strips the victim of all of his spent Willpower points and doesn\u2019t allow him to recoup those lost points for one full day. A character can use this Knack to defend herself from a use of Opening Salvo if she has the Legend point to spend and her comeback is timely enough. A victim, however, can defend himself from a use of this Knack if he also uses this Knack. (He can retort without using the Knack, of course, but he still suffers the effect.) If two characters use this Knack in a verbal exchange, they can activate it once apiece and then trade insults until one scores a decisive hit over the other. If that victim\u2019s comeback is weaker than the one before it, he loses the impromptu contest and the Willpower points. As with Opening Salvo, the player must actually come up with a retort reasonably quickly. She doesn\u2019t have to be Hamlet running circles around Rosencrantz and Guildenstern, she just has to give it the old college try. Be warned, though: If you (the player) know you get tongue-tied when the heat is on and your Storyteller or fellow players are ruthless bastards, this Knack might not be the one for you.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Psychic Profiler",
+            "description": [
+                "Within seconds, the character with this Knack can size up a character with a lesser Legend rating than his own. Just by looking at the person, he can tell her weight, height, age, sex (if it\u2019s unclear to casual inspection) and whether she has a divine heritage or not. With just a few lines of conversation, he can also tell the subject\u2019s Nature, calling and primary Virtue (if any). Finally, if the subject is Fatebound to someone and is acting out a Fatebound Role, he can figure out what that role is. He might not know to whom it applies, but he can probably figure it out from context if he watches the person long enough.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Don\u2019t Read The Manual",
+            "description": [
+                "The Scion sizes up a single item and then puts together an intuitive judgment of how to use it. No matter how complex the item, the Scion can grasp at least the rudiments of its functions. After spending a single point of Legend, the Scion can use the item for the rest of the scene as if the character had one dot in the appropriate Ability. The Scion could, for instance, glance at the controls of a stealth bomber, then intuitively figure out how to get it off the ground (or land it) as if she had one dot in the Control (Jet Aircraft) Ability. Similarly, a noncombatant could pick up a weapon and fight with it as if she had one dot of the Melee Ability. This Knack has no effect if the Scion already possesses the requisite skill."
+            ],
+            "tables": []
+        },
+        {
+            "title": "Rumor Mill",
+            "description": [
+                "The demigod Scion can play make a lyre of the media, lending credence and giving unexpected life to the wildest of rumors. He need only come up with a seed rumor and cast it adrift in conversation with someone (even a stranger) and watch it bloom in the fertile \ufb01elds of the public imagination. In order to make his rumor catch on, the Scion\u2019s player need only spend a point of Legend and make an instant (Manipulation + Politics) roll. The number of successes this roll accumulates determines the height of public attention to which the rumor will rise before it is either accepted as true (if it is true) or proven to be poppycock (if it\u2019s something the Scion made up).<br/><table class=\"wiki-content-table\">\n<tr>\n<td>Successes</td>\n<td>Exposure</td>\n</tr>\n<tr>\n<td>1</td>\n<td>Some nut-job\u2019s blog</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Local \u2019zine and newspaper coverage</td>\n</tr>\n<tr>\n<td>15</td>\n<td>Major metropolitan newspaper coverage</td>\n</tr>\n<tr>\n<td>20</td>\n<td>Local TV news coverage</td>\n</tr>\n<tr>\n<td>30</td>\n<td>Several popular websites and blogs</td>\n</tr>\n<tr>\n<td>35</td>\n<td>National newspaper and magazine coverage</td>\n</tr>\n<tr>\n<td>45</td>\n<td>National cable TV news coverage</td>\n</tr>\n<tr>\n<td>50</td>\n<td>Worldwide news media</td>\n</tr>\n</table>",
+                "For a rumor or a fact to make its way from the Scion\u2019s lips to its highest level of exposure takes one month minus a number of days equal to the Scion\u2019s (Manipulation + Epic Manipulation + Legend) total\u2014 with a minimum of one hour. Once it gets there, a false rumor maintains its level of exposure for a number of days equal to the Scion\u2019s Legend before being proven false. A true fact remains at that level of coverage for the same amount of time.",
+                ""
+            ],
+            "tables": [
+                {
+                    "header": [
+                        "Successes",
+                        "Exposure"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "Some nut-job\u2019s blog"
+                        ],
+                        [
+                            "5",
+                            "Local \u2019zine and newspaper coverage"
+                        ],
+                        [
+                            "15",
+                            "Major metropolitan newspaper coverage"
+                        ],
+                        [
+                            "20",
+                            "Local TV news coverage"
+                        ],
+                        [
+                            "30",
+                            "Several popular websites and blogs"
+                        ],
+                        [
+                            "35",
+                            "National newspaper and magazine coverage"
+                        ],
+                        [
+                            "45",
+                            "National cable TV news coverage"
+                        ],
+                        [
+                            "50",
+                            "Worldwide news media"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Jack of All Trades",
+            "description": [
+                "If a character has no aptitude for a particular Ability (i.e., no dots in it), he cannot apply any bonus successes from his Epic Attributes to rolls that use that Ability. He simply doesn\u2019t understand enough about what he\u2019s doing to apply his full talent. With this Knack, however, the character gets a feel for any activity remarkably quickly. As such, he can apply some of his appropriate Epic Attribute bonus to the appropriate roll, despite the fact that he has no dots in the relevant Ability. In such a circumstance, a player can enhance a roll with this Knack and add a number of bonus successes from his character\u2019s Epic Attribute equal to the number of dots he has in the Epic Attribute. Enhancing a roll with this Knack\u2019s benefit costs two Legend points.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Secondhand Persuasion",
+            "description": [
+                "With this Knack, a character spends a point of Legend and becomes able to use her Epic Manipulation through the typed or written word. She must specifically address her attempted persuasion through a Manipulation-based roll to a single person\u2014whether it\u2019s in an e-mail, a registered letter or just a piece of graffiti with the victim\u2019s name attached\u2014and the person resists with the standard (Willpower + Integrity + Legend) roll. The written communication gets only one chance to supernaturally influence its victim, and the victim gets only one chance to resist, regardless of how many times the victim might read the missive thereafter.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Body and Spirit",
+            "Dice Pool: Charisma + Empathy (Spd 3, DV \u20131) \nCost: 1 Legend, or 1 Legend + 1 Willpower if used on another \nModesty is never a Virtue to the Scion of the Tuatha. It is an insult to enech \u2014 pretending to be something less then you are is as bad as pretending to be something better. Thus, the Scion who uses this Boon chooses to declaim his best attributes and admit to his weakest. The Scion must choose which Virtues he is going to declaim about himself at the time of the Boon\u2019s activation. The difficulty of the roll is equal to the rating of the highest Virtue he is invoking, +1 per additional Virtue."
+        ],
+        [
+            "Animal Communication",
+            "Dice Pool: Intelligence + Animal Ken \nCost: None \nThe Scion can understand and make himself understood by an animal as he speaks his native language and the animal responds with its own postures, scents and/or vocalizations. This Boon doesn\u2019t make animals smart, calm or loyal, but most are curious enough about having a person address them that they\u2019ll hear a Scion out before defaulting to aggression, panic or indifference."
+        ],
+        [
+            "The Subtle Knife",
+            "Dice Pool: Manipulation + Larceny \nCost: 1 Legend per item \nThe Scion concentrates on an item that he touches or carries, and the item becomes unobtrusive even to a concentrated search. As long as the Scion doesn\u2019t manipulate the item in an obvious fashion, other creatures simply ignore its existence. The object must be small enough to hold in one hand and conceal under a jacket, such as a pistol, a rose or a wallet. (Even a Scion with Epic Strength cannot conceal a larger object, despite the fact that he might be able to hold, say, a motorcycle behind his back in one hand.) Once the Scion uses the object in an obvious fashion, such as taking money out of the wallet or drawing and cocking a gun, it becomes evident to everyone. The concealment lasts at most a single scene in any case."
+        ],
+        [
+            "Changing States",
+            "Dice Pool: Dexterity + Craft \nCost: 1 Legend + 1 Willpower \nDefying the laws of thermodynamics, the Scion can instantly change the state of a body of water just by touching it. With this Boon, she can take liquid water, steam, ice or fog and change any one into any of the other three. The amount of water she can affect is the same as per Water Control, and the water remains in its new state for a number of actions equal to the successes rolled to activate the Boon. Water under this effect is also subject to the Scion\u2019s Water Control as long as the Scion maintains contact with some portion of it."
+        ],
+        [
+            "Hero's Geas",
+            "Dice Pool: None \nCost: None \nHeroes and Gods are held to a greater standard. Because the simple lives of mortal men are no challenge to the enech of the entities of Legend, it is only appropriate that they accept greater restrictions and requirements to demonstrate their mindfulness, honor and perseverance. Thus, the greatest of Gods and heroes are laid with geasa, prohibitions against specific actions or requirements that a specific action must always be undertaken when the Scion or God is presented with the opportunity."
+        ],
+        [
+            "Lay Token Geas",
+            "Dice Pool: Charisma + Presence \nCost: 1 Legend + 1 Willpower (or 1 Legend + 1 Willpower dot) \nWith this power, the Scion taps into the potent flows of enech and may levy the expectations of greatness on those around him. This roll is opposed by the target\u2019s (Wits + Integrity + Legend), and the roll itself has a difficulty of the target\u2019s Legend +1. If this roll is successful, the target is bound by a geas of Token potency for two months per net success in the roll, to a maximum of a year and a day. Alternately, if the Scion expends a full dot (rather than a point) of Willpower, the geas is laid permanently."
+        ],
+        [
+            "Lay Token Geas",
+            "Dice Pool: Charisma + Presence \nCost: 1 Legend + 1 Willpower (or 1 Legend + 1 Willpower dot) \nWith this power, the Scion taps into the potent flows of enech and may levy the expectations of greatness on those around him. This roll is opposed by the target\u2019s (Wits + Integrity + Legend), and the roll itself has a difficulty of the target\u2019s Legend +1. If this roll is successful, the target is bound by a geas of Token potency for two months per net success in the roll, to a maximum of a year and a day. Alternately, if the Scion expends a full dot (rather than a point) of Willpower, the geas is laid permanently."
+        ],
+        [
+            "Brehon's Eye",
+            "Dice Pool: Perception + Empathy \nCost: 1 Legend \nTo understand the demands of enech upon the Scion, she must first understand its demands on those around her. With this power, the Scion assumes a canny and wise attitude, watching carefully and allowing those insights to influence her judgment. The information that comes with this power was of old called enechsenchas, or \u201cenech lore,\u201d and is often used in later Boons in this Purview."
+        ],
+        [
+            "Water Breathing",
+            "Dice Pool: None \nCost: None \nThe Scion need never fear drowning, and she is no longer affected by extremes of water temperature. She can breathe water as easily as air, and she is neither scalded by boiling water nor subject to debilitating frostbite from ice. Having boiling water poured on one\u2019s flesh still hurts, mind you, and being bound in ice or cast adrift in frigid water can still numb and paralyze a Scion. Neither of those extremes can cause the Scion actual physical damage, though."
+        ],
+        [
+            "Faunaphagia",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + 1 Legend \nSome shamans believe that consuming a creature grants a measure of its strength. Scions who engage in this practice learn to absorb the capabilities of an animal by devouring such a creature and drawing forth its essence from the digested flesh. The Scion must eat a piece of meat from the appropriate animal (a potentially risky act, considering that the animal is probably considered sacred to his patron God). Then, the player expends the Willpower and Legend and rolls (Stamina + Animal Ken). The successes scored indicate the number of points of Abilities that the Scion may borrow from the animal. A Scion can only borrow Abilities up to the level possessed by the animal, although these dots can add on to his existing skill dots to a maximum total of five. Skills gained with Faunaphagia remain for the rest of the scene."
+        ],
+        [
+            "Stolen Face",
+            "Dice Pool: Manipulation + Presence \nCost: 1 Willpower + 1 Legend \nTricksters in myth often take on someone else\u2019s appearance, generally to further a special plot or to bring humiliation to a rival. This Boon makes such a disguise supernaturally believable. The trickster simply dons a cursory disguise\u2014a piece of clothing, a fake wig, a mask or some make-up\u2014and the power of Illusion does the rest. If the Scion tries to impersonate a particular person, the dice roll gains a +2 bonus if the Scion carries some item the emulated individual owned. A sample of the subject\u2019s hair, skin or nails raises the bonus to +5. (Having body sample and an object, or having multiple objects, does not give multiple bonuses.) The Scion\u2019s player rolls to set the Boon\u2019s success level when it\u2019s activated. Anyone who deliberately tries to see through the disguise must best the Scion\u2019s total successes with a (Perception + Awareness) roll. Having only a brief, momentary interaction imposes a -2 penalty on the observer\u2019s roll. A lengthy interaction (lasting several minutes) when the observer knows the emulated subject well grants a +2 bonus. If the observer scores more successes than the trickster, the observer realizes that the Scion is not who she seems to be, though the true identity of the disguised Scion remains unclear unless the disguise is actually removed."
+        ]
+    ],
+    "nature": "Gambler",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 11,
+        "move": 5,
+        "climb": 4,
+        "jump": {
+            "horizontal": 12,
+            "vertical": 6
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 11,
+        "parry_dv": 7
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 0,
+        "animal_ken": 3,
+        "art": 1,
+        "athletics": 2,
+        "awareness": 3,
+        "brawl": 2,
+        "command": 0,
+        "control": 2,
+        "craft": 3,
+        "empathy": 0,
+        "fortitude": 1,
+        "integrity": 0,
+        "investigation": 3,
+        "larceny": 0,
+        "marksmanship": 3,
+        "medicine": 2,
+        "melee": 0,
+        "occult": 2,
+        "presence": 1,
+        "politics": 0,
+        "science": 3,
+        "stealth": 0,
+        "survival": 2,
+        "thrown": 2
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 4,
+        "lethal": 3.0,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 4,
+    "god": "Manannan Mac Lir",
+    "pantheon": "Tuatha",
+    "name": "Mikey Gibbons"
+}

@@ -1,0 +1,196 @@
+{
+    "attributes": {
+        "stre": 1,
+        "dex": 1,
+        "sta": 1,
+        "cha": 1,
+        "man": 1,
+        "app": 1,
+        "per": 1,
+        "inte": 1,
+        "wits": 1
+    },
+    "epic_attributes": {
+        "epic_stre": 1,
+        "epic_dex": 1,
+        "epic_sta": 2,
+        "epic_cha": 0,
+        "epic_man": 0,
+        "epic_app": 0,
+        "epic_per": 2,
+        "epic_int": 0,
+        "epic_wits": 0
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        1,
+        0,
+        1,
+        1
+    ],
+    "inventory": [],
+    "knacks": [],
+    "boons": [
+        [
+            "Vigil Brand",
+            "Dice Pool: Perception + Empathy (to check up) \nCost: 1 Legend (to brand) \nThe Scion touches a person, an object or the entrance to a location and lays a mystical brand there that marks that subject as being under her protection. (Doing so costs one Legend.) Thereafter, whenever that subject is in physical danger (as determined by the Storyteller), the Scion receives a reflexive intuition to that effect. Should her player then succeed on a (Perception + Empathy) roll, she gains a clearer understanding of the subject\u2019s condition, location and current situation."
+        ],
+        [
+            "Assess Health",
+            "Dice Pool: None \nCost: None \nThe Scion can instantly, automatically assess the current medical condition of a single living patient in his presence. He can tell how many levels of damage the patient is suffering, as well as any physical addictions he suffers, any illnesses or diseases with which he is infected and any genetic defects that afflict him."
+        ],
+        [
+            "Ren Harvest",
+            "Dice Pool: Charisma + Empathy \nCost: None \nWhenever someone speaks of the Scion\u2019s deeds, or whenever he sees news of his exploits in print somewhere, his player makes a (Charisma + Empathy) roll. The Scion gains a number of Legend points equal to the number of successes rolled. The story must pertain specifically to the Scion, which the context should make clear. Also, it must be uttered or written without the Scion\u2019s direct knowledge. He might reasonably expect to see or hear it, but he cannot literally command someone to say or write it so as to reap the benefits. This Boon pertains only to evidence that his legend is spreading\u2014hence the Legend-point reward."
+        ]
+    ],
+    "nature": "Bravo",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 8,
+        "move": 2,
+        "climb": 2,
+        "jump": {
+            "horizontal": 6,
+            "vertical": 3
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 4,
+        "parry_dv": 3
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 1,
+        "animal_ken": 1,
+        "art": 0,
+        "athletics": 1,
+        "awareness": 0,
+        "brawl": 1,
+        "command": 0,
+        "control": 3,
+        "craft": 2,
+        "empathy": 2,
+        "fortitude": 2,
+        "integrity": 3,
+        "investigation": 3,
+        "larceny": 2,
+        "marksmanship": 2,
+        "medicine": 3,
+        "melee": 0,
+        "occult": 3,
+        "presence": 1,
+        "politics": 3,
+        "science": 1,
+        "stealth": 2,
+        "survival": 2,
+        "thrown": 3
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 3,
+        "lethal": 3.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 1,
+    "god": "Isis",
+    "pantheon": "Pesedjet",
+    "name": "Saeed Taher"
+}

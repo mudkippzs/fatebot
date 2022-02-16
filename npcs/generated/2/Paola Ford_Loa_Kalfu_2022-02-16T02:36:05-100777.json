@@ -1,0 +1,209 @@
+{
+    "attributes": {
+        "stre": 1,
+        "dex": 1,
+        "sta": 1,
+        "cha": 1,
+        "man": 1,
+        "app": 1,
+        "per": 1,
+        "inte": 1,
+        "wits": 1
+    },
+    "epic_attributes": {
+        "epic_stre": 1,
+        "epic_dex": 0,
+        "epic_sta": 0,
+        "epic_cha": 1,
+        "epic_man": 1,
+        "epic_app": 0,
+        "epic_per": 1,
+        "epic_int": 0,
+        "epic_wits": 0
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        0,
+        1,
+        0,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Paragon Of Virtue",
+            "description": [
+                "Prerequisite Knack: Inspirational Figure (Scion: Hero, p. 130) The Scion spends a minute giving a brief inspirational speech, then charges ahead into the fray (be it fighting titanspawn or heading to the lab to find a last-ditch cure for a Titan-created plague). The Scion\u2019s player spends two points of Legend and rolls (Charisma + Command + Legend). For each success scored, one person in the crowd becomes fired up with the Scion\u2019s Virtue. The mortal listener gains one dot in a Virtue that the Scion possesses \u2014 whichever one the provided speech was about. This can lead mortals into all the benefits and pitfalls of having a Virtue rating. Every listener gains the same Virtue. A Scion could choose to give a Virtue that won\u2019t have any direct benefit on an upcoming action, if they so desire. The Scion can use this Knack only once per scene.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Smoking Mirror",
+            "Dice Pool: None \nCost: 1 Legend \nBy looking up at the moon and spending the requisite Legend point, the character sees reflected in it a bird\u2019s-eye view of the surrounding terrain. This perspective allows a clear view of a radius in miles equal to the Scion\u2019s Legend. The Scion may focus on any point in the reflection and see it clearly, but he can\u2019t see through physical objects or change the angle from the top-down perspective. This Boon doesn\u2019t function on new moon nights, but it can see down through thick clouds on any other night. If the moon is visible during the day, the Scion can use this Boon then as well."
+        ],
+        [
+            "Rada's Eyes",
+            "Dice Pool: Perception + Empathy \nCost: 1 Legend \nThe Scion can experience another person\u2019s perceptions as if they were her own. These perceptions include input from all five senses, though not the character\u2019s subjective reactions to that input. To use this Boon, the Scion must have a picture of her victim, some genetic token of the victim\u2019s (such as a lock of hair or several drops of blood) or something the victim created (from a printed-out email to an ice sculpture). By meditating on the item and relaxing her own perceptions\u2014as well as spending a point of Legend after a successful (Perception + Empathy) roll on the part of her player\u2014the Scion experiences the victim\u2019s perceptions clearly and distinctly. The victim is unaware of the Scion\u2019s attention, but the Scion remains semi-aware of her own surroundings."
+        ],
+        [
+            "Eye of the Storm",
+            "Dice Pool: None \nCost: 1 Legend per scene \nWhen the Scion finds herself caught up in a chaotic situation unrelated to her\u2014whether she\u2019s dodging a tornado\u2019s debris or emerging from a bar to find a berserk mob rushing toward her to clash with a line of riot cops down the street\u2014she can activate this Boon and become an island of calm in the tumult. She is miraculously untouched in the confusion, and she remains so for as long as she doesn\u2019t actively involve herself. She still suffers normal environmental movement penalties, but environmental dangers such as falling rocks, stampeding beasts or thrashing rioters all fail to touch her."
+        ],
+        [
+            "Night Eyes",
+            "Dice Pool: None \nCost: None \nDarkness no longer inflicts visibility penalties on the character. He can see in pitch-blackness almost as well as he can see in bright sunlight, losing only the ability to perceive colors. (Objects he sees in darkness are black-on-black yet perfectly distinguishable in a way that\u2019s conveniently impossible to describe to someone who doesn\u2019t have this Boon.) The Scion cannot see through physical impediments, however."
+        ]
+    ],
+    "nature": "Traditionalist",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 7,
+        "move": 1,
+        "climb": 2,
+        "jump": {
+            "horizontal": 8,
+            "vertical": 4
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 5,
+        "parry_dv": 4
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 0,
+        "animal_ken": 3,
+        "art": 3,
+        "athletics": 2,
+        "awareness": 3,
+        "brawl": 3,
+        "command": 1,
+        "control": 2,
+        "craft": 0,
+        "empathy": 2,
+        "fortitude": 1,
+        "integrity": 2,
+        "investigation": 0,
+        "larceny": 3,
+        "marksmanship": 3,
+        "medicine": 3,
+        "melee": 2,
+        "occult": 2,
+        "presence": 3,
+        "politics": 1,
+        "science": 0,
+        "stealth": 3,
+        "survival": 2,
+        "thrown": 3
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 1,
+        "lethal": 0.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 2,
+    "god": "Kalfu",
+    "pantheon": "Loa",
+    "name": "Paola Ford"
+}

@@ -1,0 +1,388 @@
+{
+    "attributes": {
+        "stre": 7,
+        "dex": 9,
+        "sta": 9,
+        "cha": 7,
+        "man": 7,
+        "app": 5,
+        "per": 5,
+        "inte": 9,
+        "wits": 5
+    },
+    "epic_attributes": {
+        "epic_stre": 6,
+        "epic_dex": 3,
+        "epic_sta": 3,
+        "epic_cha": 5,
+        "epic_man": 4,
+        "epic_app": 3,
+        "epic_per": 3,
+        "epic_int": 6,
+        "epic_wits": 4
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        0,
+        1,
+        0,
+        0
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Anti-Gravity Climber",
+            "description": [
+                "Prerequisite Knack: Spider-Climber (Scion: Demigod, pp. 56-57) If the surface can withstand the pressure of his touch, the God can climb it. As with Spider-Climber, the character can climb freely on any vertical surface, regardless of how many hand- and footholds it has. He can do this as fast as he can dash, even accounting for the increase in speed granted by his Epic Dexterity. What\u2019s more, he can walk on the vertical surface, standing out from it at a right angle, and remain as stable as he would be on solid ground. Climbing no longer counts as a separate action for him, so he can take multiple actions while climbing, just as he could standing on the ground. If he doesn\u2019t have at least one part of his body in contact with the surface he\u2019s climbing, however, he is once more subject to the standard orientation of gravity. Attacks that inflict knockdown or knockback call for a (Dexterity + Athletics) roll for the character to maintain contact with the climbing surface. A character must spend a point of Legend to use this Knack for one scene.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Advantageous Circumstances",
+            "description": [
+                "With this Knack, a Scion turns a group of people into his own Rube Goldberg machine. Taking only a moment to glance around the room at what the people around him are doing, the Scion decides what result he wants to achieve and takes the \ufb01rst small step toward achieving that end. The effect can take no more than a scene to accomplish, and it can be no more than a personal, temporal gain for himself.",
+                "For Example: A Scion of Ogoun is at a bar having a drink when up pulls the motorcycle of the Scion of Sobek from whom he stole an expensive and powerful Birthright. The Scion of Ogoun needs a distraction so he can slip out the back before the Scion of Sobek notices him and turns him into mincemeat. After a quick glance around, the Scion of Ogoun motions to the bartender and orders a drink for a pretty girl across the room. He also pays off his tab. As the waitress takes the drink over, a sour-faced middle-aged man exits the restroom and walks back toward the table where his shrewish wife is waiting. The waitress hands the drink to the pretty girl and points back toward the Scion of Ogoun, but the middle-aged man just happens to be in the way. The pretty girl waves and smiles her thanks, and the middle-aged man smiles back in distracted confusion as the Scion of Ogoun tips the girl a wink. It\u2019s at this point that the Scion of Sobek enters and notices the Scion of Ogoun putting on his jacket. As the Scion of Sobek comes toward the Scion of Ogoun\u2019s seat, the middle-aged man meets his shrewish wife heading toward him. Having misinterpreted the pretty girl\u2019s wave of thanks to the Scion of Ogoun, she demands to know why her husband bought a strange girl a drink. She throws her own drink in his face, sending him tripping over his own feet and stumbling backward toward the Scion of Sobek. That Scion stops and catches the middle-aged guy before the poor fellow can crack his head against the corner of a nearby table. Yet when the Scion looks back up to \ufb01nd his prey again, the Scion of Ogoun is nowhere to be seen.",
+                "Using this Knack doesn\u2019t have to be that complicated. As long as the player and Storyteller can come up with a quick sequence of convenient, coincidental events that spring from the Scion\u2019s \ufb01rst small action, that\u2019s all that\u2019s required. The important thing is to keep each of the events low key and not to hog too much of the spotlight in so doing.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Secondhand Persuasion",
+            "description": [
+                "With this Knack, a character spends a point of Legend and becomes able to use her Epic Manipulation through the typed or written word. She must specifically address her attempted persuasion through a Manipulation-based roll to a single person\u2014whether it\u2019s in an e-mail, a registered letter or just a piece of graffiti with the victim\u2019s name attached\u2014and the person resists with the standard (Willpower + Integrity + Legend) roll. The written communication gets only one chance to supernaturally influence its victim, and the victim gets only one chance to resist, regardless of how many times the victim might read the missive thereafter.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Divine Balance",
+            "description": [
+                "Prerequisite Knack: Cat\u2019s Grace (Scion: Hero, p. 127) In addition to the bene\ufb01ts of Cat\u2019s Grace, the Scion can now balance on surfaces that shouldn\u2019t even be able to support his weight. He\u2019s as light on his feet or his hands as a gentle breeze. He could run across a drooping clothesline between two tenement buildings without knocking the clothespins off. He could leap onto the haft of a zombie warrior\u2019s out-thrust spear and punt the brute\u2019s rotting head off. He could even carry on an epee duel atop a lake of poisonous water, stepping on nothing but the bobbing backs of the dead men \ufb02oating in it. (He could not, however, step on the water\u2019s surface without sinking.)",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Psychic Profiler",
+            "description": [
+                "Within seconds, the character with this Knack can size up a character with a lesser Legend rating than his own. Just by looking at the person, he can tell her weight, height, age, sex (if it\u2019s unclear to casual inspection) and whether she has a divine heritage or not. With just a few lines of conversation, he can also tell the subject\u2019s Nature, calling and primary Virtue (if any). Finally, if the subject is Fatebound to someone and is acting out a Fatebound Role, he can figure out what that role is. He might not know to whom it applies, but he can probably figure it out from context if he watches the person long enough.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Omnidexterity",
+            "description": [
+                "The Scion functionally has \u201ctwo right hands\u201d. The Scion can use either hand with equal facility and also suffers no penalties when trying to manipulate an object with his tongue or his toes; even while using some other contorted body part, the Scion suffers only half the usual penalties (rounded down) for the awkwardness of the situation. While the Scion still can\u2019t perform something physically impossible (there\u2019s no way to fit his calf muscle through the trigger guard of a pistol to fire it, for instance), just about any amount of wiggle room is sufficient for the Scion to manipulate objects in surprising ways. The Scion could hang from a tree branch by his toes (perhaps in emulation of Sun Wukong) or could use his tongue to hold a pair of probes and thereby pick a lock. If the Scion manages to gain new and different natural appendages, say by assuming the form of an octopus via the Animal Purview, then his new appendages also benefit from Omnidexterity. Artificial \u201cappendages,\u201d such as a chain or a ruler with a sticky piece of tape on the end, do not gain this benefit, although the Scion could certainly wield such a tool via his hand, foot, mouth or stranger combination of limbs."
+            ],
+            "tables": []
+        },
+        {
+            "title": "Rumor Mill",
+            "description": [
+                "The demigod Scion can play make a lyre of the media, lending credence and giving unexpected life to the wildest of rumors. He need only come up with a seed rumor and cast it adrift in conversation with someone (even a stranger) and watch it bloom in the fertile \ufb01elds of the public imagination. In order to make his rumor catch on, the Scion\u2019s player need only spend a point of Legend and make an instant (Manipulation + Politics) roll. The number of successes this roll accumulates determines the height of public attention to which the rumor will rise before it is either accepted as true (if it is true) or proven to be poppycock (if it\u2019s something the Scion made up).<br/><table class=\"wiki-content-table\">\n<tr>\n<td>Successes</td>\n<td>Exposure</td>\n</tr>\n<tr>\n<td>1</td>\n<td>Some nut-job\u2019s blog</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Local \u2019zine and newspaper coverage</td>\n</tr>\n<tr>\n<td>15</td>\n<td>Major metropolitan newspaper coverage</td>\n</tr>\n<tr>\n<td>20</td>\n<td>Local TV news coverage</td>\n</tr>\n<tr>\n<td>30</td>\n<td>Several popular websites and blogs</td>\n</tr>\n<tr>\n<td>35</td>\n<td>National newspaper and magazine coverage</td>\n</tr>\n<tr>\n<td>45</td>\n<td>National cable TV news coverage</td>\n</tr>\n<tr>\n<td>50</td>\n<td>Worldwide news media</td>\n</tr>\n</table>",
+                "For a rumor or a fact to make its way from the Scion\u2019s lips to its highest level of exposure takes one month minus a number of days equal to the Scion\u2019s (Manipulation + Epic Manipulation + Legend) total\u2014 with a minimum of one hour. Once it gets there, a false rumor maintains its level of exposure for a number of days equal to the Scion\u2019s Legend before being proven false. A true fact remains at that level of coverage for the same amount of time.",
+                ""
+            ],
+            "tables": [
+                {
+                    "header": [
+                        "Successes",
+                        "Exposure"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "Some nut-job\u2019s blog"
+                        ],
+                        [
+                            "5",
+                            "Local \u2019zine and newspaper coverage"
+                        ],
+                        [
+                            "15",
+                            "Major metropolitan newspaper coverage"
+                        ],
+                        [
+                            "20",
+                            "Local TV news coverage"
+                        ],
+                        [
+                            "30",
+                            "Several popular websites and blogs"
+                        ],
+                        [
+                            "35",
+                            "National newspaper and magazine coverage"
+                        ],
+                        [
+                            "45",
+                            "National cable TV news coverage"
+                        ],
+                        [
+                            "50",
+                            "Worldwide news media"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Rabbit Reflexes",
+            "description": [
+                "When an unexpected attack targets the character with this Knack but the character\u2019s player fails to get enough successes on the (Wits + Awareness) roll to notice the attack coming, the Scion instinctively defends herself with double her highest applicable DV. The character cannot preemptively attack her attacker or even shout out a warning to her comrades, as she\u2019s reacting to an attack that\u2019s already taking place, but she is much more likely to dodge or parry that attack. Nonetheless, the character cannot actually join battle herself until everyone else does after the unexpected attack is resolved.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Instant Hypnosis",
+            "description": [
+                "Prerequisite Knack: Overt Order (Scion: Hero, p. 131) With a moment of eye contact and the expenditure of a Willpower point, the Scion instantly plunges a mortal into a hypnotic trance. Attempting to hypnotize a fellow Scion of lesser or equal (Willpower + Legend) requires not only a Willpower expenditure but a (Manipulation + Command + Legend) roll contested against the victim\u2019s (Willpower + Integrity + Legend). Scions cannot instantly hypnotize fellow Scions of higher (Willpower + Legend). Should he successfully hypnotize a victim, the Scion can implant one hidden command that the victim must obey at the time of the Scion\u2019s choosing. The command must be something that the victim can accomplish in one scene, and the trigger condition that compels him to attempt it must occur within a number of months equal to the Scion\u2019s Legend. The Scion can give as speci\ufb01c an order as he pleases, and a mortal cannot interpret it in any way other than the spirit in which it was intended. A fellow Scion can interpret it loosely to his own advantage, as per Overt Order, but doing so costs him a point of Willpower. The victim remains unaware of the ticking time bomb in his subconscious, but he does have a chance to resist it when the trigger condition occurs. At the moment when he has been commanded to perform the action in question, the victim\u2019s player may make a (Wits + Integrity) roll. (This roll cannot be modi\ufb01ed by a Scion\u2019s Epic Wits or an Integrity Arete.) If the roll garners more successes than the hypnotist Scion has dots of Legend, the compulsion is broken. If the last-minute resistance roll fails, the victim must attempt to do as he was commanded. Whether he succeeds or fails, the compulsion ends after he makes the attempt, and he has no memory of what could possibly have convinced him to do as he did.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Spider Climber",
+            "description": [
+                "Prerequisite Knack: Monkey Climber (Scion: Hero, p. 128) In addition to the bene\ufb01ts of the Monkey Climber Knack, the Scion can now climb a vertical surface with suf\ufb01cient hand- and footholds as quickly as she can dash\u2014taking into account her increased movement rate from Epic Dexterity. Her player doesn\u2019t even have to roll to keep her from falling unless she takes a second action while she\u2019s climbing (per the multiple action rules in Scion: Hero on p. 179). What\u2019s more, the demigod can now scale sheer surfaces with no handholds, such as the slick glass face of a skyscraper, and climb upside down across the bottom of horizontal surfaces at her normal Move rate. She cannot take Dash actions on such surfaces, but her Epic Dexterity bonuses apply to her Move rate as usual. She\u2019s still subject to gravity, though, so she has to make it a point to hang on while she\u2019s climbing thus. Therefore, she cannot take multiple actions while climbing such surfaces. A point of Legend must be spent for the character to use this Knack for one scene.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Untouchable Opponent",
+            "description": [
+                "The Scion might as well be a ghost for all her enemies can lay a hand or a weapon on her. The Scion doubles the bene\ufb01t that her Epic Dexterity dots add to her Dodge DV. She also ignores an amount of DV penalties due to unstable terrain equal to her Epic Dexterity dots. Only the normal Epic Dexterity bonus applies to the character\u2019s Parry DV, though, and this Knack\u2019s bonus to Dodge DV doesn\u2019t apply if the character is merely hiding behind cover or tucked in behind a scutum like a lowly turtle. Only if the character is physically dodging the attacks that are coming her way does this Knack help her out. Activating this Knack costs one point of Legend. Its effects last for one scene.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Levin Fury",
+            "Dice Pool: Wits + Marksmanship \nCost: 3 Legend per attack \nThis Boon calls upon the power of lightning, either from the sky or from the Scion himself. To use it, the Scion raises a hand heavenward or points his Birthright weapon at his intended foe. At his behest, lightning either lances down from the sky or launches from the weapon itself to smite the victim. Each such bolt inflicts 15 dice of lethal damage plus extra successes on the Marksmanship roll. An attack that inflicts damage also inflicts knockdown or knockback automatically."
+        ],
+        [
+            "Weather Witch",
+            "Dice Pool: Intelligence + Science \nCost: 1 Legend \nBy tasting the wind, putting a finger up in the air or testing the feel of her joints, the Scion gains the ability to predict the vagaries of natural weather. Her prediction is good up to a number of days in advance equal to the successes scored by her player on the initial (Intelligence + Science) roll. This doesn\u2019t account for changes introduced by more powerful uses of the Sky Purview or by Titans and titanspawn."
+        ],
+        [
+            "Tornado Tamer",
+            "Dice Pool: Wits + Control \nCost: 4 Legend per dot of Epic Strength (max \u2022\u2022\u2022\u2022) \nThe Scion has a pet tornado. He captures it and puts it away when he doesn\u2019t need it; he lets it out when he does need it. When he sets it loose, it swirls and howls in front of him, ready to obey his every command\u2014yet eager to run wild if he should lose control."
+        ],
+        [
+            "Devil Body",
+            "Dice Pool: None \nCost: 1 Willpower + 3 Legend \nUpon activating this Boon, the character\u2019s body immediately becomes a human-shaped pillar of white-hot flame. His features are unrecognizable except in silhouette (if he has a distinctive silhouette), and his voice has the quality of a roaring bonfire. In this form, the character\u2019s merest touch can set things alight or burn flesh. Touching the character inflicts a number of levels of lethal damage equal to his Legend. If the character physically attacks someone, the player adds that many extra levels of lethal damage to the results of his damage roll. The flames of the Scion\u2019s body can even burn a fellow Scion who has Fire Immunity (Fire 1) if that Scion\u2019s Legend is lower, though the lesser Scion suffers automatic fire damage equal to only the difference in their Legend ratings. The character\u2019s semisolid form also absorbs an amount of damage equal to the character\u2019s Legend from all physical attacks."
+        ],
+        [
+            "Control Fire",
+            "Dice Pool: Wits + Control \nCost: 5+ Legend \nA fire must burn, but when a God has this Boon, fire burns as he commands. To take control of the fire, the God need only stare into it and spend Legend points. When he does so, the fire becomes a three-dimensional mass that he can manipulate in all three dimensions in any way his imagination can conceive. For five Legend points, the God can manipulate 10 cubic yards of fire (based on its surface area and height). If less than 10 cubic yards of fire is present, the God can increase the present amount of fire to fill that volume. For each additional Legend point he spends, the God can increase the amount of fire under his control by 10 more cubic yards. (The God can spend no more additional points of Legend beyond the mandatory five than he has dots of Legend.) The God can move and shape fire under his control in all three dimensions\u2014lifting it off the ground entirely or making it take any three-dimensional shape he desires. He can even mold the fire into a recognizable shape and have it take actions."
+        ],
+        [
+            "Fire Immunity",
+            "Dice Pool: None \nCost: None \nThe Scion takes no damage from fire, he need never worry about suffering from smoke inhalation, and even the most intense heat is nothing more than a comforting warmth to him. This immunity remains in effect regardless of what substance is burning. It doesn\u2019t, however, extend to his clothes or to any item except the Birthright through which he channels the Boon."
+        ],
+        [
+            "Wind Grapple",
+            "Dice Pool: Wits + Brawl \nCost: 1 Legend per action \nBy directing freak gusts of wind and the airborne detritus that collects in them, the Scion can wrestle with opponents without even touching them. Doing so requires one Legend point per action, and the Scion\u2019s player rolls (Wits + Brawl) to direct the winds. This roll functions just as the normal roll for a clinch attack, contested against the defender\u2019s efforts as normal. If his attack succeeds, the Scion may do with his victim as any successful grappler can do with a subdued victim, from pinning him to crushing him to throwing him. The attacker cannot apply any bonus dice or Knacks from his Epic Strength in these grappling maneuvers."
+        ],
+        [
+            "Inferno",
+            "Dice Pool: Charisma + Craft \nCost: 3 Legend \nWith a shouted word, a Scion can cause an area in his line of sight to instantly burst into flame. The flame has the intensity of a bonfire, and it covers an area with a radius in yards equal to the number of successes on the activation roll. The flames stand as high from a flat surface as the Scion is tall. This fire can burn without fuel for a number of minutes equal to the Scion\u2019s Legend. When that time is up, the flames go out if they still don\u2019t have any fuel. People who are within the area the Scion intends to set alight get a single chance to escape the affected area unharmed before the fire starts. To do so, their players must get more successes on a (Dexterity + Athletics) roll than the Scion\u2019s player got on the activation roll, and the character must be able to get out of the area in one action."
+        ],
+        [
+            "Inferno",
+            "Dice Pool: Charisma + Craft \nCost: 3 Legend \nWith a shouted word, a Scion can cause an area in his line of sight to instantly burst into flame. The flame has the intensity of a bonfire, and it covers an area with a radius in yards equal to the number of successes on the activation roll. The flames stand as high from a flat surface as the Scion is tall. This fire can burn without fuel for a number of minutes equal to the Scion\u2019s Legend. When that time is up, the flames go out if they still don\u2019t have any fuel. People who are within the area the Scion intends to set alight get a single chance to escape the affected area unharmed before the fire starts. To do so, their players must get more successes on a (Dexterity + Athletics) roll than the Scion\u2019s player got on the activation roll, and the character must be able to get out of the area in one action."
+        ],
+        [
+            "Wind Grapple",
+            "Dice Pool: Wits + Brawl \nCost: 1 Legend per action \nBy directing freak gusts of wind and the airborne detritus that collects in them, the Scion can wrestle with opponents without even touching them. Doing so requires one Legend point per action, and the Scion\u2019s player rolls (Wits + Brawl) to direct the winds. This roll functions just as the normal roll for a clinch attack, contested against the defender\u2019s efforts as normal. If his attack succeeds, the Scion may do with his victim as any successful grappler can do with a subdued victim, from pinning him to crushing him to throwing him. The attacker cannot apply any bonus dice or Knacks from his Epic Strength in these grappling maneuvers."
+        ],
+        [
+            "Control Fire",
+            "Dice Pool: Wits + Control \nCost: 5+ Legend \nA fire must burn, but when a God has this Boon, fire burns as he commands. To take control of the fire, the God need only stare into it and spend Legend points. When he does so, the fire becomes a three-dimensional mass that he can manipulate in all three dimensions in any way his imagination can conceive. For five Legend points, the God can manipulate 10 cubic yards of fire (based on its surface area and height). If less than 10 cubic yards of fire is present, the God can increase the present amount of fire to fill that volume. For each additional Legend point he spends, the God can increase the amount of fire under his control by 10 more cubic yards. (The God can spend no more additional points of Legend beyond the mandatory five than he has dots of Legend.) The God can move and shape fire under his control in all three dimensions\u2014lifting it off the ground entirely or making it take any three-dimensional shape he desires. He can even mold the fire into a recognizable shape and have it take actions."
+        ],
+        [
+            "Wind Grapple",
+            "Dice Pool: Wits + Brawl \nCost: 1 Legend per action \nBy directing freak gusts of wind and the airborne detritus that collects in them, the Scion can wrestle with opponents without even touching them. Doing so requires one Legend point per action, and the Scion\u2019s player rolls (Wits + Brawl) to direct the winds. This roll functions just as the normal roll for a clinch attack, contested against the defender\u2019s efforts as normal. If his attack succeeds, the Scion may do with his victim as any successful grappler can do with a subdued victim, from pinning him to crushing him to throwing him. The attacker cannot apply any bonus dice or Knacks from his Epic Strength in these grappling maneuvers."
+        ],
+        [
+            "Wind's Freedom",
+            "Dice Pool: None \nCost: 1 Legend + 1 Willpower per scene \nThe Scion laughs in the face of gravity. For the rest of the scene, the distances the Scion can move or dash per action remain normal, but they now apply to the Z-axis as well as the X- and Y-axes. All the normal rules for movement remain in place, except that the character can now move freely through all three dimensions (i.e., he can fly). He can even hold still in midair if he wants to. The only thing a character can\u2019t do in midair that he could do on the ground is jump, as there\u2019s nothing to jump off of."
+        ],
+        [
+            "Devil Body",
+            "Dice Pool: None \nCost: 1 Willpower + 3 Legend \nUpon activating this Boon, the character\u2019s body immediately becomes a human-shaped pillar of white-hot flame. His features are unrecognizable except in silhouette (if he has a distinctive silhouette), and his voice has the quality of a roaring bonfire. In this form, the character\u2019s merest touch can set things alight or burn flesh. Touching the character inflicts a number of levels of lethal damage equal to his Legend. If the character physically attacks someone, the player adds that many extra levels of lethal damage to the results of his damage roll. The flames of the Scion\u2019s body can even burn a fellow Scion who has Fire Immunity (Fire 1) if that Scion\u2019s Legend is lower, though the lesser Scion suffers automatic fire damage equal to only the difference in their Legend ratings. The character\u2019s semisolid form also absorbs an amount of damage equal to the character\u2019s Legend from all physical attacks."
+        ],
+        [
+            "Bolster Fire",
+            "Dice Pool: None \nCost: 1 Legend per scene \nNormally, fire needs oxygen to breathe and fuel to consume. With this Boon, a Scion removes both necessities from a single flame for one scene. He could keep a single torch (or even a match) lit for hours as he explores a dark labyrinth. He could cause the tiny spark at the end of a fuse to burn in place without moving. This Boon is also good for keeping a source of flame from consuming the breathable air in an enclosed space."
+        ],
+        [
+            "Levin Fury",
+            "Dice Pool: Wits + Marksmanship \nCost: 3 Legend per attack \nThis Boon calls upon the power of lightning, either from the sky or from the Scion himself. To use it, the Scion raises a hand heavenward or points his Birthright weapon at his intended foe. At his behest, lightning either lances down from the sky or launches from the weapon itself to smite the victim. Each such bolt inflicts 15 dice of lethal damage plus extra successes on the Marksmanship roll. An attack that inflicts damage also inflicts knockdown or knockback automatically."
+        ],
+        [
+            "Wind's Freedom",
+            "Dice Pool: None \nCost: 1 Legend + 1 Willpower per scene \nThe Scion laughs in the face of gravity. For the rest of the scene, the distances the Scion can move or dash per action remain normal, but they now apply to the Z-axis as well as the X- and Y-axes. All the normal rules for movement remain in place, except that the character can now move freely through all three dimensions (i.e., he can fly). He can even hold still in midair if he wants to. The only thing a character can\u2019t do in midair that he could do on the ground is jump, as there\u2019s nothing to jump off of."
+        ],
+        [
+            "Sky's Grace",
+            "Dice Pool: None \nCost: 1 Legend \nBy spending a point of Legend, the Scion takes no damage from falls of any height. Alternatively, the Scion can use that point to double the distance he can jump either straight up or horizontally. If the Scion has the Holy Bound Knack\u2014as well as this Boon, the base distance he can leap doubles, then doubles again if the player spends a point of Legend."
+        ]
+    ],
+    "nature": "Cynic",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 19,
+        "move": 13,
+        "climb": 23,
+        "jump": {
+            "horizontal": 48,
+            "vertical": 24
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 21,
+        "parry_dv": 13
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 2,
+        "animal_ken": 3,
+        "art": 3,
+        "athletics": 1,
+        "awareness": 3,
+        "brawl": 1,
+        "command": 1,
+        "control": 2,
+        "craft": 1,
+        "empathy": 3,
+        "fortitude": 2,
+        "integrity": 3,
+        "investigation": 2,
+        "larceny": 3,
+        "marksmanship": 2,
+        "medicine": 2,
+        "melee": 2,
+        "occult": 2,
+        "presence": 3,
+        "politics": 2,
+        "science": 0,
+        "stealth": 3,
+        "survival": 3,
+        "thrown": 2
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 13,
+        "lethal": 10.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 9,
+    "god": "Agni",
+    "pantheon": "Devas",
+    "name": "Abhinav Varma"
+}

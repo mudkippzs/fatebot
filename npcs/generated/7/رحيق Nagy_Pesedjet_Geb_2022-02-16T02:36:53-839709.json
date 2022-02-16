@@ -1,0 +1,268 @@
+{
+    "attributes": {
+        "stre": 7,
+        "dex": 7,
+        "sta": 7,
+        "cha": 5,
+        "man": 9,
+        "app": 5,
+        "per": 7,
+        "inte": 9,
+        "wits": 7
+    },
+    "epic_attributes": {
+        "epic_stre": 3,
+        "epic_dex": 2,
+        "epic_sta": 4,
+        "epic_cha": 4,
+        "epic_man": 5,
+        "epic_app": 1,
+        "epic_per": 2,
+        "epic_int": 9,
+        "epic_wits": 5
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "inventory": [],
+    "knacks": [],
+    "boons": [
+        [
+            "Awakening the Akh",
+            "Dice Pool: Charisma + Occult \nCost: 5 Legend + 1 Willpower \nNormally, a person\u2019s ba and ka remain separate until that person\u2019s death. When he dies, his ba and ka unite into a luminous hybrid being of pure energy called the akh. A Scion with this Boon, however, can blend his ba and ka at will, awakening his akh and separating it from his physical body while he yet lives. When he does so, a ghostly golden form rises from within him while his body slumps insensate to the ground. The shining form looks like the character minus his clothing or equipment, except that lambent energy dances across his skin and iridescent wings like those of a beetle flicker around his shoulders and behind his back. These wings enable him to fly at his normal Move rate."
+        ],
+        [
+            "Judgment",
+            "Dice Pool: Perception + Empathy \nCost: None \nThis Boon aids a Scion immensely in determining guilt, one of the foundations of meting out justice. When she confronts someone she suspects committed an injustice and accuses that person of having done so, her player rolls (Perception + Empathy). (This roll isn\u2019t modified by supernatural powers or contested by the suspect\u2019s player.) On a success, the Scion can intuitively tell whether the suspect is guilty as charged. A failure yields an indeterminate reading and means that the Scion can\u2019t try to determine the same subject\u2019s guilt for 24 hours. A botch yields a false reading."
+        ],
+        [
+            "Safely Interred",
+            "Dice Pool: None \nCost: None \nWhether the character is caught up in a landslide, buried in a shallow grave by the roadside or trapped in the rubble of a collapsing building, he need not fear the earth\u2019s embrace as long as he has his Earth Birthright. No amount of collapsing rubble can break the Scion\u2019s bones (or the Birthright itself), and he won\u2019t suffocate no matter how much dirt piles onto him. If he lacks the strength to free himself, however, he does run the risk of either starving to death or dying of thirst if no one digs him out. Yet, it would not be the earth that kills him, but his own lack of fortitude."
+        ],
+        [
+            "Shield of Righteousness",
+            "Dice Pool: None \nCost: 1 Legend + 1 Willpower \nThis Boon can protect an innocent victim from suffering someone else\u2019s due punishment. The Scion cries out against the injustice\u2014a simple \u201cHe didn\u2019t do it!\u201d will suffice\u2014and spends the Legend and Willpower point. Doing so, she renders the next action that would inflict harm on the innocent victim completely impotent, obviating any damage that action should inflict. Whether the victim is being stabbed by a jealous wife, shot by a firing squad, lynched by a mob, hurled off a cliff by a duped Scion vigilante or whatever, he suffers no damage from that action."
+        ],
+        [
+            "Animal Aspect",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Legend per action \nBy meditating for one action (Speed 3) on a token representing his animal, the Scion takes on a metaphorical characteristic associated with it, creating a dice bonus for rolls involving the Attribute most closely associated with that characteristic. A Scion might take on a snake\u2019s sinuous grace (Dexterity), a peacock\u2019s beauty (Appearance), an elephant\u2019s proverbial memory (via Intelligence) or any other justifiable characteristic. The bonus dice are equal to the number of successes on the activation roll, and the benefit lasts for one action per Legend point spent up front to fuel the Boon."
+        ],
+        [
+            "Echo Sounding",
+            "Dice Pool: Perception + Awareness \nCost: None \nBy stomping or otherwise knocking on the earth, the Scion gets a sense of its general composition and density, as well as finding holes or caves beneath the surface. If he\u2019s looking for something specific in the earth\u2014such as gold, oil or a human body\u2014this Boon reveals its distance from him and depth from the epicenter at the expense of the other information. The Boon works only at ground level or on the up-thrust surface of a mountainside, but it works through floors and pavement. It gives the Scion a semispherical reading with a radius equal to one half mile per dot of Legend."
+        ],
+        [
+            "Sekem Blaze",
+            "Dice Pool: None \nCost: 1 Legend \nSekem is the light, the power and the energy of the Scion\u2019s soul. With this Boon, he channels that powerful light through his gaze to intimidate a foe. Such a foe can be an animal, a person, a Scion or even one of the titanspawn, and the Scion need only look it in the eyes and spend a point of Legend. An animal who sees the Sekem Blaze in the Scion\u2019s eyes immediately ceases any aggression toward the Scion and flees. A mortal or ghost so affected calms down and remains cowed for the rest of the scene."
+        ],
+        [
+            "Toxic Thorn",
+            "Dice Pool: Intelligence + Science \nCost: 1 Legend \nThe Scion sprouts a single thorn from his hand or foot, which he can use in conjunction with an unarmed strike to poison a victim. Successes scored by the player on an (Intelligence + Science) roll determines the strength of the poison that can be created. Consult the accompanying table for its toxicity:"
+        ],
+        [
+            "Animal Form",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + 1 Legend \nIn one action (Speed 5, DV -1), the character transforms into a specimen of his chosen animal. The character\u2019s Physical Attributes are normal for a mundane specimen of the animal he\u2019s become, but his Mental Attributes remain his own. He also retains access to his Epic Mental Attributes and Knacks, though his other Epic Attributes are off limits until he regains his human form. He can communicate with other animals of his type. Other Scions who use Animal Communication can understand him perfectly clearly. He is immune to other Scions\u2019 uses of Animal Command or Ride Animal."
+        ],
+        [
+            "Ride Animal",
+            "Dice Pool: Intelligence + Animal Ken \nCost: 1 Legend \nThe Scion stares into the eyes of a specimen of his chosen animal, the one to which his Boon pertains, and overwhelms its mind with his own. For the rest of the scene, the Scion controls the animal\u2019s body just as a character with Horse (Cheval \u2022\u2022\u2022) can control a human\u2019s body. This Boon functions exactly as that one does, with the same limitations and effects on the Scion\u2019s body. The only difference is that Horse applies to possession of a human\u2019s body, while Ride Animal applies to specimens of the Scion\u2019s chosen animal or to his Birthright creature."
+        ],
+        [
+            "Sekem Barrier",
+            "Dice Pool: Appearance + Command \nCost: 1 Legend \nThe character spends a point of Legend and his player rolls (Appearance + Command). If the roll succeeds, the radiance of the character\u2019s divine heritage illuminates his entire body, affecting all who look upon him. Use the same rubric as for Sekem Blaze to determine whether nearby characters are affected. Those who are affected react as those affected by Sekem Blaze."
+        ],
+        [
+            "Echo Sounding",
+            "Dice Pool: Perception + Awareness \nCost: None \nBy stomping or otherwise knocking on the earth, the Scion gets a sense of its general composition and density, as well as finding holes or caves beneath the surface. If he\u2019s looking for something specific in the earth\u2014such as gold, oil or a human body\u2014this Boon reveals its distance from him and depth from the epicenter at the expense of the other information. The Boon works only at ground level or on the up-thrust surface of a mountainside, but it works through floors and pavement. It gives the Scion a semispherical reading with a radius equal to one half mile per dot of Legend."
+        ],
+        [
+            "Ride Animal",
+            "Dice Pool: Intelligence + Animal Ken \nCost: 1 Legend \nThe Scion stares into the eyes of a specimen of his chosen animal, the one to which his Boon pertains, and overwhelms its mind with his own. For the rest of the scene, the Scion controls the animal\u2019s body just as a character with Horse (Cheval \u2022\u2022\u2022) can control a human\u2019s body. This Boon functions exactly as that one does, with the same limitations and effects on the Scion\u2019s body. The only difference is that Horse applies to possession of a human\u2019s body, while Ride Animal applies to specimens of the Scion\u2019s chosen animal or to his Birthright creature."
+        ],
+        [
+            "Rust/Shine",
+            "Dice Pool: None \nCost: 2 Legend \nWith a pass of the hand, the Scion causes a coating of rust or oxidization to form on a metallic object or conversely removes such a coating, restoring an item to its untarnished form. A rusted metal object loses durability and functionality. Its Hardness decreases to half normal, and if the object is a precision item (like a gun), it has a 50% chance to malfunction any time it\u2019s used. Restoring a rusted item to its original state wipes away all traces of age and even reverses the effects, so that a wholly rusted-out car body (for instance) would be as good as new. The rusted parts don\u2019t just disappear, they reverse the process and become solid metal again. Invoking this power on an item requires the Scion to physically touch or manipulate the object, and it has no effect on metals that don\u2019t rust (such as gold) or upon Relics."
+        ],
+        [
+            "Animal Aspect",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Legend per action \nBy meditating for one action (Speed 3) on a token representing his animal, the Scion takes on a metaphorical characteristic associated with it, creating a dice bonus for rolls involving the Attribute most closely associated with that characteristic. A Scion might take on a snake\u2019s sinuous grace (Dexterity), a peacock\u2019s beauty (Appearance), an elephant\u2019s proverbial memory (via Intelligence) or any other justifiable characteristic. The bonus dice are equal to the number of successes on the activation roll, and the benefit lasts for one action per Legend point spent up front to fuel the Boon."
+        ],
+        [
+            "Sekem Blaze",
+            "Dice Pool: None \nCost: 1 Legend \nSekem is the light, the power and the energy of the Scion\u2019s soul. With this Boon, he channels that powerful light through his gaze to intimidate a foe. Such a foe can be an animal, a person, a Scion or even one of the titanspawn, and the Scion need only look it in the eyes and spend a point of Legend. An animal who sees the Sekem Blaze in the Scion\u2019s eyes immediately ceases any aggression toward the Scion and flees. A mortal or ghost so affected calms down and remains cowed for the rest of the scene."
+        ],
+        [
+            "Animal Form",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + 1 Legend \nIn one action (Speed 5, DV -1), the character transforms into a specimen of his chosen animal. The character\u2019s Physical Attributes are normal for a mundane specimen of the animal he\u2019s become, but his Mental Attributes remain his own. He also retains access to his Epic Mental Attributes and Knacks, though his other Epic Attributes are off limits until he regains his human form. He can communicate with other animals of his type. Other Scions who use Animal Communication can understand him perfectly clearly. He is immune to other Scions\u2019 uses of Animal Command or Ride Animal."
+        ],
+        [
+            "Greenskin",
+            "Dice Pool: None \nCost: 2 Legend \nWith a moment\u2019s thought, the Scion reflects upon the characteristics of the green, growing world. She then internalizes those characteristics, granting herself some of the features of a plant. While the Scion doesn\u2019t become completely suffused with plant-like characteristics, she does develop a noticeable greenish tint to her skin and hair. Her flesh becomes woody and slightly tough, which grants her one extra level of soak against lethal and bashing damage. She also gains the ability to draw sustenance by photosynthesis. So long as she garners at least four hours of sunlight in a day, she obviates her need for food completely. (While her body might still require a few trace elements, they are so negligible as to be ignored). Lastly, her blood becomes thick and sticky, completely mitigating any bleeding that might happen as a result of wounds; her injuries cover over in a translucent amber almost immediately. Greenskin lasts for a number of scenes equal to the Scion\u2019s Legend, or until the Scion chooses to cancel the effect."
+        ],
+        [
+            "Animal Feature",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + (1 Legend per feature) \nThe Scion can change a portion of his anatomy to a shape matching the analogous portion of his chosen animal\u2019s anatomy for one scene. If his chosen animal is an armadillo, he can cover himself in a flexible armor. If his animal is a monkey, he can grow a long prehensile tail that is as dexterous as a hand with no thumb. If his animal is a spider or gecko, he can change the surfaces of his hands and feet to enable himself to climb on walls. If his animal is a bird or bat or airborne insect, he can transform his arms into wings that allow him to fly at a rate equal to his Move rate. The exact effect of the change is up to the player, dependent upon Storyteller approval. As a general guideline, though, if the change boosts some trait or grants bonus dice on a special attack, the total bonus value granted cannot be greater than the character\u2019s Legend."
+        ],
+        [
+            "Sekem Barrier",
+            "Dice Pool: Appearance + Command \nCost: 1 Legend \nThe character spends a point of Legend and his player rolls (Appearance + Command). If the roll succeeds, the radiance of the character\u2019s divine heritage illuminates his entire body, affecting all who look upon him. Use the same rubric as for Sekem Blaze to determine whether nearby characters are affected. Those who are affected react as those affected by Sekem Blaze."
+        ],
+        [
+            "Natural Camouflage",
+            "Dice Pool: Dexterity + Stealth \nCost: 1 Legend \nWhen the Scion hides in her verdant element, it\u2019s almost impossible to find her. Her skin sprouts grass, bark, underbrush, flowers, mushrooms or what have you that allow her to blend in seamlessly with her natural surroundings. As long as she doesn\u2019t move or otherwise draw attention to herself, mundane attempts to find or track her fail automatically. A mortal hunter with a trusty hound could walk right over the Scion\u2019s disguised back and never know she was there. Hunters of supernatural prowess fare only a little better. Those with the Epic Perception Knack Predatory Focus or a Survival Arete can attempt to track the hidden Scion\u2019s movements, their players rolling (Perception + Survival) against the hiding Scion\u2019s activation roll. Even if they get more successes than the Scion\u2019s player did, though, the hunters find only the general area in which the Scion is hiding. (They come to an area within a number of yards equal to the Scion\u2019s Legend but lose track of her unless she moves again.) Only hunters with the Supernal Hunter Knack are actually skilled enough to find a Scion who\u2019s using this Boon to hide (and only if their rolls garner more successes than the Scion\u2019s)."
+        ]
+    ],
+    "nature": "Judge",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 15,
+        "move": 9,
+        "climb": 11,
+        "jump": {
+            "horizontal": 24,
+            "vertical": 12
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 16,
+        "parry_dv": 9
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 1,
+        "animal_ken": 0,
+        "art": 3,
+        "athletics": 1,
+        "awareness": 2,
+        "brawl": 1,
+        "command": 2,
+        "control": 2,
+        "craft": 3,
+        "empathy": 1,
+        "fortitude": 3,
+        "integrity": 0,
+        "investigation": 1,
+        "larceny": 0,
+        "marksmanship": 2,
+        "medicine": 2,
+        "melee": 0,
+        "occult": 1,
+        "presence": 1,
+        "politics": 3,
+        "science": 3,
+        "stealth": 1,
+        "survival": 2,
+        "thrown": 2
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 14,
+        "lethal": 14.0,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 7,
+    "god": "Geb",
+    "pantheon": "Pesedjet",
+    "name": "\u0631\u062d\u064a\u0642 Nagy"
+}

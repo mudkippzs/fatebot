@@ -1,0 +1,313 @@
+{
+    "attributes": {
+        "stre": 5,
+        "dex": 9,
+        "sta": 5,
+        "cha": 7,
+        "man": 9,
+        "app": 7,
+        "per": 7,
+        "inte": 7,
+        "wits": 7
+    },
+    "epic_attributes": {
+        "epic_stre": 4,
+        "epic_dex": 4,
+        "epic_sta": 3,
+        "epic_cha": 1,
+        "epic_man": 3,
+        "epic_app": 3,
+        "epic_per": 7,
+        "epic_int": 5,
+        "epic_wits": 4
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        0,
+        1,
+        0,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Raise Your Glass",
+            "description": [
+                "A Scion with this Knack isn\u2019t just a power drinker, he takes power from drink. Once per scene, the Scion can restore a spent Legend point by downing a single serving of alcohol: a shot of hard liquor, a bottle or can of beer, a large glass of wine or a flagon of mead, for instance. To gain the Legend, the Scion must down the drink quickly and with at least a bit of flair. Nursing a beer for an hour isn\u2019t worth Legend, though downing a pint of ale in one long pull and slamming the tankard down on the bar might be. Effectively, the character must turn drinking into a stunt performed for no purpose except to impress onlookers. This Knack does not protect the Scion from the normal effects of consuming alcohol, including any drugs or poisons the beverage might contain. In fact, activating this Knack bars a Scion from using his Epic Stamina to resist intoxication. Only normal Stamina applies. Also, characters cannot double-dip for Legend by taking a drink as part of a stunt performed for some other purpose (such a draining a mug of beer then throwing the mug at an enemy\u2019s head as a distraction before an attack).",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Extended Youth",
+            "description": [
+                "At the physical age at which the character takes on this Knack, her body no longer physically or visibly ages. Her hair doesn\u2019t turn gray or thin out, her skin doesn\u2019t wrinkle, she doesn\u2019t get liver spots, nothing sags due to gravity. Until the character becomes a God, she looks like she looked at that mortal age. (Taking this Knack after the character becomes a God would, admittedly, be a little silly.)",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Holy Fortitude",
+            "description": [
+                "The character is the epitome of the holy ascetic. The periods for which she is able to go without food, water and sleep all double. The amount of time she is able to work at a strenuous task without stopping also doubles.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Raging Bull",
+            "description": [
+                "Like the eponymous boxer who just becomes more dangerous after taking a few punches, the Scion turns into a devastating fighting machine once she\u2019s wounded. Her body releases adrenalin and more exotic substances, firing her up to greater heights of fury. With this Knack active, the Scion gains bonuses from her wounds instead of penalties. Thus, if she\u2019s filled in the first four boxes of her health levels, the Scion gains a +2 bonus on all of her appropriate rolls instead of taking the normal -2 penalty. Even if her Epic Stamina would obviate the penalty in whole or in part, she still gains the full bonus. Scions whose Epic Stamina grants them additional health levels count those boxes as having a -4 penalty (and thus a +4 bonus for purposes of this Knack). Furthermore, every time a Scion using Raging Bull suffers an injury (be it a single level of bashing damage or ten levels of aggravated damage), the player may choose to spend one point of Legend to restore one expended point of Willpower. Activating this Knack costs three points of Legend. Its effects last for one scene.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Regeneration",
+            "description": [
+                "Prerequisite Knack: Self-Healing (Scion: Hero, p. 129) Regeneration repairs the severe damage that\u2019s too serious for its prerequisite Knack to heal. For a point of Legend, the Scion can automatically heal a single level of aggravated damage. With this Knack, he can also perform such miraculous feats as regenerating a destroyed limb, extremity or eye. Doing so costs one Legend point per body part so restored.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Solipsistic Well\u2013Being",
+            "description": [
+                "The philosophy of solipsism holds that only the self exists. Accordingly, if a solipsist isn\u2019t aware of something, that something doesn\u2019t exist. With this Knack, a Scion applies this odd philosophy to damage that surprises her. For a single attack that the Scion doesn\u2019t see, hear or otherwise perceive coming, the Scion can spend a point of Legend and a point of Willpower to completely ignore it as if it never happened (thereby suffering no damage from it). Of course the attack does actually happen\u2014any ammunition used is spent, onlookers might be covered with the Scion\u2019s blood, the would-be assassin might be standing right there holding a dripping knife\u2014but such concerns are immaterial to the Scion victim. The Scion can use this Knack only once per scene.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Earth Travel",
+            "Dice Pool: None \nCost: 1 Legend \nThe Scion can reflexively sink into the bare earth or stone or metal and move through it like a swimmer through water. The Scion can move only through a volume of earth large enough to accommodate his entire body. Also, unless the Scion has Safely Interred (Earth \u2022), he can remain within the earth for only as long as he can hold his breath. If he stays under longer, he begins to drown. While he\u2019s under, the Scion instinctively knows his way to the nearest air."
+        ],
+        [
+            "Seta Amesha Spenta (Asha \u2022\u2022\u2022\u2022\u2022 \u2022\u2022\u2022\u2022)",
+            "Dice Pool: Integrity + Legend \nCost: 15 Legend \nThis Boon acts the same as the previous Boon, except that once per scene, the Scion may now call three Amesha Spentas at once to help her. The Scion also now has access to all six of the Amesha Spentas."
+        ],
+        [
+            "Humata (Asha \u2022)",
+            "Dice Pool: None \nCost: 1+ Legend \nUpon purchasing this Boon, the Scion chooses one of the three attribute categories (Mental, Social or Physical) to associate with this power. Thereafter, the Scion can invoke the principle of Humata (Good Thoughts) and call upon greater reserves of power. The Scion gains a single \u201cWild Card\u201d dot of Epic Attributes, which she may apply to any Attribute within her chosen category. This may raise an Epic Attribute beyond what the character\u2019s Legend rating allows. The character cannot use Humata multiple times to increase an Epic Attribute by more than one, or to increase any other Epic Attributes. Nor does the temporary dot of Epic Attribute grant an additional Knack. Humata (and its successor Boons) cannot raise an Epic Attribute above 10 dots. \nInvoking Humata costs as many Legend points as the final value of the chosen Epic Attibute. The effect lasts for a scene, and cannot be changed until the scene ends. \n Example: A Scion of Anahita has an Epic Intelligence of 2, no Epic Wits, a Legend of 3 and Humata associated with Mental Attributes. She could spends 3 points of Legend and increases her Epic Intelligence to 3, ignoring that her Legend is too low for that rating; or, she could spend 1 Legend to gain one dot of Epic Wits for the rest of the scene."
+        ],
+        [
+            "Imprisoning Crystal",
+            "Dice Pool: Strength + Craft \nCost: 5 Legend, +1 Legend per Legend dot of the target \nA massive shard of crystal coalesces around the Scion\u2019s target. If the player\u2019s (Strength + Craft) roll bests the opponent\u2019s (Strength + Fortitude + Legend), then the opponent becomes encased in a clear, translucent, many-faceted shard of crystal. This prison holds the opponent in place but also renders it immune to physical attack. Unless something manages to penetrate the crystal, the occupant, in stasis, remains unaffected."
+        ],
+        [
+            "Earth Body",
+            "Dice Pool: None \nCost: 1 Legend or (3 Legend + 1 Willpower) \nThe Scion slams his fists together and calls out the name of a type of stone or metal, while his player spends the points and makes the roll. (It doesn\u2019t matter which stone or metal it is, except aesthetically.) When he does so, his body instantly changes into a statue made of that material. Becoming a statue thus offers an all-purpose Hardness value equal to the character\u2019s Legend, and adds a like value to his bashing and lethal soak. The transformation also adds 15 pounds per dot of Legend he has to the character\u2019s weight. He can still move and support his weight despite what limits his Strength might impose, but structures and other people might not be able to do so as easily. This transformation lasts for one scene at most."
+        ],
+        [
+            "Amesha Spenta Yasht (Asha \u2022\u2022\u2022\u2022 To \u2022\u2022\u2022\u2022\u2022 \u2022\u2022)",
+            "Dice Pool: Charisma + Integrity \nCost: 1 Willpower + 5 Legend \nThe Amesha Spenta are six principles that represent aspects of the old Persian understanding of the World. For each level of this Boon, the Scion selects an additional Amesha Spenta. \nA mystic aura surrounds a Scion who invokes an Amesha Spenta. The Scion gains a benefit to one of her purviews. If the Scion currently lacks a suitable Birthright for channeling that purview, she can invoke the Boons she knows anyway, at no penalty. (She still needs to own a suitable Birthright and learn Boons as normal: Amesha Spenta Yasht merely offers a chance to channel the purview if the Birthright is unavailable.) If the Scion has her Birthright, then she gains bonus dice equal to her Legend on rolls to activate Boons from that purview. \nThe Scion may only invoke one aura per scene, but the Boon lasts for the remainder of the scene or until the Scion chooses to end it. \n\u2022 Ameretat \u2014 The Amesha Spenta of Eternal Life. Associated with all plant life, this Amesha Spenta manifests as a faint shimmer of a green aura surrounding the Scion, twisting at the edges like a vine\u2019s tendrils. Ameretat is associated with the purview of Fertility. \n\u2022 Armaiti \u2014 The Amesha Spenta of Holy Devotion. Armaiti is associated with the earth, and appears as a brown or beige aura around the Scion, crumbling at the edges into motes that fall and swirl back into the aura like a trickle of sand. Armaiti is associated with the purview of Earth. \n\u2022 Asha Vahishta \u2014 The Amesha Spenta of Best Truth. A red-orange aura flares to life around the Scion, flickering at the edges like flames. Asha Vahishta is associated with the purview of Fire. \n\u2022 Haurvetat \u2014 The Amesha Spenta of Perfect Wholeness. Associated with the waters of the world, this Amesha Spenta manifests as a light blue aura in constant motion, flowing smoothly across the Scion\u2019s features. Haurvetat is associated with the purview of Water. \n\u2022 Kshathra \u2014 The Amesha Spenta of Righteous Dominion. Kshathra is associated with the sky and metals, and appears as a silver-white aura that flashes with angles and edges. Kshathra is associated with the purview of Sky. \n\u2022 Vohu Manah \u2014 The Amesha Spenta of Good Wisdom. No aura appears, but the Scion\u2019s features take an ever-changing animalistic cast \u2014 her eyes might become cat-like one moment, or her skin may seem scaled the next. Vohu Manah is associated with the Animal purview."
+        ],
+        [
+            "Safely Interred",
+            "Dice Pool: None \nCost: None \nWhether the character is caught up in a landslide, buried in a shallow grave by the roadside or trapped in the rubble of a collapsing building, he need not fear the earth\u2019s embrace as long as he has his Earth Birthright. No amount of collapsing rubble can break the Scion\u2019s bones (or the Birthright itself), and he won\u2019t suffocate no matter how much dirt piles onto him. If he lacks the strength to free himself, however, he does run the risk of either starving to death or dying of thirst if no one digs him out. Yet, it would not be the earth that kills him, but his own lack of fortitude."
+        ],
+        [
+            "Earth Travel",
+            "Dice Pool: None \nCost: 1 Legend \nThe Scion can reflexively sink into the bare earth or stone or metal and move through it like a swimmer through water. The Scion can move only through a volume of earth large enough to accommodate his entire body. Also, unless the Scion has Safely Interred (Earth \u2022), he can remain within the earth for only as long as he can hold his breath. If he stays under longer, he begins to drown. While he\u2019s under, the Scion instinctively knows his way to the nearest air."
+        ],
+        [
+            "Earth Travel",
+            "Dice Pool: None \nCost: 1 Legend \nThe Scion can reflexively sink into the bare earth or stone or metal and move through it like a swimmer through water. The Scion can move only through a volume of earth large enough to accommodate his entire body. Also, unless the Scion has Safely Interred (Earth \u2022), he can remain within the earth for only as long as he can hold his breath. If he stays under longer, he begins to drown. While he\u2019s under, the Scion instinctively knows his way to the nearest air."
+        ],
+        [
+            "Imprisoning Crystal",
+            "Dice Pool: Strength + Craft \nCost: 5 Legend, +1 Legend per Legend dot of the target \nA massive shard of crystal coalesces around the Scion\u2019s target. If the player\u2019s (Strength + Craft) roll bests the opponent\u2019s (Strength + Fortitude + Legend), then the opponent becomes encased in a clear, translucent, many-faceted shard of crystal. This prison holds the opponent in place but also renders it immune to physical attack. Unless something manages to penetrate the crystal, the occupant, in stasis, remains unaffected."
+        ],
+        [
+            "Echo Sounding",
+            "Dice Pool: Perception + Awareness \nCost: None \nBy stomping or otherwise knocking on the earth, the Scion gets a sense of its general composition and density, as well as finding holes or caves beneath the surface. If he\u2019s looking for something specific in the earth\u2014such as gold, oil or a human body\u2014this Boon reveals its distance from him and depth from the epicenter at the expense of the other information. The Boon works only at ground level or on the up-thrust surface of a mountainside, but it works through floors and pavement. It gives the Scion a semispherical reading with a radius equal to one half mile per dot of Legend."
+        ],
+        [
+            "Earth Body",
+            "Dice Pool: None \nCost: 1 Legend or (3 Legend + 1 Willpower) \nThe Scion slams his fists together and calls out the name of a type of stone or metal, while his player spends the points and makes the roll. (It doesn\u2019t matter which stone or metal it is, except aesthetically.) When he does so, his body instantly changes into a statue made of that material. Becoming a statue thus offers an all-purpose Hardness value equal to the character\u2019s Legend, and adds a like value to his bashing and lethal soak. The transformation also adds 15 pounds per dot of Legend he has to the character\u2019s weight. He can still move and support his weight despite what limits his Strength might impose, but structures and other people might not be able to do so as easily. This transformation lasts for one scene at most."
+        ],
+        [
+            "Earth Travel",
+            "Dice Pool: None \nCost: 1 Legend \nThe Scion can reflexively sink into the bare earth or stone or metal and move through it like a swimmer through water. The Scion can move only through a volume of earth large enough to accommodate his entire body. Also, unless the Scion has Safely Interred (Earth \u2022), he can remain within the earth for only as long as he can hold his breath. If he stays under longer, he begins to drown. While he\u2019s under, the Scion instinctively knows his way to the nearest air."
+        ],
+        [
+            "Amesha Spenta (Asha \u2022\u2022\u2022\u2022\u2022 \u2022\u2022\u2022)",
+            "Dice Pool: Integrity + Legend \nCost: 10 Legend \nWhen the Scion uses this Boon, one of her chosen Amesha Spentas manifests to assist her. The aura of the Amesha Spenta flows off her body to coalesce as an abstract humanoid figure formed of the physical principle of the Amesha Spenta (i.e., fire for Asha Vahishta, water for Haurvetat, etc.) \nThe Amesha Spenta has all the Scion\u2019s dice pools and can use all the Boons that the Scion knows from the relevant purview. It acts by the Scion\u2019s will, but takes its own actions. As an abstract concept given form, though, the mystic helper cannot do anything but move and use Boons. It also uses the Scion\u2019s Legend to power those Boons. No mundane force can harm an Amesha Spenta, but attacks backed by Epic Attributes, Arete, or other supernatural means deal damage as normal. The Amesha Spenta has soak equal to the Scion\u2019s natural soak (including Epic Stamina) and it has five \u20130 Health levels. \nThis Boon may be used once per scene. The Amesha Spenta lasts for one minute per success on the activation roll. \nThe Scion may also select a fifth Amesha Spenta to associate with Asha, as per the previous Boon."
+        ],
+        [
+            "Humata (Asha \u2022)",
+            "Dice Pool: None \nCost: 1+ Legend \nUpon purchasing this Boon, the Scion chooses one of the three attribute categories (Mental, Social or Physical) to associate with this power. Thereafter, the Scion can invoke the principle of Humata (Good Thoughts) and call upon greater reserves of power. The Scion gains a single \u201cWild Card\u201d dot of Epic Attributes, which she may apply to any Attribute within her chosen category. This may raise an Epic Attribute beyond what the character\u2019s Legend rating allows. The character cannot use Humata multiple times to increase an Epic Attribute by more than one, or to increase any other Epic Attributes. Nor does the temporary dot of Epic Attribute grant an additional Knack. Humata (and its successor Boons) cannot raise an Epic Attribute above 10 dots. \nInvoking Humata costs as many Legend points as the final value of the chosen Epic Attibute. The effect lasts for a scene, and cannot be changed until the scene ends. \n Example: A Scion of Anahita has an Epic Intelligence of 2, no Epic Wits, a Legend of 3 and Humata associated with Mental Attributes. She could spends 3 points of Legend and increases her Epic Intelligence to 3, ignoring that her Legend is too low for that rating; or, she could spend 1 Legend to gain one dot of Epic Wits for the rest of the scene."
+        ],
+        [
+            "Earth Body",
+            "Dice Pool: None \nCost: 1 Legend or (3 Legend + 1 Willpower) \nThe Scion slams his fists together and calls out the name of a type of stone or metal, while his player spends the points and makes the roll. (It doesn\u2019t matter which stone or metal it is, except aesthetically.) When he does so, his body instantly changes into a statue made of that material. Becoming a statue thus offers an all-purpose Hardness value equal to the character\u2019s Legend, and adds a like value to his bashing and lethal soak. The transformation also adds 15 pounds per dot of Legend he has to the character\u2019s weight. He can still move and support his weight despite what limits his Strength might impose, but structures and other people might not be able to do so as easily. This transformation lasts for one scene at most."
+        ],
+        [
+            "Ashavan (Asha \u2022\u2022\u2022\u2022\u2022 \u2022\u2022\u2022\u2022\u2022)",
+            "Dice Pool: None \nCost: 1 Willpower + 15 Legend \nWith this Boon, the Scion calls upon the fundamental existential principle of Asha. She may create her own, seventh Amesha Spenta, for whatever All-Purpose Purview she wants: Chaos, Health, War, whatever. Yazata traditionally choose Sun, to improve their connection to Divine Light, or Stars, the purview of cosmic order \u2014 but they can choose anything. However, a character can only do this once: She cannot go on to create further Amesha Spentas. A Yazata\u2019s personal Amesha Spenta has the same effects as the basic six, with the same cost to manifest. What\u2019s more, the Yazata may now spend 15 Legend and 1 Willpower to evoke all seven of her Amesha Spentas as helpers"
+        ],
+        [
+            "Rust/Shine",
+            "Dice Pool: None \nCost: 2 Legend \nWith a pass of the hand, the Scion causes a coating of rust or oxidization to form on a metallic object or conversely removes such a coating, restoring an item to its untarnished form. A rusted metal object loses durability and functionality. Its Hardness decreases to half normal, and if the object is a precision item (like a gun), it has a 50% chance to malfunction any time it\u2019s used. Restoring a rusted item to its original state wipes away all traces of age and even reverses the effects, so that a wholly rusted-out car body (for instance) would be as good as new. The rusted parts don\u2019t just disappear, they reverse the process and become solid metal again. Invoking this power on an item requires the Scion to physically touch or manipulate the object, and it has no effect on metals that don\u2019t rust (such as gold) or upon Relics."
+        ],
+        [
+            "Rust/Shine",
+            "Dice Pool: None \nCost: 2 Legend \nWith a pass of the hand, the Scion causes a coating of rust or oxidization to form on a metallic object or conversely removes such a coating, restoring an item to its untarnished form. A rusted metal object loses durability and functionality. Its Hardness decreases to half normal, and if the object is a precision item (like a gun), it has a 50% chance to malfunction any time it\u2019s used. Restoring a rusted item to its original state wipes away all traces of age and even reverses the effects, so that a wholly rusted-out car body (for instance) would be as good as new. The rusted parts don\u2019t just disappear, they reverse the process and become solid metal again. Invoking this power on an item requires the Scion to physically touch or manipulate the object, and it has no effect on metals that don\u2019t rust (such as gold) or upon Relics."
+        ],
+        [
+            "Landslide",
+            "Dice Pool: Strength + Craft \nCost: 1 Willpower + 3 Legend \nMoving his arms like the conductor of a symphony orchestra, the Scion can mentally change the shape of any bare earth or stone within his line of sight, out to a range of 50 yards per dot of Legend he has. He can make jagged spars of stone thrust up from the surface, or he can open yawning crevices beneath the feet of his enemies. He can hollow out a depression suitable for the site of a mass grave or raise an earthen wall to keep hooligans at bay. He can detach a sheet of earth from a hillside to send it crashing down, or he can halt such a landslide in its tracks and force it to rejoin the earth beneath it."
+        ]
+    ],
+    "nature": "Pacifist",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 22,
+        "move": 16,
+        "climb": 12,
+        "jump": {
+            "horizontal": 30,
+            "vertical": 15
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 25,
+        "parry_dv": 15
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 3,
+        "animal_ken": 2,
+        "art": 2,
+        "athletics": 3,
+        "awareness": 3,
+        "brawl": 2,
+        "command": 0,
+        "control": 0,
+        "craft": 0,
+        "empathy": 0,
+        "fortitude": 3,
+        "integrity": 3,
+        "investigation": 2,
+        "larceny": 1,
+        "marksmanship": 2,
+        "medicine": 3,
+        "melee": 2,
+        "occult": 3,
+        "presence": 1,
+        "politics": 3,
+        "science": 3,
+        "stealth": 0,
+        "survival": 1,
+        "thrown": 0
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 9,
+        "lethal": 8.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 9,
+    "god": "Zam",
+    "pantheon": "Yazata",
+    "name": "\u0646\u0627\u0647\u062f \u0627\u0644\u062a\u0648\u064a\u062a\u064a"
+}

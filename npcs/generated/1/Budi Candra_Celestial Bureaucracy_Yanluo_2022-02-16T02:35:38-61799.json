@@ -1,0 +1,209 @@
+{
+    "attributes": {
+        "stre": 1,
+        "dex": 1,
+        "sta": 1,
+        "cha": 1,
+        "man": 1,
+        "app": 1,
+        "per": 1,
+        "inte": 1,
+        "wits": 1
+    },
+    "epic_attributes": {
+        "epic_stre": 0,
+        "epic_dex": 0,
+        "epic_sta": 5,
+        "epic_cha": 0,
+        "epic_man": 0,
+        "epic_app": 2,
+        "epic_per": 1,
+        "epic_int": 0,
+        "epic_wits": 0
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        3,
+        0,
+        1,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Hard Sell",
+            "description": [
+                "Prerequisite Knack: Overt Order (Scion: Hero, p. 131) Like the Overworld\u2019s own Amway salesman, the demigod can convince a group of people to perform one particular action that they would not otherwise be inclined to perform. That is, the Scion can issue an overt order (per the eponymous prerequisite Knack) to a group of people, who must be able to hear him clearly without him using any amplifying or broadcasting equipment. The order must be simple, and it must be something the listeners can carry out in one action while they are within the Scion\u2019s presence. The order can be something instant like, \u201cEverybody get outside!\u201d or, \u201cArrest that man!\u201d It can also be something sneaky like, \u201cBuy my book,\u201d or, \u201cRegister for next month\u2019s seminar by paying me $1,000.\u201d The same restrictions that apply to how loosely a victim can interpret the Overt Order Knack apply to this Knack.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Subliminal Warning",
+            "description": [
+                "Whenever the Scion enters an area where an ambush is waiting, even if he has no reason to suspect he\u2019s in danger, certain tiny clues set his subconscious on edge, preparing him for an attack. When the attacker \ufb01nally springs the surprise assault, the Scion hears the tiniest rustle of fabric, sees the slightest \ufb02icker in his peripheral vision or feels the gentlest twitch of displaced air, and the clues he already noticed all add up. As a result, the Scion gains an extra number of dice equal to his Epic Perception on the standard (Wits + Awareness) roll to detect the ambush.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Five-Cycle Augmentation",
+            "Dice Pool: None \nCost: 1 Legend \nThe first art of Taiyi is learning to pass Qi to another being to augment his own supernatural force. The Scion concentrates, touches another character who is using a Boon or spell, and spends a point of Legend. This enhances the target character\u2019s use of the Boon or spell as if his Legend were one higher than its actual value. For instance, a dice pool that included the character\u2019s Legend would gain one die, or the recipient\u2019s Legend would be treated as one higher than its real value (for purposes of Boons whose effectiveness depends on the attacker\u2019s Legend being equal or higher than his target\u2019s)."
+        ],
+        [
+            "Death Senses",
+            "Dice Pool: None \nCost: None \nThe Scion can see ghosts even when those ghosts don\u2019t choose to manifest. To her, ghosts are livid, physical presences, sensible to feeling as to sight (as well as smell and hearing). She still can\u2019t harm the fragile ectoplasmic shell of a ghost who hasn\u2019t manifested, however. The sense of touch this Boon grants is illusory. If the Scion tries to exert enough pressure to cause damage or restrain the ghost, her hand passes through it."
+        ]
+    ],
+    "nature": "Gambler",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 7,
+        "move": 1,
+        "climb": 1,
+        "jump": {
+            "horizontal": 6,
+            "vertical": 3
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 4,
+        "parry_dv": 3
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 0,
+        "animal_ken": 3,
+        "art": 3,
+        "athletics": 2,
+        "awareness": 1,
+        "brawl": 2,
+        "command": 3,
+        "control": 1,
+        "craft": 1,
+        "empathy": 2,
+        "fortitude": 2,
+        "integrity": 3,
+        "investigation": 3,
+        "larceny": 2,
+        "marksmanship": 2,
+        "medicine": 0,
+        "melee": 2,
+        "occult": 3,
+        "presence": 3,
+        "politics": 3,
+        "science": 3,
+        "stealth": 1,
+        "survival": 2,
+        "thrown": 2
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 12,
+        "lethal": 17.0,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 1,
+    "god": "Yanluo",
+    "pantheon": "Celestial Bureaucracy",
+    "name": "Budi Candra"
+}

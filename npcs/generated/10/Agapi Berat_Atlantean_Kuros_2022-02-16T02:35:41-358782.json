@@ -1,0 +1,423 @@
+{
+    "attributes": {
+        "stre": 7,
+        "dex": 11,
+        "sta": 7,
+        "cha": 9,
+        "man": 11,
+        "app": 9,
+        "per": 9,
+        "inte": 11,
+        "wits": 7
+    },
+    "epic_attributes": {
+        "epic_stre": 9,
+        "epic_dex": 4,
+        "epic_sta": 3,
+        "epic_cha": 1,
+        "epic_man": 7,
+        "epic_app": 11,
+        "epic_per": 4,
+        "epic_int": 6,
+        "epic_wits": 3
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        1,
+        1,
+        0,
+        0
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Psychic Profiler",
+            "description": [
+                "Within seconds, the character with this Knack can size up a character with a lesser Legend rating than his own. Just by looking at the person, he can tell her weight, height, age, sex (if it\u2019s unclear to casual inspection) and whether she has a divine heritage or not. With just a few lines of conversation, he can also tell the subject\u2019s Nature, calling and primary Virtue (if any). Finally, if the subject is Fatebound to someone and is acting out a Fatebound Role, he can figure out what that role is. He might not know to whom it applies, but he can probably figure it out from context if he watches the person long enough.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Fight With Your Head",
+            "description": [
+                "A Scion with this Knack possesses a truly superhuman sense of strategy. He anticipates an enemy\u2019s evasions, counter-strategies and gambits with ease. He can reason around a berserker\u2019s shock and awe or calculate a dodging foe\u2019s final location to slip past that foe\u2019s defenses. He can find just the right angle to slip from an opponent\u2019s grasp, and he can see through feints and other ploys with ease. The Scion activates this Knack by selecting an opponent and spending one point of Legend. For the rest of the scene, he counteracts the automatic successes, bonus dice and similar benefits conferred by other Knacks and Boons. The total number of such bonuses counteracted cannot exceed the Scion\u2019s automatic success from Epic Intelligence. This Knack can negate bonuses from Knacks and Boons, as well as automatic successes and bonuses from Epic Attributes themselves. It does not affect stunt bonuses or extra dice from invoking Virtues. If an opponent receives more bonuses than a Scion can counteract, the user of this Knack picks what he will negate. This Knack might seem an odd one to include in a book about the Norse and their Gods. In truth, despite their famed fury and aggression, Norse warriors valued a cunning fighter at least as much as a frenzied powerhouse.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Whirlwind Shield",
+            "description": [
+                "Prerequisite Knack: Untouchable Opponent (Scion: Hero, p. 128) Normally, no mortal or Scion can parry thrown attacks without a stunt, nor can one parry bullets at all. When a Scion has this Knack, however, he becomes the whirlwind for which it is named and can defend himself better than mortals or even his Scion peers. Upon activating the Knack, the Scion can apply his full Parry DV to attacks made with thrown items (javelins, chakrams, sling stones, etc.) or with bows or crossbows. He can knock the projectiles aside or snag them out of the air armed or unarmed, almost without thinking about it. With a stunt, the character can even try to parry bullets. He can do so only with some sort of object that can actually withstand a bullet\u2019s impact, though\u2014such as an iron skillet, a Birthright gauntlet or the side of his own gun\u2019s barrel. Activating this Knack costs one point of Legend. It lasts for one scene.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Monkey in the Middle",
+            "description": [
+                "When multiple attackers gang up on a single opponent, their combined efforts can disconcert and intimidate even the best trained martial artist. A character with this Knack, however, keeps his cool despite how high the odds might be stacked against him. As a result, he suffers no coordinated attack penalty or onslaught penalty in combat when multiple attackers try to rush him all at once.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Roll With It",
+            "description": [
+                "The character\u2019s body is so lithe and supple or so unnaturally malleable that she can bend like the greenest reed and rarely ever break. In Step Six of attack resolution (see Scion: Hero, p. 194), the player can spend one point of Legend and add a value equal to her dots in Epic Dexterity to any soak value she has that is above zero. That way, even if she can\u2019t get entirely out of the way of an attack, she can dissipate some of the force behind the blow and mitigate some of the damage.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Math Genius",
+            "description": [
+                "The Scion is a walking, talking calculator. She can divide up a 10-party restaurant bill so everyone pays only what they owe or calculate the standard deviation of oil prices over the last 15 years, all while holding an intense conversation about whether Republicans or Democrats are worse tippers. As long as she knows all the \ufb01gures involved, she can crunch the numbers in her head with only a moment\u2019s pause. She can also use mathematical shorthand and rapid calculation to estimate things like how many jellybeans are in a glass jar at the State Fair or how many titanspawn-possessed Civil War re-enactors are currently rushing toward her across the picnic grounds.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Social Chameleon",
+            "description": [
+                "Being thrust into a situation full of strangers who have bizarre customs and weird manners (such as a sorority house at the height of rush) can be disorienting, but the character with this Knack handles herself with remarkable aplomb. By observing the behavior of the people around her and reacting preternaturally quickly to their reactions to her behavior, she can fake like she \ufb01ts in just about anywhere, with any class of people. She still has to dress the part, and the language barrier might pose its own problems, but she won\u2019t embarrass or draw attention to herself unless she goes out of her way to do so on purpose.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Omnidexterity",
+            "description": [
+                "The Scion functionally has \u201ctwo right hands\u201d. The Scion can use either hand with equal facility and also suffers no penalties when trying to manipulate an object with his tongue or his toes; even while using some other contorted body part, the Scion suffers only half the usual penalties (rounded down) for the awkwardness of the situation. While the Scion still can\u2019t perform something physically impossible (there\u2019s no way to fit his calf muscle through the trigger guard of a pistol to fire it, for instance), just about any amount of wiggle room is sufficient for the Scion to manipulate objects in surprising ways. The Scion could hang from a tree branch by his toes (perhaps in emulation of Sun Wukong) or could use his tongue to hold a pair of probes and thereby pick a lock. If the Scion manages to gain new and different natural appendages, say by assuming the form of an octopus via the Animal Purview, then his new appendages also benefit from Omnidexterity. Artificial \u201cappendages,\u201d such as a chain or a ruler with a sticky piece of tape on the end, do not gain this benefit, although the Scion could certainly wield such a tool via his hand, foot, mouth or stranger combination of limbs."
+            ],
+            "tables": []
+        },
+        {
+            "title": "Cobra Reflexes",
+            "description": [
+                "The character is so quick on the draw that even a surprise attacker is not safe from him. If someone attacks him from surprise but the character\u2019s player fails to get enough successes on the (Wits + Awareness) roll to notice the attack coming, the Scion may still attack his attacker back at the same time. This counterattack is so lightning quick that it catches the attacker off guard as if he were also being caught by an unexpected attack. The Scion himself might not realize he\u2019s taken the attack action until the ambusher\u2019s attack has already hurt him.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Multitasking",
+            "description": [
+                "The Scion can carry on as many separate primarily mental activities as he has dots of Legend simultaneously and with his full attention. A Scion with Legend 6 could play a game of chess against a recognized master while also playing go against a ninth-dan professional, translating a James Joyce novel into a different language, reprogramming his computer, planning a raid against the titanspawn entrenched in the historic ruins across town and itemizing his various businesses\u2019 tax deductions for the year. The character never suffers distraction penalties for mental actions, nor are his separate simultaneous mental actions penalized as per the multiple action rules (see Scion: Hero, p. 179).",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Opening Gambit",
+            "description": [
+                "Sometimes, victory in con\ufb02ict is all about being the guy who makes the \ufb01rst move, and the Scion is usually that guy. When he joins battle, his player can either make a Join Battle roll like everyone else, or he can simply spend a point of Legend for his character to automatically go \ufb01rst in the reaction count. This Knack cannot automatically preempt an otherwise unexpected attack, though, as the character must actually be able to join battle for this Knack to function. If more than one character involved in a combat scene has this Knack, the character with the highest (Wits + Epic Wits) total goes \ufb01rst. If characters with this Knack have equal totals, default to a separate Join Battle roll to see which of them acts \ufb01rst.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Jack of All Trades",
+            "description": [
+                "If a character has no aptitude for a particular Ability (i.e., no dots in it), he cannot apply any bonus successes from his Epic Attributes to rolls that use that Ability. He simply doesn\u2019t understand enough about what he\u2019s doing to apply his full talent. With this Knack, however, the character gets a feel for any activity remarkably quickly. As such, he can apply some of his appropriate Epic Attribute bonus to the appropriate roll, despite the fact that he has no dots in the relevant Ability. In such a circumstance, a player can enhance a roll with this Knack and add a number of bonus successes from his character\u2019s Epic Attribute equal to the number of dots he has in the Epic Attribute. Enhancing a roll with this Knack\u2019s benefit costs two Legend points.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Meditative Focus",
+            "description": [
+                "Whether she\u2019s hunkered down behind a burning car in a war zone, caught out on the yard during a prison riot, stranded on the crowded deck of a storm-tossed ship or just mall-walking during the frenzied heights of the Christmas rush, the character never loses her cool. No matter what\u2019s happening, she keeps her mind on what she\u2019s doing while maintaining suf\ufb01cient vigilance to avoid getting caught up in the hubbub all around her. As such, the character is able to eliminate one point of environmental distraction penalty per dot she has of Epic Wits.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Escape Artist",
+            "description": [
+                "The Scion can somehow slip out of the tightest bonds, the most cunning snares and even her opponents\u2019 very \ufb01ngers. Whether she\u2019s tied up and left to stew in her own juices or she\u2019s wrapped in a clinch with a snarling berserker, she rarely remains bound for long. When someone attacks her character with a successful clinch, the Scion\u2019s player not only adds her Epic Dexterity automatic successes to her contested (Dexterity + Brawl) to escape, but she also adds an additional automatic success for every dot of Epic Dexterity her character has. Should the Scion victim\u2019s player succeed on this resistance roll, the Scion slips free of her opponent\u2019s grasping limbs and well out of his reach. Also, should a character be physically restrained\u2014tied up, handcuffed, strapped down, whatever\u2014she can slip her bonds with a divine grace that is nothing short of baf\ufb02ing. The player need only spend a point of Legend, and her character\u2019s handcuffs come undone, her straightjacket\u2019s buckles come loose, or her ropes slough off like a snake\u2019s dried-out skin. The Scion can\u2019t escape thus in view of witnesses, however, unless said witnesses are members of her own heroic Band or are Fatebound to her. Remote witnesses watching via camera transmission don\u2019t hinder the effect, but even close scrutiny of such footage doesn\u2019t reveal how the Scion escaped her bonds. She just did.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Speed Reader",
+            "description": [
+                "The character can read and comprehend with perfect clarity an entire block of text\u2014such as two facing pages of an open book\u2014in the amount of time it takes her to blink. She need only be able to see the entire block clearly enough to focus her eyes on any given word in it.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Don\u2019t Read The Manual",
+            "description": [
+                "The Scion sizes up a single item and then puts together an intuitive judgment of how to use it. No matter how complex the item, the Scion can grasp at least the rudiments of its functions. After spending a single point of Legend, the Scion can use the item for the rest of the scene as if the character had one dot in the appropriate Ability. The Scion could, for instance, glance at the controls of a stealth bomber, then intuitively figure out how to get it off the ground (or land it) as if she had one dot in the Control (Jet Aircraft) Ability. Similarly, a noncombatant could pick up a weapon and fight with it as if she had one dot of the Melee Ability. This Knack has no effect if the Scion already possesses the requisite skill."
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Wind Grapple",
+            "Dice Pool: Wits + Brawl \nCost: 1 Legend per action \nBy directing freak gusts of wind and the airborne detritus that collects in them, the Scion can wrestle with opponents without even touching them. Doing so requires one Legend point per action, and the Scion\u2019s player rolls (Wits + Brawl) to direct the winds. This roll functions just as the normal roll for a clinch attack, contested against the defender\u2019s efforts as normal. If his attack succeeds, the Scion may do with his victim as any successful grappler can do with a subdued victim, from pinning him to crushing him to throwing him. The attacker cannot apply any bonus dice or Knacks from his Epic Strength in these grappling maneuvers."
+        ],
+        [
+            "Create Air",
+            "Dice Pool: Strength + Fortitude \nCost: 5 Legend \nA God with this Boon can do one of two things, either of which costs five Legend points. First, he can perform the eponymous action, surrounding himself with pure, breathable air. With five Legend, the God can breathe out 1,000 cubic yards of pure air per dot of Legend he has. (At the minimum, that\u2019s a sphere with a roughly 13-yard radius or a cube with roughly 21-yard sides.) This volume moves with the God, taking whatever shape he desires, and it remains breathable and clean for a number of hours equal to the successes on the activation roll. Using this Boon this way can also accomplish such feats as clearing an area of smoke or poisonous gas, creating a bubble of breathable air underwater or busting the seams on an airtight cell."
+        ],
+        [
+            "Sky's Grace",
+            "Dice Pool: None \nCost: 1 Legend \nBy spending a point of Legend, the Scion takes no damage from falls of any height. Alternatively, the Scion can use that point to double the distance he can jump either straight up or horizontally. If the Scion has the Holy Bound Knack\u2014as well as this Boon, the base distance he can leap doubles, then doubles again if the player spends a point of Legend."
+        ],
+        [
+            "Levin Fury",
+            "Dice Pool: Wits + Marksmanship \nCost: 3 Legend per attack \nThis Boon calls upon the power of lightning, either from the sky or from the Scion himself. To use it, the Scion raises a hand heavenward or points his Birthright weapon at his intended foe. At his behest, lightning either lances down from the sky or launches from the weapon itself to smite the victim. Each such bolt inflicts 15 dice of lethal damage plus extra successes on the Marksmanship roll. An attack that inflicts damage also inflicts knockdown or knockback automatically."
+        ],
+        [
+            "Cloud Sculptor",
+            "Dice Pool: Dexterity + Art \nCost: 1 Legend \nThe Scion with this Boon is an artist with all of the sky as his canvas. If he can see clouds in the sky from his current vantage, he can shape and sculpt them with the motions of his hands. Many such artists prefer to sculpt clouds while looking through a window, as the glass pane gives them something solid to bear down on and trace out their sky designs. The Scion can\u2019t add or erase clouds, but he can stretch thick clouds thin or compress many wispy clouds into one large, billowy mass."
+        ],
+        [
+            "Levin Fury",
+            "Dice Pool: Wits + Marksmanship \nCost: 3 Legend per attack \nThis Boon calls upon the power of lightning, either from the sky or from the Scion himself. To use it, the Scion raises a hand heavenward or points his Birthright weapon at his intended foe. At his behest, lightning either lances down from the sky or launches from the weapon itself to smite the victim. Each such bolt inflicts 15 dice of lethal damage plus extra successes on the Marksmanship roll. An attack that inflicts damage also inflicts knockdown or knockback automatically."
+        ],
+        [
+            "Divine Threnody",
+            "Dice Pool: Intelligence + Art \nCost: 2 Legend \nAn oft-overlooked element of the Sky Purview is the fact that air carries sound. The most graphic example of this is thunder, which is commonly associated with sky gods; wind, too, is said to howl or moan, as if the sky itself has a voice. A demigod who delves into the nature of thunder and sound can learn to manipulate the currents of air that carry sound and thereby enhance or dampen sonic effects."
+        ],
+        [
+            "Sky's Grace",
+            "Dice Pool: None \nCost: 1 Legend \nBy spending a point of Legend, the Scion takes no damage from falls of any height. Alternatively, the Scion can use that point to double the distance he can jump either straight up or horizontally. If the Scion has the Holy Bound Knack\u2014as well as this Boon, the base distance he can leap doubles, then doubles again if the player spends a point of Legend."
+        ],
+        [
+            "Storm Augmentation",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend per attack \nFor a number of actions equal to the successes the player rolled to activate the Boon, jagged threads of lightning coil around the Scion\u2019s fists or weapon, or skirling winds sweep around him as he moves. On any successful attack he makes in the subsequent duration, he may spend a point of Legend to make thunder crash or winds gust violently. Doing so automatically doubles any knockback the attack applies. Furthermore, if the attack inflicts even one level of damage, have the victim\u2019s player roll (Stamina + Fortitude) against a difficulty equal to (raw damage \u2013 victim\u2019s Legend). The minimum difficulty for this roll is 1. If the victim\u2019s player fails this roll, the victim is stunned, losing two dice from all non-reflexive rolls until the attacker\u2019s next action."
+        ],
+        [
+            "Levin Fury",
+            "Dice Pool: Wits + Marksmanship \nCost: 3 Legend per attack \nThis Boon calls upon the power of lightning, either from the sky or from the Scion himself. To use it, the Scion raises a hand heavenward or points his Birthright weapon at his intended foe. At his behest, lightning either lances down from the sky or launches from the weapon itself to smite the victim. Each such bolt inflicts 15 dice of lethal damage plus extra successes on the Marksmanship roll. An attack that inflicts damage also inflicts knockdown or knockback automatically."
+        ],
+        [
+            "Storm Augmentation",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend per attack \nFor a number of actions equal to the successes the player rolled to activate the Boon, jagged threads of lightning coil around the Scion\u2019s fists or weapon, or skirling winds sweep around him as he moves. On any successful attack he makes in the subsequent duration, he may spend a point of Legend to make thunder crash or winds gust violently. Doing so automatically doubles any knockback the attack applies. Furthermore, if the attack inflicts even one level of damage, have the victim\u2019s player roll (Stamina + Fortitude) against a difficulty equal to (raw damage \u2013 victim\u2019s Legend). The minimum difficulty for this roll is 1. If the victim\u2019s player fails this roll, the victim is stunned, losing two dice from all non-reflexive rolls until the attacker\u2019s next action."
+        ],
+        [
+            "Cloud Sculptor",
+            "Dice Pool: Dexterity + Art \nCost: 1 Legend \nThe Scion with this Boon is an artist with all of the sky as his canvas. If he can see clouds in the sky from his current vantage, he can shape and sculpt them with the motions of his hands. Many such artists prefer to sculpt clouds while looking through a window, as the glass pane gives them something solid to bear down on and trace out their sky designs. The Scion can\u2019t add or erase clouds, but he can stretch thick clouds thin or compress many wispy clouds into one large, billowy mass."
+        ],
+        [
+            "Wind Grapple",
+            "Dice Pool: Wits + Brawl \nCost: 1 Legend per action \nBy directing freak gusts of wind and the airborne detritus that collects in them, the Scion can wrestle with opponents without even touching them. Doing so requires one Legend point per action, and the Scion\u2019s player rolls (Wits + Brawl) to direct the winds. This roll functions just as the normal roll for a clinch attack, contested against the defender\u2019s efforts as normal. If his attack succeeds, the Scion may do with his victim as any successful grappler can do with a subdued victim, from pinning him to crushing him to throwing him. The attacker cannot apply any bonus dice or Knacks from his Epic Strength in these grappling maneuvers."
+        ],
+        [
+            "Create Air",
+            "Dice Pool: Strength + Fortitude \nCost: 5 Legend \nA God with this Boon can do one of two things, either of which costs five Legend points. First, he can perform the eponymous action, surrounding himself with pure, breathable air. With five Legend, the God can breathe out 1,000 cubic yards of pure air per dot of Legend he has. (At the minimum, that\u2019s a sphere with a roughly 13-yard radius or a cube with roughly 21-yard sides.) This volume moves with the God, taking whatever shape he desires, and it remains breathable and clean for a number of hours equal to the successes on the activation roll. Using this Boon this way can also accomplish such feats as clearing an area of smoke or poisonous gas, creating a bubble of breathable air underwater or busting the seams on an airtight cell."
+        ],
+        [
+            "Sky's Grace",
+            "Dice Pool: None \nCost: 1 Legend \nBy spending a point of Legend, the Scion takes no damage from falls of any height. Alternatively, the Scion can use that point to double the distance he can jump either straight up or horizontally. If the Scion has the Holy Bound Knack\u2014as well as this Boon, the base distance he can leap doubles, then doubles again if the player spends a point of Legend."
+        ],
+        [
+            "Tornado Tamer",
+            "Dice Pool: Wits + Control \nCost: 4 Legend per dot of Epic Strength (max \u2022\u2022\u2022\u2022) \nThe Scion has a pet tornado. He captures it and puts it away when he doesn\u2019t need it; he lets it out when he does need it. When he sets it loose, it swirls and howls in front of him, ready to obey his every command\u2014yet eager to run wild if he should lose control."
+        ],
+        [
+            "Wind Grapple",
+            "Dice Pool: Wits + Brawl \nCost: 1 Legend per action \nBy directing freak gusts of wind and the airborne detritus that collects in them, the Scion can wrestle with opponents without even touching them. Doing so requires one Legend point per action, and the Scion\u2019s player rolls (Wits + Brawl) to direct the winds. This roll functions just as the normal roll for a clinch attack, contested against the defender\u2019s efforts as normal. If his attack succeeds, the Scion may do with his victim as any successful grappler can do with a subdued victim, from pinning him to crushing him to throwing him. The attacker cannot apply any bonus dice or Knacks from his Epic Strength in these grappling maneuvers."
+        ],
+        [
+            "Levin Fury",
+            "Dice Pool: Wits + Marksmanship \nCost: 3 Legend per attack \nThis Boon calls upon the power of lightning, either from the sky or from the Scion himself. To use it, the Scion raises a hand heavenward or points his Birthright weapon at his intended foe. At his behest, lightning either lances down from the sky or launches from the weapon itself to smite the victim. Each such bolt inflicts 15 dice of lethal damage plus extra successes on the Marksmanship roll. An attack that inflicts damage also inflicts knockdown or knockback automatically."
+        ],
+        [
+            "Sky's Grace",
+            "Dice Pool: None \nCost: 1 Legend \nBy spending a point of Legend, the Scion takes no damage from falls of any height. Alternatively, the Scion can use that point to double the distance he can jump either straight up or horizontally. If the Scion has the Holy Bound Knack\u2014as well as this Boon, the base distance he can leap doubles, then doubles again if the player spends a point of Legend."
+        ],
+        [
+            "Sky's Grace",
+            "Dice Pool: None \nCost: 1 Legend \nBy spending a point of Legend, the Scion takes no damage from falls of any height. Alternatively, the Scion can use that point to double the distance he can jump either straight up or horizontally. If the Scion has the Holy Bound Knack\u2014as well as this Boon, the base distance he can leap doubles, then doubles again if the player spends a point of Legend."
+        ],
+        [
+            "Wind Grapple",
+            "Dice Pool: Wits + Brawl \nCost: 1 Legend per action \nBy directing freak gusts of wind and the airborne detritus that collects in them, the Scion can wrestle with opponents without even touching them. Doing so requires one Legend point per action, and the Scion\u2019s player rolls (Wits + Brawl) to direct the winds. This roll functions just as the normal roll for a clinch attack, contested against the defender\u2019s efforts as normal. If his attack succeeds, the Scion may do with his victim as any successful grappler can do with a subdued victim, from pinning him to crushing him to throwing him. The attacker cannot apply any bonus dice or Knacks from his Epic Strength in these grappling maneuvers."
+        ],
+        [
+            "Create Air",
+            "Dice Pool: Strength + Fortitude \nCost: 5 Legend \nA God with this Boon can do one of two things, either of which costs five Legend points. First, he can perform the eponymous action, surrounding himself with pure, breathable air. With five Legend, the God can breathe out 1,000 cubic yards of pure air per dot of Legend he has. (At the minimum, that\u2019s a sphere with a roughly 13-yard radius or a cube with roughly 21-yard sides.) This volume moves with the God, taking whatever shape he desires, and it remains breathable and clean for a number of hours equal to the successes on the activation roll. Using this Boon this way can also accomplish such feats as clearing an area of smoke or poisonous gas, creating a bubble of breathable air underwater or busting the seams on an airtight cell."
+        ],
+        [
+            "Levin Fury",
+            "Dice Pool: Wits + Marksmanship \nCost: 3 Legend per attack \nThis Boon calls upon the power of lightning, either from the sky or from the Scion himself. To use it, the Scion raises a hand heavenward or points his Birthright weapon at his intended foe. At his behest, lightning either lances down from the sky or launches from the weapon itself to smite the victim. Each such bolt inflicts 15 dice of lethal damage plus extra successes on the Marksmanship roll. An attack that inflicts damage also inflicts knockdown or knockback automatically."
+        ],
+        [
+            "Divine Threnody",
+            "Dice Pool: Intelligence + Art \nCost: 2 Legend \nAn oft-overlooked element of the Sky Purview is the fact that air carries sound. The most graphic example of this is thunder, which is commonly associated with sky gods; wind, too, is said to howl or moan, as if the sky itself has a voice. A demigod who delves into the nature of thunder and sound can learn to manipulate the currents of air that carry sound and thereby enhance or dampen sonic effects."
+        ],
+        [
+            "Storm Augmentation",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend per attack \nFor a number of actions equal to the successes the player rolled to activate the Boon, jagged threads of lightning coil around the Scion\u2019s fists or weapon, or skirling winds sweep around him as he moves. On any successful attack he makes in the subsequent duration, he may spend a point of Legend to make thunder crash or winds gust violently. Doing so automatically doubles any knockback the attack applies. Furthermore, if the attack inflicts even one level of damage, have the victim\u2019s player roll (Stamina + Fortitude) against a difficulty equal to (raw damage \u2013 victim\u2019s Legend). The minimum difficulty for this roll is 1. If the victim\u2019s player fails this roll, the victim is stunned, losing two dice from all non-reflexive rolls until the attacker\u2019s next action."
+        ],
+        [
+            "Weather Witch",
+            "Dice Pool: Intelligence + Science \nCost: 1 Legend \nBy tasting the wind, putting a finger up in the air or testing the feel of her joints, the Scion gains the ability to predict the vagaries of natural weather. Her prediction is good up to a number of days in advance equal to the successes scored by her player on the initial (Intelligence + Science) roll. This doesn\u2019t account for changes introduced by more powerful uses of the Sky Purview or by Titans and titanspawn."
+        ],
+        [
+            "Storm Augmentation",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend per attack \nFor a number of actions equal to the successes the player rolled to activate the Boon, jagged threads of lightning coil around the Scion\u2019s fists or weapon, or skirling winds sweep around him as he moves. On any successful attack he makes in the subsequent duration, he may spend a point of Legend to make thunder crash or winds gust violently. Doing so automatically doubles any knockback the attack applies. Furthermore, if the attack inflicts even one level of damage, have the victim\u2019s player roll (Stamina + Fortitude) against a difficulty equal to (raw damage \u2013 victim\u2019s Legend). The minimum difficulty for this roll is 1. If the victim\u2019s player fails this roll, the victim is stunned, losing two dice from all non-reflexive rolls until the attacker\u2019s next action."
+        ],
+        [
+            "Storm Augmentation",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend per attack \nFor a number of actions equal to the successes the player rolled to activate the Boon, jagged threads of lightning coil around the Scion\u2019s fists or weapon, or skirling winds sweep around him as he moves. On any successful attack he makes in the subsequent duration, he may spend a point of Legend to make thunder crash or winds gust violently. Doing so automatically doubles any knockback the attack applies. Furthermore, if the attack inflicts even one level of damage, have the victim\u2019s player roll (Stamina + Fortitude) against a difficulty equal to (raw damage \u2013 victim\u2019s Legend). The minimum difficulty for this roll is 1. If the victim\u2019s player fails this roll, the victim is stunned, losing two dice from all non-reflexive rolls until the attacker\u2019s next action."
+        ]
+    ],
+    "nature": "Trickster",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 24,
+        "move": 18,
+        "climb": 44,
+        "jump": {
+            "horizontal": 88,
+            "vertical": 44
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 25,
+        "parry_dv": 15
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 2,
+        "animal_ken": 1,
+        "art": 0,
+        "athletics": 0,
+        "awareness": 1,
+        "brawl": 0,
+        "command": 3,
+        "control": 2,
+        "craft": 2,
+        "empathy": 1,
+        "fortitude": 0,
+        "integrity": 1,
+        "investigation": 2,
+        "larceny": 1,
+        "marksmanship": 1,
+        "medicine": 0,
+        "melee": 0,
+        "occult": 1,
+        "presence": 0,
+        "politics": 3,
+        "science": 3,
+        "stealth": 3,
+        "survival": 1,
+        "thrown": 3
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 11,
+        "lethal": 9.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 10,
+    "god": "Kuros",
+    "pantheon": "Atlantean",
+    "name": "Agapi Berat"
+}

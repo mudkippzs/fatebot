@@ -1,0 +1,400 @@
+{
+    "attributes": {
+        "stre": 9,
+        "dex": 11,
+        "sta": 9,
+        "cha": 7,
+        "man": 13,
+        "app": 7,
+        "per": 9,
+        "inte": 9,
+        "wits": 7
+    },
+    "epic_attributes": {
+        "epic_stre": 9,
+        "epic_dex": 5,
+        "epic_sta": 2,
+        "epic_cha": 5,
+        "epic_man": 4,
+        "epic_app": 5,
+        "epic_per": 4,
+        "epic_int": 6,
+        "epic_wits": 9
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        1,
+        1,
+        0,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Disfiguring Attack",
+            "description": [
+                "Prerequisite Knack: Divine Wrath (Scion: Demigod, pp. 53-54) Woe be unto any foe who lacks Epic Stamina yet faces a character who has this Knack. If a character has Disfiguring Attack, he can already inflict lethal damage unarmed and inflict aggravated damage in a clinch, thanks to its prerequisite. If he uses this Knack, he can inflict aggravated damage with an unarmed attack. Doing so costs five Legend points per attack and removes the character\u2019s Epic Strength bonus successes from the damage calculation. Regardless, a character without a significant aggravated soak from Epic Stamina or some other supernatural source is in for a world of divine hurt. Should a foe survive an attack from a character using this Knack, any wounds he takes are sure to leave wicked scars that last forever.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Instant Hypnosis",
+            "description": [
+                "Prerequisite Knack: Overt Order (Scion: Hero, p. 131) With a moment of eye contact and the expenditure of a Willpower point, the Scion instantly plunges a mortal into a hypnotic trance. Attempting to hypnotize a fellow Scion of lesser or equal (Willpower + Legend) requires not only a Willpower expenditure but a (Manipulation + Command + Legend) roll contested against the victim\u2019s (Willpower + Integrity + Legend). Scions cannot instantly hypnotize fellow Scions of higher (Willpower + Legend). Should he successfully hypnotize a victim, the Scion can implant one hidden command that the victim must obey at the time of the Scion\u2019s choosing. The command must be something that the victim can accomplish in one scene, and the trigger condition that compels him to attempt it must occur within a number of months equal to the Scion\u2019s Legend. The Scion can give as speci\ufb01c an order as he pleases, and a mortal cannot interpret it in any way other than the spirit in which it was intended. A fellow Scion can interpret it loosely to his own advantage, as per Overt Order, but doing so costs him a point of Willpower. The victim remains unaware of the ticking time bomb in his subconscious, but he does have a chance to resist it when the trigger condition occurs. At the moment when he has been commanded to perform the action in question, the victim\u2019s player may make a (Wits + Integrity) roll. (This roll cannot be modi\ufb01ed by a Scion\u2019s Epic Wits or an Integrity Arete.) If the roll garners more successes than the hypnotist Scion has dots of Legend, the compulsion is broken. If the last-minute resistance roll fails, the victim must attempt to do as he was commanded. Whether he succeeds or fails, the compulsion ends after he makes the attempt, and he has no memory of what could possibly have convinced him to do as he did.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Hurl to the Horizon",
+            "description": [
+                "Baseballs, manhole covers, beer kegs and other thrown objects become tiny specks in the distance when the Scion throws them. Having this Knack doubles the distance she can throw something as a feat of strength. It also doubles the Range of a normal thrown item after calculating the standard increase in Range granted for having Epic Strength. This Knack doesn\u2019t make the character any better able to see or hit a target, however. Nor does it impart extra damage to an attack committed with a thrown weapon.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Holy Bound",
+            "description": [
+                "Only characters whose Boons include the Sky Purview have more freedom to \ufb02aunt the laws of physics. Simply having Epic Strength enables a Scion to perform prodigious leaps that leave mortals standing slack-jawed with wonder. For example, if a Scion has Strength 5, Athletics 3 and Epic Strength 3, she can jump 12 yards straight up or 24 yards forward. (See \u201cMovement\u201d on p. 180\\.) This Knack, however, doubles a Scion\u2019s vertical and horizontal jumping distances. With it, the aforementioned character could leap an amazing 24 yards straight up (from the ground to a seventh-story balcony, for instance) or 48 yards forward in a single bound.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "One Inch Punch",
+            "description": [
+                "Prerequisite Knack: Crushing Grip (Scion: Hero, p. 126) Extrapolated from learning to exert tremendous pressure from all manner of holds and contortions, the Scion develops the ability to put her massive strength to good use on a single, small point. With just a flick of a finger, a jab of an elbow or a headbutt, the Scion delivers the entire force of her Epic Strength. Although this doesn\u2019t necessarily change the Scion\u2019s unarmed combat style \u2014 she still needs to land a strike on an enemy \u2014 it\u2019s quite intimidating when she can simply poke a building and cause an entire wall to crumble. Similarly, if the Scion is somehow restrained but able to move even a minuscule part of her body, she could (for instance) flick a tiny rock with her toe with enough force to kill a man. While this does not increase the Scion\u2019s damage output, it means that even when bound or restricted from moving in some way, the Scion can still bring all of her Epic Strength to bear in an attack. Perhaps she\u2019s chained with bindings made from Gleipnir and can\u2019t break them, but she can head-butt her assailant. Maybe she is buried in rock and can only move her little finger but can use that to send the boulder on the top of the heap flying. Her damage output and ability to lift are not impinged in any way when she\u2019s forced to rely only on a single limb, a part of her body or a restricted range of motion. Activating this Knack costs three points of Legend. Its effects last for a single application.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Making It Look Easy",
+            "description": [
+                "When a character performs a feat of strength, doing so takes every bit of effort the character can muster. He doesn\u2019t just lift a blue whale by the tail and hammer throw it back into the ocean between bites of scone. He grunts and strains and struggles until he gets enough momentum behind the whale for it to leave the ground, and when he lets it go, it\u2019s with a resounding shout of strain and a near collapse of relief as it sails out over the water. The name of this Knack, however, speaks for itself. Any action the character can perform as a feat of strength, he can perform as if it\u2019s no effort at all. He can lift the heaviest weights with one hand while using his other hand to cover a yawn. He can throw a spear into orbit with a flick of his finger. He can scoop the beached whale up in one hand and send it skipping like a stone out into the deep water where it can move freely (if dizzily) once again. Since such feats of strength are so easy, the character can execute multiple actions while performing feats of strength.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Knockback Wave",
+            "description": [
+                "Prerequisite Knack: Knockback Attack (Scion: Demigod, pp. 54-55) The God with this Knack claps her hands, slams a foe to the ground, bellows a war cry or performs some other similar action, and the player spends five Legend points. When she does so, everyone within a number of yards of the God equal to the God\u2019s Legend is potentially hurled backward. The God\u2019s player rolls Strength, receiving bonus successes from her Epic Strength, and every person within the radius of effect compares his DV to the result. Anyone whose DV doesn\u2019t measure up is knocked back one yard per threshold success.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Holy Rampage",
+            "description": [
+                "The Scion is especially good at breaking inanimate objects. When he spends a point of Legend and applies his full might to breaking something \u2014 whether he\u2019s punching it, kicking it or throwing his shoulder against it \u2014 the item\u2019s Hardness is halved against the attack. This bonus applies only when the character attempts to break an inanimate object that is either freestanding or under his control. If someone else has control of the object in question, the Scion must take it from him \ufb01rst.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Titanium Tools",
+            "description": [
+                "While Relics may be made of stern stuff, the usual off-the-shelf \u201cauthentic katana\u201d tends to fold like the cheap steel that it is when it connects with something under the force of Epic Strength. With this Knack, any tool or item that the Scion picks up benefits from the same bends and loopholes in the laws of physics that allow Epic Strength to defy both leverage and structural integrity. The Scion could use a wooden board to clobber a thug, or he could ram a flimsy iron fireplace poker right through a wall of concrete with the full force of his Epic Strength. In either case, the tool would remain reasonably intact (albeit with some cosmetic wear). Such guarantees are particularly handy when using an object of questionable strength to beat a titanspawn to death without destroying the item in question (such as a snow globe intended as a present). Note that Titanium Tools doesn\u2019t improve the Hardness or rigidity of an item. A cheap katana can still be snapped in half by an angry titanspawn that decides to target the blade. A limp spaghetti noodle is no better a weapon with this Knack than without. Titanium Tools simply allows the Scion to use objects that might be feasible as weapons under normal circumstances and subject them to the extraordinary effects of his Epic Strength without breaking them, for as long as he wields the object.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Hurl to the Moon",
+            "description": [
+                "Prerequisite Knack: Mighty Heave (Scion: Demigod, p. 55) A character with Epic Strength can throw normal-sized objects (such as baseballs or darts) ridiculously far. He can also lift incredibly heavy objects. He can even throw those heavy objects, but he can\u2019t throw them very far. A God with the utmost in Strength and Athletics and 10 dots of Epic Strength can throw something he can lift with Epic Strength 9 only about 400 yards away. If the object is big enough \u2014 if it\u2019s a nuclear submarine, for instance, with a bay full of missiles that are about to explode \u2014 400 yards isn\u2019t very far at all. With this Knack, however, a character can hurl an object that he can lift and throw as a feat of strength as far as he can throw a dart without penalties deriving from Range. The sort of epic feats this Knack allow work best as narrative effects in combat, as the logistics of hurling such projectiles as fire stations, the Washington Monument or J\u00f6rmungandr at one\u2019s enemies can get somewhat more math-intensive than is strictly ideal. Hurl to the Moon does not affect the distance a character can throw a normal-sized object, but it does intensify the damage such an object can cause. Such damage is considered aggravated, and the projectile takes on the Piercing quality if it does not already have it. Each attack thus enhanced costs the God two points of Legend, however.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Not The Face",
+            "description": [
+                "The Scion makes a simple wince, throws up his hands, shrieks for mercy or somehow shows that he\u2019s just not quite ready to take an incoming blow. As a result, the attacker hesitates for the briefest instant, perhaps long enough for the Scion to escape or for a friend of his to land a telling blow instead. As a response to an incoming attack, the Scion\u2019s player spends one point of Legend and rolls (Manipulation + Empathy + Legend) against the opponent\u2019s (Willpower + Integrity + Legend). If the player wins, then the attacker hesitates for the barest instant, and his attack delays to the next tick. Naturally, the attacker must be able to see the Scion in order for this trick to work, and the Scion must know that the attack is coming, as well. The Scion can use this Knack only once per scene."
+            ],
+            "tables": []
+        },
+        {
+            "title": "Blurt It Out",
+            "description": [
+                "This Knack represents a gift for making people speak their minds. Scions who have it normally corner a person who has information they want, strike up a conversation, direct that conversation toward the information in question, then pry it loose when it\u2019s top of mind. Others confront victims who are surrounded by family, friends or coworkers, in order to make those victims admit damning information when it will do the most harm. The Scion\u2019s player must spend a point of Legend to activate the Knack, and the information must have legitimately come up in conversation. The Scion cannot simply shout \u201cJ\u2019accuse!\u201d then use Blurt It Out to force a random confession from a guilty person. (The declamatory French comes only after the Scion uses Blurt It Out effectively.) Regardless, a victim still has a slim chance to catch himself before bringing disaster crashing down. The victim\u2019s player rolls (Willpower + Integrity + Legend) against a dif\ufb01culty equal to (the Scion\u2019s Epic Manipulation + 1). If this roll succeeds, the player may then spend a point of Willpower to avert the slip of the tongue.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "R\u00edastrad",
+            "Dice Pool: None \nCost: 3 Legend + 1 Willpower + cost of other Boons and Knacks \nThe warp-spasm of Irish legend, the Scion with this Boon can channel a potent war-power, breathing in the very fury and twisting unpredictability of battle itself. When this Boon is activated, the body of the hero or God twists and warps, taking on a truly incomprehensible freakishness. Every nerve quivers with barely-contained violence, and the Scion\u2019s body temperature multiplies impossibly."
+        ],
+        [
+            "Fury of War",
+            "Dice Pool: Stamina + Fortitude \nCost: 3 Legend + 1 Willpower \nThe Scion can summon up a bloodlust and battle rage within her to shame the legendary berserkers. Her hair becomes wilder, her eyes blaze, she laughs and screams as she rips her foes limb from limb. She thinks of little else but battle and victory."
+        ],
+        [
+            "Devil Body",
+            "Dice Pool: None \nCost: 1 Willpower + 3 Legend \nUpon activating this Boon, the character\u2019s body immediately becomes a human-shaped pillar of white-hot flame. His features are unrecognizable except in silhouette (if he has a distinctive silhouette), and his voice has the quality of a roaring bonfire. In this form, the character\u2019s merest touch can set things alight or burn flesh. Touching the character inflicts a number of levels of lethal damage equal to his Legend. If the character physically attacks someone, the player adds that many extra levels of lethal damage to the results of his damage roll. The flames of the Scion\u2019s body can even burn a fellow Scion who has Fire Immunity (Fire 1) if that Scion\u2019s Legend is lower, though the lesser Scion suffers automatic fire damage equal to only the difference in their Legend ratings. The character\u2019s semisolid form also absorbs an amount of damage equal to the character\u2019s Legend from all physical attacks."
+        ],
+        [
+            "Blessing of Ammunition",
+            "Dice Pool: None \nCost: (1 Willpower + 5 Legend) or 1 Willpower dot \nWith a touch, a God grants a weapon unlimited ammunition. If the weapon holds its ammunition internally (like any pistol, rifle, blowgun or cannon), the God need only touch the weapon. If the weapon holds its ammunition externally (as bows, slings, atlatls and classical siege weaponry does), the God must touch a container that is already full of the proper type of ammunition then touch the weapon with which that ammunition is to be used."
+        ],
+        [
+            "Control Fire",
+            "Dice Pool: Wits + Control \nCost: 5+ Legend \nA fire must burn, but when a God has this Boon, fire burns as he commands. To take control of the fire, the God need only stare into it and spend Legend points. When he does so, the fire becomes a three-dimensional mass that he can manipulate in all three dimensions in any way his imagination can conceive. For five Legend points, the God can manipulate 10 cubic yards of fire (based on its surface area and height). If less than 10 cubic yards of fire is present, the God can increase the present amount of fire to fill that volume. For each additional Legend point he spends, the God can increase the amount of fire under his control by 10 more cubic yards. (The God can spend no more additional points of Legend beyond the mandatory five than he has dots of Legend.) The God can move and shape fire under his control in all three dimensions\u2014lifting it off the ground entirely or making it take any three-dimensional shape he desires. He can even mold the fire into a recognizable shape and have it take actions."
+        ],
+        [
+            "Ugly Mule",
+            "Dice Pool: Varies \nCost: Varies \nAs Gods and Goddesses of the World, the Loa mostly have power over men and women of the World. They can exert some of their Cheval powers over Scions of lesser Legend, but those characters are still partly the World\u2019s creatures. The spawn of the Titans, however, hatch from a primordial essence that transcends the physical and upsets the stability of the World. Younger Loa cannot gain sufficient control over these inimical beings to exert their Cheval Boons through them. Likewise, the supernatural creatures who were once lesser divinities are still too much creatures of the Overworld\u2014if only in their genetic memory\u2014to allow for complete domination by a Loa."
+        ],
+        [
+            "Mortal Stroke",
+            "Dice Pool: None \nCost: 1 Legend + 1 Willpower per weapon \nThe Scion touches one or several weapons and invokes the power of her Legend to grant them supernatural killing power. For each point of Legend and Willpower spent, the Scion\u2019s player can choose to affect one weapon. Each weapon blessed with Mortal Stroke inflicts aggravated damage on its next attack."
+        ],
+        [
+            "Siege Juggernaut",
+            "Dice Pool: None \nCost: 10 Legend \nOvercoming enemy defenses means inflicting damage that can penetrate their walls, fortresses and terrain. For a demigod, the usual way to do so is to blast right through them, a power epitomized by this Boon. When a demigod invokes the Siege Juggernaut Boon, she becomes capable of using her normal weapons (or even unarmed attacks) as artillery. To the onlooker, no change is visible until the Scion lashes out. When she strikes, though, her weapon becomes suffused with a massive aura of divine energy and appears as a giant, illuminated version of the usual strike. This tremendous blast of power can smash down walls, rend the landscape and sweep away fortifications with ease."
+        ],
+        [
+            "Colossus Armor",
+            "Dice Pool: None \nCost: 1 Willpower + 10 Legend \nThe Scion leaps into the air as liquid bands of brass and steel materialize in the air around him. These bands enwrap the Scion\u2019s body and take the shape of a 15-foot-tall warrior of a classical culture associated with the Scion\u2019s divine parent\u2014an enormous metal samurai, for instance. This giant warrior is unarmed by default, but the Scion can equip it with an appropriately sized version of some melee weapon in the character\u2019s possession for another two points of Legend. (The choice doesn\u2019t change the damage he can inflict, but it allows him to use Melee instead of Brawl in combat.)"
+        ],
+        [
+            "Rada's Eyes",
+            "Dice Pool: Perception + Empathy \nCost: 1 Legend \nThe Scion can experience another person\u2019s perceptions as if they were her own. These perceptions include input from all five senses, though not the character\u2019s subjective reactions to that input. To use this Boon, the Scion must have a picture of her victim, some genetic token of the victim\u2019s (such as a lock of hair or several drops of blood) or something the victim created (from a printed-out email to an ice sculpture). By meditating on the item and relaxing her own perceptions\u2014as well as spending a point of Legend after a successful (Perception + Empathy) roll on the part of her player\u2014the Scion experiences the victim\u2019s perceptions clearly and distinctly. The victim is unaware of the Scion\u2019s attention, but the Scion remains semi-aware of her own surroundings."
+        ],
+        [
+            "Blessing of Bravery",
+            "Dice Pool: Charisma + Command \nCost: None \nIntoning a benediction over a person or group prepared to engage in battle, the Scion bolsters their courage and determination. Every character on the Scion\u2019s side of the conflict who hears the benediction gains a point of Willpower as well as two temporary bonus dots of Valor that last until the battle ends. The Scion may amplify his voice electronically, but he must be present at the battle and give the blessing live."
+        ],
+        [
+            "Waking Zombie",
+            "Dice Pool: Manipulation + Cheval \nCost: 1 Willpower \nWhen the Scion has a mortal victim completely under her control, she can temporarily pull the victim\u2019s spirit out of his body and boss the body around as her mindless slave. The Scion must somehow incapacitate the victim\u2014by tying him up, drugging him, beating him unconscious or whatever\u2014then cover the victim\u2019s mouth with her own and take a long, deep breath. The victim\u2019s player then rolls (Willpower + Integrity + Legend) against the activation roll. If the activation roll wins, the Scion sucks out the victim\u2019s spirit and swallows it down into the darkness within her. Once that happens, the victim maintains a dreamlike semi-awareness of what the Scion is doing, just as a victim of Horse (Cheval 3) does, but he can\u2019t take any actions or exert his own will in any way."
+        ],
+        [
+            "Rada's Eyes",
+            "Dice Pool: Perception + Empathy \nCost: 1 Legend \nThe Scion can experience another person\u2019s perceptions as if they were her own. These perceptions include input from all five senses, though not the character\u2019s subjective reactions to that input. To use this Boon, the Scion must have a picture of her victim, some genetic token of the victim\u2019s (such as a lock of hair or several drops of blood) or something the victim created (from a printed-out email to an ice sculpture). By meditating on the item and relaxing her own perceptions\u2014as well as spending a point of Legend after a successful (Perception + Empathy) roll on the part of her player\u2014the Scion experiences the victim\u2019s perceptions clearly and distinctly. The victim is unaware of the Scion\u2019s attention, but the Scion remains semi-aware of her own surroundings."
+        ],
+        [
+            "Fury of War",
+            "Dice Pool: Stamina + Fortitude \nCost: 3 Legend + 1 Willpower \nThe Scion can summon up a bloodlust and battle rage within her to shame the legendary berserkers. Her hair becomes wilder, her eyes blaze, she laughs and screams as she rips her foes limb from limb. She thinks of little else but battle and victory."
+        ],
+        [
+            "Blessing of Bravery",
+            "Dice Pool: Charisma + Command \nCost: None \nIntoning a benediction over a person or group prepared to engage in battle, the Scion bolsters their courage and determination. Every character on the Scion\u2019s side of the conflict who hears the benediction gains a point of Willpower as well as two temporary bonus dots of Valor that last until the battle ends. The Scion may amplify his voice electronically, but he must be present at the battle and give the blessing live."
+        ],
+        [
+            "Morale Failure",
+            "Dice Pool: Manipulation + Presence \nCost: 1 Legend per 5 troops \nThe Scion can shake an enemy\u2019s leadership and seed an outbreak of cowardice among the men. When he makes himself visible to an opposing force\u2019s leader, his player rolls (Manipulation + Presence) against the enemy leader\u2019s player\u2019s roll of (Willpower + Integrity + Legend)."
+        ],
+        [
+            "Siege Juggernaut",
+            "Dice Pool: None \nCost: 10 Legend \nOvercoming enemy defenses means inflicting damage that can penetrate their walls, fortresses and terrain. For a demigod, the usual way to do so is to blast right through them, a power epitomized by this Boon. When a demigod invokes the Siege Juggernaut Boon, she becomes capable of using her normal weapons (or even unarmed attacks) as artillery. To the onlooker, no change is visible until the Scion lashes out. When she strikes, though, her weapon becomes suffused with a massive aura of divine energy and appears as a giant, illuminated version of the usual strike. This tremendous blast of power can smash down walls, rend the landscape and sweep away fortifications with ease."
+        ],
+        [
+            "Blazing Weapon",
+            "Dice Pool: None \nCost: 1 Legend per weapon \nThe Scion reaches into a flame that\u2019s at least as big as a campfire and pulls out a blazing melee weapon made of flickering fire. The weapon can be of any shape and size, but the distinction is largely a matter of personal taste, rather than available traits. These weapons do not use the normal traits from the chart in Scion: Hero. Instead, when the character removes the weapon from the fire, the player receives a base number of points equal to the Scion\u2019s Legend for each weapon. These points can add to a base Accuracy +0, Damage +0 and Defense -1, and they can subtract from a starting Speed 6 (reducing it to a minimum of 1). The player assigns the weapon\u2019s traits as the character produces the weapon, and he can\u2019t change them afterward."
+        ],
+        [
+            "Siege Juggernaut",
+            "Dice Pool: None \nCost: 10 Legend \nOvercoming enemy defenses means inflicting damage that can penetrate their walls, fortresses and terrain. For a demigod, the usual way to do so is to blast right through them, a power epitomized by this Boon. When a demigod invokes the Siege Juggernaut Boon, she becomes capable of using her normal weapons (or even unarmed attacks) as artillery. To the onlooker, no change is visible until the Scion lashes out. When she strikes, though, her weapon becomes suffused with a massive aura of divine energy and appears as a giant, illuminated version of the usual strike. This tremendous blast of power can smash down walls, rend the landscape and sweep away fortifications with ease."
+        ],
+        [
+            "Colossus Armor",
+            "Dice Pool: None \nCost: 1 Willpower + 10 Legend \nThe Scion leaps into the air as liquid bands of brass and steel materialize in the air around him. These bands enwrap the Scion\u2019s body and take the shape of a 15-foot-tall warrior of a classical culture associated with the Scion\u2019s divine parent\u2014an enormous metal samurai, for instance. This giant warrior is unarmed by default, but the Scion can equip it with an appropriately sized version of some melee weapon in the character\u2019s possession for another two points of Legend. (The choice doesn\u2019t change the damage he can inflict, but it allows him to use Melee instead of Brawl in combat.)"
+        ],
+        [
+            "Blazing Weapon",
+            "Dice Pool: None \nCost: 1 Legend per weapon \nThe Scion reaches into a flame that\u2019s at least as big as a campfire and pulls out a blazing melee weapon made of flickering fire. The weapon can be of any shape and size, but the distinction is largely a matter of personal taste, rather than available traits. These weapons do not use the normal traits from the chart in Scion: Hero. Instead, when the character removes the weapon from the fire, the player receives a base number of points equal to the Scion\u2019s Legend for each weapon. These points can add to a base Accuracy +0, Damage +0 and Defense -1, and they can subtract from a starting Speed 6 (reducing it to a minimum of 1). The player assigns the weapon\u2019s traits as the character produces the weapon, and he can\u2019t change them afterward."
+        ],
+        [
+            "Devil Body",
+            "Dice Pool: None \nCost: 1 Willpower + 3 Legend \nUpon activating this Boon, the character\u2019s body immediately becomes a human-shaped pillar of white-hot flame. His features are unrecognizable except in silhouette (if he has a distinctive silhouette), and his voice has the quality of a roaring bonfire. In this form, the character\u2019s merest touch can set things alight or burn flesh. Touching the character inflicts a number of levels of lethal damage equal to his Legend. If the character physically attacks someone, the player adds that many extra levels of lethal damage to the results of his damage roll. The flames of the Scion\u2019s body can even burn a fellow Scion who has Fire Immunity (Fire 1) if that Scion\u2019s Legend is lower, though the lesser Scion suffers automatic fire damage equal to only the difference in their Legend ratings. The character\u2019s semisolid form also absorbs an amount of damage equal to the character\u2019s Legend from all physical attacks."
+        ],
+        [
+            "Inferno",
+            "Dice Pool: Charisma + Craft \nCost: 3 Legend \nWith a shouted word, a Scion can cause an area in his line of sight to instantly burst into flame. The flame has the intensity of a bonfire, and it covers an area with a radius in yards equal to the number of successes on the activation roll. The flames stand as high from a flat surface as the Scion is tall. This fire can burn without fuel for a number of minutes equal to the Scion\u2019s Legend. When that time is up, the flames go out if they still don\u2019t have any fuel. People who are within the area the Scion intends to set alight get a single chance to escape the affected area unharmed before the fire starts. To do so, their players must get more successes on a (Dexterity + Athletics) roll than the Scion\u2019s player got on the activation roll, and the character must be able to get out of the area in one action."
+        ],
+        [
+            "Petro's Hands",
+            "Dice Pool: Intelligence + Control \nCost: 1 Willpower \nThe Scion can now exert some control over a victim whose senses she\u2019s observing. The Scion must be actively experiencing her victim\u2019s perceptions with Rada\u2019s Eyes, and her player must spend a Willpower point to activate this Boon. If the Voodoo Scion\u2019s victim is a mortal or a Scion with fewer dots of Legend than she has, activating this Boon takes only that Willpower expenditure. If the Scion victim has an equal number of Legend dots, the Voodoo Scion\u2019s player must also succeed in a contested roll of her (Intelligence + Control) against the victim\u2019s (Willpower + Integrity + Legend)."
+        ],
+        [
+            "Flamin' Bullets",
+            "Dice Pool: None \nCost: 1 Legend per scene \nThe Scion reaches into a source of flame \u2014 anything from a candle to a bonfire will do \u2014 and then \u201cloads\u201d that fire into a projectile weapon. The weapon becomes wreathed in flames, and for the rest of the scene, the weapon belches blasts of Legend-fueled fire. The weapon still consumes normal ammunition, but the shots become imbued with \u201cfire power,\u201d so to speak. The fiery rounds also inflict lethal damage, even against creatures that normally take bashing damage from bullets, such as the walking dead. The fiery rounds add +1 Accuracy and Damage to the weapon and also allow it to light targets on fire. Shooting the gas tank of a car with a pistol really can produce an explosive ending when Flamin\u2019 Bullets are used."
+        ],
+        [
+            "Fire's Eye",
+            "Dice Pool: Perception + Awareness \nCost: 1 Legend \nThe Scion can see out of any fire that A.) is already within his line of sight or B.) he affected with Bolster Fire. The Scion cannot hear what is happening around a distant fire, and his field of vision remains the same through the fire as it is through his eyes. He may physically move his head or turn his body in place to change his remote perspective, though. While he looks through the fire, the Scion can\u2019t see from his own perspective. He may maintain his remote perspective for as long as he wishes."
+        ],
+        [
+            "Fury of War",
+            "Dice Pool: Stamina + Fortitude \nCost: 3 Legend + 1 Willpower \nThe Scion can summon up a bloodlust and battle rage within her to shame the legendary berserkers. Her hair becomes wilder, her eyes blaze, she laughs and screams as she rips her foes limb from limb. She thinks of little else but battle and victory."
+        ],
+        [
+            "Morale Failure",
+            "Dice Pool: Manipulation + Presence \nCost: 1 Legend per 5 troops \nThe Scion can shake an enemy\u2019s leadership and seed an outbreak of cowardice among the men. When he makes himself visible to an opposing force\u2019s leader, his player rolls (Manipulation + Presence) against the enemy leader\u2019s player\u2019s roll of (Willpower + Integrity + Legend)."
+        ],
+        [
+            "Horse",
+            "Dice Pool: Intelligence + Control \nCost: 1 Willpower + 1 Legend \nThe Scion can now exert total control over her victim for a limited time. She must be using Rada\u2019s Eyes to share the victim\u2019s perceptions, and she must spend a point of Willpower and a point of Legend to assert full control. (The victim\u2019s chance to resist is the same as for Petro\u2019s Hands.) If the Scion succeeds in her possession attempt, she can \u201cride\u201d around inside her victim\u2019s body for one scene (or less if she chooses to end the effect early). She exerts all of her own mundane traits, except for Appearance, through the effectively empty husk, losing all sense of the situation around her own body."
+        ],
+        [
+            "Rain of Fire",
+            "Dice Pool: Charisma + Survival \nCost: 15 Legend \nThe God raises a hand and calls down a torrent of blazing projectiles from the sky above. Each projectile is the size of a soccer ball and explodes upon impact into a fire at least five square yards in area. Each blaze that springs up at a point of impact has the intensity of a bonfire and will not go out for the rest of the scene. At the end of the scene, the fires go out or stay lit based on the circumstances of where they\u2019re burning."
+        ]
+    ],
+    "nature": "Bravo",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 28,
+        "move": 22,
+        "climb": 46,
+        "jump": {
+            "horizontal": 96,
+            "vertical": 48
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 31,
+        "parry_dv": 19
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 1,
+        "animal_ken": 1,
+        "art": 3,
+        "athletics": 2,
+        "awareness": 0,
+        "brawl": 0,
+        "command": 0,
+        "control": 2,
+        "craft": 3,
+        "empathy": 0,
+        "fortitude": 2,
+        "integrity": 0,
+        "investigation": 2,
+        "larceny": 0,
+        "marksmanship": 3,
+        "medicine": 3,
+        "melee": 2,
+        "occult": 2,
+        "presence": 3,
+        "politics": 3,
+        "science": 1,
+        "stealth": 0,
+        "survival": 1,
+        "thrown": 2
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 11,
+        "lethal": 7.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 12,
+    "god": "Ogoun",
+    "pantheon": "Loa",
+    "name": "Marlon Villanueva"
+}

@@ -1,0 +1,301 @@
+{
+    "attributes": {
+        "stre": 5,
+        "dex": 5,
+        "sta": 5,
+        "cha": 3,
+        "man": 5,
+        "app": 3,
+        "per": 5,
+        "inte": 7,
+        "wits": 7
+    },
+    "epic_attributes": {
+        "epic_stre": 4,
+        "epic_dex": 1,
+        "epic_sta": 1,
+        "epic_cha": 2,
+        "epic_man": 2,
+        "epic_app": 2,
+        "epic_per": 1,
+        "epic_int": 3,
+        "epic_wits": 1
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        3,
+        0,
+        1,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Impenetrable",
+            "description": [
+                "Prerequisite Knack: Body Armor (Scion: Demigod, pp. 57-58) When a character achieves this Knack, it upgrades the thin metallic armor that activating its prerequisite provides. When the character spends his Legend point to activate his armor, it retains its bashing and lethal soak equal to his Legend and adds an aggravated soak equal to half his Legend. What\u2019s more, it ignores (i.e., trumps) the Piercing quality of any weapons and physical attacks that have it. Finally, he can extend this armor sheathe around any article of clothing he\u2019s wearing, though not any handheld or bulky worn item he might be using. A zoot suit, including the hat, would be fine; an astronaut\u2019s EVA suit would be a bit much.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Mighty Heave",
+            "description": [
+                "Prerequisite Knack: Hurl to the Horizon (Scion: Hero, p. 126) This Knack automatically triples the distance a demigod Scion can throw a heavy object as a feat of strength. That tripling comes not only after the modi\ufb01cation based on the character\u2019s Epic Strength but also after the doubling provided by the prerequisite Knack. (In effect, it multiplies his feat-of-strength throwing distance by six.) Using this Knack costs a point of Legend. Mighty Heave does not affect the distance a Scion can throw a normal-sized object, but it does intensify the damage such an object can cause. Thrown weapons or other thrown items that would normally cause bashing damage (a coconut, for example) in\ufb02ict lethal damage and take on the Piercing quality instead when the Scion uses Mighty Heave. Items that would normally cause lethal damage still cause only lethal damage, but they ignore armor when the Scion uses Mighty Heave.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Tireless Worker",
+            "description": [
+                "Prerequisite Knack: Divine Fortitude (Scion: Demigod, p. 58) Epic Stamina boosts the amount of time a character can work at a fatiguing task, and this Knack\u2019s prerequisite doubles that time. This Knack extends that boost into infinity. No matter how long or how hard he works, the character never breaks a sweat and never slows down. If he still has to sleep, he can work until he\u2019s sleepy and wake up feeling perfectly refreshed. If he still has to eat or sleep, he can pause for a meal and get right back to work without the first bit of loginess creeping in. (People who are like this endlessly irritate people who aren\u2019t.)",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Pied Piper",
+            "description": [
+                "The character exudes such charm and \u00e9lan that people just want to be around him. When the character engages this Knack, the player need only spend a point of Willpower and a point of Legend. Thereafter, and until the next sunrise, any mortal who looks in the character\u2019s direction feels compelled to be in his company. People \ufb02 ock around him like the paparazzi on Oscar night, desperate to be near him and get his attention, and they\u2019ll follow him from locale to locale for as long as he keeps leading them. Mortals can resist this compulsion, but doing so requires a successful (Willpower + Integrity + Legend) roll with a dif\ufb01culty equal to the Scion\u2019s Legend. Successful resistance breaks the spell for the rest of its duration; a failure means the character cannot try to break away again for another hour. The demigod character can have as many lingering groupies and hangers on as his Epic Charisma dots normally grant him bonus successes on Charisma rolls. Scions use this Knack not only to gather up fellow revelers for long, roving parties, but also to surround themselves with unwitting human shields. For as long as the Knack lasts, the compelled mortals will not abandon the Scion unless he chooses to end the effect early.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Making It Look Easy",
+            "description": [
+                "When a character performs a feat of strength, doing so takes every bit of effort the character can muster. He doesn\u2019t just lift a blue whale by the tail and hammer throw it back into the ocean between bites of scone. He grunts and strains and struggles until he gets enough momentum behind the whale for it to leave the ground, and when he lets it go, it\u2019s with a resounding shout of strain and a near collapse of relief as it sails out over the water. The name of this Knack, however, speaks for itself. Any action the character can perform as a feat of strength, he can perform as if it\u2019s no effort at all. He can lift the heaviest weights with one hand while using his other hand to cover a yawn. He can throw a spear into orbit with a flick of his finger. He can scoop the beached whale up in one hand and send it skipping like a stone out into the deep water where it can move freely (if dizzily) once again. Since such feats of strength are so easy, the character can execute multiple actions while performing feats of strength.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Unimpeachable Reference",
+            "description": [
+                "With this Knack, the demigod can actually lend someone else a portion of his credibility and authority. When the player spends a point of Legend and the character either vouches for or lends a recognizable token to someone to act on his behalf, he confers on that person the effects of the Bene\ufb01t of the Doubt Knack (from Scion: Hero, p. 130). This halo of credibility affects even those people who do not know the demigod personally. It is still up to the character who receives the effect to convince the person he\u2019s speaking to that he\u2019s on the level, but this Knack makes getting over the initial hurdle of suspicion and disbelief much easier.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Blessing of Importance",
+            "description": [
+                "The Scion is especially good at winning people over by making them feel special and wanted. By spending a point of Legend and either sticking up for a person, calling out to him in a crowd or just giving him a secret smile, the Scion re\ufb01lls the person\u2019s spent Willpower points for the scene. The Scion need not necessarily believe that the person is important or special herself. This Knack works very well on mortals, but it\u2019s less effective on Scions, who are usually wise to their charismatic peers\u2019 ways. For Scion recipients, the Knack re\ufb01lls only one point of Willpower per dot of Epic Charisma the Scion with this Knack has. A character can receive this Willpower boost only once per scene from the same Scion.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Warning Line",
+            "Dice Pool: Perception + Awareness \nCost: 1 Legend \nThe Scion traces a line across the ground, along a doorway or over some other opening. The line can be as long as the Scion wishes to make it, so long as she traces the entire line in one pass. At the end, she names a creature. This can be as specific or as general as she wishes: \u201ctitanspawn,\u201d \u201cmortals,\u201d \u201cany animal smaller than a rat\u201d and \u201cKane Taoka\u201d are all valid examples. If a creature of that sort crosses the line, the Scion immediately becomes aware of it. There\u2019s no limit to the number of Warning Lines that a Scion can have drawn at once, and she can intuitively tell the difference between any of them. (That is, if she has three different Warning Lines active, she knows which one was tripped at any given time). A Warning Line remains effective for a number of days equal to the player\u2019s activation roll."
+        ],
+        [
+            "Warrior Ideal",
+            "Dice Pool: Charisma + Presence \nCost: 1 Legend \nThe Scion adopts some idealized warrior aspect, from howling berserker to unquestioning enlisted man to fearless officer to pitiless samurai. This attitude unnerves and intimidates any opponent who faces him in combat, inflicting a penalty equal to the Scion\u2019s Legend on any attack roll the opponent makes. This penalty applies to any character with a lesser or equal Legend rating who attempts to attack the Scion. This idealized aspect lasts for a number of consecutive actions during the battle equal to the successes the Scion\u2019s player rolled to activate it, and he can invoke it only once during any given battle."
+        ],
+        [
+            "Ward",
+            "Dice Pool: Stamina + Fortitude \nCost: 1 Legend + 1 Willpower \nBy touching the entrance to a location, the Scion lays a ward on the area that bars entrance to a certain type of threat. Such a ward could bar ghosts, walking dead, a breed of titanspawn, human beings, lesser animals or Scions. The ward acts as a sphere with a circumference area equal to 500 square feet per dot of Legend the Scion has. It lasts for one day per success garnered by the (Stamina + Fortitude) roll."
+        ],
+        [
+            "Faunaphagia",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + 1 Legend \nSome shamans believe that consuming a creature grants a measure of its strength. Scions who engage in this practice learn to absorb the capabilities of an animal by devouring such a creature and drawing forth its essence from the digested flesh. The Scion must eat a piece of meat from the appropriate animal (a potentially risky act, considering that the animal is probably considered sacred to his patron God). Then, the player expends the Willpower and Legend and rolls (Stamina + Animal Ken). The successes scored indicate the number of points of Abilities that the Scion may borrow from the animal. A Scion can only borrow Abilities up to the level possessed by the animal, although these dots can add on to his existing skill dots to a maximum total of five. Skills gained with Faunaphagia remain for the rest of the scene."
+        ],
+        [
+            "Animal Command",
+            "Dice Pool: Charisma + Animal Ken \nCost: 1 Willpower \nThe Scion spends one Willpower and names one task that the animal must perform. The task cannot seem suicidal or impossible to the animal, but the animal cannot balk at an order that doesn\u2019t immediately seem so. \u201cHey rabbit, go rip that lion\u2019s throat open,\u201d would seem impossible to the rabbit so commanded. \u201cRun to that grass across this street,\u201d would be a fine order for that same rabbit, though, even if cars were zipping by. The order can describe a single immediate action (\u201cBite that guy!\u201d) or one with a single condition (\u201cCome find me when a blue car stops here.\u201d). If he lacks the previous Boon, the Scion can deliver his command only through simplistic nonverbal signals."
+        ],
+        [
+            "Fury of War",
+            "Dice Pool: Stamina + Fortitude \nCost: 3 Legend + 1 Willpower \nThe Scion can summon up a bloodlust and battle rage within her to shame the legendary berserkers. Her hair becomes wilder, her eyes blaze, she laughs and screams as she rips her foes limb from limb. She thinks of little else but battle and victory."
+        ],
+        [
+            "Aegis",
+            "Dice Pool: Stamina + Fortitude \nCost: 1 Legend + 1 Willpower \nBy touching a mortal or an object, the Scion grants it a measure of divine physical protection. Her player spends one Legend and Willpower then rolls (Stamina + Fortitude), adding her usual bonuses. Successes on this roll then apply to the subject of the Scion\u2019s protection as a temporary Hardness rating for the next 24 hours."
+        ],
+        [
+            "Lay Token Geas",
+            "Dice Pool: Charisma + Presence \nCost: 1 Legend + 1 Willpower (or 1 Legend + 1 Willpower dot) \nWith this power, the Scion taps into the potent flows of enech and may levy the expectations of greatness on those around him. This roll is opposed by the target\u2019s (Wits + Integrity + Legend), and the roll itself has a difficulty of the target\u2019s Legend +1. If this roll is successful, the target is bound by a geas of Token potency for two months per net success in the roll, to a maximum of a year and a day. Alternately, if the Scion expends a full dot (rather than a point) of Willpower, the geas is laid permanently."
+        ],
+        [
+            "Animal Aspect",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Legend per action \nBy meditating for one action (Speed 3) on a token representing his animal, the Scion takes on a metaphorical characteristic associated with it, creating a dice bonus for rolls involving the Attribute most closely associated with that characteristic. A Scion might take on a snake\u2019s sinuous grace (Dexterity), a peacock\u2019s beauty (Appearance), an elephant\u2019s proverbial memory (via Intelligence) or any other justifiable characteristic. The bonus dice are equal to the number of successes on the activation roll, and the benefit lasts for one action per Legend point spent up front to fuel the Boon."
+        ],
+        [
+            "Warning Line",
+            "Dice Pool: Perception + Awareness \nCost: 1 Legend \nThe Scion traces a line across the ground, along a doorway or over some other opening. The line can be as long as the Scion wishes to make it, so long as she traces the entire line in one pass. At the end, she names a creature. This can be as specific or as general as she wishes: \u201ctitanspawn,\u201d \u201cmortals,\u201d \u201cany animal smaller than a rat\u201d and \u201cKane Taoka\u201d are all valid examples. If a creature of that sort crosses the line, the Scion immediately becomes aware of it. There\u2019s no limit to the number of Warning Lines that a Scion can have drawn at once, and she can intuitively tell the difference between any of them. (That is, if she has three different Warning Lines active, she knows which one was tripped at any given time). A Warning Line remains effective for a number of days equal to the player\u2019s activation roll."
+        ],
+        [
+            "Blessing of Bravery",
+            "Dice Pool: Charisma + Command \nCost: None \nIntoning a benediction over a person or group prepared to engage in battle, the Scion bolsters their courage and determination. Every character on the Scion\u2019s side of the conflict who hears the benediction gains a point of Willpower as well as two temporary bonus dots of Valor that last until the battle ends. The Scion may amplify his voice electronically, but he must be present at the battle and give the blessing live."
+        ],
+        [
+            "Aegis",
+            "Dice Pool: Stamina + Fortitude \nCost: 1 Legend + 1 Willpower \nBy touching a mortal or an object, the Scion grants it a measure of divine physical protection. Her player spends one Legend and Willpower then rolls (Stamina + Fortitude), adding her usual bonuses. Successes on this roll then apply to the subject of the Scion\u2019s protection as a temporary Hardness rating for the next 24 hours."
+        ],
+        [
+            "Faunaphagia",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + 1 Legend \nSome shamans believe that consuming a creature grants a measure of its strength. Scions who engage in this practice learn to absorb the capabilities of an animal by devouring such a creature and drawing forth its essence from the digested flesh. The Scion must eat a piece of meat from the appropriate animal (a potentially risky act, considering that the animal is probably considered sacred to his patron God). Then, the player expends the Willpower and Legend and rolls (Stamina + Animal Ken). The successes scored indicate the number of points of Abilities that the Scion may borrow from the animal. A Scion can only borrow Abilities up to the level possessed by the animal, although these dots can add on to his existing skill dots to a maximum total of five. Skills gained with Faunaphagia remain for the rest of the scene."
+        ],
+        [
+            "Body and Spirit",
+            "Dice Pool: Charisma + Empathy (Spd 3, DV \u20131) \nCost: 1 Legend, or 1 Legend + 1 Willpower if used on another \nModesty is never a Virtue to the Scion of the Tuatha. It is an insult to enech \u2014 pretending to be something less then you are is as bad as pretending to be something better. Thus, the Scion who uses this Boon chooses to declaim his best attributes and admit to his weakest. The Scion must choose which Virtues he is going to declaim about himself at the time of the Boon\u2019s activation. The difficulty of the roll is equal to the rating of the highest Virtue he is invoking, +1 per additional Virtue."
+        ],
+        [
+            "Unseen Shield",
+            "Dice Pool: Stamina + Fortitude \nCost: 2 Legend + 1 Willpower \nThe Scion concentrates and projects an invisible, semi-spherical shield of pure force around herself and those she\u2019s trying to protect. The base of this shield can be as big as 500 square feet in area (about 13 feet in radius) per dot of Legend the character has, though she can keep it smaller. Ghosts, spirits and physical beings of lesser Legend than the Scion cannot penetrate this shield. If such a being has an equal or higher Legend rating (and can bring a physical force to bear), it can attempt to batter the shield apart with physical attacks. The shield can take a number of health levels of damage equal to [the Scion\u2019s (Legend x 5) + activation roll successes], and it has an all-purpose Hardness rating equal to the Scion\u2019s Legend."
+        ]
+    ],
+    "nature": "Pacifist",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 12,
+        "move": 6,
+        "climb": 12,
+        "jump": {
+            "horizontal": 26,
+            "vertical": 13
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 12,
+        "parry_dv": 8
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 2,
+        "animal_ken": 3,
+        "art": 1,
+        "athletics": 1,
+        "awareness": 0,
+        "brawl": 0,
+        "command": 2,
+        "control": 2,
+        "craft": 1,
+        "empathy": 1,
+        "fortitude": 3,
+        "integrity": 2,
+        "investigation": 1,
+        "larceny": 0,
+        "marksmanship": 1,
+        "medicine": 2,
+        "melee": 2,
+        "occult": 2,
+        "presence": 2,
+        "politics": 0,
+        "science": 0,
+        "stealth": 0,
+        "survival": 1,
+        "thrown": 2
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 6,
+        "lethal": 4.0,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 5,
+    "god": "Dagda",
+    "pantheon": "Tuatha",
+    "name": "Conor Crowley"
+}

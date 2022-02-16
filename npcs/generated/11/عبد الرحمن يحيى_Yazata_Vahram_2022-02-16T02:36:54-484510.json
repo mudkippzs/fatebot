@@ -1,0 +1,397 @@
+{
+    "attributes": {
+        "stre": 9,
+        "dex": 11,
+        "sta": 9,
+        "cha": 9,
+        "man": 13,
+        "app": 11,
+        "per": 7,
+        "inte": 9,
+        "wits": 3
+    },
+    "epic_attributes": {
+        "epic_stre": 5,
+        "epic_dex": 5,
+        "epic_sta": 6,
+        "epic_cha": 6,
+        "epic_man": 2,
+        "epic_app": 5,
+        "epic_per": 5,
+        "epic_int": 6,
+        "epic_wits": 8
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        1,
+        0,
+        0,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Whale\u2019s Breath",
+            "description": [
+                "This Knack magnifies the time a Scion can hold her breath. After inhaling deeply and expending a point of Legend, the Scion can triple the duration she can hold her breath after calculating extended duration due to Epic Stamina. In addition, she becomes immune to pressure changes that come from diving to extreme depths underwater. This Knack doesn\u2019t affect swimming speeds, visibility or other aspects of moving underwater. As a useful side effect, a Scion using this Knack has such great breath control that she can speak when underwater (or otherwise holding her breath) by releasing only a minimal amount of air. The character can easily manage short sentences and brief conversations. Extended speech, such as giving an academic lecture while underwater, is either too difficult or at least would drastically reduce the time the Scion can hold her breath (at the discretion of the Storyteller). This Knack also makes combat underwater much easier, since being struck or injured cannot cause the Scion to lose her breath unless someone makes a deliberate effort to squeeze the air from her lungs.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Self\u2013Healing",
+            "description": [
+                "The Scion\u2019s player spends a point of Legend to repair a single level of damage. That damage can be bashing or lethal, and the healing takes place in an instant without leaving a scar. (Aggravated damage is beyond the power of this Knack to heal.) Scions who are interested in building their reputation and spreading their legends quickly \ufb01nd this Knack to be one of the more effective tools of doing so, as bruises, lacerations and bullet holes vanish before astonished onlookers\u2019 eyes.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Holy Rampage",
+            "description": [
+                "The Scion is especially good at breaking inanimate objects. When he spends a point of Legend and applies his full might to breaking something \u2014 whether he\u2019s punching it, kicking it or throwing his shoulder against it \u2014 the item\u2019s Hardness is halved against the attack. This bonus applies only when the character attempts to break an inanimate object that is either freestanding or under his control. If someone else has control of the object in question, the Scion must take it from him \ufb01rst.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Devourer",
+            "description": [
+                "Prerequisite Knack: Inner Furnace (Scion: Hero, p. 129) The Scion will never lack for sustenance again. Any liquid that can exist at as a liquid at room temperature can sustain him as water sustains a mortal\u2014even such distasteful liquids as gasoline, blood, pine-scented disinfectant or diet cola. The same goes for food. Whereas Inner Furnace requires that the Scion at least consume organic matter in order to fuel the inferno at his core, this Knack loosens even that restriction. The Scion could \ufb01ll his belly with sand, polystyrene, harmonicas or suture needles and not feel so much of a pang of indigestion. This Knack confers no special ability to chew up or tear off pieces of inorganic material, but anything small enough to swallow disappears down his gullet with no harmful effects and fuels him just as efficiently as normal food.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Damage Conversion",
+            "description": [
+                "The Scion can spend a single point of Legend to convert all the lethal damage from a single attack into bashing damage, though an overload of bashing damage still upgrades existing bashing damage to lethal (see p. 197). This Knack cannot convert aggravated damage into anything less grave. The character cannot convert old lethal damage into bashing damage. The Knack works only on incoming damage from a single attack.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Shock Wave",
+            "description": [
+                "The Scion is so strong that he can direct his incredible power through the ground or \ufb02oor to affect enemies at range. Doing so takes two separate forms. First, the character can stomp or strike the ground with his \ufb01sts or a weapon, which sends a shock wave outward from him along the ground across an area with a radius equal to his Epic Strength in yards. Striking the ground thus to send out the shock wave requires a Strength roll, which receives the bene\ufb01t of his Epic Strength. Potential victims \u2014 friend and foe alike \u2014 compare their Dodge DV to the results of this roll. If their DV overcomes the Scion\u2019s successes, they manage to jump and let the shock wave pass beneath them. If their DV isn\u2019t high enough, they immediately suffer knockdown as well as an amount of bashing damage equal to however many of the Scion\u2019s successes their DV couldn\u2019t cancel out. (If his allies know the Scion is about to use this Knack \u2014 if his using it is part of a coordinated assault, for instance \u2014 they can jump out of the way preemptively without having to rely on their DVs.) This attack in\ufb02icts no damage on the \ufb02oor or the ground the Scion strikes. All the energy is expended into the shock wave. The second form this power takes is more selective and deliberate. As with the \ufb01rst form, the Scion strikes the ground and sends a shock wave along the surface out to a distance equal to his Epic Strength in yards. This time, though, his player makes a standard Dexterity-based attack roll and targets a single opponent. If that opponent\u2019s Dodge DV isn\u2019t high enough to get him out of the way of the attack, the Scion\u2019s player then makes a Strength roll, modi\ufb01ed by his Epic Strength but not modi\ufb01ed by his extra successes on the attack roll. The damage this attack in\ufb02icts is bashing, but it has one other effect that renders the victim almost helpless for a moment afterward. Any successes on the Strength roll that exceed the victim\u2019s soak not only in\ufb02ict damage but also hurl the victim straight up in the air (one yard per unsoaked success). The victim\u2019s rise and fall takes six ticks, during which his DVs are considered to be halved. He can make ranged attacks at a -5 penalty, but he can\u2019t move or jump or do much of anything until he lands again. In fact, if the Scion\u2019s attack sends him high enough in the air, the victim might take damage from crashing back down from so great a height. Using either form of this Knack requires the expenditure of one Legend point.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Divine Fortitude",
+            "description": [
+                "Prerequisite Knack: Holy Fortitude (Scion: Hero, p. 129) This Knack doubles the amount of time a Scion can work at a strenuous task once more after the prerequisite Knack doubles the base amount of time (itself modified by the Scion\u2019s Epic Stamina). Divine Fortitude also completely obviates a Scion\u2019s need for food or sleep or water. The Scion\u2019s player chooses which necessity the Knack takes away when he \ufb01rst chooses the Knack. When he does so, the character may still indulge in the activity, but he never suffers deprivation effects if he chooses not to. A Scion character may take this Knack three separate times after he takes the prerequisite, each time obviating one of the three listed necessities. Taking the Knack multiple times does not, however, double the amount of time he can work at a strenuous task each time. That period doubles only once, the \ufb01rst time he takes the Knack.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Divine Damage Conversion",
+            "description": [
+                "Prerequisite Knack: Damage Conversion (Scion: Hero, p. 129) Like its prerequisite Knack, a character can spend Legend against a single incoming attack and reduce the severity of that attack. If he spends five points of Legend, he can reduce all the aggravated damage from a single attack to lethal damage, which he has a better chance of soaking.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Crushing Grip",
+            "description": [
+                "The Scion is a fearsome wrestler and grappler not to be tri\ufb02ed with. When he\u2019s locked in a clinch and has taken control of it, the character can not only in\ufb02ict the normal amount of damage (see p. 202), but that damage is now lethal as well. A character can still choose to hold an opponent without in\ufb02icting damage, or he can choose to break the hold. He can even soften his touch and in\ufb02ict bashing damage instead. The damage the character can in\ufb02ict when his temper gets riled, though, is tremendous and often quite messy.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Holy Fortitude",
+            "description": [
+                "The character is the epitome of the holy ascetic. The periods for which she is able to go without food, water and sleep all double. The amount of time she is able to work at a strenuous task without stopping also doubles.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Holy Bound",
+            "description": [
+                "Only characters whose Boons include the Sky Purview have more freedom to \ufb02aunt the laws of physics. Simply having Epic Strength enables a Scion to perform prodigious leaps that leave mortals standing slack-jawed with wonder. For example, if a Scion has Strength 5, Athletics 3 and Epic Strength 3, she can jump 12 yards straight up or 24 yards forward. (See \u201cMovement\u201d on p. 180\\.) This Knack, however, doubles a Scion\u2019s vertical and horizontal jumping distances. With it, the aforementioned character could leap an amazing 24 yards straight up (from the ground to a seventh-story balcony, for instance) or 48 yards forward in a single bound.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Fury of War",
+            "Dice Pool: Stamina + Fortitude \nCost: 3 Legend + 1 Willpower \nThe Scion can summon up a bloodlust and battle rage within her to shame the legendary berserkers. Her hair becomes wilder, her eyes blaze, she laughs and screams as she rips her foes limb from limb. She thinks of little else but battle and victory."
+        ],
+        [
+            "Siege Juggernaut",
+            "Dice Pool: None \nCost: 10 Legend \nOvercoming enemy defenses means inflicting damage that can penetrate their walls, fortresses and terrain. For a demigod, the usual way to do so is to blast right through them, a power epitomized by this Boon. When a demigod invokes the Siege Juggernaut Boon, she becomes capable of using her normal weapons (or even unarmed attacks) as artillery. To the onlooker, no change is visible until the Scion lashes out. When she strikes, though, her weapon becomes suffused with a massive aura of divine energy and appears as a giant, illuminated version of the usual strike. This tremendous blast of power can smash down walls, rend the landscape and sweep away fortifications with ease."
+        ],
+        [
+            "Epic Enhancement",
+            "Dice Pool: Intelligence + Animal Ken \nCost: (1 Willpower + 3 Legend) per Attribute; (1 Willpower + 5 Legend) per Epic Attribute \nBy force of will, the character can make an animal simply better than it could ever become on its own. Not only can he make an animal bigger, stronger and tougher, he can also make it faster, more beautiful, more charming or wiser. For one Willpower and three Legend points, he can increase any of the beast\u2019s Mental or Social Attributes by one dot. He can also increase its Dexterity by one dot for the same cost. This Boon can no more than double the beast\u2019s original Dexterity. Increases to its Mental and Social Attributes are limited to the human maximum of five dots."
+        ],
+        [
+            "Fire Immunity",
+            "Dice Pool: None \nCost: None \nThe Scion takes no damage from fire, he need never worry about suffering from smoke inhalation, and even the most intense heat is nothing more than a comforting warmth to him. This immunity remains in effect regardless of what substance is burning. It doesn\u2019t, however, extend to his clothes or to any item except the Birthright through which he channels the Boon."
+        ],
+        [
+            "Devil Body",
+            "Dice Pool: None \nCost: 1 Willpower + 3 Legend \nUpon activating this Boon, the character\u2019s body immediately becomes a human-shaped pillar of white-hot flame. His features are unrecognizable except in silhouette (if he has a distinctive silhouette), and his voice has the quality of a roaring bonfire. In this form, the character\u2019s merest touch can set things alight or burn flesh. Touching the character inflicts a number of levels of lethal damage equal to his Legend. If the character physically attacks someone, the player adds that many extra levels of lethal damage to the results of his damage roll. The flames of the Scion\u2019s body can even burn a fellow Scion who has Fire Immunity (Fire 1) if that Scion\u2019s Legend is lower, though the lesser Scion suffers automatic fire damage equal to only the difference in their Legend ratings. The character\u2019s semisolid form also absorbs an amount of damage equal to the character\u2019s Legend from all physical attacks."
+        ],
+        [
+            "Paper Tiger",
+            "Dice Pool: Intelligence + Art \nCost: 1 Willpower + 5 Legend per act of creation; 1 Legend per unit \nWhile some demigods use the primal power of their ichor to grant life with the Create Animal Boon (Animal 7), others use the artistic work of creation to infuse their conjurations. Indeed, this act may explain the Neolithic cave paintings of various animals scattered about in caves inhabited by early humanity."
+        ],
+        [
+            "Animal Aspect",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Legend per action \nBy meditating for one action (Speed 3) on a token representing his animal, the Scion takes on a metaphorical characteristic associated with it, creating a dice bonus for rolls involving the Attribute most closely associated with that characteristic. A Scion might take on a snake\u2019s sinuous grace (Dexterity), a peacock\u2019s beauty (Appearance), an elephant\u2019s proverbial memory (via Intelligence) or any other justifiable characteristic. The bonus dice are equal to the number of successes on the activation roll, and the benefit lasts for one action per Legend point spent up front to fuel the Boon."
+        ],
+        [
+            "Humata (Asha \u2022)",
+            "Dice Pool: None \nCost: 1+ Legend \nUpon purchasing this Boon, the Scion chooses one of the three attribute categories (Mental, Social or Physical) to associate with this power. Thereafter, the Scion can invoke the principle of Humata (Good Thoughts) and call upon greater reserves of power. The Scion gains a single \u201cWild Card\u201d dot of Epic Attributes, which she may apply to any Attribute within her chosen category. This may raise an Epic Attribute beyond what the character\u2019s Legend rating allows. The character cannot use Humata multiple times to increase an Epic Attribute by more than one, or to increase any other Epic Attributes. Nor does the temporary dot of Epic Attribute grant an additional Knack. Humata (and its successor Boons) cannot raise an Epic Attribute above 10 dots. \nInvoking Humata costs as many Legend points as the final value of the chosen Epic Attibute. The effect lasts for a scene, and cannot be changed until the scene ends. \n Example: A Scion of Anahita has an Epic Intelligence of 2, no Epic Wits, a Legend of 3 and Humata associated with Mental Attributes. She could spends 3 points of Legend and increases her Epic Intelligence to 3, ignoring that her Legend is too low for that rating; or, she could spend 1 Legend to gain one dot of Epic Wits for the rest of the scene."
+        ],
+        [
+            "Warrior Ideal",
+            "Dice Pool: Charisma + Presence \nCost: 1 Legend \nThe Scion adopts some idealized warrior aspect, from howling berserker to unquestioning enlisted man to fearless officer to pitiless samurai. This attitude unnerves and intimidates any opponent who faces him in combat, inflicting a penalty equal to the Scion\u2019s Legend on any attack roll the opponent makes. This penalty applies to any character with a lesser or equal Legend rating who attempts to attack the Scion. This idealized aspect lasts for a number of consecutive actions during the battle equal to the successes the Scion\u2019s player rolled to activate it, and he can invoke it only once during any given battle."
+        ],
+        [
+            "Havarastra (Asha \u2022\u2022\u2022)",
+            "Dice Pool: None \nCost: 1 Willpower + 1 or more Legend per person \naffected \nThe Scion gains a third \u201cWild Card\u201d dot of Epic Attribute, applied to the remaining category of Attributes. \nThe Scion can also bestow a single dot of Epic Attributes on other people at range, and gift more than one target at a time. The Scion takes a miscellaneous action indicative of prayer \u2014 perhaps opening her arms and looking to the sky, kneeling and touching the ground or simply bowing with her hands clasped. She grants a single dot in one Epic Attribute to all her chosen targets. Targeted people must be within (Legend x 10) yards of the Scion, but she does not need to see them \u2014 merely to know they are present. Each target costs the Scion Legend points based on the resulting value of the chosen Epic Attribute, as per Hukhta and Humata. The effect lasts a scene. Hukhta and Havarastra do not stack."
+        ],
+        [
+            "Animal Command",
+            "Dice Pool: Charisma + Animal Ken \nCost: 1 Willpower \nThe Scion spends one Willpower and names one task that the animal must perform. The task cannot seem suicidal or impossible to the animal, but the animal cannot balk at an order that doesn\u2019t immediately seem so. \u201cHey rabbit, go rip that lion\u2019s throat open,\u201d would seem impossible to the rabbit so commanded. \u201cRun to that grass across this street,\u201d would be a fine order for that same rabbit, though, even if cars were zipping by. The order can describe a single immediate action (\u201cBite that guy!\u201d) or one with a single condition (\u201cCome find me when a blue car stops here.\u201d). If he lacks the previous Boon, the Scion can deliver his command only through simplistic nonverbal signals."
+        ],
+        [
+            "Faunaphagia",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + 1 Legend \nSome shamans believe that consuming a creature grants a measure of its strength. Scions who engage in this practice learn to absorb the capabilities of an animal by devouring such a creature and drawing forth its essence from the digested flesh. The Scion must eat a piece of meat from the appropriate animal (a potentially risky act, considering that the animal is probably considered sacred to his patron God). Then, the player expends the Willpower and Legend and rolls (Stamina + Animal Ken). The successes scored indicate the number of points of Abilities that the Scion may borrow from the animal. A Scion can only borrow Abilities up to the level possessed by the animal, although these dots can add on to his existing skill dots to a maximum total of five. Skills gained with Faunaphagia remain for the rest of the scene."
+        ],
+        [
+            "Ashavan (Asha \u2022\u2022\u2022\u2022\u2022 \u2022\u2022\u2022\u2022\u2022)",
+            "Dice Pool: None \nCost: 1 Willpower + 15 Legend \nWith this Boon, the Scion calls upon the fundamental existential principle of Asha. She may create her own, seventh Amesha Spenta, for whatever All-Purpose Purview she wants: Chaos, Health, War, whatever. Yazata traditionally choose Sun, to improve their connection to Divine Light, or Stars, the purview of cosmic order \u2014 but they can choose anything. However, a character can only do this once: She cannot go on to create further Amesha Spentas. A Yazata\u2019s personal Amesha Spenta has the same effects as the basic six, with the same cost to manifest. What\u2019s more, the Yazata may now spend 15 Legend and 1 Willpower to evoke all seven of her Amesha Spentas as helpers"
+        ],
+        [
+            "Paper Tiger",
+            "Dice Pool: Intelligence + Art \nCost: 1 Willpower + 5 Legend per act of creation; 1 Legend per unit \nWhile some demigods use the primal power of their ichor to grant life with the Create Animal Boon (Animal 7), others use the artistic work of creation to infuse their conjurations. Indeed, this act may explain the Neolithic cave paintings of various animals scattered about in caves inhabited by early humanity."
+        ],
+        [
+            "Fire Immunity",
+            "Dice Pool: None \nCost: None \nThe Scion takes no damage from fire, he need never worry about suffering from smoke inhalation, and even the most intense heat is nothing more than a comforting warmth to him. This immunity remains in effect regardless of what substance is burning. It doesn\u2019t, however, extend to his clothes or to any item except the Birthright through which he channels the Boon."
+        ],
+        [
+            "Hukhta (Asha \u2022\u2022)",
+            "Dice Pool: None \nCost: 1+ Legend per person affected \nThe Scion picks a second category of Attributes, and gains a single \u201cWild Card\u201d dot of Epic Attributes she may apply to this category, following the same rules as for Humata. \nWhat\u2019s more, as a miscellaneous action the Scion can grant a dot of an Epic Attribute to a companion by speaking words of encouragement or praise and touching the target. (Or writing, or signing \u2014 just so long as the target can understand the Scion.) The dot must be in one of the two categories chosen by the Scion. There is no repeat use to grant multiple dots (even in multiple categories). The gift of power can raise Epic Attributes above the limits set by the target\u2019s Legend, and each gift costs as many Legend points as the resulting Epic Attribute rating. This power can affect mortals as well as Scions and other supernatural folk. The effect lasts for a scene."
+        ],
+        [
+            "Hybrid Chimera",
+            "Dice Pool: Intelligence + Animal Ken \nCost: 10 Legend, 15 Legend or 20 Legend \nWith this Boon, the God is able to blend living animals that should not be able to procreate with one another. He need only take a minimum of one cell from each species and mix them in a solution of his own ichor. The player then spends his Legend and makes a roll of (Intelligence + Animal Ken). The difficulty of this roll is equal to the combined Stamina ratings of the mismatched breeding pair. (If the animal in question is not written up in the back of Scion: Hero, the variety of other animals listed there should give ample guidelines from which to extrapolate.)"
+        ],
+        [
+            "Inferno",
+            "Dice Pool: Charisma + Craft \nCost: 3 Legend \nWith a shouted word, a Scion can cause an area in his line of sight to instantly burst into flame. The flame has the intensity of a bonfire, and it covers an area with a radius in yards equal to the number of successes on the activation roll. The flames stand as high from a flat surface as the Scion is tall. This fire can burn without fuel for a number of minutes equal to the Scion\u2019s Legend. When that time is up, the flames go out if they still don\u2019t have any fuel. People who are within the area the Scion intends to set alight get a single chance to escape the affected area unharmed before the fire starts. To do so, their players must get more successes on a (Dexterity + Athletics) roll than the Scion\u2019s player got on the activation roll, and the character must be able to get out of the area in one action."
+        ],
+        [
+            "Flame Travel",
+            "Dice Pool: None \nCost: 1 Legend \nThe Scion can leap into any fire he can get to and instantly emerge from either another fire within his line of sight or one upon which he has used Bolster Fire (Fire \u2022\u2022) in the scene. The fires he enters and exits must be at least as big around as he is. The Scion doesn\u2019t actually touch either fire through which he travels, so he doesn\u2019t necessarily have to have Fire Immunity to use this Boon. He emerges right beside the fire through which he exits, though, so heat and smoke are factors to consider."
+        ],
+        [
+            "Animal Form",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + 1 Legend \nIn one action (Speed 5, DV -1), the character transforms into a specimen of his chosen animal. The character\u2019s Physical Attributes are normal for a mundane specimen of the animal he\u2019s become, but his Mental Attributes remain his own. He also retains access to his Epic Mental Attributes and Knacks, though his other Epic Attributes are off limits until he regains his human form. He can communicate with other animals of his type. Other Scions who use Animal Communication can understand him perfectly clearly. He is immune to other Scions\u2019 uses of Animal Command or Ride Animal."
+        ],
+        [
+            "Flame Travel",
+            "Dice Pool: None \nCost: 1 Legend \nThe Scion can leap into any fire he can get to and instantly emerge from either another fire within his line of sight or one upon which he has used Bolster Fire (Fire \u2022\u2022) in the scene. The fires he enters and exits must be at least as big around as he is. The Scion doesn\u2019t actually touch either fire through which he travels, so he doesn\u2019t necessarily have to have Fire Immunity to use this Boon. He emerges right beside the fire through which he exits, though, so heat and smoke are factors to consider."
+        ],
+        [
+            "Control Fire",
+            "Dice Pool: Wits + Control \nCost: 5+ Legend \nA fire must burn, but when a God has this Boon, fire burns as he commands. To take control of the fire, the God need only stare into it and spend Legend points. When he does so, the fire becomes a three-dimensional mass that he can manipulate in all three dimensions in any way his imagination can conceive. For five Legend points, the God can manipulate 10 cubic yards of fire (based on its surface area and height). If less than 10 cubic yards of fire is present, the God can increase the present amount of fire to fill that volume. For each additional Legend point he spends, the God can increase the amount of fire under his control by 10 more cubic yards. (The God can spend no more additional points of Legend beyond the mandatory five than he has dots of Legend.) The God can move and shape fire under his control in all three dimensions\u2014lifting it off the ground entirely or making it take any three-dimensional shape he desires. He can even mold the fire into a recognizable shape and have it take actions."
+        ],
+        [
+            "Hukhta (Asha \u2022\u2022)",
+            "Dice Pool: None \nCost: 1+ Legend per person affected \nThe Scion picks a second category of Attributes, and gains a single \u201cWild Card\u201d dot of Epic Attributes she may apply to this category, following the same rules as for Humata. \nWhat\u2019s more, as a miscellaneous action the Scion can grant a dot of an Epic Attribute to a companion by speaking words of encouragement or praise and touching the target. (Or writing, or signing \u2014 just so long as the target can understand the Scion.) The dot must be in one of the two categories chosen by the Scion. There is no repeat use to grant multiple dots (even in multiple categories). The gift of power can raise Epic Attributes above the limits set by the target\u2019s Legend, and each gift costs as many Legend points as the resulting Epic Attribute rating. This power can affect mortals as well as Scions and other supernatural folk. The effect lasts for a scene."
+        ],
+        [
+            "Blessing of Bravery",
+            "Dice Pool: Charisma + Command \nCost: None \nIntoning a benediction over a person or group prepared to engage in battle, the Scion bolsters their courage and determination. Every character on the Scion\u2019s side of the conflict who hears the benediction gains a point of Willpower as well as two temporary bonus dots of Valor that last until the battle ends. The Scion may amplify his voice electronically, but he must be present at the battle and give the blessing live."
+        ],
+        [
+            "Morale Failure",
+            "Dice Pool: Manipulation + Presence \nCost: 1 Legend per 5 troops \nThe Scion can shake an enemy\u2019s leadership and seed an outbreak of cowardice among the men. When he makes himself visible to an opposing force\u2019s leader, his player rolls (Manipulation + Presence) against the enemy leader\u2019s player\u2019s roll of (Willpower + Integrity + Legend)."
+        ],
+        [
+            "Paper Tiger",
+            "Dice Pool: Intelligence + Art \nCost: 1 Willpower + 5 Legend per act of creation; 1 Legend per unit \nWhile some demigods use the primal power of their ichor to grant life with the Create Animal Boon (Animal 7), others use the artistic work of creation to infuse their conjurations. Indeed, this act may explain the Neolithic cave paintings of various animals scattered about in caves inhabited by early humanity."
+        ],
+        [
+            "Blazing Weapon",
+            "Dice Pool: None \nCost: 1 Legend per weapon \nThe Scion reaches into a flame that\u2019s at least as big as a campfire and pulls out a blazing melee weapon made of flickering fire. The weapon can be of any shape and size, but the distinction is largely a matter of personal taste, rather than available traits. These weapons do not use the normal traits from the chart in Scion: Hero. Instead, when the character removes the weapon from the fire, the player receives a base number of points equal to the Scion\u2019s Legend for each weapon. These points can add to a base Accuracy +0, Damage +0 and Defense -1, and they can subtract from a starting Speed 6 (reducing it to a minimum of 1). The player assigns the weapon\u2019s traits as the character produces the weapon, and he can\u2019t change them afterward."
+        ],
+        [
+            "Hotter Than Hot",
+            "Dice Pool: Wits + Control \nCost: 5 Legend \nWhen a God of Fire decides to turn up the heat, it\u2019s time to get out of the kitchen \u2014 things are going to get really hot. Invoking the Hotter than Hot Boon amplifies the mystical force that powers a God\u2019s Fire Boons. For the rest of the scene, any time the God uses a Fire Boon, it automatically trumps the simple Fire Immunity (Fire 1) Boon. While many advanced powers can overcome the immunity of beings with lower Legend ratings, a power enhanced with Hotter than Hot suffers no such limitation: It cuts right though fire resistance like it\u2019s not there. In fact, the supercharged flames that a God wields in conjunction with this Boon are so deadly, they can injure or kill creatures that are made entirely of fire. Whether it\u2019s another Scion in Devil Body form or an Ifrit, fire elemental or salamander, beings that normally enjoy total protection from fire now realize what \u201cscorching\u201d really means."
+        ],
+        [
+            "R\u00edastrad",
+            "Dice Pool: None \nCost: 3 Legend + 1 Willpower + cost of other Boons and Knacks \nThe warp-spasm of Irish legend, the Scion with this Boon can channel a potent war-power, breathing in the very fury and twisting unpredictability of battle itself. When this Boon is activated, the body of the hero or God twists and warps, taking on a truly incomprehensible freakishness. Every nerve quivers with barely-contained violence, and the Scion\u2019s body temperature multiplies impossibly."
+        ],
+        [
+            "Battle Cry",
+            "Dice Pool: Charisma + Presence \nCost: 1 Legend \nDuring a battle, be it a pitched field engagement or an alley fight between a Band of Scions and a gang of frost giants, the Scion can loose a horrible battle cry that unnerves his foes. Every fighter on the Scion\u2019s enemies\u2019 side who hears the unearthly shriek loses one die from all attack rolls for a number of attacks equal to the Scion\u2019s Legend rating."
+        ],
+        [
+            "Bolster Fire",
+            "Dice Pool: None \nCost: 1 Legend per scene \nNormally, fire needs oxygen to breathe and fuel to consume. With this Boon, a Scion removes both necessities from a single flame for one scene. He could keep a single torch (or even a match) lit for hours as he explores a dark labyrinth. He could cause the tiny spark at the end of a fuse to burn in place without moving. This Boon is also good for keeping a source of flame from consuming the breathable air in an enclosed space."
+        ]
+    ],
+    "nature": "Architect",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 28,
+        "move": 22,
+        "climb": 20,
+        "jump": {
+            "horizontal": 42,
+            "vertical": 21
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 29,
+        "parry_dv": 20
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 1,
+        "animal_ken": 2,
+        "art": 2,
+        "athletics": 1,
+        "awareness": 0,
+        "brawl": 3,
+        "command": 2,
+        "control": 0,
+        "craft": 3,
+        "empathy": 0,
+        "fortitude": 0,
+        "integrity": 1,
+        "investigation": 1,
+        "larceny": 2,
+        "marksmanship": 3,
+        "medicine": 0,
+        "melee": 3,
+        "occult": 2,
+        "presence": 0,
+        "politics": 3,
+        "science": 1,
+        "stealth": 2,
+        "survival": 3,
+        "thrown": 1
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 25,
+        "lethal": 28.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 11,
+    "god": "Vahram",
+    "pantheon": "Yazata",
+    "name": "\u0639\u0628\u062f \u0627\u0644\u0631\u062d\u0645\u0646 \u064a\u062d\u064a\u0649"
+}

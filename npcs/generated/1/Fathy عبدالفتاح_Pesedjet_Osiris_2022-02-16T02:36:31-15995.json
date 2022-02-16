@@ -1,0 +1,200 @@
+{
+    "attributes": {
+        "stre": 1,
+        "dex": 1,
+        "sta": 1,
+        "cha": 1,
+        "man": 1,
+        "app": 1,
+        "per": 1,
+        "inte": 1,
+        "wits": 1
+    },
+    "epic_attributes": {
+        "epic_stre": 3,
+        "epic_dex": 1,
+        "epic_sta": 0,
+        "epic_cha": 0,
+        "epic_man": 1,
+        "epic_app": 2,
+        "epic_per": 0,
+        "epic_int": 0,
+        "epic_wits": 1
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        0,
+        1,
+        1,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Not The Face",
+            "description": [
+                "The Scion makes a simple wince, throws up his hands, shrieks for mercy or somehow shows that he\u2019s just not quite ready to take an incoming blow. As a result, the attacker hesitates for the briefest instant, perhaps long enough for the Scion to escape or for a friend of his to land a telling blow instead. As a response to an incoming attack, the Scion\u2019s player spends one point of Legend and rolls (Manipulation + Empathy + Legend) against the opponent\u2019s (Willpower + Integrity + Legend). If the player wins, then the attacker hesitates for the barest instant, and his attack delays to the next tick. Naturally, the attacker must be able to see the Scion in order for this trick to work, and the Scion must know that the attack is coming, as well. The Scion can use this Knack only once per scene."
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Judgment",
+            "Dice Pool: Perception + Empathy \nCost: None \nThis Boon aids a Scion immensely in determining guilt, one of the foundations of meting out justice. When she confronts someone she suspects committed an injustice and accuses that person of having done so, her player rolls (Perception + Empathy). (This roll isn\u2019t modified by supernatural powers or contested by the suspect\u2019s player.) On a success, the Scion can intuitively tell whether the suspect is guilty as charged. A failure yields an indeterminate reading and means that the Scion can\u2019t try to determine the same subject\u2019s guilt for 24 hours. A botch yields a false reading."
+        ],
+        [
+            "Green Thumb",
+            "Dice Pool: None \nCost: 1 Legend per plant/patch per year \nThe Scion need only touch a large plant (such as a tree or bush) or a one-square-yard patch of smaller plants (from a window box of daisies to a sheet of algae) and spend a point of Legend. That plant or patch can then survive for a whole year (or for its whole life if its natural span is shorter) without food or sunlight or water. The Scion\u2019s ministrations keep the plant healthy through drought, nutrient deficiency, unnatural darkness or other environmental shortfall. The plant\u2019s surroundings must be within its natural tolerances for the plant to survive, though. (This Boon can\u2019t nurture seaweed on the desert floor, for instance.) Also, this Boon doesn\u2019t protect against or cure any blight or damage from herbivorous noshing."
+        ]
+    ],
+    "nature": "Rebel",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 8,
+        "move": 2,
+        "climb": 5,
+        "jump": {
+            "horizontal": 10,
+            "vertical": 5
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 3,
+        "parry_dv": 5
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 0,
+        "animal_ken": 3,
+        "art": 0,
+        "athletics": 0,
+        "awareness": 2,
+        "brawl": 3,
+        "command": 1,
+        "control": 1,
+        "craft": 0,
+        "empathy": 1,
+        "fortitude": 1,
+        "integrity": 1,
+        "investigation": 2,
+        "larceny": 3,
+        "marksmanship": 1,
+        "medicine": 3,
+        "melee": 1,
+        "occult": 3,
+        "presence": 3,
+        "politics": 2,
+        "science": 1,
+        "stealth": 0,
+        "survival": 0,
+        "thrown": 3
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 1,
+        "lethal": 0.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 1,
+    "god": "Osiris",
+    "pantheon": "Pesedjet",
+    "name": "Fathy \u0639\u0628\u062f\u0627\u0644\u0641\u062a\u0627\u062d"
+}

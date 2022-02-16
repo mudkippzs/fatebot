@@ -1,0 +1,392 @@
+{
+    "attributes": {
+        "stre": 9,
+        "dex": 11,
+        "sta": 11,
+        "cha": 7,
+        "man": 9,
+        "app": 3,
+        "per": 9,
+        "inte": 13,
+        "wits": 9
+    },
+    "epic_attributes": {
+        "epic_stre": 9,
+        "epic_dex": 3,
+        "epic_sta": 10,
+        "epic_cha": 7,
+        "epic_man": 5,
+        "epic_app": 4,
+        "epic_per": 3,
+        "epic_int": 6,
+        "epic_wits": 3
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        2,
+        0,
+        0,
+        0
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Dreadful Mien",
+            "description": [
+                "Some Scions are so hideous that seeing them spurs the primitive centers of the human brain toward reckless \ufb02ight. Most humans can clamp down on this instinctive response and remain in such Scions\u2019 presence, but this Knack overrides that social nicety. When the Scion\u2019s player spends a Legend point, the character directs his unholy monstrousness at a single unlucky victim in his presence. Overwhelmed, the victim runs for his life and hides somewhere until the next sunrise. People affected by this Knack run away with self-preservation in mind, though, so they won\u2019t sprint blindly into traffic or try to swim across a shark tank to safety. Scions whose Epic Appearance represents divine beauty cannot use this Knack. Also, it doesn\u2019t work on hideous Scions with more dots of Epic Appearance than the one using the Knack.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Inspirational Figure",
+            "description": [
+                "The Scion\u2019s well-chosen words can play on humankind\u2019s social mentality, giving hope and courage to not just one listener, but a group. The Scion gives a speech to gathered listeners\u2014whether he\u2019s calling upon them for help, raising their spirits after a local disaster or strengthening the bonds of community among them\u2014and spends a single point of Legend. As long as his words are intended to inspire them in some way, every person who can hear him listens spellbound and receives a point of Willpower at the speech\u2019s end. The only limit is that the listeners must be able to hear him clearly without him using the aid of any amplifying or broadcasting equipment. This Knack inspires other Scions as easily as mortals, but it doesn\u2019t inspire titanspawn. Nonetheless, titanspawn are compelled to at least let him \ufb01nish his speech before carrying out whatever they\u2019re up to.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Undeniable Resemblance",
+            "description": [
+                "Prerequisite Knack: Detail Variation Combining elements of the two Knacks it takes to get to this one, the character can make more radical alterations to the way he looks. He can change racial characteristics or make dramatic changes in his weight or height. He can even change genders (and be completely fertile in the new form) or exhibit characteristics of both (and be fertile in both). Any morphology and physiognomy that exists on the spectrum of human variety is a valid change. When the character is finished, his new Appearance can be from one dot to as many dots as he actually has. His Epic Appearance dots are automatically included at their full value, but they can be suppressed normally with My Eyes Are Up Here. The character can also use this Knack to perfectly mimic the appearance of anyone he has seen. Doing so requires a (Dexterity + Empathy) roll with a difficulty equal to (1 + that person\u2019s Legend). More generic alteration requires no roll, but any use of this Knack costs five Legend points to realize the finish product.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Borrowed Credibility",
+            "description": [
+                "Prerequisite Knack: Unimpeachable Reference (Scion: Demigod, p. 60) This Knack\u2019s prerequisite lets a Scion lend someone the power of her name to help that person get over a hurdle of suspicion or disbelief with a listener. Actually winning that skeptical audience over after that is still up to the person the Scion tried to help. With Borrowed Credibility, however, the God can not only vouch for a subject in absentia, she can actually use her divine influence through a subject remotely. To do so, the God instructs a person to speak on her behalf, possibly going so far as to prepare a speech for him, and empowers that person with an expenditure of three Legend points. The God\u2019s player then rolls her character\u2019s full Charisma-based dice pool, adding in all available bonus successes. Thereafter, for a number of days equal to the God\u2019s Epic Charisma rating, the empowered person may substitute the God\u2019s player\u2019s roll result for his own player\u2019s use of the same dice pool. He must claim the God\u2019s authority when he does so, speaking in the divine figure\u2019s holy name. Characters with this Knack can use it on any willing emissary of equal or lesser Legend. (As the messenger of the Dodekatheon, for instance, Hermes has been a frequent recipient of this effect.) Its remote effect works on a single listener or on a whole group of people. Also, the character\u2019s instructions to her emissary cannot run counter to the effect of the Charisma-based roll she intends to bestow upon that emissary. She cannot, for instance, prepare what looks like a stirring battlefield address on paper but is actually intended to demoralize the troops through whom her chosen generals speaks.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Blinding Visage",
+            "description": [
+                "Mortal beauty or ugliness can take one\u2019s breath away, but divine beauty or ugliness can do so much more. When a Scion grows angry at a mortal \u2014 such as a tabloid photographer who just won\u2019t leave him alone \u2014 his player can spend a point of Legend and sear his visage into the mortal\u2019s retinas. Doing so blinds and disorients the mortal for the remainder of the scene. If the Scion\u2019s Epic Appearance represents beauty, the victim meanders aimlessly, dazzled by the character\u2019s divine radiance. If the Epic Appearance represents ugliness, the victim staggers around in a blind panic unable to get the awful visage out of his head. Rules for dealing with blindness appear on page 186 of Scion: Hero.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Boys Will Be Boys",
+            "description": [
+                "This Knack, alternatively known as Girls Just Wanna Have Fun, is a character\u2019s trusty Get Out of Jail Free card. When the character gets into trouble with some angry witness or authority figure\u2014be it the police, a mortal parent, one\u2019s long-suffering spouse, etc.\u2014he need only shrug haplessly, grin foolishly or do likewise. (His player also spends a point of Legend.) At that, the offended party decides that whatever the character did wasn\u2019t really that bad. The character gets a slap on the wrist, a stern warning or no punishment at all, depending on when he chooses to use it. This Knack doesn\u2019t work on anyone with a higher Legend rating, though. Also, if the character wants to use it against someone with an equal Legend rating, his player must roll (Charisma + Presence + Legend) against a roll of the potential victim\u2019s (Willpower + Integrity + Legend).",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Detail Variation",
+            "description": [
+                "Prerequisite Knack: My Eyes Are Up Here (Scion: Demigod, p. 63) A character with positive Epic Appearance is flawless and without blemish, but sometimes, it can get boring to look perfect the same way all the time. A character with this Knack doesn\u2019t have that problem. For the cost of one Legend point, the character can change some minor physical detail such as eye color, hair length, hair color, hairstyle or skin tone. She can change her height by three inches in either direction of the standard and change her apparent weight and muscle tone by 10 percent of the standard. The character can also use this Knack to go from filthy to perfectly clean in an instant, as well as to remove any minor scars from past injuries. Doing the latter doesn\u2019t heal damage or restore lost body parts, but it makes what\u2019s left over look less ugly.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Instant Seminar",
+            "description": [
+                "Prerequisite Knack: Inspirational Figure (Scion: Hero, p. 130) The Scion expands his ability to influence groups of people by making any topic, no matter how convoluted or mundane, seem interesting, gripping and of crucial importance. The Scion must spend at least a minute lecturing to a crowd on a particular topic. The Scion\u2019s player then spends two points of Legend and rolls (Charisma + Presence + Legend). For each success scored, one person in the crowd gains temporary use of a Scion\u2019s Ability score. The Scion can perform this quick instruction for any one Ability, but everyone in the crowd hears the same speech and therefore can potentially benefit from the same Ability. For the rest of the scene, those affected by this power may choose to use the Scion\u2019s Ability in place of their own. Heroes can only allow a beneficiary to gain a maximum of three temporary dots in an Ability this way. Demigods can grant up to four dots, while Gods can grant up to five. Such a trick is very useful for turning a disorganized mob into deadly streetfighters (Brawl), creating a temporary squad of EMTs to deal with a disaster (Medicine) or getting the help of a group of inexperienced people in a large construction project, like the pyramids (Craft). Using this Knack does not in any way lower or use up the invoking Scion\u2019s own Ability. The Scion can use this Knack only once per scene.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Compelling Presence",
+            "description": [
+                "Prerequisite Knack: Serpent\u2019s Gaze (Scion: Hero, p. 133) As with the prerequisite Knack, Compelling Performance draws a victim\u2019s attention to the Scion and renders him unable to look away. The victim remains Inactive for combat purposes, staring helplessly at the hideous monster or unearthly beauty before him. Unlike Serpent\u2019s Gaze, though, the Scion need not consciously maintain eye contact with her victim for the effect to endure. Once the victim has been trans\ufb01xed by the Scion\u2019s Epic Appearance, he remains thus until either the end of the scene or until the Scion leaves his line of sight. The victim will follow the Scion with his eyes, even turn in place if she wanders around the immediate area, but he can\u2019t do anything other than look at her. What\u2019s more, the Scion can capture a number of victims with her appearance equal to her (Epic Appearance + Legend) total. Her player only spends one point of Legend per person up to the maximum, and they all stop what they\u2019re doing to stare at her in rapt fascination. When the effect ends, they remember nothing that happened after the \ufb01rst moment they saw the Scion. Mortals and Scions of lesser or equal Legend are unable to look away on their own, but Scions with a greater Legend are not so vulnerable. After the Scion using the Knack takes one full action, the higher-Legend victim may spend a point of Willpower to negate the effect. In so doing, he remains immune to the effect from the same Scion for the rest of the scene.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Benefit of the Doubt",
+            "description": [
+                "Sometimes, for a Scion to be able to help people\u2014or convince them to stay out of harm\u2019s way\u2014those people have to accept ideas that would seem patently ridiculous if they weren\u2019t true. The player of a Scion with this Knack spends a point of Legend, and something in the Scion\u2019s bearing or expression convinces a single listener not to dismiss what he\u2019s saying. Maybe it\u2019s the fact that the Scion is taking his words so seriously, or maybe he just has an honest face. Maybe he came highly recommended by a respected colleague. Whatever the reason, the listener gives the Scion the bene\ufb01t of the doubt in regards to what the Scion next tries to explain, despite what he might be otherwise inclined to believe.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "My Eyes Are Up Here",
+            "description": [
+                "As Scions build up ever more dots of Epic Appearance, they grow ever more unearthly. As such, whether they\u2019re beautiful or quite the opposite, it becomes increasingly difficult to deal with mortal humans on their level. The Scion\u2019s Epic Appearance can\u2019t help but get in the way. This Knack, however, mitigates that factor. When the Scion\u2019s player spends a point of Willpower to activate it for the scene, any mortals who see the character completely ignore his Appearance score (both Epic and mundane). Witnesses might vaguely remember that a beautiful Scion was kind of pretty or that a disgustingly ugly Scion was dirty and a little scary, but that\u2019s it. They won\u2019t recognize the Scion again later unless the Scion uses this Knack in their presence again, and they won\u2019t be able to describe the Scion in great detail to anyone else. They might get height, hair color, skin tone, build and style of dress right, but details beyond those generalities prove elusive. Scions themselves are immune to this effect, as they are more than capable of dealing with the extremes that Epic Appearance represents. This Knack lasts for the scene, though the Scion can choose to turn off the effect before then. Also, while he\u2019s using this Knack to deal with a mortal, he cannot use any other Epic Appearance Knacks against him. Nor can he apply his Epic Appearance to rolls pertaining to dealing with that mortal at all until he lifts the effect.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Hapless Cool",
+            "description": [
+                "The character spends a Legend point, and for the rest of the scene, she\u2019s just cool. Nobody can explain it; there\u2019s just something about either what she did or the way she did it that made her look cool. Okay, sure, the salt she threw over her shoulder hit Papa Legba\u2019s dog in the eyes, but the comedic timing was just so perfect. Yeah, granted, she laughed so hard when Hel asked if she wanted any half-and-half in her coffee that scrambled eggs came out her nose, but she owned it. No matter what a character with this Knack active does, says or allows to happen that makes a fool out of herself, anyone who sees her thinks she\u2019s cool anyway."
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Ghost Control",
+            "Dice Pool: Charisma + Occult \nCost: Varies \nAs a lord of the Underworld, the God has nigh-absolute dominion over the souls of the departed. He need only possess a piece of the ghost\u2019s abandoned corpse\u2014such as a knucklebone, a lock of hair or a preserved eye\u2014and the ghost is all but his slave to boss around. If the God gives the ghost a command while holding the memento, the ghost is compelled to do as the God commands. Each command requires a (Charisma + Occult) roll as well as the expenditure of one Legend point, and the ghost\u2019s player resists with a (Willpower + Integrity + Legend) roll. If the God\u2019s roll wins out, the ghost must comply with the spirit of the command as best she can. If the ghost\u2019s roll wins out, the ghost must still comply with the letter of the command, but she can subvert its spirit if she thinks she can get away with it."
+        ],
+        [
+            "The Dancing Spirit",
+            "Dice Pool: Charisma + Occult \nCost: 5 Legend per scene \nWith a successful (Charisma + Occult) roll, the God politely requests the assistance of the kami of an object in his possession, asking it to make the object perform its normal function on his behalf. That is, he tells it what to do, and the object does that very thing as if the God himself were using it. A car might drive itself. A sword might float in the air and fight the God\u2019s foes. A hairbrush might take the tangles out of his matted mane."
+        ],
+        [
+            "Earth Creation",
+            "Dice Pool: Stamina + Craft \nCost: 1 Legend per cubic yard \nThe God\u2019s mastery of the Purview is such that he can literally create stone, earth and metal from nothing. He only puts his hands together before him and wills the material into being as his player spends five Legend and rolls (Stamina + Craft). With this Boon, he can create anything from sand to loam to granite to diamonds to steel. Any substance that the Earth Purview covers is fair game. Even glass is okay, as it\u2019s chiefly made from silica."
+        ],
+        [
+            "Exorcism",
+            "Dice Pool: Charisma + Occult \nCost: 1 Willpower \nThe Scion can either expel a single ghost from a mortal host it\u2019s possessing, hurl it from the World altogether, or repel a group of ghosts from the immediate area. To rid a host of its possessor, the Scion need only make eye contact with the mortal, touch him on the chest with her open palm and shout \u201cBegone!\u201d If the Scion\u2019s player rolls more successes than the ghost\u2019s did to possess the body, the ghost is expelled and cannot possess anyone else for the rest of the scene. To fling a ghost from the World to the Underworld, the Scion does the same as she would to expel a ghost from a mortal host but touches the ghost\u2019s incorporeal flesh instead."
+        ],
+        [
+            "Imprisoning Crystal",
+            "Dice Pool: Strength + Craft \nCost: 5 Legend, +1 Legend per Legend dot of the target \nA massive shard of crystal coalesces around the Scion\u2019s target. If the player\u2019s (Strength + Craft) roll bests the opponent\u2019s (Strength + Fortitude + Legend), then the opponent becomes encased in a clear, translucent, many-faceted shard of crystal. This prison holds the opponent in place but also renders it immune to physical attack. Unless something manages to penetrate the crystal, the occupant, in stasis, remains unaffected."
+        ],
+        [
+            "Shadow Mask",
+            "Dice Pool: Dexterity + Larceny \nCost: 1 Legend \nThe Scion pulls a shadow down from the brim of his hat or up from beneath his collar and wraps it around his head, rendering him completely unrecognizable to human eyes or electronic surveillance equipment (even equipment designed specifically to see in darkness). His voice becomes an unidentifiable whisper. The Scion can see through this mask, and other Scions using Night Eyes can recognize him through it. The shadow mask lasts for a maximum of 24 hours. The Scion can will it to disperse before that period elapses, but otherwise, it remains in place the whole time even if the Scion is unconscious. It doesn\u2019t disperse even if someone shines a bright light in the Scion\u2019s face."
+        ],
+        [
+            "Safely Interred",
+            "Dice Pool: None \nCost: None \nWhether the character is caught up in a landslide, buried in a shallow grave by the roadside or trapped in the rubble of a collapsing building, he need not fear the earth\u2019s embrace as long as he has his Earth Birthright. No amount of collapsing rubble can break the Scion\u2019s bones (or the Birthright itself), and he won\u2019t suffocate no matter how much dirt piles onto him. If he lacks the strength to free himself, however, he does run the risk of either starving to death or dying of thirst if no one digs him out. Yet, it would not be the earth that kills him, but his own lack of fortitude."
+        ],
+        [
+            "Exorcism",
+            "Dice Pool: Charisma + Occult \nCost: 1 Willpower \nThe Scion can either expel a single ghost from a mortal host it\u2019s possessing, hurl it from the World altogether, or repel a group of ghosts from the immediate area. To rid a host of its possessor, the Scion need only make eye contact with the mortal, touch him on the chest with her open palm and shout \u201cBegone!\u201d If the Scion\u2019s player rolls more successes than the ghost\u2019s did to possess the body, the ghost is expelled and cannot possess anyone else for the rest of the scene. To fling a ghost from the World to the Underworld, the Scion does the same as she would to expel a ghost from a mortal host but touches the ghost\u2019s incorporeal flesh instead."
+        ],
+        [
+            "Exorcism",
+            "Dice Pool: Charisma + Occult \nCost: 1 Willpower \nThe Scion can either expel a single ghost from a mortal host it\u2019s possessing, hurl it from the World altogether, or repel a group of ghosts from the immediate area. To rid a host of its possessor, the Scion need only make eye contact with the mortal, touch him on the chest with her open palm and shout \u201cBegone!\u201d If the Scion\u2019s player rolls more successes than the ghost\u2019s did to possess the body, the ghost is expelled and cannot possess anyone else for the rest of the scene. To fling a ghost from the World to the Underworld, the Scion does the same as she would to expel a ghost from a mortal host but touches the ghost\u2019s incorporeal flesh instead."
+        ],
+        [
+            "Shadow Shroud",
+            "Dice Pool: Strength \nCost: 1 Willpower + 3 Legend \nThe character sweeps his arms about him in a savage gesture that literally tears the light out of the air. As a result, a maximum semispherical area with a radius in yards equal to (roll successes x 5) becomes pitch black. Only characters with Night Eyes can see anything within the area of effect. This darkness lasts as long as the Scion stays in the area of effect and wills it to remain. Direct sunlight dissolves the shroud of darkness, but only slowly. Each hour of direct sunlight reduces the radius of the effect by 10 yards."
+        ],
+        [
+            "The Watchful Spirit",
+            "Dice Pool: Charisma + Presence \nCost: 1 Legend \nThe Scion can not only coax information from a kami, but also set it to some passive task on her behalf. She can, for example, have the kami watch out for a specific person, observe any titanspawn who approach, or remember and repeat anything another Scion says to it. This period of duty lasts for a number of days equal to the number of successes the character amassed on the activation roll."
+        ],
+        [
+            "Shadow Mask",
+            "Dice Pool: Dexterity + Larceny \nCost: 1 Legend \nThe Scion pulls a shadow down from the brim of his hat or up from beneath his collar and wraps it around his head, rendering him completely unrecognizable to human eyes or electronic surveillance equipment (even equipment designed specifically to see in darkness). His voice becomes an unidentifiable whisper. The Scion can see through this mask, and other Scions using Night Eyes can recognize him through it. The shadow mask lasts for a maximum of 24 hours. The Scion can will it to disperse before that period elapses, but otherwise, it remains in place the whole time even if the Scion is unconscious. It doesn\u2019t disperse even if someone shines a bright light in the Scion\u2019s face."
+        ],
+        [
+            "Delay Rot",
+            "Dice Pool: Intelligence + Medicine \nCost: 1 Legend \nWith a brief touch and the expenditure of one point of Legend, the Scion causes a subject to cease rotting and become completely preserved against decay. The item in question is immune for a number of days equal to the threshold successes scored by the player on the (Intelligence + Medicine) roll. Scions using the Death Purview extensively find this Boon extremely handy in keeping their various cadaverous \u201cfriends\u201d fresh and crisp."
+        ],
+        [
+            "Haunted Mists",
+            "Dice Pool: None \nCost: 1 Willpower + 1 Legend \nThe Scion takes a deep breath and exhales a billowing white mist that sinks to the ground and flows outward to cover the surrounding area in a knee-deep blanket. Doing so renders her inactive for five ticks per dot of Legend she has. This area has a radius equal to one yard per dot of Legend the Scion has. (That\u2019s roughly 1,800 square feet at the minimum.) The mist lasts for the rest of the scene, and while it remains, ghosts that enter the affected area cannot leave it or be forced out of it. Worse (for them), they become fully material and cannot dematerialize. They can still use whatever ghostly powers they have at their disposal, as well as their Attributes and Abilities. If a Scion uses a power or performs an action that ought to hurl the ghost bodily out of the misty area, the ghost stops at the perimeter of the area as if it had hit a wall."
+        ],
+        [
+            "The Watchful Spirit",
+            "Dice Pool: Charisma + Presence \nCost: 1 Legend \nThe Scion can not only coax information from a kami, but also set it to some passive task on her behalf. She can, for example, have the kami watch out for a specific person, observe any titanspawn who approach, or remember and repeat anything another Scion says to it. This period of duty lasts for a number of days equal to the number of successes the character amassed on the activation roll."
+        ],
+        [
+            "Night Eyes",
+            "Dice Pool: None \nCost: None \nDarkness no longer inflicts visibility penalties on the character. He can see in pitch-blackness almost as well as he can see in bright sunlight, losing only the ability to perceive colors. (Objects he sees in darkness are black-on-black yet perfectly distinguishable in a way that\u2019s conveniently impossible to describe to someone who doesn\u2019t have this Boon.) The Scion cannot see through physical impediments, however."
+        ],
+        [
+            "Absorb Light",
+            "Dice Pool: None \nCost: 2 Legend \nThe Scion\u2019s body turns pitch-black, and he becomes a sinkhole for light. Radiated light becomes absorbed when it strikes the Scion\u2019s body, leaving him as a vaguely humanoid-shaped black blot (though still quite solid). In darkness or shadow, the demigod blends in almost perfectly \u2014 he\u2019s just a little too dark, which makes him stand out a bit from the \u201cmundane\u201d darkness around him. Nevertheless, the Scion gains a bonus equal to the character\u2019s Legend score on all Stealth tests while the power is active."
+        ],
+        [
+            "Ghost Control",
+            "Dice Pool: Charisma + Occult \nCost: Varies \nAs a lord of the Underworld, the God has nigh-absolute dominion over the souls of the departed. He need only possess a piece of the ghost\u2019s abandoned corpse\u2014such as a knucklebone, a lock of hair or a preserved eye\u2014and the ghost is all but his slave to boss around. If the God gives the ghost a command while holding the memento, the ghost is compelled to do as the God commands. Each command requires a (Charisma + Occult) roll as well as the expenditure of one Legend point, and the ghost\u2019s player resists with a (Willpower + Integrity + Legend) roll. If the God\u2019s roll wins out, the ghost must comply with the spirit of the command as best she can. If the ghost\u2019s roll wins out, the ghost must still comply with the letter of the command, but she can subvert its spirit if she thinks she can get away with it."
+        ],
+        [
+            "Haunted Mists",
+            "Dice Pool: None \nCost: 1 Willpower + 1 Legend \nThe Scion takes a deep breath and exhales a billowing white mist that sinks to the ground and flows outward to cover the surrounding area in a knee-deep blanket. Doing so renders her inactive for five ticks per dot of Legend she has. This area has a radius equal to one yard per dot of Legend the Scion has. (That\u2019s roughly 1,800 square feet at the minimum.) The mist lasts for the rest of the scene, and while it remains, ghosts that enter the affected area cannot leave it or be forced out of it. Worse (for them), they become fully material and cannot dematerialize. They can still use whatever ghostly powers they have at their disposal, as well as their Attributes and Abilities. If a Scion uses a power or performs an action that ought to hurl the ghost bodily out of the misty area, the ghost stops at the perimeter of the area as if it had hit a wall."
+        ],
+        [
+            "Absorb Light",
+            "Dice Pool: None \nCost: 2 Legend \nThe Scion\u2019s body turns pitch-black, and he becomes a sinkhole for light. Radiated light becomes absorbed when it strikes the Scion\u2019s body, leaving him as a vaguely humanoid-shaped black blot (though still quite solid). In darkness or shadow, the demigod blends in almost perfectly \u2014 he\u2019s just a little too dark, which makes him stand out a bit from the \u201cmundane\u201d darkness around him. Nevertheless, the Scion gains a bonus equal to the character\u2019s Legend score on all Stealth tests while the power is active."
+        ],
+        [
+            "Rust/Shine",
+            "Dice Pool: None \nCost: 2 Legend \nWith a pass of the hand, the Scion causes a coating of rust or oxidization to form on a metallic object or conversely removes such a coating, restoring an item to its untarnished form. A rusted metal object loses durability and functionality. Its Hardness decreases to half normal, and if the object is a precision item (like a gun), it has a 50% chance to malfunction any time it\u2019s used. Restoring a rusted item to its original state wipes away all traces of age and even reverses the effects, so that a wholly rusted-out car body (for instance) would be as good as new. The rusted parts don\u2019t just disappear, they reverse the process and become solid metal again. Invoking this power on an item requires the Scion to physically touch or manipulate the object, and it has no effect on metals that don\u2019t rust (such as gold) or upon Relics."
+        ],
+        [
+            "Strike Dead/Deny Death",
+            "Dice Pool: Manipulation + Medicine \nCost: 10 Legend \nThe God speaks the name of a living victim or a recently deceased corpse and says (respectively) either \u201cDie,\u201d or \u201cWait.\u201d The living victim or new spirit need not be able to hear this invocation. The God then spends 10 Legend points as his player rolls (Manipulation + Medicine). If the target is a living victim with a Legend rating less than 9, his player resists this effect with a (Stamina + Fortitude) roll. If the God\u2019s roll garners more successes, the victim dies immediately, regardless of his current state of health or willingness to pass away on the spot. If the target is the corpse of a person who recently died, that person might very well come back to life when the God commands him to wait. If the person died within a number of minutes equal to the God\u2019s player\u2019s successes on the activation roll, the person\u2019s soul hears the God\u2019s command and makes its way back to the body. (The return trip takes as long as it has been since the person\u2019s death.) If the God or someone with him can heal at least one of the deceased person\u2019s health levels of damage before the spirit returns, the soul is denied death and returns to life. He might still be terribly injured, but at least he\u2019s alive."
+        ],
+        [
+            "Haunted Mists",
+            "Dice Pool: None \nCost: 1 Willpower + 1 Legend \nThe Scion takes a deep breath and exhales a billowing white mist that sinks to the ground and flows outward to cover the surrounding area in a knee-deep blanket. Doing so renders her inactive for five ticks per dot of Legend she has. This area has a radius equal to one yard per dot of Legend the Scion has. (That\u2019s roughly 1,800 square feet at the minimum.) The mist lasts for the rest of the scene, and while it remains, ghosts that enter the affected area cannot leave it or be forced out of it. Worse (for them), they become fully material and cannot dematerialize. They can still use whatever ghostly powers they have at their disposal, as well as their Attributes and Abilities. If a Scion uses a power or performs an action that ought to hurl the ghost bodily out of the misty area, the ghost stops at the perimeter of the area as if it had hit a wall."
+        ],
+        [
+            "Mother's Touch",
+            "Dice Pool: None \nCost: 1 Legend \nA Scion with Death Senses (Death 1) can see, hear and touch ghosts that won\u2019t or can\u2019t materialize, but the sense of touch that that Boon grants is illusory at best. If the Scion tries to exert enough pressure to cause damage or restrain the ghost, her hand passes through its body. With Mother\u2019s Touch, however\u2014named by Scions of Izanami\u2014the Scion charges her body with flickering strands of black energy that can contain or disrupt a ghost\u2019s intangible body. This energy is visible only to ghosts and those who can see ghosts, and the Scion can extend its aura to surround any item in her hands. A measure of the energy even travels with any projectile the Scion throws or fires from an item in her possession, though it dissipates when the projectile comes to rest."
+        ],
+        [
+            "The Summoned Spirit",
+            "Dice Pool: Charisma + Occult \nCost: 1 Legend \nBy constructing a temporary shrine devoted to a kami whose name she knows\u2014and whose Legend is less than her own\u2014the Scion can call upon that kami wherever she is. The spirit\u2019s face materializes in the shrine, and the Scion may attempt to use any Tsukumo-Gami Boons she possesses on it, just as if she were in the being\u2019s physical presence. The kami can also cause to materialize above the shrine an image of what\u2019s happening at the kami\u2019s physical location, allowing the Scion to remotely witness that location as the kami sees and hears it. This contact lasts for a maximum number of minutes equal to the successes on the activation roll. The kami can break off contact as well if the Scion offends it."
+        ],
+        [
+            "Strike Blind",
+            "Dice Pool: Wits + Medicine \nCost: 5+ Legend \nWith this Boon, the God shows a victim what lies within the soul of depthless dark. He need only be able to see his victims in person as his player rolls (Wits + Medicine) and spends five Legend points. With the base activation, the God can affect a number of targets equal to his Legend. Each additional Legend point he spends adds another number of victims equal to his Legend. Each victim\u2019s player resists the God\u2019s player\u2019s single activation roll with a (Stamina + Fortitude) roll. If the God wins this contest, non-reflective blackness clouds the victims\u2019 eyes, and the victims go blind. For mortals and other characters with no Legend rating, this effect is permanent. For characters with a Legend rating lower than that of the God using this Boon, the effect lasts for a number of days equal to the God\u2019s threshold successes. For characters with a higher Legend rating, the effect lasts for a number of hours equal to the threshold successes."
+        ],
+        [
+            "The Dancing Spirit",
+            "Dice Pool: Charisma + Occult \nCost: 5 Legend per scene \nWith a successful (Charisma + Occult) roll, the God politely requests the assistance of the kami of an object in his possession, asking it to make the object perform its normal function on his behalf. That is, he tells it what to do, and the object does that very thing as if the God himself were using it. A car might drive itself. A sword might float in the air and fight the God\u2019s foes. A hairbrush might take the tangles out of his matted mane."
+        ],
+        [
+            "The Summoned Spirit",
+            "Dice Pool: Charisma + Occult \nCost: 1 Legend \nBy constructing a temporary shrine devoted to a kami whose name she knows\u2014and whose Legend is less than her own\u2014the Scion can call upon that kami wherever she is. The spirit\u2019s face materializes in the shrine, and the Scion may attempt to use any Tsukumo-Gami Boons she possesses on it, just as if she were in the being\u2019s physical presence. The kami can also cause to materialize above the shrine an image of what\u2019s happening at the kami\u2019s physical location, allowing the Scion to remotely witness that location as the kami sees and hears it. This contact lasts for a maximum number of minutes equal to the successes on the activation roll. The kami can break off contact as well if the Scion offends it."
+        ]
+    ],
+    "nature": "Architect",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 21,
+        "move": 15,
+        "climb": 46,
+        "jump": {
+            "horizontal": 94,
+            "vertical": 47
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 25,
+        "parry_dv": 16
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 2,
+        "animal_ken": 1,
+        "art": 3,
+        "athletics": 1,
+        "awareness": 0,
+        "brawl": 3,
+        "command": 1,
+        "control": 2,
+        "craft": 2,
+        "empathy": 0,
+        "fortitude": 3,
+        "integrity": 2,
+        "investigation": 0,
+        "larceny": 1,
+        "marksmanship": 0,
+        "medicine": 3,
+        "melee": 2,
+        "occult": 3,
+        "presence": 2,
+        "politics": 2,
+        "science": 3,
+        "stealth": 3,
+        "survival": 3,
+        "thrown": 0
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 57,
+        "lethal": 74.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 11,
+    "god": "Izanami",
+    "pantheon": "Amatsukami",
+    "name": "Calvin Cervantes"
+}

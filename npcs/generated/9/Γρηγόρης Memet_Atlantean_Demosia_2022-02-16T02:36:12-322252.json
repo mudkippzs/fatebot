@@ -1,0 +1,361 @@
+{
+    "attributes": {
+        "stre": 7,
+        "dex": 7,
+        "sta": 7,
+        "cha": 7,
+        "man": 11,
+        "app": 9,
+        "per": 5,
+        "inte": 7,
+        "wits": 3
+    },
+    "epic_attributes": {
+        "epic_stre": 4,
+        "epic_dex": 2,
+        "epic_sta": 4,
+        "epic_cha": 6,
+        "epic_man": 2,
+        "epic_app": 5,
+        "epic_per": 7,
+        "epic_int": 1,
+        "epic_wits": 4
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        0,
+        0,
+        1,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Hear Prayers",
+            "description": [
+                "Some characters who become Gods feel a real sense of connection to the mortals they\u2019ve left behind, if not the whole community, region or nation. If a Goddess has made a particular impression on humanity, the humans whose lives she\u2019s most affected might even call out for her help in desperation when she\u2019s away. Others might whisper their adulation for her in moments of joy or vent their impotent rage to her from afar when no one else will listen. Most such prayers go unanswered, and a surprisingly high number go unheard as well. If a Goddess has this Knack, however, she can hear any prayer that is specifically addressed to her, no matter how far away the person saying it is. The prayer must be spoken aloud, even if it\u2019s whispered, and the Goddess in question must be addressed by name specifically. If more than one person prays to the Goddess simultaneously, distinguishing one prayer from another is as difficult as distinguishing the words of two simultaneous conversations. As has only been implied thus far, a character cannot take this Knack unless she has at least Legend 9.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Refined Palate",
+            "description": [
+                "The Scion has exceptionally precise senses of taste and smell (as the latter enhances the former). With a faint sniff or a tentative taste, the Scion can \ufb01gure out what ingredients compose a certain concoction, and in what proportions. She can also sniff out drugs or poisons that have been added to what she was about to wolf down, as well as detect airborne toxins by the way they make the air taste. This Knack doesn\u2019t tell a Scion what an ingredient is if she isn\u2019t already familiar with it. (She would realize that what\u2019s making her iced tea sweet isn\u2019t sugar, for instance, but she wouldn\u2019t know if it was Equal or Splenda if she\u2019d never had either arti\ufb01cial sweetener before.) Instead, the Knack registers each component separately and provides an indication whether such components would be dangerous to consume. The Scion also remembers the taste and smell of various ingredients she experiences so she can recognize and identify them if she\u2019s exposed to them again.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Cobra Reflexes",
+            "description": [
+                "The character is so quick on the draw that even a surprise attacker is not safe from him. If someone attacks him from surprise but the character\u2019s player fails to get enough successes on the (Wits + Awareness) roll to notice the attack coming, the Scion may still attack his attacker back at the same time. This counterattack is so lightning quick that it catches the attacker off guard as if he were also being caught by an unexpected attack. The Scion himself might not realize he\u2019s taken the attack action until the ambusher\u2019s attack has already hurt him.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Compelling Presence",
+            "description": [
+                "Prerequisite Knack: Serpent\u2019s Gaze (Scion: Hero, p. 133) As with the prerequisite Knack, Compelling Performance draws a victim\u2019s attention to the Scion and renders him unable to look away. The victim remains Inactive for combat purposes, staring helplessly at the hideous monster or unearthly beauty before him. Unlike Serpent\u2019s Gaze, though, the Scion need not consciously maintain eye contact with her victim for the effect to endure. Once the victim has been trans\ufb01xed by the Scion\u2019s Epic Appearance, he remains thus until either the end of the scene or until the Scion leaves his line of sight. The victim will follow the Scion with his eyes, even turn in place if she wanders around the immediate area, but he can\u2019t do anything other than look at her. What\u2019s more, the Scion can capture a number of victims with her appearance equal to her (Epic Appearance + Legend) total. Her player only spends one point of Legend per person up to the maximum, and they all stop what they\u2019re doing to stare at her in rapt fascination. When the effect ends, they remember nothing that happened after the \ufb01rst moment they saw the Scion. Mortals and Scions of lesser or equal Legend are unable to look away on their own, but Scions with a greater Legend are not so vulnerable. After the Scion using the Knack takes one full action, the higher-Legend victim may spend a point of Willpower to negate the effect. In so doing, he remains immune to the effect from the same Scion for the rest of the scene.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Clairvoyance",
+            "description": [
+                "Prerequisite Knack: Telescopic Senses (Scion: Demigod, p. 64) While this Knack\u2019s prerequisite allows a character to see and hear and smell things from much farther away than a normal human could, the sensation must still be within either line of sight or the extreme limits to which it can travel. This Knack, however, removes that limitation so that a character can sense things happening at a significant remove. If he concentrates on a location in which he has spent at least a scene in the past, he can see, hear or smell what\u2019s happening there as if he were standing in its exact center. While the character does so, he cannot see, hear or smell anything that\u2019s happening around his body. Another application of this Knack is that the character can extend his sense of taste or touch to the range of his line of sight. If he can see a chocolate mousse across the room, he gets a phantom sensation on his tongue of what it tastes like. (If he also has the Refined Palate Knack\u2014from Scion: Hero, p. 134\u2014he can use that Knack remotely.) If wants to know what something he can see feels like, he can reach out for it and receive a phantom sensation of its texture on his fingertips. Using either application of this power costs five Legend points. The first part of this power can even work from one plane of existence to another, to any place the character has spent at least one scene. Observing something in a different plane triples the activation cost, however.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Jack of All Trades",
+            "description": [
+                "If a character has no aptitude for a particular Ability (i.e., no dots in it), he cannot apply any bonus successes from his Epic Attributes to rolls that use that Ability. He simply doesn\u2019t understand enough about what he\u2019s doing to apply his full talent. With this Knack, however, the character gets a feel for any activity remarkably quickly. As such, he can apply some of his appropriate Epic Attribute bonus to the appropriate roll, despite the fact that he has no dots in the relevant Ability. In such a circumstance, a player can enhance a roll with this Knack and add a number of bonus successes from his character\u2019s Epic Attribute equal to the number of dots he has in the Epic Attribute. Enhancing a roll with this Knack\u2019s benefit costs two Legend points.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "In Your Dreams",
+            "description": [
+                "Prerequisite Knack: Subliminal Warning (Scion: Hero, p. 134) Even the best senses are of no use to a Scion who\u2019s asleep. While some Scions get around this by developing enough Epic Stamina to no longer need sleep, other Scions prefer a different approach \u2014 one that also has the advantage of working while unconscious, regardless of whether it\u2019s sleep-induced or trauma-induced. As the Scion slips into a comatose state, she leaves a bit of her mind attuned to her godly senses, and her subconscious mind remains aware of what goes on around her while she is out cold. With In Your Dreams, the Scion generally doesn\u2019t see anything (since most people don\u2019t sleep with their eyes open), but she retains everything that she hears, feels, tastes and smells while asleep. When she awakens, she can access her memories of all that happened around her, just as if she had been lying there feigning slumber. This is greatly enhanced if she also has the Perfect Memory Epic Intelligence Knack (Scion: Hero, pp. 135-136). Activating this Knack costs one point of Legend. Its effects last as long as the Scion remains asleep or unconscious. The player can activate this Knack as a reflexive action if some power or injury renders the Scion comatose.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Rabbit Reflexes",
+            "description": [
+                "When an unexpected attack targets the character with this Knack but the character\u2019s player fails to get enough successes on the (Wits + Awareness) roll to notice the attack coming, the Scion instinctively defends herself with double her highest applicable DV. The character cannot preemptively attack her attacker or even shout out a warning to her comrades, as she\u2019s reacting to an attack that\u2019s already taking place, but she is much more likely to dodge or parry that attack. Nonetheless, the character cannot actually join battle herself until everyone else does after the unexpected attack is resolved.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Lasting Impression",
+            "description": [
+                "The Scion has an effect on a subject that\u2019s slow to fade away. Thoughts of the Scion creep into the victim\u2019s mind unbidden either to undermine his concentration or to uplift his spirit. A beautiful Scion can use her Epic Appearance to make a character feel good about himself, granting him an extra Willpower point (which may exceed the character\u2019s maximum) and an extra die on any Art, Athletics, Command, Craft or Integrity dice pools. A hideous Scion in\ufb02icts quite the opposite effect. The fear she instills robs her victim of a Willpower point that he cannot regain until the effect wears off. The Scion also unsettles him so deeply that he loses one die from all Academics, Awareness, Control, Politics or Presence dice pools. Using this Knack costs the Scion a single point of Legend, and its effects last for 24 hours. The Scion can use the Knack on only one person at a time, and the target must be able to see her in person.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Environmental Awareness",
+            "description": [
+                "Prerequisite Knack: Subliminal Warning (Scion: Hero, p. 134) The demigod is so in tune with his surroundings, that he can detect even the most minute changes around him well before anyone else. He can feel the barometric pressure rise or drop (and describe it accurately), giving him an acute sense of what the weather is going to do in the next hour. He can feel the tiniest tectonic vibrations from deep within the earth, allowing him to accurately presage an earthquake. Changes in temperature are no mystery to him either. His awareness is so complete that should some unnatural factor change one of these elements, he\u2019s the \ufb01rst to notice and can even track the disturbance back to its source. Also, if enemies are lying in ambush in the nearby area and are not concealed by supernatural means, it is impossible for their surprise attack to catch the Scion unaware. The Scion may join battle and react accordingly without his player having to roll to notice the hidden attack. If he re\ufb02exively spends a point of Legend, he may call out a warning for his cohorts to be ready and react accordingly as well. As an added bene\ufb01t, the Scion is unfailingly aware of the passage of time. Without even thinking about it, he can accurately say how much time has passed from any reference point that he has personally experienced.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Meet Me Backstage",
+            "description": [
+                "Prerequisite Knack: Come Hither (Scion: Hero, p. 133) Better than simply drawing someone to his side, a Scion with this Knack can give a meaningful glance, a casual wave or a whispered hint and cause a subject to go somewhere at the Scion\u2019s discretion. The star-struck victim tries to move to a nearby room, balcony, Jacuzzi or other spot as instructed, in hopes that the Scion will soon arrive. The power of the Knack does all of the convincing. The Scion\u2019s player simply spends one Legend point and picks a single recipient, as with the Come Hither Knack. As usual, the intended recipient must be able to see an image of the Scion, must understand that the message is for her and must have a reasonable idea of how to find him. Meet Me Backstage doesn\u2019t interrupt a subject\u2019s self-preservation any more than Come Hither does: While the subject makes all due haste to reach the appointed meeting place, \u201cdue haste\u201d doesn\u2019t mean \u201cdie along the way.\u201d Nevertheless, this Knack is excellent for discreet rendezvous as well as setting up a poor sap for a beat-down party. Scions whose Epic Appearance represents divine ugliness cannot use this Knack. Also, it doesn\u2019t work on beautiful Scions with more dots of Epic Appearance than the one using the Knack.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Perfect Pitch",
+            "description": [
+                "The Scion can be a musician\u2019s best friend or worst nightmare, as she has the innate ability to detect even the subtlest variation in musical pitch. Her sense is so re\ufb01ned that she could catch a single missed note in an otherwise \ufb02awless performance of a Rachmaninoff concerto. The lone \ufb02ub in the middle of the performance rings as clearly in her ears as if someone\u2019s cell phone had gone off during it playing the Spongebob Squarepants theme song. The Scion\u2019s sense of hearing is also re\ufb01ned enough to be able to identify with absolute certainty a phone number or security code just by hearing the distinctive key tones.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Silver Blessing",
+            "Dice Pool: None \nCost: 1 Legend \nWith a breath of cool air, the Scion causes a single item to take on a glittering, silvery sheen. For the rest of the Scene, the item has all of the supernatural properties of silver. While silver does not have any inherent special qualities for most Scions, it can be effective as a weapon against certain theriamorphs (were-creatures) and undead. Silver also features prominently in some kinds of magic. An item affected by Silver Blessing loses none of its native properties, but gains all the benefits of pure silver for the rest of the scene."
+        ],
+        [
+            "Afraid of the Dark",
+            "Dice Pool: Manipulation + Empathy \nCost: 1 Legend \nThe Scion causes a momentary darkness to pass before the eyes of a target. For a single instant, the subject sees everything cast in shadow, with frightening overtones and hideous, nightmarish contortions. This brief second of doubt shakes the target, causing her to lose a single point of Willpower. Afraid of the Dark has no effect on a character with a higher Legend rating than the user. Against someone with an equal or lower Legend score, the defender\u2019s player rolls (Willpower + Integrity + Legend) to shake off the effect."
+        ],
+        [
+            "Mirror of Lunacy",
+            "Dice Pool: Manipulation + Empathy \nCost: 2 Legend + 1 Willpower \nThe Scion holds up a reflective surface to another Scion who is in the throes of a Virtue extremity, then utters a cryptic phrase of advice or a soothing balm for the troubled subject. After spending the appropriate Legend and Willpower, the Scion\u2019s player rolls (Manipulation + Empathy) against the target\u2019s (Willpower + Integrity + Legend). If the player invoking Mirror of Lunacy scores more successes, then the Boon takes hold: The targeted Scion sees himself in the reflection and suddenly realizes the extent of his madness. This causes the subject to immediately snap out of his Virtue extremity, although it does not necessarily prevent him from taking other rash actions in order to \u201cset right\u201d any mistakes that he may have made during that time. The Scion cannot use this Boon on herself, and it can be used only once per story."
+        ],
+        [
+            "Animal Form",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + 1 Legend \nIn one action (Speed 5, DV -1), the character transforms into a specimen of his chosen animal. The character\u2019s Physical Attributes are normal for a mundane specimen of the animal he\u2019s become, but his Mental Attributes remain his own. He also retains access to his Epic Mental Attributes and Knacks, though his other Epic Attributes are off limits until he regains his human form. He can communicate with other animals of his type. Other Scions who use Animal Communication can understand him perfectly clearly. He is immune to other Scions\u2019 uses of Animal Command or Ride Animal."
+        ],
+        [
+            "Animal Feature",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + (1 Legend per feature) \nThe Scion can change a portion of his anatomy to a shape matching the analogous portion of his chosen animal\u2019s anatomy for one scene. If his chosen animal is an armadillo, he can cover himself in a flexible armor. If his animal is a monkey, he can grow a long prehensile tail that is as dexterous as a hand with no thumb. If his animal is a spider or gecko, he can change the surfaces of his hands and feet to enable himself to climb on walls. If his animal is a bird or bat or airborne insect, he can transform his arms into wings that allow him to fly at a rate equal to his Move rate. The exact effect of the change is up to the player, dependent upon Storyteller approval. As a general guideline, though, if the change boosts some trait or grants bonus dice on a special attack, the total bonus value granted cannot be greater than the character\u2019s Legend."
+        ],
+        [
+            "Silver Blessing",
+            "Dice Pool: None \nCost: 1 Legend \nWith a breath of cool air, the Scion causes a single item to take on a glittering, silvery sheen. For the rest of the Scene, the item has all of the supernatural properties of silver. While silver does not have any inherent special qualities for most Scions, it can be effective as a weapon against certain theriamorphs (were-creatures) and undead. Silver also features prominently in some kinds of magic. An item affected by Silver Blessing loses none of its native properties, but gains all the benefits of pure silver for the rest of the scene."
+        ],
+        [
+            "Shadow Craft",
+            "Dice Pool: Dexterity + Art \nCost: 1 Willpower or (1 Legend + 1 Willpower) \nThis Boon allows for two effects. First, the Scion can change the shape of a projected shadow in any way he sees fit as long as A.) he\u2019s touching it and B.) he maintains the shadow\u2019s original surface area in the finished shape. He can move the shadow around in defiance of ambient light sources, break it into bits and bend and stretch it any way he wants. Doing so costs only one Willpower point, and the shape in which he leaves the shadow remains thus for a number of hours equal to his Legend. The complexity of the finished image determines the number of successes necessary."
+        ],
+        [
+            "Lunacy",
+            "Dice Pool: Manipulation + Presence \nCost: 1 Legend per Virtue Extremity and per person \nThe Scion captures the attention of a group of people and drives them temporarily mad. He must spend one Legend per person he wants to affect, up to a maximum number equal to his Legend. Affected victims suffer the Virtue Extremity from one of the Scion\u2019s chosen Virtues. If the Scion spends one additional Legend point per person, each person suffers an additional Virtue Extremity. That is, if he wants to affect five people with one Virtue Extremity, he must spend only five Legend points. If he wants them to suffer two Virtue Extremities, he must spend 10 Legend points. If he wants to affect all five people with the Virtue Extremity from all four of his Virtues, he must spend 20 Legend points. The Scion can choose how many of the present targets he wishes to affect, but he must affect them all with the same number of Virtue Extremities."
+        ],
+        [
+            "Smoking Mirror",
+            "Dice Pool: None \nCost: 1 Legend \nBy looking up at the moon and spending the requisite Legend point, the character sees reflected in it a bird\u2019s-eye view of the surrounding terrain. This perspective allows a clear view of a radius in miles equal to the Scion\u2019s Legend. The Scion may focus on any point in the reflection and see it clearly, but he can\u2019t see through physical objects or change the angle from the top-down perspective. This Boon doesn\u2019t function on new moon nights, but it can see down through thick clouds on any other night. If the moon is visible during the day, the Scion can use this Boon then as well."
+        ],
+        [
+            "Animal Communication",
+            "Dice Pool: Intelligence + Animal Ken \nCost: None \nThe Scion can understand and make himself understood by an animal as he speaks his native language and the animal responds with its own postures, scents and/or vocalizations. This Boon doesn\u2019t make animals smart, calm or loyal, but most are curious enough about having a person address them that they\u2019ll hear a Scion out before defaulting to aggression, panic or indifference."
+        ],
+        [
+            "Phase Cloak",
+            "Dice Pool: Dexterity + Stealth \nCost: 1 Legend \nThe Scion turns himself away from his enemies much as the moon turns its face away from the earth. The player decides which \u201cphase\u201d of the character\u2019s body he wishes to leave visible then rolls the Scion\u2019s (Dexterity + Stealth) against a difficulty determined on the table that follows. If the roll succeeds, the intended portion of his body fades from sight. If the roll fails, the Legend point is still spent, but nothing happens. If the roll botches, the character assumes the full-moon phase, garnering a -3 penalty on any mundane attempt to hide."
+        ],
+        [
+            "Shadow Bodies",
+            "Dice Pool: Charisma + Presence \nCost: 1 Willpower + 5 Legend \nThe Scion wraps a nearby shadow around his body as his player makes the roll and spends the points. The shadow conforms to the Scion\u2019s body, rendering him a tangible, though unrecognizable, three-dimensional silhouette. Then, for every five successes the player got on the activation roll, a semi-tangible shadow duplicate steps out of the Scion\u2019s tenebrous form. Each duplicate has the Scion\u2019s same mundane Physical Attributes and the same ratings in Abilities that represent physical acumen. These semi-solid duplicates can wield physical weapons or ones created with Shadow Craft (Darkness \u2022\u2022\u2022\u2022\u2022). They are immune to bashing damage, but lethal and aggravated damage affects them as normal."
+        ],
+        [
+            "Phase Cloak",
+            "Dice Pool: Dexterity + Stealth \nCost: 1 Legend \nThe Scion turns himself away from his enemies much as the moon turns its face away from the earth. The player decides which \u201cphase\u201d of the character\u2019s body he wishes to leave visible then rolls the Scion\u2019s (Dexterity + Stealth) against a difficulty determined on the table that follows. If the roll succeeds, the intended portion of his body fades from sight. If the roll fails, the Legend point is still spent, but nothing happens. If the roll botches, the character assumes the full-moon phase, garnering a -3 penalty on any mundane attempt to hide."
+        ],
+        [
+            "Silver Blessing",
+            "Dice Pool: None \nCost: 1 Legend \nWith a breath of cool air, the Scion causes a single item to take on a glittering, silvery sheen. For the rest of the Scene, the item has all of the supernatural properties of silver. While silver does not have any inherent special qualities for most Scions, it can be effective as a weapon against certain theriamorphs (were-creatures) and undead. Silver also features prominently in some kinds of magic. An item affected by Silver Blessing loses none of its native properties, but gains all the benefits of pure silver for the rest of the scene."
+        ],
+        [
+            "Animal Feature",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + (1 Legend per feature) \nThe Scion can change a portion of his anatomy to a shape matching the analogous portion of his chosen animal\u2019s anatomy for one scene. If his chosen animal is an armadillo, he can cover himself in a flexible armor. If his animal is a monkey, he can grow a long prehensile tail that is as dexterous as a hand with no thumb. If his animal is a spider or gecko, he can change the surfaces of his hands and feet to enable himself to climb on walls. If his animal is a bird or bat or airborne insect, he can transform his arms into wings that allow him to fly at a rate equal to his Move rate. The exact effect of the change is up to the player, dependent upon Storyteller approval. As a general guideline, though, if the change boosts some trait or grants bonus dice on a special attack, the total bonus value granted cannot be greater than the character\u2019s Legend."
+        ],
+        [
+            "Faunaphagia",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + 1 Legend \nSome shamans believe that consuming a creature grants a measure of its strength. Scions who engage in this practice learn to absorb the capabilities of an animal by devouring such a creature and drawing forth its essence from the digested flesh. The Scion must eat a piece of meat from the appropriate animal (a potentially risky act, considering that the animal is probably considered sacred to his patron God). Then, the player expends the Willpower and Legend and rolls (Stamina + Animal Ken). The successes scored indicate the number of points of Abilities that the Scion may borrow from the animal. A Scion can only borrow Abilities up to the level possessed by the animal, although these dots can add on to his existing skill dots to a maximum total of five. Skills gained with Faunaphagia remain for the rest of the scene."
+        ],
+        [
+            "Moon Chariot",
+            "Dice Pool: Strength + Control (to drive) \nCost: 1 Legend per 200 lbs. \nThe character says a quick prayer under the night sky, praising the moon God or Goddess who granted him access to this Purview. In response, a silver chariot descends, pulled by two black horses with manes, hooves and eyes of pure moonlight."
+        ],
+        [
+            "Shadow Bodies",
+            "Dice Pool: Charisma + Presence \nCost: 1 Willpower + 5 Legend \nThe Scion wraps a nearby shadow around his body as his player makes the roll and spends the points. The shadow conforms to the Scion\u2019s body, rendering him a tangible, though unrecognizable, three-dimensional silhouette. Then, for every five successes the player got on the activation roll, a semi-tangible shadow duplicate steps out of the Scion\u2019s tenebrous form. Each duplicate has the Scion\u2019s same mundane Physical Attributes and the same ratings in Abilities that represent physical acumen. These semi-solid duplicates can wield physical weapons or ones created with Shadow Craft (Darkness \u2022\u2022\u2022\u2022\u2022). They are immune to bashing damage, but lethal and aggravated damage affects them as normal."
+        ],
+        [
+            "Paper Tiger",
+            "Dice Pool: Intelligence + Art \nCost: 1 Willpower + 5 Legend per act of creation; 1 Legend per unit \nWhile some demigods use the primal power of their ichor to grant life with the Create Animal Boon (Animal 7), others use the artistic work of creation to infuse their conjurations. Indeed, this act may explain the Neolithic cave paintings of various animals scattered about in caves inhabited by early humanity."
+        ],
+        [
+            "Animal Form",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + 1 Legend \nIn one action (Speed 5, DV -1), the character transforms into a specimen of his chosen animal. The character\u2019s Physical Attributes are normal for a mundane specimen of the animal he\u2019s become, but his Mental Attributes remain his own. He also retains access to his Epic Mental Attributes and Knacks, though his other Epic Attributes are off limits until he regains his human form. He can communicate with other animals of his type. Other Scions who use Animal Communication can understand him perfectly clearly. He is immune to other Scions\u2019 uses of Animal Command or Ride Animal."
+        ]
+    ],
+    "nature": "Gambler",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 15,
+        "move": 9,
+        "climb": 14,
+        "jump": {
+            "horizontal": 28,
+            "vertical": 14
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 17,
+        "parry_dv": 9
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 3,
+        "animal_ken": 1,
+        "art": 3,
+        "athletics": 0,
+        "awareness": 3,
+        "brawl": 1,
+        "command": 3,
+        "control": 2,
+        "craft": 0,
+        "empathy": 1,
+        "fortitude": 0,
+        "integrity": 1,
+        "investigation": 0,
+        "larceny": 2,
+        "marksmanship": 3,
+        "medicine": 2,
+        "melee": 1,
+        "occult": 3,
+        "presence": 1,
+        "politics": 1,
+        "science": 1,
+        "stealth": 3,
+        "survival": 1,
+        "thrown": 2
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 14,
+        "lethal": 14.0,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 9,
+    "god": "Demosia",
+    "pantheon": "Atlantean",
+    "name": "\u0393\u03c1\u03b7\u03b3\u03cc\u03c1\u03b7\u03c2 Memet"
+}

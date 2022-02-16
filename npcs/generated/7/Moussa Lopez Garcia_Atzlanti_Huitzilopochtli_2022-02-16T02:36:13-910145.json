@@ -1,0 +1,317 @@
+{
+    "attributes": {
+        "stre": 7,
+        "dex": 9,
+        "sta": 7,
+        "cha": 7,
+        "man": 9,
+        "app": 9,
+        "per": 5,
+        "inte": 7,
+        "wits": 3
+    },
+    "epic_attributes": {
+        "epic_stre": 3,
+        "epic_dex": 3,
+        "epic_sta": 5,
+        "epic_cha": 7,
+        "epic_man": 3,
+        "epic_app": 5,
+        "epic_per": 2,
+        "epic_int": 0,
+        "epic_wits": 6
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        0,
+        2,
+        1,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Impenetrable",
+            "description": [
+                "Prerequisite Knack: Body Armor (Scion: Demigod, pp. 57-58) When a character achieves this Knack, it upgrades the thin metallic armor that activating its prerequisite provides. When the character spends his Legend point to activate his armor, it retains its bashing and lethal soak equal to his Legend and adds an aggravated soak equal to half his Legend. What\u2019s more, it ignores (i.e., trumps) the Piercing quality of any weapons and physical attacks that have it. Finally, he can extend this armor sheathe around any article of clothing he\u2019s wearing, though not any handheld or bulky worn item he might be using. A zoot suit, including the hat, would be fine; an astronaut\u2019s EVA suit would be a bit much.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Holy Bound",
+            "description": [
+                "Only characters whose Boons include the Sky Purview have more freedom to \ufb02aunt the laws of physics. Simply having Epic Strength enables a Scion to perform prodigious leaps that leave mortals standing slack-jawed with wonder. For example, if a Scion has Strength 5, Athletics 3 and Epic Strength 3, she can jump 12 yards straight up or 24 yards forward. (See \u201cMovement\u201d on p. 180\\.) This Knack, however, doubles a Scion\u2019s vertical and horizontal jumping distances. With it, the aforementioned character could leap an amazing 24 yards straight up (from the ground to a seventh-story balcony, for instance) or 48 yards forward in a single bound.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Titanium Tools",
+            "description": [
+                "While Relics may be made of stern stuff, the usual off-the-shelf \u201cauthentic katana\u201d tends to fold like the cheap steel that it is when it connects with something under the force of Epic Strength. With this Knack, any tool or item that the Scion picks up benefits from the same bends and loopholes in the laws of physics that allow Epic Strength to defy both leverage and structural integrity. The Scion could use a wooden board to clobber a thug, or he could ram a flimsy iron fireplace poker right through a wall of concrete with the full force of his Epic Strength. In either case, the tool would remain reasonably intact (albeit with some cosmetic wear). Such guarantees are particularly handy when using an object of questionable strength to beat a titanspawn to death without destroying the item in question (such as a snow globe intended as a present). Note that Titanium Tools doesn\u2019t improve the Hardness or rigidity of an item. A cheap katana can still be snapped in half by an angry titanspawn that decides to target the blade. A limp spaghetti noodle is no better a weapon with this Knack than without. Titanium Tools simply allows the Scion to use objects that might be feasible as weapons under normal circumstances and subject them to the extraordinary effects of his Epic Strength without breaking them, for as long as he wields the object.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Blame James",
+            "description": [
+                "Prerequisite Knack: Boys Will Be Boys (Scion: God, p. 68) Some Scions are just too likable to take the heat. When the Scion invokes Boys Will Be Boys in order to calm the anger of an authority figure after a disaster, the player can choose to spend two additional Legend points and invoke Blame James as well. Then, the Scion just glances at someone else, makes a brief comment about \u201cWell, it wasn\u2019t my idea\u2026\u201d or somehow gives the impression that the narrowly-averted trouble was the result of someone else\u2019s malfeasance. So impressive is the Scion\u2019s demeanor that the disciplinary authority figure becomes convinced that the named individual had something to do with the event, and is in some way culpable. This Knack only functions if the use of Boys Will Be Boys also functioned; if that attempt fails, then this Knack also fails, although the Legend points are still spent",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Raging Bull",
+            "description": [
+                "Like the eponymous boxer who just becomes more dangerous after taking a few punches, the Scion turns into a devastating fighting machine once she\u2019s wounded. Her body releases adrenalin and more exotic substances, firing her up to greater heights of fury. With this Knack active, the Scion gains bonuses from her wounds instead of penalties. Thus, if she\u2019s filled in the first four boxes of her health levels, the Scion gains a +2 bonus on all of her appropriate rolls instead of taking the normal -2 penalty. Even if her Epic Stamina would obviate the penalty in whole or in part, she still gains the full bonus. Scions whose Epic Stamina grants them additional health levels count those boxes as having a -4 penalty (and thus a +4 bonus for purposes of this Knack). Furthermore, every time a Scion using Raging Bull suffers an injury (be it a single level of bashing damage or ten levels of aggravated damage), the player may choose to spend one point of Legend to restore one expended point of Willpower. Activating this Knack costs three points of Legend. Its effects last for one scene.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Engender Love",
+            "description": [
+                "Prerequisite Knack: Charmer (Scion: Hero, p. 130) Being able to charm someone is always helpful, but it doesn\u2019t always make getting what you want from that person easy. A charmed person can still think clearly, question one\u2019s motives and turn someone down if something about what she\u2019s saying doesn\u2019t feel quite right. Not so the person affected by this Knack. The character who uses it spends one Legend point as his player rolls (Charisma + Presence + Legend). The victim\u2019s player contests this effect with a (Willpower + Integrity + Legend) roll. If the victim\u2019s roll fails to garner the necessary successes, the victim falls madly, unquestioningly in love with the user of the Knack for a number of days equal to the user\u2019s threshold successes. The victim is blindly enthralled and will do anything in her power to please the object of her affection. This Knack works regardless of the relative Legend disparity between the user and his victim. Using it unwisely against a more powerful character is ill advised, however. Fool Odin once, shame on him. Fool him twice, wolves on you.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Euthanasia",
+            "Dice Pool: Perception + Empathy (to gauge willingness) \nCost: 1 Legend \nWhen a living being is at the Incapacitated health level with lethal or aggravated damage due to wounds or a terminal illness, the Scion can end that being\u2019s suffering. The Scion must touch the being for one action (Speed 6) and spend one Legend point. If the Scion wants to know whether the victim is truly willing to die, her player can roll (Perception + Empathy) while the Scion touches the victim. Animals usually answer in the affirmative and titanspawn usually do the opposite, but human beings and Scions are unpredictable."
+        ],
+        [
+            "Warning Line",
+            "Dice Pool: Perception + Awareness \nCost: 1 Legend \nThe Scion traces a line across the ground, along a doorway or over some other opening. The line can be as long as the Scion wishes to make it, so long as she traces the entire line in one pass. At the end, she names a creature. This can be as specific or as general as she wishes: \u201ctitanspawn,\u201d \u201cmortals,\u201d \u201cany animal smaller than a rat\u201d and \u201cKane Taoka\u201d are all valid examples. If a creature of that sort crosses the line, the Scion immediately becomes aware of it. There\u2019s no limit to the number of Warning Lines that a Scion can have drawn at once, and she can intuitively tell the difference between any of them. (That is, if she has three different Warning Lines active, she knows which one was tripped at any given time). A Warning Line remains effective for a number of days equal to the player\u2019s activation roll."
+        ],
+        [
+            "Summon Ghost",
+            "Dice Pool: Charisma + Occult \nCost: 1 Legend \nThe Scion mystically calls out to a ghost and commands its immediate presence. To do so, the Scion either holds some item the dead person held dear or holds hands with a blood relative of the deceased as she speaks the ghost\u2019s full name aloud. The ghost automatically hears the call, no matter how far away from the Scion it is. It may resist the summons with a (Willpower + Integrity + Legend) roll. If the Scion\u2019s player\u2019s roll gets more successes than the ghost\u2019s, the ghost disappears from wherever it was and reappears before the Scion. When it arrives, it is under no compulsion to materialize for any witnesses or to even acknowledge the Scion\u2019s attention."
+        ],
+        [
+            "Blessing of Bravery",
+            "Dice Pool: Charisma + Command \nCost: None \nIntoning a benediction over a person or group prepared to engage in battle, the Scion bolsters their courage and determination. Every character on the Scion\u2019s side of the conflict who hears the benediction gains a point of Willpower as well as two temporary bonus dots of Valor that last until the battle ends. The Scion may amplify his voice electronically, but he must be present at the battle and give the blessing live."
+        ],
+        [
+            "Exorcism",
+            "Dice Pool: Charisma + Occult \nCost: 1 Willpower \nThe Scion can either expel a single ghost from a mortal host it\u2019s possessing, hurl it from the World altogether, or repel a group of ghosts from the immediate area. To rid a host of its possessor, the Scion need only make eye contact with the mortal, touch him on the chest with her open palm and shout \u201cBegone!\u201d If the Scion\u2019s player rolls more successes than the ghost\u2019s did to possess the body, the ghost is expelled and cannot possess anyone else for the rest of the scene. To fling a ghost from the World to the Underworld, the Scion does the same as she would to expel a ghost from a mortal host but touches the ghost\u2019s incorporeal flesh instead."
+        ],
+        [
+            "Battle Cry",
+            "Dice Pool: Charisma + Presence \nCost: 1 Legend \nDuring a battle, be it a pitched field engagement or an alley fight between a Band of Scions and a gang of frost giants, the Scion can loose a horrible battle cry that unnerves his foes. Every fighter on the Scion\u2019s enemies\u2019 side who hears the unearthly shriek loses one die from all attack rolls for a number of attacks equal to the Scion\u2019s Legend rating."
+        ],
+        [
+            "Summon Ghost",
+            "Dice Pool: Charisma + Occult \nCost: 1 Legend \nThe Scion mystically calls out to a ghost and commands its immediate presence. To do so, the Scion either holds some item the dead person held dear or holds hands with a blood relative of the deceased as she speaks the ghost\u2019s full name aloud. The ghost automatically hears the call, no matter how far away from the Scion it is. It may resist the summons with a (Willpower + Integrity + Legend) roll. If the Scion\u2019s player\u2019s roll gets more successes than the ghost\u2019s, the ghost disappears from wherever it was and reappears before the Scion. When it arrives, it is under no compulsion to materialize for any witnesses or to even acknowledge the Scion\u2019s attention."
+        ],
+        [
+            "Burn",
+            "Dice Pool: None \nCost: 1 Willpower + 1 Legend \nThe Scion\u2019s skin changes from its normal hue to a deeper brown to an angry red and becomes hot to the touch. This heat can\u2019t ignite inflammable objects, but it\u2019s enough to burn others\u2019 unprotected flesh. Anyone who touches the Scion\u2019s body with exposed flesh or with skin covered only by a layer or two of clothing suffers a number of dice of lethal damage equal to the Scion\u2019s Legend. (This damage comes in addition to any damage the Scion might inflict in a clinch or other unarmed attack.) The character\u2019s skin radiates this heat for one scene."
+        ],
+        [
+            "Animal Communication",
+            "Dice Pool: Intelligence + Animal Ken \nCost: None \nThe Scion can understand and make himself understood by an animal as he speaks his native language and the animal responds with its own postures, scents and/or vocalizations. This Boon doesn\u2019t make animals smart, calm or loyal, but most are curious enough about having a person address them that they\u2019ll hear a Scion out before defaulting to aggression, panic or indifference."
+        ],
+        [
+            "Heavenly Flare",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend \nConcentrating for one action (Speed 4), the Scion builds up and releases a flash of sunlight that\u2019s impossible for anyone within line of sight to miss. When she does so, the player of anyone who was looking at her, even through expensive sunglasses, must roll (Stamina + Fortitude). If the victim\u2019s roll nets more successes than the Scion\u2019s activation roll, he sees only a sudden flash that has no effect on him."
+        ],
+        [
+            "Fury of War",
+            "Dice Pool: Stamina + Fortitude \nCost: 3 Legend + 1 Willpower \nThe Scion can summon up a bloodlust and battle rage within her to shame the legendary berserkers. Her hair becomes wilder, her eyes blaze, she laughs and screams as she rips her foes limb from limb. She thinks of little else but battle and victory."
+        ],
+        [
+            "Morale Failure",
+            "Dice Pool: Manipulation + Presence \nCost: 1 Legend per 5 troops \nThe Scion can shake an enemy\u2019s leadership and seed an outbreak of cowardice among the men. When he makes himself visible to an opposing force\u2019s leader, his player rolls (Manipulation + Presence) against the enemy leader\u2019s player\u2019s roll of (Willpower + Integrity + Legend)."
+        ],
+        [
+            "Burn",
+            "Dice Pool: None \nCost: 1 Willpower + 1 Legend \nThe Scion\u2019s skin changes from its normal hue to a deeper brown to an angry red and becomes hot to the touch. This heat can\u2019t ignite inflammable objects, but it\u2019s enough to burn others\u2019 unprotected flesh. Anyone who touches the Scion\u2019s body with exposed flesh or with skin covered only by a layer or two of clothing suffers a number of dice of lethal damage equal to the Scion\u2019s Legend. (This damage comes in addition to any damage the Scion might inflict in a clinch or other unarmed attack.) The character\u2019s skin radiates this heat for one scene."
+        ],
+        [
+            "Animal Command",
+            "Dice Pool: Charisma + Animal Ken \nCost: 1 Willpower \nThe Scion spends one Willpower and names one task that the animal must perform. The task cannot seem suicidal or impossible to the animal, but the animal cannot balk at an order that doesn\u2019t immediately seem so. \u201cHey rabbit, go rip that lion\u2019s throat open,\u201d would seem impossible to the rabbit so commanded. \u201cRun to that grass across this street,\u201d would be a fine order for that same rabbit, though, even if cars were zipping by. The order can describe a single immediate action (\u201cBite that guy!\u201d) or one with a single condition (\u201cCome find me when a blue car stops here.\u201d). If he lacks the previous Boon, the Scion can deliver his command only through simplistic nonverbal signals."
+        ],
+        [
+            "Animal Communication",
+            "Dice Pool: Intelligence + Animal Ken \nCost: None \nThe Scion can understand and make himself understood by an animal as he speaks his native language and the animal responds with its own postures, scents and/or vocalizations. This Boon doesn\u2019t make animals smart, calm or loyal, but most are curious enough about having a person address them that they\u2019ll hear a Scion out before defaulting to aggression, panic or indifference."
+        ],
+        [
+            "Unseen Shield",
+            "Dice Pool: Stamina + Fortitude \nCost: 2 Legend + 1 Willpower \nThe Scion concentrates and projects an invisible, semi-spherical shield of pure force around herself and those she\u2019s trying to protect. The base of this shield can be as big as 500 square feet in area (about 13 feet in radius) per dot of Legend the character has, though she can keep it smaller. Ghosts, spirits and physical beings of lesser Legend than the Scion cannot penetrate this shield. If such a being has an equal or higher Legend rating (and can bring a physical force to bear), it can attempt to batter the shield apart with physical attacks. The shield can take a number of health levels of damage equal to [the Scion\u2019s (Legend x 5) + activation roll successes], and it has an all-purpose Hardness rating equal to the Scion\u2019s Legend."
+        ],
+        [
+            "Blessing of Bravery",
+            "Dice Pool: Charisma + Command \nCost: None \nIntoning a benediction over a person or group prepared to engage in battle, the Scion bolsters their courage and determination. Every character on the Scion\u2019s side of the conflict who hears the benediction gains a point of Willpower as well as two temporary bonus dots of Valor that last until the battle ends. The Scion may amplify his voice electronically, but he must be present at the battle and give the blessing live."
+        ],
+        [
+            "Heavenly Flare",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend \nConcentrating for one action (Speed 4), the Scion builds up and releases a flash of sunlight that\u2019s impossible for anyone within line of sight to miss. When she does so, the player of anyone who was looking at her, even through expensive sunglasses, must roll (Stamina + Fortitude). If the victim\u2019s roll nets more successes than the Scion\u2019s activation roll, he sees only a sudden flash that has no effect on him."
+        ],
+        [
+            "Mother's Touch",
+            "Dice Pool: None \nCost: 1 Legend \nA Scion with Death Senses (Death 1) can see, hear and touch ghosts that won\u2019t or can\u2019t materialize, but the sense of touch that that Boon grants is illusory at best. If the Scion tries to exert enough pressure to cause damage or restrain the ghost, her hand passes through its body. With Mother\u2019s Touch, however\u2014named by Scions of Izanami\u2014the Scion charges her body with flickering strands of black energy that can contain or disrupt a ghost\u2019s intangible body. This energy is visible only to ghosts and those who can see ghosts, and the Scion can extend its aura to surround any item in her hands. A measure of the energy even travels with any projectile the Scion throws or fires from an item in her possession, though it dissipates when the projectile comes to rest."
+        ],
+        [
+            "Heavenly Flare",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend \nConcentrating for one action (Speed 4), the Scion builds up and releases a flash of sunlight that\u2019s impossible for anyone within line of sight to miss. When she does so, the player of anyone who was looking at her, even through expensive sunglasses, must roll (Stamina + Fortitude). If the victim\u2019s roll nets more successes than the Scion\u2019s activation roll, he sees only a sudden flash that has no effect on him."
+        ],
+        [
+            "Animal Feature",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + (1 Legend per feature) \nThe Scion can change a portion of his anatomy to a shape matching the analogous portion of his chosen animal\u2019s anatomy for one scene. If his chosen animal is an armadillo, he can cover himself in a flexible armor. If his animal is a monkey, he can grow a long prehensile tail that is as dexterous as a hand with no thumb. If his animal is a spider or gecko, he can change the surfaces of his hands and feet to enable himself to climb on walls. If his animal is a bird or bat or airborne insect, he can transform his arms into wings that allow him to fly at a rate equal to his Move rate. The exact effect of the change is up to the player, dependent upon Storyteller approval. As a general guideline, though, if the change boosts some trait or grants bonus dice on a special attack, the total bonus value granted cannot be greater than the character\u2019s Legend."
+        ]
+    ],
+    "nature": "Gallant",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 19,
+        "move": 13,
+        "climb": 11,
+        "jump": {
+            "horizontal": 26,
+            "vertical": 13
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 20,
+        "parry_dv": 13
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 1,
+        "animal_ken": 2,
+        "art": 0,
+        "athletics": 2,
+        "awareness": 1,
+        "brawl": 1,
+        "command": 0,
+        "control": 1,
+        "craft": 3,
+        "empathy": 2,
+        "fortitude": 1,
+        "integrity": 0,
+        "investigation": 3,
+        "larceny": 2,
+        "marksmanship": 2,
+        "medicine": 2,
+        "melee": 2,
+        "occult": 3,
+        "presence": 1,
+        "politics": 0,
+        "science": 2,
+        "stealth": 1,
+        "survival": 3,
+        "thrown": 3
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 18,
+        "lethal": 20.0,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 7,
+    "god": "Huitzilopochtli",
+    "pantheon": "Atzlanti",
+    "name": "Moussa Lopez Garcia"
+}

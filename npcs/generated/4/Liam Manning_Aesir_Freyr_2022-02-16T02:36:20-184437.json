@@ -1,0 +1,281 @@
+{
+    "attributes": {
+        "stre": 3,
+        "dex": 5,
+        "sta": 3,
+        "cha": 5,
+        "man": 5,
+        "app": 5,
+        "per": 5,
+        "inte": 7,
+        "wits": 7
+    },
+    "epic_attributes": {
+        "epic_stre": 3,
+        "epic_dex": 2,
+        "epic_sta": 4,
+        "epic_cha": 3,
+        "epic_man": 3,
+        "epic_app": 0,
+        "epic_per": 1,
+        "epic_int": 3,
+        "epic_wits": 1
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        1,
+        1,
+        0,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Pied Piper",
+            "description": [
+                "The character exudes such charm and \u00e9lan that people just want to be around him. When the character engages this Knack, the player need only spend a point of Willpower and a point of Legend. Thereafter, and until the next sunrise, any mortal who looks in the character\u2019s direction feels compelled to be in his company. People \ufb02 ock around him like the paparazzi on Oscar night, desperate to be near him and get his attention, and they\u2019ll follow him from locale to locale for as long as he keeps leading them. Mortals can resist this compulsion, but doing so requires a successful (Willpower + Integrity + Legend) roll with a dif\ufb01culty equal to the Scion\u2019s Legend. Successful resistance breaks the spell for the rest of its duration; a failure means the character cannot try to break away again for another hour. The demigod character can have as many lingering groupies and hangers on as his Epic Charisma dots normally grant him bonus successes on Charisma rolls. Scions use this Knack not only to gather up fellow revelers for long, roving parties, but also to surround themselves with unwitting human shields. For as long as the Knack lasts, the compelled mortals will not abandon the Scion unless he chooses to end the effect early.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Preach On",
+            "description": [
+                "Prerequisite Knack: Inspirational Figure (Scion: Hero, p. 130) When a demigod has a willing audience, he can inspire every member with an uplifting, well-intentioned speech or sermon. This Knack works exactly as its prerequisite, and functions under the same limitations, but it is more effective. Mortals and Scions who hear it are so inspired that their spent Willpower points are entirely re\ufb01lled. This Knack also has a more insidious dimension. If the Scion \ufb01nds himself in charge of a group of titanspawn, he can spend a point of Willpower and give those awful minions a speech that empowers them just as Inspirational Figure inspires mortals. Each titanspawn who hears him regains a point of spent Willpower. Scions who might be opposed to the titanspawn\u2019s goals don\u2019t receive any bene\ufb01t from this inspirational speech, but they are compelled to let the demigod \ufb01nish what he has to say before they do something about it.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Blame James",
+            "description": [
+                "Prerequisite Knack: Boys Will Be Boys (Scion: God, p. 68) Some Scions are just too likable to take the heat. When the Scion invokes Boys Will Be Boys in order to calm the anger of an authority figure after a disaster, the player can choose to spend two additional Legend points and invoke Blame James as well. Then, the Scion just glances at someone else, makes a brief comment about \u201cWell, it wasn\u2019t my idea\u2026\u201d or somehow gives the impression that the narrowly-averted trouble was the result of someone else\u2019s malfeasance. So impressive is the Scion\u2019s demeanor that the disciplinary authority figure becomes convinced that the named individual had something to do with the event, and is in some way culpable. This Knack only functions if the use of Boys Will Be Boys also functioned; if that attempt fails, then this Knack also fails, although the Legend points are still spent",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Inspirational Figure",
+            "description": [
+                "The Scion\u2019s well-chosen words can play on humankind\u2019s social mentality, giving hope and courage to not just one listener, but a group. The Scion gives a speech to gathered listeners\u2014whether he\u2019s calling upon them for help, raising their spirits after a local disaster or strengthening the bonds of community among them\u2014and spends a single point of Legend. As long as his words are intended to inspire them in some way, every person who can hear him listens spellbound and receives a point of Willpower at the speech\u2019s end. The only limit is that the listeners must be able to hear him clearly without him using the aid of any amplifying or broadcasting equipment. This Knack inspires other Scions as easily as mortals, but it doesn\u2019t inspire titanspawn. Nonetheless, titanspawn are compelled to at least let him \ufb01nish his speech before carrying out whatever they\u2019re up to.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Engender Love",
+            "description": [
+                "Prerequisite Knack: Charmer (Scion: Hero, p. 130) Being able to charm someone is always helpful, but it doesn\u2019t always make getting what you want from that person easy. A charmed person can still think clearly, question one\u2019s motives and turn someone down if something about what she\u2019s saying doesn\u2019t feel quite right. Not so the person affected by this Knack. The character who uses it spends one Legend point as his player rolls (Charisma + Presence + Legend). The victim\u2019s player contests this effect with a (Willpower + Integrity + Legend) roll. If the victim\u2019s roll fails to garner the necessary successes, the victim falls madly, unquestioningly in love with the user of the Knack for a number of days equal to the user\u2019s threshold successes. The victim is blindly enthralled and will do anything in her power to please the object of her affection. This Knack works regardless of the relative Legend disparity between the user and his victim. Using it unwisely against a more powerful character is ill advised, however. Fool Odin once, shame on him. Fool him twice, wolves on you.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Unimpeachable Reference",
+            "description": [
+                "With this Knack, the demigod can actually lend someone else a portion of his credibility and authority. When the player spends a point of Legend and the character either vouches for or lends a recognizable token to someone to act on his behalf, he confers on that person the effects of the Bene\ufb01t of the Doubt Knack (from Scion: Hero, p. 130). This halo of credibility affects even those people who do not know the demigod personally. It is still up to the character who receives the effect to convince the person he\u2019s speaking to that he\u2019s on the level, but this Knack makes getting over the initial hurdle of suspicion and disbelief much easier.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Bless or Blight",
+            "Dice Pool: Stamina + Survival \nCost: 3 Legend \nWith a blessing, the Scion protects a patch of land from all natural blights and vermin infestations for one year. Alternatively, she can curse the land with a blight that either kills the plants within it outright or makes them so attractive to vermin that the resulting infestation has the same effect. The Scion\u2019s player spends three Legend and rolls (Stamina + Survival). The number of successes she rolls determines how many acres she can affect with this power. If one Scion wants to use an aspect of this Boon on a patch of land on which another Scion has used the opposite aspect, a contested roll is called for. Whoever achieves more successes spreads her effect over the larger area, canceling out the lesser effect."
+        ],
+        [
+            "Blessing of Health/Curse of Frailty",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend \nThe Boon can take away a patient\u2019s reproductive capabilities or restore them, provided the patient already has all the necessary organs. This effect lasts for one year per success on the activation roll."
+        ],
+        [
+            "Bestial Endowment",
+            "Dice Pool: None \nCost: 1 lethal health level + 1 Legend \nThe Scion grants a beast a single extra dot in either Strength or Stamina. The beast becomes loyal to only the Scion, who can also train him as normal, but that loyalty must be renewed once every month."
+        ],
+        [
+            "Supernal Bestial",
+            "Dice Pool: None \nCost: 1 lethal health level + 4 Legend \nThe Scion grants a beast four extra dots to be divided as he sees fit between its Strength and Stamina. The beast also gains two extra -0 health levels. The beast remains loyal to only the Scion, who can still train him as normal, but that loyalty must be renewed once every three months (roughly one season)."
+        ],
+        [
+            "Warrior Ideal",
+            "Dice Pool: Charisma + Presence \nCost: 1 Legend \nThe Scion adopts some idealized warrior aspect, from howling berserker to unquestioning enlisted man to fearless officer to pitiless samurai. This attitude unnerves and intimidates any opponent who faces him in combat, inflicting a penalty equal to the Scion\u2019s Legend on any attack roll the opponent makes. This penalty applies to any character with a lesser or equal Legend rating who attempts to attack the Scion. This idealized aspect lasts for a number of consecutive actions during the battle equal to the successes the Scion\u2019s player rolled to activate it, and he can invoke it only once during any given battle."
+        ],
+        [
+            "Heroic Endowment",
+            "Dice Pool: None \nCost: 1 lethal health level + 3 Legend \nThe Scion can now imbue a human with three free Attribute dots to be spent into the human\u2019s Strength and/or Stamina. The person remains loyal to the Scion for three months (roughly one season) and remains equally irritable with other people. A Scion cannot use this Boon on a beast."
+        ],
+        [
+            "Divine Radiance",
+            "Dice Pool: None \nCost: 1 Legend \nThis Boon allows a Scion to emit sunlight. She can either radiate a glow from her entire body, shining with the intensity of a 100-watt incandescent light bulb, or focus that light to a narrower beam. For instance, she could narrow the focus of the light to come from her palm or her eyes to act as a high-powered flashlight. The Scion can emit soft light thus for one scene."
+        ],
+        [
+            "Blessing of Bravery",
+            "Dice Pool: Charisma + Command \nCost: None \nIntoning a benediction over a person or group prepared to engage in battle, the Scion bolsters their courage and determination. Every character on the Scion\u2019s side of the conflict who hears the benediction gains a point of Willpower as well as two temporary bonus dots of Valor that last until the battle ends. The Scion may amplify his voice electronically, but he must be present at the battle and give the blessing live."
+        ],
+        [
+            "Heavenly Flare",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend \nConcentrating for one action (Speed 4), the Scion builds up and releases a flash of sunlight that\u2019s impossible for anyone within line of sight to miss. When she does so, the player of anyone who was looking at her, even through expensive sunglasses, must roll (Stamina + Fortitude). If the victim\u2019s roll nets more successes than the Scion\u2019s activation roll, he sees only a sudden flash that has no effect on him."
+        ],
+        [
+            "Heroic Endowment",
+            "Dice Pool: None \nCost: 1 lethal health level + 3 Legend \nThe Scion can now imbue a human with three free Attribute dots to be spent into the human\u2019s Strength and/or Stamina. The person remains loyal to the Scion for three months (roughly one season) and remains equally irritable with other people. A Scion cannot use this Boon on a beast."
+        ],
+        [
+            "Battle Map",
+            "Dice Pool: Perception + Survival \nCost: 1 Legend \nThis Boon creates for the Scion a virtual, three-dimensional contour map of a battlefield, complete with terrain features and troop movements. This map can take up an area no larger than four square yards, and it can show only an area that the Scion has scouted personally or has had scouted within 24 hours."
+        ],
+        [
+            "Human Endowment",
+            "Dice Pool: None \nCost: 1 lethal health level + 2 Legend \nThe Scion may imbue a human with two free Attribute dots that can be spent into the human\u2019s Strength and/or Stamina. The human remains loyal to the Scion for a single month but grows irritable around other people. A Scion cannot use this Boon on a beast."
+        ]
+    ],
+    "nature": "Visionary",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 13,
+        "move": 7,
+        "climb": 7,
+        "jump": {
+            "horizontal": 20,
+            "vertical": 10
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 13,
+        "parry_dv": 9
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 0,
+        "animal_ken": 1,
+        "art": 2,
+        "athletics": 3,
+        "awareness": 2,
+        "brawl": 3,
+        "command": 1,
+        "control": 2,
+        "craft": 0,
+        "empathy": 2,
+        "fortitude": 2,
+        "integrity": 2,
+        "investigation": 1,
+        "larceny": 1,
+        "marksmanship": 0,
+        "medicine": 0,
+        "melee": 3,
+        "occult": 2,
+        "presence": 3,
+        "politics": 3,
+        "science": 1,
+        "stealth": 0,
+        "survival": 3,
+        "thrown": 2
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 10,
+        "lethal": 12.0,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 4,
+    "god": "Freyr",
+    "pantheon": "Aesir",
+    "name": "Liam Manning"
+}

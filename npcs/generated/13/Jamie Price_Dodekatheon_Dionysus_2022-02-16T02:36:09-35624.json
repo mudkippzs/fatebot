@@ -1,0 +1,400 @@
+{
+    "attributes": {
+        "stre": 9,
+        "dex": 11,
+        "sta": 9,
+        "cha": 7,
+        "man": 11,
+        "app": 5,
+        "per": 9,
+        "inte": 11,
+        "wits": 9
+    },
+    "epic_attributes": {
+        "epic_stre": 8,
+        "epic_dex": 5,
+        "epic_sta": 5,
+        "epic_cha": 7,
+        "epic_man": 3,
+        "epic_app": 5,
+        "epic_per": 9,
+        "epic_int": 5,
+        "epic_wits": 4
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        1,
+        2,
+        1,
+        0
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Self\u2013Healing",
+            "description": [
+                "The Scion\u2019s player spends a point of Legend to repair a single level of damage. That damage can be bashing or lethal, and the healing takes place in an instant without leaving a scar. (Aggravated damage is beyond the power of this Knack to heal.) Scions who are interested in building their reputation and spreading their legends quickly \ufb01nd this Knack to be one of the more effective tools of doing so, as bruises, lacerations and bullet holes vanish before astonished onlookers\u2019 eyes.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Whale\u2019s Breath",
+            "description": [
+                "This Knack magnifies the time a Scion can hold her breath. After inhaling deeply and expending a point of Legend, the Scion can triple the duration she can hold her breath after calculating extended duration due to Epic Stamina. In addition, she becomes immune to pressure changes that come from diving to extreme depths underwater. This Knack doesn\u2019t affect swimming speeds, visibility or other aspects of moving underwater. As a useful side effect, a Scion using this Knack has such great breath control that she can speak when underwater (or otherwise holding her breath) by releasing only a minimal amount of air. The character can easily manage short sentences and brief conversations. Extended speech, such as giving an academic lecture while underwater, is either too difficult or at least would drastically reduce the time the Scion can hold her breath (at the discretion of the Storyteller). This Knack also makes combat underwater much easier, since being struck or injured cannot cause the Scion to lose her breath unless someone makes a deliberate effort to squeeze the air from her lungs.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Divine Figurehead",
+            "description": [
+                "Prerequisite Knack: Pied Piper (Scion: Demigod, pp. 59-60) As with the prerequisite, this Knack allows the user to define herself as \u201cwhere the party is at\u201d and have people flock to her. Where the prerequisite works only on mortals, however, this Knack affects heroic Scions and demigods, as well as other creatures of comparable Legend levels. The character spends one Legend and one Willpower. Mortal characters cannot resist this effect, and legendary characters of lesser Legend receive only a standard (Willpower + Integrity + Legend) roll with a difficulty equal to the user\u2019s (Legend + Epic Charisma).",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Blessing of Importance",
+            "description": [
+                "The Scion is especially good at winning people over by making them feel special and wanted. By spending a point of Legend and either sticking up for a person, calling out to him in a crowd or just giving him a secret smile, the Scion re\ufb01lls the person\u2019s spent Willpower points for the scene. The Scion need not necessarily believe that the person is important or special herself. This Knack works very well on mortals, but it\u2019s less effective on Scions, who are usually wise to their charismatic peers\u2019 ways. For Scion recipients, the Knack re\ufb01lls only one point of Willpower per dot of Epic Charisma the Scion with this Knack has. A character can receive this Willpower boost only once per scene from the same Scion.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Devourer",
+            "description": [
+                "Prerequisite Knack: Inner Furnace (Scion: Hero, p. 129) The Scion will never lack for sustenance again. Any liquid that can exist at as a liquid at room temperature can sustain him as water sustains a mortal\u2014even such distasteful liquids as gasoline, blood, pine-scented disinfectant or diet cola. The same goes for food. Whereas Inner Furnace requires that the Scion at least consume organic matter in order to fuel the inferno at his core, this Knack loosens even that restriction. The Scion could \ufb01ll his belly with sand, polystyrene, harmonicas or suture needles and not feel so much of a pang of indigestion. This Knack confers no special ability to chew up or tear off pieces of inorganic material, but anything small enough to swallow disappears down his gullet with no harmful effects and fuels him just as efficiently as normal food.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Tireless Worker",
+            "description": [
+                "Prerequisite Knack: Divine Fortitude (Scion: Demigod, p. 58) Epic Stamina boosts the amount of time a character can work at a fatiguing task, and this Knack\u2019s prerequisite doubles that time. This Knack extends that boost into infinity. No matter how long or how hard he works, the character never breaks a sweat and never slows down. If he still has to sleep, he can work until he\u2019s sleepy and wake up feeling perfectly refreshed. If he still has to eat or sleep, he can pause for a meal and get right back to work without the first bit of loginess creeping in. (People who are like this endlessly irritate people who aren\u2019t.)",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Crowd Control",
+            "description": [
+                "Prerequisite Knack: Charmer (Scion: Hero, p. 130) The demigod\u2019s force of personality is such that he can quell the passion of a seething mob, whether he\u2019s addressing a throng of rowdy political protesters, standing between an innocent kitsune and the lynch mob howling for her hide, or stalling the phalanx of SWAT cops long enough for his partner to \ufb01nish sacri\ufb01cing the hostages. By spending a point of Willpower and Legend, the Scion cools the crowd\u2019s urge for instant action and buys himself enough time to try to talk some sense into everyone. Doing so is primarily a matter of role-playing, but if the player is not as good an extemporaneous speech-maker as his character is, he may roll (Charisma + Presence) to simulate his heartfelt call for calm. His words convince three members of the mob per success on the roll. This effect lasts for the scene, after which the mob either disperses or renews its shenanigans with its original vigor. If the character is attempting to halt the depredations of a mob that is being controlled or directed supernaturally, use of this Knack constitutes an opposed roll against the other power\u2019s activation roll. If the power has no activation roll per se, the Scion\u2019s player rolls his (Charisma + Presence) against that of the character who incited the mob supernaturally. If the Scion with this Knack gets an equal or greater number of successes, the Knack does what it\u2019s supposed to.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Inner Furnace",
+            "description": [
+                "The character rarely lacks for sustenance. As long as he can \ufb01nd some sort of organic substance (from rotting quail eggs to a piece of notebook paper on which someone blew her nose), the Scion can eat it and survive. And as long as he \ufb01nds a source of water (no matter how stagnant or polluted it might be), he can drink it and survive. Any pestilence or poison lurking in what he consumes burns in the \ufb01res of his superior constitution, without even requiring a Fortitude roll. The same goes for drugs or poisons he ingests on purpose, or for any Mickey Finn a ne\u2019er-do-well might try to slip him. He\u2019s still just as susceptible to airborne toxins and any drug injected into his bloodstream, but any drug that has to go through his stomach \ufb01rst stops there. This Knack does nothing to suppress the gag re\ufb02ex or make an unappetizing meal taste better.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Hapless Cool",
+            "description": [
+                "The character spends a Legend point, and for the rest of the scene, she\u2019s just cool. Nobody can explain it; there\u2019s just something about either what she did or the way she did it that made her look cool. Okay, sure, the salt she threw over her shoulder hit Papa Legba\u2019s dog in the eyes, but the comedic timing was just so perfect. Yeah, granted, she laughed so hard when Hel asked if she wanted any half-and-half in her coffee that scrambled eggs came out her nose, but she owned it. No matter what a character with this Knack active does, says or allows to happen that makes a fool out of herself, anyone who sees her thinks she\u2019s cool anyway."
+            ],
+            "tables": []
+        },
+        {
+            "title": "Holy Fortitude",
+            "description": [
+                "The character is the epitome of the holy ascetic. The periods for which she is able to go without food, water and sleep all double. The amount of time she is able to work at a strenuous task without stopping also doubles.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Damage Conversion",
+            "description": [
+                "The Scion can spend a single point of Legend to convert all the lethal damage from a single attack into bashing damage, though an overload of bashing damage still upgrades existing bashing damage to lethal (see p. 197). This Knack cannot convert aggravated damage into anything less grave. The character cannot convert old lethal damage into bashing damage. The Knack works only on incoming damage from a single attack.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Inspirational Figure",
+            "description": [
+                "The Scion\u2019s well-chosen words can play on humankind\u2019s social mentality, giving hope and courage to not just one listener, but a group. The Scion gives a speech to gathered listeners\u2014whether he\u2019s calling upon them for help, raising their spirits after a local disaster or strengthening the bonds of community among them\u2014and spends a single point of Legend. As long as his words are intended to inspire them in some way, every person who can hear him listens spellbound and receives a point of Willpower at the speech\u2019s end. The only limit is that the listeners must be able to hear him clearly without him using the aid of any amplifying or broadcasting equipment. This Knack inspires other Scions as easily as mortals, but it doesn\u2019t inspire titanspawn. Nonetheless, titanspawn are compelled to at least let him \ufb01nish his speech before carrying out whatever they\u2019re up to.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "BFF",
+            "description": [
+                "Prerequisite Knack: Blessing of Importance (Scion: Hero, p. 130) A heroic Scion with Epic Charisma can help restore a mortal\u2019s sense of self worth and empowerment just by paying a bit of attention to him and making him feel special. The charismatic Scion can even replenish a measure of the same for one of his fellow Scions. A demigod Scion\u2019s attention makes a person feel even more important, though, especially when the Scion goes out of his way to treat the person like a true friend. When the demigod does so (and spends a point of Legend), he completely re\ufb01 lls a fellow Scion\u2019s spent Willpower points (if that amount is higher than the charismatic Scion\u2019s Epic Charisma). Should he treat a mortal with such affection, the mortal not only regains all his spent Willpower, as per Blessing of Importance, he gains an extra dot of Willpower for the scene. When that extra dot goes away at the end of the scene, the mortal\u2019s spent Willpower completely replenishes again. The Scion can affect a person only once per scene with this Knack.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Recurring Distraction",
+            "Dice Pool: Wits + Empathy \nCost: 1 Legend per point of penalty \nThe Scion sings a chorus from a silly song (any Ray Stevens tune will do) or makes some awful witticism (such as, \u201cA good pun is its own reword.\u201d) and uses this Boon to stick that random bit of inanity into the mind of every person who hears and understands her when she does it. Resisting the effect requires a (Willpower + Integrity + Legend) roll that nets more successes than the Scion\u2019s player rolled. Those who cannot resist the effect suffer a distraction penalty to all rolls equal to the number of Legend points the Scion\u2019s player spent to activate the effect (up to a maximum equal to that Scion\u2019s Legend). This distraction lasts for 24 hours."
+        ],
+        [
+            "Eye of the Storm",
+            "Dice Pool: None \nCost: 1 Legend per scene \nWhen the Scion finds herself caught up in a chaotic situation unrelated to her\u2014whether she\u2019s dodging a tornado\u2019s debris or emerging from a bar to find a berserk mob rushing toward her to clash with a line of riot cops down the street\u2014she can activate this Boon and become an island of calm in the tumult. She is miraculously untouched in the confusion, and she remains so for as long as she doesn\u2019t actively involve herself. She still suffers normal environmental movement penalties, but environmental dangers such as falling rocks, stampeding beasts or thrashing rioters all fail to touch her."
+        ],
+        [
+            "Toxic Thorn",
+            "Dice Pool: Intelligence + Science \nCost: 1 Legend \nThe Scion sprouts a single thorn from his hand or foot, which he can use in conjunction with an unarmed strike to poison a victim. Successes scored by the player on an (Intelligence + Science) roll determines the strength of the poison that can be created. Consult the accompanying table for its toxicity:"
+        ],
+        [
+            "Impossible Hybrid",
+            "Dice Pool: Intelligence + Survival \nCost: 10 Legend \nThe God\u2019s botanical mastery is such that he can combine two healthy plants into a hybrid that cannot occur in nature but is nonetheless viable and healthy. The two mixed plants can be from any environment and have disparate sunlight and water requirements. When this Boon combines them successfully, the resultant hybrid can live in either environment and survive on either of its parents\u2019 sun and water requirements. The hybrid can also successfully pollinate other plants of either of its parents\u2019 types, creating a 50-50 split in regular and hybrid seeds."
+        ],
+        [
+            "Bless or Blight",
+            "Dice Pool: Stamina + Survival \nCost: 3 Legend \nWith a blessing, the Scion protects a patch of land from all natural blights and vermin infestations for one year. Alternatively, she can curse the land with a blight that either kills the plants within it outright or makes them so attractive to vermin that the resulting infestation has the same effect. The Scion\u2019s player spends three Legend and rolls (Stamina + Survival). The number of successes she rolls determines how many acres she can affect with this power. If one Scion wants to use an aspect of this Boon on a patch of land on which another Scion has used the opposite aspect, a contested roll is called for. Whoever achieves more successes spreads her effect over the larger area, canceling out the lesser effect."
+        ],
+        [
+            "Unintended Purpose",
+            "Dice Pool: Wits + Craft \nCost: 1 Willpower + 10 Legend \nIt doesn\u2019t matter if you can\u2019t tell a hawk from a handsaw. With this Boon, the character can use any item he has at hand as if it were another completely different item of a similar size. He touches the item and spends one Willpower point and 10 Legend points as his player rolls (Wits + Craft). For a number of days equal to the roll\u2019s successes, the item he\u2019s touching serves in all ways but appearance as another item of his choosing. If he sacrifices a permanent dot of Willpower, the effect is permanent."
+        ],
+        [
+            "Natural Camouflage",
+            "Dice Pool: Dexterity + Stealth \nCost: 1 Legend \nWhen the Scion hides in her verdant element, it\u2019s almost impossible to find her. Her skin sprouts grass, bark, underbrush, flowers, mushrooms or what have you that allow her to blend in seamlessly with her natural surroundings. As long as she doesn\u2019t move or otherwise draw attention to herself, mundane attempts to find or track her fail automatically. A mortal hunter with a trusty hound could walk right over the Scion\u2019s disguised back and never know she was there. Hunters of supernatural prowess fare only a little better. Those with the Epic Perception Knack Predatory Focus or a Survival Arete can attempt to track the hidden Scion\u2019s movements, their players rolling (Perception + Survival) against the hiding Scion\u2019s activation roll. Even if they get more successes than the Scion\u2019s player did, though, the hunters find only the general area in which the Scion is hiding. (They come to an area within a number of yards equal to the Scion\u2019s Legend but lose track of her unless she moves again.) Only hunters with the Supernal Hunter Knack are actually skilled enough to find a Scion who\u2019s using this Boon to hide (and only if their rolls garner more successes than the Scion\u2019s)."
+        ],
+        [
+            "Natural Camouflage",
+            "Dice Pool: Dexterity + Stealth \nCost: 1 Legend \nWhen the Scion hides in her verdant element, it\u2019s almost impossible to find her. Her skin sprouts grass, bark, underbrush, flowers, mushrooms or what have you that allow her to blend in seamlessly with her natural surroundings. As long as she doesn\u2019t move or otherwise draw attention to herself, mundane attempts to find or track her fail automatically. A mortal hunter with a trusty hound could walk right over the Scion\u2019s disguised back and never know she was there. Hunters of supernatural prowess fare only a little better. Those with the Epic Perception Knack Predatory Focus or a Survival Arete can attempt to track the hidden Scion\u2019s movements, their players rolling (Perception + Survival) against the hiding Scion\u2019s activation roll. Even if they get more successes than the Scion\u2019s player did, though, the hunters find only the general area in which the Scion is hiding. (They come to an area within a number of yards equal to the Scion\u2019s Legend but lose track of her unless she moves again.) Only hunters with the Supernal Hunter Knack are actually skilled enough to find a Scion who\u2019s using this Boon to hide (and only if their rolls garner more successes than the Scion\u2019s)."
+        ],
+        [
+            "Crawling Chaos",
+            "Dice Pool: Wits + Empathy \nCost: 1 Willpower + 3 Legend \nThis Boon inflicts a nastier version of Paralyzing Confusion (Chaos \u2022\u2022\u2022). Its effects last longer and are transmissible. The Scion activates it just as she activates Paralyzing Confusion, subject to the same restrictions based on relative Legend. The first person she targets suffers the effects for one hour per dot of Legend the Scion has. The seething riot of contradictory thoughts also erases the victim\u2019s memory of events for the same amount of time before the Boon affected him."
+        ],
+        [
+            "Cleanse",
+            "Dice Pool: Stamina + Survival \nCost: 1 Legend \nEvery gardener and farmer has to deal with blight or vermin sometimes, but doing so is easy for a Scion with this Boon. The player rolls (Stamina + Survival) and spends one Legend, and any blight or infestation ends immediately. Blight clears up as if it had never occurred, and vermin suddenly find the affected plants unappealing. This Boon affects a number of large plants (or a number of square yards of a patch of smaller plants) equal to the successes achieved on the roll. This Boon doesn\u2019t protect against future blights, and it stops only the current generation of vermin infestation."
+        ],
+        [
+            "Instant Riot",
+            "Dice Pool: Charisma + Presence \nCost: 1 Willpower + 5 Legend \nThe Scion stands before a crowd and shouts some incendiary catch phrase such as, \u201cRemember Kent State!\u201d, \u201cRangers lead the way!\u201d or \u201cSee you all in Sto-Va-Kor!\u201d (Whatever\u2019s appropriate to the circumstances.) If the activation roll succeeds, a riot breaks out. Five people per success on the roll immediately lose all sense of decorum and civility and start wrecking the joint. They work together en masse, to cause property damage and to chase down and attack hapless victims who don\u2019t go with the flow. (Such victims usually include people who flee the chaos rather than wholeheartedly joining the mob, as well as the riot cops who inevitably have to deal with the rioters\u2019 shenanigans.)"
+        ],
+        [
+            "Instant Riot",
+            "Dice Pool: Charisma + Presence \nCost: 1 Willpower + 5 Legend \nThe Scion stands before a crowd and shouts some incendiary catch phrase such as, \u201cRemember Kent State!\u201d, \u201cRangers lead the way!\u201d or \u201cSee you all in Sto-Va-Kor!\u201d (Whatever\u2019s appropriate to the circumstances.) If the activation roll succeeds, a riot breaks out. Five people per success on the roll immediately lose all sense of decorum and civility and start wrecking the joint. They work together en masse, to cause property damage and to chase down and attack hapless victims who don\u2019t go with the flow. (Such victims usually include people who flee the chaos rather than wholeheartedly joining the mob, as well as the riot cops who inevitably have to deal with the rioters\u2019 shenanigans.)"
+        ],
+        [
+            "Eye of the Storm",
+            "Dice Pool: None \nCost: 1 Legend per scene \nWhen the Scion finds herself caught up in a chaotic situation unrelated to her\u2014whether she\u2019s dodging a tornado\u2019s debris or emerging from a bar to find a berserk mob rushing toward her to clash with a line of riot cops down the street\u2014she can activate this Boon and become an island of calm in the tumult. She is miraculously untouched in the confusion, and she remains so for as long as she doesn\u2019t actively involve herself. She still suffers normal environmental movement penalties, but environmental dangers such as falling rocks, stampeding beasts or thrashing rioters all fail to touch her."
+        ],
+        [
+            "Labyrinthine Lingering",
+            "Dice Pool: Wits + Awareness \nCost: 5 Legend \nThe Scion stands in the middle of a crossroads, a hallway or an intersection \u2014 any place where a choice of direction could be made \u2014 and summons the confusion of chaos into the area. For the rest of the scene, anyone who enters that intersection becomes unable to determine direction. Compasses wildly spin, GPS locators lose their signal and landmarks shift and can\u2019t be pinned down. The Chaos-user remains able to navigate, but anyone else who isn\u2019t touching the invoking Scion becomes completely turned around. When a traveler passes through the area, no matter what precautions he takes, he becomes disoriented and exits in a random direction."
+        ],
+        [
+            "Eternal Bloom",
+            "Dice Pool: Stamina + Survival \nCost: 2 Legend per plant/patch \nThe Goddess touches a single plant and imbues its natural surroundings with her blessing. In so doing, she grants the plants of that area eternal life, regardless of environment or nutrition. Short of being set ablaze or physically torn apart, the affected plants grow to their full size in the normal time and remain alive and well thereafter. A Goddess can imbue eternal life into a single square mile of plant life per two Legend points her player spends\u2014up to a maximum number of square miles equal to the success her player makes on the (Stamina + Survival) activation roll. Once an area has been affected with this Boon, it remains in full bloom. Any small plant or piece of a larger plant that is broken or removed grows back within 24 hours."
+        ],
+        [
+            "Recurring Distraction",
+            "Dice Pool: Wits + Empathy \nCost: 1 Legend per point of penalty \nThe Scion sings a chorus from a silly song (any Ray Stevens tune will do) or makes some awful witticism (such as, \u201cA good pun is its own reword.\u201d) and uses this Boon to stick that random bit of inanity into the mind of every person who hears and understands her when she does it. Resisting the effect requires a (Willpower + Integrity + Legend) roll that nets more successes than the Scion\u2019s player rolled. Those who cannot resist the effect suffer a distraction penalty to all rolls equal to the number of Legend points the Scion\u2019s player spent to activate the effect (up to a maximum equal to that Scion\u2019s Legend). This distraction lasts for 24 hours."
+        ],
+        [
+            "Impossible Hybrid",
+            "Dice Pool: Intelligence + Survival \nCost: 10 Legend \nThe God\u2019s botanical mastery is such that he can combine two healthy plants into a hybrid that cannot occur in nature but is nonetheless viable and healthy. The two mixed plants can be from any environment and have disparate sunlight and water requirements. When this Boon combines them successfully, the resultant hybrid can live in either environment and survive on either of its parents\u2019 sun and water requirements. The hybrid can also successfully pollinate other plants of either of its parents\u2019 types, creating a 50-50 split in regular and hybrid seeds."
+        ],
+        [
+            "Greenskin",
+            "Dice Pool: None \nCost: 2 Legend \nWith a moment\u2019s thought, the Scion reflects upon the characteristics of the green, growing world. She then internalizes those characteristics, granting herself some of the features of a plant. While the Scion doesn\u2019t become completely suffused with plant-like characteristics, she does develop a noticeable greenish tint to her skin and hair. Her flesh becomes woody and slightly tough, which grants her one extra level of soak against lethal and bashing damage. She also gains the ability to draw sustenance by photosynthesis. So long as she garners at least four hours of sunlight in a day, she obviates her need for food completely. (While her body might still require a few trace elements, they are so negligible as to be ignored). Lastly, her blood becomes thick and sticky, completely mitigating any bleeding that might happen as a result of wounds; her injuries cover over in a translucent amber almost immediately. Greenskin lasts for a number of scenes equal to the Scion\u2019s Legend, or until the Scion chooses to cancel the effect."
+        ],
+        [
+            "Avatar of Chaos (The Void)",
+            "Cost: 1 Willpower + 30 Legend \nFor one scene, the character becomes The Void. The Void is without shape or size. It can consume a thriving metropolis or burrow inside the consciousness of an unborn child. When The Void passes over an area, men go mad\u2014tearing at each other\u2019s flesh, lining up in perfect fractal patterns, spelling out the secret names of the Titans in the blood of their loved ones or screaming until they die of exhaustion. The Void breaks down the physical structure of solid things it looks upon, reconstructing them into impossible configurations. Unprotected Gods can only stare in confusion as The Void passes. Titans turn against each other, rebuild what they have destroyed or become as cultured and refined as their divine offspring until their base natures reassert themselves."
+        ],
+        [
+            "Greenskin",
+            "Dice Pool: None \nCost: 2 Legend \nWith a moment\u2019s thought, the Scion reflects upon the characteristics of the green, growing world. She then internalizes those characteristics, granting herself some of the features of a plant. While the Scion doesn\u2019t become completely suffused with plant-like characteristics, she does develop a noticeable greenish tint to her skin and hair. Her flesh becomes woody and slightly tough, which grants her one extra level of soak against lethal and bashing damage. She also gains the ability to draw sustenance by photosynthesis. So long as she garners at least four hours of sunlight in a day, she obviates her need for food completely. (While her body might still require a few trace elements, they are so negligible as to be ignored). Lastly, her blood becomes thick and sticky, completely mitigating any bleeding that might happen as a result of wounds; her injuries cover over in a translucent amber almost immediately. Greenskin lasts for a number of scenes equal to the Scion\u2019s Legend, or until the Scion chooses to cancel the effect."
+        ],
+        [
+            "Avatar of Chaos (The Void)",
+            "Cost: 1 Willpower + 30 Legend \nFor one scene, the character becomes The Void. The Void is without shape or size. It can consume a thriving metropolis or burrow inside the consciousness of an unborn child. When The Void passes over an area, men go mad\u2014tearing at each other\u2019s flesh, lining up in perfect fractal patterns, spelling out the secret names of the Titans in the blood of their loved ones or screaming until they die of exhaustion. The Void breaks down the physical structure of solid things it looks upon, reconstructing them into impossible configurations. Unprotected Gods can only stare in confusion as The Void passes. Titans turn against each other, rebuild what they have destroyed or become as cultured and refined as their divine offspring until their base natures reassert themselves."
+        ],
+        [
+            "Impossible Hybrid",
+            "Dice Pool: Intelligence + Survival \nCost: 10 Legend \nThe God\u2019s botanical mastery is such that he can combine two healthy plants into a hybrid that cannot occur in nature but is nonetheless viable and healthy. The two mixed plants can be from any environment and have disparate sunlight and water requirements. When this Boon combines them successfully, the resultant hybrid can live in either environment and survive on either of its parents\u2019 sun and water requirements. The hybrid can also successfully pollinate other plants of either of its parents\u2019 types, creating a 50-50 split in regular and hybrid seeds."
+        ],
+        [
+            "Paralyzing Confusion",
+            "Dice Pool: Wits + Empathy \nCost: 1 Willpower \nThis Boon turns a person\u2019s rational thoughts into seething, chaotic noise. On a successful activation roll, the victim freezes in place, suddenly unable to think, speak or act. He\u2019s unaware of what goes on around him, and he has no memory of the moments before or after the use of this Boon. The effect lasts for a number of actions equal to the successes on the activation roll, and it erases the victim\u2019s memory for an equal amount of time before the roll. If the victim has more dots of Legend than the user, the power doesn\u2019t work. If the victim has an equal Legend rating, the activation roll is contested against the victim\u2019s (Willpower + Integrity + Legend)."
+        ],
+        [
+            "Cleanse",
+            "Dice Pool: Stamina + Survival \nCost: 1 Legend \nEvery gardener and farmer has to deal with blight or vermin sometimes, but doing so is easy for a Scion with this Boon. The player rolls (Stamina + Survival) and spends one Legend, and any blight or infestation ends immediately. Blight clears up as if it had never occurred, and vermin suddenly find the affected plants unappealing. This Boon affects a number of large plants (or a number of square yards of a patch of smaller plants) equal to the successes achieved on the roll. This Boon doesn\u2019t protect against future blights, and it stops only the current generation of vermin infestation."
+        ],
+        [
+            "Insanity",
+            "Dice Pool: Manipulation + Empathy \nCost: 5+ Legend \nThe God can touch his victims\u2019 minds and overwhelm them with the essence of pure chaos. The God need only be able to see his victims in person as his player rolls (Manipulation + Empathy) and spends five Legend points. With the base activation, the God can affect a number of targets equal to his Legend. Each additional Legend point he spends adds another number of victims equal to his Legend. Each victim\u2019s player resists with a (Willpower + Integrity + Legend) roll. (The Storyteller can roll once for a group of extras.) This power has no effect against a character with higher Legend than the one using it."
+        ],
+        [
+            "Bless or Blight",
+            "Dice Pool: Stamina + Survival \nCost: 3 Legend \nWith a blessing, the Scion protects a patch of land from all natural blights and vermin infestations for one year. Alternatively, she can curse the land with a blight that either kills the plants within it outright or makes them so attractive to vermin that the resulting infestation has the same effect. The Scion\u2019s player spends three Legend and rolls (Stamina + Survival). The number of successes she rolls determines how many acres she can affect with this power. If one Scion wants to use an aspect of this Boon on a patch of land on which another Scion has used the opposite aspect, a contested roll is called for. Whoever achieves more successes spreads her effect over the larger area, canceling out the lesser effect."
+        ],
+        [
+            "Accelerate Growth",
+            "Dice Pool: Stamina + Survival \nCost: 1\u20135 Legend \nWith this Boon, the Scion can cause a plant or area of plants to grow to its maximum size in a dramatically reduced time. The Boon affects a number of acres of plants equal to the Scion\u2019s Legend. The more Legend points spent to fuel this effect, the quicker the affected plants grow. For one Legend point, the plants grow as much in a minute as they would in a month. For two Legend points, the plants grow as much in a minute as they would in a season. For three Legend points, the plants grow as much in a minute as they would in a year. For four Legend points, the plants grow as much in a minute as they would in a decade. For five Legend points, the plants grow as much in a minute as they would in a century."
+        ],
+        [
+            "Greenskin",
+            "Dice Pool: None \nCost: 2 Legend \nWith a moment\u2019s thought, the Scion reflects upon the characteristics of the green, growing world. She then internalizes those characteristics, granting herself some of the features of a plant. While the Scion doesn\u2019t become completely suffused with plant-like characteristics, she does develop a noticeable greenish tint to her skin and hair. Her flesh becomes woody and slightly tough, which grants her one extra level of soak against lethal and bashing damage. She also gains the ability to draw sustenance by photosynthesis. So long as she garners at least four hours of sunlight in a day, she obviates her need for food completely. (While her body might still require a few trace elements, they are so negligible as to be ignored). Lastly, her blood becomes thick and sticky, completely mitigating any bleeding that might happen as a result of wounds; her injuries cover over in a translucent amber almost immediately. Greenskin lasts for a number of scenes equal to the Scion\u2019s Legend, or until the Scion chooses to cancel the effect."
+        ]
+    ],
+    "nature": "Judge",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 28,
+        "move": 22,
+        "climb": 38,
+        "jump": {
+            "horizontal": 82,
+            "vertical": 41
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 33,
+        "parry_dv": 20
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 1,
+        "animal_ken": 3,
+        "art": 3,
+        "athletics": 3,
+        "awareness": 2,
+        "brawl": 3,
+        "command": 3,
+        "control": 0,
+        "craft": 1,
+        "empathy": 3,
+        "fortitude": 2,
+        "integrity": 3,
+        "investigation": 3,
+        "larceny": 1,
+        "marksmanship": 1,
+        "medicine": 3,
+        "melee": 3,
+        "occult": 3,
+        "presence": 2,
+        "politics": 0,
+        "science": 0,
+        "stealth": 1,
+        "survival": 0,
+        "thrown": 1
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 20,
+        "lethal": 21.0,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 13,
+    "god": "Dionysus",
+    "pantheon": "Dodekatheon",
+    "name": "Jamie Price"
+}

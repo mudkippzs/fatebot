@@ -1,0 +1,365 @@
+{
+    "attributes": {
+        "stre": 9,
+        "dex": 11,
+        "sta": 9,
+        "cha": 9,
+        "man": 11,
+        "app": 9,
+        "per": 7,
+        "inte": 11,
+        "wits": 5
+    },
+    "epic_attributes": {
+        "epic_stre": 5,
+        "epic_dex": 4,
+        "epic_sta": 5,
+        "epic_cha": 10,
+        "epic_man": 5,
+        "epic_app": 5,
+        "epic_per": 6,
+        "epic_int": 6,
+        "epic_wits": 6
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        3,
+        1,
+        0,
+        0
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Social Chameleon",
+            "description": [
+                "Being thrust into a situation full of strangers who have bizarre customs and weird manners (such as a sorority house at the height of rush) can be disorienting, but the character with this Knack handles herself with remarkable aplomb. By observing the behavior of the people around her and reacting preternaturally quickly to their reactions to her behavior, she can fake like she \ufb01ts in just about anywhere, with any class of people. She still has to dress the part, and the language barrier might pose its own problems, but she won\u2019t embarrass or draw attention to herself unless she goes out of her way to do so on purpose.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Fast Learner",
+            "description": [
+                "By buckling down and intently studying certain subjects, the Scion internalizes them in a fraction of the time it would take a lesser intellect. In so doing, he cuts the experience point cost for purchasing dots in Academics, Medicine, Occult, Politics or Science in half, rounding down.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Scathing Retort",
+            "description": [
+                "Prerequisite Knack: Opening Salvo It\u2019s pretty nice to be able to lay into someone with a witty bon mot and shake his faith in himself, as the prerequisite Knack allows. Yet, it\u2019s undeniably sweeter to let some pompous douchebag take the first swing and then utterly annihilate him with a cunning verbal riposte. To hit an attacker with a devastating comeback costs a single point of Legend. Doing so strips the victim of all of his spent Willpower points and doesn\u2019t allow him to recoup those lost points for one full day. A character can use this Knack to defend herself from a use of Opening Salvo if she has the Legend point to spend and her comeback is timely enough. A victim, however, can defend himself from a use of this Knack if he also uses this Knack. (He can retort without using the Knack, of course, but he still suffers the effect.) If two characters use this Knack in a verbal exchange, they can activate it once apiece and then trade insults until one scores a decisive hit over the other. If that victim\u2019s comeback is weaker than the one before it, he loses the impromptu contest and the Willpower points. As with Opening Salvo, the player must actually come up with a retort reasonably quickly. She doesn\u2019t have to be Hamlet running circles around Rosencrantz and Guildenstern, she just has to give it the old college try. Be warned, though: If you (the player) know you get tongue-tied when the heat is on and your Storyteller or fellow players are ruthless bastards, this Knack might not be the one for you.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Between The Ticks",
+            "description": [
+                "Prerequisite Knack: Opening Gambit (Scion: Hero, p. 136) Instead of finishing an action with panache or waiting for the right moment in a battle, the Scion makes the right moment. Normally, a Scion can\u2019t interrupt any action but Aim and Guard. With this Knack, the Scion instead executes a perfectly-timed maneuver with split-second reactions and moves on to her next trick. The Scion\u2019s player can activate this Knack at a cost of three Legend points to interrupt after any action, effectively letting the Scion take another action before the requisite number of ticks have passed. The Scion can use this Knack only once per scene.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Teaching Prodigy",
+            "description": [
+                "With this Knack, a Scion can help someone else become a fast learner (per the eponymous Knack). When she makes signi\ufb01cant efforts to tutor a student in a subject\u2014a distinction best left up to the Storyteller\u2014the experience point cost for purchasing dots in the Ability the teacher teaches is cut in half, rounded down. The catch built into this Knack is that a Scion cannot teach a student an Ability that she (the teacher) doesn\u2019t have. Nor can the teacher help a student surpass her in mastery of a subject\u2014which is to say, the Scion cannot teach her student more dots in an Ability than she (the teacher) has.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Meditative Focus",
+            "description": [
+                "Whether she\u2019s hunkered down behind a burning car in a war zone, caught out on the yard during a prison riot, stranded on the crowded deck of a storm-tossed ship or just mall-walking during the frenzied heights of the Christmas rush, the character never loses her cool. No matter what\u2019s happening, she keeps her mind on what she\u2019s doing while maintaining suf\ufb01cient vigilance to avoid getting caught up in the hubbub all around her. As such, the character is able to eliminate one point of environmental distraction penalty per dot she has of Epic Wits.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Perfect Imposter",
+            "description": [
+                "Prerequisite Knack: Social Chameleon (Scion: Hero, p. 136) Impersonating someone in order to in\ufb01ltrate his home or workplace or to get dangerously close to someone he cares about is more dif\ufb01cult the less well the impersonator knows his subject. The best makeup and disguise means nothing if the imposter can\u2019t react to life\u2019s little surprises exactly as the subject of his mimicry would react. With this Knack, however, the Scion can discern with preternatural quickness how the people who think he\u2019s someone else expect that someone else to react. Their minute changes of expression or body language give their expectations away, allowing the imposter to react accordingly. For the most part, this Knack plays itself out without resorting to dice rolls or trait comparisons. As the imposter\u2019s player roleplays (and the imposter himself does so also), the Storyteller simply informs him of what the unsuspecting characters\u2019 expectations are, and the player chooses his imposter\u2019s reactions accordingly. This Knack does not provide a supernatural disguise that would fool someone with the Unfailing Recognition Knack (from Scion: Hero, p. 134), but even if such a Scion can see through the imposter\u2019s disguise, his recognition alone would not be enough to convince anyone else. The imposter retains the wherewithal to stand up to any impromptu interrogation and maintain his charade in everyone else\u2019s eyes, thus making the only other Scion who knows the imposter\u2019s true identity look like a horse\u2019s ass or a liar.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Talent Mirror",
+            "description": [
+                "Prerequisite Knack: Instant Assessment (Scion: Demigod, p. 67) The character can do anything at least as well as he saw someone else do it. If he watches someone perform an activity and he spends at least two Legend points when he sees it, he can later perform that same action himself, substituting the dice pool of the character he watched for his own pool of the same (Attribute + Ability). He doesn\u2019t get any bonus successes from Epic Attributes the other character might have used, but he can supplement a mirrored roll with bonus successes from his own Epic Attributes (even if he has no dots in the Ability in question). The character can also use another character\u2019s Dodge DV or Parry DV in place of his own. The character with this Knack can use a copied dice pool or DV one time per pair of Legend points he spent when he witnessed the more skilled character. He can copy as many separate dice pools as he can afford to, as long as the total number does not exceed his Legend. The same goes for copied DVs. He can copy a DV a maximum number of times equal to his Legend.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Blockade of Reason",
+            "description": [
+                "Charmers and hucksters and blowhards can get their way with even the Gods themselves, as the Gods can be tricked and led astray almost as easily as mortals can. Characters with Epic Intelligence and this Knack, however, can block out even the most charming words with a simple application of reason. When some other character uses a supernatural persuasion effort\u2014including the addition of bonus dice from an Epic Attribute\u2014that calls for a mental resistance roll of (Willpower + Integrity + Legend), the character with this Knack can apply her bonus successes from her Epic Intelligence to that roll. Doing so costs her one Legend point per resistance roll.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Sympathy Pains",
+            "Dice Pool: Wits + Command \nCost: 1 Willpower + 1 Legend (+1 Legend per extra person) \nWhen the Scion is in the middle of a confrontation that she wants to see ended with as little bloodshed as possible, she calls out in a stentorian voice and does whatever she must to get everyone\u2019s attention. Her player then rolls (Wits + Command) and spends a Willpower point. If the roll succeeds, the Scion ties together the physical health of as many people who are present as possible. That is, if one person in the group suffers any damage, everyone included in the effect suffers the same pain and damage. For the base cost, she can tie the health of two people together. She can include one extra person beyond that for every extra Legend point she spends at the same time. The effect lasts for a maximum number of days equal to the Scion\u2019s Legend."
+        ],
+        [
+            "Psychic Prison",
+            "Dice Pool: Intelligence + Empathy \nCost: 3 Legend \nThe Scion stares into the victim\u2019s eyes for one minute without interruption. If the victim\u2019s player cannot get more successes on an opposing roll of the Scion\u2019s (Intelligence + Empathy) versus the victim\u2019s (Willpower + Integrity + Legend), the victim is rounded up by indistinct, faceless figures who drag him away and throw him into the cramped interior compartment of some sort of vehicle. The vehicle drives for a long time before it stops and the indistinct figures drag him out into the light. They throw him into a featureless gray cell with only a small slot in one wall through which they deliver food, and a grim-looking drain in the floor through which he must eliminate waste. This cell has one light source in the ceiling behind a translucent plastic panel that cannot be broken. There is no door. No one speaks to him. He sees no one. He hears no one except when voiceless figures approach to give him food. He can scream and thrash and bang his head against the walls, but nothing ever changes. Even if he has the Escape Artist Knack, he just winds up in another room exactly like the one he left. Things go on like this for a number of years equal to the Scion\u2019s (Legend x 5). Then one day, a door that wasn\u2019t there the day before opens. Light floods into the room, and the prisoner notices smells he hasn\u2019t smelled since before he came to this awful place. He stands on shaking legs and stumbles into the light\u2026"
+        ],
+        [
+            "Cradlesong",
+            "Dice Pool: Manipulation + Medicine \nCost: 1 Legend (or 1 Legend + 1 Willpower) \nBy singing or playing some sweet lullaby, the Scion makes a number of people equal to the successes on the activation roll drift quietly off to sleep. Characters of higher Legend than the singer are not affected. Those of equal Legend get to oppose the activation roll with a (Willpower + Integrity + Legend) roll. This soporific effect knocks out any living creature that can hear the Scion\u2019s voice, for a number of hours equal to the Scion\u2019s Legend. Victims with no Legend rating remain asleep the whole time, never waking up regardless of what\u2019s going on around them. Characters with a Legend rating can be woken up by those who went unaffected, if the player of the character trying to rouse the sleeper makes more successes on an extended (Manipulation + Medicine) action to bring the sleeper around. (Such an action constitutes shaking the sleeping person, slapping his cheeks, pinching him, hollering at him or whatever else might wake him from a dead sleep.) Suffering a level of lethal or aggravated damage will also wake a sleeper with a Legend rating."
+        ],
+        [
+            "Assess Health",
+            "Dice Pool: None \nCost: None \nThe Scion can instantly, automatically assess the current medical condition of a single living patient in his presence. He can tell how many levels of damage the patient is suffering, as well as any physical addictions he suffers, any illnesses or diseases with which he is infected and any genetic defects that afflict him."
+        ],
+        [
+            "Animal Aspect",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Legend per action \nBy meditating for one action (Speed 3) on a token representing his animal, the Scion takes on a metaphorical characteristic associated with it, creating a dice bonus for rolls involving the Attribute most closely associated with that characteristic. A Scion might take on a snake\u2019s sinuous grace (Dexterity), a peacock\u2019s beauty (Appearance), an elephant\u2019s proverbial memory (via Intelligence) or any other justifiable characteristic. The bonus dice are equal to the number of successes on the activation roll, and the benefit lasts for one action per Legend point spent up front to fuel the Boon."
+        ],
+        [
+            "Paper Tiger",
+            "Dice Pool: Intelligence + Art \nCost: 1 Willpower + 5 Legend per act of creation; 1 Legend per unit \nWhile some demigods use the primal power of their ichor to grant life with the Create Animal Boon (Animal 7), others use the artistic work of creation to infuse their conjurations. Indeed, this act may explain the Neolithic cave paintings of various animals scattered about in caves inhabited by early humanity."
+        ],
+        [
+            "Judgment",
+            "Dice Pool: Perception + Empathy \nCost: None \nThis Boon aids a Scion immensely in determining guilt, one of the foundations of meting out justice. When she confronts someone she suspects committed an injustice and accuses that person of having done so, her player rolls (Perception + Empathy). (This roll isn\u2019t modified by supernatural powers or contested by the suspect\u2019s player.) On a success, the Scion can intuitively tell whether the suspect is guilty as charged. A failure yields an indeterminate reading and means that the Scion can\u2019t try to determine the same subject\u2019s guilt for 24 hours. A botch yields a false reading."
+        ],
+        [
+            "Epic Enhancement",
+            "Dice Pool: Intelligence + Animal Ken \nCost: (1 Willpower + 3 Legend) per Attribute; (1 Willpower + 5 Legend) per Epic Attribute \nBy force of will, the character can make an animal simply better than it could ever become on its own. Not only can he make an animal bigger, stronger and tougher, he can also make it faster, more beautiful, more charming or wiser. For one Willpower and three Legend points, he can increase any of the beast\u2019s Mental or Social Attributes by one dot. He can also increase its Dexterity by one dot for the same cost. This Boon can no more than double the beast\u2019s original Dexterity. Increases to its Mental and Social Attributes are limited to the human maximum of five dots."
+        ],
+        [
+            "Virility/Muliebrity",
+            "Dice Pool: Stamina + Medicine \nCost: 3 Legend \nBy touching a male or female, the Scion guarantees that the next act of sexual intercourse in which that the person engages that could result in offspring does result in offspring. An affected male definitely impregnates the next female he has sex with if she is even theoretically capable of having children; an affected female definitely becomes pregnant from the next male with whom she has sex. Even infertile participants become temporarily fertile, and birth control devices fail. A Scion may use this Boon automatically on himself or any unresisting mortal animal or human. Consciously unwilling subjects may resist with a (Stamina + Fortitude) roll against the Scion\u2019s (Stamina + Medicine). Titanspawn, Scions other than the user, and other supernatural beings are always considered unwilling even if they would welcome the Boon\u2019s effect, for their supernatural aspect inherently resists the power. Undead and similar creatures are (thankfully) unaffected."
+        ],
+        [
+            "Create Animal",
+            "Dice Pool: None \nCost: (1 Willpower + 1 lethal health level) per act of creation; 1 Legend per set of units \nBy spending one Willpower point and inflicting one lethal health level of damage on himself, the Scion can create mundane animals of his chosen type from his very blood. Such animals are as loyal to him as those granted by the Creatures Birthright, and he can automatically command them mentally. They follow any command the Scion gives them to the best of their ability, and they last for one scene before dissolving into nothingness once again. To grant the creatures solidity, the Scion must pay a number of Legend points relative to the creature\u2019s size. Doing so allows him to create a number of units of the creature per Legend point spent, as follows:"
+        ],
+        [
+            "Sanctify Oath",
+            "Dice Pool: Charisma + Command + Legend \nCost: 10 Legend \nOaths are powerful agreements based on trust and good faith, but usually good faith is all that enforces them. Two characters agree to abide by their terms either out of mutual respect or because they each fear the other\u2019s retaliation. With this Boon, however, a God can enforce an oath with the full power of divine justice. Fate itself punishes those who break sanctified oaths, regardless of what recompense the offended party might also seek. To swear an oath is to vow to do something or abide by some specific condition and say something like \u201cI promise,\u201d \u201cI swear,\u201d \u201cYou have my word,\u201d \u201cI give you my oath\u201d or \u201cScout\u2019s honor.\u201d A character can swear an oath individually, or several characters can swear an oath over some agreement they\u2019ve made. When a character with this Boon witnesses someone swearing such an oath, he may spend 10 Legend as his player rolls (Charisma + Command + Legend). If this roll succeeds, the player of every character who swore the oath willingly\u2014even those who did so grudgingly\u2014must roll (Willpower + Integrity + Legend)."
+        ],
+        [
+            "Blessing of Health/Curse of Frailty",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend \nThe Boon can take away a patient\u2019s reproductive capabilities or restore them, provided the patient already has all the necessary organs. This effect lasts for one year per success on the activation roll."
+        ],
+        [
+            "Battle Cry",
+            "Dice Pool: Charisma + Presence \nCost: 1 Legend \nDuring a battle, be it a pitched field engagement or an alley fight between a Band of Scions and a gang of frost giants, the Scion can loose a horrible battle cry that unnerves his foes. Every fighter on the Scion\u2019s enemies\u2019 side who hears the unearthly shriek loses one die from all attack rolls for a number of attacks equal to the Scion\u2019s Legend rating."
+        ],
+        [
+            "Animal Communication",
+            "Dice Pool: Intelligence + Animal Ken \nCost: None \nThe Scion can understand and make himself understood by an animal as he speaks his native language and the animal responds with its own postures, scents and/or vocalizations. This Boon doesn\u2019t make animals smart, calm or loyal, but most are curious enough about having a person address them that they\u2019ll hear a Scion out before defaulting to aggression, panic or indifference."
+        ],
+        [
+            "Epic Enhancement",
+            "Dice Pool: Intelligence + Animal Ken \nCost: (1 Willpower + 3 Legend) per Attribute; (1 Willpower + 5 Legend) per Epic Attribute \nBy force of will, the character can make an animal simply better than it could ever become on its own. Not only can he make an animal bigger, stronger and tougher, he can also make it faster, more beautiful, more charming or wiser. For one Willpower and three Legend points, he can increase any of the beast\u2019s Mental or Social Attributes by one dot. He can also increase its Dexterity by one dot for the same cost. This Boon can no more than double the beast\u2019s original Dexterity. Increases to its Mental and Social Attributes are limited to the human maximum of five dots."
+        ],
+        [
+            "Dream Wrack",
+            "Dice Pool: Intelligence + Empathy \nCost: 1 Willpower \nThe Scion gains the ability to plague a victim with torturous dreams of a recent crime and its aftermath. She stares into her target\u2019s eyes for a single action then names the victim, names the crime and says something to the effect of, \u201cNow see how you like it\u201d\u2014except more dramatically eloquent than that. When the perpetrator next sleeps, he dreams of the wrongdoing the Scion named and suffers through exactly what the victim of that crime suffered through, experiencing everything from the victim\u2019s perspective."
+        ],
+        [
+            "Epic Enhancement",
+            "Dice Pool: Intelligence + Animal Ken \nCost: (1 Willpower + 3 Legend) per Attribute; (1 Willpower + 5 Legend) per Epic Attribute \nBy force of will, the character can make an animal simply better than it could ever become on its own. Not only can he make an animal bigger, stronger and tougher, he can also make it faster, more beautiful, more charming or wiser. For one Willpower and three Legend points, he can increase any of the beast\u2019s Mental or Social Attributes by one dot. He can also increase its Dexterity by one dot for the same cost. This Boon can no more than double the beast\u2019s original Dexterity. Increases to its Mental and Social Attributes are limited to the human maximum of five dots."
+        ],
+        [
+            "Battle Map",
+            "Dice Pool: Perception + Survival \nCost: 1 Legend \nThis Boon creates for the Scion a virtual, three-dimensional contour map of a battlefield, complete with terrain features and troop movements. This map can take up an area no larger than four square yards, and it can show only an area that the Scion has scouted personally or has had scouted within 24 hours."
+        ],
+        [
+            "Animal Communication",
+            "Dice Pool: Intelligence + Animal Ken \nCost: None \nThe Scion can understand and make himself understood by an animal as he speaks his native language and the animal responds with its own postures, scents and/or vocalizations. This Boon doesn\u2019t make animals smart, calm or loyal, but most are curious enough about having a person address them that they\u2019ll hear a Scion out before defaulting to aggression, panic or indifference."
+        ],
+        [
+            "Assess Health",
+            "Dice Pool: None \nCost: None \nThe Scion can instantly, automatically assess the current medical condition of a single living patient in his presence. He can tell how many levels of damage the patient is suffering, as well as any physical addictions he suffers, any illnesses or diseases with which he is infected and any genetic defects that afflict him."
+        ],
+        [
+            "Control Aging",
+            "Dice Pool: Stamina + Medicine \nCost: Varies \nWith a touch, the Scion can greatly slow down or accelerate a mortal\u2019s aging. So doing, he can either devastate an enemy with the ravages of time or bless a friend with nigh-eternal life. The more Legend points spent to fuel this effect, the quicker or slower the affected target ages. For one Legend point, the person ages one week in one day. For three Legend points, the person ages one month in one day. For five Legend points, the person ages one year in one day. For seven Legend points, the person ages one decade in one day. The number of successes the player gets on the roll determines the number of days the Scion is able to make the victim age at the accelerated rate."
+        ],
+        [
+            "Faunaphagia",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + 1 Legend \nSome shamans believe that consuming a creature grants a measure of its strength. Scions who engage in this practice learn to absorb the capabilities of an animal by devouring such a creature and drawing forth its essence from the digested flesh. The Scion must eat a piece of meat from the appropriate animal (a potentially risky act, considering that the animal is probably considered sacred to his patron God). Then, the player expends the Willpower and Legend and rolls (Stamina + Animal Ken). The successes scored indicate the number of points of Abilities that the Scion may borrow from the animal. A Scion can only borrow Abilities up to the level possessed by the animal, although these dots can add on to his existing skill dots to a maximum total of five. Skills gained with Faunaphagia remain for the rest of the scene."
+        ],
+        [
+            "Shield of Righteousness",
+            "Dice Pool: None \nCost: 1 Legend + 1 Willpower \nThis Boon can protect an innocent victim from suffering someone else\u2019s due punishment. The Scion cries out against the injustice\u2014a simple \u201cHe didn\u2019t do it!\u201d will suffice\u2014and spends the Legend and Willpower point. Doing so, she renders the next action that would inflict harm on the innocent victim completely impotent, obviating any damage that action should inflict. Whether the victim is being stabbed by a jealous wife, shot by a firing squad, lynched by a mob, hurled off a cliff by a duped Scion vigilante or whatever, he suffers no damage from that action."
+        ],
+        [
+            "Assess Health",
+            "Dice Pool: None \nCost: None \nThe Scion can instantly, automatically assess the current medical condition of a single living patient in his presence. He can tell how many levels of damage the patient is suffering, as well as any physical addictions he suffers, any illnesses or diseases with which he is infected and any genetic defects that afflict him."
+        ],
+        [
+            "Heal/Infect",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend or 1 Willpower \nThe Scion can repair a patient\u2019s injuries or inflict harm directly. On one hand, he can heal as many health levels of bashing damage as his player gets successes on a (Stamina + Medicine) roll. Doing so costs one Legend. Alternatively, he can downgrade a number of health levels equal to successes on the roll from lethal to bashing damage. Doing so costs one Willpower."
+        ],
+        [
+            "Sympathy Pains",
+            "Dice Pool: Wits + Command \nCost: 1 Willpower + 1 Legend (+1 Legend per extra person) \nWhen the Scion is in the middle of a confrontation that she wants to see ended with as little bloodshed as possible, she calls out in a stentorian voice and does whatever she must to get everyone\u2019s attention. Her player then rolls (Wits + Command) and spends a Willpower point. If the roll succeeds, the Scion ties together the physical health of as many people who are present as possible. That is, if one person in the group suffers any damage, everyone included in the effect suffers the same pain and damage. For the base cost, she can tie the health of two people together. She can include one extra person beyond that for every extra Legend point she spends at the same time. The effect lasts for a maximum number of days equal to the Scion\u2019s Legend."
+        ],
+        [
+            "Fury of War",
+            "Dice Pool: Stamina + Fortitude \nCost: 3 Legend + 1 Willpower \nThe Scion can summon up a bloodlust and battle rage within her to shame the legendary berserkers. Her hair becomes wilder, her eyes blaze, she laughs and screams as she rips her foes limb from limb. She thinks of little else but battle and victory."
+        ]
+    ],
+    "nature": "Autocrat",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 24,
+        "move": 18,
+        "climb": 20,
+        "jump": {
+            "horizontal": 46,
+            "vertical": 23
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 28,
+        "parry_dv": 16
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 3,
+        "animal_ken": 3,
+        "art": 0,
+        "athletics": 3,
+        "awareness": 0,
+        "brawl": 1,
+        "command": 3,
+        "control": 3,
+        "craft": 3,
+        "empathy": 0,
+        "fortitude": 1,
+        "integrity": 3,
+        "investigation": 3,
+        "larceny": 1,
+        "marksmanship": 2,
+        "medicine": 3,
+        "melee": 1,
+        "occult": 0,
+        "presence": 3,
+        "politics": 1,
+        "science": 2,
+        "stealth": 3,
+        "survival": 3,
+        "thrown": 1
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 20,
+        "lethal": 21.0,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 10,
+    "god": "Athena",
+    "pantheon": "Dodekatheon",
+    "name": "Anesti Hoxhaj"
+}

@@ -1,0 +1,329 @@
+{
+    "attributes": {
+        "stre": 7,
+        "dex": 11,
+        "sta": 9,
+        "cha": 7,
+        "man": 7,
+        "app": 5,
+        "per": 5,
+        "inte": 7,
+        "wits": 5
+    },
+    "epic_attributes": {
+        "epic_stre": 5,
+        "epic_dex": 4,
+        "epic_sta": 3,
+        "epic_cha": 6,
+        "epic_man": 2,
+        "epic_app": 5,
+        "epic_per": 4,
+        "epic_int": 4,
+        "epic_wits": 5
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        3,
+        1,
+        0,
+        0
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "My Eyes Are Up Here",
+            "description": [
+                "As Scions build up ever more dots of Epic Appearance, they grow ever more unearthly. As such, whether they\u2019re beautiful or quite the opposite, it becomes increasingly difficult to deal with mortal humans on their level. The Scion\u2019s Epic Appearance can\u2019t help but get in the way. This Knack, however, mitigates that factor. When the Scion\u2019s player spends a point of Willpower to activate it for the scene, any mortals who see the character completely ignore his Appearance score (both Epic and mundane). Witnesses might vaguely remember that a beautiful Scion was kind of pretty or that a disgustingly ugly Scion was dirty and a little scary, but that\u2019s it. They won\u2019t recognize the Scion again later unless the Scion uses this Knack in their presence again, and they won\u2019t be able to describe the Scion in great detail to anyone else. They might get height, hair color, skin tone, build and style of dress right, but details beyond those generalities prove elusive. Scions themselves are immune to this effect, as they are more than capable of dealing with the extremes that Epic Appearance represents. This Knack lasts for the scene, though the Scion can choose to turn off the effect before then. Also, while he\u2019s using this Knack to deal with a mortal, he cannot use any other Epic Appearance Knacks against him. Nor can he apply his Epic Appearance to rolls pertaining to dealing with that mortal at all until he lifts the effect.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Crushing Grip",
+            "description": [
+                "The Scion is a fearsome wrestler and grappler not to be tri\ufb02ed with. When he\u2019s locked in a clinch and has taken control of it, the character can not only in\ufb02ict the normal amount of damage (see p. 202), but that damage is now lethal as well. A character can still choose to hold an opponent without in\ufb02icting damage, or he can choose to break the hold. He can even soften his touch and in\ufb02ict bashing damage instead. The damage the character can in\ufb02ict when his temper gets riled, though, is tremendous and often quite messy.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "One Inch Punch",
+            "description": [
+                "Prerequisite Knack: Crushing Grip (Scion: Hero, p. 126) Extrapolated from learning to exert tremendous pressure from all manner of holds and contortions, the Scion develops the ability to put her massive strength to good use on a single, small point. With just a flick of a finger, a jab of an elbow or a headbutt, the Scion delivers the entire force of her Epic Strength. Although this doesn\u2019t necessarily change the Scion\u2019s unarmed combat style \u2014 she still needs to land a strike on an enemy \u2014 it\u2019s quite intimidating when she can simply poke a building and cause an entire wall to crumble. Similarly, if the Scion is somehow restrained but able to move even a minuscule part of her body, she could (for instance) flick a tiny rock with her toe with enough force to kill a man. While this does not increase the Scion\u2019s damage output, it means that even when bound or restricted from moving in some way, the Scion can still bring all of her Epic Strength to bear in an attack. Perhaps she\u2019s chained with bindings made from Gleipnir and can\u2019t break them, but she can head-butt her assailant. Maybe she is buried in rock and can only move her little finger but can use that to send the boulder on the top of the heap flying. Her damage output and ability to lift are not impinged in any way when she\u2019s forced to rely only on a single limb, a part of her body or a restricted range of motion. Activating this Knack costs three points of Legend. Its effects last for a single application.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Compelling Presence",
+            "description": [
+                "Prerequisite Knack: Serpent\u2019s Gaze (Scion: Hero, p. 133) As with the prerequisite Knack, Compelling Performance draws a victim\u2019s attention to the Scion and renders him unable to look away. The victim remains Inactive for combat purposes, staring helplessly at the hideous monster or unearthly beauty before him. Unlike Serpent\u2019s Gaze, though, the Scion need not consciously maintain eye contact with her victim for the effect to endure. Once the victim has been trans\ufb01xed by the Scion\u2019s Epic Appearance, he remains thus until either the end of the scene or until the Scion leaves his line of sight. The victim will follow the Scion with his eyes, even turn in place if she wanders around the immediate area, but he can\u2019t do anything other than look at her. What\u2019s more, the Scion can capture a number of victims with her appearance equal to her (Epic Appearance + Legend) total. Her player only spends one point of Legend per person up to the maximum, and they all stop what they\u2019re doing to stare at her in rapt fascination. When the effect ends, they remember nothing that happened after the \ufb01rst moment they saw the Scion. Mortals and Scions of lesser or equal Legend are unable to look away on their own, but Scions with a greater Legend are not so vulnerable. After the Scion using the Knack takes one full action, the higher-Legend victim may spend a point of Willpower to negate the effect. In so doing, he remains immune to the effect from the same Scion for the rest of the scene.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Crowd Control",
+            "description": [
+                "Prerequisite Knack: Charmer (Scion: Hero, p. 130) The demigod\u2019s force of personality is such that he can quell the passion of a seething mob, whether he\u2019s addressing a throng of rowdy political protesters, standing between an innocent kitsune and the lynch mob howling for her hide, or stalling the phalanx of SWAT cops long enough for his partner to \ufb01nish sacri\ufb01cing the hostages. By spending a point of Willpower and Legend, the Scion cools the crowd\u2019s urge for instant action and buys himself enough time to try to talk some sense into everyone. Doing so is primarily a matter of role-playing, but if the player is not as good an extemporaneous speech-maker as his character is, he may roll (Charisma + Presence) to simulate his heartfelt call for calm. His words convince three members of the mob per success on the roll. This effect lasts for the scene, after which the mob either disperses or renews its shenanigans with its original vigor. If the character is attempting to halt the depredations of a mob that is being controlled or directed supernaturally, use of this Knack constitutes an opposed roll against the other power\u2019s activation roll. If the power has no activation roll per se, the Scion\u2019s player rolls his (Charisma + Presence) against that of the character who incited the mob supernaturally. If the Scion with this Knack gets an equal or greater number of successes, the Knack does what it\u2019s supposed to.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Divine Rampage",
+            "description": [
+                "Prerequisite Knack: Holy Rampage (Scion: Hero, p. 126) When a demigod with this Knack wants to break something, that thing is not long for this world. Like Holy Rampage, this Knack aids in the character\u2019s attempt to destroy an inanimate object. If the target object is not under his control \u2014 such as a weapon or armor that someone else happens to be using \u2014 its Hardness and soak are considered to be halved when the Scion attempts to break it. If the target object is freestanding or under the Scion\u2019s control, the object\u2019s Hardness and soak are considered to be 0 against the Scion\u2019s attack. Using this Knack costs one Legend point per action.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Preach On",
+            "description": [
+                "Prerequisite Knack: Inspirational Figure (Scion: Hero, p. 130) When a demigod has a willing audience, he can inspire every member with an uplifting, well-intentioned speech or sermon. This Knack works exactly as its prerequisite, and functions under the same limitations, but it is more effective. Mortals and Scions who hear it are so inspired that their spent Willpower points are entirely re\ufb01lled. This Knack also has a more insidious dimension. If the Scion \ufb01nds himself in charge of a group of titanspawn, he can spend a point of Willpower and give those awful minions a speech that empowers them just as Inspirational Figure inspires mortals. Each titanspawn who hears him regains a point of spent Willpower. Scions who might be opposed to the titanspawn\u2019s goals don\u2019t receive any bene\ufb01t from this inspirational speech, but they are compelled to let the demigod \ufb01nish what he has to say before they do something about it.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Holy Rampage",
+            "description": [
+                "The Scion is especially good at breaking inanimate objects. When he spends a point of Legend and applies his full might to breaking something \u2014 whether he\u2019s punching it, kicking it or throwing his shoulder against it \u2014 the item\u2019s Hardness is halved against the attack. This bonus applies only when the character attempts to break an inanimate object that is either freestanding or under his control. If someone else has control of the object in question, the Scion must take it from him \ufb01rst.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Armor Crusher",
+            "description": [
+                "Prerequisite Knack: Holy Rampage (Scion: Hero, p. 126) The raw power of the Scion\u2019s attacks now allows him not only to break through obstacles and walls, but to slam right through armor. The Scion simply channels his legendary might, then uses brute force to shatter enemy defenses and tear through shields, armored plates and vests with ease. While this Knack is active, the Scion\u2019s melee attacks all gain the Piercing quality. Activating this Knack costs five points of Legend. Its effects last for one scene.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Cleanse",
+            "Dice Pool: Stamina + Survival \nCost: 1 Legend \nEvery gardener and farmer has to deal with blight or vermin sometimes, but doing so is easy for a Scion with this Boon. The player rolls (Stamina + Survival) and spends one Legend, and any blight or infestation ends immediately. Blight clears up as if it had never occurred, and vermin suddenly find the affected plants unappealing. This Boon affects a number of large plants (or a number of square yards of a patch of smaller plants) equal to the successes achieved on the roll. This Boon doesn\u2019t protect against future blights, and it stops only the current generation of vermin infestation."
+        ],
+        [
+            "The Abducted Spirit",
+            "Dice Pool: Charisma + Tsukumo-Gami \nCost: 1 Willpower + 1 Legend \nIf the Scion\u2019s player succeeds on a (Charisma + Tsukumo-Gami) roll against a kami\u2019s (Willpower + Integrity + Legend) roll while the Scion is either in the kami\u2019s presence or using The Summoned Spirit (Tsukumo-Gami 4) to speak to the kami, the kami is forced to instantly appear before the Scion in its fully material form. For the rest of the scene, the kami is honor-bound to defer to and obey the Scion as if it were a follower (per the Birthright of that name)."
+        ],
+        [
+            "Twist Plants",
+            "Dice Pool: Intelligence + Survival \nCost: 2 Legend \nThe Scion imagines a specific shape she wants the nearby plant life to take, and her will makes it so. On a successful (Intelligence + Survival) roll, the Scion affects a number of large plants (or a number of square yards of a patch of smaller plants) equal to the successes the roll achieved. Before her eyes, the plants bend as her imagination desires and set in the new arrangement\u2014 after which they continue to grow as normal. The Scion can\u2019t move the plants around fast enough or with enough finesse to attack people, but she can weave them into bindings or cages to hold people who aren\u2019t moving."
+        ],
+        [
+            "Burn",
+            "Dice Pool: None \nCost: 1 Willpower + 1 Legend \nThe Scion\u2019s skin changes from its normal hue to a deeper brown to an angry red and becomes hot to the touch. This heat can\u2019t ignite inflammable objects, but it\u2019s enough to burn others\u2019 unprotected flesh. Anyone who touches the Scion\u2019s body with exposed flesh or with skin covered only by a layer or two of clothing suffers a number of dice of lethal damage equal to the Scion\u2019s Legend. (This damage comes in addition to any damage the Scion might inflict in a clinch or other unarmed attack.) The character\u2019s skin radiates this heat for one scene."
+        ],
+        [
+            "Solar Prominence",
+            "Dice Pool: Appearance + Presence \nCost: 3 Legend \nThe Scion concentrates for one action (Speed 5) as pairs of black sunspots swirl across her body. When the effect occurs, a broad band of sunfire arcs off her and dissipates slowly in the air. This arc, this solar prominence in miniature, disrupts all television, radio, cell phone, wi-fi, walkie-talkie, CB and satellite signals in the air around her for a number of yards equal to the player\u2019s successes on the roll. This disruption lasts for five seconds per dot of Legend the character has, and the area of effect moves with her."
+        ],
+        [
+            "Burn",
+            "Dice Pool: None \nCost: 1 Willpower + 1 Legend \nThe Scion\u2019s skin changes from its normal hue to a deeper brown to an angry red and becomes hot to the touch. This heat can\u2019t ignite inflammable objects, but it\u2019s enough to burn others\u2019 unprotected flesh. Anyone who touches the Scion\u2019s body with exposed flesh or with skin covered only by a layer or two of clothing suffers a number of dice of lethal damage equal to the Scion\u2019s Legend. (This damage comes in addition to any damage the Scion might inflict in a clinch or other unarmed attack.) The character\u2019s skin radiates this heat for one scene."
+        ],
+        [
+            "Twist Plants",
+            "Dice Pool: Intelligence + Survival \nCost: 2 Legend \nThe Scion imagines a specific shape she wants the nearby plant life to take, and her will makes it so. On a successful (Intelligence + Survival) roll, the Scion affects a number of large plants (or a number of square yards of a patch of smaller plants) equal to the successes the roll achieved. Before her eyes, the plants bend as her imagination desires and set in the new arrangement\u2014 after which they continue to grow as normal. The Scion can\u2019t move the plants around fast enough or with enough finesse to attack people, but she can weave them into bindings or cages to hold people who aren\u2019t moving."
+        ],
+        [
+            "The Summoned Spirit",
+            "Dice Pool: Charisma + Occult \nCost: 1 Legend \nBy constructing a temporary shrine devoted to a kami whose name she knows\u2014and whose Legend is less than her own\u2014the Scion can call upon that kami wherever she is. The spirit\u2019s face materializes in the shrine, and the Scion may attempt to use any Tsukumo-Gami Boons she possesses on it, just as if she were in the being\u2019s physical presence. The kami can also cause to materialize above the shrine an image of what\u2019s happening at the kami\u2019s physical location, allowing the Scion to remotely witness that location as the kami sees and hears it. This contact lasts for a maximum number of minutes equal to the successes on the activation roll. The kami can break off contact as well if the Scion offends it."
+        ],
+        [
+            "Verdant Creation",
+            "Dice Pool: Intelligence + Survival \nCost: 1 Willpower + 3 Legend \nThe Scion can cause plants to spontaneously generate out of nothing at all. Regardless of the weather, soil conditions, sunlight exposure or any other factor, plants of the Scion\u2019s choosing spring into existence at her silent command. This Boon generates a number of large plants (or a number of square yards of a patch of smaller plants) equal to the successes achieved on the roll plus the Scion\u2019s Legend. These plants take root (literally or figuratively) with the same hardiness as if the Scion had used Green Thumb (Fertility \u2022) on them all, with the added benefit that the plants don\u2019t have to be in an environment that is within their normal tolerances to survive. The Scion could grow mushrooms on the desert floor or cause rose bushes to thrive in a submerged cave off the continental shelf. Per Green Thumb, these created plants survive for one year under any conditions barring blight or physical destruction by living creatures. When that year is up, they react to their surroundings as normal plants of their type would. In the meantime, they are as susceptible to other Fertility Boons as any normal plants are."
+        ],
+        [
+            "Verdant Creation",
+            "Dice Pool: Intelligence + Survival \nCost: 1 Willpower + 3 Legend \nThe Scion can cause plants to spontaneously generate out of nothing at all. Regardless of the weather, soil conditions, sunlight exposure or any other factor, plants of the Scion\u2019s choosing spring into existence at her silent command. This Boon generates a number of large plants (or a number of square yards of a patch of smaller plants) equal to the successes achieved on the roll plus the Scion\u2019s Legend. These plants take root (literally or figuratively) with the same hardiness as if the Scion had used Green Thumb (Fertility \u2022) on them all, with the added benefit that the plants don\u2019t have to be in an environment that is within their normal tolerances to survive. The Scion could grow mushrooms on the desert floor or cause rose bushes to thrive in a submerged cave off the continental shelf. Per Green Thumb, these created plants survive for one year under any conditions barring blight or physical destruction by living creatures. When that year is up, they react to their surroundings as normal plants of their type would. In the meantime, they are as susceptible to other Fertility Boons as any normal plants are."
+        ],
+        [
+            "Flare Missile",
+            "Dice Pool: None \nCost: 1 Legend per missile \nAt high noon or darkest midnight, the Scion can fire projectiles of solid sunlight at her enemies. As long as she has a weapon such as a bow, a firearm, a sling or even an atlatl, her player can spend a point of Legend to create glowing ammunition for it out of pure sunlight. Using this Boon adds a number of levels of damage equal to the character\u2019s Legend to the damage roll\u2019s results before soak. Attacks made using this Boon always inflict lethal damage\u2014 unless the target has a special susceptibility to sunlight\u2014and always have the Piercing quality."
+        ],
+        [
+            "Twist Plants",
+            "Dice Pool: Intelligence + Survival \nCost: 2 Legend \nThe Scion imagines a specific shape she wants the nearby plant life to take, and her will makes it so. On a successful (Intelligence + Survival) roll, the Scion affects a number of large plants (or a number of square yards of a patch of smaller plants) equal to the successes the roll achieved. Before her eyes, the plants bend as her imagination desires and set in the new arrangement\u2014 after which they continue to grow as normal. The Scion can\u2019t move the plants around fast enough or with enough finesse to attack people, but she can weave them into bindings or cages to hold people who aren\u2019t moving."
+        ],
+        [
+            "Green Thumb",
+            "Dice Pool: None \nCost: 1 Legend per plant/patch per year \nThe Scion need only touch a large plant (such as a tree or bush) or a one-square-yard patch of smaller plants (from a window box of daisies to a sheet of algae) and spend a point of Legend. That plant or patch can then survive for a whole year (or for its whole life if its natural span is shorter) without food or sunlight or water. The Scion\u2019s ministrations keep the plant healthy through drought, nutrient deficiency, unnatural darkness or other environmental shortfall. The plant\u2019s surroundings must be within its natural tolerances for the plant to survive, though. (This Boon can\u2019t nurture seaweed on the desert floor, for instance.) Also, this Boon doesn\u2019t protect against or cure any blight or damage from herbivorous noshing."
+        ],
+        [
+            "Natural Camouflage",
+            "Dice Pool: Dexterity + Stealth \nCost: 1 Legend \nWhen the Scion hides in her verdant element, it\u2019s almost impossible to find her. Her skin sprouts grass, bark, underbrush, flowers, mushrooms or what have you that allow her to blend in seamlessly with her natural surroundings. As long as she doesn\u2019t move or otherwise draw attention to herself, mundane attempts to find or track her fail automatically. A mortal hunter with a trusty hound could walk right over the Scion\u2019s disguised back and never know she was there. Hunters of supernatural prowess fare only a little better. Those with the Epic Perception Knack Predatory Focus or a Survival Arete can attempt to track the hidden Scion\u2019s movements, their players rolling (Perception + Survival) against the hiding Scion\u2019s activation roll. Even if they get more successes than the Scion\u2019s player did, though, the hunters find only the general area in which the Scion is hiding. (They come to an area within a number of yards equal to the Scion\u2019s Legend but lose track of her unless she moves again.) Only hunters with the Supernal Hunter Knack are actually skilled enough to find a Scion who\u2019s using this Boon to hide (and only if their rolls garner more successes than the Scion\u2019s)."
+        ],
+        [
+            "Inexorable Gravity",
+            "Dice Pool: Strength + Presence \nCost: 5 Legend or 10 Legend \nThe God exerts an undeniable, inescapable pull on everyone around him. When he activates this Boon with five Legend points, everyone around him within a radius equal to his Legend contests his player\u2019s activation roll with a Strength roll of their own. Anyone whose roll comes up short is caught in the God\u2019s gravitational grip. They don\u2019t slide toward him necessarily, but neither can they move away from him. This gravitational field remains in effect, moving with the character, for a number of ticks equal to successes on the roll. The God can cancel the field at any time."
+        ],
+        [
+            "The Watchful Spirit",
+            "Dice Pool: Charisma + Presence \nCost: 1 Legend \nThe Scion can not only coax information from a kami, but also set it to some passive task on her behalf. She can, for example, have the kami watch out for a specific person, observe any titanspawn who approach, or remember and repeat anything another Scion says to it. This period of duty lasts for a number of days equal to the number of successes the character amassed on the activation roll."
+        ],
+        [
+            "The Summoned Spirit",
+            "Dice Pool: Charisma + Occult \nCost: 1 Legend \nBy constructing a temporary shrine devoted to a kami whose name she knows\u2014and whose Legend is less than her own\u2014the Scion can call upon that kami wherever she is. The spirit\u2019s face materializes in the shrine, and the Scion may attempt to use any Tsukumo-Gami Boons she possesses on it, just as if she were in the being\u2019s physical presence. The kami can also cause to materialize above the shrine an image of what\u2019s happening at the kami\u2019s physical location, allowing the Scion to remotely witness that location as the kami sees and hears it. This contact lasts for a maximum number of minutes equal to the successes on the activation roll. The kami can break off contact as well if the Scion offends it."
+        ],
+        [
+            "Green Thumb",
+            "Dice Pool: None \nCost: 1 Legend per plant/patch per year \nThe Scion need only touch a large plant (such as a tree or bush) or a one-square-yard patch of smaller plants (from a window box of daisies to a sheet of algae) and spend a point of Legend. That plant or patch can then survive for a whole year (or for its whole life if its natural span is shorter) without food or sunlight or water. The Scion\u2019s ministrations keep the plant healthy through drought, nutrient deficiency, unnatural darkness or other environmental shortfall. The plant\u2019s surroundings must be within its natural tolerances for the plant to survive, though. (This Boon can\u2019t nurture seaweed on the desert floor, for instance.) Also, this Boon doesn\u2019t protect against or cure any blight or damage from herbivorous noshing."
+        ]
+    ],
+    "nature": "Bravo",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 24,
+        "move": 18,
+        "climb": 18,
+        "jump": {
+            "horizontal": 38,
+            "vertical": 19
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 25,
+        "parry_dv": 18
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 1,
+        "animal_ken": 1,
+        "art": 2,
+        "athletics": 1,
+        "awareness": 2,
+        "brawl": 3,
+        "command": 3,
+        "control": 2,
+        "craft": 3,
+        "empathy": 3,
+        "fortitude": 3,
+        "integrity": 3,
+        "investigation": 1,
+        "larceny": 2,
+        "marksmanship": 0,
+        "medicine": 1,
+        "melee": 0,
+        "occult": 3,
+        "presence": 3,
+        "politics": 2,
+        "science": 3,
+        "stealth": 0,
+        "survival": 1,
+        "thrown": 3
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 13,
+        "lethal": 10.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 9,
+    "god": "Amaterasu",
+    "pantheon": "Amatsukami",
+    "name": "Brendan Perez"
+}

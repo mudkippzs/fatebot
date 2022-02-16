@@ -1,0 +1,325 @@
+{
+    "attributes": {
+        "stre": 5,
+        "dex": 7,
+        "sta": 3,
+        "cha": 7,
+        "man": 9,
+        "app": 9,
+        "per": 7,
+        "inte": 9,
+        "wits": 7
+    },
+    "epic_attributes": {
+        "epic_stre": 4,
+        "epic_dex": 2,
+        "epic_sta": 5,
+        "epic_cha": 6,
+        "epic_man": 5,
+        "epic_app": 6,
+        "epic_per": 2,
+        "epic_int": 0,
+        "epic_wits": 7
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        1,
+        0,
+        0,
+        0
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Knockback Wave",
+            "description": [
+                "Prerequisite Knack: Knockback Attack (Scion: Demigod, pp. 54-55) The God with this Knack claps her hands, slams a foe to the ground, bellows a war cry or performs some other similar action, and the player spends five Legend points. When she does so, everyone within a number of yards of the God equal to the God\u2019s Legend is potentially hurled backward. The God\u2019s player rolls Strength, receiving bonus successes from her Epic Strength, and every person within the radius of effect compares his DV to the result. Anyone whose DV doesn\u2019t measure up is knocked back one yard per threshold success.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Mass Hypnosis",
+            "description": [
+                "Prerequisite Knack: Instant Hypnosis (Scion: Demigod, p. 61) Mass Hypnosis works similarly to its prerequisite in that it implants a command for an affected victim to perform some action that takes no more than one scene to accomplish at a time of the user\u2019s choosing. This Knack expands the scope of the effect so that a character can hypnotize a whole group of people. The character\u2019s player rolls (Manipulation + Command + Legend) and spends a point of Legend and a point of Willpower. If the roll scores more successes than the average (Willpower + Legend) of the assembled audience, the character successfully implants the post-hypnotic suggestion in as many members of the audience as he has successes on the roll. Mortals cannot resist the effect or the compulsion to perform the implanted action. Characters with a Legend rating resist at the moment of hypnosis or at the moment the action is designated to take place, as with Instant Hypnosis. Hypnotizing a crowd of people does require that the character capture everyone\u2019s attention at the instant of hypnosis.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Implant False Memory",
+            "description": [
+                "Prerequisite Knack: Instant Hypnosis (Scion: Demigod, p. 61) Once a character with this Knack\u2019s prerequisite has mesmerized a single victim, he can alter or create from whole cloth a memory in the victim\u2019s mind rather than compelling the victim to perform some later action. Doing the former involves talking the victim through some genuine memory and \u201ccorrecting\u201d details as they come out. Creating a false memory from whole cloth is simply a matter of the character describing the \u201cremembered\u201d events to the victim and telling her when and where those events occurred. False or altered memories replace the originals in the victim\u2019s mind, erasing what was in their place originally. The cost, dice pool, restrictions and resistance mechanics of this Knack are the same as for Instant Hypnosis. If the victim is mortal (or another type of extra), she won\u2019t ever accept that her new memories are false. She might think she was on drugs at the time or was hallucinating with fever, but she clings to the belief that the memory is genuine. Characters with a Legend rating will assume as mortals do unless they are confronted with evidence to suggest the memories are false. Even then, however, they still cannot get their original memories back.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Making It Look Easy",
+            "description": [
+                "When a character performs a feat of strength, doing so takes every bit of effort the character can muster. He doesn\u2019t just lift a blue whale by the tail and hammer throw it back into the ocean between bites of scone. He grunts and strains and struggles until he gets enough momentum behind the whale for it to leave the ground, and when he lets it go, it\u2019s with a resounding shout of strain and a near collapse of relief as it sails out over the water. The name of this Knack, however, speaks for itself. Any action the character can perform as a feat of strength, he can perform as if it\u2019s no effort at all. He can lift the heaviest weights with one hand while using his other hand to cover a yawn. He can throw a spear into orbit with a flick of his finger. He can scoop the beached whale up in one hand and send it skipping like a stone out into the deep water where it can move freely (if dizzily) once again. Since such feats of strength are so easy, the character can execute multiple actions while performing feats of strength.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "One Inch Punch",
+            "description": [
+                "Prerequisite Knack: Crushing Grip (Scion: Hero, p. 126) Extrapolated from learning to exert tremendous pressure from all manner of holds and contortions, the Scion develops the ability to put her massive strength to good use on a single, small point. With just a flick of a finger, a jab of an elbow or a headbutt, the Scion delivers the entire force of her Epic Strength. Although this doesn\u2019t necessarily change the Scion\u2019s unarmed combat style \u2014 she still needs to land a strike on an enemy \u2014 it\u2019s quite intimidating when she can simply poke a building and cause an entire wall to crumble. Similarly, if the Scion is somehow restrained but able to move even a minuscule part of her body, she could (for instance) flick a tiny rock with her toe with enough force to kill a man. While this does not increase the Scion\u2019s damage output, it means that even when bound or restricted from moving in some way, the Scion can still bring all of her Epic Strength to bear in an attack. Perhaps she\u2019s chained with bindings made from Gleipnir and can\u2019t break them, but she can head-butt her assailant. Maybe she is buried in rock and can only move her little finger but can use that to send the boulder on the top of the heap flying. Her damage output and ability to lift are not impinged in any way when she\u2019s forced to rely only on a single limb, a part of her body or a restricted range of motion. Activating this Knack costs three points of Legend. Its effects last for a single application.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Divine Wrath",
+            "description": [
+                "Prerequisite Knack: Crushing Grip (Scion: Hero, p. 126) A Scion with the demigod range of Epic Strength already needs no weapons to in\ufb02ict serious damage in combat, but a Scion with this Knack is even more fearsome. The prerequisite Knack enables him to in\ufb02ict lethal damage during a clinch that he controls, and this Knack builds on that to awful effect. If the Scion spends a point of Legend during a clinch, he can make a single attack in\ufb02ict aggravated damage instead of lethal. What\u2019s more, his normal unarmed combat attacks now in\ufb02ict lethal damage instead of bashing damage. Keep in mind that that lethal damage is now the standard damage he in\ufb02icts unarmed, regardless of whether he spends the point of Legend to make a single clinch\u2019s damage aggravated. The Scion can pull his punches and in\ufb02ict only bashing damage if he wants to, but doing so incurs the \u201cFlat of the Blade\u201d rule from page 199 of Scion: Hero.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Hard Sell",
+            "description": [
+                "Prerequisite Knack: Overt Order (Scion: Hero, p. 131) Like the Overworld\u2019s own Amway salesman, the demigod can convince a group of people to perform one particular action that they would not otherwise be inclined to perform. That is, the Scion can issue an overt order (per the eponymous prerequisite Knack) to a group of people, who must be able to hear him clearly without him using any amplifying or broadcasting equipment. The order must be simple, and it must be something the listeners can carry out in one action while they are within the Scion\u2019s presence. The order can be something instant like, \u201cEverybody get outside!\u201d or, \u201cArrest that man!\u201d It can also be something sneaky like, \u201cBuy my book,\u201d or, \u201cRegister for next month\u2019s seminar by paying me $1,000.\u201d The same restrictions that apply to how loosely a victim can interpret the Overt Order Knack apply to this Knack.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Knockback Attack",
+            "description": [
+                "The Scion is able to perform an attack that in\ufb02icts no damage whatsoever but sends his enemies \ufb02ying back. On a successful attack, the Scion can choose for the attack to in\ufb02ict damage and knockback normally (see Scion: Hero, p. 198), or he can choose for the attack to in\ufb02ict no harm but to impose one yard of knockback per threshold success above the defender\u2019s DV instead. (Doing so costs one Willpower point.) Hardness can still cancel out this effect if it is greater than the attack\u2019s raw damage.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Animal Aspect",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Legend per action \nBy meditating for one action (Speed 3) on a token representing his animal, the Scion takes on a metaphorical characteristic associated with it, creating a dice bonus for rolls involving the Attribute most closely associated with that characteristic. A Scion might take on a snake\u2019s sinuous grace (Dexterity), a peacock\u2019s beauty (Appearance), an elephant\u2019s proverbial memory (via Intelligence) or any other justifiable characteristic. The bonus dice are equal to the number of successes on the activation roll, and the benefit lasts for one action per Legend point spent up front to fuel the Boon."
+        ],
+        [
+            "Come Running",
+            "Dice Pool: None \nCost: 3 Legend \nThe Scion immediately rushes to the aid of anyone or anything on whom she has placed a Vigil Brand (Guardian \u2022). When she gets a sensation that her branded charge is in danger (as determined by the Storyteller), she may spend three Legend points to disappear from her current location and instantly reappear in view of the brand she laid down. It helps to concentrate long enough for the player to make the (Perception + Empathy) roll to get an idea of what the danger is before she disappears, but it\u2019s not necessary. Yet, while the character can use Vigil Brand to check up on a charge at any time, the Scion can use Come Running only when the charge in question is in imminent danger."
+        ],
+        [
+            "Storm Augmentation",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend per attack \nFor a number of actions equal to the successes the player rolled to activate the Boon, jagged threads of lightning coil around the Scion\u2019s fists or weapon, or skirling winds sweep around him as he moves. On any successful attack he makes in the subsequent duration, he may spend a point of Legend to make thunder crash or winds gust violently. Doing so automatically doubles any knockback the attack applies. Furthermore, if the attack inflicts even one level of damage, have the victim\u2019s player roll (Stamina + Fortitude) against a difficulty equal to (raw damage \u2013 victim\u2019s Legend). The minimum difficulty for this roll is 1. If the victim\u2019s player fails this roll, the victim is stunned, losing two dice from all non-reflexive rolls until the attacker\u2019s next action."
+        ],
+        [
+            "Weather Witch",
+            "Dice Pool: Intelligence + Science \nCost: 1 Legend \nBy tasting the wind, putting a finger up in the air or testing the feel of her joints, the Scion gains the ability to predict the vagaries of natural weather. Her prediction is good up to a number of days in advance equal to the successes scored by her player on the initial (Intelligence + Science) roll. This doesn\u2019t account for changes introduced by more powerful uses of the Sky Purview or by Titans and titanspawn."
+        ],
+        [
+            "R\u00edastrad",
+            "Dice Pool: None \nCost: 3 Legend + 1 Willpower + cost of other Boons and Knacks \nThe warp-spasm of Irish legend, the Scion with this Boon can channel a potent war-power, breathing in the very fury and twisting unpredictability of battle itself. When this Boon is activated, the body of the hero or God twists and warps, taking on a truly incomprehensible freakishness. Every nerve quivers with barely-contained violence, and the Scion\u2019s body temperature multiplies impossibly."
+        ],
+        [
+            "Sabot",
+            "Dice Pool: Intelligence + Craft \nCost: 1 Willpower \nThe Scion can break even the most complicated machine with just the power of her mind. She just stares at the machine in question and her player spends a Willpower and rolls (Intelligence + Craft). If the roll succeeds, the character causes the machine to break down and cease functioning immediately. The number of successes the roll generated then lingers until the machine is repaired. In order to repair the object, a character must accumulate an equal number of successes on an extended (Dexterity + Craft) roll."
+        ],
+        [
+            "Warrior Ideal",
+            "Dice Pool: Charisma + Presence \nCost: 1 Legend \nThe Scion adopts some idealized warrior aspect, from howling berserker to unquestioning enlisted man to fearless officer to pitiless samurai. This attitude unnerves and intimidates any opponent who faces him in combat, inflicting a penalty equal to the Scion\u2019s Legend on any attack roll the opponent makes. This penalty applies to any character with a lesser or equal Legend rating who attempts to attack the Scion. This idealized aspect lasts for a number of consecutive actions during the battle equal to the successes the Scion\u2019s player rolled to activate it, and he can invoke it only once during any given battle."
+        ],
+        [
+            "Sekem Barrier",
+            "Dice Pool: Appearance + Command \nCost: 1 Legend \nThe character spends a point of Legend and his player rolls (Appearance + Command). If the roll succeeds, the radiance of the character\u2019s divine heritage illuminates his entire body, affecting all who look upon him. Use the same rubric as for Sekem Blaze to determine whether nearby characters are affected. Those who are affected react as those affected by Sekem Blaze."
+        ],
+        [
+            "Eye of the Storm",
+            "Dice Pool: None \nCost: 1 Legend per scene \nWhen the Scion finds herself caught up in a chaotic situation unrelated to her\u2014whether she\u2019s dodging a tornado\u2019s debris or emerging from a bar to find a berserk mob rushing toward her to clash with a line of riot cops down the street\u2014she can activate this Boon and become an island of calm in the tumult. She is miraculously untouched in the confusion, and she remains so for as long as she doesn\u2019t actively involve herself. She still suffers normal environmental movement penalties, but environmental dangers such as falling rocks, stampeding beasts or thrashing rioters all fail to touch her."
+        ],
+        [
+            "Unseen Shield",
+            "Dice Pool: Stamina + Fortitude \nCost: 2 Legend + 1 Willpower \nThe Scion concentrates and projects an invisible, semi-spherical shield of pure force around herself and those she\u2019s trying to protect. The base of this shield can be as big as 500 square feet in area (about 13 feet in radius) per dot of Legend the character has, though she can keep it smaller. Ghosts, spirits and physical beings of lesser Legend than the Scion cannot penetrate this shield. If such a being has an equal or higher Legend rating (and can bring a physical force to bear), it can attempt to batter the shield apart with physical attacks. The shield can take a number of health levels of damage equal to [the Scion\u2019s (Legend x 5) + activation roll successes], and it has an all-purpose Hardness rating equal to the Scion\u2019s Legend."
+        ],
+        [
+            "Ren Harvest",
+            "Dice Pool: Charisma + Empathy \nCost: None \nWhenever someone speaks of the Scion\u2019s deeds, or whenever he sees news of his exploits in print somewhere, his player makes a (Charisma + Empathy) roll. The Scion gains a number of Legend points equal to the number of successes rolled. The story must pertain specifically to the Scion, which the context should make clear. Also, it must be uttered or written without the Scion\u2019s direct knowledge. He might reasonably expect to see or hear it, but he cannot literally command someone to say or write it so as to reap the benefits. This Boon pertains only to evidence that his legend is spreading\u2014hence the Legend-point reward."
+        ],
+        [
+            "Divine Threnody",
+            "Dice Pool: Intelligence + Art \nCost: 2 Legend \nAn oft-overlooked element of the Sky Purview is the fact that air carries sound. The most graphic example of this is thunder, which is commonly associated with sky gods; wind, too, is said to howl or moan, as if the sky itself has a voice. A demigod who delves into the nature of thunder and sound can learn to manipulate the currents of air that carry sound and thereby enhance or dampen sonic effects."
+        ],
+        [
+            "Khaibit Trap",
+            "Dice Pool: Intelligence + Occult \nCost: 1 Willpower to create, 1 Legend to activate \nThe Scion strikes a wall, floor, ceiling or sturdy object with his palm and speaks the name of his divine parent. When he does so, a cartouche seal bearing the hieroglyphic characters that represent his divine parent appears on the surface. This seal has an area in square inches equal to the successes acquired on the activation roll. (You can assume the seal is a rectangle to make determining its size easier.) Unless the surface that the seal covers is physically broken, the seal remains in place for a number of months equal to the Scion\u2019s Legend. After that, it fades out as if it were never there."
+        ],
+        [
+            "Battle Map",
+            "Dice Pool: Perception + Survival \nCost: 1 Legend \nThis Boon creates for the Scion a virtual, three-dimensional contour map of a battlefield, complete with terrain features and troop movements. This map can take up an area no larger than four square yards, and it can show only an area that the Scion has scouted personally or has had scouted within 24 hours."
+        ],
+        [
+            "Weather Witch",
+            "Dice Pool: Intelligence + Science \nCost: 1 Legend \nBy tasting the wind, putting a finger up in the air or testing the feel of her joints, the Scion gains the ability to predict the vagaries of natural weather. Her prediction is good up to a number of days in advance equal to the successes scored by her player on the initial (Intelligence + Science) roll. This doesn\u2019t account for changes introduced by more powerful uses of the Sky Purview or by Titans and titanspawn."
+        ],
+        [
+            "Paralyzing Confusion",
+            "Dice Pool: Wits + Empathy \nCost: 1 Willpower \nThis Boon turns a person\u2019s rational thoughts into seething, chaotic noise. On a successful activation roll, the victim freezes in place, suddenly unable to think, speak or act. He\u2019s unaware of what goes on around him, and he has no memory of the moments before or after the use of this Boon. The effect lasts for a number of actions equal to the successes on the activation roll, and it erases the victim\u2019s memory for an equal amount of time before the roll. If the victim has more dots of Legend than the user, the power doesn\u2019t work. If the victim has an equal Legend rating, the activation roll is contested against the victim\u2019s (Willpower + Integrity + Legend)."
+        ],
+        [
+            "Sky's Grace",
+            "Dice Pool: None \nCost: 1 Legend \nBy spending a point of Legend, the Scion takes no damage from falls of any height. Alternatively, the Scion can use that point to double the distance he can jump either straight up or horizontally. If the Scion has the Holy Bound Knack\u2014as well as this Boon, the base distance he can leap doubles, then doubles again if the player spends a point of Legend."
+        ],
+        [
+            "Paralyzing Confusion",
+            "Dice Pool: Wits + Empathy \nCost: 1 Willpower \nThis Boon turns a person\u2019s rational thoughts into seething, chaotic noise. On a successful activation roll, the victim freezes in place, suddenly unable to think, speak or act. He\u2019s unaware of what goes on around him, and he has no memory of the moments before or after the use of this Boon. The effect lasts for a number of actions equal to the successes on the activation roll, and it erases the victim\u2019s memory for an equal amount of time before the roll. If the victim has more dots of Legend than the user, the power doesn\u2019t work. If the victim has an equal Legend rating, the activation roll is contested against the victim\u2019s (Willpower + Integrity + Legend)."
+        ],
+        [
+            "Heart Scarab",
+            "Dice Pool: Dexterity + Craft \nCost: 1 Legend \nIn a workshop in his spare time, the Scion crafts small scarabs out of imperishable materials such as steel, desert glass, precious metals, gems or what have you."
+        ]
+    ],
+    "nature": "Rebel",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 15,
+        "move": 9,
+        "climb": 12,
+        "jump": {
+            "horizontal": 24,
+            "vertical": 12
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 14,
+        "parry_dv": 11
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 2,
+        "animal_ken": 1,
+        "art": 2,
+        "athletics": 0,
+        "awareness": 1,
+        "brawl": 3,
+        "command": 3,
+        "control": 3,
+        "craft": 2,
+        "empathy": 2,
+        "fortitude": 2,
+        "integrity": 3,
+        "investigation": 3,
+        "larceny": 1,
+        "marksmanship": 1,
+        "medicine": 3,
+        "melee": 1,
+        "occult": 2,
+        "presence": 3,
+        "politics": 0,
+        "science": 3,
+        "stealth": 2,
+        "survival": 2,
+        "thrown": 0
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 14,
+        "lethal": 18.0,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 6,
+    "god": "Set",
+    "pantheon": "Pesedjet",
+    "name": "Max Lawrence"
+}

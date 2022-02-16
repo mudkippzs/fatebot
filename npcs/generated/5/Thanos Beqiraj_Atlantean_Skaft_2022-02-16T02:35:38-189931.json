@@ -1,0 +1,285 @@
+{
+    "attributes": {
+        "stre": 3,
+        "dex": 5,
+        "sta": 3,
+        "cha": 5,
+        "man": 7,
+        "app": 7,
+        "per": 5,
+        "inte": 5,
+        "wits": 5
+    },
+    "epic_attributes": {
+        "epic_stre": 4,
+        "epic_dex": 3,
+        "epic_sta": 3,
+        "epic_cha": 0,
+        "epic_man": 2,
+        "epic_app": 1,
+        "epic_per": 0,
+        "epic_int": 1,
+        "epic_wits": 2
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        1,
+        2,
+        1,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Know\u2013It\u2013All",
+            "description": [
+                "The Scion is widely read and has a ridiculously well-rounded education. She might not be a master of any single subject, but she knows a little bit about a wide range of disparate, esoteric subjects. (She could explain the intricacies of the Teapot Dome Scandal in terms of the interpersonal dynamics of the Justice League, then explain why typing \u201cwhile one fork\u201d into a UNIX system is a bad idea, before wrapping up with an explanation of how a Venus\u2019s-\ufb02ytrap works.) Normally, the burden of portraying this Knack falls to the player, so it behooves her to keep an ear to the ground for obscure trivia she can work into her character\u2019s dialogue during the game. The Storyteller shares a bit of that burden as well, though. During a scene in which the characters seem to be stumped or hopelessly out of options, the Storyteller should \u201cremind\u201d the player of some pertinent bit of obscure trivia her character knows that bears a direct, helpful relevance to the problem at hand. It behooves the Storyteller, then, to make a list of a handful of such helpful hints when he\u2019s designing his story. Just in case.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Perfect Imposter",
+            "description": [
+                "Prerequisite Knack: Social Chameleon (Scion: Hero, p. 136) Impersonating someone in order to in\ufb01ltrate his home or workplace or to get dangerously close to someone he cares about is more dif\ufb01cult the less well the impersonator knows his subject. The best makeup and disguise means nothing if the imposter can\u2019t react to life\u2019s little surprises exactly as the subject of his mimicry would react. With this Knack, however, the Scion can discern with preternatural quickness how the people who think he\u2019s someone else expect that someone else to react. Their minute changes of expression or body language give their expectations away, allowing the imposter to react accordingly. For the most part, this Knack plays itself out without resorting to dice rolls or trait comparisons. As the imposter\u2019s player roleplays (and the imposter himself does so also), the Storyteller simply informs him of what the unsuspecting characters\u2019 expectations are, and the player chooses his imposter\u2019s reactions accordingly. This Knack does not provide a supernatural disguise that would fool someone with the Unfailing Recognition Knack (from Scion: Hero, p. 134), but even if such a Scion can see through the imposter\u2019s disguise, his recognition alone would not be enough to convince anyone else. The imposter retains the wherewithal to stand up to any impromptu interrogation and maintain his charade in everyone else\u2019s eyes, thus making the only other Scion who knows the imposter\u2019s true identity look like a horse\u2019s ass or a liar.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Language Mastery",
+            "description": [
+                "The Scion can understand any language that is spoken to him. Once he\u2019s heard a few sentences, he can then speak that language back as if he grew up among native speakers. Writing the language is a bit trickier, as he can only transliterate his written words in the alphabet of his native language until someone teaches him the alphabet and punctuation of the new language. For instance, say a Scion with this Knack whose native language is English has picked up French at Orly Airport in Paris and would like to leave a thank-you note for a bartender who gave him helpful information. That Scion might write, \u201cMare- see du mah-vay zayday,\u201d to express his thanks, when what he really means is, \u201cMerci de m\u2019avez aid\u00e9.\u201d Likewise, reading the new language can be dif\ufb01cult if that language uses characters that don\u2019t appear in an alphabet with which he is already familiar.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "In Your Dreams",
+            "description": [
+                "Prerequisite Knack: Subliminal Warning (Scion: Hero, p. 134) Even the best senses are of no use to a Scion who\u2019s asleep. While some Scions get around this by developing enough Epic Stamina to no longer need sleep, other Scions prefer a different approach \u2014 one that also has the advantage of working while unconscious, regardless of whether it\u2019s sleep-induced or trauma-induced. As the Scion slips into a comatose state, she leaves a bit of her mind attuned to her godly senses, and her subconscious mind remains aware of what goes on around her while she is out cold. With In Your Dreams, the Scion generally doesn\u2019t see anything (since most people don\u2019t sleep with their eyes open), but she retains everything that she hears, feels, tastes and smells while asleep. When she awakens, she can access her memories of all that happened around her, just as if she had been lying there feigning slumber. This is greatly enhanced if she also has the Perfect Memory Epic Intelligence Knack (Scion: Hero, pp. 135-136). Activating this Knack costs one point of Legend. Its effects last as long as the Scion remains asleep or unconscious. The player can activate this Knack as a reflexive action if some power or injury renders the Scion comatose.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Perfect Memory",
+            "description": [
+                "The character remembers everything about his past from before the game started to the current moment in the story. If ever the player forgets a salient point or key bit of information from previous sessions, he has but to ask the Storyteller and the Storyteller will remind him. It\u2019s a good idea for the character\u2019s player to take copious notes on each session\u2019s events and double-check them with the Storyteller, if only to alleviate some of the stress on the Storyteller.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Echo Sounding",
+            "Dice Pool: Perception + Awareness \nCost: None \nBy stomping or otherwise knocking on the earth, the Scion gets a sense of its general composition and density, as well as finding holes or caves beneath the surface. If he\u2019s looking for something specific in the earth\u2014such as gold, oil or a human body\u2014this Boon reveals its distance from him and depth from the epicenter at the expense of the other information. The Boon works only at ground level or on the up-thrust surface of a mountainside, but it works through floors and pavement. It gives the Scion a semispherical reading with a radius equal to one half mile per dot of Legend."
+        ],
+        [
+            "Bolster Fire",
+            "Dice Pool: None \nCost: 1 Legend per scene \nNormally, fire needs oxygen to breathe and fuel to consume. With this Boon, a Scion removes both necessities from a single flame for one scene. He could keep a single torch (or even a match) lit for hours as he explores a dark labyrinth. He could cause the tiny spark at the end of a fuse to burn in place without moving. This Boon is also good for keeping a source of flame from consuming the breathable air in an enclosed space."
+        ],
+        [
+            "Safely Interred",
+            "Dice Pool: None \nCost: None \nWhether the character is caught up in a landslide, buried in a shallow grave by the roadside or trapped in the rubble of a collapsing building, he need not fear the earth\u2019s embrace as long as he has his Earth Birthright. No amount of collapsing rubble can break the Scion\u2019s bones (or the Birthright itself), and he won\u2019t suffocate no matter how much dirt piles onto him. If he lacks the strength to free himself, however, he does run the risk of either starving to death or dying of thirst if no one digs him out. Yet, it would not be the earth that kills him, but his own lack of fortitude."
+        ],
+        [
+            "Rust/Shine",
+            "Dice Pool: None \nCost: 2 Legend \nWith a pass of the hand, the Scion causes a coating of rust or oxidization to form on a metallic object or conversely removes such a coating, restoring an item to its untarnished form. A rusted metal object loses durability and functionality. Its Hardness decreases to half normal, and if the object is a precision item (like a gun), it has a 50% chance to malfunction any time it\u2019s used. Restoring a rusted item to its original state wipes away all traces of age and even reverses the effects, so that a wholly rusted-out car body (for instance) would be as good as new. The rusted parts don\u2019t just disappear, they reverse the process and become solid metal again. Invoking this power on an item requires the Scion to physically touch or manipulate the object, and it has no effect on metals that don\u2019t rust (such as gold) or upon Relics."
+        ],
+        [
+            "Shaping",
+            "Dice Pool: Dexterity + Craft (to shape) \nCost: 1 Legend \nThe Scion can sculpt stone, concrete, fired clay or metal with his bare hands. When he spends the point of Legend, the substance becomes malleable like wet clay for as long as he touches it. With a successful (Dexterity + Craft) roll by his player, the Scion can shape it into any form his nimble fingers can produce. The Scion can affect up to one cubic foot of material at a time. Once he breaks contact with the substance he is shaping, it loses all malleability and sets in its new form."
+        ],
+        [
+            "Earth Armor",
+            "Dice Pool: None \nCost: 1 Legend \nThe Scion stomps a foot or pounds a fist on the bare earth, and a thick cloud of particles of the substance rises into the air around him. This cloud swirls around him and accumulates on his body like a suit of plate armor plus helmet. Any earthen substance will suffice, from gravel to mud to sand. The armor the coating of particles creates has a bashing and lethal Hardness and soak equal to half the Scion\u2019s Legend (rounded up), as well as a mobility penalty equal to that of riot gear. It lasts for the rest of the scene, at the end of which it shatters into a million pieces and falls at the Scion\u2019s feet. A Scion with Shaping (Earth \u2022\u2022\u2022) can craft the armor into a stylized shape, but only if the Scion wearing the armor remains inactive long enough to allow it."
+        ],
+        [
+            "Blazing Weapon",
+            "Dice Pool: None \nCost: 1 Legend per weapon \nThe Scion reaches into a flame that\u2019s at least as big as a campfire and pulls out a blazing melee weapon made of flickering fire. The weapon can be of any shape and size, but the distinction is largely a matter of personal taste, rather than available traits. These weapons do not use the normal traits from the chart in Scion: Hero. Instead, when the character removes the weapon from the fire, the player receives a base number of points equal to the Scion\u2019s Legend for each weapon. These points can add to a base Accuracy +0, Damage +0 and Defense -1, and they can subtract from a starting Speed 6 (reducing it to a minimum of 1). The player assigns the weapon\u2019s traits as the character produces the weapon, and he can\u2019t change them afterward."
+        ],
+        [
+            "Echo Sounding",
+            "Dice Pool: Perception + Awareness \nCost: None \nBy stomping or otherwise knocking on the earth, the Scion gets a sense of its general composition and density, as well as finding holes or caves beneath the surface. If he\u2019s looking for something specific in the earth\u2014such as gold, oil or a human body\u2014this Boon reveals its distance from him and depth from the epicenter at the expense of the other information. The Boon works only at ground level or on the up-thrust surface of a mountainside, but it works through floors and pavement. It gives the Scion a semispherical reading with a radius equal to one half mile per dot of Legend."
+        ],
+        [
+            "Flamin' Bullets",
+            "Dice Pool: None \nCost: 1 Legend per scene \nThe Scion reaches into a source of flame \u2014 anything from a candle to a bonfire will do \u2014 and then \u201cloads\u201d that fire into a projectile weapon. The weapon becomes wreathed in flames, and for the rest of the scene, the weapon belches blasts of Legend-fueled fire. The weapon still consumes normal ammunition, but the shots become imbued with \u201cfire power,\u201d so to speak. The fiery rounds also inflict lethal damage, even against creatures that normally take bashing damage from bullets, such as the walking dead. The fiery rounds add +1 Accuracy and Damage to the weapon and also allow it to light targets on fire. Shooting the gas tank of a car with a pistol really can produce an explosive ending when Flamin\u2019 Bullets are used."
+        ],
+        [
+            "Fire's Eye",
+            "Dice Pool: Perception + Awareness \nCost: 1 Legend \nThe Scion can see out of any fire that A.) is already within his line of sight or B.) he affected with Bolster Fire. The Scion cannot hear what is happening around a distant fire, and his field of vision remains the same through the fire as it is through his eyes. He may physically move his head or turn his body in place to change his remote perspective, though. While he looks through the fire, the Scion can\u2019t see from his own perspective. He may maintain his remote perspective for as long as he wishes."
+        ],
+        [
+            "Blazing Weapon",
+            "Dice Pool: None \nCost: 1 Legend per weapon \nThe Scion reaches into a flame that\u2019s at least as big as a campfire and pulls out a blazing melee weapon made of flickering fire. The weapon can be of any shape and size, but the distinction is largely a matter of personal taste, rather than available traits. These weapons do not use the normal traits from the chart in Scion: Hero. Instead, when the character removes the weapon from the fire, the player receives a base number of points equal to the Scion\u2019s Legend for each weapon. These points can add to a base Accuracy +0, Damage +0 and Defense -1, and they can subtract from a starting Speed 6 (reducing it to a minimum of 1). The player assigns the weapon\u2019s traits as the character produces the weapon, and he can\u2019t change them afterward."
+        ],
+        [
+            "Flamin' Bullets",
+            "Dice Pool: None \nCost: 1 Legend per scene \nThe Scion reaches into a source of flame \u2014 anything from a candle to a bonfire will do \u2014 and then \u201cloads\u201d that fire into a projectile weapon. The weapon becomes wreathed in flames, and for the rest of the scene, the weapon belches blasts of Legend-fueled fire. The weapon still consumes normal ammunition, but the shots become imbued with \u201cfire power,\u201d so to speak. The fiery rounds also inflict lethal damage, even against creatures that normally take bashing damage from bullets, such as the walking dead. The fiery rounds add +1 Accuracy and Damage to the weapon and also allow it to light targets on fire. Shooting the gas tank of a car with a pistol really can produce an explosive ending when Flamin\u2019 Bullets are used."
+        ],
+        [
+            "Bolster Fire",
+            "Dice Pool: None \nCost: 1 Legend per scene \nNormally, fire needs oxygen to breathe and fuel to consume. With this Boon, a Scion removes both necessities from a single flame for one scene. He could keep a single torch (or even a match) lit for hours as he explores a dark labyrinth. He could cause the tiny spark at the end of a fuse to burn in place without moving. This Boon is also good for keeping a source of flame from consuming the breathable air in an enclosed space."
+        ],
+        [
+            "Flamin' Bullets",
+            "Dice Pool: None \nCost: 1 Legend per scene \nThe Scion reaches into a source of flame \u2014 anything from a candle to a bonfire will do \u2014 and then \u201cloads\u201d that fire into a projectile weapon. The weapon becomes wreathed in flames, and for the rest of the scene, the weapon belches blasts of Legend-fueled fire. The weapon still consumes normal ammunition, but the shots become imbued with \u201cfire power,\u201d so to speak. The fiery rounds also inflict lethal damage, even against creatures that normally take bashing damage from bullets, such as the walking dead. The fiery rounds add +1 Accuracy and Damage to the weapon and also allow it to light targets on fire. Shooting the gas tank of a car with a pistol really can produce an explosive ending when Flamin\u2019 Bullets are used."
+        ],
+        [
+            "Blazing Weapon",
+            "Dice Pool: None \nCost: 1 Legend per weapon \nThe Scion reaches into a flame that\u2019s at least as big as a campfire and pulls out a blazing melee weapon made of flickering fire. The weapon can be of any shape and size, but the distinction is largely a matter of personal taste, rather than available traits. These weapons do not use the normal traits from the chart in Scion: Hero. Instead, when the character removes the weapon from the fire, the player receives a base number of points equal to the Scion\u2019s Legend for each weapon. These points can add to a base Accuracy +0, Damage +0 and Defense -1, and they can subtract from a starting Speed 6 (reducing it to a minimum of 1). The player assigns the weapon\u2019s traits as the character produces the weapon, and he can\u2019t change them afterward."
+        ]
+    ],
+    "nature": "Gambler",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 15,
+        "move": 9,
+        "climb": 10,
+        "jump": {
+            "horizontal": 24,
+            "vertical": 12
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 14,
+        "parry_dv": 10
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 3,
+        "animal_ken": 1,
+        "art": 3,
+        "athletics": 2,
+        "awareness": 0,
+        "brawl": 3,
+        "command": 0,
+        "control": 1,
+        "craft": 2,
+        "empathy": 2,
+        "fortitude": 1,
+        "integrity": 3,
+        "investigation": 3,
+        "larceny": 2,
+        "marksmanship": 2,
+        "medicine": 1,
+        "melee": 3,
+        "occult": 0,
+        "presence": 1,
+        "politics": 2,
+        "science": 2,
+        "stealth": 3,
+        "survival": 3,
+        "thrown": 3
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 7,
+        "lethal": 7.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 5,
+    "god": "Skaft",
+    "pantheon": "Atlantean",
+    "name": "Thanos Beqiraj"
+}

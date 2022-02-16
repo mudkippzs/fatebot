@@ -1,0 +1,401 @@
+{
+    "attributes": {
+        "stre": 9,
+        "dex": 13,
+        "sta": 9,
+        "cha": 7,
+        "man": 9,
+        "app": 5,
+        "per": 9,
+        "inte": 11,
+        "wits": 9
+    },
+    "epic_attributes": {
+        "epic_stre": 6,
+        "epic_dex": 4,
+        "epic_sta": 6,
+        "epic_cha": 5,
+        "epic_man": 1,
+        "epic_app": 4,
+        "epic_per": 7,
+        "epic_int": 12,
+        "epic_wits": 6
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        3,
+        0,
+        0,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "One Inch Punch",
+            "description": [
+                "Prerequisite Knack: Crushing Grip (Scion: Hero, p. 126) Extrapolated from learning to exert tremendous pressure from all manner of holds and contortions, the Scion develops the ability to put her massive strength to good use on a single, small point. With just a flick of a finger, a jab of an elbow or a headbutt, the Scion delivers the entire force of her Epic Strength. Although this doesn\u2019t necessarily change the Scion\u2019s unarmed combat style \u2014 she still needs to land a strike on an enemy \u2014 it\u2019s quite intimidating when she can simply poke a building and cause an entire wall to crumble. Similarly, if the Scion is somehow restrained but able to move even a minuscule part of her body, she could (for instance) flick a tiny rock with her toe with enough force to kill a man. While this does not increase the Scion\u2019s damage output, it means that even when bound or restricted from moving in some way, the Scion can still bring all of her Epic Strength to bear in an attack. Perhaps she\u2019s chained with bindings made from Gleipnir and can\u2019t break them, but she can head-butt her assailant. Maybe she is buried in rock and can only move her little finger but can use that to send the boulder on the top of the heap flying. Her damage output and ability to lift are not impinged in any way when she\u2019s forced to rely only on a single limb, a part of her body or a restricted range of motion. Activating this Knack costs three points of Legend. Its effects last for a single application.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Inner Furnace",
+            "description": [
+                "The character rarely lacks for sustenance. As long as he can \ufb01nd some sort of organic substance (from rotting quail eggs to a piece of notebook paper on which someone blew her nose), the Scion can eat it and survive. And as long as he \ufb01nds a source of water (no matter how stagnant or polluted it might be), he can drink it and survive. Any pestilence or poison lurking in what he consumes burns in the \ufb01res of his superior constitution, without even requiring a Fortitude roll. The same goes for drugs or poisons he ingests on purpose, or for any Mickey Finn a ne\u2019er-do-well might try to slip him. He\u2019s still just as susceptible to airborne toxins and any drug injected into his bloodstream, but any drug that has to go through his stomach \ufb01rst stops there. This Knack does nothing to suppress the gag re\ufb02ex or make an unappetizing meal taste better.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Skin\u2013Shedding",
+            "description": [
+                "Not only is this Knack a life-saving power, but it can also be an effective (if surreal) means of escape. If an enemy\u2019s attack against the Scion in\ufb02icts enough damage to cause knockback, the Scion may spend a point of Legend and a point of Willpower to re\ufb02exively negate all damage from the attack. The attack still in\ufb02icts its knockback, though, seemingly knocking the Scion completely out of his skin. The empty husk collapses at the attacker\u2019s feet, disintegrating over three ticks. The Scion who was apparently knocked out of his skin lands perfectly unharmed however far away the knockback threw him, retaining all of his clothing and possessions and radiating a golden sheen until the shed skin disintegrates. The Scion can use this Knack only once per scene.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Crushing Grip",
+            "description": [
+                "The Scion is a fearsome wrestler and grappler not to be tri\ufb02ed with. When he\u2019s locked in a clinch and has taken control of it, the character can not only in\ufb02ict the normal amount of damage (see p. 202), but that damage is now lethal as well. A character can still choose to hold an opponent without in\ufb02icting damage, or he can choose to break the hold. He can even soften his touch and in\ufb02ict bashing damage instead. The damage the character can in\ufb02ict when his temper gets riled, though, is tremendous and often quite messy.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Solipsistic Well\u2013Being",
+            "description": [
+                "The philosophy of solipsism holds that only the self exists. Accordingly, if a solipsist isn\u2019t aware of something, that something doesn\u2019t exist. With this Knack, a Scion applies this odd philosophy to damage that surprises her. For a single attack that the Scion doesn\u2019t see, hear or otherwise perceive coming, the Scion can spend a point of Legend and a point of Willpower to completely ignore it as if it never happened (thereby suffering no damage from it). Of course the attack does actually happen\u2014any ammunition used is spent, onlookers might be covered with the Scion\u2019s blood, the would-be assassin might be standing right there holding a dripping knife\u2014but such concerns are immaterial to the Scion victim. The Scion can use this Knack only once per scene.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Speed Reader",
+            "description": [
+                "The character can read and comprehend with perfect clarity an entire block of text\u2014such as two facing pages of an open book\u2014in the amount of time it takes her to blink. She need only be able to see the entire block clearly enough to focus her eyes on any given word in it.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Multitasking",
+            "description": [
+                "The Scion can carry on as many separate primarily mental activities as he has dots of Legend simultaneously and with his full attention. A Scion with Legend 6 could play a game of chess against a recognized master while also playing go against a ninth-dan professional, translating a James Joyce novel into a different language, reprogramming his computer, planning a raid against the titanspawn entrenched in the historic ruins across town and itemizing his various businesses\u2019 tax deductions for the year. The character never suffers distraction penalties for mental actions, nor are his separate simultaneous mental actions penalized as per the multiple action rules (see Scion: Hero, p. 179).",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Holy Rampage",
+            "description": [
+                "The Scion is especially good at breaking inanimate objects. When he spends a point of Legend and applies his full might to breaking something \u2014 whether he\u2019s punching it, kicking it or throwing his shoulder against it \u2014 the item\u2019s Hardness is halved against the attack. This bonus applies only when the character attempts to break an inanimate object that is either freestanding or under his control. If someone else has control of the object in question, the Scion must take it from him \ufb01rst.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Extended Youth",
+            "description": [
+                "At the physical age at which the character takes on this Knack, her body no longer physically or visibly ages. Her hair doesn\u2019t turn gray or thin out, her skin doesn\u2019t wrinkle, she doesn\u2019t get liver spots, nothing sags due to gravity. Until the character becomes a God, she looks like she looked at that mortal age. (Taking this Knack after the character becomes a God would, admittedly, be a little silly.)",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Math Genius",
+            "description": [
+                "The Scion is a walking, talking calculator. She can divide up a 10-party restaurant bill so everyone pays only what they owe or calculate the standard deviation of oil prices over the last 15 years, all while holding an intense conversation about whether Republicans or Democrats are worse tippers. As long as she knows all the \ufb01gures involved, she can crunch the numbers in her head with only a moment\u2019s pause. She can also use mathematical shorthand and rapid calculation to estimate things like how many jellybeans are in a glass jar at the State Fair or how many titanspawn-possessed Civil War re-enactors are currently rushing toward her across the picnic grounds.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Armor Crusher",
+            "description": [
+                "Prerequisite Knack: Holy Rampage (Scion: Hero, p. 126) The raw power of the Scion\u2019s attacks now allows him not only to break through obstacles and walls, but to slam right through armor. The Scion simply channels his legendary might, then uses brute force to shatter enemy defenses and tear through shields, armored plates and vests with ease. While this Knack is active, the Scion\u2019s melee attacks all gain the Piercing quality. Activating this Knack costs five points of Legend. Its effects last for one scene.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Holy Fortitude",
+            "description": [
+                "The character is the epitome of the holy ascetic. The periods for which she is able to go without food, water and sleep all double. The amount of time she is able to work at a strenuous task without stopping also doubles.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Star Pupil",
+            "description": [
+                "Prerequisite Knack: Fast Learner (Scion: Hero, p. 135) The Scion is now a better student than ever before. Not only does he learn the prerequisite Knack\u2019s listed subjects far more rapidly than normal, he now learns Athletics, Brawl, Craft, Control, Investigation, Larceny, Marksmanship, Melee, Survival and Thrown at the reduced experience point cost. Having a Scion teacher with the Teaching Prodigy Knack doubles the reduction again, just as it does for the prerequisite Knack.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Echo Sounding",
+            "Dice Pool: Perception + Awareness \nCost: None \nBy stomping or otherwise knocking on the earth, the Scion gets a sense of its general composition and density, as well as finding holes or caves beneath the surface. If he\u2019s looking for something specific in the earth\u2014such as gold, oil or a human body\u2014this Boon reveals its distance from him and depth from the epicenter at the expense of the other information. The Boon works only at ground level or on the up-thrust surface of a mountainside, but it works through floors and pavement. It gives the Scion a semispherical reading with a radius equal to one half mile per dot of Legend."
+        ],
+        [
+            "Devil Body",
+            "Dice Pool: None \nCost: 1 Willpower + 3 Legend \nUpon activating this Boon, the character\u2019s body immediately becomes a human-shaped pillar of white-hot flame. His features are unrecognizable except in silhouette (if he has a distinctive silhouette), and his voice has the quality of a roaring bonfire. In this form, the character\u2019s merest touch can set things alight or burn flesh. Touching the character inflicts a number of levels of lethal damage equal to his Legend. If the character physically attacks someone, the player adds that many extra levels of lethal damage to the results of his damage roll. The flames of the Scion\u2019s body can even burn a fellow Scion who has Fire Immunity (Fire 1) if that Scion\u2019s Legend is lower, though the lesser Scion suffers automatic fire damage equal to only the difference in their Legend ratings. The character\u2019s semisolid form also absorbs an amount of damage equal to the character\u2019s Legend from all physical attacks."
+        ],
+        [
+            "Inferno",
+            "Dice Pool: Charisma + Craft \nCost: 3 Legend \nWith a shouted word, a Scion can cause an area in his line of sight to instantly burst into flame. The flame has the intensity of a bonfire, and it covers an area with a radius in yards equal to the number of successes on the activation roll. The flames stand as high from a flat surface as the Scion is tall. This fire can burn without fuel for a number of minutes equal to the Scion\u2019s Legend. When that time is up, the flames go out if they still don\u2019t have any fuel. People who are within the area the Scion intends to set alight get a single chance to escape the affected area unharmed before the fire starts. To do so, their players must get more successes on a (Dexterity + Athletics) roll than the Scion\u2019s player got on the activation roll, and the character must be able to get out of the area in one action."
+        ],
+        [
+            "Ifrit",
+            "Dice Pool: Charisma + Command \nCost: 5+ Legend \nWith this Boon, a God turns faithful mortal worshipers into powerful servants of living flame. If the mortals are willing to undergo the transformation, the God lays a hand on each mortal\u2019s forehead and imbues him or her with the spirit of the living flame. In a moment of intense, unutterable pain, the mortal spasms and collapses with his veins glowing white hot through his skin and smoke pouring from his eyes, ears, nose and mouth. A moment later, the mortal\u2019s flesh burns away entirely and he rises as a blackened skeleton surrounded by swirling yellow fire. To activate this Boon, the God\u2019s player spends five Legend points and rolls (Charisma + Command). With the base activation, the God can transform a number of willing mortals equal to his Legend. Each additional Legend point he spends adds another number of willing mortals equal to his Legend."
+        ],
+        [
+            "Inferno",
+            "Dice Pool: Charisma + Craft \nCost: 3 Legend \nWith a shouted word, a Scion can cause an area in his line of sight to instantly burst into flame. The flame has the intensity of a bonfire, and it covers an area with a radius in yards equal to the number of successes on the activation roll. The flames stand as high from a flat surface as the Scion is tall. This fire can burn without fuel for a number of minutes equal to the Scion\u2019s Legend. When that time is up, the flames go out if they still don\u2019t have any fuel. People who are within the area the Scion intends to set alight get a single chance to escape the affected area unharmed before the fire starts. To do so, their players must get more successes on a (Dexterity + Athletics) roll than the Scion\u2019s player got on the activation roll, and the character must be able to get out of the area in one action."
+        ],
+        [
+            "Shaping",
+            "Dice Pool: Dexterity + Craft (to shape) \nCost: 1 Legend \nThe Scion can sculpt stone, concrete, fired clay or metal with his bare hands. When he spends the point of Legend, the substance becomes malleable like wet clay for as long as he touches it. With a successful (Dexterity + Craft) roll by his player, the Scion can shape it into any form his nimble fingers can produce. The Scion can affect up to one cubic foot of material at a time. Once he breaks contact with the substance he is shaping, it loses all malleability and sets in its new form."
+        ],
+        [
+            "Flame Travel",
+            "Dice Pool: None \nCost: 1 Legend \nThe Scion can leap into any fire he can get to and instantly emerge from either another fire within his line of sight or one upon which he has used Bolster Fire (Fire \u2022\u2022) in the scene. The fires he enters and exits must be at least as big around as he is. The Scion doesn\u2019t actually touch either fire through which he travels, so he doesn\u2019t necessarily have to have Fire Immunity to use this Boon. He emerges right beside the fire through which he exits, though, so heat and smoke are factors to consider."
+        ],
+        [
+            "Shaping",
+            "Dice Pool: Dexterity + Craft (to shape) \nCost: 1 Legend \nThe Scion can sculpt stone, concrete, fired clay or metal with his bare hands. When he spends the point of Legend, the substance becomes malleable like wet clay for as long as he touches it. With a successful (Dexterity + Craft) roll by his player, the Scion can shape it into any form his nimble fingers can produce. The Scion can affect up to one cubic foot of material at a time. Once he breaks contact with the substance he is shaping, it loses all malleability and sets in its new form."
+        ],
+        [
+            "Hotter Than Hot",
+            "Dice Pool: Wits + Control \nCost: 5 Legend \nWhen a God of Fire decides to turn up the heat, it\u2019s time to get out of the kitchen \u2014 things are going to get really hot. Invoking the Hotter than Hot Boon amplifies the mystical force that powers a God\u2019s Fire Boons. For the rest of the scene, any time the God uses a Fire Boon, it automatically trumps the simple Fire Immunity (Fire 1) Boon. While many advanced powers can overcome the immunity of beings with lower Legend ratings, a power enhanced with Hotter than Hot suffers no such limitation: It cuts right though fire resistance like it\u2019s not there. In fact, the supercharged flames that a God wields in conjunction with this Boon are so deadly, they can injure or kill creatures that are made entirely of fire. Whether it\u2019s another Scion in Devil Body form or an Ifrit, fire elemental or salamander, beings that normally enjoy total protection from fire now realize what \u201cscorching\u201d really means."
+        ],
+        [
+            "Earth Creation",
+            "Dice Pool: Stamina + Craft \nCost: 1 Legend per cubic yard \nThe God\u2019s mastery of the Purview is such that he can literally create stone, earth and metal from nothing. He only puts his hands together before him and wills the material into being as his player spends five Legend and rolls (Stamina + Craft). With this Boon, he can create anything from sand to loam to granite to diamonds to steel. Any substance that the Earth Purview covers is fair game. Even glass is okay, as it\u2019s chiefly made from silica."
+        ],
+        [
+            "Devil Body",
+            "Dice Pool: None \nCost: 1 Willpower + 3 Legend \nUpon activating this Boon, the character\u2019s body immediately becomes a human-shaped pillar of white-hot flame. His features are unrecognizable except in silhouette (if he has a distinctive silhouette), and his voice has the quality of a roaring bonfire. In this form, the character\u2019s merest touch can set things alight or burn flesh. Touching the character inflicts a number of levels of lethal damage equal to his Legend. If the character physically attacks someone, the player adds that many extra levels of lethal damage to the results of his damage roll. The flames of the Scion\u2019s body can even burn a fellow Scion who has Fire Immunity (Fire 1) if that Scion\u2019s Legend is lower, though the lesser Scion suffers automatic fire damage equal to only the difference in their Legend ratings. The character\u2019s semisolid form also absorbs an amount of damage equal to the character\u2019s Legend from all physical attacks."
+        ],
+        [
+            "Rust/Shine",
+            "Dice Pool: None \nCost: 2 Legend \nWith a pass of the hand, the Scion causes a coating of rust or oxidization to form on a metallic object or conversely removes such a coating, restoring an item to its untarnished form. A rusted metal object loses durability and functionality. Its Hardness decreases to half normal, and if the object is a precision item (like a gun), it has a 50% chance to malfunction any time it\u2019s used. Restoring a rusted item to its original state wipes away all traces of age and even reverses the effects, so that a wholly rusted-out car body (for instance) would be as good as new. The rusted parts don\u2019t just disappear, they reverse the process and become solid metal again. Invoking this power on an item requires the Scion to physically touch or manipulate the object, and it has no effect on metals that don\u2019t rust (such as gold) or upon Relics."
+        ],
+        [
+            "Echo Sounding",
+            "Dice Pool: Perception + Awareness \nCost: None \nBy stomping or otherwise knocking on the earth, the Scion gets a sense of its general composition and density, as well as finding holes or caves beneath the surface. If he\u2019s looking for something specific in the earth\u2014such as gold, oil or a human body\u2014this Boon reveals its distance from him and depth from the epicenter at the expense of the other information. The Boon works only at ground level or on the up-thrust surface of a mountainside, but it works through floors and pavement. It gives the Scion a semispherical reading with a radius equal to one half mile per dot of Legend."
+        ],
+        [
+            "Fire's Eye",
+            "Dice Pool: Perception + Awareness \nCost: 1 Legend \nThe Scion can see out of any fire that A.) is already within his line of sight or B.) he affected with Bolster Fire. The Scion cannot hear what is happening around a distant fire, and his field of vision remains the same through the fire as it is through his eyes. He may physically move his head or turn his body in place to change his remote perspective, though. While he looks through the fire, the Scion can\u2019t see from his own perspective. He may maintain his remote perspective for as long as he wishes."
+        ],
+        [
+            "Earth Creation",
+            "Dice Pool: Stamina + Craft \nCost: 1 Legend per cubic yard \nThe God\u2019s mastery of the Purview is such that he can literally create stone, earth and metal from nothing. He only puts his hands together before him and wills the material into being as his player spends five Legend and rolls (Stamina + Craft). With this Boon, he can create anything from sand to loam to granite to diamonds to steel. Any substance that the Earth Purview covers is fair game. Even glass is okay, as it\u2019s chiefly made from silica."
+        ],
+        [
+            "Earth Travel",
+            "Dice Pool: None \nCost: 1 Legend \nThe Scion can reflexively sink into the bare earth or stone or metal and move through it like a swimmer through water. The Scion can move only through a volume of earth large enough to accommodate his entire body. Also, unless the Scion has Safely Interred (Earth \u2022), he can remain within the earth for only as long as he can hold his breath. If he stays under longer, he begins to drown. While he\u2019s under, the Scion instinctively knows his way to the nearest air."
+        ],
+        [
+            "Ifrit",
+            "Dice Pool: Charisma + Command \nCost: 5+ Legend \nWith this Boon, a God turns faithful mortal worshipers into powerful servants of living flame. If the mortals are willing to undergo the transformation, the God lays a hand on each mortal\u2019s forehead and imbues him or her with the spirit of the living flame. In a moment of intense, unutterable pain, the mortal spasms and collapses with his veins glowing white hot through his skin and smoke pouring from his eyes, ears, nose and mouth. A moment later, the mortal\u2019s flesh burns away entirely and he rises as a blackened skeleton surrounded by swirling yellow fire. To activate this Boon, the God\u2019s player spends five Legend points and rolls (Charisma + Command). With the base activation, the God can transform a number of willing mortals equal to his Legend. Each additional Legend point he spends adds another number of willing mortals equal to his Legend."
+        ],
+        [
+            "Bolster Fire",
+            "Dice Pool: None \nCost: 1 Legend per scene \nNormally, fire needs oxygen to breathe and fuel to consume. With this Boon, a Scion removes both necessities from a single flame for one scene. He could keep a single torch (or even a match) lit for hours as he explores a dark labyrinth. He could cause the tiny spark at the end of a fuse to burn in place without moving. This Boon is also good for keeping a source of flame from consuming the breathable air in an enclosed space."
+        ],
+        [
+            "Safely Interred",
+            "Dice Pool: None \nCost: None \nWhether the character is caught up in a landslide, buried in a shallow grave by the roadside or trapped in the rubble of a collapsing building, he need not fear the earth\u2019s embrace as long as he has his Earth Birthright. No amount of collapsing rubble can break the Scion\u2019s bones (or the Birthright itself), and he won\u2019t suffocate no matter how much dirt piles onto him. If he lacks the strength to free himself, however, he does run the risk of either starving to death or dying of thirst if no one digs him out. Yet, it would not be the earth that kills him, but his own lack of fortitude."
+        ],
+        [
+            "Echo Sounding",
+            "Dice Pool: Perception + Awareness \nCost: None \nBy stomping or otherwise knocking on the earth, the Scion gets a sense of its general composition and density, as well as finding holes or caves beneath the surface. If he\u2019s looking for something specific in the earth\u2014such as gold, oil or a human body\u2014this Boon reveals its distance from him and depth from the epicenter at the expense of the other information. The Boon works only at ground level or on the up-thrust surface of a mountainside, but it works through floors and pavement. It gives the Scion a semispherical reading with a radius equal to one half mile per dot of Legend."
+        ],
+        [
+            "Property Infusion",
+            "Dice Pool: Intelligence + Science \nCost: 5 Legend per property \nTo a God, any property a material has based on its atomic structure is just one more degree of manipulation he can effect upon the material. If the God can identify a specific property of a material that falls under the Earth Purview, he can switch its quality out with the property of another material under the same Purview."
+        ],
+        [
+            "Blazing Weapon",
+            "Dice Pool: None \nCost: 1 Legend per weapon \nThe Scion reaches into a flame that\u2019s at least as big as a campfire and pulls out a blazing melee weapon made of flickering fire. The weapon can be of any shape and size, but the distinction is largely a matter of personal taste, rather than available traits. These weapons do not use the normal traits from the chart in Scion: Hero. Instead, when the character removes the weapon from the fire, the player receives a base number of points equal to the Scion\u2019s Legend for each weapon. These points can add to a base Accuracy +0, Damage +0 and Defense -1, and they can subtract from a starting Speed 6 (reducing it to a minimum of 1). The player assigns the weapon\u2019s traits as the character produces the weapon, and he can\u2019t change them afterward."
+        ],
+        [
+            "Imprisoning Crystal",
+            "Dice Pool: Strength + Craft \nCost: 5 Legend, +1 Legend per Legend dot of the target \nA massive shard of crystal coalesces around the Scion\u2019s target. If the player\u2019s (Strength + Craft) roll bests the opponent\u2019s (Strength + Fortitude + Legend), then the opponent becomes encased in a clear, translucent, many-faceted shard of crystal. This prison holds the opponent in place but also renders it immune to physical attack. Unless something manages to penetrate the crystal, the occupant, in stasis, remains unaffected."
+        ],
+        [
+            "Earth Armor",
+            "Dice Pool: None \nCost: 1 Legend \nThe Scion stomps a foot or pounds a fist on the bare earth, and a thick cloud of particles of the substance rises into the air around him. This cloud swirls around him and accumulates on his body like a suit of plate armor plus helmet. Any earthen substance will suffice, from gravel to mud to sand. The armor the coating of particles creates has a bashing and lethal Hardness and soak equal to half the Scion\u2019s Legend (rounded up), as well as a mobility penalty equal to that of riot gear. It lasts for the rest of the scene, at the end of which it shatters into a million pieces and falls at the Scion\u2019s feet. A Scion with Shaping (Earth \u2022\u2022\u2022) can craft the armor into a stylized shape, but only if the Scion wearing the armor remains inactive long enough to allow it."
+        ],
+        [
+            "Flamin' Bullets",
+            "Dice Pool: None \nCost: 1 Legend per scene \nThe Scion reaches into a source of flame \u2014 anything from a candle to a bonfire will do \u2014 and then \u201cloads\u201d that fire into a projectile weapon. The weapon becomes wreathed in flames, and for the rest of the scene, the weapon belches blasts of Legend-fueled fire. The weapon still consumes normal ammunition, but the shots become imbued with \u201cfire power,\u201d so to speak. The fiery rounds also inflict lethal damage, even against creatures that normally take bashing damage from bullets, such as the walking dead. The fiery rounds add +1 Accuracy and Damage to the weapon and also allow it to light targets on fire. Shooting the gas tank of a car with a pistol really can produce an explosive ending when Flamin\u2019 Bullets are used."
+        ],
+        [
+            "Control Fire",
+            "Dice Pool: Wits + Control \nCost: 5+ Legend \nA fire must burn, but when a God has this Boon, fire burns as he commands. To take control of the fire, the God need only stare into it and spend Legend points. When he does so, the fire becomes a three-dimensional mass that he can manipulate in all three dimensions in any way his imagination can conceive. For five Legend points, the God can manipulate 10 cubic yards of fire (based on its surface area and height). If less than 10 cubic yards of fire is present, the God can increase the present amount of fire to fill that volume. For each additional Legend point he spends, the God can increase the amount of fire under his control by 10 more cubic yards. (The God can spend no more additional points of Legend beyond the mandatory five than he has dots of Legend.) The God can move and shape fire under his control in all three dimensions\u2014lifting it off the ground entirely or making it take any three-dimensional shape he desires. He can even mold the fire into a recognizable shape and have it take actions."
+        ],
+        [
+            "Hotter Than Hot",
+            "Dice Pool: Wits + Control \nCost: 5 Legend \nWhen a God of Fire decides to turn up the heat, it\u2019s time to get out of the kitchen \u2014 things are going to get really hot. Invoking the Hotter than Hot Boon amplifies the mystical force that powers a God\u2019s Fire Boons. For the rest of the scene, any time the God uses a Fire Boon, it automatically trumps the simple Fire Immunity (Fire 1) Boon. While many advanced powers can overcome the immunity of beings with lower Legend ratings, a power enhanced with Hotter than Hot suffers no such limitation: It cuts right though fire resistance like it\u2019s not there. In fact, the supercharged flames that a God wields in conjunction with this Boon are so deadly, they can injure or kill creatures that are made entirely of fire. Whether it\u2019s another Scion in Devil Body form or an Ifrit, fire elemental or salamander, beings that normally enjoy total protection from fire now realize what \u201cscorching\u201d really means."
+        ],
+        [
+            "Shaping",
+            "Dice Pool: Dexterity + Craft (to shape) \nCost: 1 Legend \nThe Scion can sculpt stone, concrete, fired clay or metal with his bare hands. When he spends the point of Legend, the substance becomes malleable like wet clay for as long as he touches it. With a successful (Dexterity + Craft) roll by his player, the Scion can shape it into any form his nimble fingers can produce. The Scion can affect up to one cubic foot of material at a time. Once he breaks contact with the substance he is shaping, it loses all malleability and sets in its new form."
+        ]
+    ],
+    "nature": "Architect",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 26,
+        "move": 20,
+        "climb": 25,
+        "jump": {
+            "horizontal": 54,
+            "vertical": 27
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 30,
+        "parry_dv": 20
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 1,
+        "animal_ken": 2,
+        "art": 3,
+        "athletics": 2,
+        "awareness": 3,
+        "brawl": 3,
+        "command": 1,
+        "control": 2,
+        "craft": 3,
+        "empathy": 3,
+        "fortitude": 2,
+        "integrity": 2,
+        "investigation": 3,
+        "larceny": 1,
+        "marksmanship": 0,
+        "medicine": 1,
+        "melee": 2,
+        "occult": 3,
+        "presence": 0,
+        "politics": 0,
+        "science": 3,
+        "stealth": 1,
+        "survival": 1,
+        "thrown": 2
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 25,
+        "lethal": 28.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 11,
+    "god": "Hephaestus",
+    "pantheon": "Dodekatheon",
+    "name": "Mzia Tsoukalas"
+}

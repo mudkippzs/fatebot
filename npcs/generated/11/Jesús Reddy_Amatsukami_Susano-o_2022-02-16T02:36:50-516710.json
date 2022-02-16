@@ -1,0 +1,425 @@
+{
+    "attributes": {
+        "stre": 9,
+        "dex": 11,
+        "sta": 7,
+        "cha": 7,
+        "man": 11,
+        "app": 7,
+        "per": 9,
+        "inte": 11,
+        "wits": 9
+    },
+    "epic_attributes": {
+        "epic_stre": 4,
+        "epic_dex": 5,
+        "epic_sta": 6,
+        "epic_cha": 4,
+        "epic_man": 4,
+        "epic_app": 5,
+        "epic_per": 5,
+        "epic_int": 10,
+        "epic_wits": 6
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        0,
+        2,
+        1,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Divine Rampage",
+            "description": [
+                "Prerequisite Knack: Holy Rampage (Scion: Hero, p. 126) When a demigod with this Knack wants to break something, that thing is not long for this world. Like Holy Rampage, this Knack aids in the character\u2019s attempt to destroy an inanimate object. If the target object is not under his control \u2014 such as a weapon or armor that someone else happens to be using \u2014 its Hardness and soak are considered to be halved when the Scion attempts to break it. If the target object is freestanding or under the Scion\u2019s control, the object\u2019s Hardness and soak are considered to be 0 against the Scion\u2019s attack. Using this Knack costs one Legend point per action.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Instant Assessment",
+            "description": [
+                "With a quick glance, and the expenditure of one Legend point, the Scion can size up a foe with whom he intends to join battle. This assessment comes across in terms of how the foe\u2019s combat abilities compare to the Scion\u2019s own. He gets a sense of whether the foe has more or fewer dots of Physical Attributes (Epic and otherwise) than he does. The same goes for their relative number of dots in Brawl, Marksmanship, Melee and Thrown, as well as their relative Join Battle dice pools and their soak totals. Also, if some power or special quality renders the foe especially vulnerable or completely invulnerable to something to which the Scion has ready access, the Scion gets a sense of that as well. What the Scion decides to do with this information is up to him. This information occurs re\ufb02exively to the Scion who uses the Knack, and he may assess as many foes automatically as he spends points of Legend.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Divine Wrath",
+            "description": [
+                "Prerequisite Knack: Crushing Grip (Scion: Hero, p. 126) A Scion with the demigod range of Epic Strength already needs no weapons to in\ufb02ict serious damage in combat, but a Scion with this Knack is even more fearsome. The prerequisite Knack enables him to in\ufb02ict lethal damage during a clinch that he controls, and this Knack builds on that to awful effect. If the Scion spends a point of Legend during a clinch, he can make a single attack in\ufb02ict aggravated damage instead of lethal. What\u2019s more, his normal unarmed combat attacks now in\ufb02ict lethal damage instead of bashing damage. Keep in mind that that lethal damage is now the standard damage he in\ufb02icts unarmed, regardless of whether he spends the point of Legend to make a single clinch\u2019s damage aggravated. The Scion can pull his punches and in\ufb02ict only bashing damage if he wants to, but doing so incurs the \u201cFlat of the Blade\u201d rule from page 199 of Scion: Hero.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Cobra Reflexes",
+            "description": [
+                "The character is so quick on the draw that even a surprise attacker is not safe from him. If someone attacks him from surprise but the character\u2019s player fails to get enough successes on the (Wits + Awareness) roll to notice the attack coming, the Scion may still attack his attacker back at the same time. This counterattack is so lightning quick that it catches the attacker off guard as if he were also being caught by an unexpected attack. The Scion himself might not realize he\u2019s taken the attack action until the ambusher\u2019s attack has already hurt him.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Hurl to the Moon",
+            "description": [
+                "Prerequisite Knack: Mighty Heave (Scion: Demigod, p. 55) A character with Epic Strength can throw normal-sized objects (such as baseballs or darts) ridiculously far. He can also lift incredibly heavy objects. He can even throw those heavy objects, but he can\u2019t throw them very far. A God with the utmost in Strength and Athletics and 10 dots of Epic Strength can throw something he can lift with Epic Strength 9 only about 400 yards away. If the object is big enough \u2014 if it\u2019s a nuclear submarine, for instance, with a bay full of missiles that are about to explode \u2014 400 yards isn\u2019t very far at all. With this Knack, however, a character can hurl an object that he can lift and throw as a feat of strength as far as he can throw a dart without penalties deriving from Range. The sort of epic feats this Knack allow work best as narrative effects in combat, as the logistics of hurling such projectiles as fire stations, the Washington Monument or J\u00f6rmungandr at one\u2019s enemies can get somewhat more math-intensive than is strictly ideal. Hurl to the Moon does not affect the distance a character can throw a normal-sized object, but it does intensify the damage such an object can cause. Such damage is considered aggravated, and the projectile takes on the Piercing quality if it does not already have it. Each attack thus enhanced costs the God two points of Legend, however.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Jack of All Trades",
+            "description": [
+                "If a character has no aptitude for a particular Ability (i.e., no dots in it), he cannot apply any bonus successes from his Epic Attributes to rolls that use that Ability. He simply doesn\u2019t understand enough about what he\u2019s doing to apply his full talent. With this Knack, however, the character gets a feel for any activity remarkably quickly. As such, he can apply some of his appropriate Epic Attribute bonus to the appropriate roll, despite the fact that he has no dots in the relevant Ability. In such a circumstance, a player can enhance a roll with this Knack and add a number of bonus successes from his character\u2019s Epic Attribute equal to the number of dots he has in the Epic Attribute. Enhancing a roll with this Knack\u2019s benefit costs two Legend points.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Crushing Grip",
+            "description": [
+                "The Scion is a fearsome wrestler and grappler not to be tri\ufb02ed with. When he\u2019s locked in a clinch and has taken control of it, the character can not only in\ufb02ict the normal amount of damage (see p. 202), but that damage is now lethal as well. A character can still choose to hold an opponent without in\ufb02icting damage, or he can choose to break the hold. He can even soften his touch and in\ufb02ict bashing damage instead. The damage the character can in\ufb02ict when his temper gets riled, though, is tremendous and often quite messy.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Perfect Imposter",
+            "description": [
+                "Prerequisite Knack: Social Chameleon (Scion: Hero, p. 136) Impersonating someone in order to in\ufb01ltrate his home or workplace or to get dangerously close to someone he cares about is more dif\ufb01cult the less well the impersonator knows his subject. The best makeup and disguise means nothing if the imposter can\u2019t react to life\u2019s little surprises exactly as the subject of his mimicry would react. With this Knack, however, the Scion can discern with preternatural quickness how the people who think he\u2019s someone else expect that someone else to react. Their minute changes of expression or body language give their expectations away, allowing the imposter to react accordingly. For the most part, this Knack plays itself out without resorting to dice rolls or trait comparisons. As the imposter\u2019s player roleplays (and the imposter himself does so also), the Storyteller simply informs him of what the unsuspecting characters\u2019 expectations are, and the player chooses his imposter\u2019s reactions accordingly. This Knack does not provide a supernatural disguise that would fool someone with the Unfailing Recognition Knack (from Scion: Hero, p. 134), but even if such a Scion can see through the imposter\u2019s disguise, his recognition alone would not be enough to convince anyone else. The imposter retains the wherewithal to stand up to any impromptu interrogation and maintain his charade in everyone else\u2019s eyes, thus making the only other Scion who knows the imposter\u2019s true identity look like a horse\u2019s ass or a liar.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Making It Look Easy",
+            "description": [
+                "When a character performs a feat of strength, doing so takes every bit of effort the character can muster. He doesn\u2019t just lift a blue whale by the tail and hammer throw it back into the ocean between bites of scone. He grunts and strains and struggles until he gets enough momentum behind the whale for it to leave the ground, and when he lets it go, it\u2019s with a resounding shout of strain and a near collapse of relief as it sails out over the water. The name of this Knack, however, speaks for itself. Any action the character can perform as a feat of strength, he can perform as if it\u2019s no effort at all. He can lift the heaviest weights with one hand while using his other hand to cover a yawn. He can throw a spear into orbit with a flick of his finger. He can scoop the beached whale up in one hand and send it skipping like a stone out into the deep water where it can move freely (if dizzily) once again. Since such feats of strength are so easy, the character can execute multiple actions while performing feats of strength.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Adaptive Fighting",
+            "description": [
+                "By registering how an opponent defends, the Scion gains insight into how to launch a successful attack. The Scion\u2019s Epic Wits allow him to adjust his offense immediately after failing to touch an enemy. After missing an opponent with an attack, the Scion\u2019s player spends one point of Legend. On the Scion\u2019s next attack against that same opponent, the player adds his character\u2019s Epic Wits as extra dice on the attack roll, to a maximum of +3. For demigods, the player may spend two points of Legend to increase the bonus to a maximum of +6, and for Gods, the player may spend three points of Legend to increase the bonus to the character\u2019s full Epic Wits rating with no maximum. If this attack misses or if the Scion chooses not to attack again, then the bonus is lost.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Mighty Heave",
+            "description": [
+                "Prerequisite Knack: Hurl to the Horizon (Scion: Hero, p. 126) This Knack automatically triples the distance a demigod Scion can throw a heavy object as a feat of strength. That tripling comes not only after the modi\ufb01cation based on the character\u2019s Epic Strength but also after the doubling provided by the prerequisite Knack. (In effect, it multiplies his feat-of-strength throwing distance by six.) Using this Knack costs a point of Legend. Mighty Heave does not affect the distance a Scion can throw a normal-sized object, but it does intensify the damage such an object can cause. Thrown weapons or other thrown items that would normally cause bashing damage (a coconut, for example) in\ufb02ict lethal damage and take on the Piercing quality instead when the Scion uses Mighty Heave. Items that would normally cause lethal damage still cause only lethal damage, but they ignore armor when the Scion uses Mighty Heave.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Titanium Tools",
+            "description": [
+                "While Relics may be made of stern stuff, the usual off-the-shelf \u201cauthentic katana\u201d tends to fold like the cheap steel that it is when it connects with something under the force of Epic Strength. With this Knack, any tool or item that the Scion picks up benefits from the same bends and loopholes in the laws of physics that allow Epic Strength to defy both leverage and structural integrity. The Scion could use a wooden board to clobber a thug, or he could ram a flimsy iron fireplace poker right through a wall of concrete with the full force of his Epic Strength. In either case, the tool would remain reasonably intact (albeit with some cosmetic wear). Such guarantees are particularly handy when using an object of questionable strength to beat a titanspawn to death without destroying the item in question (such as a snow globe intended as a present). Note that Titanium Tools doesn\u2019t improve the Hardness or rigidity of an item. A cheap katana can still be snapped in half by an angry titanspawn that decides to target the blade. A limp spaghetti noodle is no better a weapon with this Knack than without. Titanium Tools simply allows the Scion to use objects that might be feasible as weapons under normal circumstances and subject them to the extraordinary effects of his Epic Strength without breaking them, for as long as he wields the object.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Uplifting Might",
+            "description": [
+                "The Scion can lift and hold tremendous loads that would stagger even other Scions with Epic Strength. After checking the character\u2019s lift capacity on the \u201cFeats of Strength\u201d table then adjusting that capacity based on the character\u2019s Epic Strength, this Knack (and the expenditure of one point of Legend) doubles that lift capacity. This Knack doesn\u2019t affect a character\u2019s ability to break or throw an object.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Rabbit Reflexes",
+            "description": [
+                "When an unexpected attack targets the character with this Knack but the character\u2019s player fails to get enough successes on the (Wits + Awareness) roll to notice the attack coming, the Scion instinctively defends herself with double her highest applicable DV. The character cannot preemptively attack her attacker or even shout out a warning to her comrades, as she\u2019s reacting to an attack that\u2019s already taking place, but she is much more likely to dodge or parry that attack. Nonetheless, the character cannot actually join battle herself until everyone else does after the unexpected attack is resolved.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Opening Salvo",
+            "description": [
+                "The character\u2019s tongue is sharp; with it she can wound a foe to the quick. When the character says something witty (or just catty) to a person and that remark is designed to trip him up or humiliate him, the victim loses one Willpower point. Inflicting this sting with such a venomous put-down (even if it\u2019s actually just a tired Yo-Momma joke the player came up with on the spur of the moment) costs the user one Legend point. The only caveat to this Knack is that the player must actually come up with the gibe in question. It doesn\u2019t have to be good; she just has to say something.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Eye of the Storm",
+            "Dice Pool: None \nCost: 1 Legend per scene \nWhen the Scion finds herself caught up in a chaotic situation unrelated to her\u2014whether she\u2019s dodging a tornado\u2019s debris or emerging from a bar to find a berserk mob rushing toward her to clash with a line of riot cops down the street\u2014she can activate this Boon and become an island of calm in the tumult. She is miraculously untouched in the confusion, and she remains so for as long as she doesn\u2019t actively involve herself. She still suffers normal environmental movement penalties, but environmental dangers such as falling rocks, stampeding beasts or thrashing rioters all fail to touch her."
+        ],
+        [
+            "The Watchful Spirit",
+            "Dice Pool: Charisma + Presence \nCost: 1 Legend \nThe Scion can not only coax information from a kami, but also set it to some passive task on her behalf. She can, for example, have the kami watch out for a specific person, observe any titanspawn who approach, or remember and repeat anything another Scion says to it. This period of duty lasts for a number of days equal to the number of successes the character amassed on the activation roll."
+        ],
+        [
+            "The Summoned Spirit",
+            "Dice Pool: Charisma + Occult \nCost: 1 Legend \nBy constructing a temporary shrine devoted to a kami whose name she knows\u2014and whose Legend is less than her own\u2014the Scion can call upon that kami wherever she is. The spirit\u2019s face materializes in the shrine, and the Scion may attempt to use any Tsukumo-Gami Boons she possesses on it, just as if she were in the being\u2019s physical presence. The kami can also cause to materialize above the shrine an image of what\u2019s happening at the kami\u2019s physical location, allowing the Scion to remotely witness that location as the kami sees and hears it. This contact lasts for a maximum number of minutes equal to the successes on the activation roll. The kami can break off contact as well if the Scion offends it."
+        ],
+        [
+            "Drown",
+            "Dice Pool: Dexterity + Science \nCost: 1 Legend + 1 Willpower \nWith a soft caress, the Scion causes the target\u2019s lungs to start filling with fluid. Over the course of several ticks, the target drowns on this viscous internal flood until it either fights off the demigod\u2019s power or collapses in a heap."
+        ],
+        [
+            "Purify Water",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Willpower + 5 Legend \nBy touching a source of water, a God can purge it of every impurity that isn\u2019t a water molecule. The only material that is not purged is the salt in seawater, if the God chooses to selectively ignore it. Otherwise, anything polluting the water\u2014from simple dirt to poison to an oil slick riding on the surface\u2014disappears, leaving pure water behind."
+        ],
+        [
+            "Tornado Tamer",
+            "Dice Pool: Wits + Control \nCost: 4 Legend per dot of Epic Strength (max \u2022\u2022\u2022\u2022) \nThe Scion has a pet tornado. He captures it and puts it away when he doesn\u2019t need it; he lets it out when he does need it. When he sets it loose, it swirls and howls in front of him, ready to obey his every command\u2014yet eager to run wild if he should lose control."
+        ],
+        [
+            "Create Water",
+            "Dice Pool: Stamina + Craft \nCost: 2 Legend per quantity \nThe Scion extends her hands and water pours forth from her open palms. For every two Legend points spent, she can create a quantity of gallons equal to the successes on the activation roll. This water can be either salt or fresh water, though one activation roll can create only one or the other. The water comes from the Scion\u2019s hands at room temperature, about as fast as it comes out of a normal faucet on full blast\u2014at a rate of roughly two gallons per minute."
+        ],
+        [
+            "Dessicate",
+            "Dice Pool: Strength + Medicine \nCost: 1 Legend + 1 Willpower \nWhen she touches an opponent\u2019s bare skin, the Scion can suck the water right out of that opponent\u2019s body. This attack inflicts an amount of lethal damage equal to successes on the activation roll, minus the opponent\u2019s lethal soak."
+        ],
+        [
+            "The Industrious Spirit",
+            "Dice Pool: Charisma + Occult \nCost: 10 Legend (+ 1 Willpower dot\u2014optional) \nA kami is the undeniable master of the item of which it is the spirit. Any fact that can be known about the item, the kami knows. Anything that can normally be done with the item, the kami can do. It is aware of even the smallest microscopic change in the item, as well as how the item is being used at any given time."
+        ],
+        [
+            "Liquid Form",
+            "Dice Pool: None \nCost: 1 Willpower + 5 Legend \nWith a thought, a character can transform his body into pure, clear water. The water can take any shape, from that of its current container\u2014with a volume equal to that of the character\u2019s natural form\u2014to a humanoid form that resembles the character. In a larger volume of water, the character can move at twice his normal speeds. On land, the God can move at his normal speeds. He can walk on water\u2019s surface or plunge into it. He can manipulate objects in this form just as well as if he were in his normal form. If he has Water Control (Water 2)\u2014at least\u2014and Create Water (Water 4), he can make for himself any type of melee weapon he can imagine out of pure water, which works just as well as a normal version."
+        ],
+        [
+            "Levin Fury",
+            "Dice Pool: Wits + Marksmanship \nCost: 3 Legend per attack \nThis Boon calls upon the power of lightning, either from the sky or from the Scion himself. To use it, the Scion raises a hand heavenward or points his Birthright weapon at his intended foe. At his behest, lightning either lances down from the sky or launches from the weapon itself to smite the victim. Each such bolt inflicts 15 dice of lethal damage plus extra successes on the Marksmanship roll. An attack that inflicts damage also inflicts knockdown or knockback automatically."
+        ],
+        [
+            "Eye of the Storm",
+            "Dice Pool: None \nCost: 1 Legend per scene \nWhen the Scion finds herself caught up in a chaotic situation unrelated to her\u2014whether she\u2019s dodging a tornado\u2019s debris or emerging from a bar to find a berserk mob rushing toward her to clash with a line of riot cops down the street\u2014she can activate this Boon and become an island of calm in the tumult. She is miraculously untouched in the confusion, and she remains so for as long as she doesn\u2019t actively involve herself. She still suffers normal environmental movement penalties, but environmental dangers such as falling rocks, stampeding beasts or thrashing rioters all fail to touch her."
+        ],
+        [
+            "Wind's Freedom",
+            "Dice Pool: None \nCost: 1 Legend + 1 Willpower per scene \nThe Scion laughs in the face of gravity. For the rest of the scene, the distances the Scion can move or dash per action remain normal, but they now apply to the Z-axis as well as the X- and Y-axes. All the normal rules for movement remain in place, except that the character can now move freely through all three dimensions (i.e., he can fly). He can even hold still in midair if he wants to. The only thing a character can\u2019t do in midair that he could do on the ground is jump, as there\u2019s nothing to jump off of."
+        ],
+        [
+            "Eye of the Storm",
+            "Dice Pool: None \nCost: 1 Legend per scene \nWhen the Scion finds herself caught up in a chaotic situation unrelated to her\u2014whether she\u2019s dodging a tornado\u2019s debris or emerging from a bar to find a berserk mob rushing toward her to clash with a line of riot cops down the street\u2014she can activate this Boon and become an island of calm in the tumult. She is miraculously untouched in the confusion, and she remains so for as long as she doesn\u2019t actively involve herself. She still suffers normal environmental movement penalties, but environmental dangers such as falling rocks, stampeding beasts or thrashing rioters all fail to touch her."
+        ],
+        [
+            "Divine Threnody",
+            "Dice Pool: Intelligence + Art \nCost: 2 Legend \nAn oft-overlooked element of the Sky Purview is the fact that air carries sound. The most graphic example of this is thunder, which is commonly associated with sky gods; wind, too, is said to howl or moan, as if the sky itself has a voice. A demigod who delves into the nature of thunder and sound can learn to manipulate the currents of air that carry sound and thereby enhance or dampen sonic effects."
+        ],
+        [
+            "Changing States",
+            "Dice Pool: Dexterity + Craft \nCost: 1 Legend + 1 Willpower \nDefying the laws of thermodynamics, the Scion can instantly change the state of a body of water just by touching it. With this Boon, she can take liquid water, steam, ice or fog and change any one into any of the other three. The amount of water she can affect is the same as per Water Control, and the water remains in its new state for a number of actions equal to the successes rolled to activate the Boon. Water under this effect is also subject to the Scion\u2019s Water Control as long as the Scion maintains contact with some portion of it."
+        ],
+        [
+            "Purify Water",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Willpower + 5 Legend \nBy touching a source of water, a God can purge it of every impurity that isn\u2019t a water molecule. The only material that is not purged is the salt in seawater, if the God chooses to selectively ignore it. Otherwise, anything polluting the water\u2014from simple dirt to poison to an oil slick riding on the surface\u2014disappears, leaving pure water behind."
+        ],
+        [
+            "The Industrious Spirit",
+            "Dice Pool: Charisma + Occult \nCost: 10 Legend (+ 1 Willpower dot\u2014optional) \nA kami is the undeniable master of the item of which it is the spirit. Any fact that can be known about the item, the kami knows. Anything that can normally be done with the item, the kami can do. It is aware of even the smallest microscopic change in the item, as well as how the item is being used at any given time."
+        ],
+        [
+            "Cloud Body",
+            "Dice Pool: None \nCost: 10 Legend \nWith this Boon, the character turns his body and the possessions on his person into a nigh-intangible ephemera of cloud. His appearance does not change, but solid objects pass through him as if he were a visible ghost, and his touch is cold like the caress of fog. He becomes impervious to physical damage, and he can squeeze his transformed body through the narrowest gaps. In this form, he can also fly. While he\u2019s flying, he can interact with clouds as if they were as solid as earth. If he should find a sufficiently large bank of cumulus and cumulonimbus clouds and use Cloud Sculptor (Sky \u2022\u2022\u2022\u2022\u2022) on them, he could build himself a castle in the air."
+        ],
+        [
+            "Eye of the Storm",
+            "Dice Pool: None \nCost: 1 Legend per scene \nWhen the Scion finds herself caught up in a chaotic situation unrelated to her\u2014whether she\u2019s dodging a tornado\u2019s debris or emerging from a bar to find a berserk mob rushing toward her to clash with a line of riot cops down the street\u2014she can activate this Boon and become an island of calm in the tumult. She is miraculously untouched in the confusion, and she remains so for as long as she doesn\u2019t actively involve herself. She still suffers normal environmental movement penalties, but environmental dangers such as falling rocks, stampeding beasts or thrashing rioters all fail to touch her."
+        ],
+        [
+            "Changing States",
+            "Dice Pool: Dexterity + Craft \nCost: 1 Legend + 1 Willpower \nDefying the laws of thermodynamics, the Scion can instantly change the state of a body of water just by touching it. With this Boon, she can take liquid water, steam, ice or fog and change any one into any of the other three. The amount of water she can affect is the same as per Water Control, and the water remains in its new state for a number of actions equal to the successes rolled to activate the Boon. Water under this effect is also subject to the Scion\u2019s Water Control as long as the Scion maintains contact with some portion of it."
+        ],
+        [
+            "Unlikely Pattern",
+            "Dice Pool: Wits + Craft \nCost: 1 Willpower + 10 Legend \nThe God picks up a series of items, then throws them up into the air. When they land, they amazingly come together in the form desired by the God or in a position that the God wishes. The difficulty of this trick depends on the number of items used and the complexity of the final item. Use the accompanying table as a guideline."
+        ],
+        [
+            "Cloud Body",
+            "Dice Pool: None \nCost: 10 Legend \nWith this Boon, the character turns his body and the possessions on his person into a nigh-intangible ephemera of cloud. His appearance does not change, but solid objects pass through him as if he were a visible ghost, and his touch is cold like the caress of fog. He becomes impervious to physical damage, and he can squeeze his transformed body through the narrowest gaps. In this form, he can also fly. While he\u2019s flying, he can interact with clouds as if they were as solid as earth. If he should find a sufficiently large bank of cumulus and cumulonimbus clouds and use Cloud Sculptor (Sky \u2022\u2022\u2022\u2022\u2022) on them, he could build himself a castle in the air."
+        ],
+        [
+            "Insanity",
+            "Dice Pool: Manipulation + Empathy \nCost: 5+ Legend \nThe God can touch his victims\u2019 minds and overwhelm them with the essence of pure chaos. The God need only be able to see his victims in person as his player rolls (Manipulation + Empathy) and spends five Legend points. With the base activation, the God can affect a number of targets equal to his Legend. Each additional Legend point he spends adds another number of victims equal to his Legend. Each victim\u2019s player resists with a (Willpower + Integrity + Legend) roll. (The Storyteller can roll once for a group of extras.) This power has no effect against a character with higher Legend than the one using it."
+        ],
+        [
+            "Create Air",
+            "Dice Pool: Strength + Fortitude \nCost: 5 Legend \nA God with this Boon can do one of two things, either of which costs five Legend points. First, he can perform the eponymous action, surrounding himself with pure, breathable air. With five Legend, the God can breathe out 1,000 cubic yards of pure air per dot of Legend he has. (At the minimum, that\u2019s a sphere with a roughly 13-yard radius or a cube with roughly 21-yard sides.) This volume moves with the God, taking whatever shape he desires, and it remains breathable and clean for a number of hours equal to the successes on the activation roll. Using this Boon this way can also accomplish such feats as clearing an area of smoke or poisonous gas, creating a bubble of breathable air underwater or busting the seams on an airtight cell."
+        ],
+        [
+            "The Impressed Spirit",
+            "Dice Pool: Dexterity + Craft \nCost: 1 Legend (to transport) \nThe Scion goes out of her way to flatter the spirit of some treasured item she owns, by crafting in its presence tiny replicas of the item. She then wraps each replica up in a paper packet on which the name of the item and its immanent kami is written in elegant calligraphy."
+        ],
+        [
+            "The Helpful Spirit",
+            "Dice Pool: Charisma + Occult \nCost: 1 Legend per die of improvement \nWith the proper shows of respect and decorum, a Scion can convince the kami within an object to enhance the mundane function of that object. In so doing, she gains a dice bonus equal to the number of Legend points she spends on the effect, which lasts for a number of days equal to number of successes on the activation roll. Be it anything from a weapon to a baby grand piano, the item must be one that requires a dice roll to use with skill. If the character uses this Boon on one of her Birthright items, she can enhance only its mundane function."
+        ],
+        [
+            "Create Air",
+            "Dice Pool: Strength + Fortitude \nCost: 5 Legend \nA God with this Boon can do one of two things, either of which costs five Legend points. First, he can perform the eponymous action, surrounding himself with pure, breathable air. With five Legend, the God can breathe out 1,000 cubic yards of pure air per dot of Legend he has. (At the minimum, that\u2019s a sphere with a roughly 13-yard radius or a cube with roughly 21-yard sides.) This volume moves with the God, taking whatever shape he desires, and it remains breathable and clean for a number of hours equal to the successes on the activation roll. Using this Boon this way can also accomplish such feats as clearing an area of smoke or poisonous gas, creating a bubble of breathable air underwater or busting the seams on an airtight cell."
+        ],
+        [
+            "Weather Witch",
+            "Dice Pool: Intelligence + Science \nCost: 1 Legend \nBy tasting the wind, putting a finger up in the air or testing the feel of her joints, the Scion gains the ability to predict the vagaries of natural weather. Her prediction is good up to a number of days in advance equal to the successes scored by her player on the initial (Intelligence + Science) roll. This doesn\u2019t account for changes introduced by more powerful uses of the Sky Purview or by Titans and titanspawn."
+        ],
+        [
+            "The Abducted Spirit",
+            "Dice Pool: Charisma + Tsukumo-Gami \nCost: 1 Willpower + 1 Legend \nIf the Scion\u2019s player succeeds on a (Charisma + Tsukumo-Gami) roll against a kami\u2019s (Willpower + Integrity + Legend) roll while the Scion is either in the kami\u2019s presence or using The Summoned Spirit (Tsukumo-Gami 4) to speak to the kami, the kami is forced to instantly appear before the Scion in its fully material form. For the rest of the scene, the kami is honor-bound to defer to and obey the Scion as if it were a follower (per the Birthright of that name)."
+        ]
+    ],
+    "nature": "Competitor",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 28,
+        "move": 22,
+        "climb": 16,
+        "jump": {
+            "horizontal": 32,
+            "vertical": 16
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 28,
+        "parry_dv": 19
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 1,
+        "animal_ken": 1,
+        "art": 2,
+        "athletics": 0,
+        "awareness": 3,
+        "brawl": 1,
+        "command": 1,
+        "control": 0,
+        "craft": 3,
+        "empathy": 1,
+        "fortitude": 3,
+        "integrity": 0,
+        "investigation": 3,
+        "larceny": 2,
+        "marksmanship": 2,
+        "medicine": 1,
+        "melee": 2,
+        "occult": 2,
+        "presence": 2,
+        "politics": 3,
+        "science": 1,
+        "stealth": 2,
+        "survival": 2,
+        "thrown": 2
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 23,
+        "lethal": 27.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 11,
+    "god": "Susano-o",
+    "pantheon": "Amatsukami",
+    "name": "Jes\u00fas Reddy"
+}

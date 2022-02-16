@@ -1,0 +1,388 @@
+{
+    "attributes": {
+        "stre": 9,
+        "dex": 9,
+        "sta": 7,
+        "cha": 9,
+        "man": 15,
+        "app": 11,
+        "per": 7,
+        "inte": 9,
+        "wits": 5
+    },
+    "epic_attributes": {
+        "epic_stre": 3,
+        "epic_dex": 4,
+        "epic_sta": 8,
+        "epic_cha": 6,
+        "epic_man": 8,
+        "epic_app": 5,
+        "epic_per": 6,
+        "epic_int": 9,
+        "epic_wits": 2
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        0,
+        1,
+        1,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Never Say Die",
+            "description": [
+                "Not every Scion can knock down foes like bowling pins and scatter titanspawn body parts in her wake. Yet some are just so full of optimistic joie de vivre, even when they take a beating for some spectacular failure, that you just can\u2019t help but love them. A Scion might be accident- prone or have an infuriating talent for picking \ufb01ghts with titanspawn that are out of her league, but she takes her lumps with a smile and inspires her fellows with her can-do attitude. All she has to do is \ufb02ash a thumbs-up, holler an \u201cI\u2019m okay!\u201d or show a smile full of dangling teeth. When she does, all the Scions in her Band who can see her gain one Willpower point per health level the character has suffered (i.e., however many are marked on her character sheet at that moment). The character can inspire her fellows thus only once per scene, but she can do so even if she\u2019s knocked to Incapacitated or killed\u2014after which, she collapses.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Engender Love",
+            "description": [
+                "Prerequisite Knack: Charmer (Scion: Hero, p. 130) Being able to charm someone is always helpful, but it doesn\u2019t always make getting what you want from that person easy. A charmed person can still think clearly, question one\u2019s motives and turn someone down if something about what she\u2019s saying doesn\u2019t feel quite right. Not so the person affected by this Knack. The character who uses it spends one Legend point as his player rolls (Charisma + Presence + Legend). The victim\u2019s player contests this effect with a (Willpower + Integrity + Legend) roll. If the victim\u2019s roll fails to garner the necessary successes, the victim falls madly, unquestioningly in love with the user of the Knack for a number of days equal to the user\u2019s threshold successes. The victim is blindly enthralled and will do anything in her power to please the object of her affection. This Knack works regardless of the relative Legend disparity between the user and his victim. Using it unwisely against a more powerful character is ill advised, however. Fool Odin once, shame on him. Fool him twice, wolves on you.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Pied Piper",
+            "description": [
+                "The character exudes such charm and \u00e9lan that people just want to be around him. When the character engages this Knack, the player need only spend a point of Willpower and a point of Legend. Thereafter, and until the next sunrise, any mortal who looks in the character\u2019s direction feels compelled to be in his company. People \ufb02 ock around him like the paparazzi on Oscar night, desperate to be near him and get his attention, and they\u2019ll follow him from locale to locale for as long as he keeps leading them. Mortals can resist this compulsion, but doing so requires a successful (Willpower + Integrity + Legend) roll with a dif\ufb01culty equal to the Scion\u2019s Legend. Successful resistance breaks the spell for the rest of its duration; a failure means the character cannot try to break away again for another hour. The demigod character can have as many lingering groupies and hangers on as his Epic Charisma dots normally grant him bonus successes on Charisma rolls. Scions use this Knack not only to gather up fellow revelers for long, roving parties, but also to surround themselves with unwitting human shields. For as long as the Knack lasts, the compelled mortals will not abandon the Scion unless he chooses to end the effect early.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Instant Seminar",
+            "description": [
+                "Prerequisite Knack: Inspirational Figure (Scion: Hero, p. 130) The Scion expands his ability to influence groups of people by making any topic, no matter how convoluted or mundane, seem interesting, gripping and of crucial importance. The Scion must spend at least a minute lecturing to a crowd on a particular topic. The Scion\u2019s player then spends two points of Legend and rolls (Charisma + Presence + Legend). For each success scored, one person in the crowd gains temporary use of a Scion\u2019s Ability score. The Scion can perform this quick instruction for any one Ability, but everyone in the crowd hears the same speech and therefore can potentially benefit from the same Ability. For the rest of the scene, those affected by this power may choose to use the Scion\u2019s Ability in place of their own. Heroes can only allow a beneficiary to gain a maximum of three temporary dots in an Ability this way. Demigods can grant up to four dots, while Gods can grant up to five. Such a trick is very useful for turning a disorganized mob into deadly streetfighters (Brawl), creating a temporary squad of EMTs to deal with a disaster (Medicine) or getting the help of a group of inexperienced people in a large construction project, like the pyramids (Craft). Using this Knack does not in any way lower or use up the invoking Scion\u2019s own Ability. The Scion can use this Knack only once per scene.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Borrowed Credibility",
+            "description": [
+                "Prerequisite Knack: Unimpeachable Reference (Scion: Demigod, p. 60) This Knack\u2019s prerequisite lets a Scion lend someone the power of her name to help that person get over a hurdle of suspicion or disbelief with a listener. Actually winning that skeptical audience over after that is still up to the person the Scion tried to help. With Borrowed Credibility, however, the God can not only vouch for a subject in absentia, she can actually use her divine influence through a subject remotely. To do so, the God instructs a person to speak on her behalf, possibly going so far as to prepare a speech for him, and empowers that person with an expenditure of three Legend points. The God\u2019s player then rolls her character\u2019s full Charisma-based dice pool, adding in all available bonus successes. Thereafter, for a number of days equal to the God\u2019s Epic Charisma rating, the empowered person may substitute the God\u2019s player\u2019s roll result for his own player\u2019s use of the same dice pool. He must claim the God\u2019s authority when he does so, speaking in the divine figure\u2019s holy name. Characters with this Knack can use it on any willing emissary of equal or lesser Legend. (As the messenger of the Dodekatheon, for instance, Hermes has been a frequent recipient of this effect.) Its remote effect works on a single listener or on a whole group of people. Also, the character\u2019s instructions to her emissary cannot run counter to the effect of the Charisma-based roll she intends to bestow upon that emissary. She cannot, for instance, prepare what looks like a stirring battlefield address on paper but is actually intended to demoralize the troops through whom her chosen generals speaks.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Blessing of Importance",
+            "description": [
+                "The Scion is especially good at winning people over by making them feel special and wanted. By spending a point of Legend and either sticking up for a person, calling out to him in a crowd or just giving him a secret smile, the Scion re\ufb01lls the person\u2019s spent Willpower points for the scene. The Scion need not necessarily believe that the person is important or special herself. This Knack works very well on mortals, but it\u2019s less effective on Scions, who are usually wise to their charismatic peers\u2019 ways. For Scion recipients, the Knack re\ufb01lls only one point of Willpower per dot of Epic Charisma the Scion with this Knack has. A character can receive this Willpower boost only once per scene from the same Scion.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Blame James",
+            "description": [
+                "Prerequisite Knack: Boys Will Be Boys (Scion: God, p. 68) Some Scions are just too likable to take the heat. When the Scion invokes Boys Will Be Boys in order to calm the anger of an authority figure after a disaster, the player can choose to spend two additional Legend points and invoke Blame James as well. Then, the Scion just glances at someone else, makes a brief comment about \u201cWell, it wasn\u2019t my idea\u2026\u201d or somehow gives the impression that the narrowly-averted trouble was the result of someone else\u2019s malfeasance. So impressive is the Scion\u2019s demeanor that the disciplinary authority figure becomes convinced that the named individual had something to do with the event, and is in some way culpable. This Knack only functions if the use of Boys Will Be Boys also functioned; if that attempt fails, then this Knack also fails, although the Legend points are still spent",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Hapless Cool",
+            "description": [
+                "The character spends a Legend point, and for the rest of the scene, she\u2019s just cool. Nobody can explain it; there\u2019s just something about either what she did or the way she did it that made her look cool. Okay, sure, the salt she threw over her shoulder hit Papa Legba\u2019s dog in the eyes, but the comedic timing was just so perfect. Yeah, granted, she laughed so hard when Hel asked if she wanted any half-and-half in her coffee that scrambled eggs came out her nose, but she owned it. No matter what a character with this Knack active does, says or allows to happen that makes a fool out of herself, anyone who sees her thinks she\u2019s cool anyway."
+            ],
+            "tables": []
+        },
+        {
+            "title": "Crowd Control",
+            "description": [
+                "Prerequisite Knack: Charmer (Scion: Hero, p. 130) The demigod\u2019s force of personality is such that he can quell the passion of a seething mob, whether he\u2019s addressing a throng of rowdy political protesters, standing between an innocent kitsune and the lynch mob howling for her hide, or stalling the phalanx of SWAT cops long enough for his partner to \ufb01nish sacri\ufb01cing the hostages. By spending a point of Willpower and Legend, the Scion cools the crowd\u2019s urge for instant action and buys himself enough time to try to talk some sense into everyone. Doing so is primarily a matter of role-playing, but if the player is not as good an extemporaneous speech-maker as his character is, he may roll (Charisma + Presence) to simulate his heartfelt call for calm. His words convince three members of the mob per success on the roll. This effect lasts for the scene, after which the mob either disperses or renews its shenanigans with its original vigor. If the character is attempting to halt the depredations of a mob that is being controlled or directed supernaturally, use of this Knack constitutes an opposed roll against the other power\u2019s activation roll. If the power has no activation roll per se, the Scion\u2019s player rolls his (Charisma + Presence) against that of the character who incited the mob supernaturally. If the Scion with this Knack gets an equal or greater number of successes, the Knack does what it\u2019s supposed to.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "BFF",
+            "description": [
+                "Prerequisite Knack: Blessing of Importance (Scion: Hero, p. 130) A heroic Scion with Epic Charisma can help restore a mortal\u2019s sense of self worth and empowerment just by paying a bit of attention to him and making him feel special. The charismatic Scion can even replenish a measure of the same for one of his fellow Scions. A demigod Scion\u2019s attention makes a person feel even more important, though, especially when the Scion goes out of his way to treat the person like a true friend. When the demigod does so (and spends a point of Legend), he completely re\ufb01 lls a fellow Scion\u2019s spent Willpower points (if that amount is higher than the charismatic Scion\u2019s Epic Charisma). Should he treat a mortal with such affection, the mortal not only regains all his spent Willpower, as per Blessing of Importance, he gains an extra dot of Willpower for the scene. When that extra dot goes away at the end of the scene, the mortal\u2019s spent Willpower completely replenishes again. The Scion can affect a person only once per scene with this Knack.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Boys Will Be Boys",
+            "description": [
+                "This Knack, alternatively known as Girls Just Wanna Have Fun, is a character\u2019s trusty Get Out of Jail Free card. When the character gets into trouble with some angry witness or authority figure\u2014be it the police, a mortal parent, one\u2019s long-suffering spouse, etc.\u2014he need only shrug haplessly, grin foolishly or do likewise. (His player also spends a point of Legend.) At that, the offended party decides that whatever the character did wasn\u2019t really that bad. The character gets a slap on the wrist, a stern warning or no punishment at all, depending on when he chooses to use it. This Knack doesn\u2019t work on anyone with a higher Legend rating, though. Also, if the character wants to use it against someone with an equal Legend rating, his player must roll (Charisma + Presence + Legend) against a roll of the potential victim\u2019s (Willpower + Integrity + Legend).",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Benefit of the Doubt",
+            "description": [
+                "Sometimes, for a Scion to be able to help people\u2014or convince them to stay out of harm\u2019s way\u2014those people have to accept ideas that would seem patently ridiculous if they weren\u2019t true. The player of a Scion with this Knack spends a point of Legend, and something in the Scion\u2019s bearing or expression convinces a single listener not to dismiss what he\u2019s saying. Maybe it\u2019s the fact that the Scion is taking his words so seriously, or maybe he just has an honest face. Maybe he came highly recommended by a respected colleague. Whatever the reason, the listener gives the Scion the bene\ufb01t of the doubt in regards to what the Scion next tries to explain, despite what he might be otherwise inclined to believe.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Insanity",
+            "Dice Pool: Manipulation + Empathy \nCost: 5+ Legend \nThe God can touch his victims\u2019 minds and overwhelm them with the essence of pure chaos. The God need only be able to see his victims in person as his player rolls (Manipulation + Empathy) and spends five Legend points. With the base activation, the God can affect a number of targets equal to his Legend. Each additional Legend point he spends adds another number of victims equal to his Legend. Each victim\u2019s player resists with a (Willpower + Integrity + Legend) roll. (The Storyteller can roll once for a group of extras.) This power has no effect against a character with higher Legend than the one using it."
+        ],
+        [
+            "Met Tet",
+            "Dice Pool: Intelligence + Control \nCost: 1 Willpower + 3 Legend \nThis Boon is very similar to Horse (Cheval 3), in that it lets a Scion take total control of a mortal victim\u2019s body for a limited time, manipulating it as if it were her own. As with Horse, the Scion must be using Rada\u2019s Eyes (Cheval 1) on the victim first in order to use this Boon. Having done so, the Scion\u2019s player makes the activation roll for this Boon (contested as per Horse) and spends the requisite Willpower and Legend. If this roll succeeds, the Scion\u2019s body becomes entirely incorporeal and steps into the body of her victim like a ghost taking possession of it."
+        ],
+        [
+            "Lunar Estate",
+            "Dice Pool: None \nCost: 5+ Legend \nWhen the character learns this Boon, he earns himself a private estate on the moon. The estate is fully stocked with any clothing, food or entertainment he might desire, and a staff of slender, gray-skinned creatures with large heads and unblinking black eyes tends it. They don\u2019t speak, but they follow the master of the estate\u2019s orders without question. (These servants are always extras, with the traits of a generic mortal)"
+        ],
+        [
+            "Mirror of Lunacy",
+            "Dice Pool: Manipulation + Empathy \nCost: 2 Legend + 1 Willpower \nThe Scion holds up a reflective surface to another Scion who is in the throes of a Virtue extremity, then utters a cryptic phrase of advice or a soothing balm for the troubled subject. After spending the appropriate Legend and Willpower, the Scion\u2019s player rolls (Manipulation + Empathy) against the target\u2019s (Willpower + Integrity + Legend). If the player invoking Mirror of Lunacy scores more successes, then the Boon takes hold: The targeted Scion sees himself in the reflection and suddenly realizes the extent of his madness. This causes the subject to immediately snap out of his Virtue extremity, although it does not necessarily prevent him from taking other rash actions in order to \u201cset right\u201d any mistakes that he may have made during that time. The Scion cannot use this Boon on herself, and it can be used only once per story."
+        ],
+        [
+            "Silver Blessing",
+            "Dice Pool: None \nCost: 1 Legend \nWith a breath of cool air, the Scion causes a single item to take on a glittering, silvery sheen. For the rest of the Scene, the item has all of the supernatural properties of silver. While silver does not have any inherent special qualities for most Scions, it can be effective as a weapon against certain theriamorphs (were-creatures) and undead. Silver also features prominently in some kinds of magic. An item affected by Silver Blessing loses none of its native properties, but gains all the benefits of pure silver for the rest of the scene."
+        ],
+        [
+            "Tranquility",
+            "Dice Pool: Intelligence + Empathy \nCost: 5 Legend or 10 Legend \nBehavior and the workings of the mind are separate from the biological processes of the brain. When the brain is damaged, fixing it falls under the Health Purview. When behavior has gone awry or the mind is troubled, this Boon can set the suffering victim at ease. The God simply lays his hands on the victim\u2019s brow as his player rolls (Intelligence + Empathy) and spends Legend points. The victim\u2019s player rolls (Willpower + Integrity + Legend), regardless of whether the God\u2019s efforts are in the victim\u2019s best interests or not. If the God\u2019s roll gets more successes, the trouble roiling the victim\u2019s thoughts abates."
+        ],
+        [
+            "Insanity",
+            "Dice Pool: Manipulation + Empathy \nCost: 5+ Legend \nThe God can touch his victims\u2019 minds and overwhelm them with the essence of pure chaos. The God need only be able to see his victims in person as his player rolls (Manipulation + Empathy) and spends five Legend points. With the base activation, the God can affect a number of targets equal to his Legend. Each additional Legend point he spends adds another number of victims equal to his Legend. Each victim\u2019s player resists with a (Willpower + Integrity + Legend) roll. (The Storyteller can roll once for a group of extras.) This power has no effect against a character with higher Legend than the one using it."
+        ],
+        [
+            "Unlikely Pattern",
+            "Dice Pool: Wits + Craft \nCost: 1 Willpower + 10 Legend \nThe God picks up a series of items, then throws them up into the air. When they land, they amazingly come together in the form desired by the God or in a position that the God wishes. The difficulty of this trick depends on the number of items used and the complexity of the final item. Use the accompanying table as a guideline."
+        ],
+        [
+            "Horse",
+            "Dice Pool: Intelligence + Control \nCost: 1 Willpower + 1 Legend \nThe Scion can now exert total control over her victim for a limited time. She must be using Rada\u2019s Eyes to share the victim\u2019s perceptions, and she must spend a point of Willpower and a point of Legend to assert full control. (The victim\u2019s chance to resist is the same as for Petro\u2019s Hands.) If the Scion succeeds in her possession attempt, she can \u201cride\u201d around inside her victim\u2019s body for one scene (or less if she chooses to end the effect early). She exerts all of her own mundane traits, except for Appearance, through the effectively empty husk, losing all sense of the situation around her own body."
+        ],
+        [
+            "Tranquility",
+            "Dice Pool: Intelligence + Empathy \nCost: 5 Legend or 10 Legend \nBehavior and the workings of the mind are separate from the biological processes of the brain. When the brain is damaged, fixing it falls under the Health Purview. When behavior has gone awry or the mind is troubled, this Boon can set the suffering victim at ease. The God simply lays his hands on the victim\u2019s brow as his player rolls (Intelligence + Empathy) and spends Legend points. The victim\u2019s player rolls (Willpower + Integrity + Legend), regardless of whether the God\u2019s efforts are in the victim\u2019s best interests or not. If the God\u2019s roll gets more successes, the trouble roiling the victim\u2019s thoughts abates."
+        ],
+        [
+            "Unlikely Pattern",
+            "Dice Pool: Wits + Craft \nCost: 1 Willpower + 10 Legend \nThe God picks up a series of items, then throws them up into the air. When they land, they amazingly come together in the form desired by the God or in a position that the God wishes. The difficulty of this trick depends on the number of items used and the complexity of the final item. Use the accompanying table as a guideline."
+        ],
+        [
+            "Horse",
+            "Dice Pool: Intelligence + Control \nCost: 1 Willpower + 1 Legend \nThe Scion can now exert total control over her victim for a limited time. She must be using Rada\u2019s Eyes to share the victim\u2019s perceptions, and she must spend a point of Willpower and a point of Legend to assert full control. (The victim\u2019s chance to resist is the same as for Petro\u2019s Hands.) If the Scion succeeds in her possession attempt, she can \u201cride\u201d around inside her victim\u2019s body for one scene (or less if she chooses to end the effect early). She exerts all of her own mundane traits, except for Appearance, through the effectively empty husk, losing all sense of the situation around her own body."
+        ],
+        [
+            "Lunacy",
+            "Dice Pool: Manipulation + Presence \nCost: 1 Legend per Virtue Extremity and per person \nThe Scion captures the attention of a group of people and drives them temporarily mad. He must spend one Legend per person he wants to affect, up to a maximum number equal to his Legend. Affected victims suffer the Virtue Extremity from one of the Scion\u2019s chosen Virtues. If the Scion spends one additional Legend point per person, each person suffers an additional Virtue Extremity. That is, if he wants to affect five people with one Virtue Extremity, he must spend only five Legend points. If he wants them to suffer two Virtue Extremities, he must spend 10 Legend points. If he wants to affect all five people with the Virtue Extremity from all four of his Virtues, he must spend 20 Legend points. The Scion can choose how many of the present targets he wishes to affect, but he must affect them all with the same number of Virtue Extremities."
+        ],
+        [
+            "Met Tet's Claim",
+            "Dice Pool: Charisma + Command \nCost: 10 Legend \nWhen a Loa names himself met tet over somebody, he takes on an unspoken responsibility to that person. Only peer pressure or the subtle jabs of Fate can make him actually act on that responsibility if he doesn\u2019t want to, but not every Loa needs that sort of prodding. If chooses to, he can take a special interest in a mortal and make her his own. Thereafter, anyone who wants to use Cheval Boons on that mortal must go through her met tet first."
+        ],
+        [
+            "Unlikely Pattern",
+            "Dice Pool: Wits + Craft \nCost: 1 Willpower + 10 Legend \nThe God picks up a series of items, then throws them up into the air. When they land, they amazingly come together in the form desired by the God or in a position that the God wishes. The difficulty of this trick depends on the number of items used and the complexity of the final item. Use the accompanying table as a guideline."
+        ],
+        [
+            "Rada's Eyes",
+            "Dice Pool: Perception + Empathy \nCost: 1 Legend \nThe Scion can experience another person\u2019s perceptions as if they were her own. These perceptions include input from all five senses, though not the character\u2019s subjective reactions to that input. To use this Boon, the Scion must have a picture of her victim, some genetic token of the victim\u2019s (such as a lock of hair or several drops of blood) or something the victim created (from a printed-out email to an ice sculpture). By meditating on the item and relaxing her own perceptions\u2014as well as spending a point of Legend after a successful (Perception + Empathy) roll on the part of her player\u2014the Scion experiences the victim\u2019s perceptions clearly and distinctly. The victim is unaware of the Scion\u2019s attention, but the Scion remains semi-aware of her own surroundings."
+        ],
+        [
+            "Finger Moon",
+            "Dice Pool: Dexterity + Occult \nCost: 15 Legend \nThe God reaches either up into the night sky toward the moon or over the horizon if the moon has set or not yet risen into the night sky. The player rolls (Dexterity + Occult). If this roll succeeds, the God seems to pluck a palm-sized silvery moon disk out of the sky and either secrets it away down his sleeve or drops it into a bag or pocket. (The actual moon itself remains where it was, so any number of Moon Gods can use this Boon simultaneously.)"
+        ],
+        [
+            "Eclipse Halo",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend \nThe Scion spends a Legend point and causes a thin, glowing corona of fire to appear in the air behind his head. This halo perfectly resembles the halo of sunfire that is visible around the edges of the moon during a total solar eclipse. The halo remains perpendicular to all witnesses\u2019 lines of sight simultaneously."
+        ],
+        [
+            "Eclipse Halo",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend \nThe Scion spends a Legend point and causes a thin, glowing corona of fire to appear in the air behind his head. This halo perfectly resembles the halo of sunfire that is visible around the edges of the moon during a total solar eclipse. The halo remains perpendicular to all witnesses\u2019 lines of sight simultaneously."
+        ],
+        [
+            "Shadow Bodies",
+            "Dice Pool: Charisma + Presence \nCost: 1 Willpower + 5 Legend \nThe Scion wraps a nearby shadow around his body as his player makes the roll and spends the points. The shadow conforms to the Scion\u2019s body, rendering him a tangible, though unrecognizable, three-dimensional silhouette. Then, for every five successes the player got on the activation roll, a semi-tangible shadow duplicate steps out of the Scion\u2019s tenebrous form. Each duplicate has the Scion\u2019s same mundane Physical Attributes and the same ratings in Abilities that represent physical acumen. These semi-solid duplicates can wield physical weapons or ones created with Shadow Craft (Darkness \u2022\u2022\u2022\u2022\u2022). They are immune to bashing damage, but lethal and aggravated damage affects them as normal."
+        ],
+        [
+            "Instant Riot",
+            "Dice Pool: Charisma + Presence \nCost: 1 Willpower + 5 Legend \nThe Scion stands before a crowd and shouts some incendiary catch phrase such as, \u201cRemember Kent State!\u201d, \u201cRangers lead the way!\u201d or \u201cSee you all in Sto-Va-Kor!\u201d (Whatever\u2019s appropriate to the circumstances.) If the activation roll succeeds, a riot breaks out. Five people per success on the roll immediately lose all sense of decorum and civility and start wrecking the joint. They work together en masse, to cause property damage and to chase down and attack hapless victims who don\u2019t go with the flow. (Such victims usually include people who flee the chaos rather than wholeheartedly joining the mob, as well as the riot cops who inevitably have to deal with the rioters\u2019 shenanigans.)"
+        ],
+        [
+            "Smoking Mirror",
+            "Dice Pool: None \nCost: 1 Legend \nBy looking up at the moon and spending the requisite Legend point, the character sees reflected in it a bird\u2019s-eye view of the surrounding terrain. This perspective allows a clear view of a radius in miles equal to the Scion\u2019s Legend. The Scion may focus on any point in the reflection and see it clearly, but he can\u2019t see through physical objects or change the angle from the top-down perspective. This Boon doesn\u2019t function on new moon nights, but it can see down through thick clouds on any other night. If the moon is visible during the day, the Scion can use this Boon then as well."
+        ],
+        [
+            "Shadow Step",
+            "Dice Pool: None \nCost: 1 Legend \nThe Scion can step into one shadow and emerge instantly from any shadow within his line of sight. Doing so costs one Legend but doesn\u2019t interrupt his action. He can draw a bow and walk backward into one shadow then instantly emerge from another shadow somewhere else and fire his arrow just as easily as if he had made a normal Move action before firing. The only catch is that the shadows through which the Scion moves must be large enough to accommodate his entire body."
+        ],
+        [
+            "Tranquility",
+            "Dice Pool: Intelligence + Empathy \nCost: 5 Legend or 10 Legend \nBehavior and the workings of the mind are separate from the biological processes of the brain. When the brain is damaged, fixing it falls under the Health Purview. When behavior has gone awry or the mind is troubled, this Boon can set the suffering victim at ease. The God simply lays his hands on the victim\u2019s brow as his player rolls (Intelligence + Empathy) and spends Legend points. The victim\u2019s player rolls (Willpower + Integrity + Legend), regardless of whether the God\u2019s efforts are in the victim\u2019s best interests or not. If the God\u2019s roll gets more successes, the trouble roiling the victim\u2019s thoughts abates."
+        ],
+        [
+            "Paralyzing Confusion",
+            "Dice Pool: Wits + Empathy \nCost: 1 Willpower \nThis Boon turns a person\u2019s rational thoughts into seething, chaotic noise. On a successful activation roll, the victim freezes in place, suddenly unable to think, speak or act. He\u2019s unaware of what goes on around him, and he has no memory of the moments before or after the use of this Boon. The effect lasts for a number of actions equal to the successes on the activation roll, and it erases the victim\u2019s memory for an equal amount of time before the roll. If the victim has more dots of Legend than the user, the power doesn\u2019t work. If the victim has an equal Legend rating, the activation roll is contested against the victim\u2019s (Willpower + Integrity + Legend)."
+        ],
+        [
+            "Petro's Hands",
+            "Dice Pool: Intelligence + Control \nCost: 1 Willpower \nThe Scion can now exert some control over a victim whose senses she\u2019s observing. The Scion must be actively experiencing her victim\u2019s perceptions with Rada\u2019s Eyes, and her player must spend a Willpower point to activate this Boon. If the Voodoo Scion\u2019s victim is a mortal or a Scion with fewer dots of Legend than she has, activating this Boon takes only that Willpower expenditure. If the Scion victim has an equal number of Legend dots, the Voodoo Scion\u2019s player must also succeed in a contested roll of her (Intelligence + Control) against the victim\u2019s (Willpower + Integrity + Legend)."
+        ],
+        [
+            "Instant Riot",
+            "Dice Pool: Charisma + Presence \nCost: 1 Willpower + 5 Legend \nThe Scion stands before a crowd and shouts some incendiary catch phrase such as, \u201cRemember Kent State!\u201d, \u201cRangers lead the way!\u201d or \u201cSee you all in Sto-Va-Kor!\u201d (Whatever\u2019s appropriate to the circumstances.) If the activation roll succeeds, a riot breaks out. Five people per success on the roll immediately lose all sense of decorum and civility and start wrecking the joint. They work together en masse, to cause property damage and to chase down and attack hapless victims who don\u2019t go with the flow. (Such victims usually include people who flee the chaos rather than wholeheartedly joining the mob, as well as the riot cops who inevitably have to deal with the rioters\u2019 shenanigans.)"
+        ]
+    ],
+    "nature": "Loner",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 22,
+        "move": 16,
+        "climb": 13,
+        "jump": {
+            "horizontal": 30,
+            "vertical": 15
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 27,
+        "parry_dv": 16
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 1,
+        "animal_ken": 3,
+        "art": 1,
+        "athletics": 2,
+        "awareness": 0,
+        "brawl": 2,
+        "command": 3,
+        "control": 3,
+        "craft": 0,
+        "empathy": 0,
+        "fortitude": 0,
+        "integrity": 3,
+        "investigation": 2,
+        "larceny": 1,
+        "marksmanship": 1,
+        "medicine": 0,
+        "melee": 3,
+        "occult": 2,
+        "presence": 2,
+        "politics": 3,
+        "science": 2,
+        "stealth": 3,
+        "survival": 3,
+        "thrown": 2
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 36,
+        "lethal": 47.0,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 12,
+    "god": "Kalfu",
+    "pantheon": "Loa",
+    "name": "Alex Courtois"
+}

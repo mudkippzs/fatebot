@@ -1,0 +1,336 @@
+{
+    "attributes": {
+        "stre": 5,
+        "dex": 7,
+        "sta": 3,
+        "cha": 7,
+        "man": 9,
+        "app": 9,
+        "per": 7,
+        "inte": 9,
+        "wits": 7
+    },
+    "epic_attributes": {
+        "epic_stre": 4,
+        "epic_dex": 2,
+        "epic_sta": 3,
+        "epic_cha": 2,
+        "epic_man": 8,
+        "epic_app": 5,
+        "epic_per": 4,
+        "epic_int": 4,
+        "epic_wits": 4
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        2,
+        0,
+        0,
+        0
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Tireless Worker",
+            "description": [
+                "Prerequisite Knack: Divine Fortitude (Scion: Demigod, p. 58) Epic Stamina boosts the amount of time a character can work at a fatiguing task, and this Knack\u2019s prerequisite doubles that time. This Knack extends that boost into infinity. No matter how long or how hard he works, the character never breaks a sweat and never slows down. If he still has to sleep, he can work until he\u2019s sleepy and wake up feeling perfectly refreshed. If he still has to eat or sleep, he can pause for a meal and get right back to work without the first bit of loginess creeping in. (People who are like this endlessly irritate people who aren\u2019t.)",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Raging Bull",
+            "description": [
+                "Like the eponymous boxer who just becomes more dangerous after taking a few punches, the Scion turns into a devastating fighting machine once she\u2019s wounded. Her body releases adrenalin and more exotic substances, firing her up to greater heights of fury. With this Knack active, the Scion gains bonuses from her wounds instead of penalties. Thus, if she\u2019s filled in the first four boxes of her health levels, the Scion gains a +2 bonus on all of her appropriate rolls instead of taking the normal -2 penalty. Even if her Epic Stamina would obviate the penalty in whole or in part, she still gains the full bonus. Scions whose Epic Stamina grants them additional health levels count those boxes as having a -4 penalty (and thus a +4 bonus for purposes of this Knack). Furthermore, every time a Scion using Raging Bull suffers an injury (be it a single level of bashing damage or ten levels of aggravated damage), the player may choose to spend one point of Legend to restore one expended point of Willpower. Activating this Knack costs three points of Legend. Its effects last for one scene.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Raise Your Glass",
+            "description": [
+                "A Scion with this Knack isn\u2019t just a power drinker, he takes power from drink. Once per scene, the Scion can restore a spent Legend point by downing a single serving of alcohol: a shot of hard liquor, a bottle or can of beer, a large glass of wine or a flagon of mead, for instance. To gain the Legend, the Scion must down the drink quickly and with at least a bit of flair. Nursing a beer for an hour isn\u2019t worth Legend, though downing a pint of ale in one long pull and slamming the tankard down on the bar might be. Effectively, the character must turn drinking into a stunt performed for no purpose except to impress onlookers. This Knack does not protect the Scion from the normal effects of consuming alcohol, including any drugs or poisons the beverage might contain. In fact, activating this Knack bars a Scion from using his Epic Stamina to resist intoxication. Only normal Stamina applies. Also, characters cannot double-dip for Legend by taking a drink as part of a stunt performed for some other purpose (such a draining a mug of beer then throwing the mug at an enemy\u2019s head as a distraction before an attack).",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Divine Fortitude",
+            "description": [
+                "Prerequisite Knack: Holy Fortitude (Scion: Hero, p. 129) This Knack doubles the amount of time a Scion can work at a strenuous task once more after the prerequisite Knack doubles the base amount of time (itself modified by the Scion\u2019s Epic Stamina). Divine Fortitude also completely obviates a Scion\u2019s need for food or sleep or water. The Scion\u2019s player chooses which necessity the Knack takes away when he \ufb01rst chooses the Knack. When he does so, the character may still indulge in the activity, but he never suffers deprivation effects if he chooses not to. A Scion character may take this Knack three separate times after he takes the prerequisite, each time obviating one of the three listed necessities. Taking the Knack multiple times does not, however, double the amount of time he can work at a strenuous task each time. That period doubles only once, the \ufb01rst time he takes the Knack.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Invulnerable Nail",
+            "description": [
+                "Prerequisite Knack: Body Armor (Scion: Demigod, pp. 57-58) By concentrating all of his phenomenal stamina on a single point of his body, the Scion can make a tiny area nigh-invulnerable. For a second, the Scion\u2019s ichor seeps into that small point no larger than a fingernail, and that part of the Scion\u2019s body becomes tremendously difficult to damage. The area affected gains a Hardness rating (see Scion: Hero, p. 201) equal to the Scion\u2019s Epic Stamina. Any attack with fewer damage dice than the Hardness rating simply bounces off with no effect, while an attack with more damage dice loses a number of dice equal to the Hardness rating before the Scion attempts to soak it (as a special extension of Hardness, which normally only applies to inanimate objects). The real trick lies in positioning this tiny, invulnerable spot to absorb an attack. Normally, a Scion uses his Parry DV to defect attacks in this fashion. Since the Scion has the Body Armor Knack as a prerequisite, he can already Parry melee attacks. Instead, Invulnerable Nail provides the Scion with a defense against an attack that he can see coming but can\u2019t parry, such as when he\u2019s held in place by a titanspawn\u2019s tentacle and needs to make his forehead momentarily impenetrable to the oncoming needle- tipped appendage that will try to suck out his brain. In such a case, the Scion keeps his full unarmed Parry DV because he can try to defect the attack at the last moment by anticipating where it will strike and fortifying that part of his body. Similarly, a clever Scion might feign suicide by attacking himself with a mundane weapon and defecting it at the last minute through the use of this Knack. Activating this Knack costs two points of Legend. It is a reflexive action done in response to an attack.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Extended Youth",
+            "description": [
+                "At the physical age at which the character takes on this Knack, her body no longer physically or visibly ages. Her hair doesn\u2019t turn gray or thin out, her skin doesn\u2019t wrinkle, she doesn\u2019t get liver spots, nothing sags due to gravity. Until the character becomes a God, she looks like she looked at that mortal age. (Taking this Knack after the character becomes a God would, admittedly, be a little silly.)",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Self\u2013Healing",
+            "description": [
+                "The Scion\u2019s player spends a point of Legend to repair a single level of damage. That damage can be bashing or lethal, and the healing takes place in an instant without leaving a scar. (Aggravated damage is beyond the power of this Knack to heal.) Scions who are interested in building their reputation and spreading their legends quickly \ufb01nd this Knack to be one of the more effective tools of doing so, as bruises, lacerations and bullet holes vanish before astonished onlookers\u2019 eyes.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Under Pressure",
+            "description": [
+                "Although the Water Purview can provide protection against the deep pressure of the ocean, and the Earth purview can likewise defend against the crushing weight of being buried, some Scions just don\u2019t have the luxury of branching out into multiple Purviews like that \u2014 or, worse still, fnd themselves in the awkward position of being stuck in a Titan\u2019s gullet, a hyperbaric chamber or an otherworldly place of super-thick atmosphere. Fortunately, a Scion with this Knack need not fear the punishment of changes in pressure or atmosphere. While the Scion must still breathe, she doesn\u2019t have to worry about the bends, explosive decompression or the crushing force of a deep undersea trench. Her body naturally and instinctively adjusts to account for all changes in pressure. Under Pressure can\u2019t protect a Scion against bruising and crushing damage: If she\u2019s stuck in the aforementioned Titanic gullet, she\u2019ll have to use other abilities to deal with the digestive action and the acid. She won\u2019t, however, have to worry about suddenly being crushed when submerged deep in that same pool of stomach acid."
+            ],
+            "tables": []
+        },
+        {
+            "title": "Regeneration",
+            "description": [
+                "Prerequisite Knack: Self-Healing (Scion: Hero, p. 129) Regeneration repairs the severe damage that\u2019s too serious for its prerequisite Knack to heal. For a point of Legend, the Scion can automatically heal a single level of aggravated damage. With this Knack, he can also perform such miraculous feats as regenerating a destroyed limb, extremity or eye. Doing so costs one Legend point per body part so restored.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Changing States",
+            "Dice Pool: Dexterity + Craft \nCost: 1 Legend + 1 Willpower \nDefying the laws of thermodynamics, the Scion can instantly change the state of a body of water just by touching it. With this Boon, she can take liquid water, steam, ice or fog and change any one into any of the other three. The amount of water she can affect is the same as per Water Control, and the water remains in its new state for a number of actions equal to the successes rolled to activate the Boon. Water under this effect is also subject to the Scion\u2019s Water Control as long as the Scion maintains contact with some portion of it."
+        ],
+        [
+            "Amesha Spenta Yasht (Asha \u2022\u2022\u2022\u2022 To \u2022\u2022\u2022\u2022\u2022 \u2022\u2022)",
+            "Dice Pool: Charisma + Integrity \nCost: 1 Willpower + 5 Legend \nThe Amesha Spenta are six principles that represent aspects of the old Persian understanding of the World. For each level of this Boon, the Scion selects an additional Amesha Spenta. \nA mystic aura surrounds a Scion who invokes an Amesha Spenta. The Scion gains a benefit to one of her purviews. If the Scion currently lacks a suitable Birthright for channeling that purview, she can invoke the Boons she knows anyway, at no penalty. (She still needs to own a suitable Birthright and learn Boons as normal: Amesha Spenta Yasht merely offers a chance to channel the purview if the Birthright is unavailable.) If the Scion has her Birthright, then she gains bonus dice equal to her Legend on rolls to activate Boons from that purview. \nThe Scion may only invoke one aura per scene, but the Boon lasts for the remainder of the scene or until the Scion chooses to end it. \n\u2022 Ameretat \u2014 The Amesha Spenta of Eternal Life. Associated with all plant life, this Amesha Spenta manifests as a faint shimmer of a green aura surrounding the Scion, twisting at the edges like a vine\u2019s tendrils. Ameretat is associated with the purview of Fertility. \n\u2022 Armaiti \u2014 The Amesha Spenta of Holy Devotion. Armaiti is associated with the earth, and appears as a brown or beige aura around the Scion, crumbling at the edges into motes that fall and swirl back into the aura like a trickle of sand. Armaiti is associated with the purview of Earth. \n\u2022 Asha Vahishta \u2014 The Amesha Spenta of Best Truth. A red-orange aura flares to life around the Scion, flickering at the edges like flames. Asha Vahishta is associated with the purview of Fire. \n\u2022 Haurvetat \u2014 The Amesha Spenta of Perfect Wholeness. Associated with the waters of the world, this Amesha Spenta manifests as a light blue aura in constant motion, flowing smoothly across the Scion\u2019s features. Haurvetat is associated with the purview of Water. \n\u2022 Kshathra \u2014 The Amesha Spenta of Righteous Dominion. Kshathra is associated with the sky and metals, and appears as a silver-white aura that flashes with angles and edges. Kshathra is associated with the purview of Sky. \n\u2022 Vohu Manah \u2014 The Amesha Spenta of Good Wisdom. No aura appears, but the Scion\u2019s features take an ever-changing animalistic cast \u2014 her eyes might become cat-like one moment, or her skin may seem scaled the next. Vohu Manah is associated with the Animal purview."
+        ],
+        [
+            "Cleanse",
+            "Dice Pool: Stamina + Survival \nCost: 1 Legend \nEvery gardener and farmer has to deal with blight or vermin sometimes, but doing so is easy for a Scion with this Boon. The player rolls (Stamina + Survival) and spends one Legend, and any blight or infestation ends immediately. Blight clears up as if it had never occurred, and vermin suddenly find the affected plants unappealing. This Boon affects a number of large plants (or a number of square yards of a patch of smaller plants) equal to the successes achieved on the roll. This Boon doesn\u2019t protect against future blights, and it stops only the current generation of vermin infestation."
+        ],
+        [
+            "Ride Animal",
+            "Dice Pool: Intelligence + Animal Ken \nCost: 1 Legend \nThe Scion stares into the eyes of a specimen of his chosen animal, the one to which his Boon pertains, and overwhelms its mind with his own. For the rest of the scene, the Scion controls the animal\u2019s body just as a character with Horse (Cheval \u2022\u2022\u2022) can control a human\u2019s body. This Boon functions exactly as that one does, with the same limitations and effects on the Scion\u2019s body. The only difference is that Horse applies to possession of a human\u2019s body, while Ride Animal applies to specimens of the Scion\u2019s chosen animal or to his Birthright creature."
+        ],
+        [
+            "Animal Command",
+            "Dice Pool: Charisma + Animal Ken \nCost: 1 Willpower \nThe Scion spends one Willpower and names one task that the animal must perform. The task cannot seem suicidal or impossible to the animal, but the animal cannot balk at an order that doesn\u2019t immediately seem so. \u201cHey rabbit, go rip that lion\u2019s throat open,\u201d would seem impossible to the rabbit so commanded. \u201cRun to that grass across this street,\u201d would be a fine order for that same rabbit, though, even if cars were zipping by. The order can describe a single immediate action (\u201cBite that guy!\u201d) or one with a single condition (\u201cCome find me when a blue car stops here.\u201d). If he lacks the previous Boon, the Scion can deliver his command only through simplistic nonverbal signals."
+        ],
+        [
+            "Animal Communication",
+            "Dice Pool: Intelligence + Animal Ken \nCost: None \nThe Scion can understand and make himself understood by an animal as he speaks his native language and the animal responds with its own postures, scents and/or vocalizations. This Boon doesn\u2019t make animals smart, calm or loyal, but most are curious enough about having a person address them that they\u2019ll hear a Scion out before defaulting to aggression, panic or indifference."
+        ],
+        [
+            "Dessicate",
+            "Dice Pool: Strength + Medicine \nCost: 1 Legend + 1 Willpower \nWhen she touches an opponent\u2019s bare skin, the Scion can suck the water right out of that opponent\u2019s body. This attack inflicts an amount of lethal damage equal to successes on the activation roll, minus the opponent\u2019s lethal soak."
+        ],
+        [
+            "Toxic Thorn",
+            "Dice Pool: Intelligence + Science \nCost: 1 Legend \nThe Scion sprouts a single thorn from his hand or foot, which he can use in conjunction with an unarmed strike to poison a victim. Successes scored by the player on an (Intelligence + Science) roll determines the strength of the poison that can be created. Consult the accompanying table for its toxicity:"
+        ],
+        [
+            "Unseen Shield",
+            "Dice Pool: Stamina + Fortitude \nCost: 2 Legend + 1 Willpower \nThe Scion concentrates and projects an invisible, semi-spherical shield of pure force around herself and those she\u2019s trying to protect. The base of this shield can be as big as 500 square feet in area (about 13 feet in radius) per dot of Legend the character has, though she can keep it smaller. Ghosts, spirits and physical beings of lesser Legend than the Scion cannot penetrate this shield. If such a being has an equal or higher Legend rating (and can bring a physical force to bear), it can attempt to batter the shield apart with physical attacks. The shield can take a number of health levels of damage equal to [the Scion\u2019s (Legend x 5) + activation roll successes], and it has an all-purpose Hardness rating equal to the Scion\u2019s Legend."
+        ],
+        [
+            "Come Running",
+            "Dice Pool: None \nCost: 3 Legend \nThe Scion immediately rushes to the aid of anyone or anything on whom she has placed a Vigil Brand (Guardian \u2022). When she gets a sensation that her branded charge is in danger (as determined by the Storyteller), she may spend three Legend points to disappear from her current location and instantly reappear in view of the brand she laid down. It helps to concentrate long enough for the player to make the (Perception + Empathy) roll to get an idea of what the danger is before she disappears, but it\u2019s not necessary. Yet, while the character can use Vigil Brand to check up on a charge at any time, the Scion can use Come Running only when the charge in question is in imminent danger."
+        ],
+        [
+            "Toxic Thorn",
+            "Dice Pool: Intelligence + Science \nCost: 1 Legend \nThe Scion sprouts a single thorn from his hand or foot, which he can use in conjunction with an unarmed strike to poison a victim. Successes scored by the player on an (Intelligence + Science) roll determines the strength of the poison that can be created. Consult the accompanying table for its toxicity:"
+        ],
+        [
+            "Vigil Brand",
+            "Dice Pool: Perception + Empathy (to check up) \nCost: 1 Legend (to brand) \nThe Scion touches a person, an object or the entrance to a location and lays a mystical brand there that marks that subject as being under her protection. (Doing so costs one Legend.) Thereafter, whenever that subject is in physical danger (as determined by the Storyteller), the Scion receives a reflexive intuition to that effect. Should her player then succeed on a (Perception + Empathy) roll, she gains a clearer understanding of the subject\u2019s condition, location and current situation."
+        ],
+        [
+            "Bless or Blight",
+            "Dice Pool: Stamina + Survival \nCost: 3 Legend \nWith a blessing, the Scion protects a patch of land from all natural blights and vermin infestations for one year. Alternatively, she can curse the land with a blight that either kills the plants within it outright or makes them so attractive to vermin that the resulting infestation has the same effect. The Scion\u2019s player spends three Legend and rolls (Stamina + Survival). The number of successes she rolls determines how many acres she can affect with this power. If one Scion wants to use an aspect of this Boon on a patch of land on which another Scion has used the opposite aspect, a contested roll is called for. Whoever achieves more successes spreads her effect over the larger area, canceling out the lesser effect."
+        ],
+        [
+            "Come Running",
+            "Dice Pool: None \nCost: 3 Legend \nThe Scion immediately rushes to the aid of anyone or anything on whom she has placed a Vigil Brand (Guardian \u2022). When she gets a sensation that her branded charge is in danger (as determined by the Storyteller), she may spend three Legend points to disappear from her current location and instantly reappear in view of the brand she laid down. It helps to concentrate long enough for the player to make the (Perception + Empathy) roll to get an idea of what the danger is before she disappears, but it\u2019s not necessary. Yet, while the character can use Vigil Brand to check up on a charge at any time, the Scion can use Come Running only when the charge in question is in imminent danger."
+        ],
+        [
+            "Amesha Spenta Yasht (Asha \u2022\u2022\u2022\u2022 To \u2022\u2022\u2022\u2022\u2022 \u2022\u2022)",
+            "Dice Pool: Charisma + Integrity \nCost: 1 Willpower + 5 Legend \nThe Amesha Spenta are six principles that represent aspects of the old Persian understanding of the World. For each level of this Boon, the Scion selects an additional Amesha Spenta. \nA mystic aura surrounds a Scion who invokes an Amesha Spenta. The Scion gains a benefit to one of her purviews. If the Scion currently lacks a suitable Birthright for channeling that purview, she can invoke the Boons she knows anyway, at no penalty. (She still needs to own a suitable Birthright and learn Boons as normal: Amesha Spenta Yasht merely offers a chance to channel the purview if the Birthright is unavailable.) If the Scion has her Birthright, then she gains bonus dice equal to her Legend on rolls to activate Boons from that purview. \nThe Scion may only invoke one aura per scene, but the Boon lasts for the remainder of the scene or until the Scion chooses to end it. \n\u2022 Ameretat \u2014 The Amesha Spenta of Eternal Life. Associated with all plant life, this Amesha Spenta manifests as a faint shimmer of a green aura surrounding the Scion, twisting at the edges like a vine\u2019s tendrils. Ameretat is associated with the purview of Fertility. \n\u2022 Armaiti \u2014 The Amesha Spenta of Holy Devotion. Armaiti is associated with the earth, and appears as a brown or beige aura around the Scion, crumbling at the edges into motes that fall and swirl back into the aura like a trickle of sand. Armaiti is associated with the purview of Earth. \n\u2022 Asha Vahishta \u2014 The Amesha Spenta of Best Truth. A red-orange aura flares to life around the Scion, flickering at the edges like flames. Asha Vahishta is associated with the purview of Fire. \n\u2022 Haurvetat \u2014 The Amesha Spenta of Perfect Wholeness. Associated with the waters of the world, this Amesha Spenta manifests as a light blue aura in constant motion, flowing smoothly across the Scion\u2019s features. Haurvetat is associated with the purview of Water. \n\u2022 Kshathra \u2014 The Amesha Spenta of Righteous Dominion. Kshathra is associated with the sky and metals, and appears as a silver-white aura that flashes with angles and edges. Kshathra is associated with the purview of Sky. \n\u2022 Vohu Manah \u2014 The Amesha Spenta of Good Wisdom. No aura appears, but the Scion\u2019s features take an ever-changing animalistic cast \u2014 her eyes might become cat-like one moment, or her skin may seem scaled the next. Vohu Manah is associated with the Animal purview."
+        ],
+        [
+            "Green Thumb",
+            "Dice Pool: None \nCost: 1 Legend per plant/patch per year \nThe Scion need only touch a large plant (such as a tree or bush) or a one-square-yard patch of smaller plants (from a window box of daisies to a sheet of algae) and spend a point of Legend. That plant or patch can then survive for a whole year (or for its whole life if its natural span is shorter) without food or sunlight or water. The Scion\u2019s ministrations keep the plant healthy through drought, nutrient deficiency, unnatural darkness or other environmental shortfall. The plant\u2019s surroundings must be within its natural tolerances for the plant to survive, though. (This Boon can\u2019t nurture seaweed on the desert floor, for instance.) Also, this Boon doesn\u2019t protect against or cure any blight or damage from herbivorous noshing."
+        ],
+        [
+            "Ride Animal",
+            "Dice Pool: Intelligence + Animal Ken \nCost: 1 Legend \nThe Scion stares into the eyes of a specimen of his chosen animal, the one to which his Boon pertains, and overwhelms its mind with his own. For the rest of the scene, the Scion controls the animal\u2019s body just as a character with Horse (Cheval \u2022\u2022\u2022) can control a human\u2019s body. This Boon functions exactly as that one does, with the same limitations and effects on the Scion\u2019s body. The only difference is that Horse applies to possession of a human\u2019s body, while Ride Animal applies to specimens of the Scion\u2019s chosen animal or to his Birthright creature."
+        ],
+        [
+            "Amesha Spenta Yasht (Asha \u2022\u2022\u2022\u2022 To \u2022\u2022\u2022\u2022\u2022 \u2022\u2022)",
+            "Dice Pool: Charisma + Integrity \nCost: 1 Willpower + 5 Legend \nThe Amesha Spenta are six principles that represent aspects of the old Persian understanding of the World. For each level of this Boon, the Scion selects an additional Amesha Spenta. \nA mystic aura surrounds a Scion who invokes an Amesha Spenta. The Scion gains a benefit to one of her purviews. If the Scion currently lacks a suitable Birthright for channeling that purview, she can invoke the Boons she knows anyway, at no penalty. (She still needs to own a suitable Birthright and learn Boons as normal: Amesha Spenta Yasht merely offers a chance to channel the purview if the Birthright is unavailable.) If the Scion has her Birthright, then she gains bonus dice equal to her Legend on rolls to activate Boons from that purview. \nThe Scion may only invoke one aura per scene, but the Boon lasts for the remainder of the scene or until the Scion chooses to end it. \n\u2022 Ameretat \u2014 The Amesha Spenta of Eternal Life. Associated with all plant life, this Amesha Spenta manifests as a faint shimmer of a green aura surrounding the Scion, twisting at the edges like a vine\u2019s tendrils. Ameretat is associated with the purview of Fertility. \n\u2022 Armaiti \u2014 The Amesha Spenta of Holy Devotion. Armaiti is associated with the earth, and appears as a brown or beige aura around the Scion, crumbling at the edges into motes that fall and swirl back into the aura like a trickle of sand. Armaiti is associated with the purview of Earth. \n\u2022 Asha Vahishta \u2014 The Amesha Spenta of Best Truth. A red-orange aura flares to life around the Scion, flickering at the edges like flames. Asha Vahishta is associated with the purview of Fire. \n\u2022 Haurvetat \u2014 The Amesha Spenta of Perfect Wholeness. Associated with the waters of the world, this Amesha Spenta manifests as a light blue aura in constant motion, flowing smoothly across the Scion\u2019s features. Haurvetat is associated with the purview of Water. \n\u2022 Kshathra \u2014 The Amesha Spenta of Righteous Dominion. Kshathra is associated with the sky and metals, and appears as a silver-white aura that flashes with angles and edges. Kshathra is associated with the purview of Sky. \n\u2022 Vohu Manah \u2014 The Amesha Spenta of Good Wisdom. No aura appears, but the Scion\u2019s features take an ever-changing animalistic cast \u2014 her eyes might become cat-like one moment, or her skin may seem scaled the next. Vohu Manah is associated with the Animal purview."
+        ],
+        [
+            "Animal Feature",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + (1 Legend per feature) \nThe Scion can change a portion of his anatomy to a shape matching the analogous portion of his chosen animal\u2019s anatomy for one scene. If his chosen animal is an armadillo, he can cover himself in a flexible armor. If his animal is a monkey, he can grow a long prehensile tail that is as dexterous as a hand with no thumb. If his animal is a spider or gecko, he can change the surfaces of his hands and feet to enable himself to climb on walls. If his animal is a bird or bat or airborne insect, he can transform his arms into wings that allow him to fly at a rate equal to his Move rate. The exact effect of the change is up to the player, dependent upon Storyteller approval. As a general guideline, though, if the change boosts some trait or grants bonus dice on a special attack, the total bonus value granted cannot be greater than the character\u2019s Legend."
+        ],
+        [
+            "Seta Amesha Spenta (Asha \u2022\u2022\u2022\u2022\u2022 \u2022\u2022\u2022\u2022)",
+            "Dice Pool: Integrity + Legend \nCost: 15 Legend \nThis Boon acts the same as the previous Boon, except that once per scene, the Scion may now call three Amesha Spentas at once to help her. The Scion also now has access to all six of the Amesha Spentas."
+        ]
+    ],
+    "nature": "Architect",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 15,
+        "move": 9,
+        "climb": 12,
+        "jump": {
+            "horizontal": 26,
+            "vertical": 13
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 15,
+        "parry_dv": 11
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 1,
+        "animal_ken": 0,
+        "art": 3,
+        "athletics": 1,
+        "awareness": 3,
+        "brawl": 3,
+        "command": 2,
+        "control": 3,
+        "craft": 3,
+        "empathy": 2,
+        "fortitude": 3,
+        "integrity": 3,
+        "investigation": 2,
+        "larceny": 2,
+        "marksmanship": 3,
+        "medicine": 1,
+        "melee": 2,
+        "occult": 3,
+        "presence": 1,
+        "politics": 1,
+        "science": 0,
+        "stealth": 2,
+        "survival": 0,
+        "thrown": 3
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 7,
+        "lethal": 7.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 6,
+    "god": "Tishtrya",
+    "pantheon": "Yazata",
+    "name": "Samer \u064a\u0627\u0633\u0631"
+}

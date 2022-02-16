@@ -1,0 +1,213 @@
+{
+    "attributes": {
+        "stre": 1,
+        "dex": 1,
+        "sta": 1,
+        "cha": 1,
+        "man": 1,
+        "app": 1,
+        "per": 1,
+        "inte": 1,
+        "wits": 1
+    },
+    "epic_attributes": {
+        "epic_stre": 0,
+        "epic_dex": 0,
+        "epic_sta": 2,
+        "epic_cha": 0,
+        "epic_man": 0,
+        "epic_app": 0,
+        "epic_per": 0,
+        "epic_int": 2,
+        "epic_wits": 0
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        2,
+        0,
+        1,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Internal Refinery",
+            "description": [
+                "Prerequisite Knack: Devourer (Scion: Demigod, p. 58) A character with Inner Furnace (see Scion: Hero, p. 129) can eat any organic substance and drink water from any source and be efficiently nourished. A character with Devourer can safely eat literally anything she can force down her gullet. With both Knacks, no poison or toxin in what she eats or drinks has any effect on her. Internal Refinery expands that latter protection to not only poisons or toxins she eats, but all poisons and toxins she\u2019s exposed to, as well as any diseases that mortal flesh might suffer. In addition, a character with this Knack can refine any poison, toxin or disease to which she is exposed into a single dose of an antidote for that substance or cure to that affliction. If the character spits this antidote or cure out and administers it to an afflicted patient, it completely erases one dose or one exposure to the hazardous substance in the patient\u2019s system. The character must administer this treatment within one scene of the patient\u2019s exposure, and within one action of when she (the character with this Knack) refines the substance into a dose of its cure. The cure doesn\u2019t heal damage from the exposure, but it purges it completely. Refining the deleterious material costs five Legend points per dose.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Blinding Visage",
+            "description": [
+                "Mortal beauty or ugliness can take one\u2019s breath away, but divine beauty or ugliness can do so much more. When a Scion grows angry at a mortal \u2014 such as a tabloid photographer who just won\u2019t leave him alone \u2014 his player can spend a point of Legend and sear his visage into the mortal\u2019s retinas. Doing so blinds and disorients the mortal for the remainder of the scene. If the Scion\u2019s Epic Appearance represents beauty, the victim meanders aimlessly, dazzled by the character\u2019s divine radiance. If the Epic Appearance represents ugliness, the victim staggers around in a blind panic unable to get the awful visage out of his head. Rules for dealing with blindness appear on page 186 of Scion: Hero.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Night Eyes",
+            "Dice Pool: None \nCost: None \nDarkness no longer inflicts visibility penalties on the character. He can see in pitch-blackness almost as well as he can see in bright sunlight, losing only the ability to perceive colors. (Objects he sees in darkness are black-on-black yet perfectly distinguishable in a way that\u2019s conveniently impossible to describe to someone who doesn\u2019t have this Boon.) The Scion cannot see through physical impediments, however."
+        ],
+        [
+            "Fire Immunity",
+            "Dice Pool: None \nCost: None \nThe Scion takes no damage from fire, he need never worry about suffering from smoke inhalation, and even the most intense heat is nothing more than a comforting warmth to him. This immunity remains in effect regardless of what substance is burning. It doesn\u2019t, however, extend to his clothes or to any item except the Birthright through which he channels the Boon."
+        ],
+        [
+            "Eye of the Storm",
+            "Dice Pool: None \nCost: 1 Legend per scene \nWhen the Scion finds herself caught up in a chaotic situation unrelated to her\u2014whether she\u2019s dodging a tornado\u2019s debris or emerging from a bar to find a berserk mob rushing toward her to clash with a line of riot cops down the street\u2014she can activate this Boon and become an island of calm in the tumult. She is miraculously untouched in the confusion, and she remains so for as long as she doesn\u2019t actively involve herself. She still suffers normal environmental movement penalties, but environmental dangers such as falling rocks, stampeding beasts or thrashing rioters all fail to touch her."
+        ]
+    ],
+    "nature": "Libertine",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 7,
+        "move": 1,
+        "climb": 1,
+        "jump": {
+            "horizontal": 8,
+            "vertical": 4
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 5,
+        "parry_dv": 3
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 0,
+        "animal_ken": 3,
+        "art": 1,
+        "athletics": 3,
+        "awareness": 1,
+        "brawl": 1,
+        "command": 2,
+        "control": 3,
+        "craft": 2,
+        "empathy": 3,
+        "fortitude": 3,
+        "integrity": 1,
+        "investigation": 0,
+        "larceny": 0,
+        "marksmanship": 0,
+        "medicine": 3,
+        "melee": 2,
+        "occult": 2,
+        "presence": 2,
+        "politics": 0,
+        "science": 1,
+        "stealth": 2,
+        "survival": 3,
+        "thrown": 0
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 3,
+        "lethal": 3.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 1,
+    "god": "Shiva",
+    "pantheon": "Devas",
+    "name": "Priyanka Damor"
+}

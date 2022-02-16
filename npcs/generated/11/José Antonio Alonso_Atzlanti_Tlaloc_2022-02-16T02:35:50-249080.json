@@ -1,0 +1,389 @@
+{
+    "attributes": {
+        "stre": 9,
+        "dex": 11,
+        "sta": 11,
+        "cha": 9,
+        "man": 9,
+        "app": 5,
+        "per": 7,
+        "inte": 13,
+        "wits": 7
+    },
+    "epic_attributes": {
+        "epic_stre": 5,
+        "epic_dex": 2,
+        "epic_sta": 9,
+        "epic_cha": 6,
+        "epic_man": 3,
+        "epic_app": 10,
+        "epic_per": 6,
+        "epic_int": 5,
+        "epic_wits": 2
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        0,
+        1,
+        0,
+        0
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Unusual Alteration",
+            "description": [
+                "Prerequisite Knack: Undeniable Resemblance This Knack allows a character to change her physical form beyond the limits of the normal spectrum of human variation. She could turn her skin any color of the rainbow or turn her eyes into bulging, unblinking orbs. She could fill her mouth with wide rows of shark teeth or make her joints all bend the opposite way. She could add extra limbs or dispense with her skin entirely. She could even change monstrous ugliness into sublime beauty and vice versa \u2014 allowing her to purchase and use previously unavailable Knacks. Any appearance-based change is acceptable, though no change can add any bonus dots or capabilities. Subjecting a feature to an unusual alteration costs a single Legend point. Changing it back to normal costs another Legend point.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Lasting Impression",
+            "description": [
+                "The Scion has an effect on a subject that\u2019s slow to fade away. Thoughts of the Scion creep into the victim\u2019s mind unbidden either to undermine his concentration or to uplift his spirit. A beautiful Scion can use her Epic Appearance to make a character feel good about himself, granting him an extra Willpower point (which may exceed the character\u2019s maximum) and an extra die on any Art, Athletics, Command, Craft or Integrity dice pools. A hideous Scion in\ufb02icts quite the opposite effect. The fear she instills robs her victim of a Willpower point that he cannot regain until the effect wears off. The Scion also unsettles him so deeply that he loses one die from all Academics, Awareness, Control, Politics or Presence dice pools. Using this Knack costs the Scion a single point of Legend, and its effects last for 24 hours. The Scion can use the Knack on only one person at a time, and the target must be able to see her in person.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Dreadful Mien",
+            "description": [
+                "Some Scions are so hideous that seeing them spurs the primitive centers of the human brain toward reckless \ufb02ight. Most humans can clamp down on this instinctive response and remain in such Scions\u2019 presence, but this Knack overrides that social nicety. When the Scion\u2019s player spends a Legend point, the character directs his unholy monstrousness at a single unlucky victim in his presence. Overwhelmed, the victim runs for his life and hides somewhere until the next sunrise. People affected by this Knack run away with self-preservation in mind, though, so they won\u2019t sprint blindly into traffic or try to swim across a shark tank to safety. Scions whose Epic Appearance represents divine beauty cannot use this Knack. Also, it doesn\u2019t work on hideous Scions with more dots of Epic Appearance than the one using the Knack.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Undeniable Resemblance",
+            "description": [
+                "Prerequisite Knack: Detail Variation Combining elements of the two Knacks it takes to get to this one, the character can make more radical alterations to the way he looks. He can change racial characteristics or make dramatic changes in his weight or height. He can even change genders (and be completely fertile in the new form) or exhibit characteristics of both (and be fertile in both). Any morphology and physiognomy that exists on the spectrum of human variety is a valid change. When the character is finished, his new Appearance can be from one dot to as many dots as he actually has. His Epic Appearance dots are automatically included at their full value, but they can be suppressed normally with My Eyes Are Up Here. The character can also use this Knack to perfectly mimic the appearance of anyone he has seen. Doing so requires a (Dexterity + Empathy) roll with a difficulty equal to (1 + that person\u2019s Legend). More generic alteration requires no roll, but any use of this Knack costs five Legend points to realize the finish product.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Compelling Presence",
+            "description": [
+                "Prerequisite Knack: Serpent\u2019s Gaze (Scion: Hero, p. 133) As with the prerequisite Knack, Compelling Performance draws a victim\u2019s attention to the Scion and renders him unable to look away. The victim remains Inactive for combat purposes, staring helplessly at the hideous monster or unearthly beauty before him. Unlike Serpent\u2019s Gaze, though, the Scion need not consciously maintain eye contact with her victim for the effect to endure. Once the victim has been trans\ufb01xed by the Scion\u2019s Epic Appearance, he remains thus until either the end of the scene or until the Scion leaves his line of sight. The victim will follow the Scion with his eyes, even turn in place if she wanders around the immediate area, but he can\u2019t do anything other than look at her. What\u2019s more, the Scion can capture a number of victims with her appearance equal to her (Epic Appearance + Legend) total. Her player only spends one point of Legend per person up to the maximum, and they all stop what they\u2019re doing to stare at her in rapt fascination. When the effect ends, they remember nothing that happened after the \ufb01rst moment they saw the Scion. Mortals and Scions of lesser or equal Legend are unable to look away on their own, but Scions with a greater Legend are not so vulnerable. After the Scion using the Knack takes one full action, the higher-Legend victim may spend a point of Willpower to negate the effect. In so doing, he remains immune to the effect from the same Scion for the rest of the scene.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Meet Me Backstage",
+            "description": [
+                "Prerequisite Knack: Come Hither (Scion: Hero, p. 133) Better than simply drawing someone to his side, a Scion with this Knack can give a meaningful glance, a casual wave or a whispered hint and cause a subject to go somewhere at the Scion\u2019s discretion. The star-struck victim tries to move to a nearby room, balcony, Jacuzzi or other spot as instructed, in hopes that the Scion will soon arrive. The power of the Knack does all of the convincing. The Scion\u2019s player simply spends one Legend point and picks a single recipient, as with the Come Hither Knack. As usual, the intended recipient must be able to see an image of the Scion, must understand that the message is for her and must have a reasonable idea of how to find him. Meet Me Backstage doesn\u2019t interrupt a subject\u2019s self-preservation any more than Come Hither does: While the subject makes all due haste to reach the appointed meeting place, \u201cdue haste\u201d doesn\u2019t mean \u201cdie along the way.\u201d Nevertheless, this Knack is excellent for discreet rendezvous as well as setting up a poor sap for a beat-down party. Scions whose Epic Appearance represents divine ugliness cannot use this Knack. Also, it doesn\u2019t work on beautiful Scions with more dots of Epic Appearance than the one using the Knack.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "My Eyes Are Up Here",
+            "description": [
+                "As Scions build up ever more dots of Epic Appearance, they grow ever more unearthly. As such, whether they\u2019re beautiful or quite the opposite, it becomes increasingly difficult to deal with mortal humans on their level. The Scion\u2019s Epic Appearance can\u2019t help but get in the way. This Knack, however, mitigates that factor. When the Scion\u2019s player spends a point of Willpower to activate it for the scene, any mortals who see the character completely ignore his Appearance score (both Epic and mundane). Witnesses might vaguely remember that a beautiful Scion was kind of pretty or that a disgustingly ugly Scion was dirty and a little scary, but that\u2019s it. They won\u2019t recognize the Scion again later unless the Scion uses this Knack in their presence again, and they won\u2019t be able to describe the Scion in great detail to anyone else. They might get height, hair color, skin tone, build and style of dress right, but details beyond those generalities prove elusive. Scions themselves are immune to this effect, as they are more than capable of dealing with the extremes that Epic Appearance represents. This Knack lasts for the scene, though the Scion can choose to turn off the effect before then. Also, while he\u2019s using this Knack to deal with a mortal, he cannot use any other Epic Appearance Knacks against him. Nor can he apply his Epic Appearance to rolls pertaining to dealing with that mortal at all until he lifts the effect.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Inescapable Vision",
+            "description": [
+                "Prerequisite Knack: Lasting Impression (Scion: Hero, p. 133) This Knack torments a victim with an endless parade of the Scion\u2019s face, passing the victim by on all sides and driving him ever deeper into frustrated despair. Spending a point of Legend and a point of Willpower, the Scion burns a mental vision of himself so deeply into the victim\u2019s mind that everyone the victim sees thereafter who\u2019s of the same sex as the Scion seems to be wearing the Scion\u2019s face. This effect is especially jarring because other features such as height, weight, hairstyle, skin tone and whatnot don\u2019t change from what\u2019s natural for the person the victim is actually seeing. Only the Scion\u2019s face stands out, sized and colored as appropriate for the person on hand, yet still undeniably the Scion\u2019s own. Shaking off this disorienting hallucination costs the victim a point of Willpower, but that doesn\u2019t end the effect. An hour later, the effect creeps back up on the victim until every person of the appropriate gender has the Scion\u2019s face again. Even worse, a character cannot regain spent Willpower points while he\u2019s languishing under this effect. The only hope for a mortal victim is that the Scion will track him down and decide to end the effect. The demigod can do the same for Scion victims as well, but in the children of the Gods, the effect will wear off on its own after the victim has spent 24 hours with no points of Willpower.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Game Face",
+            "description": [
+                "This Knack functions identically to Dreadful Mien (see Scion: Hero, p. 133), but functions for characters with positive Epic Appearance. Just because they\u2019re handsome or beautiful doesn\u2019t mean they can\u2019t be scary as hell when they snarl at their foes or flash a razor-edged, you-know-I\u2019m-going-to-kill-you smile.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Serpent\u2019s Gaze",
+            "description": [
+                "When the Scion spends a point of Legend, the person whom she\u2019s trying to affect locks eyes with her and is unable to look away. For combat purposes, the victim is rendered Inactive until the Scion breaks eye contact. The Scion can still act, but she must take a second action in order to do so, maintaining eye contact as a diceless action. (As a result, she suffers a -2 penalty for any other action she takes.) This Knack works equally well whether the Scion\u2019s Epic Appearance involves beauty or its opposite. Characters of lesser Legend are unable to break the Scion\u2019s gaze on their own, but those with an equal or greater Legend are not so vulnerable. After the Scion using the Knack takes one full action, the equal- or higher-Legend victim may spend a point of Willpower to negate the effect. In so doing, he remains immune to the effect from the same Scion for the rest of the scene.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Landslide",
+            "Dice Pool: Strength + Craft \nCost: 1 Willpower + 3 Legend \nMoving his arms like the conductor of a symphony orchestra, the Scion can mentally change the shape of any bare earth or stone within his line of sight, out to a range of 50 yards per dot of Legend he has. He can make jagged spars of stone thrust up from the surface, or he can open yawning crevices beneath the feet of his enemies. He can hollow out a depression suitable for the site of a mass grave or raise an earthen wall to keep hooligans at bay. He can detach a sheet of earth from a hillside to send it crashing down, or he can halt such a landslide in its tracks and force it to rejoin the earth beneath it."
+        ],
+        [
+            "Cloud Body",
+            "Dice Pool: None \nCost: 10 Legend \nWith this Boon, the character turns his body and the possessions on his person into a nigh-intangible ephemera of cloud. His appearance does not change, but solid objects pass through him as if he were a visible ghost, and his touch is cold like the caress of fog. He becomes impervious to physical damage, and he can squeeze his transformed body through the narrowest gaps. In this form, he can also fly. While he\u2019s flying, he can interact with clouds as if they were as solid as earth. If he should find a sufficiently large bank of cumulus and cumulonimbus clouds and use Cloud Sculptor (Sky \u2022\u2022\u2022\u2022\u2022) on them, he could build himself a castle in the air."
+        ],
+        [
+            "Bolster",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend \nThe Scion speaks a few heartening words and waves his Relic or activates the pressure points and meridians on a series of targets. The Scion spends one Legend point and her player rolls (Stamina + Medicine). For each success scored, one target gains one temporary health level. This bonus health level lasts for the remainder of the scene. When the health level disappears, any wounds that filled it also subside; it does not overflow into normal damage."
+        ],
+        [
+            "Greenskin",
+            "Dice Pool: None \nCost: 2 Legend \nWith a moment\u2019s thought, the Scion reflects upon the characteristics of the green, growing world. She then internalizes those characteristics, granting herself some of the features of a plant. While the Scion doesn\u2019t become completely suffused with plant-like characteristics, she does develop a noticeable greenish tint to her skin and hair. Her flesh becomes woody and slightly tough, which grants her one extra level of soak against lethal and bashing damage. She also gains the ability to draw sustenance by photosynthesis. So long as she garners at least four hours of sunlight in a day, she obviates her need for food completely. (While her body might still require a few trace elements, they are so negligible as to be ignored). Lastly, her blood becomes thick and sticky, completely mitigating any bleeding that might happen as a result of wounds; her injuries cover over in a translucent amber almost immediately. Greenskin lasts for a number of scenes equal to the Scion\u2019s Legend, or until the Scion chooses to cancel the effect."
+        ],
+        [
+            "Verdant Creation",
+            "Dice Pool: Intelligence + Survival \nCost: 1 Willpower + 3 Legend \nThe Scion can cause plants to spontaneously generate out of nothing at all. Regardless of the weather, soil conditions, sunlight exposure or any other factor, plants of the Scion\u2019s choosing spring into existence at her silent command. This Boon generates a number of large plants (or a number of square yards of a patch of smaller plants) equal to the successes achieved on the roll plus the Scion\u2019s Legend. These plants take root (literally or figuratively) with the same hardiness as if the Scion had used Green Thumb (Fertility \u2022) on them all, with the added benefit that the plants don\u2019t have to be in an environment that is within their normal tolerances to survive. The Scion could grow mushrooms on the desert floor or cause rose bushes to thrive in a submerged cave off the continental shelf. Per Green Thumb, these created plants survive for one year under any conditions barring blight or physical destruction by living creatures. When that year is up, they react to their surroundings as normal plants of their type would. In the meantime, they are as susceptible to other Fertility Boons as any normal plants are."
+        ],
+        [
+            "Blessing of Health/Curse of Frailty",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend \nThe Boon can take away a patient\u2019s reproductive capabilities or restore them, provided the patient already has all the necessary organs. This effect lasts for one year per success on the activation roll."
+        ],
+        [
+            "Earth Travel",
+            "Dice Pool: None \nCost: 1 Legend \nThe Scion can reflexively sink into the bare earth or stone or metal and move through it like a swimmer through water. The Scion can move only through a volume of earth large enough to accommodate his entire body. Also, unless the Scion has Safely Interred (Earth \u2022), he can remain within the earth for only as long as he can hold his breath. If he stays under longer, he begins to drown. While he\u2019s under, the Scion instinctively knows his way to the nearest air."
+        ],
+        [
+            "Echo Sounding",
+            "Dice Pool: Perception + Awareness \nCost: None \nBy stomping or otherwise knocking on the earth, the Scion gets a sense of its general composition and density, as well as finding holes or caves beneath the surface. If he\u2019s looking for something specific in the earth\u2014such as gold, oil or a human body\u2014this Boon reveals its distance from him and depth from the epicenter at the expense of the other information. The Boon works only at ground level or on the up-thrust surface of a mountainside, but it works through floors and pavement. It gives the Scion a semispherical reading with a radius equal to one half mile per dot of Legend."
+        ],
+        [
+            "Virility/Muliebrity",
+            "Dice Pool: Stamina + Medicine \nCost: 3 Legend \nBy touching a male or female, the Scion guarantees that the next act of sexual intercourse in which that the person engages that could result in offspring does result in offspring. An affected male definitely impregnates the next female he has sex with if she is even theoretically capable of having children; an affected female definitely becomes pregnant from the next male with whom she has sex. Even infertile participants become temporarily fertile, and birth control devices fail. A Scion may use this Boon automatically on himself or any unresisting mortal animal or human. Consciously unwilling subjects may resist with a (Stamina + Fortitude) roll against the Scion\u2019s (Stamina + Medicine). Titanspawn, Scions other than the user, and other supernatural beings are always considered unwilling even if they would welcome the Boon\u2019s effect, for their supernatural aspect inherently resists the power. Undead and similar creatures are (thankfully) unaffected."
+        ],
+        [
+            "Cloud Body",
+            "Dice Pool: None \nCost: 10 Legend \nWith this Boon, the character turns his body and the possessions on his person into a nigh-intangible ephemera of cloud. His appearance does not change, but solid objects pass through him as if he were a visible ghost, and his touch is cold like the caress of fog. He becomes impervious to physical damage, and he can squeeze his transformed body through the narrowest gaps. In this form, he can also fly. While he\u2019s flying, he can interact with clouds as if they were as solid as earth. If he should find a sufficiently large bank of cumulus and cumulonimbus clouds and use Cloud Sculptor (Sky \u2022\u2022\u2022\u2022\u2022) on them, he could build himself a castle in the air."
+        ],
+        [
+            "Assess Health",
+            "Dice Pool: None \nCost: None \nThe Scion can instantly, automatically assess the current medical condition of a single living patient in his presence. He can tell how many levels of damage the patient is suffering, as well as any physical addictions he suffers, any illnesses or diseases with which he is infected and any genetic defects that afflict him."
+        ],
+        [
+            "Earth Creation",
+            "Dice Pool: Stamina + Craft \nCost: 1 Legend per cubic yard \nThe God\u2019s mastery of the Purview is such that he can literally create stone, earth and metal from nothing. He only puts his hands together before him and wills the material into being as his player spends five Legend and rolls (Stamina + Craft). With this Boon, he can create anything from sand to loam to granite to diamonds to steel. Any substance that the Earth Purview covers is fair game. Even glass is okay, as it\u2019s chiefly made from silica."
+        ],
+        [
+            "Virility/Muliebrity",
+            "Dice Pool: Stamina + Medicine \nCost: 3 Legend \nBy touching a male or female, the Scion guarantees that the next act of sexual intercourse in which that the person engages that could result in offspring does result in offspring. An affected male definitely impregnates the next female he has sex with if she is even theoretically capable of having children; an affected female definitely becomes pregnant from the next male with whom she has sex. Even infertile participants become temporarily fertile, and birth control devices fail. A Scion may use this Boon automatically on himself or any unresisting mortal animal or human. Consciously unwilling subjects may resist with a (Stamina + Fortitude) roll against the Scion\u2019s (Stamina + Medicine). Titanspawn, Scions other than the user, and other supernatural beings are always considered unwilling even if they would welcome the Boon\u2019s effect, for their supernatural aspect inherently resists the power. Undead and similar creatures are (thankfully) unaffected."
+        ],
+        [
+            "Cradlesong",
+            "Dice Pool: Manipulation + Medicine \nCost: 1 Legend (or 1 Legend + 1 Willpower) \nBy singing or playing some sweet lullaby, the Scion makes a number of people equal to the successes on the activation roll drift quietly off to sleep. Characters of higher Legend than the singer are not affected. Those of equal Legend get to oppose the activation roll with a (Willpower + Integrity + Legend) roll. This soporific effect knocks out any living creature that can hear the Scion\u2019s voice, for a number of hours equal to the Scion\u2019s Legend. Victims with no Legend rating remain asleep the whole time, never waking up regardless of what\u2019s going on around them. Characters with a Legend rating can be woken up by those who went unaffected, if the player of the character trying to rouse the sleeper makes more successes on an extended (Manipulation + Medicine) action to bring the sleeper around. (Such an action constitutes shaking the sleeping person, slapping his cheeks, pinching him, hollering at him or whatever else might wake him from a dead sleep.) Suffering a level of lethal or aggravated damage will also wake a sleeper with a Legend rating."
+        ],
+        [
+            "Weather Witch",
+            "Dice Pool: Intelligence + Science \nCost: 1 Legend \nBy tasting the wind, putting a finger up in the air or testing the feel of her joints, the Scion gains the ability to predict the vagaries of natural weather. Her prediction is good up to a number of days in advance equal to the successes scored by her player on the initial (Intelligence + Science) roll. This doesn\u2019t account for changes introduced by more powerful uses of the Sky Purview or by Titans and titanspawn."
+        ],
+        [
+            "Virility/Muliebrity",
+            "Dice Pool: Stamina + Medicine \nCost: 3 Legend \nBy touching a male or female, the Scion guarantees that the next act of sexual intercourse in which that the person engages that could result in offspring does result in offspring. An affected male definitely impregnates the next female he has sex with if she is even theoretically capable of having children; an affected female definitely becomes pregnant from the next male with whom she has sex. Even infertile participants become temporarily fertile, and birth control devices fail. A Scion may use this Boon automatically on himself or any unresisting mortal animal or human. Consciously unwilling subjects may resist with a (Stamina + Fortitude) roll against the Scion\u2019s (Stamina + Medicine). Titanspawn, Scions other than the user, and other supernatural beings are always considered unwilling even if they would welcome the Boon\u2019s effect, for their supernatural aspect inherently resists the power. Undead and similar creatures are (thankfully) unaffected."
+        ],
+        [
+            "Toxic Thorn",
+            "Dice Pool: Intelligence + Science \nCost: 1 Legend \nThe Scion sprouts a single thorn from his hand or foot, which he can use in conjunction with an unarmed strike to poison a victim. Successes scored by the player on an (Intelligence + Science) roll determines the strength of the poison that can be created. Consult the accompanying table for its toxicity:"
+        ],
+        [
+            "Landslide",
+            "Dice Pool: Strength + Craft \nCost: 1 Willpower + 3 Legend \nMoving his arms like the conductor of a symphony orchestra, the Scion can mentally change the shape of any bare earth or stone within his line of sight, out to a range of 50 yards per dot of Legend he has. He can make jagged spars of stone thrust up from the surface, or he can open yawning crevices beneath the feet of his enemies. He can hollow out a depression suitable for the site of a mass grave or raise an earthen wall to keep hooligans at bay. He can detach a sheet of earth from a hillside to send it crashing down, or he can halt such a landslide in its tracks and force it to rejoin the earth beneath it."
+        ],
+        [
+            "Toxic Thorn",
+            "Dice Pool: Intelligence + Science \nCost: 1 Legend \nThe Scion sprouts a single thorn from his hand or foot, which he can use in conjunction with an unarmed strike to poison a victim. Successes scored by the player on an (Intelligence + Science) roll determines the strength of the poison that can be created. Consult the accompanying table for its toxicity:"
+        ],
+        [
+            "Wind Grapple",
+            "Dice Pool: Wits + Brawl \nCost: 1 Legend per action \nBy directing freak gusts of wind and the airborne detritus that collects in them, the Scion can wrestle with opponents without even touching them. Doing so requires one Legend point per action, and the Scion\u2019s player rolls (Wits + Brawl) to direct the winds. This roll functions just as the normal roll for a clinch attack, contested against the defender\u2019s efforts as normal. If his attack succeeds, the Scion may do with his victim as any successful grappler can do with a subdued victim, from pinning him to crushing him to throwing him. The attacker cannot apply any bonus dice or Knacks from his Epic Strength in these grappling maneuvers."
+        ],
+        [
+            "Green Thumb",
+            "Dice Pool: None \nCost: 1 Legend per plant/patch per year \nThe Scion need only touch a large plant (such as a tree or bush) or a one-square-yard patch of smaller plants (from a window box of daisies to a sheet of algae) and spend a point of Legend. That plant or patch can then survive for a whole year (or for its whole life if its natural span is shorter) without food or sunlight or water. The Scion\u2019s ministrations keep the plant healthy through drought, nutrient deficiency, unnatural darkness or other environmental shortfall. The plant\u2019s surroundings must be within its natural tolerances for the plant to survive, though. (This Boon can\u2019t nurture seaweed on the desert floor, for instance.) Also, this Boon doesn\u2019t protect against or cure any blight or damage from herbivorous noshing."
+        ],
+        [
+            "Blessing of Health/Curse of Frailty",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend \nThe Boon can take away a patient\u2019s reproductive capabilities or restore them, provided the patient already has all the necessary organs. This effect lasts for one year per success on the activation roll."
+        ],
+        [
+            "Imprisoning Crystal",
+            "Dice Pool: Strength + Craft \nCost: 5 Legend, +1 Legend per Legend dot of the target \nA massive shard of crystal coalesces around the Scion\u2019s target. If the player\u2019s (Strength + Craft) roll bests the opponent\u2019s (Strength + Fortitude + Legend), then the opponent becomes encased in a clear, translucent, many-faceted shard of crystal. This prison holds the opponent in place but also renders it immune to physical attack. Unless something manages to penetrate the crystal, the occupant, in stasis, remains unaffected."
+        ],
+        [
+            "Bolster",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend \nThe Scion speaks a few heartening words and waves his Relic or activates the pressure points and meridians on a series of targets. The Scion spends one Legend point and her player rolls (Stamina + Medicine). For each success scored, one target gains one temporary health level. This bonus health level lasts for the remainder of the scene. When the health level disappears, any wounds that filled it also subside; it does not overflow into normal damage."
+        ],
+        [
+            "Earth Travel",
+            "Dice Pool: None \nCost: 1 Legend \nThe Scion can reflexively sink into the bare earth or stone or metal and move through it like a swimmer through water. The Scion can move only through a volume of earth large enough to accommodate his entire body. Also, unless the Scion has Safely Interred (Earth \u2022), he can remain within the earth for only as long as he can hold his breath. If he stays under longer, he begins to drown. While he\u2019s under, the Scion instinctively knows his way to the nearest air."
+        ],
+        [
+            "Twist Plants",
+            "Dice Pool: Intelligence + Survival \nCost: 2 Legend \nThe Scion imagines a specific shape she wants the nearby plant life to take, and her will makes it so. On a successful (Intelligence + Survival) roll, the Scion affects a number of large plants (or a number of square yards of a patch of smaller plants) equal to the successes the roll achieved. Before her eyes, the plants bend as her imagination desires and set in the new arrangement\u2014 after which they continue to grow as normal. The Scion can\u2019t move the plants around fast enough or with enough finesse to attack people, but she can weave them into bindings or cages to hold people who aren\u2019t moving."
+        ],
+        [
+            "Human Clay",
+            "Dice Pool: Dexterity + Medicine \nCost: 10 Legend \nThe God can shape a mortal\u2019s flesh like wet clay, effecting almost limitless physical changes within the scope of human variety. The mortal in question must be somehow under the God\u2019s control\u2014be he drugged, secured in an unbreakable clinch, duct-taped to the roof of a panel van in the middle of the desert or what have you\u2014but he need not necessarily be willing. As long as the God can work with the mortal\u2019s flesh and bones for five minutes uninterrupted, he can reshape the mortal as he sees fit."
+        ],
+        [
+            "Verdant Creation",
+            "Dice Pool: Intelligence + Survival \nCost: 1 Willpower + 3 Legend \nThe Scion can cause plants to spontaneously generate out of nothing at all. Regardless of the weather, soil conditions, sunlight exposure or any other factor, plants of the Scion\u2019s choosing spring into existence at her silent command. This Boon generates a number of large plants (or a number of square yards of a patch of smaller plants) equal to the successes achieved on the roll plus the Scion\u2019s Legend. These plants take root (literally or figuratively) with the same hardiness as if the Scion had used Green Thumb (Fertility \u2022) on them all, with the added benefit that the plants don\u2019t have to be in an environment that is within their normal tolerances to survive. The Scion could grow mushrooms on the desert floor or cause rose bushes to thrive in a submerged cave off the continental shelf. Per Green Thumb, these created plants survive for one year under any conditions barring blight or physical destruction by living creatures. When that year is up, they react to their surroundings as normal plants of their type would. In the meantime, they are as susceptible to other Fertility Boons as any normal plants are."
+        ],
+        [
+            "Echo Sounding",
+            "Dice Pool: Perception + Awareness \nCost: None \nBy stomping or otherwise knocking on the earth, the Scion gets a sense of its general composition and density, as well as finding holes or caves beneath the surface. If he\u2019s looking for something specific in the earth\u2014such as gold, oil or a human body\u2014this Boon reveals its distance from him and depth from the epicenter at the expense of the other information. The Boon works only at ground level or on the up-thrust surface of a mountainside, but it works through floors and pavement. It gives the Scion a semispherical reading with a radius equal to one half mile per dot of Legend."
+        ],
+        [
+            "Imprisoning Crystal",
+            "Dice Pool: Strength + Craft \nCost: 5 Legend, +1 Legend per Legend dot of the target \nA massive shard of crystal coalesces around the Scion\u2019s target. If the player\u2019s (Strength + Craft) roll bests the opponent\u2019s (Strength + Fortitude + Legend), then the opponent becomes encased in a clear, translucent, many-faceted shard of crystal. This prison holds the opponent in place but also renders it immune to physical attack. Unless something manages to penetrate the crystal, the occupant, in stasis, remains unaffected."
+        ],
+        [
+            "Verdant Creation",
+            "Dice Pool: Intelligence + Survival \nCost: 1 Willpower + 3 Legend \nThe Scion can cause plants to spontaneously generate out of nothing at all. Regardless of the weather, soil conditions, sunlight exposure or any other factor, plants of the Scion\u2019s choosing spring into existence at her silent command. This Boon generates a number of large plants (or a number of square yards of a patch of smaller plants) equal to the successes achieved on the roll plus the Scion\u2019s Legend. These plants take root (literally or figuratively) with the same hardiness as if the Scion had used Green Thumb (Fertility \u2022) on them all, with the added benefit that the plants don\u2019t have to be in an environment that is within their normal tolerances to survive. The Scion could grow mushrooms on the desert floor or cause rose bushes to thrive in a submerged cave off the continental shelf. Per Green Thumb, these created plants survive for one year under any conditions barring blight or physical destruction by living creatures. When that year is up, they react to their surroundings as normal plants of their type would. In the meantime, they are as susceptible to other Fertility Boons as any normal plants are."
+        ]
+    ],
+    "nature": "Loner",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 19,
+        "move": 13,
+        "climb": 20,
+        "jump": {
+            "horizontal": 42,
+            "vertical": 21
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 24,
+        "parry_dv": 15
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 1,
+        "animal_ken": 1,
+        "art": 1,
+        "athletics": 1,
+        "awareness": 1,
+        "brawl": 3,
+        "command": 2,
+        "control": 0,
+        "craft": 0,
+        "empathy": 3,
+        "fortitude": 2,
+        "integrity": 2,
+        "investigation": 3,
+        "larceny": 0,
+        "marksmanship": 2,
+        "medicine": 3,
+        "melee": 0,
+        "occult": 0,
+        "presence": 0,
+        "politics": 1,
+        "science": 1,
+        "stealth": 3,
+        "survival": 3,
+        "thrown": 1
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 48,
+        "lethal": 61.0,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 11,
+    "god": "Tlaloc",
+    "pantheon": "Atzlanti",
+    "name": "Jos\u00e9 Antonio Alonso"
+}

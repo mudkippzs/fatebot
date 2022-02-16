@@ -1,0 +1,412 @@
+{
+    "attributes": {
+        "stre": 7,
+        "dex": 9,
+        "sta": 5,
+        "cha": 9,
+        "man": 11,
+        "app": 9,
+        "per": 9,
+        "inte": 13,
+        "wits": 9
+    },
+    "epic_attributes": {
+        "epic_stre": 3,
+        "epic_dex": 10,
+        "epic_sta": 6,
+        "epic_cha": 3,
+        "epic_man": 7,
+        "epic_app": 4,
+        "epic_per": 5,
+        "epic_int": 5,
+        "epic_wits": 7
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        1,
+        1,
+        0,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Deprogramming",
+            "description": [
+                "Prerequisite Knack: Takes One to Know One (Scion: Hero, p. 132); possibly others (see text) Usually, mortals and even other Scions who\u2019ve been influenced by Epic Charisma or Epic Manipulation go about their business blissfully unaware that they\u2019ve been duped. With a few well-chosen words to reinforce the subject\u2019s awareness of the situation, though, a Scion with this Knack can help people snap out of the unnatural influence of others. The player spends Legend equal to the cost of the power being countered plus one (plus an additional three Legend for every point of Willpower spent on the power being countered), then rolls (Manipulation + Presence + Legend). If the player rolls more successes than the original command, the subject immediately snaps out of it and realizes that he didn\u2019t want to do whatever it is that he was compelled to do. If the original power didn\u2019t require a roll to succeed (like Overt Order), then the Scion\u2019s player must simply score a number of successes equal to the original commander\u2019s (Manipulation + Command + Legend). In order to countermand a specific Epic Charisma or Epic Manipulation Knack, the Scion using Deprogramming must also know the Knack being used. That is, using Deprogramming to stop Overt Order requires that the Scion performing the countermand must also know Overt Order. Using this Knack in combat can be tricky: Typically, the Scion will want to wait (perhaps taking a Guard action) and then interrupt when needed.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "My Eyes Are Up Here",
+            "description": [
+                "As Scions build up ever more dots of Epic Appearance, they grow ever more unearthly. As such, whether they\u2019re beautiful or quite the opposite, it becomes increasingly difficult to deal with mortal humans on their level. The Scion\u2019s Epic Appearance can\u2019t help but get in the way. This Knack, however, mitigates that factor. When the Scion\u2019s player spends a point of Willpower to activate it for the scene, any mortals who see the character completely ignore his Appearance score (both Epic and mundane). Witnesses might vaguely remember that a beautiful Scion was kind of pretty or that a disgustingly ugly Scion was dirty and a little scary, but that\u2019s it. They won\u2019t recognize the Scion again later unless the Scion uses this Knack in their presence again, and they won\u2019t be able to describe the Scion in great detail to anyone else. They might get height, hair color, skin tone, build and style of dress right, but details beyond those generalities prove elusive. Scions themselves are immune to this effect, as they are more than capable of dealing with the extremes that Epic Appearance represents. This Knack lasts for the scene, though the Scion can choose to turn off the effect before then. Also, while he\u2019s using this Knack to deal with a mortal, he cannot use any other Epic Appearance Knacks against him. Nor can he apply his Epic Appearance to rolls pertaining to dealing with that mortal at all until he lifts the effect.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Divine Figurehead",
+            "description": [
+                "Prerequisite Knack: Pied Piper (Scion: Demigod, pp. 59-60) As with the prerequisite, this Knack allows the user to define herself as \u201cwhere the party is at\u201d and have people flock to her. Where the prerequisite works only on mortals, however, this Knack affects heroic Scions and demigods, as well as other creatures of comparable Legend levels. The character spends one Legend and one Willpower. Mortal characters cannot resist this effect, and legendary characters of lesser Legend receive only a standard (Willpower + Integrity + Legend) roll with a difficulty equal to the user\u2019s (Legend + Epic Charisma).",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Mass Hypnosis",
+            "description": [
+                "Prerequisite Knack: Instant Hypnosis (Scion: Demigod, p. 61) Mass Hypnosis works similarly to its prerequisite in that it implants a command for an affected victim to perform some action that takes no more than one scene to accomplish at a time of the user\u2019s choosing. This Knack expands the scope of the effect so that a character can hypnotize a whole group of people. The character\u2019s player rolls (Manipulation + Command + Legend) and spends a point of Legend and a point of Willpower. If the roll scores more successes than the average (Willpower + Legend) of the assembled audience, the character successfully implants the post-hypnotic suggestion in as many members of the audience as he has successes on the roll. Mortals cannot resist the effect or the compulsion to perform the implanted action. Characters with a Legend rating resist at the moment of hypnosis or at the moment the action is designated to take place, as with Instant Hypnosis. Hypnotizing a crowd of people does require that the character capture everyone\u2019s attention at the instant of hypnosis.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Paragon Of Virtue",
+            "description": [
+                "Prerequisite Knack: Inspirational Figure (Scion: Hero, p. 130) The Scion spends a minute giving a brief inspirational speech, then charges ahead into the fray (be it fighting titanspawn or heading to the lab to find a last-ditch cure for a Titan-created plague). The Scion\u2019s player spends two points of Legend and rolls (Charisma + Command + Legend). For each success scored, one person in the crowd becomes fired up with the Scion\u2019s Virtue. The mortal listener gains one dot in a Virtue that the Scion possesses \u2014 whichever one the provided speech was about. This can lead mortals into all the benefits and pitfalls of having a Virtue rating. Every listener gains the same Virtue. A Scion could choose to give a Virtue that won\u2019t have any direct benefit on an upcoming action, if they so desire. The Scion can use this Knack only once per scene.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Center of Attention",
+            "description": [
+                "Whether he\u2019s Hugh Jackman on the set of The View or the Phantom of the Opera going unmasked at the masquerade ball, the Scion commands the attention of everyone in the room. This Knack is best used when making an important entrance, but it can also serve as a wonderful broad-spectrum distraction. The character walks into a room, the player spends a point of Legend, and all eyes in the room (as well as the eyes of people watching remotely via live security camera broadcast) turn the character\u2019s way. For every Legend point spent, the character can hold everyone\u2019s attention for a number of minutes equal to his Epic Appearance dots. The onlookers can carry on with what they\u2019re doing and keep talking among themselves, but their attention remains \ufb01xed on the Scion. Titanspawn and Scions can resist this Knack. They may spend a point of Willpower to direct their attention elsewhere. Should the Scion with Epic Appearance spend another point of Legend to continue the effect over subsequent sets of minutes, the resisting party must spend matching amounts of Willpower to keep from being distracted.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Benefit of the Doubt",
+            "description": [
+                "Sometimes, for a Scion to be able to help people\u2014or convince them to stay out of harm\u2019s way\u2014those people have to accept ideas that would seem patently ridiculous if they weren\u2019t true. The player of a Scion with this Knack spends a point of Legend, and something in the Scion\u2019s bearing or expression convinces a single listener not to dismiss what he\u2019s saying. Maybe it\u2019s the fact that the Scion is taking his words so seriously, or maybe he just has an honest face. Maybe he came highly recommended by a respected colleague. Whatever the reason, the listener gives the Scion the bene\ufb01t of the doubt in regards to what the Scion next tries to explain, despite what he might be otherwise inclined to believe.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Unusual Alteration",
+            "description": [
+                "Prerequisite Knack: Undeniable Resemblance This Knack allows a character to change her physical form beyond the limits of the normal spectrum of human variation. She could turn her skin any color of the rainbow or turn her eyes into bulging, unblinking orbs. She could fill her mouth with wide rows of shark teeth or make her joints all bend the opposite way. She could add extra limbs or dispense with her skin entirely. She could even change monstrous ugliness into sublime beauty and vice versa \u2014 allowing her to purchase and use previously unavailable Knacks. Any appearance-based change is acceptable, though no change can add any bonus dots or capabilities. Subjecting a feature to an unusual alteration costs a single Legend point. Changing it back to normal costs another Legend point.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Dreadful Mien",
+            "description": [
+                "Some Scions are so hideous that seeing them spurs the primitive centers of the human brain toward reckless \ufb02ight. Most humans can clamp down on this instinctive response and remain in such Scions\u2019 presence, but this Knack overrides that social nicety. When the Scion\u2019s player spends a Legend point, the character directs his unholy monstrousness at a single unlucky victim in his presence. Overwhelmed, the victim runs for his life and hides somewhere until the next sunrise. People affected by this Knack run away with self-preservation in mind, though, so they won\u2019t sprint blindly into traffic or try to swim across a shark tank to safety. Scions whose Epic Appearance represents divine beauty cannot use this Knack. Also, it doesn\u2019t work on hideous Scions with more dots of Epic Appearance than the one using the Knack.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Preach On",
+            "description": [
+                "Prerequisite Knack: Inspirational Figure (Scion: Hero, p. 130) When a demigod has a willing audience, he can inspire every member with an uplifting, well-intentioned speech or sermon. This Knack works exactly as its prerequisite, and functions under the same limitations, but it is more effective. Mortals and Scions who hear it are so inspired that their spent Willpower points are entirely re\ufb01lled. This Knack also has a more insidious dimension. If the Scion \ufb01nds himself in charge of a group of titanspawn, he can spend a point of Willpower and give those awful minions a speech that empowers them just as Inspirational Figure inspires mortals. Each titanspawn who hears him regains a point of spent Willpower. Scions who might be opposed to the titanspawn\u2019s goals don\u2019t receive any bene\ufb01t from this inspirational speech, but they are compelled to let the demigod \ufb01nish what he has to say before they do something about it.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Blurt It Out",
+            "description": [
+                "This Knack represents a gift for making people speak their minds. Scions who have it normally corner a person who has information they want, strike up a conversation, direct that conversation toward the information in question, then pry it loose when it\u2019s top of mind. Others confront victims who are surrounded by family, friends or coworkers, in order to make those victims admit damning information when it will do the most harm. The Scion\u2019s player must spend a point of Legend to activate the Knack, and the information must have legitimately come up in conversation. The Scion cannot simply shout \u201cJ\u2019accuse!\u201d then use Blurt It Out to force a random confession from a guilty person. (The declamatory French comes only after the Scion uses Blurt It Out effectively.) Regardless, a victim still has a slim chance to catch himself before bringing disaster crashing down. The victim\u2019s player rolls (Willpower + Integrity + Legend) against a dif\ufb01culty equal to (the Scion\u2019s Epic Manipulation + 1). If this roll succeeds, the player may then spend a point of Willpower to avert the slip of the tongue.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Do not want",
+            "description": [
+                "Prerequisite Knack: Dreadful Mien (Scion: Hero, p. 133) The rotting flesh, slimy tentacles, flayed skin and protruding bones of various Gods are the divine way of saying \u201cDon\u2019t touch.\u201d Scions who truly exercise their creepiness become so repulsive that their enemies don\u2019t want to touch them or even look at them, even in battle. (People this ugly rarely have friends, anyway). To activate Do Not Want, the Scion\u2019s player expends three Legend points, then rolls (Appearance + Presence + Legend). Whenever someone first tries to attack or lay hands on the Scion, the aggressor\u2019s player must roll (Willpower + Integrity + Legend). If the attacker scores more successes than the Scion\u2019s player, his character\u2019s actions proceed as normal. If he scores fewer successes than the Scion, then the difference becomes a bonus to the Scion\u2019s DV against the attacker. This bonus persists for the rest of the scene. For example, if the Scion\u2019s player scores 6 successes on the (Appearance + Presence + Legend) roll and an attacker only manages to eke out 3 successes on his (Willpower + Integrity + Legend) roll, then the Scion gains a +3 bonus to DV against that attacker for the rest of the scene. This benefit applies against everyone who tries to take action against the Scion for the rest of the scene, though each attacker makes a separate resistance roll. (For the sake of sanity, the Storyteller might wish to roll once and apply a blanket penalty for large groups of extras.) Scions whose Epic Appearance represents divine beauty cannot use this Knack. Also, it doesn\u2019t work on ugly Scions with more dots of Epic Appearance than the one using the Knack.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Charmer",
+            "description": [
+                "With the sheer, raw charm this Knack represents, the Scion can smother an upwelling of panic, suspicion or utter hatred directed at her for one scene. The player need only spend a point of Legend. One scene is usually long enough to convince a person that it would be in his best interest to help the character, but it\u2019s up to the Scion (and the player\u2019s roleplaying) to actually say the right words. During the scene in which this Knack is in effect, the suppressed emotion doesn\u2019t go away. It merely remains beneath the surface. If the Scion can\u2019t set the person\u2019s mind at ease by scene\u2019s end, the suppressed emotion returns in full force the next time the Scion leaves the affected person\u2019s presence.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Meet Me Backstage",
+            "description": [
+                "Prerequisite Knack: Come Hither (Scion: Hero, p. 133) Better than simply drawing someone to his side, a Scion with this Knack can give a meaningful glance, a casual wave or a whispered hint and cause a subject to go somewhere at the Scion\u2019s discretion. The star-struck victim tries to move to a nearby room, balcony, Jacuzzi or other spot as instructed, in hopes that the Scion will soon arrive. The power of the Knack does all of the convincing. The Scion\u2019s player simply spends one Legend point and picks a single recipient, as with the Come Hither Knack. As usual, the intended recipient must be able to see an image of the Scion, must understand that the message is for her and must have a reasonable idea of how to find him. Meet Me Backstage doesn\u2019t interrupt a subject\u2019s self-preservation any more than Come Hither does: While the subject makes all due haste to reach the appointed meeting place, \u201cdue haste\u201d doesn\u2019t mean \u201cdie along the way.\u201d Nevertheless, this Knack is excellent for discreet rendezvous as well as setting up a poor sap for a beat-down party. Scions whose Epic Appearance represents divine ugliness cannot use this Knack. Also, it doesn\u2019t work on beautiful Scions with more dots of Epic Appearance than the one using the Knack.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Hapless Cool",
+            "description": [
+                "The character spends a Legend point, and for the rest of the scene, she\u2019s just cool. Nobody can explain it; there\u2019s just something about either what she did or the way she did it that made her look cool. Okay, sure, the salt she threw over her shoulder hit Papa Legba\u2019s dog in the eyes, but the comedic timing was just so perfect. Yeah, granted, she laughed so hard when Hel asked if she wanted any half-and-half in her coffee that scrambled eggs came out her nose, but she owned it. No matter what a character with this Knack active does, says or allows to happen that makes a fool out of herself, anyone who sees her thinks she\u2019s cool anyway."
+            ],
+            "tables": []
+        },
+        {
+            "title": "Undeniable Resemblance",
+            "description": [
+                "Prerequisite Knack: Detail Variation Combining elements of the two Knacks it takes to get to this one, the character can make more radical alterations to the way he looks. He can change racial characteristics or make dramatic changes in his weight or height. He can even change genders (and be completely fertile in the new form) or exhibit characteristics of both (and be fertile in both). Any morphology and physiognomy that exists on the spectrum of human variety is a valid change. When the character is finished, his new Appearance can be from one dot to as many dots as he actually has. His Epic Appearance dots are automatically included at their full value, but they can be suppressed normally with My Eyes Are Up Here. The character can also use this Knack to perfectly mimic the appearance of anyone he has seen. Doing so requires a (Dexterity + Empathy) roll with a difficulty equal to (1 + that person\u2019s Legend). More generic alteration requires no roll, but any use of this Knack costs five Legend points to realize the finish product.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Landslide",
+            "Dice Pool: Strength + Craft \nCost: 1 Willpower + 3 Legend \nMoving his arms like the conductor of a symphony orchestra, the Scion can mentally change the shape of any bare earth or stone within his line of sight, out to a range of 50 yards per dot of Legend he has. He can make jagged spars of stone thrust up from the surface, or he can open yawning crevices beneath the feet of his enemies. He can hollow out a depression suitable for the site of a mass grave or raise an earthen wall to keep hooligans at bay. He can detach a sheet of earth from a hillside to send it crashing down, or he can halt such a landslide in its tracks and force it to rejoin the earth beneath it."
+        ],
+        [
+            "Shaping",
+            "Dice Pool: Dexterity + Craft (to shape) \nCost: 1 Legend \nThe Scion can sculpt stone, concrete, fired clay or metal with his bare hands. When he spends the point of Legend, the substance becomes malleable like wet clay for as long as he touches it. With a successful (Dexterity + Craft) roll by his player, the Scion can shape it into any form his nimble fingers can produce. The Scion can affect up to one cubic foot of material at a time. Once he breaks contact with the substance he is shaping, it loses all malleability and sets in its new form."
+        ],
+        [
+            "Echo Sounding",
+            "Dice Pool: Perception + Awareness \nCost: None \nBy stomping or otherwise knocking on the earth, the Scion gets a sense of its general composition and density, as well as finding holes or caves beneath the surface. If he\u2019s looking for something specific in the earth\u2014such as gold, oil or a human body\u2014this Boon reveals its distance from him and depth from the epicenter at the expense of the other information. The Boon works only at ground level or on the up-thrust surface of a mountainside, but it works through floors and pavement. It gives the Scion a semispherical reading with a radius equal to one half mile per dot of Legend."
+        ],
+        [
+            "Earth Creation",
+            "Dice Pool: Stamina + Craft \nCost: 1 Legend per cubic yard \nThe God\u2019s mastery of the Purview is such that he can literally create stone, earth and metal from nothing. He only puts his hands together before him and wills the material into being as his player spends five Legend and rolls (Stamina + Craft). With this Boon, he can create anything from sand to loam to granite to diamonds to steel. Any substance that the Earth Purview covers is fair game. Even glass is okay, as it\u2019s chiefly made from silica."
+        ],
+        [
+            "Safely Interred",
+            "Dice Pool: None \nCost: None \nWhether the character is caught up in a landslide, buried in a shallow grave by the roadside or trapped in the rubble of a collapsing building, he need not fear the earth\u2019s embrace as long as he has his Earth Birthright. No amount of collapsing rubble can break the Scion\u2019s bones (or the Birthright itself), and he won\u2019t suffocate no matter how much dirt piles onto him. If he lacks the strength to free himself, however, he does run the risk of either starving to death or dying of thirst if no one digs him out. Yet, it would not be the earth that kills him, but his own lack of fortitude."
+        ],
+        [
+            "Shaping",
+            "Dice Pool: Dexterity + Craft (to shape) \nCost: 1 Legend \nThe Scion can sculpt stone, concrete, fired clay or metal with his bare hands. When he spends the point of Legend, the substance becomes malleable like wet clay for as long as he touches it. With a successful (Dexterity + Craft) roll by his player, the Scion can shape it into any form his nimble fingers can produce. The Scion can affect up to one cubic foot of material at a time. Once he breaks contact with the substance he is shaping, it loses all malleability and sets in its new form."
+        ],
+        [
+            "Earth Travel",
+            "Dice Pool: None \nCost: 1 Legend \nThe Scion can reflexively sink into the bare earth or stone or metal and move through it like a swimmer through water. The Scion can move only through a volume of earth large enough to accommodate his entire body. Also, unless the Scion has Safely Interred (Earth \u2022), he can remain within the earth for only as long as he can hold his breath. If he stays under longer, he begins to drown. While he\u2019s under, the Scion instinctively knows his way to the nearest air."
+        ],
+        [
+            "Landslide",
+            "Dice Pool: Strength + Craft \nCost: 1 Willpower + 3 Legend \nMoving his arms like the conductor of a symphony orchestra, the Scion can mentally change the shape of any bare earth or stone within his line of sight, out to a range of 50 yards per dot of Legend he has. He can make jagged spars of stone thrust up from the surface, or he can open yawning crevices beneath the feet of his enemies. He can hollow out a depression suitable for the site of a mass grave or raise an earthen wall to keep hooligans at bay. He can detach a sheet of earth from a hillside to send it crashing down, or he can halt such a landslide in its tracks and force it to rejoin the earth beneath it."
+        ],
+        [
+            "Earth Travel",
+            "Dice Pool: None \nCost: 1 Legend \nThe Scion can reflexively sink into the bare earth or stone or metal and move through it like a swimmer through water. The Scion can move only through a volume of earth large enough to accommodate his entire body. Also, unless the Scion has Safely Interred (Earth \u2022), he can remain within the earth for only as long as he can hold his breath. If he stays under longer, he begins to drown. While he\u2019s under, the Scion instinctively knows his way to the nearest air."
+        ],
+        [
+            "Shaping",
+            "Dice Pool: Dexterity + Craft (to shape) \nCost: 1 Legend \nThe Scion can sculpt stone, concrete, fired clay or metal with his bare hands. When he spends the point of Legend, the substance becomes malleable like wet clay for as long as he touches it. With a successful (Dexterity + Craft) roll by his player, the Scion can shape it into any form his nimble fingers can produce. The Scion can affect up to one cubic foot of material at a time. Once he breaks contact with the substance he is shaping, it loses all malleability and sets in its new form."
+        ],
+        [
+            "Rust/Shine",
+            "Dice Pool: None \nCost: 2 Legend \nWith a pass of the hand, the Scion causes a coating of rust or oxidization to form on a metallic object or conversely removes such a coating, restoring an item to its untarnished form. A rusted metal object loses durability and functionality. Its Hardness decreases to half normal, and if the object is a precision item (like a gun), it has a 50% chance to malfunction any time it\u2019s used. Restoring a rusted item to its original state wipes away all traces of age and even reverses the effects, so that a wholly rusted-out car body (for instance) would be as good as new. The rusted parts don\u2019t just disappear, they reverse the process and become solid metal again. Invoking this power on an item requires the Scion to physically touch or manipulate the object, and it has no effect on metals that don\u2019t rust (such as gold) or upon Relics."
+        ],
+        [
+            "Rust/Shine",
+            "Dice Pool: None \nCost: 2 Legend \nWith a pass of the hand, the Scion causes a coating of rust or oxidization to form on a metallic object or conversely removes such a coating, restoring an item to its untarnished form. A rusted metal object loses durability and functionality. Its Hardness decreases to half normal, and if the object is a precision item (like a gun), it has a 50% chance to malfunction any time it\u2019s used. Restoring a rusted item to its original state wipes away all traces of age and even reverses the effects, so that a wholly rusted-out car body (for instance) would be as good as new. The rusted parts don\u2019t just disappear, they reverse the process and become solid metal again. Invoking this power on an item requires the Scion to physically touch or manipulate the object, and it has no effect on metals that don\u2019t rust (such as gold) or upon Relics."
+        ],
+        [
+            "Echo Sounding",
+            "Dice Pool: Perception + Awareness \nCost: None \nBy stomping or otherwise knocking on the earth, the Scion gets a sense of its general composition and density, as well as finding holes or caves beneath the surface. If he\u2019s looking for something specific in the earth\u2014such as gold, oil or a human body\u2014this Boon reveals its distance from him and depth from the epicenter at the expense of the other information. The Boon works only at ground level or on the up-thrust surface of a mountainside, but it works through floors and pavement. It gives the Scion a semispherical reading with a radius equal to one half mile per dot of Legend."
+        ],
+        [
+            "Earth Armor",
+            "Dice Pool: None \nCost: 1 Legend \nThe Scion stomps a foot or pounds a fist on the bare earth, and a thick cloud of particles of the substance rises into the air around him. This cloud swirls around him and accumulates on his body like a suit of plate armor plus helmet. Any earthen substance will suffice, from gravel to mud to sand. The armor the coating of particles creates has a bashing and lethal Hardness and soak equal to half the Scion\u2019s Legend (rounded up), as well as a mobility penalty equal to that of riot gear. It lasts for the rest of the scene, at the end of which it shatters into a million pieces and falls at the Scion\u2019s feet. A Scion with Shaping (Earth \u2022\u2022\u2022) can craft the armor into a stylized shape, but only if the Scion wearing the armor remains inactive long enough to allow it."
+        ],
+        [
+            "Earth Travel",
+            "Dice Pool: None \nCost: 1 Legend \nThe Scion can reflexively sink into the bare earth or stone or metal and move through it like a swimmer through water. The Scion can move only through a volume of earth large enough to accommodate his entire body. Also, unless the Scion has Safely Interred (Earth \u2022), he can remain within the earth for only as long as he can hold his breath. If he stays under longer, he begins to drown. While he\u2019s under, the Scion instinctively knows his way to the nearest air."
+        ],
+        [
+            "Rust/Shine",
+            "Dice Pool: None \nCost: 2 Legend \nWith a pass of the hand, the Scion causes a coating of rust or oxidization to form on a metallic object or conversely removes such a coating, restoring an item to its untarnished form. A rusted metal object loses durability and functionality. Its Hardness decreases to half normal, and if the object is a precision item (like a gun), it has a 50% chance to malfunction any time it\u2019s used. Restoring a rusted item to its original state wipes away all traces of age and even reverses the effects, so that a wholly rusted-out car body (for instance) would be as good as new. The rusted parts don\u2019t just disappear, they reverse the process and become solid metal again. Invoking this power on an item requires the Scion to physically touch or manipulate the object, and it has no effect on metals that don\u2019t rust (such as gold) or upon Relics."
+        ],
+        [
+            "Earth Creation",
+            "Dice Pool: Stamina + Craft \nCost: 1 Legend per cubic yard \nThe God\u2019s mastery of the Purview is such that he can literally create stone, earth and metal from nothing. He only puts his hands together before him and wills the material into being as his player spends five Legend and rolls (Stamina + Craft). With this Boon, he can create anything from sand to loam to granite to diamonds to steel. Any substance that the Earth Purview covers is fair game. Even glass is okay, as it\u2019s chiefly made from silica."
+        ],
+        [
+            "Imprisoning Crystal",
+            "Dice Pool: Strength + Craft \nCost: 5 Legend, +1 Legend per Legend dot of the target \nA massive shard of crystal coalesces around the Scion\u2019s target. If the player\u2019s (Strength + Craft) roll bests the opponent\u2019s (Strength + Fortitude + Legend), then the opponent becomes encased in a clear, translucent, many-faceted shard of crystal. This prison holds the opponent in place but also renders it immune to physical attack. Unless something manages to penetrate the crystal, the occupant, in stasis, remains unaffected."
+        ],
+        [
+            "Rust/Shine",
+            "Dice Pool: None \nCost: 2 Legend \nWith a pass of the hand, the Scion causes a coating of rust or oxidization to form on a metallic object or conversely removes such a coating, restoring an item to its untarnished form. A rusted metal object loses durability and functionality. Its Hardness decreases to half normal, and if the object is a precision item (like a gun), it has a 50% chance to malfunction any time it\u2019s used. Restoring a rusted item to its original state wipes away all traces of age and even reverses the effects, so that a wholly rusted-out car body (for instance) would be as good as new. The rusted parts don\u2019t just disappear, they reverse the process and become solid metal again. Invoking this power on an item requires the Scion to physically touch or manipulate the object, and it has no effect on metals that don\u2019t rust (such as gold) or upon Relics."
+        ],
+        [
+            "Earth Armor",
+            "Dice Pool: None \nCost: 1 Legend \nThe Scion stomps a foot or pounds a fist on the bare earth, and a thick cloud of particles of the substance rises into the air around him. This cloud swirls around him and accumulates on his body like a suit of plate armor plus helmet. Any earthen substance will suffice, from gravel to mud to sand. The armor the coating of particles creates has a bashing and lethal Hardness and soak equal to half the Scion\u2019s Legend (rounded up), as well as a mobility penalty equal to that of riot gear. It lasts for the rest of the scene, at the end of which it shatters into a million pieces and falls at the Scion\u2019s feet. A Scion with Shaping (Earth \u2022\u2022\u2022) can craft the armor into a stylized shape, but only if the Scion wearing the armor remains inactive long enough to allow it."
+        ],
+        [
+            "Safely Interred",
+            "Dice Pool: None \nCost: None \nWhether the character is caught up in a landslide, buried in a shallow grave by the roadside or trapped in the rubble of a collapsing building, he need not fear the earth\u2019s embrace as long as he has his Earth Birthright. No amount of collapsing rubble can break the Scion\u2019s bones (or the Birthright itself), and he won\u2019t suffocate no matter how much dirt piles onto him. If he lacks the strength to free himself, however, he does run the risk of either starving to death or dying of thirst if no one digs him out. Yet, it would not be the earth that kills him, but his own lack of fortitude."
+        ],
+        [
+            "Earth Travel",
+            "Dice Pool: None \nCost: 1 Legend \nThe Scion can reflexively sink into the bare earth or stone or metal and move through it like a swimmer through water. The Scion can move only through a volume of earth large enough to accommodate his entire body. Also, unless the Scion has Safely Interred (Earth \u2022), he can remain within the earth for only as long as he can hold his breath. If he stays under longer, he begins to drown. While he\u2019s under, the Scion instinctively knows his way to the nearest air."
+        ],
+        [
+            "Safely Interred",
+            "Dice Pool: None \nCost: None \nWhether the character is caught up in a landslide, buried in a shallow grave by the roadside or trapped in the rubble of a collapsing building, he need not fear the earth\u2019s embrace as long as he has his Earth Birthright. No amount of collapsing rubble can break the Scion\u2019s bones (or the Birthright itself), and he won\u2019t suffocate no matter how much dirt piles onto him. If he lacks the strength to free himself, however, he does run the risk of either starving to death or dying of thirst if no one digs him out. Yet, it would not be the earth that kills him, but his own lack of fortitude."
+        ],
+        [
+            "Earth Armor",
+            "Dice Pool: None \nCost: 1 Legend \nThe Scion stomps a foot or pounds a fist on the bare earth, and a thick cloud of particles of the substance rises into the air around him. This cloud swirls around him and accumulates on his body like a suit of plate armor plus helmet. Any earthen substance will suffice, from gravel to mud to sand. The armor the coating of particles creates has a bashing and lethal Hardness and soak equal to half the Scion\u2019s Legend (rounded up), as well as a mobility penalty equal to that of riot gear. It lasts for the rest of the scene, at the end of which it shatters into a million pieces and falls at the Scion\u2019s feet. A Scion with Shaping (Earth \u2022\u2022\u2022) can craft the armor into a stylized shape, but only if the Scion wearing the armor remains inactive long enough to allow it."
+        ],
+        [
+            "Echo Sounding",
+            "Dice Pool: Perception + Awareness \nCost: None \nBy stomping or otherwise knocking on the earth, the Scion gets a sense of its general composition and density, as well as finding holes or caves beneath the surface. If he\u2019s looking for something specific in the earth\u2014such as gold, oil or a human body\u2014this Boon reveals its distance from him and depth from the epicenter at the expense of the other information. The Boon works only at ground level or on the up-thrust surface of a mountainside, but it works through floors and pavement. It gives the Scion a semispherical reading with a radius equal to one half mile per dot of Legend."
+        ]
+    ],
+    "nature": "Loner",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 61,
+        "move": 55,
+        "climb": 11,
+        "jump": {
+            "horizontal": 22,
+            "vertical": 11
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 42,
+        "parry_dv": 35
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 2,
+        "animal_ken": 0,
+        "art": 3,
+        "athletics": 0,
+        "awareness": 2,
+        "brawl": 0,
+        "command": 3,
+        "control": 2,
+        "craft": 3,
+        "empathy": 3,
+        "fortitude": 2,
+        "integrity": 1,
+        "investigation": 2,
+        "larceny": 0,
+        "marksmanship": 0,
+        "medicine": 3,
+        "melee": 3,
+        "occult": 1,
+        "presence": 2,
+        "politics": 3,
+        "science": 1,
+        "stealth": 0,
+        "survival": 0,
+        "thrown": 3
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 21,
+        "lethal": 26.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 10,
+    "god": "Tlazoltotl",
+    "pantheon": "Atzlanti",
+    "name": "Laura Vargas"
+}

@@ -1,0 +1,261 @@
+{
+    "attributes": {
+        "stre": 5,
+        "dex": 5,
+        "sta": 5,
+        "cha": 3,
+        "man": 5,
+        "app": 3,
+        "per": 5,
+        "inte": 7,
+        "wits": 7
+    },
+    "epic_attributes": {
+        "epic_stre": 1,
+        "epic_dex": 5,
+        "epic_sta": 3,
+        "epic_cha": 3,
+        "epic_man": 5,
+        "epic_app": 2,
+        "epic_per": 0,
+        "epic_int": 0,
+        "epic_wits": 2
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        1,
+        0,
+        1,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Titanium Tools",
+            "description": [
+                "While Relics may be made of stern stuff, the usual off-the-shelf \u201cauthentic katana\u201d tends to fold like the cheap steel that it is when it connects with something under the force of Epic Strength. With this Knack, any tool or item that the Scion picks up benefits from the same bends and loopholes in the laws of physics that allow Epic Strength to defy both leverage and structural integrity. The Scion could use a wooden board to clobber a thug, or he could ram a flimsy iron fireplace poker right through a wall of concrete with the full force of his Epic Strength. In either case, the tool would remain reasonably intact (albeit with some cosmetic wear). Such guarantees are particularly handy when using an object of questionable strength to beat a titanspawn to death without destroying the item in question (such as a snow globe intended as a present). Note that Titanium Tools doesn\u2019t improve the Hardness or rigidity of an item. A cheap katana can still be snapped in half by an angry titanspawn that decides to target the blade. A limp spaghetti noodle is no better a weapon with this Knack than without. Titanium Tools simply allows the Scion to use objects that might be feasible as weapons under normal circumstances and subject them to the extraordinary effects of his Epic Strength without breaking them, for as long as he wields the object.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Holy Bound",
+            "description": [
+                "Only characters whose Boons include the Sky Purview have more freedom to \ufb02aunt the laws of physics. Simply having Epic Strength enables a Scion to perform prodigious leaps that leave mortals standing slack-jawed with wonder. For example, if a Scion has Strength 5, Athletics 3 and Epic Strength 3, she can jump 12 yards straight up or 24 yards forward. (See \u201cMovement\u201d on p. 180\\.) This Knack, however, doubles a Scion\u2019s vertical and horizontal jumping distances. With it, the aforementioned character could leap an amazing 24 yards straight up (from the ground to a seventh-story balcony, for instance) or 48 yards forward in a single bound.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Regeneration",
+            "description": [
+                "Prerequisite Knack: Self-Healing (Scion: Hero, p. 129) Regeneration repairs the severe damage that\u2019s too serious for its prerequisite Knack to heal. For a point of Legend, the Scion can automatically heal a single level of aggravated damage. With this Knack, he can also perform such miraculous feats as regenerating a destroyed limb, extremity or eye. Doing so costs one Legend point per body part so restored.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Skin\u2013Shedding",
+            "description": [
+                "Not only is this Knack a life-saving power, but it can also be an effective (if surreal) means of escape. If an enemy\u2019s attack against the Scion in\ufb02icts enough damage to cause knockback, the Scion may spend a point of Legend and a point of Willpower to re\ufb02exively negate all damage from the attack. The attack still in\ufb02icts its knockback, though, seemingly knocking the Scion completely out of his skin. The empty husk collapses at the attacker\u2019s feet, disintegrating over three ticks. The Scion who was apparently knocked out of his skin lands perfectly unharmed however far away the knockback threw him, retaining all of his clothing and possessions and radiating a golden sheen until the shed skin disintegrates. The Scion can use this Knack only once per scene.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Supernal Bestial",
+            "Dice Pool: None \nCost: 1 lethal health level + 4 Legend \nThe Scion grants a beast four extra dots to be divided as he sees fit between its Strength and Stamina. The beast also gains two extra -0 health levels. The beast remains loyal to only the Scion, who can still train him as normal, but that loyalty must be renewed once every three months (roughly one season)."
+        ],
+        [
+            "Heroic Endowment",
+            "Dice Pool: None \nCost: 1 lethal health level + 3 Legend \nThe Scion can now imbue a human with three free Attribute dots to be spent into the human\u2019s Strength and/or Stamina. The person remains loyal to the Scion for three months (roughly one season) and remains equally irritable with other people. A Scion cannot use this Boon on a beast."
+        ],
+        [
+            "Guilt of the Damned",
+            "Dice Pool: Perception + Empathy \nCost: 1 Legend \nThe Scion calls out one of the failings of a foe while striking him, and then spends the requisite Legend point. If the subject has a lower Legend score than the attacking Scion, the power functions automatically; otherwise, the player rolls (Perception + Empathy) against the opponent\u2019s (Willpower + Integrity + Legend). If the power succeeds, the enemy becomes wracked with guilt at its lack of integrity and questions its ability to uphold the high standards of Virtue that it considers important. (A titanspawn might instead become uncertain of its ability to wreak havoc and lose confidence in its ability to overcome the Scion)."
+        ],
+        [
+            "Shield of Righteousness",
+            "Dice Pool: None \nCost: 1 Legend + 1 Willpower \nThis Boon can protect an innocent victim from suffering someone else\u2019s due punishment. The Scion cries out against the injustice\u2014a simple \u201cHe didn\u2019t do it!\u201d will suffice\u2014and spends the Legend and Willpower point. Doing so, she renders the next action that would inflict harm on the innocent victim completely impotent, obviating any damage that action should inflict. Whether the victim is being stabbed by a jealous wife, shot by a firing squad, lynched by a mob, hurled off a cliff by a duped Scion vigilante or whatever, he suffers no damage from that action."
+        ],
+        [
+            "Bestial Endowment",
+            "Dice Pool: None \nCost: 1 lethal health level + 1 Legend \nThe Scion grants a beast a single extra dot in either Strength or Stamina. The beast becomes loyal to only the Scion, who can also train him as normal, but that loyalty must be renewed once every month."
+        ],
+        [
+            "Guilt of the Damned",
+            "Dice Pool: Perception + Empathy \nCost: 1 Legend \nThe Scion calls out one of the failings of a foe while striking him, and then spends the requisite Legend point. If the subject has a lower Legend score than the attacking Scion, the power functions automatically; otherwise, the player rolls (Perception + Empathy) against the opponent\u2019s (Willpower + Integrity + Legend). If the power succeeds, the enemy becomes wracked with guilt at its lack of integrity and questions its ability to uphold the high standards of Virtue that it considers important. (A titanspawn might instead become uncertain of its ability to wreak havoc and lose confidence in its ability to overcome the Scion)."
+        ],
+        [
+            "Heroic Endowment",
+            "Dice Pool: None \nCost: 1 lethal health level + 3 Legend \nThe Scion can now imbue a human with three free Attribute dots to be spent into the human\u2019s Strength and/or Stamina. The person remains loyal to the Scion for three months (roughly one season) and remains equally irritable with other people. A Scion cannot use this Boon on a beast."
+        ],
+        [
+            "Guilt Apparitions",
+            "Dice Pool: Manipulation + Integrity \nCost: 1 Legend \nWhen a Scion knows that someone is guilty of an injustice but she lacks either the evidence to prove it or the leverage to make him admit it, she can rely on this Boon instead. To use it, she accuses the guilty party of the injustice (be it in person, in a letter, over the phone, via skywriting\u2026), and her player spends a point of Legend and rolls (Manipulation + Integrity). If the roll succeeds, the accusation causes the victim to periodically hallucinate like Macbeth or his wife. These hallucinations occur randomly, torturing the guilty party with the knowledge that justice hasn\u2019t been served. They also render him unable to regain Willpower."
+        ],
+        [
+            "Judgment",
+            "Dice Pool: Perception + Empathy \nCost: None \nThis Boon aids a Scion immensely in determining guilt, one of the foundations of meting out justice. When she confronts someone she suspects committed an injustice and accuses that person of having done so, her player rolls (Perception + Empathy). (This roll isn\u2019t modified by supernatural powers or contested by the suspect\u2019s player.) On a success, the Scion can intuitively tell whether the suspect is guilty as charged. A failure yields an indeterminate reading and means that the Scion can\u2019t try to determine the same subject\u2019s guilt for 24 hours. A botch yields a false reading."
+        ],
+        [
+            "Judgment",
+            "Dice Pool: Perception + Empathy \nCost: None \nThis Boon aids a Scion immensely in determining guilt, one of the foundations of meting out justice. When she confronts someone she suspects committed an injustice and accuses that person of having done so, her player rolls (Perception + Empathy). (This roll isn\u2019t modified by supernatural powers or contested by the suspect\u2019s player.) On a success, the Scion can intuitively tell whether the suspect is guilty as charged. A failure yields an indeterminate reading and means that the Scion can\u2019t try to determine the same subject\u2019s guilt for 24 hours. A botch yields a false reading."
+        ],
+        [
+            "Guilt of the Damned",
+            "Dice Pool: Perception + Empathy \nCost: 1 Legend \nThe Scion calls out one of the failings of a foe while striking him, and then spends the requisite Legend point. If the subject has a lower Legend score than the attacking Scion, the power functions automatically; otherwise, the player rolls (Perception + Empathy) against the opponent\u2019s (Willpower + Integrity + Legend). If the power succeeds, the enemy becomes wracked with guilt at its lack of integrity and questions its ability to uphold the high standards of Virtue that it considers important. (A titanspawn might instead become uncertain of its ability to wreak havoc and lose confidence in its ability to overcome the Scion)."
+        ]
+    ],
+    "nature": "Architect",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 22,
+        "move": 16,
+        "climb": 6,
+        "jump": {
+            "horizontal": 18,
+            "vertical": 9
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 18,
+        "parry_dv": 14
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 2,
+        "animal_ken": 3,
+        "art": 2,
+        "athletics": 3,
+        "awareness": 2,
+        "brawl": 3,
+        "command": 3,
+        "control": 1,
+        "craft": 3,
+        "empathy": 3,
+        "fortitude": 2,
+        "integrity": 0,
+        "investigation": 3,
+        "larceny": 3,
+        "marksmanship": 1,
+        "medicine": 3,
+        "melee": 2,
+        "occult": 0,
+        "presence": 1,
+        "politics": 3,
+        "science": 0,
+        "stealth": 3,
+        "survival": 3,
+        "thrown": 3
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 9,
+        "lethal": 8.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 4,
+    "god": "Vidar",
+    "pantheon": "Aesir",
+    "name": "Aatos Aho"
+}

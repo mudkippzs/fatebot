@@ -1,0 +1,352 @@
+{
+    "attributes": {
+        "stre": 7,
+        "dex": 9,
+        "sta": 9,
+        "cha": 7,
+        "man": 9,
+        "app": 7,
+        "per": 5,
+        "inte": 7,
+        "wits": 3
+    },
+    "epic_attributes": {
+        "epic_stre": 3,
+        "epic_dex": 3,
+        "epic_sta": 3,
+        "epic_cha": 3,
+        "epic_man": 5,
+        "epic_app": 6,
+        "epic_per": 1,
+        "epic_int": 5,
+        "epic_wits": 5
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        0,
+        1,
+        1,
+        0
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Visage Great And Terrible",
+            "description": [
+                "Scions of Hel are almost always awesomely hideous, while Scions of Aphrodite are generally phenomenally attractive. With this Knack, though, a Scion can have the best of both worlds. Once a Scion chooses this Knack, she can shift her Epic Appearance from hideous to beautiful at will. The player simply expends the requisite Legend cost and the Scion\u2019s mien transforms. In either form, she is still recognizable as herself; she cannot use this Knack to change her appearance, unless she also has a Knack like Detail Variation from p. 71 of Scion: God. However, she can change from an elegant, refined woman to a vengeful, nerve-wracking hag in the blink of an eye. Once she transforms thus, her range of available Epic Appearance Knacks shifts as appropriate. While beautiful, then, the Scion can invoke all of her known Epic Appearance Knacks that rely on great beauty; while hideous, she can invoke any of her Epic Appearance Knacks that require a monstrous countenance. Once a Scion learns this Knack, she can freely purchase any Epic Appearance Knack that would normally require incredible beauty or incredible monstrosity. She can only use the Knacks appropriate to the form that she currently bears, though. Activating this Knack costs three points of Legend. The Scion remains in her switched state until she decides to activate the Knack again. (Indeed, both of them are her \u201cnatural\u201d state; she simply has the ability to swap between them as desired.)"
+            ],
+            "tables": []
+        },
+        {
+            "title": "Spatial Attunement",
+            "description": [
+                "The Scion is so aware of his surroundings that his other senses (primarily those of hearing and smell) compensate for his eyes in identifying nearby objects outside his line of sight. The Scion could recognize the person sneaking up on him by that person\u2019s telltale scent and mark exactly how far away that person is by the sound of his passing. With one quick glance around the room, the Scion could mark in his mind exactly where every wall and piece of furniture is within. Having done so, he could then navigate the room with his eyes closed, even slipping through a milling crowd of people without bumping into anyone or anything. To a certain extent, the character can perceive what\u2019s going on around him in a 360-degree arc. Also, he suffers no penalties for \ufb01ghting blind as long as he can hear or smell his opponents.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Lasting Impression",
+            "description": [
+                "The Scion has an effect on a subject that\u2019s slow to fade away. Thoughts of the Scion creep into the victim\u2019s mind unbidden either to undermine his concentration or to uplift his spirit. A beautiful Scion can use her Epic Appearance to make a character feel good about himself, granting him an extra Willpower point (which may exceed the character\u2019s maximum) and an extra die on any Art, Athletics, Command, Craft or Integrity dice pools. A hideous Scion in\ufb02icts quite the opposite effect. The fear she instills robs her victim of a Willpower point that he cannot regain until the effect wears off. The Scion also unsettles him so deeply that he loses one die from all Academics, Awareness, Control, Politics or Presence dice pools. Using this Knack costs the Scion a single point of Legend, and its effects last for 24 hours. The Scion can use the Knack on only one person at a time, and the target must be able to see her in person.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Refined Palate",
+            "description": [
+                "The Scion has exceptionally precise senses of taste and smell (as the latter enhances the former). With a faint sniff or a tentative taste, the Scion can \ufb01gure out what ingredients compose a certain concoction, and in what proportions. She can also sniff out drugs or poisons that have been added to what she was about to wolf down, as well as detect airborne toxins by the way they make the air taste. This Knack doesn\u2019t tell a Scion what an ingredient is if she isn\u2019t already familiar with it. (She would realize that what\u2019s making her iced tea sweet isn\u2019t sugar, for instance, but she wouldn\u2019t know if it was Equal or Splenda if she\u2019d never had either arti\ufb01cial sweetener before.) Instead, the Knack registers each component separately and provides an indication whether such components would be dangerous to consume. The Scion also remembers the taste and smell of various ingredients she experiences so she can recognize and identify them if she\u2019s exposed to them again.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Rarefied Electromagnetic Perception",
+            "description": [
+                "Prerequisite Knack: Broad-Spectrum Reception (Scion: Demigod, p. 64) This Knack builds on its prerequisite, making the basic electromagnetic perceptions that it allows part of the character\u2019s normal perceptions. She doesn\u2019t have to go looking for them, she\u2019s just as aware of them as mortals are aware of properties such as color and heat. If the character spends a single Legend point for a scene, she refines these perceptions to an even sharper degree. If she can feel radio waves or cell phone signals, she can listen to them as if she were an electronic receiver. If she notices television signals, she can watch a program carried on those signals (or more if she has Parallel Attention) in her mind\u2019s eye.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Predatory Focus",
+            "description": [
+                "The Scion is a hunter par excellence. With a successful (Perception + Survival) roll, he can track his prey by scent alone or by almost-invisible physical signs. With this Knack, the hunter can follow his prey across any sort of terrain as long as the prey continues to \ufb02ee and does not take significant pains to mask its scent or minimize the disturbance its passing causes. (The former entails such extremes as swimming a mile upstream in a rushing river or taking refuge inside a functioning hog-rendering plant. The latter includes little short of levitating or \ufb02ying.) Picking up a lost trail with this Knack requires a new (Perception + Survival) roll. If the prey has Epic Wits or a Stealth Arete (see pp. 149-150), the hunter\u2019s roll is contested against the prey\u2019s (Wits + Stealth).",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Unusual Alteration",
+            "description": [
+                "Prerequisite Knack: Undeniable Resemblance This Knack allows a character to change her physical form beyond the limits of the normal spectrum of human variation. She could turn her skin any color of the rainbow or turn her eyes into bulging, unblinking orbs. She could fill her mouth with wide rows of shark teeth or make her joints all bend the opposite way. She could add extra limbs or dispense with her skin entirely. She could even change monstrous ugliness into sublime beauty and vice versa \u2014 allowing her to purchase and use previously unavailable Knacks. Any appearance-based change is acceptable, though no change can add any bonus dots or capabilities. Subjecting a feature to an unusual alteration costs a single Legend point. Changing it back to normal costs another Legend point.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Game Face",
+            "description": [
+                "This Knack functions identically to Dreadful Mien (see Scion: Hero, p. 133), but functions for characters with positive Epic Appearance. Just because they\u2019re handsome or beautiful doesn\u2019t mean they can\u2019t be scary as hell when they snarl at their foes or flash a razor-edged, you-know-I\u2019m-going-to-kill-you smile.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Unfailing Recognition",
+            "description": [
+                "The Scion can automatically recognize any people to whom she is Fatebound. She can pick their faces out of a crowd with just a glance. She can recognize their voices despite electronic distortion or overpowering background noise. She knows their scents and their body language and even the exact feel of the way they shake hands. She can also recognize an imposter when someone tries to mimic the voice or appearance of someone to whom she is Fatebound. Recognizing others is not quite as easy. If, when a Scion encounters a character to whom she is not Fatebound, she makes a concerted effort to try to remember that character\u2019s looks and mannerisms, the player may spend a point of Willpower to lock that image in the Scion\u2019s mind. After that, she retains the ability to recognize him despite all obfuscation for the rest of the story as if they two were Fatebound. Thereafter, the Scion loses any supernatural ability she had to recognize that character. (She doesn\u2019t forget what the character looks like, mind you. It\u2019s just that the Knack no longer applies to that person.) The timing of when the Scion recognizes a person is entirely up to the Storyteller as dictated by the needs of the story. If the private investigator who\u2019s been dogging the Scion\u2019s heels tries to slink up to the character in disguise at a crowded charity fund-raiser, the Scion might see the gumshoe coming a mile away (even despite the fake beard, the fat suit, the spray-on tan and the sex change). If a Scion of Loki who\u2019s a rival to a player\u2019s Scion of Anubis arrives in disguise to deliver a cryptic warning, the Scion of Anubis might not recognize her old foe until the trickster disappears with a wink behind the elevator\u2019s closing doors. Finally, as a side effect of this Knack, a Scion can always recognize when someone who is not in disguise is biologically related to a person she knows well (regardless of whether that person is Fatebound to her). She cannot intuitively grasp what that relationship is, but she knows it\u2019s there\u2014even if the person in question doesn\u2019t.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Clairvoyance",
+            "description": [
+                "Prerequisite Knack: Telescopic Senses (Scion: Demigod, p. 64) While this Knack\u2019s prerequisite allows a character to see and hear and smell things from much farther away than a normal human could, the sensation must still be within either line of sight or the extreme limits to which it can travel. This Knack, however, removes that limitation so that a character can sense things happening at a significant remove. If he concentrates on a location in which he has spent at least a scene in the past, he can see, hear or smell what\u2019s happening there as if he were standing in its exact center. While the character does so, he cannot see, hear or smell anything that\u2019s happening around his body. Another application of this Knack is that the character can extend his sense of taste or touch to the range of his line of sight. If he can see a chocolate mousse across the room, he gets a phantom sensation on his tongue of what it tastes like. (If he also has the Refined Palate Knack\u2014from Scion: Hero, p. 134\u2014he can use that Knack remotely.) If wants to know what something he can see feels like, he can reach out for it and receive a phantom sensation of its texture on his fingertips. Using either application of this power costs five Legend points. The first part of this power can even work from one plane of existence to another, to any place the character has spent at least one scene. Observing something in a different plane triples the activation cost, however.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Changing States",
+            "Dice Pool: Dexterity + Craft \nCost: 1 Legend + 1 Willpower \nDefying the laws of thermodynamics, the Scion can instantly change the state of a body of water just by touching it. With this Boon, she can take liquid water, steam, ice or fog and change any one into any of the other three. The amount of water she can affect is the same as per Water Control, and the water remains in its new state for a number of actions equal to the successes rolled to activate the Boon. Water under this effect is also subject to the Scion\u2019s Water Control as long as the Scion maintains contact with some portion of it."
+        ],
+        [
+            "Water Breathing",
+            "Dice Pool: None \nCost: None \nThe Scion need never fear drowning, and she is no longer affected by extremes of water temperature. She can breathe water as easily as air, and she is neither scalded by boiling water nor subject to debilitating frostbite from ice. Having boiling water poured on one\u2019s flesh still hurts, mind you, and being bound in ice or cast adrift in frigid water can still numb and paralyze a Scion. Neither of those extremes can cause the Scion actual physical damage, though."
+        ],
+        [
+            "Aegis",
+            "Dice Pool: Stamina + Fortitude \nCost: 1 Legend + 1 Willpower \nBy touching a mortal or an object, the Scion grants it a measure of divine physical protection. Her player spends one Legend and Willpower then rolls (Stamina + Fortitude), adding her usual bonuses. Successes on this roll then apply to the subject of the Scion\u2019s protection as a temporary Hardness rating for the next 24 hours."
+        ],
+        [
+            "Assess Health",
+            "Dice Pool: None \nCost: None \nThe Scion can instantly, automatically assess the current medical condition of a single living patient in his presence. He can tell how many levels of damage the patient is suffering, as well as any physical addictions he suffers, any illnesses or diseases with which he is infected and any genetic defects that afflict him."
+        ],
+        [
+            "Blessing of Health/Curse of Frailty",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend \nThe Boon can take away a patient\u2019s reproductive capabilities or restore them, provided the patient already has all the necessary organs. This effect lasts for one year per success on the activation roll."
+        ],
+        [
+            "Antidote",
+            "Dice Pool: Intelligence + Medicine \nCost: 1 Legend \nA quick purging of the subject\u2019s system forces poisons and diseases away. Any mundane toxin or common disease instantly disappears from the subject, although the leftover damage, crippling, scarring or similar symptoms remain unless cured with other powers. Magical diseases, titanspawn venoms and the poisons inflicted by powerful Relics might be purged."
+        ],
+        [
+            "Aegis",
+            "Dice Pool: Stamina + Fortitude \nCost: 1 Legend + 1 Willpower \nBy touching a mortal or an object, the Scion grants it a measure of divine physical protection. Her player spends one Legend and Willpower then rolls (Stamina + Fortitude), adding her usual bonuses. Successes on this roll then apply to the subject of the Scion\u2019s protection as a temporary Hardness rating for the next 24 hours."
+        ],
+        [
+            "Eclipse Halo",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend \nThe Scion spends a Legend point and causes a thin, glowing corona of fire to appear in the air behind his head. This halo perfectly resembles the halo of sunfire that is visible around the edges of the moon during a total solar eclipse. The halo remains perpendicular to all witnesses\u2019 lines of sight simultaneously."
+        ],
+        [
+            "Phase Cloak",
+            "Dice Pool: Dexterity + Stealth \nCost: 1 Legend \nThe Scion turns himself away from his enemies much as the moon turns its face away from the earth. The player decides which \u201cphase\u201d of the character\u2019s body he wishes to leave visible then rolls the Scion\u2019s (Dexterity + Stealth) against a difficulty determined on the table that follows. If the roll succeeds, the intended portion of his body fades from sight. If the roll fails, the Legend point is still spent, but nothing happens. If the roll botches, the character assumes the full-moon phase, garnering a -3 penalty on any mundane attempt to hide."
+        ],
+        [
+            "Cleanse",
+            "Dice Pool: Stamina + Survival \nCost: 1 Legend \nEvery gardener and farmer has to deal with blight or vermin sometimes, but doing so is easy for a Scion with this Boon. The player rolls (Stamina + Survival) and spends one Legend, and any blight or infestation ends immediately. Blight clears up as if it had never occurred, and vermin suddenly find the affected plants unappealing. This Boon affects a number of large plants (or a number of square yards of a patch of smaller plants) equal to the successes achieved on the roll. This Boon doesn\u2019t protect against future blights, and it stops only the current generation of vermin infestation."
+        ],
+        [
+            "Water Breathing",
+            "Dice Pool: None \nCost: None \nThe Scion need never fear drowning, and she is no longer affected by extremes of water temperature. She can breathe water as easily as air, and she is neither scalded by boiling water nor subject to debilitating frostbite from ice. Having boiling water poured on one\u2019s flesh still hurts, mind you, and being bound in ice or cast adrift in frigid water can still numb and paralyze a Scion. Neither of those extremes can cause the Scion actual physical damage, though."
+        ],
+        [
+            "Ward",
+            "Dice Pool: Stamina + Fortitude \nCost: 1 Legend + 1 Willpower \nBy touching the entrance to a location, the Scion lays a ward on the area that bars entrance to a certain type of threat. Such a ward could bar ghosts, walking dead, a breed of titanspawn, human beings, lesser animals or Scions. The ward acts as a sphere with a circumference area equal to 500 square feet per dot of Legend the Scion has. It lasts for one day per success garnered by the (Stamina + Fortitude) roll."
+        ],
+        [
+            "Blessing of Health/Curse of Frailty",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend \nThe Boon can take away a patient\u2019s reproductive capabilities or restore them, provided the patient already has all the necessary organs. This effect lasts for one year per success on the activation roll."
+        ],
+        [
+            "Silver Blessing",
+            "Dice Pool: None \nCost: 1 Legend \nWith a breath of cool air, the Scion causes a single item to take on a glittering, silvery sheen. For the rest of the Scene, the item has all of the supernatural properties of silver. While silver does not have any inherent special qualities for most Scions, it can be effective as a weapon against certain theriamorphs (were-creatures) and undead. Silver also features prominently in some kinds of magic. An item affected by Silver Blessing loses none of its native properties, but gains all the benefits of pure silver for the rest of the scene."
+        ],
+        [
+            "Heal/Infect",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend or 1 Willpower \nThe Scion can repair a patient\u2019s injuries or inflict harm directly. On one hand, he can heal as many health levels of bashing damage as his player gets successes on a (Stamina + Medicine) roll. Doing so costs one Legend. Alternatively, he can downgrade a number of health levels equal to successes on the roll from lethal to bashing damage. Doing so costs one Willpower."
+        ],
+        [
+            "Phase Cloak",
+            "Dice Pool: Dexterity + Stealth \nCost: 1 Legend \nThe Scion turns himself away from his enemies much as the moon turns its face away from the earth. The player decides which \u201cphase\u201d of the character\u2019s body he wishes to leave visible then rolls the Scion\u2019s (Dexterity + Stealth) against a difficulty determined on the table that follows. If the roll succeeds, the intended portion of his body fades from sight. If the roll fails, the Legend point is still spent, but nothing happens. If the roll botches, the character assumes the full-moon phase, garnering a -3 penalty on any mundane attempt to hide."
+        ],
+        [
+            "Cradlesong",
+            "Dice Pool: Manipulation + Medicine \nCost: 1 Legend (or 1 Legend + 1 Willpower) \nBy singing or playing some sweet lullaby, the Scion makes a number of people equal to the successes on the activation roll drift quietly off to sleep. Characters of higher Legend than the singer are not affected. Those of equal Legend get to oppose the activation roll with a (Willpower + Integrity + Legend) roll. This soporific effect knocks out any living creature that can hear the Scion\u2019s voice, for a number of hours equal to the Scion\u2019s Legend. Victims with no Legend rating remain asleep the whole time, never waking up regardless of what\u2019s going on around them. Characters with a Legend rating can be woken up by those who went unaffected, if the player of the character trying to rouse the sleeper makes more successes on an extended (Manipulation + Medicine) action to bring the sleeper around. (Such an action constitutes shaking the sleeping person, slapping his cheeks, pinching him, hollering at him or whatever else might wake him from a dead sleep.) Suffering a level of lethal or aggravated damage will also wake a sleeper with a Legend rating."
+        ],
+        [
+            "Heal/Infect",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend or 1 Willpower \nThe Scion can repair a patient\u2019s injuries or inflict harm directly. On one hand, he can heal as many health levels of bashing damage as his player gets successes on a (Stamina + Medicine) roll. Doing so costs one Legend. Alternatively, he can downgrade a number of health levels equal to successes on the roll from lethal to bashing damage. Doing so costs one Willpower."
+        ],
+        [
+            "Green Thumb",
+            "Dice Pool: None \nCost: 1 Legend per plant/patch per year \nThe Scion need only touch a large plant (such as a tree or bush) or a one-square-yard patch of smaller plants (from a window box of daisies to a sheet of algae) and spend a point of Legend. That plant or patch can then survive for a whole year (or for its whole life if its natural span is shorter) without food or sunlight or water. The Scion\u2019s ministrations keep the plant healthy through drought, nutrient deficiency, unnatural darkness or other environmental shortfall. The plant\u2019s surroundings must be within its natural tolerances for the plant to survive, though. (This Boon can\u2019t nurture seaweed on the desert floor, for instance.) Also, this Boon doesn\u2019t protect against or cure any blight or damage from herbivorous noshing."
+        ],
+        [
+            "Greenskin",
+            "Dice Pool: None \nCost: 2 Legend \nWith a moment\u2019s thought, the Scion reflects upon the characteristics of the green, growing world. She then internalizes those characteristics, granting herself some of the features of a plant. While the Scion doesn\u2019t become completely suffused with plant-like characteristics, she does develop a noticeable greenish tint to her skin and hair. Her flesh becomes woody and slightly tough, which grants her one extra level of soak against lethal and bashing damage. She also gains the ability to draw sustenance by photosynthesis. So long as she garners at least four hours of sunlight in a day, she obviates her need for food completely. (While her body might still require a few trace elements, they are so negligible as to be ignored). Lastly, her blood becomes thick and sticky, completely mitigating any bleeding that might happen as a result of wounds; her injuries cover over in a translucent amber almost immediately. Greenskin lasts for a number of scenes equal to the Scion\u2019s Legend, or until the Scion chooses to cancel the effect."
+        ],
+        [
+            "Greenskin",
+            "Dice Pool: None \nCost: 2 Legend \nWith a moment\u2019s thought, the Scion reflects upon the characteristics of the green, growing world. She then internalizes those characteristics, granting herself some of the features of a plant. While the Scion doesn\u2019t become completely suffused with plant-like characteristics, she does develop a noticeable greenish tint to her skin and hair. Her flesh becomes woody and slightly tough, which grants her one extra level of soak against lethal and bashing damage. She also gains the ability to draw sustenance by photosynthesis. So long as she garners at least four hours of sunlight in a day, she obviates her need for food completely. (While her body might still require a few trace elements, they are so negligible as to be ignored). Lastly, her blood becomes thick and sticky, completely mitigating any bleeding that might happen as a result of wounds; her injuries cover over in a translucent amber almost immediately. Greenskin lasts for a number of scenes equal to the Scion\u2019s Legend, or until the Scion chooses to cancel the effect."
+        ],
+        [
+            "Lunacy",
+            "Dice Pool: Manipulation + Presence \nCost: 1 Legend per Virtue Extremity and per person \nThe Scion captures the attention of a group of people and drives them temporarily mad. He must spend one Legend per person he wants to affect, up to a maximum number equal to his Legend. Affected victims suffer the Virtue Extremity from one of the Scion\u2019s chosen Virtues. If the Scion spends one additional Legend point per person, each person suffers an additional Virtue Extremity. That is, if he wants to affect five people with one Virtue Extremity, he must spend only five Legend points. If he wants them to suffer two Virtue Extremities, he must spend 10 Legend points. If he wants to affect all five people with the Virtue Extremity from all four of his Virtues, he must spend 20 Legend points. The Scion can choose how many of the present targets he wishes to affect, but he must affect them all with the same number of Virtue Extremities."
+        ]
+    ],
+    "nature": "Perfection",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 19,
+        "move": 13,
+        "climb": 11,
+        "jump": {
+            "horizontal": 22,
+            "vertical": 11
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 17,
+        "parry_dv": 14
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 3,
+        "animal_ken": 2,
+        "art": 0,
+        "athletics": 0,
+        "awareness": 3,
+        "brawl": 3,
+        "command": 0,
+        "control": 0,
+        "craft": 1,
+        "empathy": 3,
+        "fortitude": 1,
+        "integrity": 3,
+        "investigation": 1,
+        "larceny": 1,
+        "marksmanship": 2,
+        "medicine": 2,
+        "melee": 3,
+        "occult": 1,
+        "presence": 3,
+        "politics": 3,
+        "science": 1,
+        "stealth": 1,
+        "survival": 2,
+        "thrown": 2
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 13,
+        "lethal": 10.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 6,
+    "god": "Lakshmi",
+    "pantheon": "Devas",
+    "name": "Ritik Sankar"
+}

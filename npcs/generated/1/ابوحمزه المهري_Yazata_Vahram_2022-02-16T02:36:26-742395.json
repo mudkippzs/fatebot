@@ -1,0 +1,205 @@
+{
+    "attributes": {
+        "stre": 1,
+        "dex": 1,
+        "sta": 1,
+        "cha": 1,
+        "man": 1,
+        "app": 1,
+        "per": 1,
+        "inte": 1,
+        "wits": 1
+    },
+    "epic_attributes": {
+        "epic_stre": 0,
+        "epic_dex": 0,
+        "epic_sta": 1,
+        "epic_cha": 1,
+        "epic_man": 0,
+        "epic_app": 1,
+        "epic_per": 0,
+        "epic_int": 0,
+        "epic_wits": 0
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        3,
+        0,
+        0,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Raging Bull",
+            "description": [
+                "Like the eponymous boxer who just becomes more dangerous after taking a few punches, the Scion turns into a devastating fighting machine once she\u2019s wounded. Her body releases adrenalin and more exotic substances, firing her up to greater heights of fury. With this Knack active, the Scion gains bonuses from her wounds instead of penalties. Thus, if she\u2019s filled in the first four boxes of her health levels, the Scion gains a +2 bonus on all of her appropriate rolls instead of taking the normal -2 penalty. Even if her Epic Stamina would obviate the penalty in whole or in part, she still gains the full bonus. Scions whose Epic Stamina grants them additional health levels count those boxes as having a -4 penalty (and thus a +4 bonus for purposes of this Knack). Furthermore, every time a Scion using Raging Bull suffers an injury (be it a single level of bashing damage or ten levels of aggravated damage), the player may choose to spend one point of Legend to restore one expended point of Willpower. Activating this Knack costs three points of Legend. Its effects last for one scene.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Fire Immunity",
+            "Dice Pool: None \nCost: None \nThe Scion takes no damage from fire, he need never worry about suffering from smoke inhalation, and even the most intense heat is nothing more than a comforting warmth to him. This immunity remains in effect regardless of what substance is burning. It doesn\u2019t, however, extend to his clothes or to any item except the Birthright through which he channels the Boon."
+        ],
+        [
+            "Humata (Asha \u2022)",
+            "Dice Pool: None \nCost: 1+ Legend \nUpon purchasing this Boon, the Scion chooses one of the three attribute categories (Mental, Social or Physical) to associate with this power. Thereafter, the Scion can invoke the principle of Humata (Good Thoughts) and call upon greater reserves of power. The Scion gains a single \u201cWild Card\u201d dot of Epic Attributes, which she may apply to any Attribute within her chosen category. This may raise an Epic Attribute beyond what the character\u2019s Legend rating allows. The character cannot use Humata multiple times to increase an Epic Attribute by more than one, or to increase any other Epic Attributes. Nor does the temporary dot of Epic Attribute grant an additional Knack. Humata (and its successor Boons) cannot raise an Epic Attribute above 10 dots. \nInvoking Humata costs as many Legend points as the final value of the chosen Epic Attibute. The effect lasts for a scene, and cannot be changed until the scene ends. \n Example: A Scion of Anahita has an Epic Intelligence of 2, no Epic Wits, a Legend of 3 and Humata associated with Mental Attributes. She could spends 3 points of Legend and increases her Epic Intelligence to 3, ignoring that her Legend is too low for that rating; or, she could spend 1 Legend to gain one dot of Epic Wits for the rest of the scene."
+        ],
+        [
+            "Blessing of Bravery",
+            "Dice Pool: Charisma + Command \nCost: None \nIntoning a benediction over a person or group prepared to engage in battle, the Scion bolsters their courage and determination. Every character on the Scion\u2019s side of the conflict who hears the benediction gains a point of Willpower as well as two temporary bonus dots of Valor that last until the battle ends. The Scion may amplify his voice electronically, but he must be present at the battle and give the blessing live."
+        ]
+    ],
+    "nature": "Gallant",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 7,
+        "move": 1,
+        "climb": 1,
+        "jump": {
+            "horizontal": 6,
+            "vertical": 3
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 4,
+        "parry_dv": 4
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 3,
+        "animal_ken": 3,
+        "art": 2,
+        "athletics": 2,
+        "awareness": 2,
+        "brawl": 3,
+        "command": 3,
+        "control": 3,
+        "craft": 3,
+        "empathy": 0,
+        "fortitude": 1,
+        "integrity": 3,
+        "investigation": 0,
+        "larceny": 3,
+        "marksmanship": 3,
+        "medicine": 3,
+        "melee": 2,
+        "occult": 1,
+        "presence": 2,
+        "politics": 1,
+        "science": 2,
+        "stealth": 0,
+        "survival": 1,
+        "thrown": 3
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 2,
+        "lethal": 2.0,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 1,
+    "god": "Vahram",
+    "pantheon": "Yazata",
+    "name": "\u0627\u0628\u0648\u062d\u0645\u0632\u0647 \u0627\u0644\u0645\u0647\u0631\u064a"
+}

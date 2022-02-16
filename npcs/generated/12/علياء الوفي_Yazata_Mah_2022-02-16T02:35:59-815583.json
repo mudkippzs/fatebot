@@ -1,0 +1,408 @@
+{
+    "attributes": {
+        "stre": 9,
+        "dex": 13,
+        "sta": 9,
+        "cha": 9,
+        "man": 11,
+        "app": 7,
+        "per": 7,
+        "inte": 9,
+        "wits": 7
+    },
+    "epic_attributes": {
+        "epic_stre": 9,
+        "epic_dex": 5,
+        "epic_sta": 4,
+        "epic_cha": 4,
+        "epic_man": 4,
+        "epic_app": 7,
+        "epic_per": 6,
+        "epic_int": 5,
+        "epic_wits": 5
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        3,
+        0,
+        0,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Well-Read Virgin",
+            "description": [
+                "Prerequisite Knack: Know-It-All (Scion: Hero, p. 135) The character has such a wealth of knowledge that even if she has never performed a particular activity, she can still discuss it or research it like an expert. As such, the player can apply the character\u2019s Epic Intelligence bonus dice to any Intelligence-based roll required to glean information, regardless of whether the character has any dots in the Ability in question. For instance, identifying what martial arts style someone is using would require an (Intelligence + Brawl) roll. With this Knack, a character with no dots in Brawl could handily identify the style, the particular variant of it the student is using and who the student\u2019s teacher most likely was. This Knack works only for rolls intended to dredge up information.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Wireless Interface",
+            "description": [
+                "If the Scion devotes his total attention to doing so, he can mentally interface with an active computer without so much as touching it. He need only be able to see the computer, though not necessarily the monitor, in order to communicate with it. (Also, the computer must be turned on. Anybody can talk to a computer that isn\u2019t on. Same thing happens too.) The degree to which the Scion can program the computer or access its \ufb01les is the same whether he\u2019s sitting at a keyboard in front of a monitor or just staring at its CPU, though, so it behooves him to at least know his way around an interface. Mentally interfacing with a computer\u2019s programming absorbs the Scion\u2019s attention, imposing a -2 distraction penalty on him unless he also has the Multitasking Knack.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Meditative Focus",
+            "description": [
+                "Whether she\u2019s hunkered down behind a burning car in a war zone, caught out on the yard during a prison riot, stranded on the crowded deck of a storm-tossed ship or just mall-walking during the frenzied heights of the Christmas rush, the character never loses her cool. No matter what\u2019s happening, she keeps her mind on what she\u2019s doing while maintaining suf\ufb01cient vigilance to avoid getting caught up in the hubbub all around her. As such, the character is able to eliminate one point of environmental distraction penalty per dot she has of Epic Wits.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Math Genius",
+            "description": [
+                "The Scion is a walking, talking calculator. She can divide up a 10-party restaurant bill so everyone pays only what they owe or calculate the standard deviation of oil prices over the last 15 years, all while holding an intense conversation about whether Republicans or Democrats are worse tippers. As long as she knows all the \ufb01gures involved, she can crunch the numbers in her head with only a moment\u2019s pause. She can also use mathematical shorthand and rapid calculation to estimate things like how many jellybeans are in a glass jar at the State Fair or how many titanspawn-possessed Civil War re-enactors are currently rushing toward her across the picnic grounds.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Cipher",
+            "description": [
+                "The Scion\u2019s brain is his own personal Enigma machine. He can break any encryption and decode any message created by someone without Epic Intelligence, without the need for a roll. He can also design a one- time code for a speci\ufb01c recipient that cannot be broken by anyone without Epic Intelligence (regardless of how smart such a person is or what decryption equipment he might have on hand). Only a fellow Scion with Epic Intelligence can even attempt to break the code\u2014calling for opposed (Intelligence + Academics) rolls. The person for whom the coded message is intended can automatically read the message as clearly as if it were written in his native language.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Fight With Your Head",
+            "description": [
+                "A Scion with this Knack possesses a truly superhuman sense of strategy. He anticipates an enemy\u2019s evasions, counter-strategies and gambits with ease. He can reason around a berserker\u2019s shock and awe or calculate a dodging foe\u2019s final location to slip past that foe\u2019s defenses. He can find just the right angle to slip from an opponent\u2019s grasp, and he can see through feints and other ploys with ease. The Scion activates this Knack by selecting an opponent and spending one point of Legend. For the rest of the scene, he counteracts the automatic successes, bonus dice and similar benefits conferred by other Knacks and Boons. The total number of such bonuses counteracted cannot exceed the Scion\u2019s automatic success from Epic Intelligence. This Knack can negate bonuses from Knacks and Boons, as well as automatic successes and bonuses from Epic Attributes themselves. It does not affect stunt bonuses or extra dice from invoking Virtues. If an opponent receives more bonuses than a Scion can counteract, the user of this Knack picks what he will negate. This Knack might seem an odd one to include in a book about the Norse and their Gods. In truth, despite their famed fury and aggression, Norse warriors valued a cunning fighter at least as much as a frenzied powerhouse.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Don\u2019t Read The Manual",
+            "description": [
+                "The Scion sizes up a single item and then puts together an intuitive judgment of how to use it. No matter how complex the item, the Scion can grasp at least the rudiments of its functions. After spending a single point of Legend, the Scion can use the item for the rest of the scene as if the character had one dot in the appropriate Ability. The Scion could, for instance, glance at the controls of a stealth bomber, then intuitively figure out how to get it off the ground (or land it) as if she had one dot in the Control (Jet Aircraft) Ability. Similarly, a noncombatant could pick up a weapon and fight with it as if she had one dot of the Melee Ability. This Knack has no effect if the Scion already possesses the requisite skill."
+            ],
+            "tables": []
+        },
+        {
+            "title": "Multitasking",
+            "description": [
+                "The Scion can carry on as many separate primarily mental activities as he has dots of Legend simultaneously and with his full attention. A Scion with Legend 6 could play a game of chess against a recognized master while also playing go against a ninth-dan professional, translating a James Joyce novel into a different language, reprogramming his computer, planning a raid against the titanspawn entrenched in the historic ruins across town and itemizing his various businesses\u2019 tax deductions for the year. The character never suffers distraction penalties for mental actions, nor are his separate simultaneous mental actions penalized as per the multiple action rules (see Scion: Hero, p. 179).",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Blockade of Reason",
+            "description": [
+                "Charmers and hucksters and blowhards can get their way with even the Gods themselves, as the Gods can be tricked and led astray almost as easily as mortals can. Characters with Epic Intelligence and this Knack, however, can block out even the most charming words with a simple application of reason. When some other character uses a supernatural persuasion effort\u2014including the addition of bonus dice from an Epic Attribute\u2014that calls for a mental resistance roll of (Willpower + Integrity + Legend), the character with this Knack can apply her bonus successes from her Epic Intelligence to that roll. Doing so costs her one Legend point per resistance roll.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Psychic Profiler",
+            "description": [
+                "Within seconds, the character with this Knack can size up a character with a lesser Legend rating than his own. Just by looking at the person, he can tell her weight, height, age, sex (if it\u2019s unclear to casual inspection) and whether she has a divine heritage or not. With just a few lines of conversation, he can also tell the subject\u2019s Nature, calling and primary Virtue (if any). Finally, if the subject is Fatebound to someone and is acting out a Fatebound Role, he can figure out what that role is. He might not know to whom it applies, but he can probably figure it out from context if he watches the person long enough.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Speed Reader",
+            "description": [
+                "The character can read and comprehend with perfect clarity an entire block of text\u2014such as two facing pages of an open book\u2014in the amount of time it takes her to blink. She need only be able to see the entire block clearly enough to focus her eyes on any given word in it.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Instant Assessment",
+            "description": [
+                "With a quick glance, and the expenditure of one Legend point, the Scion can size up a foe with whom he intends to join battle. This assessment comes across in terms of how the foe\u2019s combat abilities compare to the Scion\u2019s own. He gets a sense of whether the foe has more or fewer dots of Physical Attributes (Epic and otherwise) than he does. The same goes for their relative number of dots in Brawl, Marksmanship, Melee and Thrown, as well as their relative Join Battle dice pools and their soak totals. Also, if some power or special quality renders the foe especially vulnerable or completely invulnerable to something to which the Scion has ready access, the Scion gets a sense of that as well. What the Scion decides to do with this information is up to him. This information occurs re\ufb02exively to the Scion who uses the Knack, and he may assess as many foes automatically as he spends points of Legend.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Instant Translation",
+            "description": [
+                "Prerequisite Knack: Language Mastery (Scion: Demigod, p. 65) As regards the spoken word, this Knack provides much the same benefit as its prerequisite. Yet where Language Mastery requires that the character listen for a while to get a sense of the strange language\u2019s ebb and flow, this Knack allows the character to understand anything that is said to him in any language the moment it is spoken. Where this Knack truly surpasses its prerequisite is that it allows the character to read any written language with which he isn\u2019t familiar, even if it\u2019s written in characters that are completely alien to him. He can\u2019t automatically write with perfect fluency in a new language he can speak or has read, but his written vocabulary is as broad as every word in that language that he has read.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Create Animal",
+            "Dice Pool: None \nCost: (1 Willpower + 1 lethal health level) per act of creation; 1 Legend per set of units \nBy spending one Willpower point and inflicting one lethal health level of damage on himself, the Scion can create mundane animals of his chosen type from his very blood. Such animals are as loyal to him as those granted by the Creatures Birthright, and he can automatically command them mentally. They follow any command the Scion gives them to the best of their ability, and they last for one scene before dissolving into nothingness once again. To grant the creatures solidity, the Scion must pay a number of Legend points relative to the creature\u2019s size. Doing so allows him to create a number of units of the creature per Legend point spent, as follows:"
+        ],
+        [
+            "Ride Animal",
+            "Dice Pool: Intelligence + Animal Ken \nCost: 1 Legend \nThe Scion stares into the eyes of a specimen of his chosen animal, the one to which his Boon pertains, and overwhelms its mind with his own. For the rest of the scene, the Scion controls the animal\u2019s body just as a character with Horse (Cheval \u2022\u2022\u2022) can control a human\u2019s body. This Boon functions exactly as that one does, with the same limitations and effects on the Scion\u2019s body. The only difference is that Horse applies to possession of a human\u2019s body, while Ride Animal applies to specimens of the Scion\u2019s chosen animal or to his Birthright creature."
+        ],
+        [
+            "Tranquility",
+            "Dice Pool: Intelligence + Empathy \nCost: 5 Legend or 10 Legend \nBehavior and the workings of the mind are separate from the biological processes of the brain. When the brain is damaged, fixing it falls under the Health Purview. When behavior has gone awry or the mind is troubled, this Boon can set the suffering victim at ease. The God simply lays his hands on the victim\u2019s brow as his player rolls (Intelligence + Empathy) and spends Legend points. The victim\u2019s player rolls (Willpower + Integrity + Legend), regardless of whether the God\u2019s efforts are in the victim\u2019s best interests or not. If the God\u2019s roll gets more successes, the trouble roiling the victim\u2019s thoughts abates."
+        ],
+        [
+            "Animal Communication",
+            "Dice Pool: Intelligence + Animal Ken \nCost: None \nThe Scion can understand and make himself understood by an animal as he speaks his native language and the animal responds with its own postures, scents and/or vocalizations. This Boon doesn\u2019t make animals smart, calm or loyal, but most are curious enough about having a person address them that they\u2019ll hear a Scion out before defaulting to aggression, panic or indifference."
+        ],
+        [
+            "Animal Aspect",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Legend per action \nBy meditating for one action (Speed 3) on a token representing his animal, the Scion takes on a metaphorical characteristic associated with it, creating a dice bonus for rolls involving the Attribute most closely associated with that characteristic. A Scion might take on a snake\u2019s sinuous grace (Dexterity), a peacock\u2019s beauty (Appearance), an elephant\u2019s proverbial memory (via Intelligence) or any other justifiable characteristic. The bonus dice are equal to the number of successes on the activation roll, and the benefit lasts for one action per Legend point spent up front to fuel the Boon."
+        ],
+        [
+            "Tidal Interference",
+            "Dice Pool: Strength + Presence \nCost: 1 Legend per point of DV penalty \nThe Scion exerts a pull on all enemies with whom he\u2019s in close combat. A success on a (Strength + Presence) roll activates this Boon, and the Scion spends a set number of points of Legend (the maximum that may be spent is the value of the Scion\u2019s permanent Legend). The Boon then inflicts a DV penalty on his close-combat opponents equal to the number of Legend points he spent. This effect lasts for the rest of the combat scene."
+        ],
+        [
+            "Moon Chariot",
+            "Dice Pool: Strength + Control (to drive) \nCost: 1 Legend per 200 lbs. \nThe character says a quick prayer under the night sky, praising the moon God or Goddess who granted him access to this Purview. In response, a silver chariot descends, pulled by two black horses with manes, hooves and eyes of pure moonlight."
+        ],
+        [
+            "Eclipse Halo",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend \nThe Scion spends a Legend point and causes a thin, glowing corona of fire to appear in the air behind his head. This halo perfectly resembles the halo of sunfire that is visible around the edges of the moon during a total solar eclipse. The halo remains perpendicular to all witnesses\u2019 lines of sight simultaneously."
+        ],
+        [
+            "Protean Understanding",
+            "Dice Pool: None \nCost: None \nWhen a God takes this Boon, he becomes a master of all beasts. Now that he has it, any Animal Boon he has can now apply equally well to any type of animal, not just the ones for which he originally bought the Boons. He can speak to any sort of animal, become any sort of animal, create any sort of animal. A character does not actively use this Boon. Having it merely upgrades and broadens his capabilities."
+        ],
+        [
+            "Phase Cloak",
+            "Dice Pool: Dexterity + Stealth \nCost: 1 Legend \nThe Scion turns himself away from his enemies much as the moon turns its face away from the earth. The player decides which \u201cphase\u201d of the character\u2019s body he wishes to leave visible then rolls the Scion\u2019s (Dexterity + Stealth) against a difficulty determined on the table that follows. If the roll succeeds, the intended portion of his body fades from sight. If the roll fails, the Legend point is still spent, but nothing happens. If the roll botches, the character assumes the full-moon phase, garnering a -3 penalty on any mundane attempt to hide."
+        ],
+        [
+            "Moon Chariot",
+            "Dice Pool: Strength + Control (to drive) \nCost: 1 Legend per 200 lbs. \nThe character says a quick prayer under the night sky, praising the moon God or Goddess who granted him access to this Purview. In response, a silver chariot descends, pulled by two black horses with manes, hooves and eyes of pure moonlight."
+        ],
+        [
+            "Lunar Estate",
+            "Dice Pool: None \nCost: 5+ Legend \nWhen the character learns this Boon, he earns himself a private estate on the moon. The estate is fully stocked with any clothing, food or entertainment he might desire, and a staff of slender, gray-skinned creatures with large heads and unblinking black eyes tends it. They don\u2019t speak, but they follow the master of the estate\u2019s orders without question. (These servants are always extras, with the traits of a generic mortal)"
+        ],
+        [
+            "Eclipse Halo",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend \nThe Scion spends a Legend point and causes a thin, glowing corona of fire to appear in the air behind his head. This halo perfectly resembles the halo of sunfire that is visible around the edges of the moon during a total solar eclipse. The halo remains perpendicular to all witnesses\u2019 lines of sight simultaneously."
+        ],
+        [
+            "Epic Enhancement",
+            "Dice Pool: Intelligence + Animal Ken \nCost: (1 Willpower + 3 Legend) per Attribute; (1 Willpower + 5 Legend) per Epic Attribute \nBy force of will, the character can make an animal simply better than it could ever become on its own. Not only can he make an animal bigger, stronger and tougher, he can also make it faster, more beautiful, more charming or wiser. For one Willpower and three Legend points, he can increase any of the beast\u2019s Mental or Social Attributes by one dot. He can also increase its Dexterity by one dot for the same cost. This Boon can no more than double the beast\u2019s original Dexterity. Increases to its Mental and Social Attributes are limited to the human maximum of five dots."
+        ],
+        [
+            "Animal Aspect",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Legend per action \nBy meditating for one action (Speed 3) on a token representing his animal, the Scion takes on a metaphorical characteristic associated with it, creating a dice bonus for rolls involving the Attribute most closely associated with that characteristic. A Scion might take on a snake\u2019s sinuous grace (Dexterity), a peacock\u2019s beauty (Appearance), an elephant\u2019s proverbial memory (via Intelligence) or any other justifiable characteristic. The bonus dice are equal to the number of successes on the activation roll, and the benefit lasts for one action per Legend point spent up front to fuel the Boon."
+        ],
+        [
+            "Lunar Estate",
+            "Dice Pool: None \nCost: 5+ Legend \nWhen the character learns this Boon, he earns himself a private estate on the moon. The estate is fully stocked with any clothing, food or entertainment he might desire, and a staff of slender, gray-skinned creatures with large heads and unblinking black eyes tends it. They don\u2019t speak, but they follow the master of the estate\u2019s orders without question. (These servants are always extras, with the traits of a generic mortal)"
+        ],
+        [
+            "Phase Body",
+            "Dice Pool: Dexterity + Stealth \nCost: 5 Legend \nAs with Phase Cloak (Moon 3), the Scion can turn his body away from everyone as the moon periodically turns its face away from the World. With this Boon, however, the Scion doesn\u2019t render himself harder to see, he becomes that much harder to hit. The parts of his body that Phase Cloak would make invisible become intangible instead. A character can attempt to use this Boon only once per scene, and the effects last for the entire scene. The effects are as follows:"
+        ],
+        [
+            "Finger Moon",
+            "Dice Pool: Dexterity + Occult \nCost: 15 Legend \nThe God reaches either up into the night sky toward the moon or over the horizon if the moon has set or not yet risen into the night sky. The player rolls (Dexterity + Occult). If this roll succeeds, the God seems to pluck a palm-sized silvery moon disk out of the sky and either secrets it away down his sleeve or drops it into a bag or pocket. (The actual moon itself remains where it was, so any number of Moon Gods can use this Boon simultaneously.)"
+        ],
+        [
+            "Phase Body",
+            "Dice Pool: Dexterity + Stealth \nCost: 5 Legend \nAs with Phase Cloak (Moon 3), the Scion can turn his body away from everyone as the moon periodically turns its face away from the World. With this Boon, however, the Scion doesn\u2019t render himself harder to see, he becomes that much harder to hit. The parts of his body that Phase Cloak would make invisible become intangible instead. A character can attempt to use this Boon only once per scene, and the effects last for the entire scene. The effects are as follows:"
+        ],
+        [
+            "Create Animal",
+            "Dice Pool: None \nCost: (1 Willpower + 1 lethal health level) per act of creation; 1 Legend per set of units \nBy spending one Willpower point and inflicting one lethal health level of damage on himself, the Scion can create mundane animals of his chosen type from his very blood. Such animals are as loyal to him as those granted by the Creatures Birthright, and he can automatically command them mentally. They follow any command the Scion gives them to the best of their ability, and they last for one scene before dissolving into nothingness once again. To grant the creatures solidity, the Scion must pay a number of Legend points relative to the creature\u2019s size. Doing so allows him to create a number of units of the creature per Legend point spent, as follows:"
+        ],
+        [
+            "Epic Enhancement",
+            "Dice Pool: Intelligence + Animal Ken \nCost: (1 Willpower + 3 Legend) per Attribute; (1 Willpower + 5 Legend) per Epic Attribute \nBy force of will, the character can make an animal simply better than it could ever become on its own. Not only can he make an animal bigger, stronger and tougher, he can also make it faster, more beautiful, more charming or wiser. For one Willpower and three Legend points, he can increase any of the beast\u2019s Mental or Social Attributes by one dot. He can also increase its Dexterity by one dot for the same cost. This Boon can no more than double the beast\u2019s original Dexterity. Increases to its Mental and Social Attributes are limited to the human maximum of five dots."
+        ],
+        [
+            "Ride Animal",
+            "Dice Pool: Intelligence + Animal Ken \nCost: 1 Legend \nThe Scion stares into the eyes of a specimen of his chosen animal, the one to which his Boon pertains, and overwhelms its mind with his own. For the rest of the scene, the Scion controls the animal\u2019s body just as a character with Horse (Cheval \u2022\u2022\u2022) can control a human\u2019s body. This Boon functions exactly as that one does, with the same limitations and effects on the Scion\u2019s body. The only difference is that Horse applies to possession of a human\u2019s body, while Ride Animal applies to specimens of the Scion\u2019s chosen animal or to his Birthright creature."
+        ],
+        [
+            "Phase Body",
+            "Dice Pool: Dexterity + Stealth \nCost: 5 Legend \nAs with Phase Cloak (Moon 3), the Scion can turn his body away from everyone as the moon periodically turns its face away from the World. With this Boon, however, the Scion doesn\u2019t render himself harder to see, he becomes that much harder to hit. The parts of his body that Phase Cloak would make invisible become intangible instead. A character can attempt to use this Boon only once per scene, and the effects last for the entire scene. The effects are as follows:"
+        ],
+        [
+            "Lunar Estate",
+            "Dice Pool: None \nCost: 5+ Legend \nWhen the character learns this Boon, he earns himself a private estate on the moon. The estate is fully stocked with any clothing, food or entertainment he might desire, and a staff of slender, gray-skinned creatures with large heads and unblinking black eyes tends it. They don\u2019t speak, but they follow the master of the estate\u2019s orders without question. (These servants are always extras, with the traits of a generic mortal)"
+        ],
+        [
+            "Create Animal",
+            "Dice Pool: None \nCost: (1 Willpower + 1 lethal health level) per act of creation; 1 Legend per set of units \nBy spending one Willpower point and inflicting one lethal health level of damage on himself, the Scion can create mundane animals of his chosen type from his very blood. Such animals are as loyal to him as those granted by the Creatures Birthright, and he can automatically command them mentally. They follow any command the Scion gives them to the best of their ability, and they last for one scene before dissolving into nothingness once again. To grant the creatures solidity, the Scion must pay a number of Legend points relative to the creature\u2019s size. Doing so allows him to create a number of units of the creature per Legend point spent, as follows:"
+        ],
+        [
+            "Animal Aspect",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Legend per action \nBy meditating for one action (Speed 3) on a token representing his animal, the Scion takes on a metaphorical characteristic associated with it, creating a dice bonus for rolls involving the Attribute most closely associated with that characteristic. A Scion might take on a snake\u2019s sinuous grace (Dexterity), a peacock\u2019s beauty (Appearance), an elephant\u2019s proverbial memory (via Intelligence) or any other justifiable characteristic. The bonus dice are equal to the number of successes on the activation roll, and the benefit lasts for one action per Legend point spent up front to fuel the Boon."
+        ],
+        [
+            "Phase Cloak",
+            "Dice Pool: Dexterity + Stealth \nCost: 1 Legend \nThe Scion turns himself away from his enemies much as the moon turns its face away from the earth. The player decides which \u201cphase\u201d of the character\u2019s body he wishes to leave visible then rolls the Scion\u2019s (Dexterity + Stealth) against a difficulty determined on the table that follows. If the roll succeeds, the intended portion of his body fades from sight. If the roll fails, the Legend point is still spent, but nothing happens. If the roll botches, the character assumes the full-moon phase, garnering a -3 penalty on any mundane attempt to hide."
+        ],
+        [
+            "Animal Communication",
+            "Dice Pool: Intelligence + Animal Ken \nCost: None \nThe Scion can understand and make himself understood by an animal as he speaks his native language and the animal responds with its own postures, scents and/or vocalizations. This Boon doesn\u2019t make animals smart, calm or loyal, but most are curious enough about having a person address them that they\u2019ll hear a Scion out before defaulting to aggression, panic or indifference."
+        ],
+        [
+            "Animal Feature",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + (1 Legend per feature) \nThe Scion can change a portion of his anatomy to a shape matching the analogous portion of his chosen animal\u2019s anatomy for one scene. If his chosen animal is an armadillo, he can cover himself in a flexible armor. If his animal is a monkey, he can grow a long prehensile tail that is as dexterous as a hand with no thumb. If his animal is a spider or gecko, he can change the surfaces of his hands and feet to enable himself to climb on walls. If his animal is a bird or bat or airborne insect, he can transform his arms into wings that allow him to fly at a rate equal to his Move rate. The exact effect of the change is up to the player, dependent upon Storyteller approval. As a general guideline, though, if the change boosts some trait or grants bonus dice on a special attack, the total bonus value granted cannot be greater than the character\u2019s Legend."
+        ],
+        [
+            "Animal Feature",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + (1 Legend per feature) \nThe Scion can change a portion of his anatomy to a shape matching the analogous portion of his chosen animal\u2019s anatomy for one scene. If his chosen animal is an armadillo, he can cover himself in a flexible armor. If his animal is a monkey, he can grow a long prehensile tail that is as dexterous as a hand with no thumb. If his animal is a spider or gecko, he can change the surfaces of his hands and feet to enable himself to climb on walls. If his animal is a bird or bat or airborne insect, he can transform his arms into wings that allow him to fly at a rate equal to his Move rate. The exact effect of the change is up to the player, dependent upon Storyteller approval. As a general guideline, though, if the change boosts some trait or grants bonus dice on a special attack, the total bonus value granted cannot be greater than the character\u2019s Legend."
+        ]
+    ],
+    "nature": "Survivor",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 30,
+        "move": 24,
+        "climb": 46,
+        "jump": {
+            "horizontal": 96,
+            "vertical": 48
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 33,
+        "parry_dv": 21
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 0,
+        "animal_ken": 3,
+        "art": 3,
+        "athletics": 2,
+        "awareness": 1,
+        "brawl": 2,
+        "command": 3,
+        "control": 0,
+        "craft": 2,
+        "empathy": 3,
+        "fortitude": 3,
+        "integrity": 2,
+        "investigation": 2,
+        "larceny": 3,
+        "marksmanship": 3,
+        "medicine": 1,
+        "melee": 1,
+        "occult": 3,
+        "presence": 3,
+        "politics": 3,
+        "science": 3,
+        "stealth": 3,
+        "survival": 2,
+        "thrown": 1
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 16,
+        "lethal": 15.0,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 12,
+    "god": "Mah",
+    "pantheon": "Yazata",
+    "name": "\u0639\u0644\u064a\u0627\u0621 \u0627\u0644\u0648\u0641\u064a"
+}

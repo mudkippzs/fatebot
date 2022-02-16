@@ -1,0 +1,344 @@
+{
+    "attributes": {
+        "stre": 7,
+        "dex": 7,
+        "sta": 7,
+        "cha": 5,
+        "man": 9,
+        "app": 5,
+        "per": 7,
+        "inte": 9,
+        "wits": 7
+    },
+    "epic_attributes": {
+        "epic_stre": 2,
+        "epic_dex": 3,
+        "epic_sta": 3,
+        "epic_cha": 7,
+        "epic_man": 2,
+        "epic_app": 3,
+        "epic_per": 9,
+        "epic_int": 2,
+        "epic_wits": 3
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        0,
+        2,
+        1,
+        0
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Sense Fatebond",
+            "description": [
+                "When people who are bound by Fate move around, the threads that connect them vibrate. The closer they are to one another, the higher the frequency of that vibration grows and the more noticeable it is. Most people and Gods instinctively ignore this sensation, but a character with this Knack can choose not to tune it out. When he\u2019s in the presence of a Fated character whose role has been activated by proximity to someone to whom that Fated person is bound, he gets a tingle up the base of his neck. If he spends one Legend point, he tunes that sensation in, which reveals which character is the Fated one and to whom she is bound, if the object of the bond is also nearby. This Knack doesn\u2019t reveal the nature of the bond\u2014such as what Fatebound Role a character might play\u2014only its presence.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Teaching Prodigy",
+            "description": [
+                "With this Knack, a Scion can help someone else become a fast learner (per the eponymous Knack). When she makes signi\ufb01cant efforts to tutor a student in a subject\u2014a distinction best left up to the Storyteller\u2014the experience point cost for purchasing dots in the Ability the teacher teaches is cut in half, rounded down. The catch built into this Knack is that a Scion cannot teach a student an Ability that she (the teacher) doesn\u2019t have. Nor can the teacher help a student surpass her in mastery of a subject\u2014which is to say, the Scion cannot teach her student more dots in an Ability than she (the teacher) has.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Fight With Your Head",
+            "description": [
+                "A Scion with this Knack possesses a truly superhuman sense of strategy. He anticipates an enemy\u2019s evasions, counter-strategies and gambits with ease. He can reason around a berserker\u2019s shock and awe or calculate a dodging foe\u2019s final location to slip past that foe\u2019s defenses. He can find just the right angle to slip from an opponent\u2019s grasp, and he can see through feints and other ploys with ease. The Scion activates this Knack by selecting an opponent and spending one point of Legend. For the rest of the scene, he counteracts the automatic successes, bonus dice and similar benefits conferred by other Knacks and Boons. The total number of such bonuses counteracted cannot exceed the Scion\u2019s automatic success from Epic Intelligence. This Knack can negate bonuses from Knacks and Boons, as well as automatic successes and bonuses from Epic Attributes themselves. It does not affect stunt bonuses or extra dice from invoking Virtues. If an opponent receives more bonuses than a Scion can counteract, the user of this Knack picks what he will negate. This Knack might seem an odd one to include in a book about the Norse and their Gods. In truth, despite their famed fury and aggression, Norse warriors valued a cunning fighter at least as much as a frenzied powerhouse.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Inner Furnace",
+            "description": [
+                "The character rarely lacks for sustenance. As long as he can \ufb01nd some sort of organic substance (from rotting quail eggs to a piece of notebook paper on which someone blew her nose), the Scion can eat it and survive. And as long as he \ufb01nds a source of water (no matter how stagnant or polluted it might be), he can drink it and survive. Any pestilence or poison lurking in what he consumes burns in the \ufb01res of his superior constitution, without even requiring a Fortitude roll. The same goes for drugs or poisons he ingests on purpose, or for any Mickey Finn a ne\u2019er-do-well might try to slip him. He\u2019s still just as susceptible to airborne toxins and any drug injected into his bloodstream, but any drug that has to go through his stomach \ufb01rst stops there. This Knack does nothing to suppress the gag re\ufb02ex or make an unappetizing meal taste better.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Unfailing Recognition",
+            "description": [
+                "The Scion can automatically recognize any people to whom she is Fatebound. She can pick their faces out of a crowd with just a glance. She can recognize their voices despite electronic distortion or overpowering background noise. She knows their scents and their body language and even the exact feel of the way they shake hands. She can also recognize an imposter when someone tries to mimic the voice or appearance of someone to whom she is Fatebound. Recognizing others is not quite as easy. If, when a Scion encounters a character to whom she is not Fatebound, she makes a concerted effort to try to remember that character\u2019s looks and mannerisms, the player may spend a point of Willpower to lock that image in the Scion\u2019s mind. After that, she retains the ability to recognize him despite all obfuscation for the rest of the story as if they two were Fatebound. Thereafter, the Scion loses any supernatural ability she had to recognize that character. (She doesn\u2019t forget what the character looks like, mind you. It\u2019s just that the Knack no longer applies to that person.) The timing of when the Scion recognizes a person is entirely up to the Storyteller as dictated by the needs of the story. If the private investigator who\u2019s been dogging the Scion\u2019s heels tries to slink up to the character in disguise at a crowded charity fund-raiser, the Scion might see the gumshoe coming a mile away (even despite the fake beard, the fat suit, the spray-on tan and the sex change). If a Scion of Loki who\u2019s a rival to a player\u2019s Scion of Anubis arrives in disguise to deliver a cryptic warning, the Scion of Anubis might not recognize her old foe until the trickster disappears with a wink behind the elevator\u2019s closing doors. Finally, as a side effect of this Knack, a Scion can always recognize when someone who is not in disguise is biologically related to a person she knows well (regardless of whether that person is Fatebound to her). She cannot intuitively grasp what that relationship is, but she knows it\u2019s there\u2014even if the person in question doesn\u2019t.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Speed Reader",
+            "description": [
+                "The character can read and comprehend with perfect clarity an entire block of text\u2014such as two facing pages of an open book\u2014in the amount of time it takes her to blink. She need only be able to see the entire block clearly enough to focus her eyes on any given word in it.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Devourer",
+            "description": [
+                "Prerequisite Knack: Inner Furnace (Scion: Hero, p. 129) The Scion will never lack for sustenance again. Any liquid that can exist at as a liquid at room temperature can sustain him as water sustains a mortal\u2014even such distasteful liquids as gasoline, blood, pine-scented disinfectant or diet cola. The same goes for food. Whereas Inner Furnace requires that the Scion at least consume organic matter in order to fuel the inferno at his core, this Knack loosens even that restriction. The Scion could \ufb01ll his belly with sand, polystyrene, harmonicas or suture needles and not feel so much of a pang of indigestion. This Knack confers no special ability to chew up or tear off pieces of inorganic material, but anything small enough to swallow disappears down his gullet with no harmful effects and fuels him just as efficiently as normal food.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Instant Translation",
+            "description": [
+                "Prerequisite Knack: Language Mastery (Scion: Demigod, p. 65) As regards the spoken word, this Knack provides much the same benefit as its prerequisite. Yet where Language Mastery requires that the character listen for a while to get a sense of the strange language\u2019s ebb and flow, this Knack allows the character to understand anything that is said to him in any language the moment it is spoken. Where this Knack truly surpasses its prerequisite is that it allows the character to read any written language with which he isn\u2019t familiar, even if it\u2019s written in characters that are completely alien to him. He can\u2019t automatically write with perfect fluency in a new language he can speak or has read, but his written vocabulary is as broad as every word in that language that he has read.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Under Pressure",
+            "description": [
+                "Although the Water Purview can provide protection against the deep pressure of the ocean, and the Earth purview can likewise defend against the crushing weight of being buried, some Scions just don\u2019t have the luxury of branching out into multiple Purviews like that \u2014 or, worse still, fnd themselves in the awkward position of being stuck in a Titan\u2019s gullet, a hyperbaric chamber or an otherworldly place of super-thick atmosphere. Fortunately, a Scion with this Knack need not fear the punishment of changes in pressure or atmosphere. While the Scion must still breathe, she doesn\u2019t have to worry about the bends, explosive decompression or the crushing force of a deep undersea trench. Her body naturally and instinctively adjusts to account for all changes in pressure. Under Pressure can\u2019t protect a Scion against bruising and crushing damage: If she\u2019s stuck in the aforementioned Titanic gullet, she\u2019ll have to use other abilities to deal with the digestive action and the acid. She won\u2019t, however, have to worry about suddenly being crushed when submerged deep in that same pool of stomach acid."
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Verdant Creation",
+            "Dice Pool: Intelligence + Survival \nCost: 1 Willpower + 3 Legend \nThe Scion can cause plants to spontaneously generate out of nothing at all. Regardless of the weather, soil conditions, sunlight exposure or any other factor, plants of the Scion\u2019s choosing spring into existence at her silent command. This Boon generates a number of large plants (or a number of square yards of a patch of smaller plants) equal to the successes achieved on the roll plus the Scion\u2019s Legend. These plants take root (literally or figuratively) with the same hardiness as if the Scion had used Green Thumb (Fertility \u2022) on them all, with the added benefit that the plants don\u2019t have to be in an environment that is within their normal tolerances to survive. The Scion could grow mushrooms on the desert floor or cause rose bushes to thrive in a submerged cave off the continental shelf. Per Green Thumb, these created plants survive for one year under any conditions barring blight or physical destruction by living creatures. When that year is up, they react to their surroundings as normal plants of their type would. In the meantime, they are as susceptible to other Fertility Boons as any normal plants are."
+        ],
+        [
+            "Inferno",
+            "Dice Pool: Charisma + Craft \nCost: 3 Legend \nWith a shouted word, a Scion can cause an area in his line of sight to instantly burst into flame. The flame has the intensity of a bonfire, and it covers an area with a radius in yards equal to the number of successes on the activation roll. The flames stand as high from a flat surface as the Scion is tall. This fire can burn without fuel for a number of minutes equal to the Scion\u2019s Legend. When that time is up, the flames go out if they still don\u2019t have any fuel. People who are within the area the Scion intends to set alight get a single chance to escape the affected area unharmed before the fire starts. To do so, their players must get more successes on a (Dexterity + Athletics) roll than the Scion\u2019s player got on the activation roll, and the character must be able to get out of the area in one action."
+        ],
+        [
+            "Yin-Yang Destruction",
+            "Dice Pool: Legend + Occult or Science \nCost: 1 Legend (+ 1 Willpower) \nAfter learning how to enhance the Qi of another legendary being, a Scion learns how to counter the supernatural force in powers directed against him. He shapes his own Qi into the perfect negation of the power used against him, the Yin to its Yang. This is much easier, however, against powers the Scion has experience at using himself."
+        ],
+        [
+            "Natural Camouflage",
+            "Dice Pool: Dexterity + Stealth \nCost: 1 Legend \nWhen the Scion hides in her verdant element, it\u2019s almost impossible to find her. Her skin sprouts grass, bark, underbrush, flowers, mushrooms or what have you that allow her to blend in seamlessly with her natural surroundings. As long as she doesn\u2019t move or otherwise draw attention to herself, mundane attempts to find or track her fail automatically. A mortal hunter with a trusty hound could walk right over the Scion\u2019s disguised back and never know she was there. Hunters of supernatural prowess fare only a little better. Those with the Epic Perception Knack Predatory Focus or a Survival Arete can attempt to track the hidden Scion\u2019s movements, their players rolling (Perception + Survival) against the hiding Scion\u2019s activation roll. Even if they get more successes than the Scion\u2019s player did, though, the hunters find only the general area in which the Scion is hiding. (They come to an area within a number of yards equal to the Scion\u2019s Legend but lose track of her unless she moves again.) Only hunters with the Supernal Hunter Knack are actually skilled enough to find a Scion who\u2019s using this Boon to hide (and only if their rolls garner more successes than the Scion\u2019s)."
+        ],
+        [
+            "Divinize Kuei",
+            "Dice Pool: None \nCost: 10 Legend \nTo a great sage of Taiyi, the difference between ghosts and Gods is more one of degree than of kind. At will, the character can transform a ghost into a lesser immortal with a maximum Legend of 4. This can be a demon, an Earth God, the Chinese analogues to nymphs or alfar \u2014 whatever the Scion wants. To perform this feat, the Scion walks in a circle around the ghost she intends to transform, placing her feet so her steps form stylized images of various groups of stars, a practice called \u201cpacing the constellations.\u201d The transformed ghost may feel some gratitude for his promotion to lesser immortal, and the exercise of Legend has the normal chance of Fatebinding, but the Boon does not intrinsically grant the Scion any control over the lesser immortal he just made."
+        ],
+        [
+            "Bolster",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend \nThe Scion speaks a few heartening words and waves his Relic or activates the pressure points and meridians on a series of targets. The Scion spends one Legend point and her player rolls (Stamina + Medicine). For each success scored, one target gains one temporary health level. This bonus health level lasts for the remainder of the scene. When the health level disappears, any wounds that filled it also subside; it does not overflow into normal damage."
+        ],
+        [
+            "Cleanse",
+            "Dice Pool: Stamina + Survival \nCost: 1 Legend \nEvery gardener and farmer has to deal with blight or vermin sometimes, but doing so is easy for a Scion with this Boon. The player rolls (Stamina + Survival) and spends one Legend, and any blight or infestation ends immediately. Blight clears up as if it had never occurred, and vermin suddenly find the affected plants unappealing. This Boon affects a number of large plants (or a number of square yards of a patch of smaller plants) equal to the successes achieved on the roll. This Boon doesn\u2019t protect against future blights, and it stops only the current generation of vermin infestation."
+        ],
+        [
+            "Fire Immunity",
+            "Dice Pool: None \nCost: None \nThe Scion takes no damage from fire, he need never worry about suffering from smoke inhalation, and even the most intense heat is nothing more than a comforting warmth to him. This immunity remains in effect regardless of what substance is burning. It doesn\u2019t, however, extend to his clothes or to any item except the Birthright through which he channels the Boon."
+        ],
+        [
+            "Blazing Weapon",
+            "Dice Pool: None \nCost: 1 Legend per weapon \nThe Scion reaches into a flame that\u2019s at least as big as a campfire and pulls out a blazing melee weapon made of flickering fire. The weapon can be of any shape and size, but the distinction is largely a matter of personal taste, rather than available traits. These weapons do not use the normal traits from the chart in Scion: Hero. Instead, when the character removes the weapon from the fire, the player receives a base number of points equal to the Scion\u2019s Legend for each weapon. These points can add to a base Accuracy +0, Damage +0 and Defense -1, and they can subtract from a starting Speed 6 (reducing it to a minimum of 1). The player assigns the weapon\u2019s traits as the character produces the weapon, and he can\u2019t change them afterward."
+        ],
+        [
+            "Cleanse",
+            "Dice Pool: Stamina + Survival \nCost: 1 Legend \nEvery gardener and farmer has to deal with blight or vermin sometimes, but doing so is easy for a Scion with this Boon. The player rolls (Stamina + Survival) and spends one Legend, and any blight or infestation ends immediately. Blight clears up as if it had never occurred, and vermin suddenly find the affected plants unappealing. This Boon affects a number of large plants (or a number of square yards of a patch of smaller plants) equal to the successes achieved on the roll. This Boon doesn\u2019t protect against future blights, and it stops only the current generation of vermin infestation."
+        ],
+        [
+            "Eight Trigram Transformation",
+            "Dice Pool: Wits + Craft \nCost: 3 Legend \nMatter constantly takes new forms, from water vapor condensing into rain to rock\u2019s slow decomposition into soil. All matter is just a particularly dense form of Qi, and the Five Elements and Eight Trigrams govern all their transformations. A scholar of the Great Principle of Change can nudge this potential for change into new paths, and so transform matter into new forms and substances. To do this, she need merely touch the object and trace out the trigrams that represent the sort of change she desires. For a small change, she can trace the trigrams with her finger. Large objects (anything larger than person-sized) requires drawing trigrams on the object using ink, chalk or some other means."
+        ],
+        [
+            "Five-Cycle Augmentation",
+            "Dice Pool: None \nCost: 1 Legend \nThe first art of Taiyi is learning to pass Qi to another being to augment his own supernatural force. The Scion concentrates, touches another character who is using a Boon or spell, and spends a point of Legend. This enhances the target character\u2019s use of the Boon or spell as if his Legend were one higher than its actual value. For instance, a dice pool that included the character\u2019s Legend would gain one die, or the recipient\u2019s Legend would be treated as one higher than its real value (for purposes of Boons whose effectiveness depends on the attacker\u2019s Legend being equal or higher than his target\u2019s)."
+        ],
+        [
+            "Fire's Eye",
+            "Dice Pool: Perception + Awareness \nCost: 1 Legend \nThe Scion can see out of any fire that A.) is already within his line of sight or B.) he affected with Bolster Fire. The Scion cannot hear what is happening around a distant fire, and his field of vision remains the same through the fire as it is through his eyes. He may physically move his head or turn his body in place to change his remote perspective, though. While he looks through the fire, the Scion can\u2019t see from his own perspective. He may maintain his remote perspective for as long as he wishes."
+        ],
+        [
+            "Eight Trigram Transformation",
+            "Dice Pool: Wits + Craft \nCost: 3 Legend \nMatter constantly takes new forms, from water vapor condensing into rain to rock\u2019s slow decomposition into soil. All matter is just a particularly dense form of Qi, and the Five Elements and Eight Trigrams govern all their transformations. A scholar of the Great Principle of Change can nudge this potential for change into new paths, and so transform matter into new forms and substances. To do this, she need merely touch the object and trace out the trigrams that represent the sort of change she desires. For a small change, she can trace the trigrams with her finger. Large objects (anything larger than person-sized) requires drawing trigrams on the object using ink, chalk or some other means."
+        ],
+        [
+            "Assess Health",
+            "Dice Pool: None \nCost: None \nThe Scion can instantly, automatically assess the current medical condition of a single living patient in his presence. He can tell how many levels of damage the patient is suffering, as well as any physical addictions he suffers, any illnesses or diseases with which he is infected and any genetic defects that afflict him."
+        ],
+        [
+            "Bolster",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend \nThe Scion speaks a few heartening words and waves his Relic or activates the pressure points and meridians on a series of targets. The Scion spends one Legend point and her player rolls (Stamina + Medicine). For each success scored, one target gains one temporary health level. This bonus health level lasts for the remainder of the scene. When the health level disappears, any wounds that filled it also subside; it does not overflow into normal damage."
+        ],
+        [
+            "Accelerate Growth",
+            "Dice Pool: Stamina + Survival \nCost: 1\u20135 Legend \nWith this Boon, the Scion can cause a plant or area of plants to grow to its maximum size in a dramatically reduced time. The Boon affects a number of acres of plants equal to the Scion\u2019s Legend. The more Legend points spent to fuel this effect, the quicker the affected plants grow. For one Legend point, the plants grow as much in a minute as they would in a month. For two Legend points, the plants grow as much in a minute as they would in a season. For three Legend points, the plants grow as much in a minute as they would in a year. For four Legend points, the plants grow as much in a minute as they would in a decade. For five Legend points, the plants grow as much in a minute as they would in a century."
+        ],
+        [
+            "Five-Cycle Conjunction",
+            "Dice Pool: None \nCost: None \nIncreasing mastery of Yin, Yang and the Five Elements enables a student of Taiyi to protect his own All-Purpose Purview Boons from Yin-Yang Destruction. She does this by altering the effect of a Boon so that it falls within two Purviews at once. She must know at least one Boon from each Purview, and still needs to carry a Birthright for at least one of the two Purviews."
+        ],
+        [
+            "Divinize Kuei",
+            "Dice Pool: None \nCost: 10 Legend \nTo a great sage of Taiyi, the difference between ghosts and Gods is more one of degree than of kind. At will, the character can transform a ghost into a lesser immortal with a maximum Legend of 4. This can be a demon, an Earth God, the Chinese analogues to nymphs or alfar \u2014 whatever the Scion wants. To perform this feat, the Scion walks in a circle around the ghost she intends to transform, placing her feet so her steps form stylized images of various groups of stars, a practice called \u201cpacing the constellations.\u201d The transformed ghost may feel some gratitude for his promotion to lesser immortal, and the exercise of Legend has the normal chance of Fatebinding, but the Boon does not intrinsically grant the Scion any control over the lesser immortal he just made."
+        ],
+        [
+            "Eight Trigram Transformation",
+            "Dice Pool: Wits + Craft \nCost: 3 Legend \nMatter constantly takes new forms, from water vapor condensing into rain to rock\u2019s slow decomposition into soil. All matter is just a particularly dense form of Qi, and the Five Elements and Eight Trigrams govern all their transformations. A scholar of the Great Principle of Change can nudge this potential for change into new paths, and so transform matter into new forms and substances. To do this, she need merely touch the object and trace out the trigrams that represent the sort of change she desires. For a small change, she can trace the trigrams with her finger. Large objects (anything larger than person-sized) requires drawing trigrams on the object using ink, chalk or some other means."
+        ],
+        [
+            "Natural Camouflage",
+            "Dice Pool: Dexterity + Stealth \nCost: 1 Legend \nWhen the Scion hides in her verdant element, it\u2019s almost impossible to find her. Her skin sprouts grass, bark, underbrush, flowers, mushrooms or what have you that allow her to blend in seamlessly with her natural surroundings. As long as she doesn\u2019t move or otherwise draw attention to herself, mundane attempts to find or track her fail automatically. A mortal hunter with a trusty hound could walk right over the Scion\u2019s disguised back and never know she was there. Hunters of supernatural prowess fare only a little better. Those with the Epic Perception Knack Predatory Focus or a Survival Arete can attempt to track the hidden Scion\u2019s movements, their players rolling (Perception + Survival) against the hiding Scion\u2019s activation roll. Even if they get more successes than the Scion\u2019s player did, though, the hunters find only the general area in which the Scion is hiding. (They come to an area within a number of yards equal to the Scion\u2019s Legend but lose track of her unless she moves again.) Only hunters with the Supernal Hunter Knack are actually skilled enough to find a Scion who\u2019s using this Boon to hide (and only if their rolls garner more successes than the Scion\u2019s)."
+        ],
+        [
+            "Flamin' Bullets",
+            "Dice Pool: None \nCost: 1 Legend per scene \nThe Scion reaches into a source of flame \u2014 anything from a candle to a bonfire will do \u2014 and then \u201cloads\u201d that fire into a projectile weapon. The weapon becomes wreathed in flames, and for the rest of the scene, the weapon belches blasts of Legend-fueled fire. The weapon still consumes normal ammunition, but the shots become imbued with \u201cfire power,\u201d so to speak. The fiery rounds also inflict lethal damage, even against creatures that normally take bashing damage from bullets, such as the walking dead. The fiery rounds add +1 Accuracy and Damage to the weapon and also allow it to light targets on fire. Shooting the gas tank of a car with a pistol really can produce an explosive ending when Flamin\u2019 Bullets are used."
+        ]
+    ],
+    "nature": "Competitor",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 17,
+        "move": 11,
+        "climb": 9,
+        "jump": {
+            "horizontal": 24,
+            "vertical": 12
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 21,
+        "parry_dv": 10
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 2,
+        "animal_ken": 0,
+        "art": 1,
+        "athletics": 3,
+        "awareness": 3,
+        "brawl": 1,
+        "command": 3,
+        "control": 3,
+        "craft": 2,
+        "empathy": 1,
+        "fortitude": 2,
+        "integrity": 2,
+        "investigation": 0,
+        "larceny": 1,
+        "marksmanship": 2,
+        "medicine": 1,
+        "melee": 1,
+        "occult": 3,
+        "presence": 2,
+        "politics": 0,
+        "science": 3,
+        "stealth": 2,
+        "survival": 2,
+        "thrown": 2
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 11,
+        "lethal": 9.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 9,
+    "god": "Shennong",
+    "pantheon": "Celestial Bureaucracy",
+    "name": "Mboke Riyanto"
+}

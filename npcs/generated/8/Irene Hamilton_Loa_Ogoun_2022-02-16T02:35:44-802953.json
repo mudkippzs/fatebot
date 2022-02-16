@@ -1,0 +1,361 @@
+{
+    "attributes": {
+        "stre": 5,
+        "dex": 7,
+        "sta": 5,
+        "cha": 7,
+        "man": 9,
+        "app": 7,
+        "per": 7,
+        "inte": 9,
+        "wits": 7
+    },
+    "epic_attributes": {
+        "epic_stre": 7,
+        "epic_dex": 8,
+        "epic_sta": 1,
+        "epic_cha": 4,
+        "epic_man": 2,
+        "epic_app": 4,
+        "epic_per": 5,
+        "epic_int": 3,
+        "epic_wits": 2
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        3,
+        2,
+        1,
+        0
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Blurt It Out",
+            "description": [
+                "This Knack represents a gift for making people speak their minds. Scions who have it normally corner a person who has information they want, strike up a conversation, direct that conversation toward the information in question, then pry it loose when it\u2019s top of mind. Others confront victims who are surrounded by family, friends or coworkers, in order to make those victims admit damning information when it will do the most harm. The Scion\u2019s player must spend a point of Legend to activate the Knack, and the information must have legitimately come up in conversation. The Scion cannot simply shout \u201cJ\u2019accuse!\u201d then use Blurt It Out to force a random confession from a guilty person. (The declamatory French comes only after the Scion uses Blurt It Out effectively.) Regardless, a victim still has a slim chance to catch himself before bringing disaster crashing down. The victim\u2019s player rolls (Willpower + Integrity + Legend) against a dif\ufb01culty equal to (the Scion\u2019s Epic Manipulation + 1). If this roll succeeds, the player may then spend a point of Willpower to avert the slip of the tongue.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Armor Crusher",
+            "description": [
+                "Prerequisite Knack: Holy Rampage (Scion: Hero, p. 126) The raw power of the Scion\u2019s attacks now allows him not only to break through obstacles and walls, but to slam right through armor. The Scion simply channels his legendary might, then uses brute force to shatter enemy defenses and tear through shields, armored plates and vests with ease. While this Knack is active, the Scion\u2019s melee attacks all gain the Piercing quality. Activating this Knack costs five points of Legend. Its effects last for one scene.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Return To Sender",
+            "description": [
+                "Prerequisite Knack: Overt Order (Scion: Hero, pp. 131-132) Sometimes, when you send a minion off to do your bidding, you want that minion to come back for more work. At the very least, you want to know if the minion was killed in the attempt. With Return to Sender, the Scion prompts someone to return immediately to her after performing a task delegated with Epic Manipulation. The player spends an additional point of Legend to activate this power when using any other Epic Manipulation Knack to force a subject to take an action. Immediately after performing the order, the commanded subject will attempt to return to the Scion by the most convenient means possible, although not at the expense of his own safety. If the initial command fails, then Return to Sender has no effect, but the Legend point is still expended.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Disfiguring Attack",
+            "description": [
+                "Prerequisite Knack: Divine Wrath (Scion: Demigod, pp. 53-54) Woe be unto any foe who lacks Epic Stamina yet faces a character who has this Knack. If a character has Disfiguring Attack, he can already inflict lethal damage unarmed and inflict aggravated damage in a clinch, thanks to its prerequisite. If he uses this Knack, he can inflict aggravated damage with an unarmed attack. Doing so costs five Legend points per attack and removes the character\u2019s Epic Strength bonus successes from the damage calculation. Regardless, a character without a significant aggravated soak from Epic Stamina or some other supernatural source is in for a world of divine hurt. Should a foe survive an attack from a character using this Knack, any wounds he takes are sure to leave wicked scars that last forever.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Divine Rampage",
+            "description": [
+                "Prerequisite Knack: Holy Rampage (Scion: Hero, p. 126) When a demigod with this Knack wants to break something, that thing is not long for this world. Like Holy Rampage, this Knack aids in the character\u2019s attempt to destroy an inanimate object. If the target object is not under his control \u2014 such as a weapon or armor that someone else happens to be using \u2014 its Hardness and soak are considered to be halved when the Scion attempts to break it. If the target object is freestanding or under the Scion\u2019s control, the object\u2019s Hardness and soak are considered to be 0 against the Scion\u2019s attack. Using this Knack costs one Legend point per action.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Hard Sell",
+            "description": [
+                "Prerequisite Knack: Overt Order (Scion: Hero, p. 131) Like the Overworld\u2019s own Amway salesman, the demigod can convince a group of people to perform one particular action that they would not otherwise be inclined to perform. That is, the Scion can issue an overt order (per the eponymous prerequisite Knack) to a group of people, who must be able to hear him clearly without him using any amplifying or broadcasting equipment. The order must be simple, and it must be something the listeners can carry out in one action while they are within the Scion\u2019s presence. The order can be something instant like, \u201cEverybody get outside!\u201d or, \u201cArrest that man!\u201d It can also be something sneaky like, \u201cBuy my book,\u201d or, \u201cRegister for next month\u2019s seminar by paying me $1,000.\u201d The same restrictions that apply to how loosely a victim can interpret the Overt Order Knack apply to this Knack.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Making It Look Easy",
+            "description": [
+                "When a character performs a feat of strength, doing so takes every bit of effort the character can muster. He doesn\u2019t just lift a blue whale by the tail and hammer throw it back into the ocean between bites of scone. He grunts and strains and struggles until he gets enough momentum behind the whale for it to leave the ground, and when he lets it go, it\u2019s with a resounding shout of strain and a near collapse of relief as it sails out over the water. The name of this Knack, however, speaks for itself. Any action the character can perform as a feat of strength, he can perform as if it\u2019s no effort at all. He can lift the heaviest weights with one hand while using his other hand to cover a yawn. He can throw a spear into orbit with a flick of his finger. He can scoop the beached whale up in one hand and send it skipping like a stone out into the deep water where it can move freely (if dizzily) once again. Since such feats of strength are so easy, the character can execute multiple actions while performing feats of strength.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Holy Rampage",
+            "description": [
+                "The Scion is especially good at breaking inanimate objects. When he spends a point of Legend and applies his full might to breaking something \u2014 whether he\u2019s punching it, kicking it or throwing his shoulder against it \u2014 the item\u2019s Hardness is halved against the attack. This bonus applies only when the character attempts to break an inanimate object that is either freestanding or under his control. If someone else has control of the object in question, the Scion must take it from him \ufb01rst.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Instant Hypnosis",
+            "description": [
+                "Prerequisite Knack: Overt Order (Scion: Hero, p. 131) With a moment of eye contact and the expenditure of a Willpower point, the Scion instantly plunges a mortal into a hypnotic trance. Attempting to hypnotize a fellow Scion of lesser or equal (Willpower + Legend) requires not only a Willpower expenditure but a (Manipulation + Command + Legend) roll contested against the victim\u2019s (Willpower + Integrity + Legend). Scions cannot instantly hypnotize fellow Scions of higher (Willpower + Legend). Should he successfully hypnotize a victim, the Scion can implant one hidden command that the victim must obey at the time of the Scion\u2019s choosing. The command must be something that the victim can accomplish in one scene, and the trigger condition that compels him to attempt it must occur within a number of months equal to the Scion\u2019s Legend. The Scion can give as speci\ufb01c an order as he pleases, and a mortal cannot interpret it in any way other than the spirit in which it was intended. A fellow Scion can interpret it loosely to his own advantage, as per Overt Order, but doing so costs him a point of Willpower. The victim remains unaware of the ticking time bomb in his subconscious, but he does have a chance to resist it when the trigger condition occurs. At the moment when he has been commanded to perform the action in question, the victim\u2019s player may make a (Wits + Integrity) roll. (This roll cannot be modi\ufb01ed by a Scion\u2019s Epic Wits or an Integrity Arete.) If the roll garners more successes than the hypnotist Scion has dots of Legend, the compulsion is broken. If the last-minute resistance roll fails, the victim must attempt to do as he was commanded. Whether he succeeds or fails, the compulsion ends after he makes the attempt, and he has no memory of what could possibly have convinced him to do as he did.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Knockback Attack",
+            "description": [
+                "The Scion is able to perform an attack that in\ufb02icts no damage whatsoever but sends his enemies \ufb02ying back. On a successful attack, the Scion can choose for the attack to in\ufb02ict damage and knockback normally (see Scion: Hero, p. 198), or he can choose for the attack to in\ufb02ict no harm but to impose one yard of knockback per threshold success above the defender\u2019s DV instead. (Doing so costs one Willpower point.) Hardness can still cancel out this effect if it is greater than the attack\u2019s raw damage.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Mighty Heave",
+            "description": [
+                "Prerequisite Knack: Hurl to the Horizon (Scion: Hero, p. 126) This Knack automatically triples the distance a demigod Scion can throw a heavy object as a feat of strength. That tripling comes not only after the modi\ufb01cation based on the character\u2019s Epic Strength but also after the doubling provided by the prerequisite Knack. (In effect, it multiplies his feat-of-strength throwing distance by six.) Using this Knack costs a point of Legend. Mighty Heave does not affect the distance a Scion can throw a normal-sized object, but it does intensify the damage such an object can cause. Thrown weapons or other thrown items that would normally cause bashing damage (a coconut, for example) in\ufb02ict lethal damage and take on the Piercing quality instead when the Scion uses Mighty Heave. Items that would normally cause lethal damage still cause only lethal damage, but they ignore armor when the Scion uses Mighty Heave.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Knowing Glance",
+            "description": [
+                "Knowing that someone is keeping a damning secret can be quite an effective tool in getting him to do what you want. With this Knack, however, that knowledge is not only a tool, but a powerful weapon. When the Scion is aware that another character is keeping a dangerous secret\u2014whether he has uncovered it through investigation or has discovered its presence through the Stench of Guilt Knack (see Scion: Hero, p. 132)\u2014he need only make eye contact with the guilty party. As the Scion\u2019s player spends a point of Legend, the character with the secret suddenly realizes that someone else knows, and he loses all of his unspent Willpower points from his pool. The Scion can affect the same character thus only once per day, and the Knack has no effect if the victim is not actually hiding the secret the Scion thinks he is.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Warrior Ideal",
+            "Dice Pool: Charisma + Presence \nCost: 1 Legend \nThe Scion adopts some idealized warrior aspect, from howling berserker to unquestioning enlisted man to fearless officer to pitiless samurai. This attitude unnerves and intimidates any opponent who faces him in combat, inflicting a penalty equal to the Scion\u2019s Legend on any attack roll the opponent makes. This penalty applies to any character with a lesser or equal Legend rating who attempts to attack the Scion. This idealized aspect lasts for a number of consecutive actions during the battle equal to the successes the Scion\u2019s player rolled to activate it, and he can invoke it only once during any given battle."
+        ],
+        [
+            "Waking Zombie",
+            "Dice Pool: Manipulation + Cheval \nCost: 1 Willpower \nWhen the Scion has a mortal victim completely under her control, she can temporarily pull the victim\u2019s spirit out of his body and boss the body around as her mindless slave. The Scion must somehow incapacitate the victim\u2014by tying him up, drugging him, beating him unconscious or whatever\u2014then cover the victim\u2019s mouth with her own and take a long, deep breath. The victim\u2019s player then rolls (Willpower + Integrity + Legend) against the activation roll. If the activation roll wins, the Scion sucks out the victim\u2019s spirit and swallows it down into the darkness within her. Once that happens, the victim maintains a dreamlike semi-awareness of what the Scion is doing, just as a victim of Horse (Cheval 3) does, but he can\u2019t take any actions or exert his own will in any way."
+        ],
+        [
+            "Fury of War",
+            "Dice Pool: Stamina + Fortitude \nCost: 3 Legend + 1 Willpower \nThe Scion can summon up a bloodlust and battle rage within her to shame the legendary berserkers. Her hair becomes wilder, her eyes blaze, she laughs and screams as she rips her foes limb from limb. She thinks of little else but battle and victory."
+        ],
+        [
+            "Rada's Eyes",
+            "Dice Pool: Perception + Empathy \nCost: 1 Legend \nThe Scion can experience another person\u2019s perceptions as if they were her own. These perceptions include input from all five senses, though not the character\u2019s subjective reactions to that input. To use this Boon, the Scion must have a picture of her victim, some genetic token of the victim\u2019s (such as a lock of hair or several drops of blood) or something the victim created (from a printed-out email to an ice sculpture). By meditating on the item and relaxing her own perceptions\u2014as well as spending a point of Legend after a successful (Perception + Empathy) roll on the part of her player\u2014the Scion experiences the victim\u2019s perceptions clearly and distinctly. The victim is unaware of the Scion\u2019s attention, but the Scion remains semi-aware of her own surroundings."
+        ],
+        [
+            "Mortal Stroke",
+            "Dice Pool: None \nCost: 1 Legend + 1 Willpower per weapon \nThe Scion touches one or several weapons and invokes the power of her Legend to grant them supernatural killing power. For each point of Legend and Willpower spent, the Scion\u2019s player can choose to affect one weapon. Each weapon blessed with Mortal Stroke inflicts aggravated damage on its next attack."
+        ],
+        [
+            "Fire's Eye",
+            "Dice Pool: Perception + Awareness \nCost: 1 Legend \nThe Scion can see out of any fire that A.) is already within his line of sight or B.) he affected with Bolster Fire. The Scion cannot hear what is happening around a distant fire, and his field of vision remains the same through the fire as it is through his eyes. He may physically move his head or turn his body in place to change his remote perspective, though. While he looks through the fire, the Scion can\u2019t see from his own perspective. He may maintain his remote perspective for as long as he wishes."
+        ],
+        [
+            "Bolster Fire",
+            "Dice Pool: None \nCost: 1 Legend per scene \nNormally, fire needs oxygen to breathe and fuel to consume. With this Boon, a Scion removes both necessities from a single flame for one scene. He could keep a single torch (or even a match) lit for hours as he explores a dark labyrinth. He could cause the tiny spark at the end of a fuse to burn in place without moving. This Boon is also good for keeping a source of flame from consuming the breathable air in an enclosed space."
+        ],
+        [
+            "Met Tet",
+            "Dice Pool: Intelligence + Control \nCost: 1 Willpower + 3 Legend \nThis Boon is very similar to Horse (Cheval 3), in that it lets a Scion take total control of a mortal victim\u2019s body for a limited time, manipulating it as if it were her own. As with Horse, the Scion must be using Rada\u2019s Eyes (Cheval 1) on the victim first in order to use this Boon. Having done so, the Scion\u2019s player makes the activation roll for this Boon (contested as per Horse) and spends the requisite Willpower and Legend. If this roll succeeds, the Scion\u2019s body becomes entirely incorporeal and steps into the body of her victim like a ghost taking possession of it."
+        ],
+        [
+            "Mortal Stroke",
+            "Dice Pool: None \nCost: 1 Legend + 1 Willpower per weapon \nThe Scion touches one or several weapons and invokes the power of her Legend to grant them supernatural killing power. For each point of Legend and Willpower spent, the Scion\u2019s player can choose to affect one weapon. Each weapon blessed with Mortal Stroke inflicts aggravated damage on its next attack."
+        ],
+        [
+            "Morale Failure",
+            "Dice Pool: Manipulation + Presence \nCost: 1 Legend per 5 troops \nThe Scion can shake an enemy\u2019s leadership and seed an outbreak of cowardice among the men. When he makes himself visible to an opposing force\u2019s leader, his player rolls (Manipulation + Presence) against the enemy leader\u2019s player\u2019s roll of (Willpower + Integrity + Legend)."
+        ],
+        [
+            "Mind-Riding",
+            "Dice Pool: None \nCost: 1 Legend \nWhile the Scion is using Rada\u2019s Eyes (Cheval 1) to experience someone else\u2019s senses, she can\u2019t normally pick up on that person\u2019s reactions to the things he\u2019s sensing. With Mind-Riding, however, the Scion can listen in on the thoughts of the person whose senses she\u2019s riding. These thoughts whisper in the rider\u2019s mind, and the mental images they conjure play behind the rider\u2019s eyes. Yet, while the rider has access to her victim\u2019s conscious thoughts, she garners only what context those thoughts provide. She can\u2019t snoop around in the victim\u2019s memory to make sense of an enigmatic reaction. While using Rada\u2019s Eyes, the Scion need only spend an additional point of Legend in order to listen in on the host\u2019s thoughts."
+        ],
+        [
+            "Rada's Eyes",
+            "Dice Pool: Perception + Empathy \nCost: 1 Legend \nThe Scion can experience another person\u2019s perceptions as if they were her own. These perceptions include input from all five senses, though not the character\u2019s subjective reactions to that input. To use this Boon, the Scion must have a picture of her victim, some genetic token of the victim\u2019s (such as a lock of hair or several drops of blood) or something the victim created (from a printed-out email to an ice sculpture). By meditating on the item and relaxing her own perceptions\u2014as well as spending a point of Legend after a successful (Perception + Empathy) roll on the part of her player\u2014the Scion experiences the victim\u2019s perceptions clearly and distinctly. The victim is unaware of the Scion\u2019s attention, but the Scion remains semi-aware of her own surroundings."
+        ],
+        [
+            "Team",
+            "Dice Pool: Intelligence + Control \nCost: 1 Willpower + 5 Legend \nThe Scion can now use Horse (Cheval 3) on multiple mortal victims simultaneously. The Scion need not be using Rada\u2019s Eyes (Cheval 1) first in order to use this Boon, but all of the victims must be in the Scion\u2019s line of sight when she activates it. The player makes one activation roll and compares the results to the (Willpower + Integrity + Legend) rolls of all the victims. Any victim her roll beats becomes a spirit horse for her, up to a maximum number equal to her Legend. She can maintain this multiple possession for one scene, and her real body slumps insensate as per Horse."
+        ],
+        [
+            "Met Tet",
+            "Dice Pool: Intelligence + Control \nCost: 1 Willpower + 3 Legend \nThis Boon is very similar to Horse (Cheval 3), in that it lets a Scion take total control of a mortal victim\u2019s body for a limited time, manipulating it as if it were her own. As with Horse, the Scion must be using Rada\u2019s Eyes (Cheval 1) on the victim first in order to use this Boon. Having done so, the Scion\u2019s player makes the activation roll for this Boon (contested as per Horse) and spends the requisite Willpower and Legend. If this roll succeeds, the Scion\u2019s body becomes entirely incorporeal and steps into the body of her victim like a ghost taking possession of it."
+        ],
+        [
+            "Blessing of Bravery",
+            "Dice Pool: Charisma + Command \nCost: None \nIntoning a benediction over a person or group prepared to engage in battle, the Scion bolsters their courage and determination. Every character on the Scion\u2019s side of the conflict who hears the benediction gains a point of Willpower as well as two temporary bonus dots of Valor that last until the battle ends. The Scion may amplify his voice electronically, but he must be present at the battle and give the blessing live."
+        ],
+        [
+            "Mind-Riding",
+            "Dice Pool: None \nCost: 1 Legend \nWhile the Scion is using Rada\u2019s Eyes (Cheval 1) to experience someone else\u2019s senses, she can\u2019t normally pick up on that person\u2019s reactions to the things he\u2019s sensing. With Mind-Riding, however, the Scion can listen in on the thoughts of the person whose senses she\u2019s riding. These thoughts whisper in the rider\u2019s mind, and the mental images they conjure play behind the rider\u2019s eyes. Yet, while the rider has access to her victim\u2019s conscious thoughts, she garners only what context those thoughts provide. She can\u2019t snoop around in the victim\u2019s memory to make sense of an enigmatic reaction. While using Rada\u2019s Eyes, the Scion need only spend an additional point of Legend in order to listen in on the host\u2019s thoughts."
+        ],
+        [
+            "Inferno",
+            "Dice Pool: Charisma + Craft \nCost: 3 Legend \nWith a shouted word, a Scion can cause an area in his line of sight to instantly burst into flame. The flame has the intensity of a bonfire, and it covers an area with a radius in yards equal to the number of successes on the activation roll. The flames stand as high from a flat surface as the Scion is tall. This fire can burn without fuel for a number of minutes equal to the Scion\u2019s Legend. When that time is up, the flames go out if they still don\u2019t have any fuel. People who are within the area the Scion intends to set alight get a single chance to escape the affected area unharmed before the fire starts. To do so, their players must get more successes on a (Dexterity + Athletics) roll than the Scion\u2019s player got on the activation roll, and the character must be able to get out of the area in one action."
+        ],
+        [
+            "Mortal Stroke",
+            "Dice Pool: None \nCost: 1 Legend + 1 Willpower per weapon \nThe Scion touches one or several weapons and invokes the power of her Legend to grant them supernatural killing power. For each point of Legend and Willpower spent, the Scion\u2019s player can choose to affect one weapon. Each weapon blessed with Mortal Stroke inflicts aggravated damage on its next attack."
+        ],
+        [
+            "Blazing Weapon",
+            "Dice Pool: None \nCost: 1 Legend per weapon \nThe Scion reaches into a flame that\u2019s at least as big as a campfire and pulls out a blazing melee weapon made of flickering fire. The weapon can be of any shape and size, but the distinction is largely a matter of personal taste, rather than available traits. These weapons do not use the normal traits from the chart in Scion: Hero. Instead, when the character removes the weapon from the fire, the player receives a base number of points equal to the Scion\u2019s Legend for each weapon. These points can add to a base Accuracy +0, Damage +0 and Defense -1, and they can subtract from a starting Speed 6 (reducing it to a minimum of 1). The player assigns the weapon\u2019s traits as the character produces the weapon, and he can\u2019t change them afterward."
+        ],
+        [
+            "Waking Zombie",
+            "Dice Pool: Manipulation + Cheval \nCost: 1 Willpower \nWhen the Scion has a mortal victim completely under her control, she can temporarily pull the victim\u2019s spirit out of his body and boss the body around as her mindless slave. The Scion must somehow incapacitate the victim\u2014by tying him up, drugging him, beating him unconscious or whatever\u2014then cover the victim\u2019s mouth with her own and take a long, deep breath. The victim\u2019s player then rolls (Willpower + Integrity + Legend) against the activation roll. If the activation roll wins, the Scion sucks out the victim\u2019s spirit and swallows it down into the darkness within her. Once that happens, the victim maintains a dreamlike semi-awareness of what the Scion is doing, just as a victim of Horse (Cheval 3) does, but he can\u2019t take any actions or exert his own will in any way."
+        ]
+    ],
+    "nature": "Libertine",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 42,
+        "move": 36,
+        "climb": 27,
+        "jump": {
+            "horizontal": 58,
+            "vertical": 29
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 32,
+        "parry_dv": 25
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 1,
+        "animal_ken": 3,
+        "art": 2,
+        "athletics": 2,
+        "awareness": 2,
+        "brawl": 3,
+        "command": 2,
+        "control": 0,
+        "craft": 1,
+        "empathy": 3,
+        "fortitude": 3,
+        "integrity": 0,
+        "investigation": 0,
+        "larceny": 3,
+        "marksmanship": 2,
+        "medicine": 3,
+        "melee": 3,
+        "occult": 1,
+        "presence": 2,
+        "politics": 3,
+        "science": 1,
+        "stealth": 3,
+        "survival": 3,
+        "thrown": 0
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 6,
+        "lethal": 4.0,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 8,
+    "god": "Ogoun",
+    "pantheon": "Loa",
+    "name": "Irene Hamilton"
+}

@@ -1,0 +1,300 @@
+{
+    "attributes": {
+        "stre": 5,
+        "dex": 7,
+        "sta": 7,
+        "cha": 5,
+        "man": 5,
+        "app": 5,
+        "per": 3,
+        "inte": 5,
+        "wits": 3
+    },
+    "epic_attributes": {
+        "epic_stre": 6,
+        "epic_dex": 2,
+        "epic_sta": 3,
+        "epic_cha": 0,
+        "epic_man": 1,
+        "epic_app": 2,
+        "epic_per": 1,
+        "epic_int": 4,
+        "epic_wits": 2
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        1,
+        2,
+        1,
+        0
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Undeniable Resemblance",
+            "description": [
+                "Prerequisite Knack: Detail Variation Combining elements of the two Knacks it takes to get to this one, the character can make more radical alterations to the way he looks. He can change racial characteristics or make dramatic changes in his weight or height. He can even change genders (and be completely fertile in the new form) or exhibit characteristics of both (and be fertile in both). Any morphology and physiognomy that exists on the spectrum of human variety is a valid change. When the character is finished, his new Appearance can be from one dot to as many dots as he actually has. His Epic Appearance dots are automatically included at their full value, but they can be suppressed normally with My Eyes Are Up Here. The character can also use this Knack to perfectly mimic the appearance of anyone he has seen. Doing so requires a (Dexterity + Empathy) roll with a difficulty equal to (1 + that person\u2019s Legend). More generic alteration requires no roll, but any use of this Knack costs five Legend points to realize the finish product.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Center of Attention",
+            "description": [
+                "Whether he\u2019s Hugh Jackman on the set of The View or the Phantom of the Opera going unmasked at the masquerade ball, the Scion commands the attention of everyone in the room. This Knack is best used when making an important entrance, but it can also serve as a wonderful broad-spectrum distraction. The character walks into a room, the player spends a point of Legend, and all eyes in the room (as well as the eyes of people watching remotely via live security camera broadcast) turn the character\u2019s way. For every Legend point spent, the character can hold everyone\u2019s attention for a number of minutes equal to his Epic Appearance dots. The onlookers can carry on with what they\u2019re doing and keep talking among themselves, but their attention remains \ufb01xed on the Scion. Titanspawn and Scions can resist this Knack. They may spend a point of Willpower to direct their attention elsewhere. Should the Scion with Epic Appearance spend another point of Legend to continue the effect over subsequent sets of minutes, the resisting party must spend matching amounts of Willpower to keep from being distracted.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "My Eyes Are Up Here",
+            "description": [
+                "As Scions build up ever more dots of Epic Appearance, they grow ever more unearthly. As such, whether they\u2019re beautiful or quite the opposite, it becomes increasingly difficult to deal with mortal humans on their level. The Scion\u2019s Epic Appearance can\u2019t help but get in the way. This Knack, however, mitigates that factor. When the Scion\u2019s player spends a point of Willpower to activate it for the scene, any mortals who see the character completely ignore his Appearance score (both Epic and mundane). Witnesses might vaguely remember that a beautiful Scion was kind of pretty or that a disgustingly ugly Scion was dirty and a little scary, but that\u2019s it. They won\u2019t recognize the Scion again later unless the Scion uses this Knack in their presence again, and they won\u2019t be able to describe the Scion in great detail to anyone else. They might get height, hair color, skin tone, build and style of dress right, but details beyond those generalities prove elusive. Scions themselves are immune to this effect, as they are more than capable of dealing with the extremes that Epic Appearance represents. This Knack lasts for the scene, though the Scion can choose to turn off the effect before then. Also, while he\u2019s using this Knack to deal with a mortal, he cannot use any other Epic Appearance Knacks against him. Nor can he apply his Epic Appearance to rolls pertaining to dealing with that mortal at all until he lifts the effect.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Blame James",
+            "description": [
+                "Prerequisite Knack: Boys Will Be Boys (Scion: God, p. 68) Some Scions are just too likable to take the heat. When the Scion invokes Boys Will Be Boys in order to calm the anger of an authority figure after a disaster, the player can choose to spend two additional Legend points and invoke Blame James as well. Then, the Scion just glances at someone else, makes a brief comment about \u201cWell, it wasn\u2019t my idea\u2026\u201d or somehow gives the impression that the narrowly-averted trouble was the result of someone else\u2019s malfeasance. So impressive is the Scion\u2019s demeanor that the disciplinary authority figure becomes convinced that the named individual had something to do with the event, and is in some way culpable. This Knack only functions if the use of Boys Will Be Boys also functioned; if that attempt fails, then this Knack also fails, although the Legend points are still spent",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Dreadful Mien",
+            "description": [
+                "Some Scions are so hideous that seeing them spurs the primitive centers of the human brain toward reckless \ufb02ight. Most humans can clamp down on this instinctive response and remain in such Scions\u2019 presence, but this Knack overrides that social nicety. When the Scion\u2019s player spends a Legend point, the character directs his unholy monstrousness at a single unlucky victim in his presence. Overwhelmed, the victim runs for his life and hides somewhere until the next sunrise. People affected by this Knack run away with self-preservation in mind, though, so they won\u2019t sprint blindly into traffic or try to swim across a shark tank to safety. Scions whose Epic Appearance represents divine beauty cannot use this Knack. Also, it doesn\u2019t work on hideous Scions with more dots of Epic Appearance than the one using the Knack.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Knockback Attack",
+            "description": [
+                "The Scion is able to perform an attack that in\ufb02icts no damage whatsoever but sends his enemies \ufb02ying back. On a successful attack, the Scion can choose for the attack to in\ufb02ict damage and knockback normally (see Scion: Hero, p. 198), or he can choose for the attack to in\ufb02ict no harm but to impose one yard of knockback per threshold success above the defender\u2019s DV instead. (Doing so costs one Willpower point.) Hardness can still cancel out this effect if it is greater than the attack\u2019s raw damage.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Hang On",
+            "description": [
+                "This Knack allows the Scion to plant her feet, tighten her muscles or otherwise commit to performing a feat of strength for an extended period of time. By spending a point of Legend to activate the Knack, the Scion can extend this feat for a maximum number of days equal to her Legend rating. As long as she continues this specific feat of strength, she ignores hunger, thirst, exhaustion and other factors that might otherwise interrupt her. Without this Knack, a Scion cannot possibly continue a feat of strength longer than a single scene. A Scion can use this Knack to hold up any weight she can lift or keep a creature that\u2019s fastened to a rope or line from getting away. By tightening her neck muscles, she could even hang by her neck without suffocating. The Scion must stay virtually immobile, however. A Scion could keep a mine from caving in, hang from a noose for days or drag a chained beast slowly toward her, but she could not run, jump or perform most combat actions. A Scion is still limited by her normal and Epic Strength ratings, though she can perform feats at the top of her capabilities for days using this Knack. If she lacks Epic Stamina Knacks such as Holy Fortitude, though, she will probably collapse in helpless exhaustion the moment she finally ends the feat of strength."
+            ],
+            "tables": []
+        },
+        {
+            "title": "Crowd Control",
+            "description": [
+                "Prerequisite Knack: Charmer (Scion: Hero, p. 130) The demigod\u2019s force of personality is such that he can quell the passion of a seething mob, whether he\u2019s addressing a throng of rowdy political protesters, standing between an innocent kitsune and the lynch mob howling for her hide, or stalling the phalanx of SWAT cops long enough for his partner to \ufb01nish sacri\ufb01cing the hostages. By spending a point of Willpower and Legend, the Scion cools the crowd\u2019s urge for instant action and buys himself enough time to try to talk some sense into everyone. Doing so is primarily a matter of role-playing, but if the player is not as good an extemporaneous speech-maker as his character is, he may roll (Charisma + Presence) to simulate his heartfelt call for calm. His words convince three members of the mob per success on the roll. This effect lasts for the scene, after which the mob either disperses or renews its shenanigans with its original vigor. If the character is attempting to halt the depredations of a mob that is being controlled or directed supernaturally, use of this Knack constitutes an opposed roll against the other power\u2019s activation roll. If the power has no activation roll per se, the Scion\u2019s player rolls his (Charisma + Presence) against that of the character who incited the mob supernaturally. If the Scion with this Knack gets an equal or greater number of successes, the Knack does what it\u2019s supposed to.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Do not want",
+            "description": [
+                "Prerequisite Knack: Dreadful Mien (Scion: Hero, p. 133) The rotting flesh, slimy tentacles, flayed skin and protruding bones of various Gods are the divine way of saying \u201cDon\u2019t touch.\u201d Scions who truly exercise their creepiness become so repulsive that their enemies don\u2019t want to touch them or even look at them, even in battle. (People this ugly rarely have friends, anyway). To activate Do Not Want, the Scion\u2019s player expends three Legend points, then rolls (Appearance + Presence + Legend). Whenever someone first tries to attack or lay hands on the Scion, the aggressor\u2019s player must roll (Willpower + Integrity + Legend). If the attacker scores more successes than the Scion\u2019s player, his character\u2019s actions proceed as normal. If he scores fewer successes than the Scion, then the difference becomes a bonus to the Scion\u2019s DV against the attacker. This bonus persists for the rest of the scene. For example, if the Scion\u2019s player scores 6 successes on the (Appearance + Presence + Legend) roll and an attacker only manages to eke out 3 successes on his (Willpower + Integrity + Legend) roll, then the Scion gains a +3 bonus to DV against that attacker for the rest of the scene. This benefit applies against everyone who tries to take action against the Scion for the rest of the scene, though each attacker makes a separate resistance roll. (For the sake of sanity, the Storyteller might wish to roll once and apply a blanket penalty for large groups of extras.) Scions whose Epic Appearance represents divine beauty cannot use this Knack. Also, it doesn\u2019t work on ugly Scions with more dots of Epic Appearance than the one using the Knack.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "The Summoned Spirit",
+            "Dice Pool: Charisma + Occult \nCost: 1 Legend \nBy constructing a temporary shrine devoted to a kami whose name she knows\u2014and whose Legend is less than her own\u2014the Scion can call upon that kami wherever she is. The spirit\u2019s face materializes in the shrine, and the Scion may attempt to use any Tsukumo-Gami Boons she possesses on it, just as if she were in the being\u2019s physical presence. The kami can also cause to materialize above the shrine an image of what\u2019s happening at the kami\u2019s physical location, allowing the Scion to remotely witness that location as the kami sees and hears it. This contact lasts for a maximum number of minutes equal to the successes on the activation roll. The kami can break off contact as well if the Scion offends it."
+        ],
+        [
+            "The Helpful Spirit",
+            "Dice Pool: Charisma + Occult \nCost: 1 Legend per die of improvement \nWith the proper shows of respect and decorum, a Scion can convince the kami within an object to enhance the mundane function of that object. In so doing, she gains a dice bonus equal to the number of Legend points she spends on the effect, which lasts for a number of days equal to number of successes on the activation roll. Be it anything from a weapon to a baby grand piano, the item must be one that requires a dice roll to use with skill. If the character uses this Boon on one of her Birthright items, she can enhance only its mundane function."
+        ],
+        [
+            "Life-giving Rays",
+            "Dice Pool: Charisma + Medicine \nCost: 1 Legend \nA soft, golden glow emanates from the Scion, just bright enough to read by. While bathed in this golden light, living beings heal more rapidly than normal. All healing times are halved after an hour of being within the Scion\u2019s refreshing light, including for the Scion herself. Life-Giving Rays function for a maximum number of people equal to the Scion\u2019s Legend rating plus her player\u2019s successes on the initial (Charisma + Medicine) roll, and remains in effect for a number of hours equal to the player\u2019s original threshold successes. If a target whose healing rate is halved takes any new damage of any kind, their healing time for all their wounds returns to normal."
+        ],
+        [
+            "Bless or Blight",
+            "Dice Pool: Stamina + Survival \nCost: 3 Legend \nWith a blessing, the Scion protects a patch of land from all natural blights and vermin infestations for one year. Alternatively, she can curse the land with a blight that either kills the plants within it outright or makes them so attractive to vermin that the resulting infestation has the same effect. The Scion\u2019s player spends three Legend and rolls (Stamina + Survival). The number of successes she rolls determines how many acres she can affect with this power. If one Scion wants to use an aspect of this Boon on a patch of land on which another Scion has used the opposite aspect, a contested roll is called for. Whoever achieves more successes spreads her effect over the larger area, canceling out the lesser effect."
+        ],
+        [
+            "Bless or Blight",
+            "Dice Pool: Stamina + Survival \nCost: 3 Legend \nWith a blessing, the Scion protects a patch of land from all natural blights and vermin infestations for one year. Alternatively, she can curse the land with a blight that either kills the plants within it outright or makes them so attractive to vermin that the resulting infestation has the same effect. The Scion\u2019s player spends three Legend and rolls (Stamina + Survival). The number of successes she rolls determines how many acres she can affect with this power. If one Scion wants to use an aspect of this Boon on a patch of land on which another Scion has used the opposite aspect, a contested roll is called for. Whoever achieves more successes spreads her effect over the larger area, canceling out the lesser effect."
+        ],
+        [
+            "Toxic Thorn",
+            "Dice Pool: Intelligence + Science \nCost: 1 Legend \nThe Scion sprouts a single thorn from his hand or foot, which he can use in conjunction with an unarmed strike to poison a victim. Successes scored by the player on an (Intelligence + Science) roll determines the strength of the poison that can be created. Consult the accompanying table for its toxicity:"
+        ],
+        [
+            "Bless or Blight",
+            "Dice Pool: Stamina + Survival \nCost: 3 Legend \nWith a blessing, the Scion protects a patch of land from all natural blights and vermin infestations for one year. Alternatively, she can curse the land with a blight that either kills the plants within it outright or makes them so attractive to vermin that the resulting infestation has the same effect. The Scion\u2019s player spends three Legend and rolls (Stamina + Survival). The number of successes she rolls determines how many acres she can affect with this power. If one Scion wants to use an aspect of this Boon on a patch of land on which another Scion has used the opposite aspect, a contested roll is called for. Whoever achieves more successes spreads her effect over the larger area, canceling out the lesser effect."
+        ],
+        [
+            "The Wakeful Spirit",
+            "Dice Pool: Charisma + Presence \nCost: None \nWith a little persistence, a Scion can capture the attention of the spirit of an inanimate object and speak to it for a few minutes. When she does so, the object takes on anthropomorphic features\u2014the grains in a wooden door, for instance, might flow into the shape of a face\u2014and speaks in a way befitting the size and importance of the object. Unremarkable, unimportant objects have dim-witted, semi-conscious spirits, whereas unique objects to which people form emotional attachments are eloquent, knowledgeable and charming."
+        ],
+        [
+            "Divine Radiance",
+            "Dice Pool: None \nCost: 1 Legend \nThis Boon allows a Scion to emit sunlight. She can either radiate a glow from her entire body, shining with the intensity of a 100-watt incandescent light bulb, or focus that light to a narrower beam. For instance, she could narrow the focus of the light to come from her palm or her eyes to act as a high-powered flashlight. The Scion can emit soft light thus for one scene."
+        ],
+        [
+            "Bless or Blight",
+            "Dice Pool: Stamina + Survival \nCost: 3 Legend \nWith a blessing, the Scion protects a patch of land from all natural blights and vermin infestations for one year. Alternatively, she can curse the land with a blight that either kills the plants within it outright or makes them so attractive to vermin that the resulting infestation has the same effect. The Scion\u2019s player spends three Legend and rolls (Stamina + Survival). The number of successes she rolls determines how many acres she can affect with this power. If one Scion wants to use an aspect of this Boon on a patch of land on which another Scion has used the opposite aspect, a contested roll is called for. Whoever achieves more successes spreads her effect over the larger area, canceling out the lesser effect."
+        ],
+        [
+            "Heavenly Flare",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend \nConcentrating for one action (Speed 4), the Scion builds up and releases a flash of sunlight that\u2019s impossible for anyone within line of sight to miss. When she does so, the player of anyone who was looking at her, even through expensive sunglasses, must roll (Stamina + Fortitude). If the victim\u2019s roll nets more successes than the Scion\u2019s activation roll, he sees only a sudden flash that has no effect on him."
+        ]
+    ],
+    "nature": "Traditionalist",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 15,
+        "move": 9,
+        "climb": 21,
+        "jump": {
+            "horizontal": 46,
+            "vertical": 23
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 14,
+        "parry_dv": 10
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 0,
+        "animal_ken": 2,
+        "art": 3,
+        "athletics": 2,
+        "awareness": 1,
+        "brawl": 0,
+        "command": 0,
+        "control": 0,
+        "craft": 3,
+        "empathy": 2,
+        "fortitude": 1,
+        "integrity": 3,
+        "investigation": 2,
+        "larceny": 1,
+        "marksmanship": 0,
+        "medicine": 1,
+        "melee": 2,
+        "occult": 0,
+        "presence": 3,
+        "politics": 3,
+        "science": 3,
+        "stealth": 0,
+        "survival": 1,
+        "thrown": 1
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 11,
+        "lethal": 9.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 4,
+    "god": "Amaterasu",
+    "pantheon": "Amatsukami",
+    "name": "\u88d5\u7f8e Ito"
+}

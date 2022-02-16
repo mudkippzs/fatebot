@@ -1,0 +1,300 @@
+{
+    "attributes": {
+        "stre": 5,
+        "dex": 7,
+        "sta": 7,
+        "cha": 3,
+        "man": 5,
+        "app": 3,
+        "per": 5,
+        "inte": 5,
+        "wits": 5
+    },
+    "epic_attributes": {
+        "epic_stre": 3,
+        "epic_dex": 3,
+        "epic_sta": 0,
+        "epic_cha": 6,
+        "epic_man": 0,
+        "epic_app": 3,
+        "epic_per": 2,
+        "epic_int": 1,
+        "epic_wits": 2
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        2,
+        1,
+        0,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Blessing of Importance",
+            "description": [
+                "The Scion is especially good at winning people over by making them feel special and wanted. By spending a point of Legend and either sticking up for a person, calling out to him in a crowd or just giving him a secret smile, the Scion re\ufb01lls the person\u2019s spent Willpower points for the scene. The Scion need not necessarily believe that the person is important or special herself. This Knack works very well on mortals, but it\u2019s less effective on Scions, who are usually wise to their charismatic peers\u2019 ways. For Scion recipients, the Knack re\ufb01lls only one point of Willpower per dot of Epic Charisma the Scion with this Knack has. A character can receive this Willpower boost only once per scene from the same Scion.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Blurt It Out",
+            "description": [
+                "This Knack represents a gift for making people speak their minds. Scions who have it normally corner a person who has information they want, strike up a conversation, direct that conversation toward the information in question, then pry it loose when it\u2019s top of mind. Others confront victims who are surrounded by family, friends or coworkers, in order to make those victims admit damning information when it will do the most harm. The Scion\u2019s player must spend a point of Legend to activate the Knack, and the information must have legitimately come up in conversation. The Scion cannot simply shout \u201cJ\u2019accuse!\u201d then use Blurt It Out to force a random confession from a guilty person. (The declamatory French comes only after the Scion uses Blurt It Out effectively.) Regardless, a victim still has a slim chance to catch himself before bringing disaster crashing down. The victim\u2019s player rolls (Willpower + Integrity + Legend) against a dif\ufb01culty equal to (the Scion\u2019s Epic Manipulation + 1). If this roll succeeds, the player may then spend a point of Willpower to avert the slip of the tongue.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Crowd Control",
+            "description": [
+                "Prerequisite Knack: Charmer (Scion: Hero, p. 130) The demigod\u2019s force of personality is such that he can quell the passion of a seething mob, whether he\u2019s addressing a throng of rowdy political protesters, standing between an innocent kitsune and the lynch mob howling for her hide, or stalling the phalanx of SWAT cops long enough for his partner to \ufb01nish sacri\ufb01cing the hostages. By spending a point of Willpower and Legend, the Scion cools the crowd\u2019s urge for instant action and buys himself enough time to try to talk some sense into everyone. Doing so is primarily a matter of role-playing, but if the player is not as good an extemporaneous speech-maker as his character is, he may roll (Charisma + Presence) to simulate his heartfelt call for calm. His words convince three members of the mob per success on the roll. This effect lasts for the scene, after which the mob either disperses or renews its shenanigans with its original vigor. If the character is attempting to halt the depredations of a mob that is being controlled or directed supernaturally, use of this Knack constitutes an opposed roll against the other power\u2019s activation roll. If the power has no activation roll per se, the Scion\u2019s player rolls his (Charisma + Presence) against that of the character who incited the mob supernaturally. If the Scion with this Knack gets an equal or greater number of successes, the Knack does what it\u2019s supposed to.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Charmer",
+            "description": [
+                "With the sheer, raw charm this Knack represents, the Scion can smother an upwelling of panic, suspicion or utter hatred directed at her for one scene. The player need only spend a point of Legend. One scene is usually long enough to convince a person that it would be in his best interest to help the character, but it\u2019s up to the Scion (and the player\u2019s roleplaying) to actually say the right words. During the scene in which this Knack is in effect, the suppressed emotion doesn\u2019t go away. It merely remains beneath the surface. If the Scion can\u2019t set the person\u2019s mind at ease by scene\u2019s end, the suppressed emotion returns in full force the next time the Scion leaves the affected person\u2019s presence.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Instant Hypnosis",
+            "description": [
+                "Prerequisite Knack: Overt Order (Scion: Hero, p. 131) With a moment of eye contact and the expenditure of a Willpower point, the Scion instantly plunges a mortal into a hypnotic trance. Attempting to hypnotize a fellow Scion of lesser or equal (Willpower + Legend) requires not only a Willpower expenditure but a (Manipulation + Command + Legend) roll contested against the victim\u2019s (Willpower + Integrity + Legend). Scions cannot instantly hypnotize fellow Scions of higher (Willpower + Legend). Should he successfully hypnotize a victim, the Scion can implant one hidden command that the victim must obey at the time of the Scion\u2019s choosing. The command must be something that the victim can accomplish in one scene, and the trigger condition that compels him to attempt it must occur within a number of months equal to the Scion\u2019s Legend. The Scion can give as speci\ufb01c an order as he pleases, and a mortal cannot interpret it in any way other than the spirit in which it was intended. A fellow Scion can interpret it loosely to his own advantage, as per Overt Order, but doing so costs him a point of Willpower. The victim remains unaware of the ticking time bomb in his subconscious, but he does have a chance to resist it when the trigger condition occurs. At the moment when he has been commanded to perform the action in question, the victim\u2019s player may make a (Wits + Integrity) roll. (This roll cannot be modi\ufb01ed by a Scion\u2019s Epic Wits or an Integrity Arete.) If the roll garners more successes than the hypnotist Scion has dots of Legend, the compulsion is broken. If the last-minute resistance roll fails, the victim must attempt to do as he was commanded. Whether he succeeds or fails, the compulsion ends after he makes the attempt, and he has no memory of what could possibly have convinced him to do as he did.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Preach On",
+            "description": [
+                "Prerequisite Knack: Inspirational Figure (Scion: Hero, p. 130) When a demigod has a willing audience, he can inspire every member with an uplifting, well-intentioned speech or sermon. This Knack works exactly as its prerequisite, and functions under the same limitations, but it is more effective. Mortals and Scions who hear it are so inspired that their spent Willpower points are entirely re\ufb01lled. This Knack also has a more insidious dimension. If the Scion \ufb01nds himself in charge of a group of titanspawn, he can spend a point of Willpower and give those awful minions a speech that empowers them just as Inspirational Figure inspires mortals. Each titanspawn who hears him regains a point of spent Willpower. Scions who might be opposed to the titanspawn\u2019s goals don\u2019t receive any bene\ufb01t from this inspirational speech, but they are compelled to let the demigod \ufb01nish what he has to say before they do something about it.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Not The Face",
+            "description": [
+                "The Scion makes a simple wince, throws up his hands, shrieks for mercy or somehow shows that he\u2019s just not quite ready to take an incoming blow. As a result, the attacker hesitates for the briefest instant, perhaps long enough for the Scion to escape or for a friend of his to land a telling blow instead. As a response to an incoming attack, the Scion\u2019s player spends one point of Legend and rolls (Manipulation + Empathy + Legend) against the opponent\u2019s (Willpower + Integrity + Legend). If the player wins, then the attacker hesitates for the barest instant, and his attack delays to the next tick. Naturally, the attacker must be able to see the Scion in order for this trick to work, and the Scion must know that the attack is coming, as well. The Scion can use this Knack only once per scene."
+            ],
+            "tables": []
+        },
+        {
+            "title": "Never Say Die",
+            "description": [
+                "Not every Scion can knock down foes like bowling pins and scatter titanspawn body parts in her wake. Yet some are just so full of optimistic joie de vivre, even when they take a beating for some spectacular failure, that you just can\u2019t help but love them. A Scion might be accident- prone or have an infuriating talent for picking \ufb01ghts with titanspawn that are out of her league, but she takes her lumps with a smile and inspires her fellows with her can-do attitude. All she has to do is \ufb02ash a thumbs-up, holler an \u201cI\u2019m okay!\u201d or show a smile full of dangling teeth. When she does, all the Scions in her Band who can see her gain one Willpower point per health level the character has suffered (i.e., however many are marked on her character sheet at that moment). The character can inspire her fellows thus only once per scene, but she can do so even if she\u2019s knocked to Incapacitated or killed\u2014after which, she collapses.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Sekem Barrier",
+            "Dice Pool: Appearance + Command \nCost: 1 Legend \nThe character spends a point of Legend and his player rolls (Appearance + Command). If the roll succeeds, the radiance of the character\u2019s divine heritage illuminates his entire body, affecting all who look upon him. Use the same rubric as for Sekem Blaze to determine whether nearby characters are affected. Those who are affected react as those affected by Sekem Blaze."
+        ],
+        [
+            "Vigil Brand",
+            "Dice Pool: Perception + Empathy (to check up) \nCost: 1 Legend (to brand) \nThe Scion touches a person, an object or the entrance to a location and lays a mystical brand there that marks that subject as being under her protection. (Doing so costs one Legend.) Thereafter, whenever that subject is in physical danger (as determined by the Storyteller), the Scion receives a reflexive intuition to that effect. Should her player then succeed on a (Perception + Empathy) roll, she gains a clearer understanding of the subject\u2019s condition, location and current situation."
+        ],
+        [
+            "Toxic Thorn",
+            "Dice Pool: Intelligence + Science \nCost: 1 Legend \nThe Scion sprouts a single thorn from his hand or foot, which he can use in conjunction with an unarmed strike to poison a victim. Successes scored by the player on an (Intelligence + Science) roll determines the strength of the poison that can be created. Consult the accompanying table for its toxicity:"
+        ],
+        [
+            "Bolster",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend \nThe Scion speaks a few heartening words and waves his Relic or activates the pressure points and meridians on a series of targets. The Scion spends one Legend point and her player rolls (Stamina + Medicine). For each success scored, one target gains one temporary health level. This bonus health level lasts for the remainder of the scene. When the health level disappears, any wounds that filled it also subside; it does not overflow into normal damage."
+        ],
+        [
+            "Warning Line",
+            "Dice Pool: Perception + Awareness \nCost: 1 Legend \nThe Scion traces a line across the ground, along a doorway or over some other opening. The line can be as long as the Scion wishes to make it, so long as she traces the entire line in one pass. At the end, she names a creature. This can be as specific or as general as she wishes: \u201ctitanspawn,\u201d \u201cmortals,\u201d \u201cany animal smaller than a rat\u201d and \u201cKane Taoka\u201d are all valid examples. If a creature of that sort crosses the line, the Scion immediately becomes aware of it. There\u2019s no limit to the number of Warning Lines that a Scion can have drawn at once, and she can intuitively tell the difference between any of them. (That is, if she has three different Warning Lines active, she knows which one was tripped at any given time). A Warning Line remains effective for a number of days equal to the player\u2019s activation roll."
+        ],
+        [
+            "Bless or Blight",
+            "Dice Pool: Stamina + Survival \nCost: 3 Legend \nWith a blessing, the Scion protects a patch of land from all natural blights and vermin infestations for one year. Alternatively, she can curse the land with a blight that either kills the plants within it outright or makes them so attractive to vermin that the resulting infestation has the same effect. The Scion\u2019s player spends three Legend and rolls (Stamina + Survival). The number of successes she rolls determines how many acres she can affect with this power. If one Scion wants to use an aspect of this Boon on a patch of land on which another Scion has used the opposite aspect, a contested roll is called for. Whoever achieves more successes spreads her effect over the larger area, canceling out the lesser effect."
+        ],
+        [
+            "Ren Harvest",
+            "Dice Pool: Charisma + Empathy \nCost: None \nWhenever someone speaks of the Scion\u2019s deeds, or whenever he sees news of his exploits in print somewhere, his player makes a (Charisma + Empathy) roll. The Scion gains a number of Legend points equal to the number of successes rolled. The story must pertain specifically to the Scion, which the context should make clear. Also, it must be uttered or written without the Scion\u2019s direct knowledge. He might reasonably expect to see or hear it, but he cannot literally command someone to say or write it so as to reap the benefits. This Boon pertains only to evidence that his legend is spreading\u2014hence the Legend-point reward."
+        ],
+        [
+            "Influence Ba",
+            "Dice Pool: Manipulation + Presence \nCost: 1 Willpower \nBy capturing a person\u2019s undivided attention and staring in her eyes, the Scion can overwrite a portion of her personality. To do so, the player pits his activation roll against the victim\u2019s player\u2019s (Willpower + Integrity + Legend) roll. If the victim is a mortal, the Scion chooses one of his own Virtues and imposes on that person an equal rating in the same Virtue. The Virtue lasts for a number of days equal to the unanswered successes on the Scion\u2019s activation roll."
+        ],
+        [
+            "Toxic Thorn",
+            "Dice Pool: Intelligence + Science \nCost: 1 Legend \nThe Scion sprouts a single thorn from his hand or foot, which he can use in conjunction with an unarmed strike to poison a victim. Successes scored by the player on an (Intelligence + Science) roll determines the strength of the poison that can be created. Consult the accompanying table for its toxicity:"
+        ],
+        [
+            "Aegis",
+            "Dice Pool: Stamina + Fortitude \nCost: 1 Legend + 1 Willpower \nBy touching a mortal or an object, the Scion grants it a measure of divine physical protection. Her player spends one Legend and Willpower then rolls (Stamina + Fortitude), adding her usual bonuses. Successes on this roll then apply to the subject of the Scion\u2019s protection as a temporary Hardness rating for the next 24 hours."
+        ],
+        [
+            "Bolster",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend \nThe Scion speaks a few heartening words and waves his Relic or activates the pressure points and meridians on a series of targets. The Scion spends one Legend point and her player rolls (Stamina + Medicine). For each success scored, one target gains one temporary health level. This bonus health level lasts for the remainder of the scene. When the health level disappears, any wounds that filled it also subside; it does not overflow into normal damage."
+        ],
+        [
+            "Assess Health",
+            "Dice Pool: None \nCost: None \nThe Scion can instantly, automatically assess the current medical condition of a single living patient in his presence. He can tell how many levels of damage the patient is suffering, as well as any physical addictions he suffers, any illnesses or diseases with which he is infected and any genetic defects that afflict him."
+        ],
+        [
+            "Toxic Thorn",
+            "Dice Pool: Intelligence + Science \nCost: 1 Legend \nThe Scion sprouts a single thorn from his hand or foot, which he can use in conjunction with an unarmed strike to poison a victim. Successes scored by the player on an (Intelligence + Science) roll determines the strength of the poison that can be created. Consult the accompanying table for its toxicity:"
+        ]
+    ],
+    "nature": "Gambler",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 17,
+        "move": 11,
+        "climb": 9,
+        "jump": {
+            "horizontal": 18,
+            "vertical": 9
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 13,
+        "parry_dv": 12
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 3,
+        "animal_ken": 2,
+        "art": 2,
+        "athletics": 0,
+        "awareness": 3,
+        "brawl": 3,
+        "command": 2,
+        "control": 3,
+        "craft": 1,
+        "empathy": 3,
+        "fortitude": 3,
+        "integrity": 3,
+        "investigation": 2,
+        "larceny": 0,
+        "marksmanship": 2,
+        "medicine": 1,
+        "melee": 0,
+        "occult": 3,
+        "presence": 3,
+        "politics": 3,
+        "science": 0,
+        "stealth": 2,
+        "survival": 1,
+        "thrown": 2
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 7,
+        "lethal": 3.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 4,
+    "god": "Isis",
+    "pantheon": "Pesedjet",
+    "name": "Gabriel Rodriguez"
+}

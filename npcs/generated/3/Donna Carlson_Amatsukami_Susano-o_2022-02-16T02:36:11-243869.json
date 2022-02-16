@@ -1,0 +1,313 @@
+{
+    "attributes": {
+        "stre": 5,
+        "dex": 7,
+        "sta": 7,
+        "cha": 3,
+        "man": 5,
+        "app": 3,
+        "per": 5,
+        "inte": 5,
+        "wits": 5
+    },
+    "epic_attributes": {
+        "epic_stre": 1,
+        "epic_dex": 3,
+        "epic_sta": 2,
+        "epic_cha": 2,
+        "epic_man": 3,
+        "epic_app": 2,
+        "epic_per": 0,
+        "epic_int": 1,
+        "epic_wits": 4
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        0,
+        1,
+        1,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Knockback Wave",
+            "description": [
+                "Prerequisite Knack: Knockback Attack (Scion: Demigod, pp. 54-55) The God with this Knack claps her hands, slams a foe to the ground, bellows a war cry or performs some other similar action, and the player spends five Legend points. When she does so, everyone within a number of yards of the God equal to the God\u2019s Legend is potentially hurled backward. The God\u2019s player rolls Strength, receiving bonus successes from her Epic Strength, and every person within the radius of effect compares his DV to the result. Anyone whose DV doesn\u2019t measure up is knocked back one yard per threshold success.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "One Inch Punch",
+            "description": [
+                "Prerequisite Knack: Crushing Grip (Scion: Hero, p. 126) Extrapolated from learning to exert tremendous pressure from all manner of holds and contortions, the Scion develops the ability to put her massive strength to good use on a single, small point. With just a flick of a finger, a jab of an elbow or a headbutt, the Scion delivers the entire force of her Epic Strength. Although this doesn\u2019t necessarily change the Scion\u2019s unarmed combat style \u2014 she still needs to land a strike on an enemy \u2014 it\u2019s quite intimidating when she can simply poke a building and cause an entire wall to crumble. Similarly, if the Scion is somehow restrained but able to move even a minuscule part of her body, she could (for instance) flick a tiny rock with her toe with enough force to kill a man. While this does not increase the Scion\u2019s damage output, it means that even when bound or restricted from moving in some way, the Scion can still bring all of her Epic Strength to bear in an attack. Perhaps she\u2019s chained with bindings made from Gleipnir and can\u2019t break them, but she can head-butt her assailant. Maybe she is buried in rock and can only move her little finger but can use that to send the boulder on the top of the heap flying. Her damage output and ability to lift are not impinged in any way when she\u2019s forced to rely only on a single limb, a part of her body or a restricted range of motion. Activating this Knack costs three points of Legend. Its effects last for a single application.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Psychic Profiler",
+            "description": [
+                "Within seconds, the character with this Knack can size up a character with a lesser Legend rating than his own. Just by looking at the person, he can tell her weight, height, age, sex (if it\u2019s unclear to casual inspection) and whether she has a divine heritage or not. With just a few lines of conversation, he can also tell the subject\u2019s Nature, calling and primary Virtue (if any). Finally, if the subject is Fatebound to someone and is acting out a Fatebound Role, he can figure out what that role is. He might not know to whom it applies, but he can probably figure it out from context if he watches the person long enough.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Armor Crusher",
+            "description": [
+                "Prerequisite Knack: Holy Rampage (Scion: Hero, p. 126) The raw power of the Scion\u2019s attacks now allows him not only to break through obstacles and walls, but to slam right through armor. The Scion simply channels his legendary might, then uses brute force to shatter enemy defenses and tear through shields, armored plates and vests with ease. While this Knack is active, the Scion\u2019s melee attacks all gain the Piercing quality. Activating this Knack costs five points of Legend. Its effects last for one scene.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Instant Investigator",
+            "description": [
+                "The Scion can take an intuitive \u201cread\u201d of a crime scene and make a reasonably accurate assessment of what transpired there. By spending a point of Legend and taking a single, sweeping glance around the scene of a crime, the Scion entitles his player to a re\ufb02exive (Wits + Investigation) roll. If the roll succeeds, the Scion can tell what crimes were committed at that scene (if it was more than one), how many perpetrators were involved, how long ago it happened, roughly the sequence of events that took place and what means the perpetrators employed to cover up evidence. The dif\ufb01culty of the roll should re\ufb02ect how long ago the crime occurred, how contaminated the crime scene has been since then and how thorough the criminals were in covering their tracks. This Knack doesn\u2019t reveal speci\ufb01c, plot-sensitive information that isn\u2019t readily apparent (such as who the perpetrators actually are), but it should provide enough clues in a single glance for the character to develop solid leads that further the story.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Divine Bound",
+            "description": [
+                "Prerequisite Knack: Holy Bound (Scion: Hero, p. 126) A character with this Knack cannot necessarily fly, but the difference between using this Knack and flying is a subtlety that is easily lost on mortal onlookers. For the cost of 10 Legend points, this Knack converts the distance increment a character can jump from yards to hundreds of yards. That is, the character can leap the distance of one football field straight up for every dot of (Strength + Athletics) she has plus the bonus number granted by her Epic Strength. She can jump twice that length horizontally. At Strength 12, Athletics 5 and Epic Strength 10 (plus accounting for this Knack\u2019s prerequisite), the character can leap a little bit more than seven miles straight up \u2014 which is about one and a half miles higher than the peak of Mount Everest \u2014 or more than 14 miles horizontally. Used in combat, this Knack makes jumping something more than a Speed 5 miscellaneous action. When a character takes a leap that can potentially carry her for miles, that action is typically narrated rather than played out tick by tick. If no one can fly after her, leap after her or run fast enough to keep up with her, the character effectively leaves combat. In \u201cflight,\u201d the character retains her full DVs and attack dice pools. This Knack also makes jumping more dangerous than it normally is. Normally, a character can always safely fall from the maximum height to which she can normally jump. This Knack, however, overrides that safety standard by extending a person\u2019s jumping height to preposterous extremes. If a character who uses this Knack to leap aeronautically is successfully attacked in flight and that attack inflicts enough damage to cause knockdown or knockback, the character\u2019s prodigious leap turns into an uncontrolled fall. The player gets one chance per dot of Epic Strength the character has to succeed on a (Dexterity + Athletics) roll. If she does succeed, the character retains her aerial poise and lands, if not gracefully, at least safely. If the roll fails, the character suffers damage relevant to falling from a great height.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Instant Assessment",
+            "description": [
+                "With a quick glance, and the expenditure of one Legend point, the Scion can size up a foe with whom he intends to join battle. This assessment comes across in terms of how the foe\u2019s combat abilities compare to the Scion\u2019s own. He gets a sense of whether the foe has more or fewer dots of Physical Attributes (Epic and otherwise) than he does. The same goes for their relative number of dots in Brawl, Marksmanship, Melee and Thrown, as well as their relative Join Battle dice pools and their soak totals. Also, if some power or special quality renders the foe especially vulnerable or completely invulnerable to something to which the Scion has ready access, the Scion gets a sense of that as well. What the Scion decides to do with this information is up to him. This information occurs re\ufb02exively to the Scion who uses the Knack, and he may assess as many foes automatically as he spends points of Legend.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Shock Wave",
+            "description": [
+                "The Scion is so strong that he can direct his incredible power through the ground or \ufb02oor to affect enemies at range. Doing so takes two separate forms. First, the character can stomp or strike the ground with his \ufb01sts or a weapon, which sends a shock wave outward from him along the ground across an area with a radius equal to his Epic Strength in yards. Striking the ground thus to send out the shock wave requires a Strength roll, which receives the bene\ufb01t of his Epic Strength. Potential victims \u2014 friend and foe alike \u2014 compare their Dodge DV to the results of this roll. If their DV overcomes the Scion\u2019s successes, they manage to jump and let the shock wave pass beneath them. If their DV isn\u2019t high enough, they immediately suffer knockdown as well as an amount of bashing damage equal to however many of the Scion\u2019s successes their DV couldn\u2019t cancel out. (If his allies know the Scion is about to use this Knack \u2014 if his using it is part of a coordinated assault, for instance \u2014 they can jump out of the way preemptively without having to rely on their DVs.) This attack in\ufb02icts no damage on the \ufb02oor or the ground the Scion strikes. All the energy is expended into the shock wave. The second form this power takes is more selective and deliberate. As with the \ufb01rst form, the Scion strikes the ground and sends a shock wave along the surface out to a distance equal to his Epic Strength in yards. This time, though, his player makes a standard Dexterity-based attack roll and targets a single opponent. If that opponent\u2019s Dodge DV isn\u2019t high enough to get him out of the way of the attack, the Scion\u2019s player then makes a Strength roll, modi\ufb01ed by his Epic Strength but not modi\ufb01ed by his extra successes on the attack roll. The damage this attack in\ufb02icts is bashing, but it has one other effect that renders the victim almost helpless for a moment afterward. Any successes on the Strength roll that exceed the victim\u2019s soak not only in\ufb02ict damage but also hurl the victim straight up in the air (one yard per unsoaked success). The victim\u2019s rise and fall takes six ticks, during which his DVs are considered to be halved. He can make ranged attacks at a -5 penalty, but he can\u2019t move or jump or do much of anything until he lands again. In fact, if the Scion\u2019s attack sends him high enough in the air, the victim might take damage from crashing back down from so great a height. Using either form of this Knack requires the expenditure of one Legend point.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Meditative Focus",
+            "description": [
+                "Whether she\u2019s hunkered down behind a burning car in a war zone, caught out on the yard during a prison riot, stranded on the crowded deck of a storm-tossed ship or just mall-walking during the frenzied heights of the Christmas rush, the character never loses her cool. No matter what\u2019s happening, she keeps her mind on what she\u2019s doing while maintaining suf\ufb01cient vigilance to avoid getting caught up in the hubbub all around her. As such, the character is able to eliminate one point of environmental distraction penalty per dot she has of Epic Wits.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Eye of the Storm",
+            "Dice Pool: None \nCost: 1 Legend per scene \nWhen the Scion finds herself caught up in a chaotic situation unrelated to her\u2014whether she\u2019s dodging a tornado\u2019s debris or emerging from a bar to find a berserk mob rushing toward her to clash with a line of riot cops down the street\u2014she can activate this Boon and become an island of calm in the tumult. She is miraculously untouched in the confusion, and she remains so for as long as she doesn\u2019t actively involve herself. She still suffers normal environmental movement penalties, but environmental dangers such as falling rocks, stampeding beasts or thrashing rioters all fail to touch her."
+        ],
+        [
+            "Potability",
+            "Dice Pool: None \nCost: 1 Legend \nFor Scions who lack the means to use Purify Water, the Potability Boon is a simple substitute. Potability allows the Scion to touch one source of water no larger than a bathtub and cause any liquid in it to become safe to drink. While various contaminants may remain, including living beings, the water will not be poisonous or disease-laden. It might be brown, it might have algae floating on top, and it might taste like dirt mixed with baking soda, but it\u2019ll quench thirst and function for irrigation, if necessary."
+        ],
+        [
+            "The Wakeful Spirit",
+            "Dice Pool: Charisma + Presence \nCost: None \nWith a little persistence, a Scion can capture the attention of the spirit of an inanimate object and speak to it for a few minutes. When she does so, the object takes on anthropomorphic features\u2014the grains in a wooden door, for instance, might flow into the shape of a face\u2014and speaks in a way befitting the size and importance of the object. Unremarkable, unimportant objects have dim-witted, semi-conscious spirits, whereas unique objects to which people form emotional attachments are eloquent, knowledgeable and charming."
+        ],
+        [
+            "Water Breathing",
+            "Dice Pool: None \nCost: None \nThe Scion need never fear drowning, and she is no longer affected by extremes of water temperature. She can breathe water as easily as air, and she is neither scalded by boiling water nor subject to debilitating frostbite from ice. Having boiling water poured on one\u2019s flesh still hurts, mind you, and being bound in ice or cast adrift in frigid water can still numb and paralyze a Scion. Neither of those extremes can cause the Scion actual physical damage, though."
+        ],
+        [
+            "Sky's Grace",
+            "Dice Pool: None \nCost: 1 Legend \nBy spending a point of Legend, the Scion takes no damage from falls of any height. Alternatively, the Scion can use that point to double the distance he can jump either straight up or horizontally. If the Scion has the Holy Bound Knack\u2014as well as this Boon, the base distance he can leap doubles, then doubles again if the player spends a point of Legend."
+        ],
+        [
+            "The Watchful Spirit",
+            "Dice Pool: Charisma + Presence \nCost: 1 Legend \nThe Scion can not only coax information from a kami, but also set it to some passive task on her behalf. She can, for example, have the kami watch out for a specific person, observe any titanspawn who approach, or remember and repeat anything another Scion says to it. This period of duty lasts for a number of days equal to the number of successes the character amassed on the activation roll."
+        ],
+        [
+            "Eye of the Storm",
+            "Dice Pool: None \nCost: 1 Legend per scene \nWhen the Scion finds herself caught up in a chaotic situation unrelated to her\u2014whether she\u2019s dodging a tornado\u2019s debris or emerging from a bar to find a berserk mob rushing toward her to clash with a line of riot cops down the street\u2014she can activate this Boon and become an island of calm in the tumult. She is miraculously untouched in the confusion, and she remains so for as long as she doesn\u2019t actively involve herself. She still suffers normal environmental movement penalties, but environmental dangers such as falling rocks, stampeding beasts or thrashing rioters all fail to touch her."
+        ],
+        [
+            "Hornet's Nest",
+            "Dice Pool: Intelligence + Awareness \nCost: None \nIf the Boon\u2019s activation roll succeeds, the Storyteller should determine and reveal in general terms what action the Scion can take to either cause the most chaos in the scene or defuse the potential chaos inherent in the situation. The revelation should be something simple like \u201copening the parrot cage,\u201d \u201cstaying in the hallway,\u201d \u201cwinking at the Scion of Sif\u201d or \u201ccalling the Scion of Ptah\u2019s cell phone.\u201d The Storyteller should explain only which action will lead to which outcome, not how."
+        ],
+        [
+            "The Wakeful Spirit",
+            "Dice Pool: Charisma + Presence \nCost: None \nWith a little persistence, a Scion can capture the attention of the spirit of an inanimate object and speak to it for a few minutes. When she does so, the object takes on anthropomorphic features\u2014the grains in a wooden door, for instance, might flow into the shape of a face\u2014and speaks in a way befitting the size and importance of the object. Unremarkable, unimportant objects have dim-witted, semi-conscious spirits, whereas unique objects to which people form emotional attachments are eloquent, knowledgeable and charming."
+        ],
+        [
+            "Eye of the Storm",
+            "Dice Pool: None \nCost: 1 Legend per scene \nWhen the Scion finds herself caught up in a chaotic situation unrelated to her\u2014whether she\u2019s dodging a tornado\u2019s debris or emerging from a bar to find a berserk mob rushing toward her to clash with a line of riot cops down the street\u2014she can activate this Boon and become an island of calm in the tumult. She is miraculously untouched in the confusion, and she remains so for as long as she doesn\u2019t actively involve herself. She still suffers normal environmental movement penalties, but environmental dangers such as falling rocks, stampeding beasts or thrashing rioters all fail to touch her."
+        ],
+        [
+            "Water Control",
+            "Dice Pool: Dexterity + Craft \nCost: 1 Legend \nFor a number of actions equal to the successes on the activation roll, the Scion can exert limited physical control of any water that is touching her. She can remotely manipulate a hand-held object she can see in the water with her full dice pool, although she can take no other physical actions at the same time. She can stiffen the water beneath her feet in order to walk on its surface. She can even have the water push her along from all sides, allowing her to take a full Move action while swimming, rather than half. Alternatively, moving through the water thus could increase her Dodge DV by an amount equal to her Legend as long as she does nothing but dodge incoming attacks."
+        ],
+        [
+            "Eye of the Storm",
+            "Dice Pool: None \nCost: 1 Legend per scene \nWhen the Scion finds herself caught up in a chaotic situation unrelated to her\u2014whether she\u2019s dodging a tornado\u2019s debris or emerging from a bar to find a berserk mob rushing toward her to clash with a line of riot cops down the street\u2014she can activate this Boon and become an island of calm in the tumult. She is miraculously untouched in the confusion, and she remains so for as long as she doesn\u2019t actively involve herself. She still suffers normal environmental movement penalties, but environmental dangers such as falling rocks, stampeding beasts or thrashing rioters all fail to touch her."
+        ],
+        [
+            "The Watchful Spirit",
+            "Dice Pool: Charisma + Presence \nCost: 1 Legend \nThe Scion can not only coax information from a kami, but also set it to some passive task on her behalf. She can, for example, have the kami watch out for a specific person, observe any titanspawn who approach, or remember and repeat anything another Scion says to it. This period of duty lasts for a number of days equal to the number of successes the character amassed on the activation roll."
+        ],
+        [
+            "Hornet's Nest",
+            "Dice Pool: Intelligence + Awareness \nCost: None \nIf the Boon\u2019s activation roll succeeds, the Storyteller should determine and reveal in general terms what action the Scion can take to either cause the most chaos in the scene or defuse the potential chaos inherent in the situation. The revelation should be something simple like \u201copening the parrot cage,\u201d \u201cstaying in the hallway,\u201d \u201cwinking at the Scion of Sif\u201d or \u201ccalling the Scion of Ptah\u2019s cell phone.\u201d The Storyteller should explain only which action will lead to which outcome, not how."
+        ]
+    ],
+    "nature": "Judge",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 17,
+        "move": 11,
+        "climb": 6,
+        "jump": {
+            "horizontal": 12,
+            "vertical": 6
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 12,
+        "parry_dv": 12
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 3,
+        "animal_ken": 3,
+        "art": 3,
+        "athletics": 0,
+        "awareness": 1,
+        "brawl": 3,
+        "command": 0,
+        "control": 2,
+        "craft": 3,
+        "empathy": 2,
+        "fortitude": 3,
+        "integrity": 2,
+        "investigation": 1,
+        "larceny": 0,
+        "marksmanship": 3,
+        "medicine": 2,
+        "melee": 3,
+        "occult": 1,
+        "presence": 2,
+        "politics": 1,
+        "science": 2,
+        "stealth": 1,
+        "survival": 0,
+        "thrown": 1
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 9,
+        "lethal": 6.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 3,
+    "god": "Susano-o",
+    "pantheon": "Amatsukami",
+    "name": "Donna Carlson"
+}

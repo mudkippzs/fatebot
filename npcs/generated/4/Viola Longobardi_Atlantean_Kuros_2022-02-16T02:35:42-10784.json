@@ -1,0 +1,292 @@
+{
+    "attributes": {
+        "stre": 5,
+        "dex": 7,
+        "sta": 7,
+        "cha": 5,
+        "man": 5,
+        "app": 5,
+        "per": 3,
+        "inte": 5,
+        "wits": 3
+    },
+    "epic_attributes": {
+        "epic_stre": 3,
+        "epic_dex": 4,
+        "epic_sta": 3,
+        "epic_cha": 2,
+        "epic_man": 0,
+        "epic_app": 1,
+        "epic_per": 3,
+        "epic_int": 3,
+        "epic_wits": 1
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        1,
+        0,
+        1,
+        0
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Opening Gambit",
+            "description": [
+                "Sometimes, victory in con\ufb02ict is all about being the guy who makes the \ufb01rst move, and the Scion is usually that guy. When he joins battle, his player can either make a Join Battle roll like everyone else, or he can simply spend a point of Legend for his character to automatically go \ufb01rst in the reaction count. This Knack cannot automatically preempt an otherwise unexpected attack, though, as the character must actually be able to join battle for this Knack to function. If more than one character involved in a combat scene has this Knack, the character with the highest (Wits + Epic Wits) total goes \ufb01rst. If characters with this Knack have equal totals, default to a separate Join Battle roll to see which of them acts \ufb01rst.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Tactical Planning",
+            "description": [
+                "Usually, personal combat relies heavily on quick thinking and razor-sharp timing. A Scion with the Tactical Planning Knack, though, thinks three moves ahead of everyone else on the battlefield. With her excellent command of the battle situation and her prepared contingency plans, she\u2019s able to react by using a previously-developed script instead of falling back on reflexes. As long as she isn\u2019t surprised, the Scion can choose to substitute her Intelligence score (including Epic Intelligence) for her Wits when making Join Battle rolls."
+            ],
+            "tables": []
+        },
+        {
+            "title": "Adaptive Fighting",
+            "description": [
+                "By registering how an opponent defends, the Scion gains insight into how to launch a successful attack. The Scion\u2019s Epic Wits allow him to adjust his offense immediately after failing to touch an enemy. After missing an opponent with an attack, the Scion\u2019s player spends one point of Legend. On the Scion\u2019s next attack against that same opponent, the player adds his character\u2019s Epic Wits as extra dice on the attack roll, to a maximum of +3. For demigods, the player may spend two points of Legend to increase the bonus to a maximum of +6, and for Gods, the player may spend three points of Legend to increase the bonus to the character\u2019s full Epic Wits rating with no maximum. If this attack misses or if the Scion chooses not to attack again, then the bonus is lost.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Speed Reader",
+            "description": [
+                "The character can read and comprehend with perfect clarity an entire block of text\u2014such as two facing pages of an open book\u2014in the amount of time it takes her to blink. She need only be able to see the entire block clearly enough to focus her eyes on any given word in it.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Social Chameleon",
+            "description": [
+                "Being thrust into a situation full of strangers who have bizarre customs and weird manners (such as a sorority house at the height of rush) can be disorienting, but the character with this Knack handles herself with remarkable aplomb. By observing the behavior of the people around her and reacting preternaturally quickly to their reactions to her behavior, she can fake like she \ufb01ts in just about anywhere, with any class of people. She still has to dress the part, and the language barrier might pose its own problems, but she won\u2019t embarrass or draw attention to herself unless she goes out of her way to do so on purpose.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Telepathy",
+            "description": [
+                "The character\u2019s mind is so powerful that he can think thoughts directly into other people\u2019s brains for them. These thoughts come through in a recipient\u2019s head as words spoken in the sender\u2019s voice, and are recognizable as coming in from outside. The sender must be able to see the person whom he intends to address thus, and he must spend one Legend point per sent thought (i.e., per sentence). If the sender has the Multitasking Knack (from Scion: Demigod, p. 65), he can send the same thought to several people at once. The sender cannot receive telepathic information from a recipient unless the recipient also has Telepathy and spends the Legend point to use it.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Escape Artist",
+            "description": [
+                "The Scion can somehow slip out of the tightest bonds, the most cunning snares and even her opponents\u2019 very \ufb01ngers. Whether she\u2019s tied up and left to stew in her own juices or she\u2019s wrapped in a clinch with a snarling berserker, she rarely remains bound for long. When someone attacks her character with a successful clinch, the Scion\u2019s player not only adds her Epic Dexterity automatic successes to her contested (Dexterity + Brawl) to escape, but she also adds an additional automatic success for every dot of Epic Dexterity her character has. Should the Scion victim\u2019s player succeed on this resistance roll, the Scion slips free of her opponent\u2019s grasping limbs and well out of his reach. Also, should a character be physically restrained\u2014tied up, handcuffed, strapped down, whatever\u2014she can slip her bonds with a divine grace that is nothing short of baf\ufb02ing. The player need only spend a point of Legend, and her character\u2019s handcuffs come undone, her straightjacket\u2019s buckles come loose, or her ropes slough off like a snake\u2019s dried-out skin. The Scion can\u2019t escape thus in view of witnesses, however, unless said witnesses are members of her own heroic Band or are Fatebound to her. Remote witnesses watching via camera transmission don\u2019t hinder the effect, but even close scrutiny of such footage doesn\u2019t reveal how the Scion escaped her bonds. She just did.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Well-Read Virgin",
+            "description": [
+                "Prerequisite Knack: Know-It-All (Scion: Hero, p. 135) The character has such a wealth of knowledge that even if she has never performed a particular activity, she can still discuss it or research it like an expert. As such, the player can apply the character\u2019s Epic Intelligence bonus dice to any Intelligence-based roll required to glean information, regardless of whether the character has any dots in the Ability in question. For instance, identifying what martial arts style someone is using would require an (Intelligence + Brawl) roll. With this Knack, a character with no dots in Brawl could handily identify the style, the particular variant of it the student is using and who the student\u2019s teacher most likely was. This Knack works only for rolls intended to dredge up information.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Sky's Grace",
+            "Dice Pool: None \nCost: 1 Legend \nBy spending a point of Legend, the Scion takes no damage from falls of any height. Alternatively, the Scion can use that point to double the distance he can jump either straight up or horizontally. If the Scion has the Holy Bound Knack\u2014as well as this Boon, the base distance he can leap doubles, then doubles again if the player spends a point of Legend."
+        ],
+        [
+            "Weather Witch",
+            "Dice Pool: Intelligence + Science \nCost: 1 Legend \nBy tasting the wind, putting a finger up in the air or testing the feel of her joints, the Scion gains the ability to predict the vagaries of natural weather. Her prediction is good up to a number of days in advance equal to the successes scored by her player on the initial (Intelligence + Science) roll. This doesn\u2019t account for changes introduced by more powerful uses of the Sky Purview or by Titans and titanspawn."
+        ],
+        [
+            "Wind's Freedom",
+            "Dice Pool: None \nCost: 1 Legend + 1 Willpower per scene \nThe Scion laughs in the face of gravity. For the rest of the scene, the distances the Scion can move or dash per action remain normal, but they now apply to the Z-axis as well as the X- and Y-axes. All the normal rules for movement remain in place, except that the character can now move freely through all three dimensions (i.e., he can fly). He can even hold still in midair if he wants to. The only thing a character can\u2019t do in midair that he could do on the ground is jump, as there\u2019s nothing to jump off of."
+        ],
+        [
+            "Storm Augmentation",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend per attack \nFor a number of actions equal to the successes the player rolled to activate the Boon, jagged threads of lightning coil around the Scion\u2019s fists or weapon, or skirling winds sweep around him as he moves. On any successful attack he makes in the subsequent duration, he may spend a point of Legend to make thunder crash or winds gust violently. Doing so automatically doubles any knockback the attack applies. Furthermore, if the attack inflicts even one level of damage, have the victim\u2019s player roll (Stamina + Fortitude) against a difficulty equal to (raw damage \u2013 victim\u2019s Legend). The minimum difficulty for this roll is 1. If the victim\u2019s player fails this roll, the victim is stunned, losing two dice from all non-reflexive rolls until the attacker\u2019s next action."
+        ],
+        [
+            "Wind's Freedom",
+            "Dice Pool: None \nCost: 1 Legend + 1 Willpower per scene \nThe Scion laughs in the face of gravity. For the rest of the scene, the distances the Scion can move or dash per action remain normal, but they now apply to the Z-axis as well as the X- and Y-axes. All the normal rules for movement remain in place, except that the character can now move freely through all three dimensions (i.e., he can fly). He can even hold still in midair if he wants to. The only thing a character can\u2019t do in midair that he could do on the ground is jump, as there\u2019s nothing to jump off of."
+        ],
+        [
+            "Sky's Grace",
+            "Dice Pool: None \nCost: 1 Legend \nBy spending a point of Legend, the Scion takes no damage from falls of any height. Alternatively, the Scion can use that point to double the distance he can jump either straight up or horizontally. If the Scion has the Holy Bound Knack\u2014as well as this Boon, the base distance he can leap doubles, then doubles again if the player spends a point of Legend."
+        ],
+        [
+            "Wind's Freedom",
+            "Dice Pool: None \nCost: 1 Legend + 1 Willpower per scene \nThe Scion laughs in the face of gravity. For the rest of the scene, the distances the Scion can move or dash per action remain normal, but they now apply to the Z-axis as well as the X- and Y-axes. All the normal rules for movement remain in place, except that the character can now move freely through all three dimensions (i.e., he can fly). He can even hold still in midair if he wants to. The only thing a character can\u2019t do in midair that he could do on the ground is jump, as there\u2019s nothing to jump off of."
+        ],
+        [
+            "Storm Augmentation",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend per attack \nFor a number of actions equal to the successes the player rolled to activate the Boon, jagged threads of lightning coil around the Scion\u2019s fists or weapon, or skirling winds sweep around him as he moves. On any successful attack he makes in the subsequent duration, he may spend a point of Legend to make thunder crash or winds gust violently. Doing so automatically doubles any knockback the attack applies. Furthermore, if the attack inflicts even one level of damage, have the victim\u2019s player roll (Stamina + Fortitude) against a difficulty equal to (raw damage \u2013 victim\u2019s Legend). The minimum difficulty for this roll is 1. If the victim\u2019s player fails this roll, the victim is stunned, losing two dice from all non-reflexive rolls until the attacker\u2019s next action."
+        ],
+        [
+            "Storm Augmentation",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend per attack \nFor a number of actions equal to the successes the player rolled to activate the Boon, jagged threads of lightning coil around the Scion\u2019s fists or weapon, or skirling winds sweep around him as he moves. On any successful attack he makes in the subsequent duration, he may spend a point of Legend to make thunder crash or winds gust violently. Doing so automatically doubles any knockback the attack applies. Furthermore, if the attack inflicts even one level of damage, have the victim\u2019s player roll (Stamina + Fortitude) against a difficulty equal to (raw damage \u2013 victim\u2019s Legend). The minimum difficulty for this roll is 1. If the victim\u2019s player fails this roll, the victim is stunned, losing two dice from all non-reflexive rolls until the attacker\u2019s next action."
+        ],
+        [
+            "Weather Witch",
+            "Dice Pool: Intelligence + Science \nCost: 1 Legend \nBy tasting the wind, putting a finger up in the air or testing the feel of her joints, the Scion gains the ability to predict the vagaries of natural weather. Her prediction is good up to a number of days in advance equal to the successes scored by her player on the initial (Intelligence + Science) roll. This doesn\u2019t account for changes introduced by more powerful uses of the Sky Purview or by Titans and titanspawn."
+        ],
+        [
+            "Wind's Freedom",
+            "Dice Pool: None \nCost: 1 Legend + 1 Willpower per scene \nThe Scion laughs in the face of gravity. For the rest of the scene, the distances the Scion can move or dash per action remain normal, but they now apply to the Z-axis as well as the X- and Y-axes. All the normal rules for movement remain in place, except that the character can now move freely through all three dimensions (i.e., he can fly). He can even hold still in midair if he wants to. The only thing a character can\u2019t do in midair that he could do on the ground is jump, as there\u2019s nothing to jump off of."
+        ]
+    ],
+    "nature": "Libertine",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 20,
+        "move": 14,
+        "climb": 9,
+        "jump": {
+            "horizontal": 20,
+            "vertical": 10
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 16,
+        "parry_dv": 13
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 2,
+        "animal_ken": 2,
+        "art": 3,
+        "athletics": 1,
+        "awareness": 2,
+        "brawl": 0,
+        "command": 3,
+        "control": 2,
+        "craft": 1,
+        "empathy": 3,
+        "fortitude": 3,
+        "integrity": 0,
+        "investigation": 3,
+        "larceny": 0,
+        "marksmanship": 1,
+        "medicine": 1,
+        "melee": 2,
+        "occult": 3,
+        "presence": 0,
+        "politics": 0,
+        "science": 3,
+        "stealth": 3,
+        "survival": 0,
+        "thrown": 0
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 11,
+        "lethal": 9.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 4,
+    "god": "Kuros",
+    "pantheon": "Atlantean",
+    "name": "Viola Longobardi"
+}

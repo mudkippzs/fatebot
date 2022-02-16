@@ -1,0 +1,332 @@
+{
+    "attributes": {
+        "stre": 7,
+        "dex": 9,
+        "sta": 7,
+        "cha": 7,
+        "man": 9,
+        "app": 9,
+        "per": 5,
+        "inte": 7,
+        "wits": 3
+    },
+    "epic_attributes": {
+        "epic_stre": 6,
+        "epic_dex": 3,
+        "epic_sta": 2,
+        "epic_cha": 3,
+        "epic_man": 3,
+        "epic_app": 3,
+        "epic_per": 5,
+        "epic_int": 4,
+        "epic_wits": 7
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        2,
+        1,
+        1,
+        0
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Blessing of Importance",
+            "description": [
+                "The Scion is especially good at winning people over by making them feel special and wanted. By spending a point of Legend and either sticking up for a person, calling out to him in a crowd or just giving him a secret smile, the Scion re\ufb01lls the person\u2019s spent Willpower points for the scene. The Scion need not necessarily believe that the person is important or special herself. This Knack works very well on mortals, but it\u2019s less effective on Scions, who are usually wise to their charismatic peers\u2019 ways. For Scion recipients, the Knack re\ufb01lls only one point of Willpower per dot of Epic Charisma the Scion with this Knack has. A character can receive this Willpower boost only once per scene from the same Scion.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Charmer",
+            "description": [
+                "With the sheer, raw charm this Knack represents, the Scion can smother an upwelling of panic, suspicion or utter hatred directed at her for one scene. The player need only spend a point of Legend. One scene is usually long enough to convince a person that it would be in his best interest to help the character, but it\u2019s up to the Scion (and the player\u2019s roleplaying) to actually say the right words. During the scene in which this Knack is in effect, the suppressed emotion doesn\u2019t go away. It merely remains beneath the surface. If the Scion can\u2019t set the person\u2019s mind at ease by scene\u2019s end, the suppressed emotion returns in full force the next time the Scion leaves the affected person\u2019s presence.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Engender Love",
+            "description": [
+                "Prerequisite Knack: Charmer (Scion: Hero, p. 130) Being able to charm someone is always helpful, but it doesn\u2019t always make getting what you want from that person easy. A charmed person can still think clearly, question one\u2019s motives and turn someone down if something about what she\u2019s saying doesn\u2019t feel quite right. Not so the person affected by this Knack. The character who uses it spends one Legend point as his player rolls (Charisma + Presence + Legend). The victim\u2019s player contests this effect with a (Willpower + Integrity + Legend) roll. If the victim\u2019s roll fails to garner the necessary successes, the victim falls madly, unquestioningly in love with the user of the Knack for a number of days equal to the user\u2019s threshold successes. The victim is blindly enthralled and will do anything in her power to please the object of her affection. This Knack works regardless of the relative Legend disparity between the user and his victim. Using it unwisely against a more powerful character is ill advised, however. Fool Odin once, shame on him. Fool him twice, wolves on you.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Armor Crusher",
+            "description": [
+                "Prerequisite Knack: Holy Rampage (Scion: Hero, p. 126) The raw power of the Scion\u2019s attacks now allows him not only to break through obstacles and walls, but to slam right through armor. The Scion simply channels his legendary might, then uses brute force to shatter enemy defenses and tear through shields, armored plates and vests with ease. While this Knack is active, the Scion\u2019s melee attacks all gain the Piercing quality. Activating this Knack costs five points of Legend. Its effects last for one scene.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Divine Figurehead",
+            "description": [
+                "Prerequisite Knack: Pied Piper (Scion: Demigod, pp. 59-60) As with the prerequisite, this Knack allows the user to define herself as \u201cwhere the party is at\u201d and have people flock to her. Where the prerequisite works only on mortals, however, this Knack affects heroic Scions and demigods, as well as other creatures of comparable Legend levels. The character spends one Legend and one Willpower. Mortal characters cannot resist this effect, and legendary characters of lesser Legend receive only a standard (Willpower + Integrity + Legend) roll with a difficulty equal to the user\u2019s (Legend + Epic Charisma).",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Divine Rampage",
+            "description": [
+                "Prerequisite Knack: Holy Rampage (Scion: Hero, p. 126) When a demigod with this Knack wants to break something, that thing is not long for this world. Like Holy Rampage, this Knack aids in the character\u2019s attempt to destroy an inanimate object. If the target object is not under his control \u2014 such as a weapon or armor that someone else happens to be using \u2014 its Hardness and soak are considered to be halved when the Scion attempts to break it. If the target object is freestanding or under the Scion\u2019s control, the object\u2019s Hardness and soak are considered to be 0 against the Scion\u2019s attack. Using this Knack costs one Legend point per action.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Hapless Cool",
+            "description": [
+                "The character spends a Legend point, and for the rest of the scene, she\u2019s just cool. Nobody can explain it; there\u2019s just something about either what she did or the way she did it that made her look cool. Okay, sure, the salt she threw over her shoulder hit Papa Legba\u2019s dog in the eyes, but the comedic timing was just so perfect. Yeah, granted, she laughed so hard when Hel asked if she wanted any half-and-half in her coffee that scrambled eggs came out her nose, but she owned it. No matter what a character with this Knack active does, says or allows to happen that makes a fool out of herself, anyone who sees her thinks she\u2019s cool anyway."
+            ],
+            "tables": []
+        },
+        {
+            "title": "Unimpeachable Reference",
+            "description": [
+                "With this Knack, the demigod can actually lend someone else a portion of his credibility and authority. When the player spends a point of Legend and the character either vouches for or lends a recognizable token to someone to act on his behalf, he confers on that person the effects of the Bene\ufb01t of the Doubt Knack (from Scion: Hero, p. 130). This halo of credibility affects even those people who do not know the demigod personally. It is still up to the character who receives the effect to convince the person he\u2019s speaking to that he\u2019s on the level, but this Knack makes getting over the initial hurdle of suspicion and disbelief much easier.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Never Say Die",
+            "description": [
+                "Not every Scion can knock down foes like bowling pins and scatter titanspawn body parts in her wake. Yet some are just so full of optimistic joie de vivre, even when they take a beating for some spectacular failure, that you just can\u2019t help but love them. A Scion might be accident- prone or have an infuriating talent for picking \ufb01ghts with titanspawn that are out of her league, but she takes her lumps with a smile and inspires her fellows with her can-do attitude. All she has to do is \ufb02ash a thumbs-up, holler an \u201cI\u2019m okay!\u201d or show a smile full of dangling teeth. When she does, all the Scions in her Band who can see her gain one Willpower point per health level the character has suffered (i.e., however many are marked on her character sheet at that moment). The character can inspire her fellows thus only once per scene, but she can do so even if she\u2019s knocked to Incapacitated or killed\u2014after which, she collapses.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Star Chamber",
+            "Dice Pool: Charisma + Politics \nCost: 3 Legend, +1 Legend per Legend dot of the target \nCrying out for justice, the Scion calls out to Fate to balance the universal scales. The subject\u2019s Fate becomes twisted by the demands of justice, and Fate conspires to see that the target is punished for the sins that it commits."
+        ],
+        [
+            "Team",
+            "Dice Pool: Intelligence + Control \nCost: 1 Willpower + 5 Legend \nThe Scion can now use Horse (Cheval 3) on multiple mortal victims simultaneously. The Scion need not be using Rada\u2019s Eyes (Cheval 1) first in order to use this Boon, but all of the victims must be in the Scion\u2019s line of sight when she activates it. The player makes one activation roll and compares the results to the (Willpower + Integrity + Legend) rolls of all the victims. Any victim her roll beats becomes a spirit horse for her, up to a maximum number equal to her Legend. She can maintain this multiple possession for one scene, and her real body slumps insensate as per Horse."
+        ],
+        [
+            "Guilt of the Damned",
+            "Dice Pool: Perception + Empathy \nCost: 1 Legend \nThe Scion calls out one of the failings of a foe while striking him, and then spends the requisite Legend point. If the subject has a lower Legend score than the attacking Scion, the power functions automatically; otherwise, the player rolls (Perception + Empathy) against the opponent\u2019s (Willpower + Integrity + Legend). If the power succeeds, the enemy becomes wracked with guilt at its lack of integrity and questions its ability to uphold the high standards of Virtue that it considers important. (A titanspawn might instead become uncertain of its ability to wreak havoc and lose confidence in its ability to overcome the Scion)."
+        ],
+        [
+            "Dream Wrack",
+            "Dice Pool: Intelligence + Empathy \nCost: 1 Willpower \nThe Scion gains the ability to plague a victim with torturous dreams of a recent crime and its aftermath. She stares into her target\u2019s eyes for a single action then names the victim, names the crime and says something to the effect of, \u201cNow see how you like it\u201d\u2014except more dramatically eloquent than that. When the perpetrator next sleeps, he dreams of the wrongdoing the Scion named and suffers through exactly what the victim of that crime suffered through, experiencing everything from the victim\u2019s perspective."
+        ],
+        [
+            "Weather Witch",
+            "Dice Pool: Intelligence + Science \nCost: 1 Legend \nBy tasting the wind, putting a finger up in the air or testing the feel of her joints, the Scion gains the ability to predict the vagaries of natural weather. Her prediction is good up to a number of days in advance equal to the successes scored by her player on the initial (Intelligence + Science) roll. This doesn\u2019t account for changes introduced by more powerful uses of the Sky Purview or by Titans and titanspawn."
+        ],
+        [
+            "Sky's Grace",
+            "Dice Pool: None \nCost: 1 Legend \nBy spending a point of Legend, the Scion takes no damage from falls of any height. Alternatively, the Scion can use that point to double the distance he can jump either straight up or horizontally. If the Scion has the Holy Bound Knack\u2014as well as this Boon, the base distance he can leap doubles, then doubles again if the player spends a point of Legend."
+        ],
+        [
+            "Team",
+            "Dice Pool: Intelligence + Control \nCost: 1 Willpower + 5 Legend \nThe Scion can now use Horse (Cheval 3) on multiple mortal victims simultaneously. The Scion need not be using Rada\u2019s Eyes (Cheval 1) first in order to use this Boon, but all of the victims must be in the Scion\u2019s line of sight when she activates it. The player makes one activation roll and compares the results to the (Willpower + Integrity + Legend) rolls of all the victims. Any victim her roll beats becomes a spirit horse for her, up to a maximum number equal to her Legend. She can maintain this multiple possession for one scene, and her real body slumps insensate as per Horse."
+        ],
+        [
+            "Dream Wrack",
+            "Dice Pool: Intelligence + Empathy \nCost: 1 Willpower \nThe Scion gains the ability to plague a victim with torturous dreams of a recent crime and its aftermath. She stares into her target\u2019s eyes for a single action then names the victim, names the crime and says something to the effect of, \u201cNow see how you like it\u201d\u2014except more dramatically eloquent than that. When the perpetrator next sleeps, he dreams of the wrongdoing the Scion named and suffers through exactly what the victim of that crime suffered through, experiencing everything from the victim\u2019s perspective."
+        ],
+        [
+            "Petro's Hands",
+            "Dice Pool: Intelligence + Control \nCost: 1 Willpower \nThe Scion can now exert some control over a victim whose senses she\u2019s observing. The Scion must be actively experiencing her victim\u2019s perceptions with Rada\u2019s Eyes, and her player must spend a Willpower point to activate this Boon. If the Voodoo Scion\u2019s victim is a mortal or a Scion with fewer dots of Legend than she has, activating this Boon takes only that Willpower expenditure. If the Scion victim has an equal number of Legend dots, the Voodoo Scion\u2019s player must also succeed in a contested roll of her (Intelligence + Control) against the victim\u2019s (Willpower + Integrity + Legend)."
+        ],
+        [
+            "Cloud Sculptor",
+            "Dice Pool: Dexterity + Art \nCost: 1 Legend \nThe Scion with this Boon is an artist with all of the sky as his canvas. If he can see clouds in the sky from his current vantage, he can shape and sculpt them with the motions of his hands. Many such artists prefer to sculpt clouds while looking through a window, as the glass pane gives them something solid to bear down on and trace out their sky designs. The Scion can\u2019t add or erase clouds, but he can stretch thick clouds thin or compress many wispy clouds into one large, billowy mass."
+        ],
+        [
+            "Waking Zombie",
+            "Dice Pool: Manipulation + Cheval \nCost: 1 Willpower \nWhen the Scion has a mortal victim completely under her control, she can temporarily pull the victim\u2019s spirit out of his body and boss the body around as her mindless slave. The Scion must somehow incapacitate the victim\u2014by tying him up, drugging him, beating him unconscious or whatever\u2014then cover the victim\u2019s mouth with her own and take a long, deep breath. The victim\u2019s player then rolls (Willpower + Integrity + Legend) against the activation roll. If the activation roll wins, the Scion sucks out the victim\u2019s spirit and swallows it down into the darkness within her. Once that happens, the victim maintains a dreamlike semi-awareness of what the Scion is doing, just as a victim of Horse (Cheval 3) does, but he can\u2019t take any actions or exert his own will in any way."
+        ],
+        [
+            "Team",
+            "Dice Pool: Intelligence + Control \nCost: 1 Willpower + 5 Legend \nThe Scion can now use Horse (Cheval 3) on multiple mortal victims simultaneously. The Scion need not be using Rada\u2019s Eyes (Cheval 1) first in order to use this Boon, but all of the victims must be in the Scion\u2019s line of sight when she activates it. The player makes one activation roll and compares the results to the (Willpower + Integrity + Legend) rolls of all the victims. Any victim her roll beats becomes a spirit horse for her, up to a maximum number equal to her Legend. She can maintain this multiple possession for one scene, and her real body slumps insensate as per Horse."
+        ],
+        [
+            "Weather Witch",
+            "Dice Pool: Intelligence + Science \nCost: 1 Legend \nBy tasting the wind, putting a finger up in the air or testing the feel of her joints, the Scion gains the ability to predict the vagaries of natural weather. Her prediction is good up to a number of days in advance equal to the successes scored by her player on the initial (Intelligence + Science) roll. This doesn\u2019t account for changes introduced by more powerful uses of the Sky Purview or by Titans and titanspawn."
+        ],
+        [
+            "Wind's Freedom",
+            "Dice Pool: None \nCost: 1 Legend + 1 Willpower per scene \nThe Scion laughs in the face of gravity. For the rest of the scene, the distances the Scion can move or dash per action remain normal, but they now apply to the Z-axis as well as the X- and Y-axes. All the normal rules for movement remain in place, except that the character can now move freely through all three dimensions (i.e., he can fly). He can even hold still in midair if he wants to. The only thing a character can\u2019t do in midair that he could do on the ground is jump, as there\u2019s nothing to jump off of."
+        ],
+        [
+            "Rada's Eyes",
+            "Dice Pool: Perception + Empathy \nCost: 1 Legend \nThe Scion can experience another person\u2019s perceptions as if they were her own. These perceptions include input from all five senses, though not the character\u2019s subjective reactions to that input. To use this Boon, the Scion must have a picture of her victim, some genetic token of the victim\u2019s (such as a lock of hair or several drops of blood) or something the victim created (from a printed-out email to an ice sculpture). By meditating on the item and relaxing her own perceptions\u2014as well as spending a point of Legend after a successful (Perception + Empathy) roll on the part of her player\u2014the Scion experiences the victim\u2019s perceptions clearly and distinctly. The victim is unaware of the Scion\u2019s attention, but the Scion remains semi-aware of her own surroundings."
+        ],
+        [
+            "Judgment",
+            "Dice Pool: Perception + Empathy \nCost: None \nThis Boon aids a Scion immensely in determining guilt, one of the foundations of meting out justice. When she confronts someone she suspects committed an injustice and accuses that person of having done so, her player rolls (Perception + Empathy). (This roll isn\u2019t modified by supernatural powers or contested by the suspect\u2019s player.) On a success, the Scion can intuitively tell whether the suspect is guilty as charged. A failure yields an indeterminate reading and means that the Scion can\u2019t try to determine the same subject\u2019s guilt for 24 hours. A botch yields a false reading."
+        ],
+        [
+            "Wind's Freedom",
+            "Dice Pool: None \nCost: 1 Legend + 1 Willpower per scene \nThe Scion laughs in the face of gravity. For the rest of the scene, the distances the Scion can move or dash per action remain normal, but they now apply to the Z-axis as well as the X- and Y-axes. All the normal rules for movement remain in place, except that the character can now move freely through all three dimensions (i.e., he can fly). He can even hold still in midair if he wants to. The only thing a character can\u2019t do in midair that he could do on the ground is jump, as there\u2019s nothing to jump off of."
+        ],
+        [
+            "Waking Zombie",
+            "Dice Pool: Manipulation + Cheval \nCost: 1 Willpower \nWhen the Scion has a mortal victim completely under her control, she can temporarily pull the victim\u2019s spirit out of his body and boss the body around as her mindless slave. The Scion must somehow incapacitate the victim\u2014by tying him up, drugging him, beating him unconscious or whatever\u2014then cover the victim\u2019s mouth with her own and take a long, deep breath. The victim\u2019s player then rolls (Willpower + Integrity + Legend) against the activation roll. If the activation roll wins, the Scion sucks out the victim\u2019s spirit and swallows it down into the darkness within her. Once that happens, the victim maintains a dreamlike semi-awareness of what the Scion is doing, just as a victim of Horse (Cheval 3) does, but he can\u2019t take any actions or exert his own will in any way."
+        ],
+        [
+            "Team",
+            "Dice Pool: Intelligence + Control \nCost: 1 Willpower + 5 Legend \nThe Scion can now use Horse (Cheval 3) on multiple mortal victims simultaneously. The Scion need not be using Rada\u2019s Eyes (Cheval 1) first in order to use this Boon, but all of the victims must be in the Scion\u2019s line of sight when she activates it. The player makes one activation roll and compares the results to the (Willpower + Integrity + Legend) rolls of all the victims. Any victim her roll beats becomes a spirit horse for her, up to a maximum number equal to her Legend. She can maintain this multiple possession for one scene, and her real body slumps insensate as per Horse."
+        ]
+    ],
+    "nature": "Cynic",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 19,
+        "move": 13,
+        "climb": 23,
+        "jump": {
+            "horizontal": 50,
+            "vertical": 25
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 22,
+        "parry_dv": 14
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 3,
+        "animal_ken": 0,
+        "art": 3,
+        "athletics": 2,
+        "awareness": 1,
+        "brawl": 3,
+        "command": 2,
+        "control": 0,
+        "craft": 2,
+        "empathy": 1,
+        "fortitude": 2,
+        "integrity": 3,
+        "investigation": 2,
+        "larceny": 1,
+        "marksmanship": 2,
+        "medicine": 1,
+        "melee": 3,
+        "occult": 1,
+        "presence": 3,
+        "politics": 2,
+        "science": 2,
+        "stealth": 2,
+        "survival": 2,
+        "thrown": 3
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 9,
+        "lethal": 6.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 9,
+    "god": "Shango",
+    "pantheon": "Loa",
+    "name": "Jamel Blanchard"
+}

@@ -1,0 +1,428 @@
+{
+    "attributes": {
+        "stre": 9,
+        "dex": 11,
+        "sta": 11,
+        "cha": 9,
+        "man": 11,
+        "app": 7,
+        "per": 7,
+        "inte": 11,
+        "wits": 5
+    },
+    "epic_attributes": {
+        "epic_stre": 6,
+        "epic_dex": 6,
+        "epic_sta": 7,
+        "epic_cha": 4,
+        "epic_man": 2,
+        "epic_app": 7,
+        "epic_per": 3,
+        "epic_int": 6,
+        "epic_wits": 8
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Divine Bound",
+            "description": [
+                "Prerequisite Knack: Holy Bound (Scion: Hero, p. 126) A character with this Knack cannot necessarily fly, but the difference between using this Knack and flying is a subtlety that is easily lost on mortal onlookers. For the cost of 10 Legend points, this Knack converts the distance increment a character can jump from yards to hundreds of yards. That is, the character can leap the distance of one football field straight up for every dot of (Strength + Athletics) she has plus the bonus number granted by her Epic Strength. She can jump twice that length horizontally. At Strength 12, Athletics 5 and Epic Strength 10 (plus accounting for this Knack\u2019s prerequisite), the character can leap a little bit more than seven miles straight up \u2014 which is about one and a half miles higher than the peak of Mount Everest \u2014 or more than 14 miles horizontally. Used in combat, this Knack makes jumping something more than a Speed 5 miscellaneous action. When a character takes a leap that can potentially carry her for miles, that action is typically narrated rather than played out tick by tick. If no one can fly after her, leap after her or run fast enough to keep up with her, the character effectively leaves combat. In \u201cflight,\u201d the character retains her full DVs and attack dice pools. This Knack also makes jumping more dangerous than it normally is. Normally, a character can always safely fall from the maximum height to which she can normally jump. This Knack, however, overrides that safety standard by extending a person\u2019s jumping height to preposterous extremes. If a character who uses this Knack to leap aeronautically is successfully attacked in flight and that attack inflicts enough damage to cause knockdown or knockback, the character\u2019s prodigious leap turns into an uncontrolled fall. The player gets one chance per dot of Epic Strength the character has to succeed on a (Dexterity + Athletics) roll. If she does succeed, the character retains her aerial poise and lands, if not gracefully, at least safely. If the roll fails, the character suffers damage relevant to falling from a great height.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Shock Wave",
+            "description": [
+                "The Scion is so strong that he can direct his incredible power through the ground or \ufb02oor to affect enemies at range. Doing so takes two separate forms. First, the character can stomp or strike the ground with his \ufb01sts or a weapon, which sends a shock wave outward from him along the ground across an area with a radius equal to his Epic Strength in yards. Striking the ground thus to send out the shock wave requires a Strength roll, which receives the bene\ufb01t of his Epic Strength. Potential victims \u2014 friend and foe alike \u2014 compare their Dodge DV to the results of this roll. If their DV overcomes the Scion\u2019s successes, they manage to jump and let the shock wave pass beneath them. If their DV isn\u2019t high enough, they immediately suffer knockdown as well as an amount of bashing damage equal to however many of the Scion\u2019s successes their DV couldn\u2019t cancel out. (If his allies know the Scion is about to use this Knack \u2014 if his using it is part of a coordinated assault, for instance \u2014 they can jump out of the way preemptively without having to rely on their DVs.) This attack in\ufb02icts no damage on the \ufb02oor or the ground the Scion strikes. All the energy is expended into the shock wave. The second form this power takes is more selective and deliberate. As with the \ufb01rst form, the Scion strikes the ground and sends a shock wave along the surface out to a distance equal to his Epic Strength in yards. This time, though, his player makes a standard Dexterity-based attack roll and targets a single opponent. If that opponent\u2019s Dodge DV isn\u2019t high enough to get him out of the way of the attack, the Scion\u2019s player then makes a Strength roll, modi\ufb01ed by his Epic Strength but not modi\ufb01ed by his extra successes on the attack roll. The damage this attack in\ufb02icts is bashing, but it has one other effect that renders the victim almost helpless for a moment afterward. Any successes on the Strength roll that exceed the victim\u2019s soak not only in\ufb02ict damage but also hurl the victim straight up in the air (one yard per unsoaked success). The victim\u2019s rise and fall takes six ticks, during which his DVs are considered to be halved. He can make ranged attacks at a -5 penalty, but he can\u2019t move or jump or do much of anything until he lands again. In fact, if the Scion\u2019s attack sends him high enough in the air, the victim might take damage from crashing back down from so great a height. Using either form of this Knack requires the expenditure of one Legend point.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Holy Bound",
+            "description": [
+                "Only characters whose Boons include the Sky Purview have more freedom to \ufb02aunt the laws of physics. Simply having Epic Strength enables a Scion to perform prodigious leaps that leave mortals standing slack-jawed with wonder. For example, if a Scion has Strength 5, Athletics 3 and Epic Strength 3, she can jump 12 yards straight up or 24 yards forward. (See \u201cMovement\u201d on p. 180\\.) This Knack, however, doubles a Scion\u2019s vertical and horizontal jumping distances. With it, the aforementioned character could leap an amazing 24 yards straight up (from the ground to a seventh-story balcony, for instance) or 48 yards forward in a single bound.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Knockback Attack",
+            "description": [
+                "The Scion is able to perform an attack that in\ufb02icts no damage whatsoever but sends his enemies \ufb02ying back. On a successful attack, the Scion can choose for the attack to in\ufb02ict damage and knockback normally (see Scion: Hero, p. 198), or he can choose for the attack to in\ufb02ict no harm but to impose one yard of knockback per threshold success above the defender\u2019s DV instead. (Doing so costs one Willpower point.) Hardness can still cancel out this effect if it is greater than the attack\u2019s raw damage.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Stench of Guilt",
+            "description": [
+                "This Knack gives a Scion an insight into the workings of a victim\u2019s mind. If the Scion hears a topic come up while the victim is speaking that reminds the victim of a misdeed he\u2019s keeping secret, the Scion senses the presence of that secret. The victim needn\u2019t feel guilty about the wrongs he\u2019s done, but as long as he\u2019s taken, or is taking, pains to hide them, the Scion catches on. This Knack can\u2019t reveal what secret the victim hides, nor does it point out speci\ufb01cally what was said in the conversation that reminded him of the transgression. Conversational context is usually enough for a crafty Scion to \ufb01gure out where to start looking, though.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Divine Wrath",
+            "description": [
+                "Prerequisite Knack: Crushing Grip (Scion: Hero, p. 126) A Scion with the demigod range of Epic Strength already needs no weapons to in\ufb02ict serious damage in combat, but a Scion with this Knack is even more fearsome. The prerequisite Knack enables him to in\ufb02ict lethal damage during a clinch that he controls, and this Knack builds on that to awful effect. If the Scion spends a point of Legend during a clinch, he can make a single attack in\ufb02ict aggravated damage instead of lethal. What\u2019s more, his normal unarmed combat attacks now in\ufb02ict lethal damage instead of bashing damage. Keep in mind that that lethal damage is now the standard damage he in\ufb02icts unarmed, regardless of whether he spends the point of Legend to make a single clinch\u2019s damage aggravated. The Scion can pull his punches and in\ufb02ict only bashing damage if he wants to, but doing so incurs the \u201cFlat of the Blade\u201d rule from page 199 of Scion: Hero.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Gods\u2019 Honest",
+            "description": [
+                "When she\u2019s trying to convince someone of something, the Scion puts her hand to her heart, puts her hand on a stack of Bibles, holds up her right hand with her pinkie and thumb crossed in the palm, or performs some other gesture of sincerity. (Her player also spends a point of Legend.) When she does so, her would-be mark accepts that the Scion is telling the truth about the subject at hand, no questions asked, for the rest of the story. Only solid, incontrovertible proof showing that what the Scion said was undeniably false will convince the mark he\u2019s been fooled. Even then, who ever is showing him the proof will have to convince him that the proof is genuine and not some clever forgery. A Scion with this Knack doesn\u2019t have to lie when she uses it. She can also use it to convince a recalcitrant skeptic of the actual truth. If the Scion does so, no mortal force can convince that person that the Scion was lying (not even professionally faked \u201cproof\u201d to the contrary).",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Titanium Tools",
+            "description": [
+                "While Relics may be made of stern stuff, the usual off-the-shelf \u201cauthentic katana\u201d tends to fold like the cheap steel that it is when it connects with something under the force of Epic Strength. With this Knack, any tool or item that the Scion picks up benefits from the same bends and loopholes in the laws of physics that allow Epic Strength to defy both leverage and structural integrity. The Scion could use a wooden board to clobber a thug, or he could ram a flimsy iron fireplace poker right through a wall of concrete with the full force of his Epic Strength. In either case, the tool would remain reasonably intact (albeit with some cosmetic wear). Such guarantees are particularly handy when using an object of questionable strength to beat a titanspawn to death without destroying the item in question (such as a snow globe intended as a present). Note that Titanium Tools doesn\u2019t improve the Hardness or rigidity of an item. A cheap katana can still be snapped in half by an angry titanspawn that decides to target the blade. A limp spaghetti noodle is no better a weapon with this Knack than without. Titanium Tools simply allows the Scion to use objects that might be feasible as weapons under normal circumstances and subject them to the extraordinary effects of his Epic Strength without breaking them, for as long as he wields the object.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Knowing Glance",
+            "description": [
+                "Knowing that someone is keeping a damning secret can be quite an effective tool in getting him to do what you want. With this Knack, however, that knowledge is not only a tool, but a powerful weapon. When the Scion is aware that another character is keeping a dangerous secret\u2014whether he has uncovered it through investigation or has discovered its presence through the Stench of Guilt Knack (see Scion: Hero, p. 132)\u2014he need only make eye contact with the guilty party. As the Scion\u2019s player spends a point of Legend, the character with the secret suddenly realizes that someone else knows, and he loses all of his unspent Willpower points from his pool. The Scion can affect the same character thus only once per day, and the Knack has no effect if the victim is not actually hiding the secret the Scion thinks he is.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Kill the Messenger",
+            "description": [
+                "Prerequisite Knack: Blurt It Out (Scion: Hero, p. 131) This Knack is similar to the Epic Charisma Knack called Borrowed Credibility (pp. 67-68) in that it allows a character to exert her Epic Attribute remotely through an agent or emissary. Doing so costs three Legend points and the player rolls her character\u2019s Manipulation-based dice pool. She then confers on a single emissary the results of that roll, including any bonus successes from Epic Manipulation, and instructs that emissary to try to convince someone of something important on her behalf. When the emissary goes to the intended person and tries to do as the Scion said, he uses the Scion\u2019s Manipulation roll instead of that of his own social roll. If the character actually wants the emissary to achieve the goal she tells the emissary to achieve, her player can simply roll the appropriate Manipulation-based dice pool and let her result substitute for what would be the emissary\u2019s roll of the same dice pool. Unlike with Borrowed Credibility, though, the character with this Knack can seed an effect in the emissary that is quite different from the one the emissary is instructed to use. In neither case does the emissary\u2019s player make the Manipulation-based roll himself. He simply says the words and lets the results of the conferred roll have their desired effect on the listener. The listener believes, however, that his decision is based solely on the emissary\u2019s efforts and remains unaware of the manipulator\u2019s influence. Character\u2019s with this Knack can use it on any willing character of lesser Legend\u2014though the character need not know or understand a contrary hidden intent. It works on only a single target, to whom the emissary must specifically address his remarks.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Disfiguring Attack",
+            "description": [
+                "Prerequisite Knack: Divine Wrath (Scion: Demigod, pp. 53-54) Woe be unto any foe who lacks Epic Stamina yet faces a character who has this Knack. If a character has Disfiguring Attack, he can already inflict lethal damage unarmed and inflict aggravated damage in a clinch, thanks to its prerequisite. If he uses this Knack, he can inflict aggravated damage with an unarmed attack. Doing so costs five Legend points per attack and removes the character\u2019s Epic Strength bonus successes from the damage calculation. Regardless, a character without a significant aggravated soak from Epic Stamina or some other supernatural source is in for a world of divine hurt. Should a foe survive an attack from a character using this Knack, any wounds he takes are sure to leave wicked scars that last forever.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Instant Hypnosis",
+            "description": [
+                "Prerequisite Knack: Overt Order (Scion: Hero, p. 131) With a moment of eye contact and the expenditure of a Willpower point, the Scion instantly plunges a mortal into a hypnotic trance. Attempting to hypnotize a fellow Scion of lesser or equal (Willpower + Legend) requires not only a Willpower expenditure but a (Manipulation + Command + Legend) roll contested against the victim\u2019s (Willpower + Integrity + Legend). Scions cannot instantly hypnotize fellow Scions of higher (Willpower + Legend). Should he successfully hypnotize a victim, the Scion can implant one hidden command that the victim must obey at the time of the Scion\u2019s choosing. The command must be something that the victim can accomplish in one scene, and the trigger condition that compels him to attempt it must occur within a number of months equal to the Scion\u2019s Legend. The Scion can give as speci\ufb01c an order as he pleases, and a mortal cannot interpret it in any way other than the spirit in which it was intended. A fellow Scion can interpret it loosely to his own advantage, as per Overt Order, but doing so costs him a point of Willpower. The victim remains unaware of the ticking time bomb in his subconscious, but he does have a chance to resist it when the trigger condition occurs. At the moment when he has been commanded to perform the action in question, the victim\u2019s player may make a (Wits + Integrity) roll. (This roll cannot be modi\ufb01ed by a Scion\u2019s Epic Wits or an Integrity Arete.) If the roll garners more successes than the hypnotist Scion has dots of Legend, the compulsion is broken. If the last-minute resistance roll fails, the victim must attempt to do as he was commanded. Whether he succeeds or fails, the compulsion ends after he makes the attempt, and he has no memory of what could possibly have convinced him to do as he did.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Overt Order",
+            "description": [
+                "Sometimes, the direct method is more effective than the cleverest of intricate schemes. With this Knack, a Scion barks out a command that the target must obey. Doing so costs one Willpower, and the command must be one the Scion can give and the victim can perform in a single action. \u201cFreeze!\u201d is acceptable, as is, \u201cDon\u2019t shoot!\u201d or, \u201cShoot him!\u201d Ordering someone to go home and shoot his wife won\u2019t work because doing so would take longer than a single action. A victim of this Knack can interpret the command loosely to make it not directly suicidal, but not if all he\u2019s trying to do is keep out of trouble. For example, if a victim draws a gun and the Scion commands him to shoot himself, the victim can shoot himself in the hand or the foot rather than blowing his own brains out. Same thing goes if a Scion uses this Knack at a seedy pool hall to command a smarmy drug dealer to pick a \ufb01ght with a burly ex-con at the next table. The dealer might reasonably believe that the ex-con could kill him, but he still can\u2019t weasel out of the command. He doesn\u2019t have to walk up and take a swing at the guy, but he still has to do something, such as singing out a racial slur or throwing a beer bottle at the guy\u2019s girlfriend. The dealer can cheese it immediately, but he\u2019s still got to pick the \ufb01ght \ufb01rst.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Hang On",
+            "description": [
+                "This Knack allows the Scion to plant her feet, tighten her muscles or otherwise commit to performing a feat of strength for an extended period of time. By spending a point of Legend to activate the Knack, the Scion can extend this feat for a maximum number of days equal to her Legend rating. As long as she continues this specific feat of strength, she ignores hunger, thirst, exhaustion and other factors that might otherwise interrupt her. Without this Knack, a Scion cannot possibly continue a feat of strength longer than a single scene. A Scion can use this Knack to hold up any weight she can lift or keep a creature that\u2019s fastened to a rope or line from getting away. By tightening her neck muscles, she could even hang by her neck without suffocating. The Scion must stay virtually immobile, however. A Scion could keep a mine from caving in, hang from a noose for days or drag a chained beast slowly toward her, but she could not run, jump or perform most combat actions. A Scion is still limited by her normal and Epic Strength ratings, though she can perform feats at the top of her capabilities for days using this Knack. If she lacks Epic Stamina Knacks such as Holy Fortitude, though, she will probably collapse in helpless exhaustion the moment she finally ends the feat of strength."
+            ],
+            "tables": []
+        },
+        {
+            "title": "Secondhand Persuasion",
+            "description": [
+                "With this Knack, a character spends a point of Legend and becomes able to use her Epic Manipulation through the typed or written word. She must specifically address her attempted persuasion through a Manipulation-based roll to a single person\u2014whether it\u2019s in an e-mail, a registered letter or just a piece of graffiti with the victim\u2019s name attached\u2014and the person resists with the standard (Willpower + Integrity + Legend) roll. The written communication gets only one chance to supernaturally influence its victim, and the victim gets only one chance to resist, regardless of how many times the victim might read the missive thereafter.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Return To Sender",
+            "description": [
+                "Prerequisite Knack: Overt Order (Scion: Hero, pp. 131-132) Sometimes, when you send a minion off to do your bidding, you want that minion to come back for more work. At the very least, you want to know if the minion was killed in the attempt. With Return to Sender, the Scion prompts someone to return immediately to her after performing a task delegated with Epic Manipulation. The player spends an additional point of Legend to activate this power when using any other Epic Manipulation Knack to force a subject to take an action. Immediately after performing the order, the commanded subject will attempt to return to the Scion by the most convenient means possible, although not at the expense of his own safety. If the initial command fails, then Return to Sender has no effect, but the Legend point is still expended.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Confer Immunity",
+            "Dice Pool: None \nCost: 1 Willpower dot \nSeveral Purviews grant as a first-dot Boon an all-out immunity to the element to which they pertain. With this Boon, a Scion who enjoys such protection from some such an element may grant it to a mortal of her choosing, whom she has already marked with Vigil Brand (Guardian \u2022). To confer the immunity, she must first have the recipient ingest a trace amount of her ichor, as with Confer Knack (Guardian 6). Then the Scion\u2019s player must sacrifice one dot of Willpower. (The player can buy it back later, but only after the end of the current story.) When that\u2019s done, the Scion need only touch the Birthright relic through which she channels the immunity\u2019s Purview to the Vigil Brand of the recipient."
+        ],
+        [
+            "Ren Harvest",
+            "Dice Pool: Charisma + Empathy \nCost: None \nWhenever someone speaks of the Scion\u2019s deeds, or whenever he sees news of his exploits in print somewhere, his player makes a (Charisma + Empathy) roll. The Scion gains a number of Legend points equal to the number of successes rolled. The story must pertain specifically to the Scion, which the context should make clear. Also, it must be uttered or written without the Scion\u2019s direct knowledge. He might reasonably expect to see or hear it, but he cannot literally command someone to say or write it so as to reap the benefits. This Boon pertains only to evidence that his legend is spreading\u2014hence the Legend-point reward."
+        ],
+        [
+            "Eye of the Storm",
+            "Dice Pool: None \nCost: 1 Legend per scene \nWhen the Scion finds herself caught up in a chaotic situation unrelated to her\u2014whether she\u2019s dodging a tornado\u2019s debris or emerging from a bar to find a berserk mob rushing toward her to clash with a line of riot cops down the street\u2014she can activate this Boon and become an island of calm in the tumult. She is miraculously untouched in the confusion, and she remains so for as long as she doesn\u2019t actively involve herself. She still suffers normal environmental movement penalties, but environmental dangers such as falling rocks, stampeding beasts or thrashing rioters all fail to touch her."
+        ],
+        [
+            "Ward",
+            "Dice Pool: Stamina + Fortitude \nCost: 1 Legend + 1 Willpower \nBy touching the entrance to a location, the Scion lays a ward on the area that bars entrance to a certain type of threat. Such a ward could bar ghosts, walking dead, a breed of titanspawn, human beings, lesser animals or Scions. The ward acts as a sphere with a circumference area equal to 500 square feet per dot of Legend the Scion has. It lasts for one day per success garnered by the (Stamina + Fortitude) roll."
+        ],
+        [
+            "Labyrinthine Lingering",
+            "Dice Pool: Wits + Awareness \nCost: 5 Legend \nThe Scion stands in the middle of a crossroads, a hallway or an intersection \u2014 any place where a choice of direction could be made \u2014 and summons the confusion of chaos into the area. For the rest of the scene, anyone who enters that intersection becomes unable to determine direction. Compasses wildly spin, GPS locators lose their signal and landmarks shift and can\u2019t be pinned down. The Chaos-user remains able to navigate, but anyone else who isn\u2019t touching the invoking Scion becomes completely turned around. When a traveler passes through the area, no matter what precautions he takes, he becomes disoriented and exits in a random direction."
+        ],
+        [
+            "Hornet's Nest",
+            "Dice Pool: Intelligence + Awareness \nCost: None \nIf the Boon\u2019s activation roll succeeds, the Storyteller should determine and reveal in general terms what action the Scion can take to either cause the most chaos in the scene or defuse the potential chaos inherent in the situation. The revelation should be something simple like \u201copening the parrot cage,\u201d \u201cstaying in the hallway,\u201d \u201cwinking at the Scion of Sif\u201d or \u201ccalling the Scion of Ptah\u2019s cell phone.\u201d The Storyteller should explain only which action will lead to which outcome, not how."
+        ],
+        [
+            "Animal Feature",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + (1 Legend per feature) \nThe Scion can change a portion of his anatomy to a shape matching the analogous portion of his chosen animal\u2019s anatomy for one scene. If his chosen animal is an armadillo, he can cover himself in a flexible armor. If his animal is a monkey, he can grow a long prehensile tail that is as dexterous as a hand with no thumb. If his animal is a spider or gecko, he can change the surfaces of his hands and feet to enable himself to climb on walls. If his animal is a bird or bat or airborne insect, he can transform his arms into wings that allow him to fly at a rate equal to his Move rate. The exact effect of the change is up to the player, dependent upon Storyteller approval. As a general guideline, though, if the change boosts some trait or grants bonus dice on a special attack, the total bonus value granted cannot be greater than the character\u2019s Legend."
+        ],
+        [
+            "Cloud Sculptor",
+            "Dice Pool: Dexterity + Art \nCost: 1 Legend \nThe Scion with this Boon is an artist with all of the sky as his canvas. If he can see clouds in the sky from his current vantage, he can shape and sculpt them with the motions of his hands. Many such artists prefer to sculpt clouds while looking through a window, as the glass pane gives them something solid to bear down on and trace out their sky designs. The Scion can\u2019t add or erase clouds, but he can stretch thick clouds thin or compress many wispy clouds into one large, billowy mass."
+        ],
+        [
+            "Ren Theft",
+            "Dice Pool: Intelligence + Empathy \nCost: 1 Willpower to use \nWith this Boon, the God uncovers someone\u2019s True Name (his ren) and uses it to compel that person. To be more specific, it grants a God the mental wherewithal to understand someone\u2019s True Name fully enough to be able to use it to compel that person. A True Name is more than just the sound a person makes to identify someone, it is the discrete, unique expression that sums up someone\u2019s very soul. A person is his True Name, and vice versa. To be able to define and understand the ren is to have an enviable power over the person to whom it belongs."
+        ],
+        [
+            "Animal Aspect",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Legend per action \nBy meditating for one action (Speed 3) on a token representing his animal, the Scion takes on a metaphorical characteristic associated with it, creating a dice bonus for rolls involving the Attribute most closely associated with that characteristic. A Scion might take on a snake\u2019s sinuous grace (Dexterity), a peacock\u2019s beauty (Appearance), an elephant\u2019s proverbial memory (via Intelligence) or any other justifiable characteristic. The bonus dice are equal to the number of successes on the activation roll, and the benefit lasts for one action per Legend point spent up front to fuel the Boon."
+        ],
+        [
+            "Faunaphagia",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + 1 Legend \nSome shamans believe that consuming a creature grants a measure of its strength. Scions who engage in this practice learn to absorb the capabilities of an animal by devouring such a creature and drawing forth its essence from the digested flesh. The Scion must eat a piece of meat from the appropriate animal (a potentially risky act, considering that the animal is probably considered sacred to his patron God). Then, the player expends the Willpower and Legend and rolls (Stamina + Animal Ken). The successes scored indicate the number of points of Abilities that the Scion may borrow from the animal. A Scion can only borrow Abilities up to the level possessed by the animal, although these dots can add on to his existing skill dots to a maximum total of five. Skills gained with Faunaphagia remain for the rest of the scene."
+        ],
+        [
+            "Animal Aspect",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Legend per action \nBy meditating for one action (Speed 3) on a token representing his animal, the Scion takes on a metaphorical characteristic associated with it, creating a dice bonus for rolls involving the Attribute most closely associated with that characteristic. A Scion might take on a snake\u2019s sinuous grace (Dexterity), a peacock\u2019s beauty (Appearance), an elephant\u2019s proverbial memory (via Intelligence) or any other justifiable characteristic. The bonus dice are equal to the number of successes on the activation roll, and the benefit lasts for one action per Legend point spent up front to fuel the Boon."
+        ],
+        [
+            "Sekem Barrier",
+            "Dice Pool: Appearance + Command \nCost: 1 Legend \nThe character spends a point of Legend and his player rolls (Appearance + Command). If the roll succeeds, the radiance of the character\u2019s divine heritage illuminates his entire body, affecting all who look upon him. Use the same rubric as for Sekem Blaze to determine whether nearby characters are affected. Those who are affected react as those affected by Sekem Blaze."
+        ],
+        [
+            "Fury of War",
+            "Dice Pool: Stamina + Fortitude \nCost: 3 Legend + 1 Willpower \nThe Scion can summon up a bloodlust and battle rage within her to shame the legendary berserkers. Her hair becomes wilder, her eyes blaze, she laughs and screams as she rips her foes limb from limb. She thinks of little else but battle and victory."
+        ],
+        [
+            "Come Running",
+            "Dice Pool: None \nCost: 3 Legend \nThe Scion immediately rushes to the aid of anyone or anything on whom she has placed a Vigil Brand (Guardian \u2022). When she gets a sensation that her branded charge is in danger (as determined by the Storyteller), she may spend three Legend points to disappear from her current location and instantly reappear in view of the brand she laid down. It helps to concentrate long enough for the player to make the (Perception + Empathy) roll to get an idea of what the danger is before she disappears, but it\u2019s not necessary. Yet, while the character can use Vigil Brand to check up on a charge at any time, the Scion can use Come Running only when the charge in question is in imminent danger."
+        ],
+        [
+            "Heart Scarab",
+            "Dice Pool: Dexterity + Craft \nCost: 1 Legend \nIn a workshop in his spare time, the Scion crafts small scarabs out of imperishable materials such as steel, desert glass, precious metals, gems or what have you."
+        ],
+        [
+            "Animal Form",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + 1 Legend \nIn one action (Speed 5, DV -1), the character transforms into a specimen of his chosen animal. The character\u2019s Physical Attributes are normal for a mundane specimen of the animal he\u2019s become, but his Mental Attributes remain his own. He also retains access to his Epic Mental Attributes and Knacks, though his other Epic Attributes are off limits until he regains his human form. He can communicate with other animals of his type. Other Scions who use Animal Communication can understand him perfectly clearly. He is immune to other Scions\u2019 uses of Animal Command or Ride Animal."
+        ],
+        [
+            "Recurring Distraction",
+            "Dice Pool: Wits + Empathy \nCost: 1 Legend per point of penalty \nThe Scion sings a chorus from a silly song (any Ray Stevens tune will do) or makes some awful witticism (such as, \u201cA good pun is its own reword.\u201d) and uses this Boon to stick that random bit of inanity into the mind of every person who hears and understands her when she does it. Resisting the effect requires a (Willpower + Integrity + Legend) roll that nets more successes than the Scion\u2019s player rolled. Those who cannot resist the effect suffer a distraction penalty to all rolls equal to the number of Legend points the Scion\u2019s player spent to activate the effect (up to a maximum equal to that Scion\u2019s Legend). This distraction lasts for 24 hours."
+        ],
+        [
+            "Battle Cry",
+            "Dice Pool: Charisma + Presence \nCost: 1 Legend \nDuring a battle, be it a pitched field engagement or an alley fight between a Band of Scions and a gang of frost giants, the Scion can loose a horrible battle cry that unnerves his foes. Every fighter on the Scion\u2019s enemies\u2019 side who hears the unearthly shriek loses one die from all attack rolls for a number of attacks equal to the Scion\u2019s Legend rating."
+        ],
+        [
+            "Animal Aspect",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Legend per action \nBy meditating for one action (Speed 3) on a token representing his animal, the Scion takes on a metaphorical characteristic associated with it, creating a dice bonus for rolls involving the Attribute most closely associated with that characteristic. A Scion might take on a snake\u2019s sinuous grace (Dexterity), a peacock\u2019s beauty (Appearance), an elephant\u2019s proverbial memory (via Intelligence) or any other justifiable characteristic. The bonus dice are equal to the number of successes on the activation roll, and the benefit lasts for one action per Legend point spent up front to fuel the Boon."
+        ],
+        [
+            "Confer Immunity",
+            "Dice Pool: None \nCost: 1 Willpower dot \nSeveral Purviews grant as a first-dot Boon an all-out immunity to the element to which they pertain. With this Boon, a Scion who enjoys such protection from some such an element may grant it to a mortal of her choosing, whom she has already marked with Vigil Brand (Guardian \u2022). To confer the immunity, she must first have the recipient ingest a trace amount of her ichor, as with Confer Knack (Guardian 6). Then the Scion\u2019s player must sacrifice one dot of Willpower. (The player can buy it back later, but only after the end of the current story.) When that\u2019s done, the Scion need only touch the Birthright relic through which she channels the immunity\u2019s Purview to the Vigil Brand of the recipient."
+        ],
+        [
+            "Recurring Distraction",
+            "Dice Pool: Wits + Empathy \nCost: 1 Legend per point of penalty \nThe Scion sings a chorus from a silly song (any Ray Stevens tune will do) or makes some awful witticism (such as, \u201cA good pun is its own reword.\u201d) and uses this Boon to stick that random bit of inanity into the mind of every person who hears and understands her when she does it. Resisting the effect requires a (Willpower + Integrity + Legend) roll that nets more successes than the Scion\u2019s player rolled. Those who cannot resist the effect suffer a distraction penalty to all rolls equal to the number of Legend points the Scion\u2019s player spent to activate the effect (up to a maximum equal to that Scion\u2019s Legend). This distraction lasts for 24 hours."
+        ],
+        [
+            "Heart Scarab",
+            "Dice Pool: Dexterity + Craft \nCost: 1 Legend \nIn a workshop in his spare time, the Scion crafts small scarabs out of imperishable materials such as steel, desert glass, precious metals, gems or what have you."
+        ],
+        [
+            "Paper Tiger",
+            "Dice Pool: Intelligence + Art \nCost: 1 Willpower + 5 Legend per act of creation; 1 Legend per unit \nWhile some demigods use the primal power of their ichor to grant life with the Create Animal Boon (Animal 7), others use the artistic work of creation to infuse their conjurations. Indeed, this act may explain the Neolithic cave paintings of various animals scattered about in caves inhabited by early humanity."
+        ],
+        [
+            "Ward",
+            "Dice Pool: Stamina + Fortitude \nCost: 1 Legend + 1 Willpower \nBy touching the entrance to a location, the Scion lays a ward on the area that bars entrance to a certain type of threat. Such a ward could bar ghosts, walking dead, a breed of titanspawn, human beings, lesser animals or Scions. The ward acts as a sphere with a circumference area equal to 500 square feet per dot of Legend the Scion has. It lasts for one day per success garnered by the (Stamina + Fortitude) roll."
+        ],
+        [
+            "Confer Immunity",
+            "Dice Pool: None \nCost: 1 Willpower dot \nSeveral Purviews grant as a first-dot Boon an all-out immunity to the element to which they pertain. With this Boon, a Scion who enjoys such protection from some such an element may grant it to a mortal of her choosing, whom she has already marked with Vigil Brand (Guardian \u2022). To confer the immunity, she must first have the recipient ingest a trace amount of her ichor, as with Confer Knack (Guardian 6). Then the Scion\u2019s player must sacrifice one dot of Willpower. (The player can buy it back later, but only after the end of the current story.) When that\u2019s done, the Scion need only touch the Birthright relic through which she channels the immunity\u2019s Purview to the Vigil Brand of the recipient."
+        ],
+        [
+            "Warrior Ideal",
+            "Dice Pool: Charisma + Presence \nCost: 1 Legend \nThe Scion adopts some idealized warrior aspect, from howling berserker to unquestioning enlisted man to fearless officer to pitiless samurai. This attitude unnerves and intimidates any opponent who faces him in combat, inflicting a penalty equal to the Scion\u2019s Legend on any attack roll the opponent makes. This penalty applies to any character with a lesser or equal Legend rating who attempts to attack the Scion. This idealized aspect lasts for a number of consecutive actions during the battle equal to the successes the Scion\u2019s player rolled to activate it, and he can invoke it only once during any given battle."
+        ],
+        [
+            "Shuck Fate",
+            "Dice Pool: Wits + Occult \nCost: (1 Willpower + 5 Legend) per bond \nA God with this Boon is slippery in the strands of Fate. If the God accrues a Fatebond in a scene, he activates this Boon and shuffles the coil of destiny onto another character. The person\u2014or people\u2014to whom the God would have been newly Fatebound are now Fatebound to the target character instead. After circumstances force the Storyteller to roll the God\u2019s Legend as a dice pool to determine Fatebinding, the God\u2019s player may roll (Wits + Occult). The difficulty is equal to the number of successes on the Legend roll, and that threshold must exceed the successes on a roll of (Willpower + Integrity + Legend) from the character onto whom he intends to shuck his Fatebonds. If the God has successes left over, the power works. He may then spend (one Willpower point and five Legend points) per Fatebond generated by the aforementioned Legend roll. Having done so, the God ducks the tightening bonds of Fate and sees the other character ensnared in them."
+        ],
+        [
+            "Confer Immunity",
+            "Dice Pool: None \nCost: 1 Willpower dot \nSeveral Purviews grant as a first-dot Boon an all-out immunity to the element to which they pertain. With this Boon, a Scion who enjoys such protection from some such an element may grant it to a mortal of her choosing, whom she has already marked with Vigil Brand (Guardian \u2022). To confer the immunity, she must first have the recipient ingest a trace amount of her ichor, as with Confer Knack (Guardian 6). Then the Scion\u2019s player must sacrifice one dot of Willpower. (The player can buy it back later, but only after the end of the current story.) When that\u2019s done, the Scion need only touch the Birthright relic through which she channels the immunity\u2019s Purview to the Vigil Brand of the recipient."
+        ]
+    ],
+    "nature": "Gambler",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 33,
+        "move": 27,
+        "climb": 25,
+        "jump": {
+            "horizontal": 56,
+            "vertical": 28
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 33,
+        "parry_dv": 22
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 0,
+        "animal_ken": 0,
+        "art": 0,
+        "athletics": 3,
+        "awareness": 0,
+        "brawl": 3,
+        "command": 2,
+        "control": 3,
+        "craft": 1,
+        "empathy": 2,
+        "fortitude": 2,
+        "integrity": 2,
+        "investigation": 1,
+        "larceny": 1,
+        "marksmanship": 1,
+        "medicine": 0,
+        "melee": 3,
+        "occult": 2,
+        "presence": 3,
+        "politics": 2,
+        "science": 0,
+        "stealth": 2,
+        "survival": 3,
+        "thrown": 2
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 33,
+        "lethal": 38.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 11,
+    "god": "Set",
+    "pantheon": "Pesedjet",
+    "name": "Al \u0645\u0646\u0635\u0648\u0631"
+}

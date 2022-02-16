@@ -1,0 +1,268 @@
+{
+    "attributes": {
+        "stre": 5,
+        "dex": 5,
+        "sta": 5,
+        "cha": 3,
+        "man": 5,
+        "app": 3,
+        "per": 5,
+        "inte": 7,
+        "wits": 7
+    },
+    "epic_attributes": {
+        "epic_stre": 2,
+        "epic_dex": 2,
+        "epic_sta": 3,
+        "epic_cha": 1,
+        "epic_man": 3,
+        "epic_app": 1,
+        "epic_per": 2,
+        "epic_int": 5,
+        "epic_wits": 2
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        3,
+        1,
+        0,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Social Chameleon",
+            "description": [
+                "Being thrust into a situation full of strangers who have bizarre customs and weird manners (such as a sorority house at the height of rush) can be disorienting, but the character with this Knack handles herself with remarkable aplomb. By observing the behavior of the people around her and reacting preternaturally quickly to their reactions to her behavior, she can fake like she \ufb01ts in just about anywhere, with any class of people. She still has to dress the part, and the language barrier might pose its own problems, but she won\u2019t embarrass or draw attention to herself unless she goes out of her way to do so on purpose.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Opening Salvo",
+            "description": [
+                "The character\u2019s tongue is sharp; with it she can wound a foe to the quick. When the character says something witty (or just catty) to a person and that remark is designed to trip him up or humiliate him, the victim loses one Willpower point. Inflicting this sting with such a venomous put-down (even if it\u2019s actually just a tired Yo-Momma joke the player came up with on the spur of the moment) costs the user one Legend point. The only caveat to this Knack is that the player must actually come up with the gibe in question. It doesn\u2019t have to be good; she just has to say something.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Uplifting Might",
+            "description": [
+                "The Scion can lift and hold tremendous loads that would stagger even other Scions with Epic Strength. After checking the character\u2019s lift capacity on the \u201cFeats of Strength\u201d table then adjusting that capacity based on the character\u2019s Epic Strength, this Knack (and the expenditure of one point of Legend) doubles that lift capacity. This Knack doesn\u2019t affect a character\u2019s ability to break or throw an object.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Hang On",
+            "description": [
+                "This Knack allows the Scion to plant her feet, tighten her muscles or otherwise commit to performing a feat of strength for an extended period of time. By spending a point of Legend to activate the Knack, the Scion can extend this feat for a maximum number of days equal to her Legend rating. As long as she continues this specific feat of strength, she ignores hunger, thirst, exhaustion and other factors that might otherwise interrupt her. Without this Knack, a Scion cannot possibly continue a feat of strength longer than a single scene. A Scion can use this Knack to hold up any weight she can lift or keep a creature that\u2019s fastened to a rope or line from getting away. By tightening her neck muscles, she could even hang by her neck without suffocating. The Scion must stay virtually immobile, however. A Scion could keep a mine from caving in, hang from a noose for days or drag a chained beast slowly toward her, but she could not run, jump or perform most combat actions. A Scion is still limited by her normal and Epic Strength ratings, though she can perform feats at the top of her capabilities for days using this Knack. If she lacks Epic Stamina Knacks such as Holy Fortitude, though, she will probably collapse in helpless exhaustion the moment she finally ends the feat of strength."
+            ],
+            "tables": []
+        },
+        {
+            "title": "Psychic Profiler",
+            "description": [
+                "Within seconds, the character with this Knack can size up a character with a lesser Legend rating than his own. Just by looking at the person, he can tell her weight, height, age, sex (if it\u2019s unclear to casual inspection) and whether she has a divine heritage or not. With just a few lines of conversation, he can also tell the subject\u2019s Nature, calling and primary Virtue (if any). Finally, if the subject is Fatebound to someone and is acting out a Fatebound Role, he can figure out what that role is. He might not know to whom it applies, but he can probably figure it out from context if he watches the person long enough.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Potability",
+            "Dice Pool: None \nCost: 1 Legend \nFor Scions who lack the means to use Purify Water, the Potability Boon is a simple substitute. Potability allows the Scion to touch one source of water no larger than a bathtub and cause any liquid in it to become safe to drink. While various contaminants may remain, including living beings, the water will not be poisonous or disease-laden. It might be brown, it might have algae floating on top, and it might taste like dirt mixed with baking soda, but it\u2019ll quench thirst and function for irrigation, if necessary."
+        ],
+        [
+            "Paralyzing Confusion",
+            "Dice Pool: Wits + Empathy \nCost: 1 Willpower \nThis Boon turns a person\u2019s rational thoughts into seething, chaotic noise. On a successful activation roll, the victim freezes in place, suddenly unable to think, speak or act. He\u2019s unaware of what goes on around him, and he has no memory of the moments before or after the use of this Boon. The effect lasts for a number of actions equal to the successes on the activation roll, and it erases the victim\u2019s memory for an equal amount of time before the roll. If the victim has more dots of Legend than the user, the power doesn\u2019t work. If the victim has an equal Legend rating, the activation roll is contested against the victim\u2019s (Willpower + Integrity + Legend)."
+        ],
+        [
+            "Water Breathing",
+            "Dice Pool: None \nCost: None \nThe Scion need never fear drowning, and she is no longer affected by extremes of water temperature. She can breathe water as easily as air, and she is neither scalded by boiling water nor subject to debilitating frostbite from ice. Having boiling water poured on one\u2019s flesh still hurts, mind you, and being bound in ice or cast adrift in frigid water can still numb and paralyze a Scion. Neither of those extremes can cause the Scion actual physical damage, though."
+        ],
+        [
+            "The Helpful Spirit",
+            "Dice Pool: Charisma + Occult \nCost: 1 Legend per die of improvement \nWith the proper shows of respect and decorum, a Scion can convince the kami within an object to enhance the mundane function of that object. In so doing, she gains a dice bonus equal to the number of Legend points she spends on the effect, which lasts for a number of days equal to number of successes on the activation roll. Be it anything from a weapon to a baby grand piano, the item must be one that requires a dice roll to use with skill. If the character uses this Boon on one of her Birthright items, she can enhance only its mundane function."
+        ],
+        [
+            "Paralyzing Confusion",
+            "Dice Pool: Wits + Empathy \nCost: 1 Willpower \nThis Boon turns a person\u2019s rational thoughts into seething, chaotic noise. On a successful activation roll, the victim freezes in place, suddenly unable to think, speak or act. He\u2019s unaware of what goes on around him, and he has no memory of the moments before or after the use of this Boon. The effect lasts for a number of actions equal to the successes on the activation roll, and it erases the victim\u2019s memory for an equal amount of time before the roll. If the victim has more dots of Legend than the user, the power doesn\u2019t work. If the victim has an equal Legend rating, the activation roll is contested against the victim\u2019s (Willpower + Integrity + Legend)."
+        ],
+        [
+            "Weather Witch",
+            "Dice Pool: Intelligence + Science \nCost: 1 Legend \nBy tasting the wind, putting a finger up in the air or testing the feel of her joints, the Scion gains the ability to predict the vagaries of natural weather. Her prediction is good up to a number of days in advance equal to the successes scored by her player on the initial (Intelligence + Science) roll. This doesn\u2019t account for changes introduced by more powerful uses of the Sky Purview or by Titans and titanspawn."
+        ],
+        [
+            "Potability",
+            "Dice Pool: None \nCost: 1 Legend \nFor Scions who lack the means to use Purify Water, the Potability Boon is a simple substitute. Potability allows the Scion to touch one source of water no larger than a bathtub and cause any liquid in it to become safe to drink. While various contaminants may remain, including living beings, the water will not be poisonous or disease-laden. It might be brown, it might have algae floating on top, and it might taste like dirt mixed with baking soda, but it\u2019ll quench thirst and function for irrigation, if necessary."
+        ],
+        [
+            "Water Control",
+            "Dice Pool: Dexterity + Craft \nCost: 1 Legend \nFor a number of actions equal to the successes on the activation roll, the Scion can exert limited physical control of any water that is touching her. She can remotely manipulate a hand-held object she can see in the water with her full dice pool, although she can take no other physical actions at the same time. She can stiffen the water beneath her feet in order to walk on its surface. She can even have the water push her along from all sides, allowing her to take a full Move action while swimming, rather than half. Alternatively, moving through the water thus could increase her Dodge DV by an amount equal to her Legend as long as she does nothing but dodge incoming attacks."
+        ],
+        [
+            "Hornet's Nest",
+            "Dice Pool: Intelligence + Awareness \nCost: None \nIf the Boon\u2019s activation roll succeeds, the Storyteller should determine and reveal in general terms what action the Scion can take to either cause the most chaos in the scene or defuse the potential chaos inherent in the situation. The revelation should be something simple like \u201copening the parrot cage,\u201d \u201cstaying in the hallway,\u201d \u201cwinking at the Scion of Sif\u201d or \u201ccalling the Scion of Ptah\u2019s cell phone.\u201d The Storyteller should explain only which action will lead to which outcome, not how."
+        ],
+        [
+            "Weather Witch",
+            "Dice Pool: Intelligence + Science \nCost: 1 Legend \nBy tasting the wind, putting a finger up in the air or testing the feel of her joints, the Scion gains the ability to predict the vagaries of natural weather. Her prediction is good up to a number of days in advance equal to the successes scored by her player on the initial (Intelligence + Science) roll. This doesn\u2019t account for changes introduced by more powerful uses of the Sky Purview or by Titans and titanspawn."
+        ],
+        [
+            "Paralyzing Confusion",
+            "Dice Pool: Wits + Empathy \nCost: 1 Willpower \nThis Boon turns a person\u2019s rational thoughts into seething, chaotic noise. On a successful activation roll, the victim freezes in place, suddenly unable to think, speak or act. He\u2019s unaware of what goes on around him, and he has no memory of the moments before or after the use of this Boon. The effect lasts for a number of actions equal to the successes on the activation roll, and it erases the victim\u2019s memory for an equal amount of time before the roll. If the victim has more dots of Legend than the user, the power doesn\u2019t work. If the victim has an equal Legend rating, the activation roll is contested against the victim\u2019s (Willpower + Integrity + Legend)."
+        ]
+    ],
+    "nature": "Traditionalist",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 13,
+        "move": 7,
+        "climb": 7,
+        "jump": {
+            "horizontal": 18,
+            "vertical": 9
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 11,
+        "parry_dv": 9
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 3,
+        "animal_ken": 2,
+        "art": 3,
+        "athletics": 2,
+        "awareness": 3,
+        "brawl": 3,
+        "command": 1,
+        "control": 3,
+        "craft": 2,
+        "empathy": 1,
+        "fortitude": 3,
+        "integrity": 3,
+        "investigation": 2,
+        "larceny": 0,
+        "marksmanship": 2,
+        "medicine": 3,
+        "melee": 2,
+        "occult": 3,
+        "presence": 3,
+        "politics": 2,
+        "science": 0,
+        "stealth": 3,
+        "survival": 3,
+        "thrown": 0
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 9,
+        "lethal": 8.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 3,
+    "god": "Susano-o",
+    "pantheon": "Amatsukami",
+    "name": "Shimizu \u77f3\u4e95"
+}

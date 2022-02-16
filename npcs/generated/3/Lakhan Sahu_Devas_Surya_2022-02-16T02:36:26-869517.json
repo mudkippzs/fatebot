@@ -1,0 +1,306 @@
+{
+    "attributes": {
+        "stre": 3,
+        "dex": 5,
+        "sta": 3,
+        "cha": 5,
+        "man": 5,
+        "app": 5,
+        "per": 5,
+        "inte": 7,
+        "wits": 7
+    },
+    "epic_attributes": {
+        "epic_stre": 4,
+        "epic_dex": 1,
+        "epic_sta": 4,
+        "epic_cha": 2,
+        "epic_man": 0,
+        "epic_app": 2,
+        "epic_per": 3,
+        "epic_int": 1,
+        "epic_wits": 2
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        3,
+        0,
+        1,
+        0
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Divine Wrath",
+            "description": [
+                "Prerequisite Knack: Crushing Grip (Scion: Hero, p. 126) A Scion with the demigod range of Epic Strength already needs no weapons to in\ufb02ict serious damage in combat, but a Scion with this Knack is even more fearsome. The prerequisite Knack enables him to in\ufb02ict lethal damage during a clinch that he controls, and this Knack builds on that to awful effect. If the Scion spends a point of Legend during a clinch, he can make a single attack in\ufb02ict aggravated damage instead of lethal. What\u2019s more, his normal unarmed combat attacks now in\ufb02ict lethal damage instead of bashing damage. Keep in mind that that lethal damage is now the standard damage he in\ufb02icts unarmed, regardless of whether he spends the point of Legend to make a single clinch\u2019s damage aggravated. The Scion can pull his punches and in\ufb02ict only bashing damage if he wants to, but doing so incurs the \u201cFlat of the Blade\u201d rule from page 199 of Scion: Hero.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Instant Hypnosis",
+            "description": [
+                "Prerequisite Knack: Overt Order (Scion: Hero, p. 131) With a moment of eye contact and the expenditure of a Willpower point, the Scion instantly plunges a mortal into a hypnotic trance. Attempting to hypnotize a fellow Scion of lesser or equal (Willpower + Legend) requires not only a Willpower expenditure but a (Manipulation + Command + Legend) roll contested against the victim\u2019s (Willpower + Integrity + Legend). Scions cannot instantly hypnotize fellow Scions of higher (Willpower + Legend). Should he successfully hypnotize a victim, the Scion can implant one hidden command that the victim must obey at the time of the Scion\u2019s choosing. The command must be something that the victim can accomplish in one scene, and the trigger condition that compels him to attempt it must occur within a number of months equal to the Scion\u2019s Legend. The Scion can give as speci\ufb01c an order as he pleases, and a mortal cannot interpret it in any way other than the spirit in which it was intended. A fellow Scion can interpret it loosely to his own advantage, as per Overt Order, but doing so costs him a point of Willpower. The victim remains unaware of the ticking time bomb in his subconscious, but he does have a chance to resist it when the trigger condition occurs. At the moment when he has been commanded to perform the action in question, the victim\u2019s player may make a (Wits + Integrity) roll. (This roll cannot be modi\ufb01ed by a Scion\u2019s Epic Wits or an Integrity Arete.) If the roll garners more successes than the hypnotist Scion has dots of Legend, the compulsion is broken. If the last-minute resistance roll fails, the victim must attempt to do as he was commanded. Whether he succeeds or fails, the compulsion ends after he makes the attempt, and he has no memory of what could possibly have convinced him to do as he did.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Not The Face",
+            "description": [
+                "The Scion makes a simple wince, throws up his hands, shrieks for mercy or somehow shows that he\u2019s just not quite ready to take an incoming blow. As a result, the attacker hesitates for the briefest instant, perhaps long enough for the Scion to escape or for a friend of his to land a telling blow instead. As a response to an incoming attack, the Scion\u2019s player spends one point of Legend and rolls (Manipulation + Empathy + Legend) against the opponent\u2019s (Willpower + Integrity + Legend). If the player wins, then the attacker hesitates for the barest instant, and his attack delays to the next tick. Naturally, the attacker must be able to see the Scion in order for this trick to work, and the Scion must know that the attack is coming, as well. The Scion can use this Knack only once per scene."
+            ],
+            "tables": []
+        },
+        {
+            "title": "Divine Bound",
+            "description": [
+                "Prerequisite Knack: Holy Bound (Scion: Hero, p. 126) A character with this Knack cannot necessarily fly, but the difference between using this Knack and flying is a subtlety that is easily lost on mortal onlookers. For the cost of 10 Legend points, this Knack converts the distance increment a character can jump from yards to hundreds of yards. That is, the character can leap the distance of one football field straight up for every dot of (Strength + Athletics) she has plus the bonus number granted by her Epic Strength. She can jump twice that length horizontally. At Strength 12, Athletics 5 and Epic Strength 10 (plus accounting for this Knack\u2019s prerequisite), the character can leap a little bit more than seven miles straight up \u2014 which is about one and a half miles higher than the peak of Mount Everest \u2014 or more than 14 miles horizontally. Used in combat, this Knack makes jumping something more than a Speed 5 miscellaneous action. When a character takes a leap that can potentially carry her for miles, that action is typically narrated rather than played out tick by tick. If no one can fly after her, leap after her or run fast enough to keep up with her, the character effectively leaves combat. In \u201cflight,\u201d the character retains her full DVs and attack dice pools. This Knack also makes jumping more dangerous than it normally is. Normally, a character can always safely fall from the maximum height to which she can normally jump. This Knack, however, overrides that safety standard by extending a person\u2019s jumping height to preposterous extremes. If a character who uses this Knack to leap aeronautically is successfully attacked in flight and that attack inflicts enough damage to cause knockdown or knockback, the character\u2019s prodigious leap turns into an uncontrolled fall. The player gets one chance per dot of Epic Strength the character has to succeed on a (Dexterity + Athletics) roll. If she does succeed, the character retains her aerial poise and lands, if not gracefully, at least safely. If the roll fails, the character suffers damage relevant to falling from a great height.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Advantageous Circumstances",
+            "description": [
+                "With this Knack, a Scion turns a group of people into his own Rube Goldberg machine. Taking only a moment to glance around the room at what the people around him are doing, the Scion decides what result he wants to achieve and takes the \ufb01rst small step toward achieving that end. The effect can take no more than a scene to accomplish, and it can be no more than a personal, temporal gain for himself.",
+                "For Example: A Scion of Ogoun is at a bar having a drink when up pulls the motorcycle of the Scion of Sobek from whom he stole an expensive and powerful Birthright. The Scion of Ogoun needs a distraction so he can slip out the back before the Scion of Sobek notices him and turns him into mincemeat. After a quick glance around, the Scion of Ogoun motions to the bartender and orders a drink for a pretty girl across the room. He also pays off his tab. As the waitress takes the drink over, a sour-faced middle-aged man exits the restroom and walks back toward the table where his shrewish wife is waiting. The waitress hands the drink to the pretty girl and points back toward the Scion of Ogoun, but the middle-aged man just happens to be in the way. The pretty girl waves and smiles her thanks, and the middle-aged man smiles back in distracted confusion as the Scion of Ogoun tips the girl a wink. It\u2019s at this point that the Scion of Sobek enters and notices the Scion of Ogoun putting on his jacket. As the Scion of Sobek comes toward the Scion of Ogoun\u2019s seat, the middle-aged man meets his shrewish wife heading toward him. Having misinterpreted the pretty girl\u2019s wave of thanks to the Scion of Ogoun, she demands to know why her husband bought a strange girl a drink. She throws her own drink in his face, sending him tripping over his own feet and stumbling backward toward the Scion of Sobek. That Scion stops and catches the middle-aged guy before the poor fellow can crack his head against the corner of a nearby table. Yet when the Scion looks back up to \ufb01nd his prey again, the Scion of Ogoun is nowhere to be seen.",
+                "Using this Knack doesn\u2019t have to be that complicated. As long as the player and Storyteller can come up with a quick sequence of convenient, coincidental events that spring from the Scion\u2019s \ufb01rst small action, that\u2019s all that\u2019s required. The important thing is to keep each of the events low key and not to hog too much of the spotlight in so doing.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Takes One to Know One",
+            "description": [
+                "Liars and tricksters know their own. If some matchstick man tries to run a scam, Scions with this Knack know exactly what sort of person they\u2019re dealing with. Whenever the Scion hears a person knowingly tell a lie, the Scion is automatically aware of the deception. This Knack doesn\u2019t reveal what the truth actually is. Nor does it work on text written by someone who knows it\u2019s false or when someone speaks untrue words in a language the Scion does not understand.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Disfiguring Attack",
+            "description": [
+                "Prerequisite Knack: Divine Wrath (Scion: Demigod, pp. 53-54) Woe be unto any foe who lacks Epic Stamina yet faces a character who has this Knack. If a character has Disfiguring Attack, he can already inflict lethal damage unarmed and inflict aggravated damage in a clinch, thanks to its prerequisite. If he uses this Knack, he can inflict aggravated damage with an unarmed attack. Doing so costs five Legend points per attack and removes the character\u2019s Epic Strength bonus successes from the damage calculation. Regardless, a character without a significant aggravated soak from Epic Stamina or some other supernatural source is in for a world of divine hurt. Should a foe survive an attack from a character using this Knack, any wounds he takes are sure to leave wicked scars that last forever.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Implant False Memory",
+            "description": [
+                "Prerequisite Knack: Instant Hypnosis (Scion: Demigod, p. 61) Once a character with this Knack\u2019s prerequisite has mesmerized a single victim, he can alter or create from whole cloth a memory in the victim\u2019s mind rather than compelling the victim to perform some later action. Doing the former involves talking the victim through some genuine memory and \u201ccorrecting\u201d details as they come out. Creating a false memory from whole cloth is simply a matter of the character describing the \u201cremembered\u201d events to the victim and telling her when and where those events occurred. False or altered memories replace the originals in the victim\u2019s mind, erasing what was in their place originally. The cost, dice pool, restrictions and resistance mechanics of this Knack are the same as for Instant Hypnosis. If the victim is mortal (or another type of extra), she won\u2019t ever accept that her new memories are false. She might think she was on drugs at the time or was hallucinating with fever, but she clings to the belief that the memory is genuine. Characters with a Legend rating will assume as mortals do unless they are confronted with evidence to suggest the memories are false. Even then, however, they still cannot get their original memories back.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Assess Health",
+            "Dice Pool: None \nCost: None \nThe Scion can instantly, automatically assess the current medical condition of a single living patient in his presence. He can tell how many levels of damage the patient is suffering, as well as any physical addictions he suffers, any illnesses or diseases with which he is infected and any genetic defects that afflict him."
+        ],
+        [
+            "Fire Immunity",
+            "Dice Pool: None \nCost: None \nThe Scion takes no damage from fire, he need never worry about suffering from smoke inhalation, and even the most intense heat is nothing more than a comforting warmth to him. This immunity remains in effect regardless of what substance is burning. It doesn\u2019t, however, extend to his clothes or to any item except the Birthright through which he channels the Boon."
+        ],
+        [
+            "Animal Aspect",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Legend per action \nBy meditating for one action (Speed 3) on a token representing his animal, the Scion takes on a metaphorical characteristic associated with it, creating a dice bonus for rolls involving the Attribute most closely associated with that characteristic. A Scion might take on a snake\u2019s sinuous grace (Dexterity), a peacock\u2019s beauty (Appearance), an elephant\u2019s proverbial memory (via Intelligence) or any other justifiable characteristic. The bonus dice are equal to the number of successes on the activation roll, and the benefit lasts for one action per Legend point spent up front to fuel the Boon."
+        ],
+        [
+            "Hornet's Nest",
+            "Dice Pool: Intelligence + Awareness \nCost: None \nIf the Boon\u2019s activation roll succeeds, the Storyteller should determine and reveal in general terms what action the Scion can take to either cause the most chaos in the scene or defuse the potential chaos inherent in the situation. The revelation should be something simple like \u201copening the parrot cage,\u201d \u201cstaying in the hallway,\u201d \u201cwinking at the Scion of Sif\u201d or \u201ccalling the Scion of Ptah\u2019s cell phone.\u201d The Storyteller should explain only which action will lead to which outcome, not how."
+        ],
+        [
+            "Bolster",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend \nThe Scion speaks a few heartening words and waves his Relic or activates the pressure points and meridians on a series of targets. The Scion spends one Legend point and her player rolls (Stamina + Medicine). For each success scored, one target gains one temporary health level. This bonus health level lasts for the remainder of the scene. When the health level disappears, any wounds that filled it also subside; it does not overflow into normal damage."
+        ],
+        [
+            "Heavenly Flare",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend \nConcentrating for one action (Speed 4), the Scion builds up and releases a flash of sunlight that\u2019s impossible for anyone within line of sight to miss. When she does so, the player of anyone who was looking at her, even through expensive sunglasses, must roll (Stamina + Fortitude). If the victim\u2019s roll nets more successes than the Scion\u2019s activation roll, he sees only a sudden flash that has no effect on him."
+        ],
+        [
+            "Animal Aspect",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Legend per action \nBy meditating for one action (Speed 3) on a token representing his animal, the Scion takes on a metaphorical characteristic associated with it, creating a dice bonus for rolls involving the Attribute most closely associated with that characteristic. A Scion might take on a snake\u2019s sinuous grace (Dexterity), a peacock\u2019s beauty (Appearance), an elephant\u2019s proverbial memory (via Intelligence) or any other justifiable characteristic. The bonus dice are equal to the number of successes on the activation roll, and the benefit lasts for one action per Legend point spent up front to fuel the Boon."
+        ],
+        [
+            "Divine Radiance",
+            "Dice Pool: None \nCost: 1 Legend \nThis Boon allows a Scion to emit sunlight. She can either radiate a glow from her entire body, shining with the intensity of a 100-watt incandescent light bulb, or focus that light to a narrower beam. For instance, she could narrow the focus of the light to come from her palm or her eyes to act as a high-powered flashlight. The Scion can emit soft light thus for one scene."
+        ],
+        [
+            "Animal Communication",
+            "Dice Pool: Intelligence + Animal Ken \nCost: None \nThe Scion can understand and make himself understood by an animal as he speaks his native language and the animal responds with its own postures, scents and/or vocalizations. This Boon doesn\u2019t make animals smart, calm or loyal, but most are curious enough about having a person address them that they\u2019ll hear a Scion out before defaulting to aggression, panic or indifference."
+        ],
+        [
+            "Assess Health",
+            "Dice Pool: None \nCost: None \nThe Scion can instantly, automatically assess the current medical condition of a single living patient in his presence. He can tell how many levels of damage the patient is suffering, as well as any physical addictions he suffers, any illnesses or diseases with which he is infected and any genetic defects that afflict him."
+        ],
+        [
+            "Penetrating Glare",
+            "Dice Pool: None \nCost: None \nAs sunlight only dims when it passes through thick clouds, so too can a Scion\u2019s vision cut through physical occlusions. When the Scion receives this Boon, she sees clearly through such physical impediments as smoke, fog, murky water (if the Scion is in said water) or even translucent barriers through which other people can see only silhouettes. The character can even see perfectly clearly in dim light (i.e., light no less intense than a single birthday candle). In total darkness, however, she\u2019s just as blind as the next person."
+        ],
+        [
+            "Paralyzing Confusion",
+            "Dice Pool: Wits + Empathy \nCost: 1 Willpower \nThis Boon turns a person\u2019s rational thoughts into seething, chaotic noise. On a successful activation roll, the victim freezes in place, suddenly unable to think, speak or act. He\u2019s unaware of what goes on around him, and he has no memory of the moments before or after the use of this Boon. The effect lasts for a number of actions equal to the successes on the activation roll, and it erases the victim\u2019s memory for an equal amount of time before the roll. If the victim has more dots of Legend than the user, the power doesn\u2019t work. If the victim has an equal Legend rating, the activation roll is contested against the victim\u2019s (Willpower + Integrity + Legend)."
+        ],
+        [
+            "Blessing of Health/Curse of Frailty",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend \nThe Boon can take away a patient\u2019s reproductive capabilities or restore them, provided the patient already has all the necessary organs. This effect lasts for one year per success on the activation roll."
+        ],
+        [
+            "Animal Communication",
+            "Dice Pool: Intelligence + Animal Ken \nCost: None \nThe Scion can understand and make himself understood by an animal as he speaks his native language and the animal responds with its own postures, scents and/or vocalizations. This Boon doesn\u2019t make animals smart, calm or loyal, but most are curious enough about having a person address them that they\u2019ll hear a Scion out before defaulting to aggression, panic or indifference."
+        ]
+    ],
+    "nature": "Libertine",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 12,
+        "move": 6,
+        "climb": 10,
+        "jump": {
+            "horizontal": 26,
+            "vertical": 13
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 12,
+        "parry_dv": 9
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 0,
+        "animal_ken": 3,
+        "art": 1,
+        "athletics": 3,
+        "awareness": 3,
+        "brawl": 3,
+        "command": 0,
+        "control": 3,
+        "craft": 1,
+        "empathy": 0,
+        "fortitude": 0,
+        "integrity": 2,
+        "investigation": 2,
+        "larceny": 3,
+        "marksmanship": 3,
+        "medicine": 3,
+        "melee": 2,
+        "occult": 3,
+        "presence": 2,
+        "politics": 3,
+        "science": 1,
+        "stealth": 3,
+        "survival": 0,
+        "thrown": 3
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 10,
+        "lethal": 12.0,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 3,
+    "god": "Surya",
+    "pantheon": "Devas",
+    "name": "Lakhan Sahu"
+}

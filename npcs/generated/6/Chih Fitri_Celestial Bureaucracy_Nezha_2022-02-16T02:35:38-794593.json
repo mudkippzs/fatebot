@@ -1,0 +1,352 @@
+{
+    "attributes": {
+        "stre": 5,
+        "dex": 7,
+        "sta": 5,
+        "cha": 7,
+        "man": 11,
+        "app": 9,
+        "per": 7,
+        "inte": 7,
+        "wits": 5
+    },
+    "epic_attributes": {
+        "epic_stre": 2,
+        "epic_dex": 3,
+        "epic_sta": 6,
+        "epic_cha": 6,
+        "epic_man": 6,
+        "epic_app": 3,
+        "epic_per": 3,
+        "epic_int": 4,
+        "epic_wits": 3
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        3,
+        1,
+        0,
+        0
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Titanium Tools",
+            "description": [
+                "While Relics may be made of stern stuff, the usual off-the-shelf \u201cauthentic katana\u201d tends to fold like the cheap steel that it is when it connects with something under the force of Epic Strength. With this Knack, any tool or item that the Scion picks up benefits from the same bends and loopholes in the laws of physics that allow Epic Strength to defy both leverage and structural integrity. The Scion could use a wooden board to clobber a thug, or he could ram a flimsy iron fireplace poker right through a wall of concrete with the full force of his Epic Strength. In either case, the tool would remain reasonably intact (albeit with some cosmetic wear). Such guarantees are particularly handy when using an object of questionable strength to beat a titanspawn to death without destroying the item in question (such as a snow globe intended as a present). Note that Titanium Tools doesn\u2019t improve the Hardness or rigidity of an item. A cheap katana can still be snapped in half by an angry titanspawn that decides to target the blade. A limp spaghetti noodle is no better a weapon with this Knack than without. Titanium Tools simply allows the Scion to use objects that might be feasible as weapons under normal circumstances and subject them to the extraordinary effects of his Epic Strength without breaking them, for as long as he wields the object.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Cat\u2019s Grace",
+            "description": [
+                "This Knack imbues a Scion with the uncanny ability to remain on his feet despite treacherous terrain or an enemy\u2019s best attempts to knock him down. For instance, a character with this Knack never suffers knockdown (see p. 198) from an attack. The player need not even roll. The character still suffers the damage, but he remains on his feet. Furthermore, a character with this Knack ignores all dif\ufb01culty penalties based on unstable footing and treacherous terrain. He still suffers speed penalties for moving through ankle- to knee- deep water or mud, but his dice pools for actions taken on such terrain suffer no penalties.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Between The Ticks",
+            "description": [
+                "Prerequisite Knack: Opening Gambit (Scion: Hero, p. 136) Instead of finishing an action with panache or waiting for the right moment in a battle, the Scion makes the right moment. Normally, a Scion can\u2019t interrupt any action but Aim and Guard. With this Knack, the Scion instead executes a perfectly-timed maneuver with split-second reactions and moves on to her next trick. The Scion\u2019s player can activate this Knack at a cost of three Legend points to interrupt after any action, effectively letting the Scion take another action before the requisite number of ticks have passed. The Scion can use this Knack only once per scene.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Uplifting Might",
+            "description": [
+                "The Scion can lift and hold tremendous loads that would stagger even other Scions with Epic Strength. After checking the character\u2019s lift capacity on the \u201cFeats of Strength\u201d table then adjusting that capacity based on the character\u2019s Epic Strength, this Knack (and the expenditure of one point of Legend) doubles that lift capacity. This Knack doesn\u2019t affect a character\u2019s ability to break or throw an object.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Ricochet Symphony",
+            "description": [
+                "If someone is trying to hit a target with a thrown object, the best thing for the target to do is get down behind cover or tuck in behind a shield. If the person trying to hit the target is a Scion with this Knack, however, not even such measures guarantee total safety. Before he lets loose, the Scion re\ufb02exively takes in the contours of the surroundings (as the player spends a point of Legend). He then throws his item in a seemingly random direction that nonetheless sends it ringing and bouncing off nearby surfaces to completely circumvent the target\u2019s cover or shield, thus negating its DV bonus. The Scion\u2019s throw can incorporate a number of ricochets equal to his Epic Dexterity dots, and each ricochet negates a point of DV modi\ufb01er that comes from cover or a shield. If the Scion is trying to not only hit the target but also disarm him or otherwise show off (more so), each ricochet can mitigate the penalty for doing so as well if he has ricochets left over. The general rule here is that one ricochet takes away one point of penalty on the throw\u2019s roll due to cover, a shield, showing off or attempting to disarm the target. When the thrown item \ufb01nally hits the target, it does so at its full force, regardless of how many times it bounced off walls, \ufb02oors, light \ufb01xtures, other enemies\u2019 helmets or what have you. This Knack works only with thrown objects, and it is not to be combined with the effects of Trick Shooter.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Divine Rampage",
+            "description": [
+                "Prerequisite Knack: Holy Rampage (Scion: Hero, p. 126) When a demigod with this Knack wants to break something, that thing is not long for this world. Like Holy Rampage, this Knack aids in the character\u2019s attempt to destroy an inanimate object. If the target object is not under his control \u2014 such as a weapon or armor that someone else happens to be using \u2014 its Hardness and soak are considered to be halved when the Scion attempts to break it. If the target object is freestanding or under the Scion\u2019s control, the object\u2019s Hardness and soak are considered to be 0 against the Scion\u2019s attack. Using this Knack costs one Legend point per action.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Trick Shooter",
+            "description": [
+                "Not only do the Scion\u2019s Epic Dexterity bonus successes add to (Dexterity + Marksmanship) dice rolls, he now doubles the bonus he receives from taking an Aim action (see p. 190) as well. What\u2019s more, the player ignores the dif\ufb01culty penalty for the character to either disarm an opponent with a ranged special attack or mark his opponent without causing damage. (See \u201cSpecial Attacks\u201d on p. 199.) A character must take an Aim action in order to be able to ignore such penalties, though. If a character \ufb01res from the hip or blazes away in a cordite-reeking, brass-raining, muzzle-strobing gun\ufb01ght, only the regular bonus successes from his Epic Dexterity apply.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Talent Mirror",
+            "description": [
+                "Prerequisite Knack: Instant Assessment (Scion: Demigod, p. 67) The character can do anything at least as well as he saw someone else do it. If he watches someone perform an activity and he spends at least two Legend points when he sees it, he can later perform that same action himself, substituting the dice pool of the character he watched for his own pool of the same (Attribute + Ability). He doesn\u2019t get any bonus successes from Epic Attributes the other character might have used, but he can supplement a mirrored roll with bonus successes from his own Epic Attributes (even if he has no dots in the Ability in question). The character can also use another character\u2019s Dodge DV or Parry DV in place of his own. The character with this Knack can use a copied dice pool or DV one time per pair of Legend points he spent when he witnessed the more skilled character. He can copy as many separate dice pools as he can afford to, as long as the total number does not exceed his Legend. The same goes for copied DVs. He can copy a DV a maximum number of times equal to his Legend.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Spider Climber",
+            "description": [
+                "Prerequisite Knack: Monkey Climber (Scion: Hero, p. 128) In addition to the bene\ufb01ts of the Monkey Climber Knack, the Scion can now climb a vertical surface with suf\ufb01cient hand- and footholds as quickly as she can dash\u2014taking into account her increased movement rate from Epic Dexterity. Her player doesn\u2019t even have to roll to keep her from falling unless she takes a second action while she\u2019s climbing (per the multiple action rules in Scion: Hero on p. 179). What\u2019s more, the demigod can now scale sheer surfaces with no handholds, such as the slick glass face of a skyscraper, and climb upside down across the bottom of horizontal surfaces at her normal Move rate. She cannot take Dash actions on such surfaces, but her Epic Dexterity bonuses apply to her Move rate as usual. She\u2019s still subject to gravity, though, so she has to make it a point to hang on while she\u2019s climbing thus. Therefore, she cannot take multiple actions while climbing such surfaces. A point of Legend must be spent for the character to use this Knack for one scene.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Omnidexterity",
+            "description": [
+                "The Scion functionally has \u201ctwo right hands\u201d. The Scion can use either hand with equal facility and also suffers no penalties when trying to manipulate an object with his tongue or his toes; even while using some other contorted body part, the Scion suffers only half the usual penalties (rounded down) for the awkwardness of the situation. While the Scion still can\u2019t perform something physically impossible (there\u2019s no way to fit his calf muscle through the trigger guard of a pistol to fire it, for instance), just about any amount of wiggle room is sufficient for the Scion to manipulate objects in surprising ways. The Scion could hang from a tree branch by his toes (perhaps in emulation of Sun Wukong) or could use his tongue to hold a pair of probes and thereby pick a lock. If the Scion manages to gain new and different natural appendages, say by assuming the form of an octopus via the Animal Purview, then his new appendages also benefit from Omnidexterity. Artificial \u201cappendages,\u201d such as a chain or a ruler with a sticky piece of tape on the end, do not gain this benefit, although the Scion could certainly wield such a tool via his hand, foot, mouth or stranger combination of limbs."
+            ],
+            "tables": []
+        },
+        {
+            "title": "One Inch Punch",
+            "description": [
+                "Prerequisite Knack: Crushing Grip (Scion: Hero, p. 126) Extrapolated from learning to exert tremendous pressure from all manner of holds and contortions, the Scion develops the ability to put her massive strength to good use on a single, small point. With just a flick of a finger, a jab of an elbow or a headbutt, the Scion delivers the entire force of her Epic Strength. Although this doesn\u2019t necessarily change the Scion\u2019s unarmed combat style \u2014 she still needs to land a strike on an enemy \u2014 it\u2019s quite intimidating when she can simply poke a building and cause an entire wall to crumble. Similarly, if the Scion is somehow restrained but able to move even a minuscule part of her body, she could (for instance) flick a tiny rock with her toe with enough force to kill a man. While this does not increase the Scion\u2019s damage output, it means that even when bound or restricted from moving in some way, the Scion can still bring all of her Epic Strength to bear in an attack. Perhaps she\u2019s chained with bindings made from Gleipnir and can\u2019t break them, but she can head-butt her assailant. Maybe she is buried in rock and can only move her little finger but can use that to send the boulder on the top of the heap flying. Her damage output and ability to lift are not impinged in any way when she\u2019s forced to rely only on a single limb, a part of her body or a restricted range of motion. Activating this Knack costs three points of Legend. Its effects last for a single application.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Storm Augmentation",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend per attack \nFor a number of actions equal to the successes the player rolled to activate the Boon, jagged threads of lightning coil around the Scion\u2019s fists or weapon, or skirling winds sweep around him as he moves. On any successful attack he makes in the subsequent duration, he may spend a point of Legend to make thunder crash or winds gust violently. Doing so automatically doubles any knockback the attack applies. Furthermore, if the attack inflicts even one level of damage, have the victim\u2019s player roll (Stamina + Fortitude) against a difficulty equal to (raw damage \u2013 victim\u2019s Legend). The minimum difficulty for this roll is 1. If the victim\u2019s player fails this roll, the victim is stunned, losing two dice from all non-reflexive rolls until the attacker\u2019s next action."
+        ],
+        [
+            "Blessing of Bravery",
+            "Dice Pool: Charisma + Command \nCost: None \nIntoning a benediction over a person or group prepared to engage in battle, the Scion bolsters their courage and determination. Every character on the Scion\u2019s side of the conflict who hears the benediction gains a point of Willpower as well as two temporary bonus dots of Valor that last until the battle ends. The Scion may amplify his voice electronically, but he must be present at the battle and give the blessing live."
+        ],
+        [
+            "Sky's Grace",
+            "Dice Pool: None \nCost: 1 Legend \nBy spending a point of Legend, the Scion takes no damage from falls of any height. Alternatively, the Scion can use that point to double the distance he can jump either straight up or horizontally. If the Scion has the Holy Bound Knack\u2014as well as this Boon, the base distance he can leap doubles, then doubles again if the player spends a point of Legend."
+        ],
+        [
+            "Blazing Weapon",
+            "Dice Pool: None \nCost: 1 Legend per weapon \nThe Scion reaches into a flame that\u2019s at least as big as a campfire and pulls out a blazing melee weapon made of flickering fire. The weapon can be of any shape and size, but the distinction is largely a matter of personal taste, rather than available traits. These weapons do not use the normal traits from the chart in Scion: Hero. Instead, when the character removes the weapon from the fire, the player receives a base number of points equal to the Scion\u2019s Legend for each weapon. These points can add to a base Accuracy +0, Damage +0 and Defense -1, and they can subtract from a starting Speed 6 (reducing it to a minimum of 1). The player assigns the weapon\u2019s traits as the character produces the weapon, and he can\u2019t change them afterward."
+        ],
+        [
+            "Fire Immunity",
+            "Dice Pool: None \nCost: None \nThe Scion takes no damage from fire, he need never worry about suffering from smoke inhalation, and even the most intense heat is nothing more than a comforting warmth to him. This immunity remains in effect regardless of what substance is burning. It doesn\u2019t, however, extend to his clothes or to any item except the Birthright through which he channels the Boon."
+        ],
+        [
+            "Bolster Fire",
+            "Dice Pool: None \nCost: 1 Legend per scene \nNormally, fire needs oxygen to breathe and fuel to consume. With this Boon, a Scion removes both necessities from a single flame for one scene. He could keep a single torch (or even a match) lit for hours as he explores a dark labyrinth. He could cause the tiny spark at the end of a fuse to burn in place without moving. This Boon is also good for keeping a source of flame from consuming the breathable air in an enclosed space."
+        ],
+        [
+            "Storm Augmentation",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend per attack \nFor a number of actions equal to the successes the player rolled to activate the Boon, jagged threads of lightning coil around the Scion\u2019s fists or weapon, or skirling winds sweep around him as he moves. On any successful attack he makes in the subsequent duration, he may spend a point of Legend to make thunder crash or winds gust violently. Doing so automatically doubles any knockback the attack applies. Furthermore, if the attack inflicts even one level of damage, have the victim\u2019s player roll (Stamina + Fortitude) against a difficulty equal to (raw damage \u2013 victim\u2019s Legend). The minimum difficulty for this roll is 1. If the victim\u2019s player fails this roll, the victim is stunned, losing two dice from all non-reflexive rolls until the attacker\u2019s next action."
+        ],
+        [
+            "Fire Immunity",
+            "Dice Pool: None \nCost: None \nThe Scion takes no damage from fire, he need never worry about suffering from smoke inhalation, and even the most intense heat is nothing more than a comforting warmth to him. This immunity remains in effect regardless of what substance is burning. It doesn\u2019t, however, extend to his clothes or to any item except the Birthright through which he channels the Boon."
+        ],
+        [
+            "Yin-Yang Destruction",
+            "Dice Pool: Legend + Occult or Science \nCost: 1 Legend (+ 1 Willpower) \nAfter learning how to enhance the Qi of another legendary being, a Scion learns how to counter the supernatural force in powers directed against him. He shapes his own Qi into the perfect negation of the power used against him, the Yin to its Yang. This is much easier, however, against powers the Scion has experience at using himself."
+        ],
+        [
+            "Five-Cycle Augmentation",
+            "Dice Pool: None \nCost: 1 Legend \nThe first art of Taiyi is learning to pass Qi to another being to augment his own supernatural force. The Scion concentrates, touches another character who is using a Boon or spell, and spends a point of Legend. This enhances the target character\u2019s use of the Boon or spell as if his Legend were one higher than its actual value. For instance, a dice pool that included the character\u2019s Legend would gain one die, or the recipient\u2019s Legend would be treated as one higher than its real value (for purposes of Boons whose effectiveness depends on the attacker\u2019s Legend being equal or higher than his target\u2019s)."
+        ],
+        [
+            "Fire Immunity",
+            "Dice Pool: None \nCost: None \nThe Scion takes no damage from fire, he need never worry about suffering from smoke inhalation, and even the most intense heat is nothing more than a comforting warmth to him. This immunity remains in effect regardless of what substance is burning. It doesn\u2019t, however, extend to his clothes or to any item except the Birthright through which he channels the Boon."
+        ],
+        [
+            "Blazing Weapon",
+            "Dice Pool: None \nCost: 1 Legend per weapon \nThe Scion reaches into a flame that\u2019s at least as big as a campfire and pulls out a blazing melee weapon made of flickering fire. The weapon can be of any shape and size, but the distinction is largely a matter of personal taste, rather than available traits. These weapons do not use the normal traits from the chart in Scion: Hero. Instead, when the character removes the weapon from the fire, the player receives a base number of points equal to the Scion\u2019s Legend for each weapon. These points can add to a base Accuracy +0, Damage +0 and Defense -1, and they can subtract from a starting Speed 6 (reducing it to a minimum of 1). The player assigns the weapon\u2019s traits as the character produces the weapon, and he can\u2019t change them afterward."
+        ],
+        [
+            "Five-Cycle Augmentation",
+            "Dice Pool: None \nCost: 1 Legend \nThe first art of Taiyi is learning to pass Qi to another being to augment his own supernatural force. The Scion concentrates, touches another character who is using a Boon or spell, and spends a point of Legend. This enhances the target character\u2019s use of the Boon or spell as if his Legend were one higher than its actual value. For instance, a dice pool that included the character\u2019s Legend would gain one die, or the recipient\u2019s Legend would be treated as one higher than its real value (for purposes of Boons whose effectiveness depends on the attacker\u2019s Legend being equal or higher than his target\u2019s)."
+        ],
+        [
+            "Storm Augmentation",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend per attack \nFor a number of actions equal to the successes the player rolled to activate the Boon, jagged threads of lightning coil around the Scion\u2019s fists or weapon, or skirling winds sweep around him as he moves. On any successful attack he makes in the subsequent duration, he may spend a point of Legend to make thunder crash or winds gust violently. Doing so automatically doubles any knockback the attack applies. Furthermore, if the attack inflicts even one level of damage, have the victim\u2019s player roll (Stamina + Fortitude) against a difficulty equal to (raw damage \u2013 victim\u2019s Legend). The minimum difficulty for this roll is 1. If the victim\u2019s player fails this roll, the victim is stunned, losing two dice from all non-reflexive rolls until the attacker\u2019s next action."
+        ],
+        [
+            "Divine Threnody",
+            "Dice Pool: Intelligence + Art \nCost: 2 Legend \nAn oft-overlooked element of the Sky Purview is the fact that air carries sound. The most graphic example of this is thunder, which is commonly associated with sky gods; wind, too, is said to howl or moan, as if the sky itself has a voice. A demigod who delves into the nature of thunder and sound can learn to manipulate the currents of air that carry sound and thereby enhance or dampen sonic effects."
+        ],
+        [
+            "Flamin' Bullets",
+            "Dice Pool: None \nCost: 1 Legend per scene \nThe Scion reaches into a source of flame \u2014 anything from a candle to a bonfire will do \u2014 and then \u201cloads\u201d that fire into a projectile weapon. The weapon becomes wreathed in flames, and for the rest of the scene, the weapon belches blasts of Legend-fueled fire. The weapon still consumes normal ammunition, but the shots become imbued with \u201cfire power,\u201d so to speak. The fiery rounds also inflict lethal damage, even against creatures that normally take bashing damage from bullets, such as the walking dead. The fiery rounds add +1 Accuracy and Damage to the weapon and also allow it to light targets on fire. Shooting the gas tank of a car with a pistol really can produce an explosive ending when Flamin\u2019 Bullets are used."
+        ],
+        [
+            "Battle Map",
+            "Dice Pool: Perception + Survival \nCost: 1 Legend \nThis Boon creates for the Scion a virtual, three-dimensional contour map of a battlefield, complete with terrain features and troop movements. This map can take up an area no larger than four square yards, and it can show only an area that the Scion has scouted personally or has had scouted within 24 hours."
+        ],
+        [
+            "Weather Witch",
+            "Dice Pool: Intelligence + Science \nCost: 1 Legend \nBy tasting the wind, putting a finger up in the air or testing the feel of her joints, the Scion gains the ability to predict the vagaries of natural weather. Her prediction is good up to a number of days in advance equal to the successes scored by her player on the initial (Intelligence + Science) roll. This doesn\u2019t account for changes introduced by more powerful uses of the Sky Purview or by Titans and titanspawn."
+        ],
+        [
+            "Yin-Yang Destruction",
+            "Dice Pool: Legend + Occult or Science \nCost: 1 Legend (+ 1 Willpower) \nAfter learning how to enhance the Qi of another legendary being, a Scion learns how to counter the supernatural force in powers directed against him. He shapes his own Qi into the perfect negation of the power used against him, the Yin to its Yang. This is much easier, however, against powers the Scion has experience at using himself."
+        ],
+        [
+            "Fury of War",
+            "Dice Pool: Stamina + Fortitude \nCost: 3 Legend + 1 Willpower \nThe Scion can summon up a bloodlust and battle rage within her to shame the legendary berserkers. Her hair becomes wilder, her eyes blaze, she laughs and screams as she rips her foes limb from limb. She thinks of little else but battle and victory."
+        ]
+    ],
+    "nature": "Survivor",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 17,
+        "move": 11,
+        "climb": 7,
+        "jump": {
+            "horizontal": 20,
+            "vertical": 10
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 18,
+        "parry_dv": 12
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 1,
+        "animal_ken": 0,
+        "art": 3,
+        "athletics": 3,
+        "awareness": 1,
+        "brawl": 3,
+        "command": 0,
+        "control": 2,
+        "craft": 1,
+        "empathy": 2,
+        "fortitude": 1,
+        "integrity": 3,
+        "investigation": 0,
+        "larceny": 3,
+        "marksmanship": 3,
+        "medicine": 3,
+        "melee": 3,
+        "occult": 0,
+        "presence": 1,
+        "politics": 3,
+        "science": 2,
+        "stealth": 1,
+        "survival": 0,
+        "thrown": 3
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 21,
+        "lethal": 26.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 6,
+    "god": "Nezha",
+    "pantheon": "Celestial Bureaucracy",
+    "name": "Chih Fitri"
+}

@@ -1,0 +1,417 @@
+{
+    "attributes": {
+        "stre": 9,
+        "dex": 13,
+        "sta": 9,
+        "cha": 7,
+        "man": 11,
+        "app": 7,
+        "per": 9,
+        "inte": 9,
+        "wits": 7
+    },
+    "epic_attributes": {
+        "epic_stre": 6,
+        "epic_dex": 3,
+        "epic_sta": 3,
+        "epic_cha": 1,
+        "epic_man": 6,
+        "epic_app": 10,
+        "epic_per": 5,
+        "epic_int": 6,
+        "epic_wits": 7
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        0,
+        1,
+        0,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Instant Seminar",
+            "description": [
+                "Prerequisite Knack: Inspirational Figure (Scion: Hero, p. 130) The Scion expands his ability to influence groups of people by making any topic, no matter how convoluted or mundane, seem interesting, gripping and of crucial importance. The Scion must spend at least a minute lecturing to a crowd on a particular topic. The Scion\u2019s player then spends two points of Legend and rolls (Charisma + Presence + Legend). For each success scored, one person in the crowd gains temporary use of a Scion\u2019s Ability score. The Scion can perform this quick instruction for any one Ability, but everyone in the crowd hears the same speech and therefore can potentially benefit from the same Ability. For the rest of the scene, those affected by this power may choose to use the Scion\u2019s Ability in place of their own. Heroes can only allow a beneficiary to gain a maximum of three temporary dots in an Ability this way. Demigods can grant up to four dots, while Gods can grant up to five. Such a trick is very useful for turning a disorganized mob into deadly streetfighters (Brawl), creating a temporary squad of EMTs to deal with a disaster (Medicine) or getting the help of a group of inexperienced people in a large construction project, like the pyramids (Craft). Using this Knack does not in any way lower or use up the invoking Scion\u2019s own Ability. The Scion can use this Knack only once per scene.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Inspirational Figure",
+            "description": [
+                "The Scion\u2019s well-chosen words can play on humankind\u2019s social mentality, giving hope and courage to not just one listener, but a group. The Scion gives a speech to gathered listeners\u2014whether he\u2019s calling upon them for help, raising their spirits after a local disaster or strengthening the bonds of community among them\u2014and spends a single point of Legend. As long as his words are intended to inspire them in some way, every person who can hear him listens spellbound and receives a point of Willpower at the speech\u2019s end. The only limit is that the listeners must be able to hear him clearly without him using the aid of any amplifying or broadcasting equipment. This Knack inspires other Scions as easily as mortals, but it doesn\u2019t inspire titanspawn. Nonetheless, titanspawn are compelled to at least let him \ufb01nish his speech before carrying out whatever they\u2019re up to.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Adaptive Fighting",
+            "description": [
+                "By registering how an opponent defends, the Scion gains insight into how to launch a successful attack. The Scion\u2019s Epic Wits allow him to adjust his offense immediately after failing to touch an enemy. After missing an opponent with an attack, the Scion\u2019s player spends one point of Legend. On the Scion\u2019s next attack against that same opponent, the player adds his character\u2019s Epic Wits as extra dice on the attack roll, to a maximum of +3. For demigods, the player may spend two points of Legend to increase the bonus to a maximum of +6, and for Gods, the player may spend three points of Legend to increase the bonus to the character\u2019s full Epic Wits rating with no maximum. If this attack misses or if the Scion chooses not to attack again, then the bonus is lost.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Hapless Cool",
+            "description": [
+                "The character spends a Legend point, and for the rest of the scene, she\u2019s just cool. Nobody can explain it; there\u2019s just something about either what she did or the way she did it that made her look cool. Okay, sure, the salt she threw over her shoulder hit Papa Legba\u2019s dog in the eyes, but the comedic timing was just so perfect. Yeah, granted, she laughed so hard when Hel asked if she wanted any half-and-half in her coffee that scrambled eggs came out her nose, but she owned it. No matter what a character with this Knack active does, says or allows to happen that makes a fool out of herself, anyone who sees her thinks she\u2019s cool anyway."
+            ],
+            "tables": []
+        },
+        {
+            "title": "Environmental Awareness",
+            "description": [
+                "Prerequisite Knack: Subliminal Warning (Scion: Hero, p. 134) The demigod is so in tune with his surroundings, that he can detect even the most minute changes around him well before anyone else. He can feel the barometric pressure rise or drop (and describe it accurately), giving him an acute sense of what the weather is going to do in the next hour. He can feel the tiniest tectonic vibrations from deep within the earth, allowing him to accurately presage an earthquake. Changes in temperature are no mystery to him either. His awareness is so complete that should some unnatural factor change one of these elements, he\u2019s the \ufb01rst to notice and can even track the disturbance back to its source. Also, if enemies are lying in ambush in the nearby area and are not concealed by supernatural means, it is impossible for their surprise attack to catch the Scion unaware. The Scion may join battle and react accordingly without his player having to roll to notice the hidden attack. If he re\ufb02exively spends a point of Legend, he may call out a warning for his cohorts to be ready and react accordingly as well. As an added bene\ufb01t, the Scion is unfailingly aware of the passage of time. Without even thinking about it, he can accurately say how much time has passed from any reference point that he has personally experienced.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Fight With Your Head",
+            "description": [
+                "A Scion with this Knack possesses a truly superhuman sense of strategy. He anticipates an enemy\u2019s evasions, counter-strategies and gambits with ease. He can reason around a berserker\u2019s shock and awe or calculate a dodging foe\u2019s final location to slip past that foe\u2019s defenses. He can find just the right angle to slip from an opponent\u2019s grasp, and he can see through feints and other ploys with ease. The Scion activates this Knack by selecting an opponent and spending one point of Legend. For the rest of the scene, he counteracts the automatic successes, bonus dice and similar benefits conferred by other Knacks and Boons. The total number of such bonuses counteracted cannot exceed the Scion\u2019s automatic success from Epic Intelligence. This Knack can negate bonuses from Knacks and Boons, as well as automatic successes and bonuses from Epic Attributes themselves. It does not affect stunt bonuses or extra dice from invoking Virtues. If an opponent receives more bonuses than a Scion can counteract, the user of this Knack picks what he will negate. This Knack might seem an odd one to include in a book about the Norse and their Gods. In truth, despite their famed fury and aggression, Norse warriors valued a cunning fighter at least as much as a frenzied powerhouse.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Opening Salvo",
+            "description": [
+                "The character\u2019s tongue is sharp; with it she can wound a foe to the quick. When the character says something witty (or just catty) to a person and that remark is designed to trip him up or humiliate him, the victim loses one Willpower point. Inflicting this sting with such a venomous put-down (even if it\u2019s actually just a tired Yo-Momma joke the player came up with on the spur of the moment) costs the user one Legend point. The only caveat to this Knack is that the player must actually come up with the gibe in question. It doesn\u2019t have to be good; she just has to say something.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Perfect Pitch",
+            "description": [
+                "The Scion can be a musician\u2019s best friend or worst nightmare, as she has the innate ability to detect even the subtlest variation in musical pitch. Her sense is so re\ufb01ned that she could catch a single missed note in an otherwise \ufb02awless performance of a Rachmaninoff concerto. The lone \ufb02ub in the middle of the performance rings as clearly in her ears as if someone\u2019s cell phone had gone off during it playing the Spongebob Squarepants theme song. The Scion\u2019s sense of hearing is also re\ufb01ned enough to be able to identify with absolute certainty a phone number or security code just by hearing the distinctive key tones.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Jack of All Trades",
+            "description": [
+                "If a character has no aptitude for a particular Ability (i.e., no dots in it), he cannot apply any bonus successes from his Epic Attributes to rolls that use that Ability. He simply doesn\u2019t understand enough about what he\u2019s doing to apply his full talent. With this Knack, however, the character gets a feel for any activity remarkably quickly. As such, he can apply some of his appropriate Epic Attribute bonus to the appropriate roll, despite the fact that he has no dots in the relevant Ability. In such a circumstance, a player can enhance a roll with this Knack and add a number of bonus successes from his character\u2019s Epic Attribute equal to the number of dots he has in the Epic Attribute. Enhancing a roll with this Knack\u2019s benefit costs two Legend points.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Scent and Possible Sound</strong></td>\n</tr>\n<tr>\n<td>Aesir</td>\n<td>Burning amber, with a snap of electricity</td>\n</tr>\n<tr>\n<td>Amatsukami</td>\n<td>Cherry blossoms, with a roaring wave</td>\n</tr>\n<tr>\n<td>Atlantis</td>\n<td>Ice, with no sound</td>\n</tr>\n<tr>\n<td>Atzl\u00e1nti</td>\n<td>Fresh blood, accompanied by the sound of a heartbeat</td>\n</tr>\n<tr>\n<td>Atua</td>\n<td>sea spray and coconut accompanied by the rumbling of an erupting volcano.</td>\n</tr>\n<tr>\n<td>Celestial Bureaucracy</td>\n<td>Ink and old paper, with a sound of rustling silk</td>\n</tr>\n<tr>\n<td>Devas</td>\n<td>Incense, with a low humming</td>\n</tr>\n<tr>\n<td>Dodekatheon</td>\n<td>Olives in hot air, with a murmuring crowd</td>\n</tr>\n<tr>\n<td>Loa</td>\n<td>Rum and tobacco, with a drumbeat</td>\n</tr>\n<tr>\n<td>Pesedjet</td>\n<td>Dry dust and sand, with a sound of wind</td>\n</tr>\n<tr>\n<td>Tuatha D\u00e9 Dannan</td>\n<td>Fresh grass and clover, with a sound of creaking wood</td>\n</tr>\n<tr>\n<td>Yankees</td>\n<td>Apple Pie with the sound of Fife and Drum</td>\n</tr>\n<tr>\n<td>Yazata</td>\n<td>a mix of various oriental spices being myrrh the most prominent of those and hear the sound of crackling fire.</td>\n</tr>\n<tr>\n<td>British</td>\n<td>A mix of rain and tea, and the sound of the tower bells ringing</td>\n</tr>\n</table>\n</div>",
+            "description": [],
+            "tables": []
+        },
+        {
+            "title": "Unimpeachable Reference",
+            "description": [
+                "With this Knack, the demigod can actually lend someone else a portion of his credibility and authority. When the player spends a point of Legend and the character either vouches for or lends a recognizable token to someone to act on his behalf, he confers on that person the effects of the Bene\ufb01t of the Doubt Knack (from Scion: Hero, p. 130). This halo of credibility affects even those people who do not know the demigod personally. It is still up to the character who receives the effect to convince the person he\u2019s speaking to that he\u2019s on the level, but this Knack makes getting over the initial hurdle of suspicion and disbelief much easier.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Hear Prayers",
+            "description": [
+                "Some characters who become Gods feel a real sense of connection to the mortals they\u2019ve left behind, if not the whole community, region or nation. If a Goddess has made a particular impression on humanity, the humans whose lives she\u2019s most affected might even call out for her help in desperation when she\u2019s away. Others might whisper their adulation for her in moments of joy or vent their impotent rage to her from afar when no one else will listen. Most such prayers go unanswered, and a surprisingly high number go unheard as well. If a Goddess has this Knack, however, she can hear any prayer that is specifically addressed to her, no matter how far away the person saying it is. The prayer must be spoken aloud, even if it\u2019s whispered, and the Goddess in question must be addressed by name specifically. If more than one person prays to the Goddess simultaneously, distinguishing one prayer from another is as difficult as distinguishing the words of two simultaneous conversations. As has only been implied thus far, a character cannot take this Knack unless she has at least Legend 9.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Telepathy",
+            "description": [
+                "The character\u2019s mind is so powerful that he can think thoughts directly into other people\u2019s brains for them. These thoughts come through in a recipient\u2019s head as words spoken in the sender\u2019s voice, and are recognizable as coming in from outside. The sender must be able to see the person whom he intends to address thus, and he must spend one Legend point per sent thought (i.e., per sentence). If the sender has the Multitasking Knack (from Scion: Demigod, p. 65), he can send the same thought to several people at once. The sender cannot receive telepathic information from a recipient unless the recipient also has Telepathy and spends the Legend point to use it.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Engender Love",
+            "description": [
+                "Prerequisite Knack: Charmer (Scion: Hero, p. 130) Being able to charm someone is always helpful, but it doesn\u2019t always make getting what you want from that person easy. A charmed person can still think clearly, question one\u2019s motives and turn someone down if something about what she\u2019s saying doesn\u2019t feel quite right. Not so the person affected by this Knack. The character who uses it spends one Legend point as his player rolls (Charisma + Presence + Legend). The victim\u2019s player contests this effect with a (Willpower + Integrity + Legend) roll. If the victim\u2019s roll fails to garner the necessary successes, the victim falls madly, unquestioningly in love with the user of the Knack for a number of days equal to the user\u2019s threshold successes. The victim is blindly enthralled and will do anything in her power to please the object of her affection. This Knack works regardless of the relative Legend disparity between the user and his victim. Using it unwisely against a more powerful character is ill advised, however. Fool Odin once, shame on him. Fool him twice, wolves on you.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Rain of Fire",
+            "Dice Pool: Charisma + Survival \nCost: 15 Legend \nThe God raises a hand and calls down a torrent of blazing projectiles from the sky above. Each projectile is the size of a soccer ball and explodes upon impact into a fire at least five square yards in area. Each blaze that springs up at a point of impact has the intensity of a bonfire and will not go out for the rest of the scene. At the end of the scene, the fires go out or stay lit based on the circumstances of where they\u2019re burning."
+        ],
+        [
+            "Flamin' Bullets",
+            "Dice Pool: None \nCost: 1 Legend per scene \nThe Scion reaches into a source of flame \u2014 anything from a candle to a bonfire will do \u2014 and then \u201cloads\u201d that fire into a projectile weapon. The weapon becomes wreathed in flames, and for the rest of the scene, the weapon belches blasts of Legend-fueled fire. The weapon still consumes normal ammunition, but the shots become imbued with \u201cfire power,\u201d so to speak. The fiery rounds also inflict lethal damage, even against creatures that normally take bashing damage from bullets, such as the walking dead. The fiery rounds add +1 Accuracy and Damage to the weapon and also allow it to light targets on fire. Shooting the gas tank of a car with a pistol really can produce an explosive ending when Flamin\u2019 Bullets are used."
+        ],
+        [
+            "Echo Sounding",
+            "Dice Pool: Perception + Awareness \nCost: None \nBy stomping or otherwise knocking on the earth, the Scion gets a sense of its general composition and density, as well as finding holes or caves beneath the surface. If he\u2019s looking for something specific in the earth\u2014such as gold, oil or a human body\u2014this Boon reveals its distance from him and depth from the epicenter at the expense of the other information. The Boon works only at ground level or on the up-thrust surface of a mountainside, but it works through floors and pavement. It gives the Scion a semispherical reading with a radius equal to one half mile per dot of Legend."
+        ],
+        [
+            "Earth Body",
+            "Dice Pool: None \nCost: 1 Legend or (3 Legend + 1 Willpower) \nThe Scion slams his fists together and calls out the name of a type of stone or metal, while his player spends the points and makes the roll. (It doesn\u2019t matter which stone or metal it is, except aesthetically.) When he does so, his body instantly changes into a statue made of that material. Becoming a statue thus offers an all-purpose Hardness value equal to the character\u2019s Legend, and adds a like value to his bashing and lethal soak. The transformation also adds 15 pounds per dot of Legend he has to the character\u2019s weight. He can still move and support his weight despite what limits his Strength might impose, but structures and other people might not be able to do so as easily. This transformation lasts for one scene at most."
+        ],
+        [
+            "Imprisoning Crystal",
+            "Dice Pool: Strength + Craft \nCost: 5 Legend, +1 Legend per Legend dot of the target \nA massive shard of crystal coalesces around the Scion\u2019s target. If the player\u2019s (Strength + Craft) roll bests the opponent\u2019s (Strength + Fortitude + Legend), then the opponent becomes encased in a clear, translucent, many-faceted shard of crystal. This prison holds the opponent in place but also renders it immune to physical attack. Unless something manages to penetrate the crystal, the occupant, in stasis, remains unaffected."
+        ],
+        [
+            "Hotter Than Hot",
+            "Dice Pool: Wits + Control \nCost: 5 Legend \nWhen a God of Fire decides to turn up the heat, it\u2019s time to get out of the kitchen \u2014 things are going to get really hot. Invoking the Hotter than Hot Boon amplifies the mystical force that powers a God\u2019s Fire Boons. For the rest of the scene, any time the God uses a Fire Boon, it automatically trumps the simple Fire Immunity (Fire 1) Boon. While many advanced powers can overcome the immunity of beings with lower Legend ratings, a power enhanced with Hotter than Hot suffers no such limitation: It cuts right though fire resistance like it\u2019s not there. In fact, the supercharged flames that a God wields in conjunction with this Boon are so deadly, they can injure or kill creatures that are made entirely of fire. Whether it\u2019s another Scion in Devil Body form or an Ifrit, fire elemental or salamander, beings that normally enjoy total protection from fire now realize what \u201cscorching\u201d really means."
+        ],
+        [
+            "Shaping",
+            "Dice Pool: Dexterity + Craft (to shape) \nCost: 1 Legend \nThe Scion can sculpt stone, concrete, fired clay or metal with his bare hands. When he spends the point of Legend, the substance becomes malleable like wet clay for as long as he touches it. With a successful (Dexterity + Craft) roll by his player, the Scion can shape it into any form his nimble fingers can produce. The Scion can affect up to one cubic foot of material at a time. Once he breaks contact with the substance he is shaping, it loses all malleability and sets in its new form."
+        ],
+        [
+            "Flame Travel",
+            "Dice Pool: None \nCost: 1 Legend \nThe Scion can leap into any fire he can get to and instantly emerge from either another fire within his line of sight or one upon which he has used Bolster Fire (Fire \u2022\u2022) in the scene. The fires he enters and exits must be at least as big around as he is. The Scion doesn\u2019t actually touch either fire through which he travels, so he doesn\u2019t necessarily have to have Fire Immunity to use this Boon. He emerges right beside the fire through which he exits, though, so heat and smoke are factors to consider."
+        ],
+        [
+            "Earth Armor",
+            "Dice Pool: None \nCost: 1 Legend \nThe Scion stomps a foot or pounds a fist on the bare earth, and a thick cloud of particles of the substance rises into the air around him. This cloud swirls around him and accumulates on his body like a suit of plate armor plus helmet. Any earthen substance will suffice, from gravel to mud to sand. The armor the coating of particles creates has a bashing and lethal Hardness and soak equal to half the Scion\u2019s Legend (rounded up), as well as a mobility penalty equal to that of riot gear. It lasts for the rest of the scene, at the end of which it shatters into a million pieces and falls at the Scion\u2019s feet. A Scion with Shaping (Earth \u2022\u2022\u2022) can craft the armor into a stylized shape, but only if the Scion wearing the armor remains inactive long enough to allow it."
+        ],
+        [
+            "Imprisoning Crystal",
+            "Dice Pool: Strength + Craft \nCost: 5 Legend, +1 Legend per Legend dot of the target \nA massive shard of crystal coalesces around the Scion\u2019s target. If the player\u2019s (Strength + Craft) roll bests the opponent\u2019s (Strength + Fortitude + Legend), then the opponent becomes encased in a clear, translucent, many-faceted shard of crystal. This prison holds the opponent in place but also renders it immune to physical attack. Unless something manages to penetrate the crystal, the occupant, in stasis, remains unaffected."
+        ],
+        [
+            "Rust/Shine",
+            "Dice Pool: None \nCost: 2 Legend \nWith a pass of the hand, the Scion causes a coating of rust or oxidization to form on a metallic object or conversely removes such a coating, restoring an item to its untarnished form. A rusted metal object loses durability and functionality. Its Hardness decreases to half normal, and if the object is a precision item (like a gun), it has a 50% chance to malfunction any time it\u2019s used. Restoring a rusted item to its original state wipes away all traces of age and even reverses the effects, so that a wholly rusted-out car body (for instance) would be as good as new. The rusted parts don\u2019t just disappear, they reverse the process and become solid metal again. Invoking this power on an item requires the Scion to physically touch or manipulate the object, and it has no effect on metals that don\u2019t rust (such as gold) or upon Relics."
+        ],
+        [
+            "Fire's Eye",
+            "Dice Pool: Perception + Awareness \nCost: 1 Legend \nThe Scion can see out of any fire that A.) is already within his line of sight or B.) he affected with Bolster Fire. The Scion cannot hear what is happening around a distant fire, and his field of vision remains the same through the fire as it is through his eyes. He may physically move his head or turn his body in place to change his remote perspective, though. While he looks through the fire, the Scion can\u2019t see from his own perspective. He may maintain his remote perspective for as long as he wishes."
+        ],
+        [
+            "Bolster Fire",
+            "Dice Pool: None \nCost: 1 Legend per scene \nNormally, fire needs oxygen to breathe and fuel to consume. With this Boon, a Scion removes both necessities from a single flame for one scene. He could keep a single torch (or even a match) lit for hours as he explores a dark labyrinth. He could cause the tiny spark at the end of a fuse to burn in place without moving. This Boon is also good for keeping a source of flame from consuming the breathable air in an enclosed space."
+        ],
+        [
+            "Fire Immunity",
+            "Dice Pool: None \nCost: None \nThe Scion takes no damage from fire, he need never worry about suffering from smoke inhalation, and even the most intense heat is nothing more than a comforting warmth to him. This immunity remains in effect regardless of what substance is burning. It doesn\u2019t, however, extend to his clothes or to any item except the Birthright through which he channels the Boon."
+        ],
+        [
+            "Bolster Fire",
+            "Dice Pool: None \nCost: 1 Legend per scene \nNormally, fire needs oxygen to breathe and fuel to consume. With this Boon, a Scion removes both necessities from a single flame for one scene. He could keep a single torch (or even a match) lit for hours as he explores a dark labyrinth. He could cause the tiny spark at the end of a fuse to burn in place without moving. This Boon is also good for keeping a source of flame from consuming the breathable air in an enclosed space."
+        ],
+        [
+            "Bolster Fire",
+            "Dice Pool: None \nCost: 1 Legend per scene \nNormally, fire needs oxygen to breathe and fuel to consume. With this Boon, a Scion removes both necessities from a single flame for one scene. He could keep a single torch (or even a match) lit for hours as he explores a dark labyrinth. He could cause the tiny spark at the end of a fuse to burn in place without moving. This Boon is also good for keeping a source of flame from consuming the breathable air in an enclosed space."
+        ],
+        [
+            "Control Fire",
+            "Dice Pool: Wits + Control \nCost: 5+ Legend \nA fire must burn, but when a God has this Boon, fire burns as he commands. To take control of the fire, the God need only stare into it and spend Legend points. When he does so, the fire becomes a three-dimensional mass that he can manipulate in all three dimensions in any way his imagination can conceive. For five Legend points, the God can manipulate 10 cubic yards of fire (based on its surface area and height). If less than 10 cubic yards of fire is present, the God can increase the present amount of fire to fill that volume. For each additional Legend point he spends, the God can increase the amount of fire under his control by 10 more cubic yards. (The God can spend no more additional points of Legend beyond the mandatory five than he has dots of Legend.) The God can move and shape fire under his control in all three dimensions\u2014lifting it off the ground entirely or making it take any three-dimensional shape he desires. He can even mold the fire into a recognizable shape and have it take actions."
+        ],
+        [
+            "Rust/Shine",
+            "Dice Pool: None \nCost: 2 Legend \nWith a pass of the hand, the Scion causes a coating of rust or oxidization to form on a metallic object or conversely removes such a coating, restoring an item to its untarnished form. A rusted metal object loses durability and functionality. Its Hardness decreases to half normal, and if the object is a precision item (like a gun), it has a 50% chance to malfunction any time it\u2019s used. Restoring a rusted item to its original state wipes away all traces of age and even reverses the effects, so that a wholly rusted-out car body (for instance) would be as good as new. The rusted parts don\u2019t just disappear, they reverse the process and become solid metal again. Invoking this power on an item requires the Scion to physically touch or manipulate the object, and it has no effect on metals that don\u2019t rust (such as gold) or upon Relics."
+        ],
+        [
+            "Earth Body",
+            "Dice Pool: None \nCost: 1 Legend or (3 Legend + 1 Willpower) \nThe Scion slams his fists together and calls out the name of a type of stone or metal, while his player spends the points and makes the roll. (It doesn\u2019t matter which stone or metal it is, except aesthetically.) When he does so, his body instantly changes into a statue made of that material. Becoming a statue thus offers an all-purpose Hardness value equal to the character\u2019s Legend, and adds a like value to his bashing and lethal soak. The transformation also adds 15 pounds per dot of Legend he has to the character\u2019s weight. He can still move and support his weight despite what limits his Strength might impose, but structures and other people might not be able to do so as easily. This transformation lasts for one scene at most."
+        ],
+        [
+            "Bolster Fire",
+            "Dice Pool: None \nCost: 1 Legend per scene \nNormally, fire needs oxygen to breathe and fuel to consume. With this Boon, a Scion removes both necessities from a single flame for one scene. He could keep a single torch (or even a match) lit for hours as he explores a dark labyrinth. He could cause the tiny spark at the end of a fuse to burn in place without moving. This Boon is also good for keeping a source of flame from consuming the breathable air in an enclosed space."
+        ],
+        [
+            "Shaping",
+            "Dice Pool: Dexterity + Craft (to shape) \nCost: 1 Legend \nThe Scion can sculpt stone, concrete, fired clay or metal with his bare hands. When he spends the point of Legend, the substance becomes malleable like wet clay for as long as he touches it. With a successful (Dexterity + Craft) roll by his player, the Scion can shape it into any form his nimble fingers can produce. The Scion can affect up to one cubic foot of material at a time. Once he breaks contact with the substance he is shaping, it loses all malleability and sets in its new form."
+        ],
+        [
+            "Safely Interred",
+            "Dice Pool: None \nCost: None \nWhether the character is caught up in a landslide, buried in a shallow grave by the roadside or trapped in the rubble of a collapsing building, he need not fear the earth\u2019s embrace as long as he has his Earth Birthright. No amount of collapsing rubble can break the Scion\u2019s bones (or the Birthright itself), and he won\u2019t suffocate no matter how much dirt piles onto him. If he lacks the strength to free himself, however, he does run the risk of either starving to death or dying of thirst if no one digs him out. Yet, it would not be the earth that kills him, but his own lack of fortitude."
+        ],
+        [
+            "Blazing Weapon",
+            "Dice Pool: None \nCost: 1 Legend per weapon \nThe Scion reaches into a flame that\u2019s at least as big as a campfire and pulls out a blazing melee weapon made of flickering fire. The weapon can be of any shape and size, but the distinction is largely a matter of personal taste, rather than available traits. These weapons do not use the normal traits from the chart in Scion: Hero. Instead, when the character removes the weapon from the fire, the player receives a base number of points equal to the Scion\u2019s Legend for each weapon. These points can add to a base Accuracy +0, Damage +0 and Defense -1, and they can subtract from a starting Speed 6 (reducing it to a minimum of 1). The player assigns the weapon\u2019s traits as the character produces the weapon, and he can\u2019t change them afterward."
+        ],
+        [
+            "Imprisoning Crystal",
+            "Dice Pool: Strength + Craft \nCost: 5 Legend, +1 Legend per Legend dot of the target \nA massive shard of crystal coalesces around the Scion\u2019s target. If the player\u2019s (Strength + Craft) roll bests the opponent\u2019s (Strength + Fortitude + Legend), then the opponent becomes encased in a clear, translucent, many-faceted shard of crystal. This prison holds the opponent in place but also renders it immune to physical attack. Unless something manages to penetrate the crystal, the occupant, in stasis, remains unaffected."
+        ],
+        [
+            "Earth Creation",
+            "Dice Pool: Stamina + Craft \nCost: 1 Legend per cubic yard \nThe God\u2019s mastery of the Purview is such that he can literally create stone, earth and metal from nothing. He only puts his hands together before him and wills the material into being as his player spends five Legend and rolls (Stamina + Craft). With this Boon, he can create anything from sand to loam to granite to diamonds to steel. Any substance that the Earth Purview covers is fair game. Even glass is okay, as it\u2019s chiefly made from silica."
+        ],
+        [
+            "Control Fire",
+            "Dice Pool: Wits + Control \nCost: 5+ Legend \nA fire must burn, but when a God has this Boon, fire burns as he commands. To take control of the fire, the God need only stare into it and spend Legend points. When he does so, the fire becomes a three-dimensional mass that he can manipulate in all three dimensions in any way his imagination can conceive. For five Legend points, the God can manipulate 10 cubic yards of fire (based on its surface area and height). If less than 10 cubic yards of fire is present, the God can increase the present amount of fire to fill that volume. For each additional Legend point he spends, the God can increase the amount of fire under his control by 10 more cubic yards. (The God can spend no more additional points of Legend beyond the mandatory five than he has dots of Legend.) The God can move and shape fire under his control in all three dimensions\u2014lifting it off the ground entirely or making it take any three-dimensional shape he desires. He can even mold the fire into a recognizable shape and have it take actions."
+        ],
+        [
+            "Devil Body",
+            "Dice Pool: None \nCost: 1 Willpower + 3 Legend \nUpon activating this Boon, the character\u2019s body immediately becomes a human-shaped pillar of white-hot flame. His features are unrecognizable except in silhouette (if he has a distinctive silhouette), and his voice has the quality of a roaring bonfire. In this form, the character\u2019s merest touch can set things alight or burn flesh. Touching the character inflicts a number of levels of lethal damage equal to his Legend. If the character physically attacks someone, the player adds that many extra levels of lethal damage to the results of his damage roll. The flames of the Scion\u2019s body can even burn a fellow Scion who has Fire Immunity (Fire 1) if that Scion\u2019s Legend is lower, though the lesser Scion suffers automatic fire damage equal to only the difference in their Legend ratings. The character\u2019s semisolid form also absorbs an amount of damage equal to the character\u2019s Legend from all physical attacks."
+        ],
+        [
+            "Property Infusion",
+            "Dice Pool: Intelligence + Science \nCost: 5 Legend per property \nTo a God, any property a material has based on its atomic structure is just one more degree of manipulation he can effect upon the material. If the God can identify a specific property of a material that falls under the Earth Purview, he can switch its quality out with the property of another material under the same Purview."
+        ],
+        [
+            "Fire's Eye",
+            "Dice Pool: Perception + Awareness \nCost: 1 Legend \nThe Scion can see out of any fire that A.) is already within his line of sight or B.) he affected with Bolster Fire. The Scion cannot hear what is happening around a distant fire, and his field of vision remains the same through the fire as it is through his eyes. He may physically move his head or turn his body in place to change his remote perspective, though. While he looks through the fire, the Scion can\u2019t see from his own perspective. He may maintain his remote perspective for as long as he wishes."
+        ],
+        [
+            "Echo Sounding",
+            "Dice Pool: Perception + Awareness \nCost: None \nBy stomping or otherwise knocking on the earth, the Scion gets a sense of its general composition and density, as well as finding holes or caves beneath the surface. If he\u2019s looking for something specific in the earth\u2014such as gold, oil or a human body\u2014this Boon reveals its distance from him and depth from the epicenter at the expense of the other information. The Boon works only at ground level or on the up-thrust surface of a mountainside, but it works through floors and pavement. It gives the Scion a semispherical reading with a radius equal to one half mile per dot of Legend."
+        ],
+        [
+            "Earth Body",
+            "Dice Pool: None \nCost: 1 Legend or (3 Legend + 1 Willpower) \nThe Scion slams his fists together and calls out the name of a type of stone or metal, while his player spends the points and makes the roll. (It doesn\u2019t matter which stone or metal it is, except aesthetically.) When he does so, his body instantly changes into a statue made of that material. Becoming a statue thus offers an all-purpose Hardness value equal to the character\u2019s Legend, and adds a like value to his bashing and lethal soak. The transformation also adds 15 pounds per dot of Legend he has to the character\u2019s weight. He can still move and support his weight despite what limits his Strength might impose, but structures and other people might not be able to do so as easily. This transformation lasts for one scene at most."
+        ]
+    ],
+    "nature": "Gambler",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 23,
+        "move": 17,
+        "climb": 25,
+        "jump": {
+            "horizontal": 56,
+            "vertical": 28
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 30,
+        "parry_dv": 17
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 2,
+        "animal_ken": 2,
+        "art": 3,
+        "athletics": 3,
+        "awareness": 0,
+        "brawl": 2,
+        "command": 1,
+        "control": 0,
+        "craft": 1,
+        "empathy": 2,
+        "fortitude": 1,
+        "integrity": 3,
+        "investigation": 3,
+        "larceny": 3,
+        "marksmanship": 0,
+        "medicine": 1,
+        "melee": 1,
+        "occult": 2,
+        "presence": 0,
+        "politics": 0,
+        "science": 3,
+        "stealth": 1,
+        "survival": 3,
+        "thrown": 2
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 13,
+        "lethal": 10.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 12,
+    "god": "Skaft",
+    "pantheon": "Atlantean",
+    "name": "Gigliola Vasile"
+}

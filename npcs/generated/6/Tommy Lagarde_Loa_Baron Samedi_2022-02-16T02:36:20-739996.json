@@ -1,0 +1,324 @@
+{
+    "attributes": {
+        "stre": 7,
+        "dex": 9,
+        "sta": 7,
+        "cha": 5,
+        "man": 7,
+        "app": 5,
+        "per": 7,
+        "inte": 9,
+        "wits": 7
+    },
+    "epic_attributes": {
+        "epic_stre": 1,
+        "epic_dex": 6,
+        "epic_sta": 4,
+        "epic_cha": 3,
+        "epic_man": 5,
+        "epic_app": 5,
+        "epic_per": 4,
+        "epic_int": 5,
+        "epic_wits": 4
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        0,
+        2,
+        0,
+        0
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Hapless Cool",
+            "description": [
+                "The character spends a Legend point, and for the rest of the scene, she\u2019s just cool. Nobody can explain it; there\u2019s just something about either what she did or the way she did it that made her look cool. Okay, sure, the salt she threw over her shoulder hit Papa Legba\u2019s dog in the eyes, but the comedic timing was just so perfect. Yeah, granted, she laughed so hard when Hel asked if she wanted any half-and-half in her coffee that scrambled eggs came out her nose, but she owned it. No matter what a character with this Knack active does, says or allows to happen that makes a fool out of herself, anyone who sees her thinks she\u2019s cool anyway."
+            ],
+            "tables": []
+        },
+        {
+            "title": "Crowd Control",
+            "description": [
+                "Prerequisite Knack: Charmer (Scion: Hero, p. 130) The demigod\u2019s force of personality is such that he can quell the passion of a seething mob, whether he\u2019s addressing a throng of rowdy political protesters, standing between an innocent kitsune and the lynch mob howling for her hide, or stalling the phalanx of SWAT cops long enough for his partner to \ufb01nish sacri\ufb01cing the hostages. By spending a point of Willpower and Legend, the Scion cools the crowd\u2019s urge for instant action and buys himself enough time to try to talk some sense into everyone. Doing so is primarily a matter of role-playing, but if the player is not as good an extemporaneous speech-maker as his character is, he may roll (Charisma + Presence) to simulate his heartfelt call for calm. His words convince three members of the mob per success on the roll. This effect lasts for the scene, after which the mob either disperses or renews its shenanigans with its original vigor. If the character is attempting to halt the depredations of a mob that is being controlled or directed supernaturally, use of this Knack constitutes an opposed roll against the other power\u2019s activation roll. If the power has no activation roll per se, the Scion\u2019s player rolls his (Charisma + Presence) against that of the character who incited the mob supernaturally. If the Scion with this Knack gets an equal or greater number of successes, the Knack does what it\u2019s supposed to.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Inspirational Figure",
+            "description": [
+                "The Scion\u2019s well-chosen words can play on humankind\u2019s social mentality, giving hope and courage to not just one listener, but a group. The Scion gives a speech to gathered listeners\u2014whether he\u2019s calling upon them for help, raising their spirits after a local disaster or strengthening the bonds of community among them\u2014and spends a single point of Legend. As long as his words are intended to inspire them in some way, every person who can hear him listens spellbound and receives a point of Willpower at the speech\u2019s end. The only limit is that the listeners must be able to hear him clearly without him using the aid of any amplifying or broadcasting equipment. This Knack inspires other Scions as easily as mortals, but it doesn\u2019t inspire titanspawn. Nonetheless, titanspawn are compelled to at least let him \ufb01nish his speech before carrying out whatever they\u2019re up to.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Benefit of the Doubt",
+            "description": [
+                "Sometimes, for a Scion to be able to help people\u2014or convince them to stay out of harm\u2019s way\u2014those people have to accept ideas that would seem patently ridiculous if they weren\u2019t true. The player of a Scion with this Knack spends a point of Legend, and something in the Scion\u2019s bearing or expression convinces a single listener not to dismiss what he\u2019s saying. Maybe it\u2019s the fact that the Scion is taking his words so seriously, or maybe he just has an honest face. Maybe he came highly recommended by a respected colleague. Whatever the reason, the listener gives the Scion the bene\ufb01t of the doubt in regards to what the Scion next tries to explain, despite what he might be otherwise inclined to believe.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Blame James",
+            "description": [
+                "Prerequisite Knack: Boys Will Be Boys (Scion: God, p. 68) Some Scions are just too likable to take the heat. When the Scion invokes Boys Will Be Boys in order to calm the anger of an authority figure after a disaster, the player can choose to spend two additional Legend points and invoke Blame James as well. Then, the Scion just glances at someone else, makes a brief comment about \u201cWell, it wasn\u2019t my idea\u2026\u201d or somehow gives the impression that the narrowly-averted trouble was the result of someone else\u2019s malfeasance. So impressive is the Scion\u2019s demeanor that the disciplinary authority figure becomes convinced that the named individual had something to do with the event, and is in some way culpable. This Knack only functions if the use of Boys Will Be Boys also functioned; if that attempt fails, then this Knack also fails, although the Legend points are still spent",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Preach On",
+            "description": [
+                "Prerequisite Knack: Inspirational Figure (Scion: Hero, p. 130) When a demigod has a willing audience, he can inspire every member with an uplifting, well-intentioned speech or sermon. This Knack works exactly as its prerequisite, and functions under the same limitations, but it is more effective. Mortals and Scions who hear it are so inspired that their spent Willpower points are entirely re\ufb01lled. This Knack also has a more insidious dimension. If the Scion \ufb01nds himself in charge of a group of titanspawn, he can spend a point of Willpower and give those awful minions a speech that empowers them just as Inspirational Figure inspires mortals. Each titanspawn who hears him regains a point of spent Willpower. Scions who might be opposed to the titanspawn\u2019s goals don\u2019t receive any bene\ufb01t from this inspirational speech, but they are compelled to let the demigod \ufb01nish what he has to say before they do something about it.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Charmer",
+            "description": [
+                "With the sheer, raw charm this Knack represents, the Scion can smother an upwelling of panic, suspicion or utter hatred directed at her for one scene. The player need only spend a point of Legend. One scene is usually long enough to convince a person that it would be in his best interest to help the character, but it\u2019s up to the Scion (and the player\u2019s roleplaying) to actually say the right words. During the scene in which this Knack is in effect, the suppressed emotion doesn\u2019t go away. It merely remains beneath the surface. If the Scion can\u2019t set the person\u2019s mind at ease by scene\u2019s end, the suppressed emotion returns in full force the next time the Scion leaves the affected person\u2019s presence.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "BFF",
+            "description": [
+                "Prerequisite Knack: Blessing of Importance (Scion: Hero, p. 130) A heroic Scion with Epic Charisma can help restore a mortal\u2019s sense of self worth and empowerment just by paying a bit of attention to him and making him feel special. The charismatic Scion can even replenish a measure of the same for one of his fellow Scions. A demigod Scion\u2019s attention makes a person feel even more important, though, especially when the Scion goes out of his way to treat the person like a true friend. When the demigod does so (and spends a point of Legend), he completely re\ufb01 lls a fellow Scion\u2019s spent Willpower points (if that amount is higher than the charismatic Scion\u2019s Epic Charisma). Should he treat a mortal with such affection, the mortal not only regains all his spent Willpower, as per Blessing of Importance, he gains an extra dot of Willpower for the scene. When that extra dot goes away at the end of the scene, the mortal\u2019s spent Willpower completely replenishes again. The Scion can affect a person only once per scene with this Knack.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Shadow Mask",
+            "Dice Pool: Dexterity + Larceny \nCost: 1 Legend \nThe Scion pulls a shadow down from the brim of his hat or up from beneath his collar and wraps it around his head, rendering him completely unrecognizable to human eyes or electronic surveillance equipment (even equipment designed specifically to see in darkness). His voice becomes an unidentifiable whisper. The Scion can see through this mask, and other Scions using Night Eyes can recognize him through it. The shadow mask lasts for a maximum of 24 hours. The Scion can will it to disperse before that period elapses, but otherwise, it remains in place the whole time even if the Scion is unconscious. It doesn\u2019t disperse even if someone shines a bright light in the Scion\u2019s face."
+        ],
+        [
+            "Blessing of Health/Curse of Frailty",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend \nThe Boon can take away a patient\u2019s reproductive capabilities or restore them, provided the patient already has all the necessary organs. This effect lasts for one year per success on the activation roll."
+        ],
+        [
+            "Night Eyes",
+            "Dice Pool: None \nCost: None \nDarkness no longer inflicts visibility penalties on the character. He can see in pitch-blackness almost as well as he can see in bright sunlight, losing only the ability to perceive colors. (Objects he sees in darkness are black-on-black yet perfectly distinguishable in a way that\u2019s conveniently impossible to describe to someone who doesn\u2019t have this Boon.) The Scion cannot see through physical impediments, however."
+        ],
+        [
+            "Absorb Light",
+            "Dice Pool: None \nCost: 2 Legend \nThe Scion\u2019s body turns pitch-black, and he becomes a sinkhole for light. Radiated light becomes absorbed when it strikes the Scion\u2019s body, leaving him as a vaguely humanoid-shaped black blot (though still quite solid). In darkness or shadow, the demigod blends in almost perfectly \u2014 he\u2019s just a little too dark, which makes him stand out a bit from the \u201cmundane\u201d darkness around him. Nevertheless, the Scion gains a bonus equal to the character\u2019s Legend score on all Stealth tests while the power is active."
+        ],
+        [
+            "Unquiet Corpse",
+            "Dice Pool: Charisma + Command \nCost: 1 Willpower + 1 Legend \nBy touching a corpse or its grave with her hand or her Birthright, a Scion can raise that corpse as a mindless zombie (or its pantheon-appropriate equivalent) under her control. Only those limbs that are present and firmly affixed to the zombie\u2019s torso (if only by leather straps and wood staples) function when the zombie rises. The zombie remains animated until either it is destroyed or the Scion who created it dies."
+        ],
+        [
+            "Mind-Riding",
+            "Dice Pool: None \nCost: 1 Legend \nWhile the Scion is using Rada\u2019s Eyes (Cheval 1) to experience someone else\u2019s senses, she can\u2019t normally pick up on that person\u2019s reactions to the things he\u2019s sensing. With Mind-Riding, however, the Scion can listen in on the thoughts of the person whose senses she\u2019s riding. These thoughts whisper in the rider\u2019s mind, and the mental images they conjure play behind the rider\u2019s eyes. Yet, while the rider has access to her victim\u2019s conscious thoughts, she garners only what context those thoughts provide. She can\u2019t snoop around in the victim\u2019s memory to make sense of an enigmatic reaction. While using Rada\u2019s Eyes, the Scion need only spend an additional point of Legend in order to listen in on the host\u2019s thoughts."
+        ],
+        [
+            "Antidote",
+            "Dice Pool: Intelligence + Medicine \nCost: 1 Legend \nA quick purging of the subject\u2019s system forces poisons and diseases away. Any mundane toxin or common disease instantly disappears from the subject, although the leftover damage, crippling, scarring or similar symptoms remain unless cured with other powers. Magical diseases, titanspawn venoms and the poisons inflicted by powerful Relics might be purged."
+        ],
+        [
+            "Night Eyes",
+            "Dice Pool: None \nCost: None \nDarkness no longer inflicts visibility penalties on the character. He can see in pitch-blackness almost as well as he can see in bright sunlight, losing only the ability to perceive colors. (Objects he sees in darkness are black-on-black yet perfectly distinguishable in a way that\u2019s conveniently impossible to describe to someone who doesn\u2019t have this Boon.) The Scion cannot see through physical impediments, however."
+        ],
+        [
+            "Death Senses",
+            "Dice Pool: None \nCost: None \nThe Scion can see ghosts even when those ghosts don\u2019t choose to manifest. To her, ghosts are livid, physical presences, sensible to feeling as to sight (as well as smell and hearing). She still can\u2019t harm the fragile ectoplasmic shell of a ghost who hasn\u2019t manifested, however. The sense of touch this Boon grants is illusory. If the Scion tries to exert enough pressure to cause damage or restrain the ghost, her hand passes through it."
+        ],
+        [
+            "Absorb Light",
+            "Dice Pool: None \nCost: 2 Legend \nThe Scion\u2019s body turns pitch-black, and he becomes a sinkhole for light. Radiated light becomes absorbed when it strikes the Scion\u2019s body, leaving him as a vaguely humanoid-shaped black blot (though still quite solid). In darkness or shadow, the demigod blends in almost perfectly \u2014 he\u2019s just a little too dark, which makes him stand out a bit from the \u201cmundane\u201d darkness around him. Nevertheless, the Scion gains a bonus equal to the character\u2019s Legend score on all Stealth tests while the power is active."
+        ],
+        [
+            "Death Senses",
+            "Dice Pool: None \nCost: None \nThe Scion can see ghosts even when those ghosts don\u2019t choose to manifest. To her, ghosts are livid, physical presences, sensible to feeling as to sight (as well as smell and hearing). She still can\u2019t harm the fragile ectoplasmic shell of a ghost who hasn\u2019t manifested, however. The sense of touch this Boon grants is illusory. If the Scion tries to exert enough pressure to cause damage or restrain the ghost, her hand passes through it."
+        ],
+        [
+            "Night Eyes",
+            "Dice Pool: None \nCost: None \nDarkness no longer inflicts visibility penalties on the character. He can see in pitch-blackness almost as well as he can see in bright sunlight, losing only the ability to perceive colors. (Objects he sees in darkness are black-on-black yet perfectly distinguishable in a way that\u2019s conveniently impossible to describe to someone who doesn\u2019t have this Boon.) The Scion cannot see through physical impediments, however."
+        ],
+        [
+            "Mother's Touch",
+            "Dice Pool: None \nCost: 1 Legend \nA Scion with Death Senses (Death 1) can see, hear and touch ghosts that won\u2019t or can\u2019t materialize, but the sense of touch that that Boon grants is illusory at best. If the Scion tries to exert enough pressure to cause damage or restrain the ghost, her hand passes through its body. With Mother\u2019s Touch, however\u2014named by Scions of Izanami\u2014the Scion charges her body with flickering strands of black energy that can contain or disrupt a ghost\u2019s intangible body. This energy is visible only to ghosts and those who can see ghosts, and the Scion can extend its aura to surround any item in her hands. A measure of the energy even travels with any projectile the Scion throws or fires from an item in her possession, though it dissipates when the projectile comes to rest."
+        ],
+        [
+            "Heal/Infect",
+            "Dice Pool: Stamina + Medicine \nCost: 1 Legend or 1 Willpower \nThe Scion can repair a patient\u2019s injuries or inflict harm directly. On one hand, he can heal as many health levels of bashing damage as his player gets successes on a (Stamina + Medicine) roll. Doing so costs one Legend. Alternatively, he can downgrade a number of health levels equal to successes on the roll from lethal to bashing damage. Doing so costs one Willpower."
+        ],
+        [
+            "Afraid of the Dark",
+            "Dice Pool: Manipulation + Empathy \nCost: 1 Legend \nThe Scion causes a momentary darkness to pass before the eyes of a target. For a single instant, the subject sees everything cast in shadow, with frightening overtones and hideous, nightmarish contortions. This brief second of doubt shakes the target, causing her to lose a single point of Willpower. Afraid of the Dark has no effect on a character with a higher Legend rating than the user. Against someone with an equal or lower Legend score, the defender\u2019s player rolls (Willpower + Integrity + Legend) to shake off the effect."
+        ],
+        [
+            "Earth Travel",
+            "Dice Pool: None \nCost: 1 Legend \nThe Scion can reflexively sink into the bare earth or stone or metal and move through it like a swimmer through water. The Scion can move only through a volume of earth large enough to accommodate his entire body. Also, unless the Scion has Safely Interred (Earth \u2022), he can remain within the earth for only as long as he can hold his breath. If he stays under longer, he begins to drown. While he\u2019s under, the Scion instinctively knows his way to the nearest air."
+        ],
+        [
+            "Shadow Refuge",
+            "Dice Pool: Dexterity + Stealth \nCost: 1 Legend \nThe Scion can hide within any shadow into which his body fits. He need only position himself within the three-dimensional area of the shadow as his player succeeds on the activation roll and spends the point of Legend. If he does so, mundane attempts to find him\u2014even those aided by electronic equipment\u2014fail automatically. Supernatural attempts aided by Epic Perception or an Arete in Awareness (or both) proceed as normal, contesting the searcher\u2019s (Perception + Awareness) against the Scion\u2019s activation roll. The Scion can hide within the shadow as long as it remains large enough. He can move with it as it moves, but doing so might require a new (Dexterity + Stealth) roll depending on the circumstances."
+        ],
+        [
+            "Absorb Light",
+            "Dice Pool: None \nCost: 2 Legend \nThe Scion\u2019s body turns pitch-black, and he becomes a sinkhole for light. Radiated light becomes absorbed when it strikes the Scion\u2019s body, leaving him as a vaguely humanoid-shaped black blot (though still quite solid). In darkness or shadow, the demigod blends in almost perfectly \u2014 he\u2019s just a little too dark, which makes him stand out a bit from the \u201cmundane\u201d darkness around him. Nevertheless, the Scion gains a bonus equal to the character\u2019s Legend score on all Stealth tests while the power is active."
+        ],
+        [
+            "Waking Zombie",
+            "Dice Pool: Manipulation + Cheval \nCost: 1 Willpower \nWhen the Scion has a mortal victim completely under her control, she can temporarily pull the victim\u2019s spirit out of his body and boss the body around as her mindless slave. The Scion must somehow incapacitate the victim\u2014by tying him up, drugging him, beating him unconscious or whatever\u2014then cover the victim\u2019s mouth with her own and take a long, deep breath. The victim\u2019s player then rolls (Willpower + Integrity + Legend) against the activation roll. If the activation roll wins, the Scion sucks out the victim\u2019s spirit and swallows it down into the darkness within her. Once that happens, the victim maintains a dreamlike semi-awareness of what the Scion is doing, just as a victim of Horse (Cheval 3) does, but he can\u2019t take any actions or exert his own will in any way."
+        ]
+    ],
+    "nature": "Bravo",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 31,
+        "move": 25,
+        "climb": 8,
+        "jump": {
+            "horizontal": 18,
+            "vertical": 9
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 24,
+        "parry_dv": 17
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 2,
+        "animal_ken": 0,
+        "art": 2,
+        "athletics": 1,
+        "awareness": 2,
+        "brawl": 0,
+        "command": 3,
+        "control": 0,
+        "craft": 0,
+        "empathy": 0,
+        "fortitude": 3,
+        "integrity": 3,
+        "investigation": 3,
+        "larceny": 0,
+        "marksmanship": 1,
+        "medicine": 0,
+        "melee": 0,
+        "occult": 3,
+        "presence": 3,
+        "politics": 1,
+        "science": 2,
+        "stealth": 2,
+        "survival": 3,
+        "thrown": 1
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 14,
+        "lethal": 14.0,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 6,
+    "god": "Baron Samedi",
+    "pantheon": "Loa",
+    "name": "Tommy Lagarde"
+}

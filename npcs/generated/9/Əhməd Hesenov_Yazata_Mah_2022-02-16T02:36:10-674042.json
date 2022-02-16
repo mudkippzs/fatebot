@@ -1,0 +1,372 @@
+{
+    "attributes": {
+        "stre": 5,
+        "dex": 9,
+        "sta": 5,
+        "cha": 7,
+        "man": 9,
+        "app": 7,
+        "per": 7,
+        "inte": 7,
+        "wits": 7
+    },
+    "epic_attributes": {
+        "epic_stre": 2,
+        "epic_dex": 4,
+        "epic_sta": 1,
+        "epic_cha": 3,
+        "epic_man": 5,
+        "epic_app": 2,
+        "epic_per": 5,
+        "epic_int": 6,
+        "epic_wits": 6
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        1,
+        1,
+        0,
+        0
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "Psychic Profiler",
+            "description": [
+                "Within seconds, the character with this Knack can size up a character with a lesser Legend rating than his own. Just by looking at the person, he can tell her weight, height, age, sex (if it\u2019s unclear to casual inspection) and whether she has a divine heritage or not. With just a few lines of conversation, he can also tell the subject\u2019s Nature, calling and primary Virtue (if any). Finally, if the subject is Fatebound to someone and is acting out a Fatebound Role, he can figure out what that role is. He might not know to whom it applies, but he can probably figure it out from context if he watches the person long enough.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Telepathy",
+            "description": [
+                "The character\u2019s mind is so powerful that he can think thoughts directly into other people\u2019s brains for them. These thoughts come through in a recipient\u2019s head as words spoken in the sender\u2019s voice, and are recognizable as coming in from outside. The sender must be able to see the person whom he intends to address thus, and he must spend one Legend point per sent thought (i.e., per sentence). If the sender has the Multitasking Knack (from Scion: Demigod, p. 65), he can send the same thought to several people at once. The sender cannot receive telepathic information from a recipient unless the recipient also has Telepathy and spends the Legend point to use it.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Perfect Memory",
+            "description": [
+                "The character remembers everything about his past from before the game started to the current moment in the story. If ever the player forgets a salient point or key bit of information from previous sessions, he has but to ask the Storyteller and the Storyteller will remind him. It\u2019s a good idea for the character\u2019s player to take copious notes on each session\u2019s events and double-check them with the Storyteller, if only to alleviate some of the stress on the Storyteller.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Meditative Focus",
+            "description": [
+                "Whether she\u2019s hunkered down behind a burning car in a war zone, caught out on the yard during a prison riot, stranded on the crowded deck of a storm-tossed ship or just mall-walking during the frenzied heights of the Christmas rush, the character never loses her cool. No matter what\u2019s happening, she keeps her mind on what she\u2019s doing while maintaining suf\ufb01cient vigilance to avoid getting caught up in the hubbub all around her. As such, the character is able to eliminate one point of environmental distraction penalty per dot she has of Epic Wits.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Fight With Your Head",
+            "description": [
+                "A Scion with this Knack possesses a truly superhuman sense of strategy. He anticipates an enemy\u2019s evasions, counter-strategies and gambits with ease. He can reason around a berserker\u2019s shock and awe or calculate a dodging foe\u2019s final location to slip past that foe\u2019s defenses. He can find just the right angle to slip from an opponent\u2019s grasp, and he can see through feints and other ploys with ease. The Scion activates this Knack by selecting an opponent and spending one point of Legend. For the rest of the scene, he counteracts the automatic successes, bonus dice and similar benefits conferred by other Knacks and Boons. The total number of such bonuses counteracted cannot exceed the Scion\u2019s automatic success from Epic Intelligence. This Knack can negate bonuses from Knacks and Boons, as well as automatic successes and bonuses from Epic Attributes themselves. It does not affect stunt bonuses or extra dice from invoking Virtues. If an opponent receives more bonuses than a Scion can counteract, the user of this Knack picks what he will negate. This Knack might seem an odd one to include in a book about the Norse and their Gods. In truth, despite their famed fury and aggression, Norse warriors valued a cunning fighter at least as much as a frenzied powerhouse.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Opening Gambit",
+            "description": [
+                "Sometimes, victory in con\ufb02ict is all about being the guy who makes the \ufb01rst move, and the Scion is usually that guy. When he joins battle, his player can either make a Join Battle roll like everyone else, or he can simply spend a point of Legend for his character to automatically go \ufb01rst in the reaction count. This Knack cannot automatically preempt an otherwise unexpected attack, though, as the character must actually be able to join battle for this Knack to function. If more than one character involved in a combat scene has this Knack, the character with the highest (Wits + Epic Wits) total goes \ufb01rst. If characters with this Knack have equal totals, default to a separate Join Battle roll to see which of them acts \ufb01rst.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Perfect Imposter",
+            "description": [
+                "Prerequisite Knack: Social Chameleon (Scion: Hero, p. 136) Impersonating someone in order to in\ufb01ltrate his home or workplace or to get dangerously close to someone he cares about is more dif\ufb01cult the less well the impersonator knows his subject. The best makeup and disguise means nothing if the imposter can\u2019t react to life\u2019s little surprises exactly as the subject of his mimicry would react. With this Knack, however, the Scion can discern with preternatural quickness how the people who think he\u2019s someone else expect that someone else to react. Their minute changes of expression or body language give their expectations away, allowing the imposter to react accordingly. For the most part, this Knack plays itself out without resorting to dice rolls or trait comparisons. As the imposter\u2019s player roleplays (and the imposter himself does so also), the Storyteller simply informs him of what the unsuspecting characters\u2019 expectations are, and the player chooses his imposter\u2019s reactions accordingly. This Knack does not provide a supernatural disguise that would fool someone with the Unfailing Recognition Knack (from Scion: Hero, p. 134), but even if such a Scion can see through the imposter\u2019s disguise, his recognition alone would not be enough to convince anyone else. The imposter retains the wherewithal to stand up to any impromptu interrogation and maintain his charade in everyone else\u2019s eyes, thus making the only other Scion who knows the imposter\u2019s true identity look like a horse\u2019s ass or a liar.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Know\u2013It\u2013All",
+            "description": [
+                "The Scion is widely read and has a ridiculously well-rounded education. She might not be a master of any single subject, but she knows a little bit about a wide range of disparate, esoteric subjects. (She could explain the intricacies of the Teapot Dome Scandal in terms of the interpersonal dynamics of the Justice League, then explain why typing \u201cwhile one fork\u201d into a UNIX system is a bad idea, before wrapping up with an explanation of how a Venus\u2019s-\ufb02ytrap works.) Normally, the burden of portraying this Knack falls to the player, so it behooves her to keep an ear to the ground for obscure trivia she can work into her character\u2019s dialogue during the game. The Storyteller shares a bit of that burden as well, though. During a scene in which the characters seem to be stumped or hopelessly out of options, the Storyteller should \u201cremind\u201d the player of some pertinent bit of obscure trivia her character knows that bears a direct, helpful relevance to the problem at hand. It behooves the Storyteller, then, to make a list of a handful of such helpful hints when he\u2019s designing his story. Just in case.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Opening Salvo",
+            "description": [
+                "The character\u2019s tongue is sharp; with it she can wound a foe to the quick. When the character says something witty (or just catty) to a person and that remark is designed to trip him up or humiliate him, the victim loses one Willpower point. Inflicting this sting with such a venomous put-down (even if it\u2019s actually just a tired Yo-Momma joke the player came up with on the spur of the moment) costs the user one Legend point. The only caveat to this Knack is that the player must actually come up with the gibe in question. It doesn\u2019t have to be good; she just has to say something.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Language Mastery",
+            "description": [
+                "The Scion can understand any language that is spoken to him. Once he\u2019s heard a few sentences, he can then speak that language back as if he grew up among native speakers. Writing the language is a bit trickier, as he can only transliterate his written words in the alphabet of his native language until someone teaches him the alphabet and punctuation of the new language. For instance, say a Scion with this Knack whose native language is English has picked up French at Orly Airport in Paris and would like to leave a thank-you note for a bartender who gave him helpful information. That Scion might write, \u201cMare- see du mah-vay zayday,\u201d to express his thanks, when what he really means is, \u201cMerci de m\u2019avez aid\u00e9.\u201d Likewise, reading the new language can be dif\ufb01cult if that language uses characters that don\u2019t appear in an alphabet with which he is already familiar.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Axiom",
+            "description": [
+                "After running into ambushes featuring no less than two dozen animated sand-golems with stone hearts, a Scion begins to wonder if there\u2019s some sort of pattern behind the attacks. The logical mind of a Scion with Epic Intelligence puts those patterns together and determines some viable conclusion. Once the sand-golems have been defeated, for instance, the Scion might theorize that since they are all made from sand, their creator must reside somewhere with a surfeit of sand \u2014 some desert. Normal people create theories like this all the time, but Scions with this Knack create theories that are correct. The Scion\u2019s player spends three points of Legend and rolls (Intelligence + appropriate Ability + Legend). The Ability used will depend upon the axiom in question: Deriving a scientific fact about something uses Science, while relying on observed clues to deduce a suspect uses Investigation. The Scion must then state the axiom clearly, such as \u201cI deduce from the presence of so much sand in these golems that the creator must reside within a desert,\u201d or \u201cThe constant attacks by ninja imply that our enemy must be related somehow to the Amatsukami.\u201d If the player\u2019s roll succeeds, the Storyteller will respond with \u201ctrue,\u201d meaning that the Scion\u2019s claim is known to be true; \u201cfalse,\u201d meaning that the claim is known to be false; or \u201cincorrect,\u201d meaning that the Scion has proceeded from a false assumption (perhaps forgetting that the ambushing ninja were all clones of Jean-Claude van Damme). If the Storyteller had already planned out that element of the adventure, then the player learns what the Storyteller had in mind by virtue of the power; if the Storyteller had left the element undecided, then his answer to the player\u2019s Axiom essentially enforces how that part of the story will unfold. The Scion logically knows exactly what to expect, and she knows immediately if her best guess is right, wrong, or founded on a mistake that she made. The difficulty of the roll depends upon the scope of the statement. Nailing down a simple fact, such as \u201cAll of these attackers use cheap guns, so their boss must be poor,\u201d has a low difficulty (1-5). Nailing down a more wide-ranging fact, such as \u201cDespite their varied forms, all of these titanspawn are all susceptible to silver, so we should prepare to use the powers of the Moon against them,\u201d has a moderate difficulty (6-15). Facts that affect the Overworld or Underworld, or that nail down specifics with exacting detail, are severely difficult (25+). The difference between a normal deduction and a fact nailed down with Axiom is that the Scion\u2019s stated fact (if confirmed by the Storyteller) is known to be right. Essentially, the Scion\u2019s player states something that will be true or will be false about the rest of the story. The Scion can use this Knack only once per scene.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Fast Learner",
+            "description": [
+                "By buckling down and intently studying certain subjects, the Scion internalizes them in a fraction of the time it would take a lesser intellect. In so doing, he cuts the experience point cost for purchasing dots in Academics, Medicine, Occult, Politics or Science in half, rounding down.",
+                ""
+            ],
+            "tables": []
+        },
+        {
+            "title": "Don\u2019t Read The Manual",
+            "description": [
+                "The Scion sizes up a single item and then puts together an intuitive judgment of how to use it. No matter how complex the item, the Scion can grasp at least the rudiments of its functions. After spending a single point of Legend, the Scion can use the item for the rest of the scene as if the character had one dot in the appropriate Ability. The Scion could, for instance, glance at the controls of a stealth bomber, then intuitively figure out how to get it off the ground (or land it) as if she had one dot in the Control (Jet Aircraft) Ability. Similarly, a noncombatant could pick up a weapon and fight with it as if she had one dot of the Melee Ability. This Knack has no effect if the Scion already possesses the requisite skill."
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Ride Animal",
+            "Dice Pool: Intelligence + Animal Ken \nCost: 1 Legend \nThe Scion stares into the eyes of a specimen of his chosen animal, the one to which his Boon pertains, and overwhelms its mind with his own. For the rest of the scene, the Scion controls the animal\u2019s body just as a character with Horse (Cheval \u2022\u2022\u2022) can control a human\u2019s body. This Boon functions exactly as that one does, with the same limitations and effects on the Scion\u2019s body. The only difference is that Horse applies to possession of a human\u2019s body, while Ride Animal applies to specimens of the Scion\u2019s chosen animal or to his Birthright creature."
+        ],
+        [
+            "Animal Form",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + 1 Legend \nIn one action (Speed 5, DV -1), the character transforms into a specimen of his chosen animal. The character\u2019s Physical Attributes are normal for a mundane specimen of the animal he\u2019s become, but his Mental Attributes remain his own. He also retains access to his Epic Mental Attributes and Knacks, though his other Epic Attributes are off limits until he regains his human form. He can communicate with other animals of his type. Other Scions who use Animal Communication can understand him perfectly clearly. He is immune to other Scions\u2019 uses of Animal Command or Ride Animal."
+        ],
+        [
+            "Humata (Asha \u2022)",
+            "Dice Pool: None \nCost: 1+ Legend \nUpon purchasing this Boon, the Scion chooses one of the three attribute categories (Mental, Social or Physical) to associate with this power. Thereafter, the Scion can invoke the principle of Humata (Good Thoughts) and call upon greater reserves of power. The Scion gains a single \u201cWild Card\u201d dot of Epic Attributes, which she may apply to any Attribute within her chosen category. This may raise an Epic Attribute beyond what the character\u2019s Legend rating allows. The character cannot use Humata multiple times to increase an Epic Attribute by more than one, or to increase any other Epic Attributes. Nor does the temporary dot of Epic Attribute grant an additional Knack. Humata (and its successor Boons) cannot raise an Epic Attribute above 10 dots. \nInvoking Humata costs as many Legend points as the final value of the chosen Epic Attibute. The effect lasts for a scene, and cannot be changed until the scene ends. \n Example: A Scion of Anahita has an Epic Intelligence of 2, no Epic Wits, a Legend of 3 and Humata associated with Mental Attributes. She could spends 3 points of Legend and increases her Epic Intelligence to 3, ignoring that her Legend is too low for that rating; or, she could spend 1 Legend to gain one dot of Epic Wits for the rest of the scene."
+        ],
+        [
+            "Moon Chariot",
+            "Dice Pool: Strength + Control (to drive) \nCost: 1 Legend per 200 lbs. \nThe character says a quick prayer under the night sky, praising the moon God or Goddess who granted him access to this Purview. In response, a silver chariot descends, pulled by two black horses with manes, hooves and eyes of pure moonlight."
+        ],
+        [
+            "Eclipse Halo",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend \nThe Scion spends a Legend point and causes a thin, glowing corona of fire to appear in the air behind his head. This halo perfectly resembles the halo of sunfire that is visible around the edges of the moon during a total solar eclipse. The halo remains perpendicular to all witnesses\u2019 lines of sight simultaneously."
+        ],
+        [
+            "Seta Amesha Spenta (Asha \u2022\u2022\u2022\u2022\u2022 \u2022\u2022\u2022\u2022)",
+            "Dice Pool: Integrity + Legend \nCost: 15 Legend \nThis Boon acts the same as the previous Boon, except that once per scene, the Scion may now call three Amesha Spentas at once to help her. The Scion also now has access to all six of the Amesha Spentas."
+        ],
+        [
+            "Lunacy",
+            "Dice Pool: Manipulation + Presence \nCost: 1 Legend per Virtue Extremity and per person \nThe Scion captures the attention of a group of people and drives them temporarily mad. He must spend one Legend per person he wants to affect, up to a maximum number equal to his Legend. Affected victims suffer the Virtue Extremity from one of the Scion\u2019s chosen Virtues. If the Scion spends one additional Legend point per person, each person suffers an additional Virtue Extremity. That is, if he wants to affect five people with one Virtue Extremity, he must spend only five Legend points. If he wants them to suffer two Virtue Extremities, he must spend 10 Legend points. If he wants to affect all five people with the Virtue Extremity from all four of his Virtues, he must spend 20 Legend points. The Scion can choose how many of the present targets he wishes to affect, but he must affect them all with the same number of Virtue Extremities."
+        ],
+        [
+            "Phase Cloak",
+            "Dice Pool: Dexterity + Stealth \nCost: 1 Legend \nThe Scion turns himself away from his enemies much as the moon turns its face away from the earth. The player decides which \u201cphase\u201d of the character\u2019s body he wishes to leave visible then rolls the Scion\u2019s (Dexterity + Stealth) against a difficulty determined on the table that follows. If the roll succeeds, the intended portion of his body fades from sight. If the roll fails, the Legend point is still spent, but nothing happens. If the roll botches, the character assumes the full-moon phase, garnering a -3 penalty on any mundane attempt to hide."
+        ],
+        [
+            "Animal Feature",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + (1 Legend per feature) \nThe Scion can change a portion of his anatomy to a shape matching the analogous portion of his chosen animal\u2019s anatomy for one scene. If his chosen animal is an armadillo, he can cover himself in a flexible armor. If his animal is a monkey, he can grow a long prehensile tail that is as dexterous as a hand with no thumb. If his animal is a spider or gecko, he can change the surfaces of his hands and feet to enable himself to climb on walls. If his animal is a bird or bat or airborne insect, he can transform his arms into wings that allow him to fly at a rate equal to his Move rate. The exact effect of the change is up to the player, dependent upon Storyteller approval. As a general guideline, though, if the change boosts some trait or grants bonus dice on a special attack, the total bonus value granted cannot be greater than the character\u2019s Legend."
+        ],
+        [
+            "Smoking Mirror",
+            "Dice Pool: None \nCost: 1 Legend \nBy looking up at the moon and spending the requisite Legend point, the character sees reflected in it a bird\u2019s-eye view of the surrounding terrain. This perspective allows a clear view of a radius in miles equal to the Scion\u2019s Legend. The Scion may focus on any point in the reflection and see it clearly, but he can\u2019t see through physical objects or change the angle from the top-down perspective. This Boon doesn\u2019t function on new moon nights, but it can see down through thick clouds on any other night. If the moon is visible during the day, the Scion can use this Boon then as well."
+        ],
+        [
+            "Create Animal",
+            "Dice Pool: None \nCost: (1 Willpower + 1 lethal health level) per act of creation; 1 Legend per set of units \nBy spending one Willpower point and inflicting one lethal health level of damage on himself, the Scion can create mundane animals of his chosen type from his very blood. Such animals are as loyal to him as those granted by the Creatures Birthright, and he can automatically command them mentally. They follow any command the Scion gives them to the best of their ability, and they last for one scene before dissolving into nothingness once again. To grant the creatures solidity, the Scion must pay a number of Legend points relative to the creature\u2019s size. Doing so allows him to create a number of units of the creature per Legend point spent, as follows:"
+        ],
+        [
+            "Animal Form",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + 1 Legend \nIn one action (Speed 5, DV -1), the character transforms into a specimen of his chosen animal. The character\u2019s Physical Attributes are normal for a mundane specimen of the animal he\u2019s become, but his Mental Attributes remain his own. He also retains access to his Epic Mental Attributes and Knacks, though his other Epic Attributes are off limits until he regains his human form. He can communicate with other animals of his type. Other Scions who use Animal Communication can understand him perfectly clearly. He is immune to other Scions\u2019 uses of Animal Command or Ride Animal."
+        ],
+        [
+            "Paper Tiger",
+            "Dice Pool: Intelligence + Art \nCost: 1 Willpower + 5 Legend per act of creation; 1 Legend per unit \nWhile some demigods use the primal power of their ichor to grant life with the Create Animal Boon (Animal 7), others use the artistic work of creation to infuse their conjurations. Indeed, this act may explain the Neolithic cave paintings of various animals scattered about in caves inhabited by early humanity."
+        ],
+        [
+            "Create Animal",
+            "Dice Pool: None \nCost: (1 Willpower + 1 lethal health level) per act of creation; 1 Legend per set of units \nBy spending one Willpower point and inflicting one lethal health level of damage on himself, the Scion can create mundane animals of his chosen type from his very blood. Such animals are as loyal to him as those granted by the Creatures Birthright, and he can automatically command them mentally. They follow any command the Scion gives them to the best of their ability, and they last for one scene before dissolving into nothingness once again. To grant the creatures solidity, the Scion must pay a number of Legend points relative to the creature\u2019s size. Doing so allows him to create a number of units of the creature per Legend point spent, as follows:"
+        ],
+        [
+            "Eclipse Halo",
+            "Dice Pool: Appearance + Presence \nCost: 1 Legend \nThe Scion spends a Legend point and causes a thin, glowing corona of fire to appear in the air behind his head. This halo perfectly resembles the halo of sunfire that is visible around the edges of the moon during a total solar eclipse. The halo remains perpendicular to all witnesses\u2019 lines of sight simultaneously."
+        ],
+        [
+            "Paper Tiger",
+            "Dice Pool: Intelligence + Art \nCost: 1 Willpower + 5 Legend per act of creation; 1 Legend per unit \nWhile some demigods use the primal power of their ichor to grant life with the Create Animal Boon (Animal 7), others use the artistic work of creation to infuse their conjurations. Indeed, this act may explain the Neolithic cave paintings of various animals scattered about in caves inhabited by early humanity."
+        ],
+        [
+            "Havarastra (Asha \u2022\u2022\u2022)",
+            "Dice Pool: None \nCost: 1 Willpower + 1 or more Legend per person \naffected \nThe Scion gains a third \u201cWild Card\u201d dot of Epic Attribute, applied to the remaining category of Attributes. \nThe Scion can also bestow a single dot of Epic Attributes on other people at range, and gift more than one target at a time. The Scion takes a miscellaneous action indicative of prayer \u2014 perhaps opening her arms and looking to the sky, kneeling and touching the ground or simply bowing with her hands clasped. She grants a single dot in one Epic Attribute to all her chosen targets. Targeted people must be within (Legend x 10) yards of the Scion, but she does not need to see them \u2014 merely to know they are present. Each target costs the Scion Legend points based on the resulting value of the chosen Epic Attribute, as per Hukhta and Humata. The effect lasts a scene. Hukhta and Havarastra do not stack."
+        ],
+        [
+            "Hukhta (Asha \u2022\u2022)",
+            "Dice Pool: None \nCost: 1+ Legend per person affected \nThe Scion picks a second category of Attributes, and gains a single \u201cWild Card\u201d dot of Epic Attributes she may apply to this category, following the same rules as for Humata. \nWhat\u2019s more, as a miscellaneous action the Scion can grant a dot of an Epic Attribute to a companion by speaking words of encouragement or praise and touching the target. (Or writing, or signing \u2014 just so long as the target can understand the Scion.) The dot must be in one of the two categories chosen by the Scion. There is no repeat use to grant multiple dots (even in multiple categories). The gift of power can raise Epic Attributes above the limits set by the target\u2019s Legend, and each gift costs as many Legend points as the resulting Epic Attribute rating. This power can affect mortals as well as Scions and other supernatural folk. The effect lasts for a scene."
+        ],
+        [
+            "Havarastra (Asha \u2022\u2022\u2022)",
+            "Dice Pool: None \nCost: 1 Willpower + 1 or more Legend per person \naffected \nThe Scion gains a third \u201cWild Card\u201d dot of Epic Attribute, applied to the remaining category of Attributes. \nThe Scion can also bestow a single dot of Epic Attributes on other people at range, and gift more than one target at a time. The Scion takes a miscellaneous action indicative of prayer \u2014 perhaps opening her arms and looking to the sky, kneeling and touching the ground or simply bowing with her hands clasped. She grants a single dot in one Epic Attribute to all her chosen targets. Targeted people must be within (Legend x 10) yards of the Scion, but she does not need to see them \u2014 merely to know they are present. Each target costs the Scion Legend points based on the resulting value of the chosen Epic Attribute, as per Hukhta and Humata. The effect lasts a scene. Hukhta and Havarastra do not stack."
+        ],
+        [
+            "Humata (Asha \u2022)",
+            "Dice Pool: None \nCost: 1+ Legend \nUpon purchasing this Boon, the Scion chooses one of the three attribute categories (Mental, Social or Physical) to associate with this power. Thereafter, the Scion can invoke the principle of Humata (Good Thoughts) and call upon greater reserves of power. The Scion gains a single \u201cWild Card\u201d dot of Epic Attributes, which she may apply to any Attribute within her chosen category. This may raise an Epic Attribute beyond what the character\u2019s Legend rating allows. The character cannot use Humata multiple times to increase an Epic Attribute by more than one, or to increase any other Epic Attributes. Nor does the temporary dot of Epic Attribute grant an additional Knack. Humata (and its successor Boons) cannot raise an Epic Attribute above 10 dots. \nInvoking Humata costs as many Legend points as the final value of the chosen Epic Attibute. The effect lasts for a scene, and cannot be changed until the scene ends. \n Example: A Scion of Anahita has an Epic Intelligence of 2, no Epic Wits, a Legend of 3 and Humata associated with Mental Attributes. She could spends 3 points of Legend and increases her Epic Intelligence to 3, ignoring that her Legend is too low for that rating; or, she could spend 1 Legend to gain one dot of Epic Wits for the rest of the scene."
+        ],
+        [
+            "Animal Form",
+            "Dice Pool: Stamina + Animal Ken \nCost: 1 Willpower + 1 Legend \nIn one action (Speed 5, DV -1), the character transforms into a specimen of his chosen animal. The character\u2019s Physical Attributes are normal for a mundane specimen of the animal he\u2019s become, but his Mental Attributes remain his own. He also retains access to his Epic Mental Attributes and Knacks, though his other Epic Attributes are off limits until he regains his human form. He can communicate with other animals of his type. Other Scions who use Animal Communication can understand him perfectly clearly. He is immune to other Scions\u2019 uses of Animal Command or Ride Animal."
+        ]
+    ],
+    "nature": "Loner",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 22,
+        "move": 16,
+        "climb": 7,
+        "jump": {
+            "horizontal": 18,
+            "vertical": 9
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 24,
+        "parry_dv": 16
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 2,
+        "animal_ken": 3,
+        "art": 1,
+        "athletics": 2,
+        "awareness": 0,
+        "brawl": 2,
+        "command": 0,
+        "control": 1,
+        "craft": 1,
+        "empathy": 2,
+        "fortitude": 1,
+        "integrity": 2,
+        "investigation": 2,
+        "larceny": 3,
+        "marksmanship": 2,
+        "medicine": 0,
+        "melee": 3,
+        "occult": 3,
+        "presence": 0,
+        "politics": 3,
+        "science": 2,
+        "stealth": 3,
+        "survival": 3,
+        "thrown": 2
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 6,
+        "lethal": 4.0,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 9,
+    "god": "Mah",
+    "pantheon": "Yazata",
+    "name": "\u018fhm\u0259d Hesenov"
+}

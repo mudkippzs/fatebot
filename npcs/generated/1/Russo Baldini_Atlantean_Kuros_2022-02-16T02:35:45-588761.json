@@ -1,0 +1,197 @@
+{
+    "attributes": {
+        "stre": 1,
+        "dex": 1,
+        "sta": 1,
+        "cha": 1,
+        "man": 1,
+        "app": 1,
+        "per": 1,
+        "inte": 1,
+        "wits": 1
+    },
+    "epic_attributes": {
+        "epic_stre": 0,
+        "epic_dex": 1,
+        "epic_sta": 0,
+        "epic_cha": 1,
+        "epic_man": 2,
+        "epic_app": 0,
+        "epic_per": 1,
+        "epic_int": 0,
+        "epic_wits": 0
+    },
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "legend_points_total": 0,
+    "legend_points_current": 0,
+    "willpower_total": 0,
+    "willpower_current": 0,
+    "virtues": [
+        1,
+        2,
+        1,
+        1
+    ],
+    "inventory": [],
+    "knacks": [
+        {
+            "title": "And the Crowd Goes Wild",
+            "description": [
+                "By the luck of the divine genetic draw, the character is superbly suited to athletic pursuits. She excels at any sport she plays, even if she\u2019s never so much as heard of it before. Running, jumping, climbing, swimming\u2026 any athletic pursuit is second nature to her. As a result, any dice the character has in Athletics are considered to be automatic successes when the player rolls a dice pool that includes Athletics. Bonus dice granted by an Arete (see Scion: Hero, p. 149) are also counted as successes automatically if the player spends a point of Legend when her character performs the action. Values that derive from a character\u2019s Athletics rating (such as Dodge DV or the feats of strength total) are not affected by this Knack, nor are any Boon activation rolls that might call for Athletics.",
+                ""
+            ],
+            "tables": []
+        }
+    ],
+    "boons": [
+        [
+            "Sky's Grace",
+            "Dice Pool: None \nCost: 1 Legend \nBy spending a point of Legend, the Scion takes no damage from falls of any height. Alternatively, the Scion can use that point to double the distance he can jump either straight up or horizontally. If the Scion has the Holy Bound Knack\u2014as well as this Boon, the base distance he can leap doubles, then doubles again if the player spends a point of Legend."
+        ]
+    ],
+    "nature": "Survivor",
+    "relics": [],
+    "creatures": [],
+    "movement": {
+        "dash": 8,
+        "move": 2,
+        "climb": 1,
+        "jump": {
+            "horizontal": 8,
+            "vertical": 4
+        }
+    },
+    "combat": {
+        "melee": [
+            2,
+            "1B",
+            null,
+            null
+        ],
+        "range": [
+            2,
+            "2L",
+            null,
+            null
+        ],
+        "dodge": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "parry": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "coordattack": [
+            5,
+            null,
+            null,
+            -2
+        ],
+        "dash": [
+            3,
+            null,
+            null,
+            -2
+        ],
+        "aim": [
+            3,
+            null,
+            null,
+            -1
+        ],
+        "guard": [
+            3,
+            null,
+            null,
+            0
+        ],
+        "move": [
+            0,
+            null,
+            null,
+            0
+        ],
+        "grapple": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "inactive": [
+            5,
+            null,
+            null,
+            null
+        ],
+        "dodge_dv": 6,
+        "parry_dv": 3
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 2,
+        "animal_ken": 3,
+        "art": 2,
+        "athletics": 3,
+        "awareness": 3,
+        "brawl": 1,
+        "command": 3,
+        "control": 0,
+        "craft": 0,
+        "empathy": 1,
+        "fortitude": 0,
+        "integrity": 2,
+        "investigation": 2,
+        "larceny": 0,
+        "marksmanship": 2,
+        "medicine": 1,
+        "melee": 1,
+        "occult": 2,
+        "presence": 1,
+        "politics": 2,
+        "science": 2,
+        "stealth": 3,
+        "survival": 3,
+        "thrown": 1
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 1,
+        "lethal": 0.5,
+        "aggrevated": 0
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "legend": 1,
+    "god": "Kuros",
+    "pantheon": "Atlantean",
+    "name": "Russo Baldini"
+}
