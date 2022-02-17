@@ -20,7 +20,7 @@ import pantheons
 from player import Player
 
 # Util functions.
-from dprint import dprint as dp
+from dprint import Dprint
 from main import rolldice
 from npcs import npc_template
 
@@ -28,6 +28,8 @@ import growths
 import epiccalc
 import namegenerator
 
+# Setup debug logger
+dprinter = Dprint()
 
 # Get our config vals.
 with open("config.json", "r") as f:
@@ -96,7 +98,7 @@ class NPC:
 			legend = 20
 
 		if self.debug is True:
-			dp(f"L: {legend}, LOW: {self.legend_lower_constraint} , HIGH: {self.legend_upper_constraint}", "__set_challenge_level")
+			dprinter.dp(f"L: {legend}, LOW: {self.legend_lower_constraint} , HIGH: {self.legend_upper_constraint}", "__set_challenge_level")
 			self.legend = random.randint(legend - self.legend_lower_constraint, legend + self.legend_upper_constraint)
 		else:
 			self.legend = legend
@@ -126,7 +128,7 @@ class NPC:
 
 	def __randomly_distribute_attributes(self):
 		attribute_points = calculate_attribute_points(self.legend)
-		dp(f"Legend: {self.legend} - Attributes to spend:{attribute_points}", "randomly_distribute_attributes")
+		dprinter.dp(f"Legend: {self.legend} - Attributes to spend:{attribute_points}", "randomly_distribute_attributes")
 		
 	def __set_nature(self):
 		random_nature = random.choice(nature.NATURE)
@@ -206,11 +208,13 @@ class NPC:
 		#print(f"Total Epic Attribute Points: {budget}")
 		parents_favoured = self.god_data["favoured"]["epic_attributes"]
 		#pp(self.template["epic_attributes"])
+		dprinter.dp(f"preloop EA Budget: {budget}", "__choose_epic_attributes")
 		while budget > 0 :
-			for _ in range(0, budget):
-				attribute = random.choice([[k,v] for k,v in enumerate(self.template["epic_attributes"])])[1]
+			dprinter.dp(f"EA Budget: {budget}", "__choose_epic_attributes")
+			attribute = random.choice([[k,v] for k,v in enumerate(self.template["epic_attributes"])])[1]
+			if self.template["epic_attributes"][attribute] <= self.legend:
 				self.template["epic_attributes"][attribute] += 1
-				budget = budget - 1
+				budget -= 1
 				
 		#pp(self.template)				
 		
@@ -223,12 +227,16 @@ class NPC:
 			total_points = xp_list[legend]
 			
 			self.__randomly_distribute_attributes()
-			self.__choose_epic_attributes(total_points)
+			boon_budget = math.ceil(total_points * 0.5)
+			knack_budget = math.floor(total_points * 0.5)
 			
+			self.__choose_epic_attributes(knack_budget)
 			#print(f"== Total points: {total_points}")
 			while total_points > 0:
-				boon_budget = math.ceil(total_points * 0.5)
-				knack_budget = math.ceil(total_points * 0.5)
+
+				dprinter.dp(f"Boon budget: {boon_budget}")
+				dprinter.dp(f"Knack budget: {knack_budget}")
+				dprinter.dp(f"Total budget: {knack_budget}")
 
 				total_points -= boon_budget
 				total_points -= knack_budget
