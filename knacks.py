@@ -7,9 +7,13 @@ import random
 
 import argparse
 
+from dprint import Dprint
 from tableparser import parse_table
 
 KNACKS_WITH_TABLES = ["Rumor Mill", "Trendsetter", "Scent The Divine", "Concept To Execution"]
+
+# Setup debug logger
+dprinter = Dprint()
 
 with open("config.json", "r") as f:
     config = json.load(f)
@@ -119,7 +123,7 @@ def get_knacks(url):
             if tables:
                 for table in tables:
                     table_list.append(parse_table(table))
-            
+
             d = d.replace("Caveat:","<Caveat>")
             d = d.replace("Prerequisite Knacks:","<Prerequisites>")
             d = d.replace("  .","")
@@ -130,12 +134,31 @@ def get_knacks(url):
             d = d.replace('</li>',"\n")
             d = d.replace('</ul>',"\n")
             description.append(d)
+        description = "\n".join(description)
+
+        prerequisites = description.split(" ")
+        prereqs = None
+
+        if "Prerequisite" in prerequisites[0] and "(Scion:" in prerequisites[6]:
+            prereqs = f"{prerequisites[2]} {prerequisites[3]} {prerequisites[4]} {prerequisites[5]}"
+
+        if "Prerequisite" in prerequisites[0] and "(Scion:" in prerequisites[5]:
+            prereqs = f"{prerequisites[2]} {prerequisites[3]} {prerequisites[4]}"
+        
+        if "Prerequisite" in prerequisites[0] and "(Scion:" in prerequisites[4]:
+            prereqs = f"{prerequisites[2]} {prerequisites[3]}"
+
+        if "Prerequisite" in prerequisites[0] and "(Scion:" in prerequisites[3]:
+            prereqs = f"{prerequisites[2]}"
 
         k = {
             "title": title,
             "description": description,
+            "prereqs": prereqs,
             "tables": table_list
         }
+
+        dprinter.dp(k)
 
         if any(f in title for f in filterstring):
             pass
