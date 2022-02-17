@@ -92,7 +92,10 @@ def search_knacks(term):
 
 def get_knacks(url):
     knacks = []
-
+    filterstring = [
+        "page-content",
+        "EPIC STRENGTH KNACKS",
+    ]
     # Get the html from the page and parse it with BeautifulSoup
     r = requests.get(url)
     soup = bs4.BeautifulSoup(r.text, "html.parser")
@@ -102,11 +105,11 @@ def get_knacks(url):
     knacks_split = str(knack_divs).split("<strong>")
     for ks in knacks_split:
         knack = ks.split("<p>")
-        title = knack[0].replace("</strong></p>","")
+        title = knack[0].replace("</strong></p>","").replace("\n", "")
         description = []
 
         table_list = []
-        for d in knack[1:]:            
+        for d in knack[1:]:   
             if "Scent The Divine" in title:
                 d = d.replace('<table class=\"wiki-content-table\">\n<tr>\n<td>',"")
                 tables = bs4.BeautifulSoup(" ".join(knacks_split), "html.parser").find_all("table", {"class": "wiki-content-table"})
@@ -134,7 +137,10 @@ def get_knacks(url):
             "tables": table_list
         }
 
-        knacks.append(k)
+        if any(f in title for f in filterstring):
+            pass
+        else:
+            knacks.append(k)
 
     return knacks
 
