@@ -41,7 +41,7 @@ def get_all_knacks_by_attr(attr, character_data, god_data):
                 chosen_knack_title = chosen_knack["title"]
                 #print(f"Checking if we have {chosen_knack_title}...")
                 #print([k["title"] for k in character_data["knacks"]])
-                if chosen_knack_title not in [k["title"] for k in character_data["knacks"]]:
+                if chosen_knack_title not in [k["title"] for k in character_data["knacks"]] and chosen_knack_title not in [k["prereqs"] for k in character_data["knacks"]]:
                     #print(f"Added to list...")
                     character_data["knacks"].append(chosen_knack)
                     break
@@ -54,7 +54,7 @@ def get_all_knacks_by_attr(attr, character_data, god_data):
                 chosen_knack_title = chosen_knack["title"]
                 #print(f"Checking if we have {chosen_knack_title}...")
                 #print([k["title"] for k in character_data["knacks"]])
-                if random.randint(-1,1) is True and chosen_knack_title not in [k["title"] for k in character_data["knacks"]]:
+                if random.randint(-1,1) is True and chosen_knack_title not in [k["title"] for k in character_data["knacks"]] and chosen_knack_title not in [k["prereqs"] for k in character_data["knacks"]]:
                     #print(f"Added to list...")
                     character_data["knacks"].append(chosen_knack)
                     break
