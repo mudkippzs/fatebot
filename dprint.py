@@ -13,4 +13,4 @@ def dprint(message:[list, dict, str, int, bool] = None, debug_identifier:str = "
 		print(base_message + "\t" + message)
 
 if __name__ == "__main__":
-	dprint("Debugger Printer Module Test Message.")
+	dprint("Debugger Printer Module Test Message.", "Test")
