@@ -1,5 +1,5 @@
 import argparse
-import pprint
+from pprint import pprint as pp
 import datetime
 
 
