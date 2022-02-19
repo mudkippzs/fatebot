@@ -1,13 +1,18 @@
 import discord
 from discord.ext import commands
 from discord.utils import get
+
+from cogwatch import watch
+
 from pprint import pprint as pp
+
 from knacks import search_knacks
 from pantheons import PANTHEONS
 from pantheons import search_gods
 from pantheons import search_pantheon
 from pantheons import search_rivals
 from pantheons import search_favoured
+from epiccalc import calculate_epic
 
 from boons import search_boons
 from split_text import split_text
@@ -18,55 +23,6 @@ import json
 import random
 import re
 
-EPIC_RATIOS = {
-"0": 0,
-"1": 1,
-"2": 2,
-"3": 4,
-"4": 7,
-"5": 11,
-"6": 16,
-"7": 22,
-"8": 29,
-"9": 37,
-"10": 46,
-"11": 56,
-"12": 67,
-"13": 79,
-"14": 92,
-"15": 106,
-"16": 121,
-"17": 137,
-"18": 154,
-"19": 172,
-"20": 191,
-"21": 211,
-"22": 232,
-"23": 254,
-"24": 277,
-"25": 301,
-"26": 326,
-"27": 352,
-"28": 379,
-"29": 407,
-"30": 436,
-"31": 466,
-"32": 497,
-"33": 529,
-"34": 562,
-"35": 596,
-"36": 631,
-"37": 667,
-"38": 704,
-"39": 742,
-"40": 781,
-"41": 821,
-"42": 862,
-"43": 904,
-"44": 947,
-"45": 991,
-"46": 1036,
-}
 
 SESSION_RESULTS = {}
 
@@ -298,7 +254,7 @@ def rolldice(roll_string:str = None):
                 successes += 1    
 
     # Add extra successes based on epic attribute.
-    extra_successes = EPIC_RATIOS[str(epic)]
+    extra_successes = calculate_epic(epic)
     success_total = successes + extra_successes
 
     return dice_results, successes, extra_successes, success_total
@@ -472,10 +428,10 @@ async def returnDiceLogs(ctx, logs_list:list=[], dicelogger:list=[], limit:int =
 async def shieldsmoke(ctx):
     cigarette_brands = config["brands"].split(",")
     
-    if ctx.message.author.id not in [config["gamemaster"]["ganj"], config["players"]["vasily"]]:
+    if ctx.message.author.id not in [config["gamemaster"][0]["ganj"], config["players"][0]["vasily"]]:
         await ctx.send("You are not Vasily, only Vasily can smoke Vasily's smokes...")
     else:
-        if ctx.message.author.id == config["players"]["vasily"]:
+        if ctx.message.author.id == config["players"][0]["vasily"]:
             vasily = "Vasily opens his"
         else:
             vasily = f"{ctx.message.author.display_name} opens Vasily's"
