@@ -88,7 +88,7 @@ class Player:
 		return
 
 	def join_battle(self):
-		self.join_battle = 0
+		self.join_battle_result = 0
 		
 		wits = self.attributes["wits"]
 		wits_epic = self.epic_attributes["epic_wits"]
@@ -98,7 +98,7 @@ class Player:
 		roll_string = f"{wits + wits_mod},{awareness},{wits_epic}"
 		dice_log = []
 		dice_results, successes, extra_successes, success_total = rolldice(roll_string)
-		self.join_battle = success_total
+		self.join_battle_result = success_total
 		
 		# To debug dice JB rolls - uncomment. @TODO: Refactor into a debugger.
 

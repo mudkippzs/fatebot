@@ -232,6 +232,8 @@ async def knacks(ctx):
 
 def rolldice(roll_string:str = None):
     """Rolls dice for the given attribute, ability and epic attribute."""    
+    if type(roll_string) == str:
+        roll_string = roll_string.split(",")
     attr = int(roll_string[0])
     ability = int(roll_string[1])
     epic = int(roll_string[2])

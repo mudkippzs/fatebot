@@ -2,8 +2,8 @@ from datetime import datetime
 from pprint import pprint as pp
 
 from player import Player
-from player import generate_random_npc
 from main import rolldice
+from npc import NPC
 
 from characters import pc_bob 
 from characters import pc_vasily 
@@ -44,13 +44,15 @@ class Battle:
 	players = []
 
 	def __init__(self, players: list=[]):
-		if players:
-			players = players
+		if len(players):
 			for player in players:
-				if player[1] > 6:
+				jb = player.join_battle()
+				if jb > 6:
 					max_initiative = 6
 				else:
-					max_initiative = player[1]
+					max_initiative = jb
+
+			self.players = players
 
 			print(f"Highest initiative in Player Join Battle rolls: {max_initiative}")
 			print(f"Rolling Join Battle for {len(players)} players...")
@@ -59,22 +61,17 @@ class Battle:
 			print("No players added to Battle.")
 
 	def join_battle(self):
-		for player in players:
-			print(player[0], player[1], player[2])
-			name = player[0]
-			jb = player[1]
-			ea = player[2]
-			dice_results, successes, extra_successes, success_total = rolldice(f"{jb},0,{ea}")
-			print(f"Results for {player}")
-			print(f"Dice results:\t{dice_results}")
-			print(f"Successes:\t{successes}")
-			print(f"Automatic Successes:\t{extra_successes}")
-			print(f"Total Successes:\t{success_total}")
-			position = self.max_initiative - success_total
+		for player in self.players:
+			if player.npc == True:
+				name = player.label
+			else:
+				name = player.name
+			jb = player.join_battle()
+			position = self.max_initiative - jb
 			if position <0:
 				position = 0
 			self.tick[str(position)].append(player)
-		print(self.tick)
+		
 
 	def player_action(player, action):
 		if action == "melee":
@@ -103,7 +100,7 @@ class Battle:
 			self.current_tick = 1
 
 	def __str__(self):
-		current_players = ",".join(self.tick[str(self.current_tick)])
+		current_players = ",".join([p.name for p in self.tick[str(self.current_tick)]])
 		return f"Current tick: {self.current_tick}\nActive players: {current_players}"
 
 if __name__ == "__main__":
@@ -126,7 +123,16 @@ if __name__ == "__main__":
 
 	# NPCs
 	npc_list = []
-	for _ in range(1, 10):
-		npc_list.append(generate_random_npc("Test NPC Grunt", 2))
+	for _ in range(0, 5):
+		print(f"Generating NPC {_+1}...")
+		n = NPC(label="Grunt", legend=6, debug=True)
+		n.save_to_dict()
+		npc_list.append(n.player)
 
-	pp(npc_list)
+	all_battlers = band + npc_list
+	
+	b = Battle(all_battlers)
+	b.join_battle()
+	for _ in range(20):
+		print(b)
+		b.next_tick()
