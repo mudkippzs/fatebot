@@ -426,14 +426,14 @@ async def returnDiceLogs(ctx, logs_list:list=[], dicelogger:list=[], limit:int =
 
             await ctx.send("\n".join(dicelogger))    
 
-@bot.command(alias=["shieldsmokes"])
+@bot.command(aliases=["shieldsmokes","shieldcig","shieldcigs"])
 async def shieldsmoke(ctx):
     cigarette_brands = config["brands"].split(",")
     
-    if ctx.message.author.id not in [config["gamemaster"][0]["ganj"], config["players"][0]["vasily"]]:
+    if str(ctx.message.author.id) not in [config["gamemaster"][0]["ganj"], config["players"][0]["vasily"]]:
         await ctx.send("You are not Vasily, only Vasily can smoke Vasily's smokes...")
     else:
-        if ctx.message.author.id == config["players"][0]["vasily"]:
+        if str(ctx.message.author.id) == config["players"][0]["vasily"]:
             vasily = "Vasily opens his"
         else:
             vasily = f"{ctx.message.author.display_name} opens Vasily's"
