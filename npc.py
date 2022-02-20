@@ -375,6 +375,7 @@ class NPC:
 		self.__set_nature()
 		self.__set_divinity(god, pantheon, final_legend)
 		self.__set_legend(0)
+		self.__choose_virtues()
 
 		self.__choose_abilites()
 		self.__randomly_distribute_attributes()
@@ -389,7 +390,6 @@ class NPC:
 			self.__choose_boons(boon_budget)
 			self.__choose_epic_attributes(ea_budget)
 			self.__choose_knacks(ea_budget)
-			self.__choose_virtues()
 
 		for legend in range(final_legend + 1):
 			self.__apply_experience(legend)
