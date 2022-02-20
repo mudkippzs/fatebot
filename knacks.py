@@ -18,47 +18,35 @@ dprinter = Dprint()
 with open("config.json", "r") as f:
     config = json.load(f)
 
-def get_all_knacks_by_attr(attr, character_data, god_data):
+def choose_random_knacks(character_data, god_data, new_knacks):
     with open("knacks.json") as f:
         data = json.load(f)
 
-    knack_list = []
     favoured_epic_attributes = [ea.replace("Epic ", "").lower() for ea in god_data["favoured"]["epic_attributes"]]
-    random.shuffle(favoured_epic_attributes)
-    try:
-        fav_attr = favoured_epic_attributes[0]
-    except IndexError:
-        fav_attr = []
+    while(sum([v for k,v in new_knacks.items()]) > 0):
+        for knack_attr in new_knacks:
+            knack_list = character_data["knacks"]
+            knack_attr_list = data[knack_attr]
+            current_knack_titles = [k["title"] for k in knack_list]
+            if any(knack_attr in fea for fea in favoured_epic_attributes) and new_knacks[knack_attr] > 0:
+                random_knack = random.choice(data[knack_attr])
+                if random_knack["prereqs"] in current_knack_titles:
+                    character_data["knacks"].append(random_knack)
+                else:
+                    if random_knack["prereqs"] is None:
+                        character_data["knacks"].append(random_knack)
 
-    for knack in data:
-        if knack in attr:
-            if knack in fav_attr:
-                #print(f"Choosing {knack} knack...")
-                chosen_knack = None
-                #print(f"Searching for a new {knack}...")
-                random.shuffle(data[knack])
-                chosen_knack = data[knack][0]
-                chosen_knack_title = chosen_knack["title"]
-                #print(f"Checking if we have {chosen_knack_title}...")
-                #print([k["title"] for k in character_data["knacks"]])
-                if chosen_knack_title not in [k["title"] for k in character_data["knacks"]] and chosen_knack_title not in [k["prereqs"] for k in character_data["knacks"]]:
-                    #print(f"Added to list...")
-                    character_data["knacks"].append(chosen_knack)
-                    break
+                new_knacks[knack_attr] -= 1
             else:
-                #print(f"Choosing {knack} knack...")
-                chosen_knack = None
-                #print(f"Searching for a new {knack}...")
-                random.shuffle(data[knack])
-                chosen_knack = data[knack][0]
-                chosen_knack_title = chosen_knack["title"]
-                #print(f"Checking if we have {chosen_knack_title}...")
-                #print([k["title"] for k in character_data["knacks"]])
-                if random.randint(-1,1) is True and chosen_knack_title not in [k["title"] for k in character_data["knacks"]] and chosen_knack_title not in [k["prereqs"] for k in character_data["knacks"]]:
-                    #print(f"Added to list...")
-                    character_data["knacks"].append(chosen_knack)
-                    break
+                if random.randint(0,1):
+                    random_knack = random.choice(data[knack_attr])
+                    if random_knack["prereqs"] in current_knack_titles:
+                        character_data["knacks"].append(random_knack)
+                    else:
+                        if random_knack["prereqs"] is None:
+                            character_data["knacks"].append(random_knack)
 
+                    new_knacks[knack_attr] -= 1
 
     return character_data
 
@@ -134,9 +122,10 @@ def get_knacks(url):
             d = d.replace('</li>',"\n")
             d = d.replace('</ul>',"\n")
             description.append(d)
-        description = "\n".join(description)
+       
+        description_split = "\n".join(description)
 
-        prerequisites = description.split(" ")
+        prerequisites = description_split.split(" ")
         prereqs = None
 
         if "Prerequisite" in prerequisites[0] and "(Scion:" in prerequisites[6]:
@@ -169,15 +158,15 @@ def get_knacks(url):
 
 def main(crawl, test):
     knack_urls = {
-        "str" : "http://scion-mmp.wikidot.com/str-knacks",
+        "stre" : "http://scion-mmp.wikidot.com/str-knacks",
         "dex" : "http://scion-mmp.wikidot.com/dex-knacks",
         "sta" : "http://scion-mmp.wikidot.com/sta-knacks",
         "cha" : "http://scion-mmp.wikidot.com/cha-knacks",
         "app" : "http://scion-mmp.wikidot.com/app-knacks",
         "man" : "http://scion-mmp.wikidot.com/man-knacks",
         "per" : "http://scion-mmp.wikidot.com/per-knacks",
-        "int" : "http://scion-mmp.wikidot.com/int-knacks",
-        "wit" : "http://scion-mmp.wikidot.com/wit-knacks",
+        "inte" : "http://scion-mmp.wikidot.com/int-knacks",
+        "wits" : "http://scion-mmp.wikidot.com/wit-knacks",
     }
 
     knacks = {}
@@ -192,6 +181,7 @@ def main(crawl, test):
     if test:
         print("Knack Debugger")
         print("==============")
+        pp(search_knacks("cat"))
     
 if __name__ == "__main__":
     

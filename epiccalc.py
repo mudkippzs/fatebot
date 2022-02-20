@@ -1,3 +1,4 @@
+import argparse
 from pprint import pprint as pp
 
 def calculate_epic(dot):
@@ -33,11 +34,14 @@ def calculate_epic_as_dict(dot):
 	return success_list
 	
 if __name__ == "__main__":
-	# print(calculate_epic(0)) # 0
-	# print(calculate_epic(1)) # 1
-	# print(calculate_epic(2)) # 2
-	# print(calculate_epic(6)) # 16
-	# print(calculate_epic(15)) # 22
-	# print(calculate_epic(32)) # 497
-	pp(calculate_epic_as_dict(10000001))
+	  
+	parser = argparse.ArgumentParser(description="Automatic Success calculator for Scion 1e.")
+	parser.add_argument('--calc','-c', type=int)
 
+	args = parser.parse_args()
+
+	if args.calc > 0:
+		print(f"{args.calc} dots in an epic attribute grant: {calculate_epic(args.calc)} automatic successes!")
+	else:
+		for _ in range(0,25):
+			print(f"{_} dots in an epic attribute grant: {calculate_epic(_)} automatic successes!")

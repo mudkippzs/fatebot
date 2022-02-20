@@ -18,7 +18,7 @@ PLAYER_CHARACTER_SHEET = {
 		"epic_man": 0,
 		"epic_app": 0,
 		"epic_per": 0,
-		"epic_int": 0,
+		"epic_inte": 0,
 		"epic_wits": 0
 	},
 	"stre_mod": 0,

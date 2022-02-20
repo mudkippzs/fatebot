@@ -1,6 +1,8 @@
-from pprint import pprint as pp
+from dprint import Dprint
 import random
-									
+	
+# Setup debug logger
+
 PANTHEONS = {
 	"Pesedjet": {
 		"virtues": [
@@ -4091,7 +4093,7 @@ def search_gods(term):
 					"favoured": PANTHEONS[pantheon][g][god]["favoured"],
 					}
 					return god_dict
-	return 0
+	return
 
 def search_pantheon(term):
 	pantheon_list = {}  
@@ -4099,57 +4101,62 @@ def search_pantheon(term):
 		if term.lower() in pantheon.lower():
 			pantheon_list[pantheon] = []
 			for g in PANTHEONS[pantheon]:
-				for god in PANTHEONS[pantheon][g]:
-					god_dict = {
-					"name": god.title(),
-					"pantheon": pantheon.title(),
-					"aka": PANTHEONS[pantheon][g][god]["aka"],
-					"description": PANTHEONS[pantheon][g][god]["description"],
-					"rivals": PANTHEONS[pantheon][g][god]["rivals"],
-					"favoured": PANTHEONS[pantheon][g][god]["favoured"],
-					}
-					pantheon_list[pantheon].append(god_dict)
+				if "gods" in g:
+					for god in PANTHEONS[pantheon][g]:
+						god_dict = {
+							"name": god.title(),
+							"pantheon": pantheon.title(),
+							"aka": PANTHEONS[pantheon][g][god]["aka"],
+							"description": PANTHEONS[pantheon][g][god]["description"],
+							"rivals": PANTHEONS[pantheon][g][god]["rivals"],
+							"favoured": PANTHEONS[pantheon][g][god]["favoured"],
+							}
+						
+						pantheon_list[pantheon].append(god_dict)
 	return pantheon_list
 
 def search_rivals(term):
 	rival_list = [] 
 	for pantheon in PANTHEONS:
 		for g in PANTHEONS[pantheon]:
-			for god in PANTHEONS[pantheon][g]:
-				rivals = [r.lower() for r in PANTHEONS[pantheon][g][god]["rivals"]]
-				for rival in rivals:
-					if term.lower() in rival:
-						god_dict = {
-						"name": god.title(),
-						"pantheon": pantheon.title(),
-						"aka": PANTHEONS[pantheon][g][god]["aka"],
-						"description": PANTHEONS[pantheon][g][god]["description"],
-						"rivals": PANTHEONS[pantheon][g][god]["rivals"],
-						"favoured": PANTHEONS[pantheon][g][god]["favoured"],
-						}
-						rival_list.append(god_dict)
+			if "rivals" in g:
+				for god in PANTHEONS[pantheon][g]:
+					rivals = [r.lower() for r in PANTHEONS[pantheon][g][god]["rivals"]]
+					for rival in rivals:
+						dprinter.dp(f"{rival}: {rivals}")
+						if term.lower() in rival:
+							god_dict = {
+								"name": god.title(),
+								"pantheon": pantheon.title(),
+								"aka": PANTHEONS[pantheon][g][god]["aka"],
+								"description": PANTHEONS[pantheon][g][god]["description"],
+								"rivals": PANTHEONS[pantheon][g][god]["rivals"],
+								"favoured": PANTHEONS[pantheon][g][god]["favoured"],
+								}
+							rival_list.append(god_dict)
+
 	return rival_list
 
 def search_favoured(term):
 	favoured_god = []   
 	for pantheon in PANTHEONS:
 		for g in PANTHEONS[pantheon]:
-			for god in PANTHEONS[pantheon][g]:
-				for f in PANTHEONS[pantheon][g][god]["favoured"]["epic_attributes"]:
-
-					favoured_abilities = [f for f in PANTHEONS[pantheon][g][god]["favoured"]["abilities"] if term.lower() in f.lower()]
-					favoured_epic_attributes = [f for f in PANTHEONS[pantheon][g][god]["favoured"]["epic_attributes"] if term.lower() in f.lower()]
-					favoured_purviews = [f for f in PANTHEONS[pantheon][g][god]["favoured"]["purviews"] if term.lower() in f.lower()]
-					if len(favoured_abilities) > 0 or len(favoured_epic_attributes) > 0 or len(favoured_purviews) > 0:
-						god_dict = {
-						"name": god.title(),
-						"pantheon": pantheon.title(),
-						"aka": PANTHEONS[pantheon][g][god]["aka"],
-						"description": PANTHEONS[pantheon][g][god]["description"],
-						"rivals": PANTHEONS[pantheon][g][god]["rivals"],
-						"favoured": PANTHEONS[pantheon][g][god]["favoured"],
-						}
-						favoured_god.append(god_dict)
+			if "rivals" in g:
+				for god in PANTHEONS[pantheon][g]:
+					for f in PANTHEONS[pantheon][g][god]["favoured"]["epic_attributes"]:
+						favoured_abilities = [f for f in PANTHEONS[pantheon][g][god]["favoured"]["abilities"] if term.lower() in f.lower()]
+						favoured_epic_attributes = [f for f in PANTHEONS[pantheon][g][god]["favoured"]["epic_attributes"] if term.lower() in f.lower()]
+						favoured_purviews = [f for f in PANTHEONS[pantheon][g][god]["favoured"]["purviews"] if term.lower() in f.lower()]
+						if len(favoured_abilities) > 0 or len(favoured_epic_attributes) > 0 or len(favoured_purviews) > 0:
+							god_dict = {
+							"name": god.title(),
+							"pantheon": pantheon.title(),
+							"aka": PANTHEONS[pantheon][g][god]["aka"],
+							"description": PANTHEONS[pantheon][g][god]["description"],
+							"rivals": PANTHEONS[pantheon][g][god]["rivals"],
+							"favoured": PANTHEONS[pantheon][g][god]["favoured"],
+							}
+							favoured_god.append(god_dict)
 	return favoured_god
 
 
@@ -4164,16 +4171,18 @@ def get_random_pantheon_god(pantheon=None):
 if __name__ == "__main__":
 	if search_gods("Anu"):
 		print("Function: search_gods() works!")
+	if search_rivals("Tezcat"):
+		dprinter.dp(search_rivals("Tezcat"))
+		print("Function: search_rivals() works!")
 	if search_pantheon("Pese"):
 		print("Function: search_pantheon() works!")
-	if search_rivals("Tezcat"):
-		print("Function: search_rivals() works!")
 	if search_favoured("Integrity"):
 		print("Function: search_favoured() works!")
 	if search_favoured("Perce"):
 		print("Function: search_favoured() works!")
 	if search_favoured("Anim"):
 		print("Function: search_favoured() works!")
+	if get_virtues("Dodekatheon"):
+		print("Function: get_virtues() works!")
 
 	god, pantheon, god_data = get_random_pantheon_god()
-	pp(god_data)

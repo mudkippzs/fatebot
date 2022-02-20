@@ -8,11 +8,12 @@ import re
 with open("config.json", "r") as f:
     config = json.load(f)
 
-def get_boons_by_level(level, purview):
+def choose_boons_by_level(template, purview):
     with open("boons.json") as f:
         data = json.load(f)
 
     boon_result = []
+    level = template["legend"]
     for boon_attr in data:
         if "animal" in purview.lower():
             purview = purview.split(" (")[0]

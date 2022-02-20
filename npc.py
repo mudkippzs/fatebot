@@ -42,12 +42,12 @@ def calculate_attribute_points(legend):
 	
 	if legend in [0, 2, 5, 9, 14, 20]:
 		attribute_point_dict = {
-			"0": [2,2,1], # Legend 0: House ruled to permit more
+			"0": [2,1,1], # Legend 0: House ruled to permit more
 			"2": [8,6,4], # variety in NPCs. If Legend 0's are
 			"5": [4,3,2], # too powerful; tweak.
 			"9": [4,3,2],
-			"14": [4,3,2],
-			"20": [4,3,2],
+			"14": [8,6,4],
+			"20": [8,6,4],
 		}
 		attribute_point_set = attribute_point_dict[str(legend)]
 	
@@ -74,9 +74,12 @@ class NPC:
 	def save_to_dict(self):
 		now = datetime.datetime.now()
 		timestamp = now.strftime('%Y-%m-%dT%H:%M:%S') + ('-%d' % (now.microsecond))
-		
-		if len(str(self.legend)) == 1:
+
+		if self.legend == 1:
 			npc_legend_label = f"0{self.legend}"
+		else:
+			npc_legend_label = f"{self.legend}"
+
 		npc_path = pathlib.Path(f"/home/dev/Code/fatebot/npcs/generated/{npc_legend_label}/")
 		npc_path.mkdir(parents=True, exist_ok=True)
 		
@@ -97,13 +100,13 @@ class NPC:
 		elif legend > 20:
 			legend = 20
 
-		if self.debug is True:
+		if self.debug is False:
 			dprinter.dp(f"L: {legend}, LOW: {self.legend_lower_constraint} , HIGH: {self.legend_upper_constraint}", "__set_challenge_level")
 			self.legend = random.randint(legend - self.legend_lower_constraint, legend + self.legend_upper_constraint)
 		else:
 			self.legend = legend
 
-		self.template["legend"] = legend
+		self.template["legend"] = self.legend
 
 		return
 
@@ -128,7 +131,76 @@ class NPC:
 
 	def __randomly_distribute_attributes(self):
 		attribute_points = calculate_attribute_points(self.legend)
-		dprinter.dp(f"Legend: {self.legend} - Attributes to spend:{attribute_points}", "randomly_distribute_attributes")
+		random.shuffle(attribute_points)
+		if attribute_points[0] > 0:
+			#dprinter.dp(f"Legend: {self.legend} - Attributes to spend:{attribute_points}", "randomly_distribute_attributes")
+			#dprinter.dp(self.template["attributes"])
+			physical = [
+				self.template["attributes"]["stre"],
+				self.template["attributes"]["dex"],
+				self.template["attributes"]["sta"],
+			]
+
+			social = [
+				self.template["attributes"]["cha"],
+				self.template["attributes"]["man"],
+				self.template["attributes"]["app"],
+			]
+
+			mental = [
+				self.template["attributes"]["per"],
+				self.template["attributes"]["inte"],
+				self.template["attributes"]["wits"],
+			]
+
+			random.shuffle(physical)
+			random.shuffle(social)
+			random.shuffle(mental)
+
+			att_1_total = attribute_points[0]
+			att_2_total = attribute_points[1]
+			att_3_total = attribute_points[2]
+
+			calc_attr_p_0 = math.ceil(att_1_total / 2)
+			calc_attr_p_1 = math.ceil(att_1_total / 4)
+			calc_attr_p_2 = math.floor(att_1_total / 4)
+			calc_attr_s_0 = math.ceil(att_2_total / 2)
+			calc_attr_s_1 = math.ceil(att_2_total / 4 )
+			calc_attr_s_2 = math.floor(att_2_total / 4 )
+			calc_attr_m_0 = math.ceil(att_3_total / 2)
+			calc_attr_m_1 = math.ceil(att_3_total / 4)
+			calc_attr_m_2 = math.floor(att_3_total / 4)
+					
+			physical[0] += calc_attr_p_0
+			physical[1] += calc_attr_p_1
+			physical[2] += calc_attr_p_2
+
+			
+			social[0] += calc_attr_s_0
+			social[1] += calc_attr_s_1
+			social[2] += calc_attr_s_2
+
+			
+			mental[0] += calc_attr_m_0
+			mental[1] += calc_attr_m_1
+			mental[2] += calc_attr_m_2
+
+			self.template["attributes"]["stre"] = physical[0]
+			self.template["attributes"]["dex"] = physical[1]
+			self.template["attributes"]["sta"] = physical[2]
+
+			self.template["attributes"]["cha"] = social[0]
+			self.template["attributes"]["man"] = social[1]
+			self.template["attributes"]["app"] = social[2]
+
+			self.template["attributes"]["per"] = mental[0]
+			self.template["attributes"]["inte"] = mental[1]
+			self.template["attributes"]["wits"] = mental[2]
+
+			#dprinter.dp(self.template["attributes"])
+
+		return
+
 		
 	def __set_nature(self):
 		random_nature = random.choice(nature.NATURE)
@@ -163,27 +235,19 @@ class NPC:
 		pantheon = self.pantheon
 		for purview in self.god_data["favoured"]["purviews"]:
 			#print(f"Getting boons for purview: {purview}")
-			boon_list.append(boons.get_boons_by_level(self.template["legend"], purview))
+			boon_list.append(boons.choose_boons_by_level(self.template, purview))
 		boon_list = [boon for sublist in boon_list for boon in sublist]
-		if len(boon_list):
-			taken = []
-			for point in range(0, budget):
-				random_index = random.randint(0, len(boon_list) - 1)
-				if random_index not in taken:
-					choice_boon = boon_list[random_index]
-					self.template["boons"].append(choice_boon)
-					taken.append(random_index)
+		for point in range(budget):
+			taken = [b[0] for b in self.template["boons"]]
+			random_boon = random.choice(boon_list)
+			if random_boon[0] not in taken:
+				self.template["boons"].append(random_boon)
+
 		return
 
-	def __choose_knacks(self, budget):
-		while budget > 0:
-			for attr in [a.replace("epic_","") for a in self.template["epic_attributes"]]:
-				knack_count_before = len(self.template["knacks"])
-				self.template = knacks.get_all_knacks_by_attr(attr, self.template, self.god_data)
-				knack_count_after = len(self.template["knacks"])
-				budget = budget - 1
-				#print(f"Spent a knack point, points remaining: {budget}")
-
+	def __choose_knacks(self):
+		self.template = knacks.choose_random_knacks(self.template, self.god_data, self.new_knacks)
+		
 		return
 
 	def __choose_virtues(self):
@@ -193,7 +257,7 @@ class NPC:
 
 		return
 
-	def __choose_epic_attributes(self, budget):
+	def __choose_epic_attributes(self, budget, inital=True):
 		attr_list = []
 		for attribute in self.template["attributes"]:
 			attr_list.append([attribute, self.template["attributes"][attribute]])
@@ -205,47 +269,70 @@ class NPC:
 					max_attr = l
 			else:
 				max_attr = l
-		#print(f"Total Epic Attribute Points: {budget}")
 		parents_favoured = self.god_data["favoured"]["epic_attributes"]
-		#pp(self.template["epic_attributes"])
-		dprinter.dp(f"preloop EA Budget: {budget}", "__choose_epic_attributes")
+		
+		attribute_list = [[k,v] for k,v in enumerate(self.template["epic_attributes"])]
+		
 		while budget > 0 :
-			dprinter.dp(f"EA Budget: {budget}", "__choose_epic_attributes")
-			attribute = random.choice([[k,v] for k,v in enumerate(self.template["epic_attributes"])])[1]
-			if self.template["epic_attributes"][attribute] <= self.legend:
-				self.template["epic_attributes"][attribute] += 1
-				budget -= 1
-				
+			attribute = random.choice(attribute_list)[1]
+			standard_attribute = attribute.replace("epic_","")
+			#dprinter.dp(f"EA Budget: {budget}, Attr: {attribute}", "__choose_epic_attributes")
+			
+			if attribute in parents_favoured:
+				if (budget - (self.template["epic_attributes"][attribute] * 4)) >= 0:
+					if (self.template["epic_attributes"][attribute] + 1) <= self.legend and (self.template["epic_attributes"][attribute] + 1) < self.template["attributes"][standard_attribute]:
+						budget -= self.template["epic_attributes"][attribute] * 4
+						self.template["epic_attributes"][attribute] += 1
+						self.new_knacks[attribute.replace("epic_", "")] += 1
+			elif (budget - (self.template["epic_attributes"][attribute] * 5)) >= 0:
+				if random.randint(0, 1) == True:
+					if (self.template["epic_attributes"][attribute] + 1) <= self.legend and (self.template["epic_attributes"][attribute] + 1) < self.template["attributes"][standard_attribute]:
+						budget -= self.template["epic_attributes"][attribute] * 5
+						self.template["epic_attributes"][attribute] += 1
+						self.new_knacks[attribute.replace("epic_", "")] += 1
+			else:
+				#ea_val = self.template["epic_attributes"][attribute]
+				#dprinter.dp(f"Budget is {budget} - breaking loop. - EA: {ea_val}")
+				break
+
 		#pp(self.template)				
 		
-		return
+		return budget
 
 	def __apply_experience(self, legend):
+		self.__set_legend(legend)
+		self.new_knacks = {
+			"stre": 0,
+			"dex": 0,
+			"sta": 0,
+			"cha": 0,
+			"man": 0,
+			"app": 0,
+			"per": 0,
+			"inte": 0,
+			"wits": 0,
+		}
+
 		if legend > 1:
 			#xp_list = growths.quadratic_increase(15)
-			xp_list = [0,0,15,0,0,15,0,0,0,15,0,0,0,0,15,0,0,0,0,0,15,0,0,0]
+			xp_list = [0,0,15,0,0,15,0,0,0,20,0,0,0,0,20,0,0,0,0,0,20,0,0,0]
 			total_points = xp_list[legend]
 			
-			self.__randomly_distribute_attributes()
-			boon_budget = math.ceil(total_points * 0.5)
-			knack_budget = math.floor(total_points * 0.5)
-			
-			self.__choose_epic_attributes(knack_budget)
-			#print(f"== Total points: {total_points}")
-			while total_points > 0:
+			if total_points > 0:
+				self.__randomly_distribute_attributes()
+				if total_points >= 2:
+					boon_budget = random.randint(1, math.ceil(total_points / 2))
+				else:
+					boon_budget = 1
 
-				dprinter.dp(f"Boon budget: {boon_budget}")
-				dprinter.dp(f"Knack budget: {knack_budget}")
-				dprinter.dp(f"Total budget: {knack_budget}")
-
-				total_points -= boon_budget
-				total_points -= knack_budget
-
-				if boon_budget >= 1:
-					self.__choose_boons(boon_budget)
+				ea_budget = total_points - boon_budget
 				
-				if knack_budget >= 1:
-					self.__choose_knacks(knack_budget)
+				if ea_budget > 0:
+					self.__choose_epic_attributes(ea_budget, inital=False)
+					self.__choose_knacks()
+				
+				if boon_budget > 0:
+					self.__choose_boons(boon_budget)
 					
 		return
 
@@ -287,27 +374,27 @@ class NPC:
 		self.discord_tag = label
 		self.__set_nature()
 		self.__set_divinity(god, pantheon, final_legend)
-		self.__choose_abilites()
+		self.__set_legend(0)
 
-		for legend in range(0, final_legend):
-			self.__set_legend(legend)
-			self.__randomly_distribute_attributes()
+		self.__choose_abilites()
+		self.__randomly_distribute_attributes()
+
+		if self.legend >= 1:
 
 			current_boon_count = len(self.template["boons"])
-			boon_budget = 15 
-			ea_budget = 8
+			total_boon_knack_budget = 15
+			boon_budget = random.randint(1, total_boon_knack_budget / 2)
+			ea_budget = total_boon_knack_budget - boon_budget
+			
+			self.__choose_boons(boon_budget)
+			self.__choose_epic_attributes(ea_budget)
+			self.__choose_knacks(ea_budget)
+			self.__choose_virtues()
 
-			#print(f"Boon Budget: {boon_budget} - Epic Attr Budget: {ea_budget}")
-			if legend >= 1:
-				self.__choose_boons(boon_budget)
-				self.__choose_epic_attributes(ea_budget)
-				self.__choose_knacks(ea_budget)
-				self.__choose_virtues()
+		for legend in range(final_legend + 1):
+			self.__apply_experience(legend)
 
-			for lp in range(1, self.template["legend"]):
-				self.__apply_experience(lp)
-
-			self.__generate_name()
+		self.__generate_name()
 
 		self.player = Player(f"{self.discord_tag} - {self.name}", config["gamemaster"][0]["ganj"], True, self.legend, self.template)
 
