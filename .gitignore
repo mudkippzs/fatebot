@@ -155,3 +155,4 @@ cython_debug/
 config.json
 npcs/generated/**/*.json
 *.json
+logs/*
