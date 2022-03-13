@@ -1,22 +1,17 @@
 import re
+from clogger import clogger
 
 def split_text(text):
-    """
-    Split a long string into a list.
-    len() of each list element should be equal or less than 500 and only split on the end of a sentence.
-    """
-    text = text.replace('\n', ' ')
-
-    # remove multiple spaces
-    text = re.sub(r' +', ' ', text)
-
-    # split on period, comma, question mark and exclamation mark
-    sentences = re.split(r'[\.\?!]', text)
-
-    # remove empty strings ('') from the list
-    sentences = [s for s in sentences if s != '']
-
-    return ". ".join(sentences) + "."
+    
+    text = text[0]
+    text_list = []
+    while len(text) > 1000:
+        text_list.append(text[:1000])
+        text = text[1000:]
+    else:
+        text_list.append(text)
+    
+    return text_list
 
 if __name__ == "__main__":
     pass

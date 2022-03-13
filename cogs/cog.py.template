@@ -13,6 +13,8 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '.'))
 from clogger import clogger
 from split_text import split_text
 
+with open("config.json", "r") as f:
+    config = json.load(f)
 
 def strip_tags(string):
     """

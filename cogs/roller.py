@@ -60,17 +60,18 @@ class Roller(commands.Cog):
 
     @commands.command(aliases=["ro", "dr", "diceroll", "rolldice"])
     async def roll(self, ctx, roll_string:str = None):
+        """Roll a dice in Story Teller system. Fromat: Attr, Abil, Epic Attr. Example: ?roll 3,2,1"""
         roll_string = roll_string.split(",")
 
         try:
             roll_string = [int(rs) for rs in roll_string]
         except ValueError:
-            await ctx.send(f"""```markdown\nCommand help: ?roll 1,2,3 (attribute, ability, epic attribute).```""")
+            await ctx.send(f"""```Command help: ?roll 1,2,3 (attribute, ability, epic attribute).```""", delete_after=5.0)
             return
 
         for value in roll_string:
             if value > 46 or value < 0 or sum(roll_string) < 1:
-                await ctx.send(f"""```markdown\nCommand help: ?roll 1,2,3 (attribute, ability, epic attribute).```""")
+                await ctx.send(f"""```Command help: ?roll 1,2,3 (attribute, ability, epic attribute).```""", delete_after=5.0)
                 return
         if len(roll_string) == 3 and [int(rs) for rs in roll_string]:
             dice_results, successes, extra_successes, success_total = rolldice(roll_string)
@@ -90,7 +91,7 @@ class Roller(commands.Cog):
             # Log it
             now = datetime.datetime.now()
             logstamp = now.strftime("%d-%m-%Y @ %H:%M:%S:%f")
-            roll_log_string = [f"{logstamp}",f"{ctx.message.author}", f"{ctx.message.clean_content}", f"[{dice_results_string}]", f"S: {successes}", f"AS: {extra_successes}", f"T: {success_total}"]
+            roll_log_string = [f"{logstamp}",f"{ctx.message.author}",f"{ctx.message.clean_content}",f"[{dice_results_string}]",f"{successes}",f"{extra_successes}",f"{success_total}"]
             
             
             with open("dicelogs.json", "r") as f:
@@ -108,7 +109,7 @@ class Roller(commands.Cog):
 
             return
                 
-        await ctx.send(f"""```markdown\nCommand help: ?roll 1,2,3 (attribute, ability, epic attribute).```""")
+        await ctx.send(f"""```Command help: ?roll 1,2,3 (attribute, ability, epic attribute).```""", delete_after=5.0)
         return
 
 

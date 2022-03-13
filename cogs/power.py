@@ -20,7 +20,7 @@ def strip_tags(string):
     """
     return re.sub('<.*?>', '', string)
 
-class Power(commands.Cog):
+class PowerSearch(commands.Cog):
     """Power Cog"""
 
     def __init__(self, bot):
@@ -30,7 +30,7 @@ class Power(commands.Cog):
     @commands.command(aliases=["powers"])
     async def power(self, ctx, *, name: str):
         """Searches for a power in the database."""        
-        search_message = await ctx.send(f"```markdown\nSearching for power: `{name}`...```")
+        search_message = await ctx.send(f"```Searching for power: `{name}`...```")
 
         # Load the database.
         with open("/home/dev/Code/powerswikia/powers.json", "r") as f:
@@ -43,6 +43,8 @@ class Power(commands.Cog):
                 akas_lower = [p.lower() for p in power["attributes"]["also_called"]]
             except Exception as e:
                akas_lower = []
+
+            clogger(akas_lower)
 
             if name.lower() == power["name"].lower() or name.lower() in akas_lower:
                 # Create an embed with the power's information.
@@ -57,12 +59,13 @@ class Power(commands.Cog):
                         author = strip_tags(quote_list[1])
                         work = strip_tags(quote_list[2])
 
-                        quote_string_list.append(f"**\"{quote}\"**\n\t```markdown\n*-{author}, ({work})*```")
+                        quote_string_list.append(f"**\"{quote}\"**\n\t```*-{author}, ({work})*```")
 
                 description = power["description"] + "\n\n" + "\n".join(quote_string_list)
                 
                 embed = discord.Embed(title=power["name"], url=power["url"], description=description)
-                embed.set_image(url=f"attachment://{image_path}")
+                if image_path:
+                    embed.set_image(url=f"attachment://{image_path}")
                 send_list = [embed,]
                 
                 # Add all of the attributes to the embed.
@@ -81,18 +84,21 @@ class Power(commands.Cog):
                 await search_message.delete()
                 for idx, e in enumerate(send_list):
                     if idx == 0:
-                        await ctx.send(file=discord.File(image_path), embed=e)
+                        if image_path:
+                            await ctx.send(file=discord.File(image_path), embed=e)
+                        else:
+                            await ctx.send(embed=e)
                     else:
                         await ctx.send(embed=e)
                 return
 
         # If no power is found, send an error message and return out of the function.
-        await ctx.send(f"No power called `{name}` was found.")
+        await ctx.send(f"```No power called `{name}` was found.```", delete_after=5.0)
 
-    @commands.command()
+    @commands.command(aliases=["randompowers"])
     async def randompower(self, ctx):  # TODO: Add a random power command.
         """Sends a random power from the database."""
-        await ctx.send(f"```markdown\nSearching for a random power...```")
+        await ctx.send(f"```Searching for a random power...```", delete_after=5.0)
 
         # Load the database.
         with open("/home/dev/Code/powerswikia/powers.json", "r") as f:
@@ -110,16 +116,17 @@ class Power(commands.Cog):
                 author = strip_tags(quote_list[1])
                 work = strip_tags(quote_list[2])
 
-                quote_string_list.append(f"**\"{quote}\"**\n\t```markdown\n*-{author}, ({work})*```")
+                quote_string_list.append(f"**\"{quote}\"**\n\t```*-{author}, ({work})*```")
 
         description = "\n\n\n".join(quote_string_list)
 
         # Get a random power from the database and send an embed with it's information.
         e = discord.Embed(title=random_power["name"], url=random_power["url"], description=description)
-        e.set_image(url=f"attachment:/{image_path}")
-        print(image_path)
-        await ctx.send(file=discord.File(image_path), embed=e)
-
+        if image_path:
+            e.set_image(url=f"attachment:/{image_path}")
+            await ctx.send(file=discord.File(image_path), embed=e)
+        else:
+            await ctx.send(embed=e)
 
 def setup(client):
-    client.add_cog(Power(client))
+    client.add_cog(PowerSearch(client))

@@ -29,7 +29,7 @@ class DiceLogs(commands.Cog):
         
     @commands.command(aliases=["dl","dicelogs","dicehistory"])
     async def dicelog(self, ctx, limit: int = 20):
-        dicelogger = ["```markdown","\n"]
+        """Show the dice logs for all users."""
         logs_list = []        
 
         with open("dicelogs.json", "r") as f:
@@ -40,36 +40,63 @@ class DiceLogs(commands.Cog):
                 for log in SESSION_RESULTS[key]:
                     logs_list.append(log)
 
-        await self.returnDiceLogs(ctx, logs_list, dicelogger, limit)
+        await self.returnDiceLogs(ctx, None, logs_list, limit)
 
-    async def returnDiceLogs(self, ctx, logs_list:list=[], dicelogger:list=[], limit:int =20):
+    @commands.command(aliases=["dlu","userdicelogs","rollhistory","userdicehistory","dicelogsuser"])
+    async def diceloguser(self, ctx, member: discord.Member = None, limit: int = 20):
+        """Show the dice logs for a given user."""
+        logs_list = []
+        
+        with open("dicelogs.json", "r") as f:
+            SESSION_RESULTS = json.load(f)
+
+        target = discord.utils.get(self.bot.get_all_members(), id=id)
+
+        if target:
+            if str(target.id) in SESSION_RESULTS.keys(): 
+                for log in SESSION_RESULTS[str(target.id)]:
+                    logs_list.append(log)
+                await self.returnDiceLogs(ctx, None, logs_list, limit)
+                return
+            else:
+                await ctx.send(f"```There are no logs for {target.display_name}! {target.display_name} has not rolled any dice yet.```")
+                return
+        await ctx.send(f"```Please provide a target user.\nExample: ?[diceloguser|dlu] @someone [limit].```", delete_after=5.0)
+        return
+
+
+    async def returnDiceLogs(self, ctx, member:discord.Member = None, logs_list:list = [], limit:int = 10):
             if len(logs_list) == 0:
-                await ctx.send("```markdown\nThere are no dice logs yet.```")
+                await ctx.send("```There are no dice logs yet.```", delete_after=5.0)
                 return
             else:
                 
                 if len(logs_list) < limit:
-                    limit = len(logs_list) * -1
-                else:
-                    limit = limit * -1 
+                    limit = len(logs_list)
 
-                for idx, log in enumerate(logs_list):
+                if limit >= 1:
+                    limit *= -1
+                
+                embed = discord.Embed()
+                if member:
+                    embed.title = f"Logs for {member.display_name.title()}"
+                logs_list.reverse()
+                limited_log_list = logs_list[limit - 1:-1]
+                clogger(len(limited_log_list))
+                for idx, log in enumerate(limited_log_list):
                     if(len(logs_list[idx]) == 1):
-                        logs_list = logs_list[idx]
+                        logs_list = limited_log_list[idx]
 
-                    date = logs_list[idx][0]
-                    name = logs_list[idx][1]
-                    roll_string = logs_list[idx][2]
-                    dice_results = logs_list[idx][3]
-                    successes = logs_list[idx][4]
-                    auto_succ = logs_list[idx][5]
-                    total_succ = logs_list[idx][6]
-                    logs_list[idx] = f"<{date}> [{name}]. Roll string: {roll_string}.\n# Results: [S: {successes}] [A: {auto_succ}] [T: {total_succ}] - Raw results: [{dice_results}]".split(",")
-
-                dicelogger.append("\n".join([",".join(l) for l in logs_list[limit:]]))        
-                dicelogger.append("```")
-
-                await ctx.send("\n".join(dicelogger))    
+                    date = limited_log_list[idx][0]
+                    name = limited_log_list[idx][1]
+                    roll_string = limited_log_list[idx][2]
+                    dice_results = limited_log_list[idx][3]
+                    successes = limited_log_list[idx][4]
+                    auto_succ = limited_log_list[idx][5]
+                    total_succ = limited_log_list[idx][6]
+                    embed.add_field(name=f"{date} :: Raw command: {roll_string}", value=f"```markdown\n# [S: {successes}] [A: {auto_succ}] [T: {total_succ}]\nRaw results: {dice_results}```", inline=False)
+                
+                return await ctx.send(embed=embed)    
 
 
 def setup(client):

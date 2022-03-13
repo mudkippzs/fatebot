@@ -30,6 +30,7 @@ class DiceAnalytics(commands.Cog):
         
     @commands.command(aliases=["da","diceanal"])
     async def diceanalytics(self, ctx):
+        """Show the distribution of dice rolls."""
 
         DICE_DISTRIBUTION = {
             "1": 0,
@@ -70,31 +71,6 @@ class DiceAnalytics(commands.Cog):
         await ctx.send(embed=embed)
         return
 
-    @commands.command(aliases=["dlu","userdicelogs","rollhistory","userdicehistory","dicelogsuser"])
-    async def diceloguser(self, ctx, member: discord.Member=None):
-        dicelogger = ["```markdown","\n"]
-        logs_list = []
-        try:
-            target = ctx.message.mentions[0]
-        except:
-            target = ctx.message.author
-
-        with open("dicelogs.json", "r") as f:
-            SESSION_RESULTS = json.load(f)
-
-        if target:
-            try:
-                logs_list = SESSION_RESULTS[str(target.id)]
-            except KeyError:
-                await ctx.send(f"```markdown\nThere are no logs for {target}! {target} has not rolled any dice yet.```")
-                return
-        else:        
-            if len(SESSION_RESULTS.keys()) > 0:
-                for key in SESSION_RESULTS.keys():
-                    logs_list.append(SESSION_RESULTS[key])
-        
-        limit = len(logs_list)    
-        await returnDiceLogs(ctx, logs_list, dicelogger, limit)
 
 
 

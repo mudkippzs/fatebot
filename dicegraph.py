@@ -113,16 +113,19 @@ def test():
 	set_logs = get_dice_distribution_of_logs(get_users_logs("433097995832000513"))
 	bob_logs = get_dice_distribution_of_logs(get_users_logs("382348220405383171"))
 	vasily_logs = get_dice_distribution_of_logs(get_users_logs("514859386116767765"))
+	ganj_logs = get_dice_distribution_of_logs(get_users_logs("218521566412013568"))
 	group_logs = {
 		"set": set_logs,
 		"bob": bob_logs,
 		"vasily": vasily_logs,
+		"ganj": ganj_logs,
 	}
-	all_logs = add_dicts([set_logs, bob_logs,vasily_logs])
+	all_logs = add_dicts([set_logs, bob_logs, vasily_logs, ganj_logs])
 	
 	set_plot = create_plot("set", set_logs)
 	bob_plot = create_plot("bob", bob_logs)
 	vasily_plot = create_plot("vasily", vasily_logs)
+	ganj_plot = create_plot("ganj", ganj_logs)
 	all_plot = create_plot("all players", all_logs)
 	layered_plot = create_group_plot(group_logs)
 
@@ -130,5 +133,5 @@ if __name__ == "__main__":
 	#graph_dice_distribution("433097995832000513")
 	#graph_dice_distribution("514859386116767765")
 	#graph_dice_distribution("382348220405383171")
-	#graph_dice_distribution()
+	#graph_dice_distribution(100000)
 	test()

@@ -6,7 +6,7 @@ import datetime
 
 class Dprint:
 
-	def dp(self, message:[list, dict, str, int, bool] = None, debug_identifier:str = "Err: No Identifier set"):
+	def dp(message:[list, dict, str, int, bool] = None, debug_identifier:str = "Err: No Identifier set"):
 		now = datetime.datetime.now().strftime("%d/%m/%Y-%H:%M:%S:")
 		base_message = f"\n[DEBUG]@[ {now}]>[{debug_identifier}])\n"
 		message = str(message)

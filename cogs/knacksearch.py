@@ -21,36 +21,36 @@ def strip_tags(string):
     """
     return re.sub('<.*?>', '', string)
 
-class Knackscog(commands.Cog):
+class KnackSearch(commands.Cog):
     """Cog"""
 
     def __init__(self, bot):
-        self.bot = bot
-
-        
+        self.bot = bot        
         
     @commands.command(aliases=["k","sk","knack","searchknack","searchknacks"])
     async def knacks(self, ctx):
+        """Search knacks by full/partial name."""
         def chunks(lst):
             for i in range(0 , len(lst) , 7):
                 yield lst[i:i + 7]
 
         term = " ".join(ctx.message.clean_content.split(" ")[1:])
+        await ctx.send(f"```Searching for knack containg the term: `{term}` ```", delete_after=5.0)
         title, description_list, tables = search_knacks(term)
-        
         if title and description_list:
-            title_message = f"```markdown\n# {title}```"
-
+            embed = discord.Embed(title=f"{title}")
             description_message = []
-            for description in description_list:
-                if description:
-                    description_message.append(split_text(description))
+            description_message = split_text(description_list)
+            
             description_message_list = []
-            for dm in description_message:
-                description_message_list.append(f"```markdown\n{dm}\n```")
-            await ctx.send(title_message)
-            for dml in description_message_list:
-                await ctx.send(dml)
+            embed.add_field(name="\u200b", value="\u200b", inline=True)
+            
+            for idx, dm in enumerate(description_message):
+                if idx == 0:
+                    embed.add_field(name="Rule as Written", value=f"```{dm}```", inline=False)
+                else:
+                    embed.add_field(name="\u200b", value=f"```{dm}```", inline=False)
+            await ctx.send(embed=embed)
 
             if tables:
                 for table in tables:
@@ -72,11 +72,10 @@ class Knackscog(commands.Cog):
                         count += 1
                         await ctx.send(embed=embed)
         else:
-            message = f"```ascidoc\nNo knack found with term(s): [{term}]```"
-            await ctx.send(message)
+            await ctx.send(f"```\nNo knack found with term(s): `{term}` ```", delete_after=5.0)
 
 
 
 
 def setup(client):
-    client.add_cog(Knackscog(client))
+    client.add_cog(KnackSearch(client))

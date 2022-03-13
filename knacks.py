@@ -74,12 +74,11 @@ def search_knacks(term):
                 if knack_list["title"] != None and knack_list["description"] != None:
                     if term.lower() in knack_list["title"].lower():
                         tables = knack_list["tables"]
-                        knack_result = ((knack_list["title"]), knack_list["description"], tables)
-                        return knack_result
+                        return knack_list["title"], knack_list["description"], tables
             except TypeError as te:
                 raise te
 
-    return(None,None)
+    return(None,None,None)
 
 
 def get_knacks(url):
