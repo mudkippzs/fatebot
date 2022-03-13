@@ -53,25 +53,19 @@ class DiceAnalytics(commands.Cog):
 
         for user_log in SESSION_RESULTS:
             for log in SESSION_RESULTS[user_log]:
-                diceroll = [int(strip(dr)) for dr in log[3].split(",")]
-                for dr in diceroll:
-                    DICE_DISTRIBUTION[str(dr)] += 1
-        embed = discord.Embed()
+                diceroll = log[3].replace("[","").replace("]","").split(",")
+                if len(diceroll):
+                    if len(diceroll[0]):
+                        for dr in diceroll:
+                            DICE_DISTRIBUTION[str(dr)] += 1
+        embed = discord.Embed(title="Dice Roll Analysis - Result Frequency")
         
-        DICE_DISTRIBUTION = sorted(DICE_DISTRIBUTION, key=lambda x: x[0])
-        
-        embed.add_field(name="Dice Analytics", value="\u200b", inline=False)
-        embed.add_field(name="Dice", value="\u200b", inline=True)
-        embed.add_field(name="Value", value="\u200b", inline=True)
-        message = []
-        for key, value in enumerate(DICE_DISTRIBUTION):
-            message.append(f"""{key} .................. {value}""")
-        message_string = "\n".join(message)    
-        embed.add_field(name=f"{message_string}", value=f"\u200b", inline=False)
+        clogger(DICE_DISTRIBUTION)
+        embed.add_field(name="\u200b", value="```Result             Frequency```", inline=True)
+        for key in DICE_DISTRIBUTION:
+            embed.add_field(name=f"\u200b", value=f"```{key:<20}{DICE_DISTRIBUTION[key]:>6}```", inline=False)
         await ctx.send(embed=embed)
         return
-
-
 
 
 def setup(client):

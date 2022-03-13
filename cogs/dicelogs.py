@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+from datetime import datetime
 import json
 import os
 import random
@@ -50,13 +51,13 @@ class DiceLogs(commands.Cog):
         with open("dicelogs.json", "r") as f:
             SESSION_RESULTS = json.load(f)
 
-        target = discord.utils.get(self.bot.get_all_members(), id=id)
+        target = discord.utils.get(self.bot.get_all_members(), id=member.id)
 
         if target:
             if str(target.id) in SESSION_RESULTS.keys(): 
                 for log in SESSION_RESULTS[str(target.id)]:
                     logs_list.append(log)
-                await self.returnDiceLogs(ctx, None, logs_list, limit)
+                await self.returnDiceLogs(ctx, target, logs_list, limit)
                 return
             else:
                 await ctx.send(f"```There are no logs for {target.display_name}! {target.display_name} has not rolled any dice yet.```")
@@ -80,9 +81,9 @@ class DiceLogs(commands.Cog):
                 embed = discord.Embed()
                 if member:
                     embed.title = f"Logs for {member.display_name.title()}"
-                logs_list.reverse()
+                #logs_list.reverse()
                 limited_log_list = logs_list[limit - 1:-1]
-                clogger(len(limited_log_list))
+                limited_log_list = sorted(limited_log_list, key=lambda x: datetime.strptime(x[0], '%d-%m-%Y @ %H:%M:%S:%f'))
                 for idx, log in enumerate(limited_log_list):
                     if(len(logs_list[idx]) == 1):
                         logs_list = limited_log_list[idx]
