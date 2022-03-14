@@ -1,16 +1,9 @@
-from pprint import pprint as pp
-from copy import deepcopy
-
-import matplotlib.pyplot as plt
-
 from epiccalc import calculate_epic
 from main import rolldice
 
 import argparse
-import datetime
 import json
 import math
-import random
 
 with open("config.json", "r") as f:
     config = json.load(f)
@@ -26,7 +19,8 @@ class Player:
     bonus_points = 0
     stunt_log = []
 
-    def __init__(self, name: str =None, discord_tag: str=None, npc: bool=None, legend: int=0, options: dict={}):
+    def __init__(self, name: str = None, discord_tag: str = None,
+                 npc: bool = None, legend: int = 0, options: dict = {}):
         self.name = name
         self.discord_tag = discord_tag
         self.npc = npc,
@@ -96,7 +90,6 @@ class Player:
         awareness = self.abilities["awareness"]
 
         roll_string = f"{wits + wits_mod},{awareness},{wits_epic}"
-        dice_log = []
         dice_results, successes, extra_successes, success_total = rolldice(
             roll_string)
         self.join_battle_result = success_total
@@ -104,15 +97,16 @@ class Player:
         # To debug dice JB rolls - uncomment. @TODO: Refactor into a debugger.
 
         # for i in range(1,100):
-        # 	dice_results, successes, extra_successes, success_total = rolldice(roll_string)
-        # 	dice_log.append(success_total)
+        #   dice_results, successes, extra_successes,
+        #   success_total = rolldice(roll_string)
+        #   dice_log.append(success_total)
         # print(dice_log)
 
         return success_total
 
     def __string_stripper(self, string):
         filter_string = string.lower().translate(
-            {ord(c): "" for c in "!@#$%^&*()'[]{};:,./<>?\|`~-=_+"})
+            {ord(c): "" for c in "!@#$%^&*()'[]{};:,./<>?\\|`~-=_+"})
         return filter_string
 
     def use_boon(self, boon):
@@ -145,20 +139,29 @@ class Player:
         self.movement["jump"]["vertical"] = self.abilities["athletics"] + \
             self.attributes["stre"] + \
             calculate_epic(self.epic_attributes["epic_stre"])
-        self.movement["jump"]["horizontal"] = self.movement["jump"]["vertical"] * 2
+
+        jump_horizontal = self.movement["jump"]["vertical"] * 2
+        self.movement["jump"]["horizontal"] = jump_horizontal
         self.movement["climb"] = self.attributes["stre"] + \
             calculate_epic(self.epic_attributes["epic_stre"])
         return
 
     def setup_combat(self):
+        athletics = self.abilities["athletics"]
+        brawl = self.abilities["brawl"]
+        melee = self.abilities["melee"]
+        dex = self.attributes["dex"]
+        epic_dex = self.epic_attributes["epic_dex"]
+        parry_combat_value = brawl if brawl >= melee else melee
+
         # Dodge DV Dexterity + Athletics + Legend) / 2
-        self.combat["dodge_dv"] = math.ceil((self.legend + self.abilities["athletics"] +
-                                             self.attributes["dex"] + calculate_epic(self.epic_attributes["epic_dex"]) / 2))
+        d_dv = self.legend + athletics + dex + calculate_epic(epic_dex) / 2
+
         # Parry DV Dexterity + Brawl or Melee + weapon’s Defense) / 2
-        parry_combat_value = self.abilities["brawl"] if self.abilities[
-            "brawl"] >= self.abilities["melee"] else self.abilities["melee"]
-        self.combat["parry_dv"] = math.ceil(
-            parry_combat_value + self.attributes["dex"] + calculate_epic(self.epic_attributes["epic_dex"]) / 2)
+        p_dv = parry_combat_value + dex + calculate_epic(epic_dex) / 2
+
+        self.combat["dodge_dv"] = math.ceil(d_dv)
+        self.combat["parry_dv"] = math.ceil(p_dv)
         return
 
     def setup_soak(self):

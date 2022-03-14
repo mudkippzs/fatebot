@@ -8,7 +8,7 @@ PLAYER_CHARACTER_SHEET = {
         "app": 0,
         "per": 0,
         "inte": 0,
-        "wits": 2
+        "wits": 0
     },
     "epic_attributes": {
         "epic_stre": 0,
@@ -18,9 +18,11 @@ PLAYER_CHARACTER_SHEET = {
         "epic_man": 0,
         "epic_app": 0,
         "epic_per": 0,
-        "epic_int": 0,
-        "epic_wits": 5
+        "epic_inte": 0,
+        "epic_wits": 0
     },
+    "player_id": None,
+    "name": "New Player",
     "stre_mod": 0,
     "dex_mod": 0,
     "sta_mod": 0,
@@ -30,11 +32,23 @@ PLAYER_CHARACTER_SHEET = {
     "per_mod": 0,
     "inte_mod": 0,
     "wits_mod": 0,
+    "epic_stre_mod": 0,
+    "epic_dex_mod": 0,
+    "epic_sta_mod": 0,
+    "epic_cha_mod": 0,
+    "epic_man_mod": 0,
+    "epic_app_mod": 0,
+    "epic_per_mod": 0,
+    "epic_inte_mod": 0,
+    "epic_wits_mod": 0,
+    "legend": 0,
     "legend_points_total": 0,
     "legend_points_current": 0,
     "willpower_total": 0,
     "willpower_current": 0,
     "virtues": [0, 0, 0, 0],
+    "xp": 0,
+    "xp_spent": 0,
     "inventory": [],
     "knacks": [],
     "boons": [],
@@ -44,25 +58,25 @@ PLAYER_CHARACTER_SHEET = {
         "dash": 0,
         "move": 0,
         "climb": 0,
+        "swim": 0,
         "jump": {
             "horizontal": 0,
             "vertical": 0
         }
     },
-    "combat": {  # 1: speed, 2: damage, 3: def, 4: dv minus
-        "melee": [None, None, None, None],
-        "range": [None, None, None, None],
-        "dodge": [None, None, None, None],
-        "parry": [None, None, None, None],
-        "coordattack": [5, None, None, -2],
-        "dash": [3, None, None, -2],
-        "aim": [3, None, None, -1],
-        "guard": [3, None, None, 0],
-        "move": [0, None, None, 0],
-        "grapple": [None, None, None, None],
-        "inactive": [5, None, None, None],
-        "dodge_dv": 0,
-        "parry_dv": 0,
+    "join_battle": 0,
+    "combat": {
+        "melee": [0, 0, 0, 0],  # 1: speed, 2: damage, 3: def, 4: dv minus
+        "range": [0, 0, 0, 0],
+        "dodge": [0, 0, 0, 0],
+        "parry": [0, 0, 0, 0],
+        "coordattack": [5, 0, 0, -2],
+        "dash": [3, 0, 0, -2],
+        "aim": [3, 0, 0, -1],
+        "guard": [3, 0, 0, 0],
+        "move": [0, 0, 0, 0],
+        "grapple": [0, 0, 0, 0],
+        "inactive": [5, 0, 0, 0],
     },
     "health": {
         "bludgeon": 0,
@@ -74,7 +88,7 @@ PLAYER_CHARACTER_SHEET = {
         "animal_ken": 0,
         "art": 0,
         "athletics": 0,
-        "awareness": 3,
+        "awareness": 0,
         "brawl": 0,
         "command": 0,
         "control": 0,
@@ -100,16 +114,19 @@ PLAYER_CHARACTER_SHEET = {
         "lethal": 0,
         "aggrevated": 0
     },
+
     "soak": {
         "bludgeon": 0,
         "lethal": 0,
         "aggrevated": 0
     },
+
     "armor_mod": {
         "bludgeon": 0,
         "lethal": 0,
         "aggrevated": 0
     },
+
     "soak_mod": {
         "bludgeon": 0,
         "lethal": 0,

@@ -26,18 +26,6 @@ class Battle:
         "6": [],
         "7": [],
         "8": [],
-        "9": [],
-        "10": [],
-        "11": [],
-        "12": [],
-        "13": [],
-        "14": [],
-        "15": [],
-        "16": [],
-        "17": [],
-        "18": [],
-        "19": [],
-        "20": []
     }
 
     current_tick = 0
@@ -88,9 +76,9 @@ class Battle:
         elif action == "inactive":
             speed = player.combat["inactive"]
 
-    def add_player(self, player: Player=None):
+    def add_player(self, player: Player = None):
         if player:
-            players.append(player)
+            self.players.append(player)
         else:
             print(f"Error: expected: 'Player', got: {player}")
 
@@ -102,7 +90,8 @@ class Battle:
     def __str__(self):
         current_players = ",".join(
             [p.name for p in self.tick[str(self.current_tick)]])
-        return f"Current tick: {self.current_tick}\nActive players: {current_players}"
+        return f"Current tick: {self.current_tick}\n" \
+            f"Active players: {current_players}"
 
 
 if __name__ == "__main__":
