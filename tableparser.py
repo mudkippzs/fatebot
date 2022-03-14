@@ -1,6 +1,7 @@
 import bs4
 from pprint import pprint as pp
 
+
 def parse_table(soup):
     # Find all the tables in the html.  We'll use this to find the table that contains our data.
     table = soup
@@ -21,7 +22,7 @@ def parse_table(soup):
         'rows': []
     }
     counter = 0
-    
+
     for row in rows:
         row_parsed = []
         for r in row.contents:
@@ -29,14 +30,15 @@ def parse_table(soup):
                 row_parsed.append(str(r.string))
                 counter += 1
         filtered_rows.append(row_parsed)
-    
+
     table_dir["header"] = header
     table_dir["rows"] = filtered_rows
-    
+
     return table_dir
 
+
 if __name__ == '__main__':
-    test ="""
+    test = """
 <div id="page-content">
                         
 

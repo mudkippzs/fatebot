@@ -10,7 +10,8 @@ import argparse
 from dprint import Dprint
 from tableparser import parse_table
 
-KNACKS_WITH_TABLES = ["Rumor Mill", "Trendsetter", "Scent The Divine", "Concept To Execution"]
+KNACKS_WITH_TABLES = ["Rumor Mill", "Trendsetter",
+                      "Scent The Divine", "Concept To Execution"]
 
 # Setup debug logger
 dprinter = Dprint()
@@ -18,12 +19,14 @@ dprinter = Dprint()
 with open("config.json", "r") as f:
     config = json.load(f)
 
+
 def choose_random_knacks(character_data, god_data, new_knacks):
     with open("knacks.json") as f:
         data = json.load(f)
 
-    favoured_epic_attributes = [ea.replace("Epic ", "").lower() for ea in god_data["favoured"]["epic_attributes"]]
-    while(sum([v for k,v in new_knacks.items()]) > 0):
+    favoured_epic_attributes = [ea.replace("Epic ", "").lower(
+    ) for ea in god_data["favoured"]["epic_attributes"]]
+    while(sum([v for k, v in new_knacks.items()]) > 0):
         for knack_attr in new_knacks:
             knack_list = character_data["knacks"]
             knack_attr_list = data[knack_attr]
@@ -38,7 +41,7 @@ def choose_random_knacks(character_data, god_data, new_knacks):
 
                 new_knacks[knack_attr] -= 1
             else:
-                if random.randint(0,1):
+                if random.randint(0, 1):
                     random_knack = random.choice(data[knack_attr])
                     if random_knack["prereqs"] in current_knack_titles:
                         character_data["knacks"].append(random_knack)
@@ -51,18 +54,21 @@ def choose_random_knacks(character_data, god_data, new_knacks):
     return character_data
 
 
-def get_random_knacks(attr, character_data, god_data, quantity = 1):
+def get_random_knacks(attr, character_data, god_data, quantity=1):
     with open("knacks.json") as f:
         data = json.load(f)
 
     knack_list = []
-    favoured_epic_attributes = [ea.replace("epic_", "") for ea in god_data["favoured"]["epic_attributes"]]
+    favoured_epic_attributes = [ea.replace(
+        "epic_", "") for ea in god_data["favoured"]["epic_attributes"]]
     for knack in data:
         for ea in favoured_epic_attributes:
             if knack.lower() in ea.lower():
-                character_data["knacks"].append(random.sample(data[knack], quantity))
+                character_data["knacks"].append(
+                    random.sample(data[knack], quantity))
 
     return character_data
+
 
 def search_knacks(term):
     with open("knacks.json") as f:
@@ -78,7 +84,7 @@ def search_knacks(term):
             except TypeError as te:
                 raise te
 
-    return(None,None,None)
+    return(None, None, None)
 
 
 def get_knacks(url):
@@ -96,14 +102,16 @@ def get_knacks(url):
     knacks_split = str(knack_divs).split("<strong>")
     for ks in knacks_split:
         knack = ks.split("<p>")
-        title = knack[0].replace("</strong></p>","").replace("\n", "")
+        title = knack[0].replace("</strong></p>", "").replace("\n", "")
         description = []
 
         table_list = []
-        for d in knack[1:]:   
+        for d in knack[1:]:
             if "Scent The Divine" in title:
-                d = d.replace('<table class=\"wiki-content-table\">\n<tr>\n<td>',"")
-                tables = bs4.BeautifulSoup(" ".join(knacks_split), "html.parser").find_all("table", {"class": "wiki-content-table"})
+                d = d.replace(
+                    '<table class=\"wiki-content-table\">\n<tr>\n<td>', "")
+                tables = bs4.BeautifulSoup(" ".join(knacks_split), "html.parser").find_all(
+                    "table", {"class": "wiki-content-table"})
             else:
                 tables = bs4.BeautifulSoup(d, "html.parser").find_all("table")
 
@@ -111,17 +119,17 @@ def get_knacks(url):
                 for table in tables:
                     table_list.append(parse_table(table))
 
-            d = d.replace("Caveat:","<Caveat>")
-            d = d.replace("Prerequisite Knacks:","<Prerequisites>")
-            d = d.replace("  .","")
-            d = d.replace('</p>\n','')
-            d = d.replace('</div>','')
-            d = d.replace('<ul>',"\n")
-            d = d.replace('<li>',"\n* ")
-            d = d.replace('</li>',"\n")
-            d = d.replace('</ul>',"\n")
+            d = d.replace("Caveat:", "<Caveat>")
+            d = d.replace("Prerequisite Knacks:", "<Prerequisites>")
+            d = d.replace("  .", "")
+            d = d.replace('</p>\n', '')
+            d = d.replace('</div>', '')
+            d = d.replace('<ul>', "\n")
+            d = d.replace('<li>', "\n* ")
+            d = d.replace('</li>', "\n")
+            d = d.replace('</ul>', "\n")
             description.append(d)
-       
+
         description_split = "\n".join(description)
 
         prerequisites = description_split.split(" ")
@@ -132,7 +140,7 @@ def get_knacks(url):
 
         if "Prerequisite" in prerequisites[0] and "(Scion:" in prerequisites[5]:
             prereqs = f"{prerequisites[2]} {prerequisites[3]} {prerequisites[4]}"
-        
+
         if "Prerequisite" in prerequisites[0] and "(Scion:" in prerequisites[4]:
             prereqs = f"{prerequisites[2]} {prerequisites[3]}"
 
@@ -155,17 +163,18 @@ def get_knacks(url):
 
     return knacks
 
+
 def main(crawl, test):
     knack_urls = {
-        "stre" : "http://scion-mmp.wikidot.com/str-knacks",
-        "dex" : "http://scion-mmp.wikidot.com/dex-knacks",
-        "sta" : "http://scion-mmp.wikidot.com/sta-knacks",
-        "cha" : "http://scion-mmp.wikidot.com/cha-knacks",
-        "app" : "http://scion-mmp.wikidot.com/app-knacks",
-        "man" : "http://scion-mmp.wikidot.com/man-knacks",
-        "per" : "http://scion-mmp.wikidot.com/per-knacks",
-        "inte" : "http://scion-mmp.wikidot.com/int-knacks",
-        "wits" : "http://scion-mmp.wikidot.com/wit-knacks",
+        "stre": "http://scion-mmp.wikidot.com/str-knacks",
+        "dex": "http://scion-mmp.wikidot.com/dex-knacks",
+        "sta": "http://scion-mmp.wikidot.com/sta-knacks",
+        "cha": "http://scion-mmp.wikidot.com/cha-knacks",
+        "app": "http://scion-mmp.wikidot.com/app-knacks",
+        "man": "http://scion-mmp.wikidot.com/man-knacks",
+        "per": "http://scion-mmp.wikidot.com/per-knacks",
+        "inte": "http://scion-mmp.wikidot.com/int-knacks",
+        "wits": "http://scion-mmp.wikidot.com/wit-knacks",
     }
 
     knacks = {}
@@ -173,7 +182,7 @@ def main(crawl, test):
     if crawl:
         for knack_attr, url in enumerate(knack_urls):
             knacks[url] = get_knacks(knack_urls[url])
-        
+
         with open("knacks.json", "w") as f:
             json.dump(knacks, f, indent=4)
 
@@ -181,14 +190,14 @@ def main(crawl, test):
         print("Knack Debugger")
         print("==============")
         pp(search_knacks("cat"))
-    
+
+
 if __name__ == "__main__":
-    
+
     parser = argparse.ArgumentParser(description="Knack scanner for Scion 1e.")
-    parser.add_argument('--crawl','-c', action='store_true')
-    parser.add_argument('--test','-t', action='store_true')
+    parser.add_argument('--crawl', '-c', action='store_true')
+    parser.add_argument('--test', '-t', action='store_true')
 
     args = parser.parse_args()
 
     main(args.crawl, args.test)
-    

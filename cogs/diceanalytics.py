@@ -8,7 +8,8 @@ import sys
 
 from typing import List, Dict, Union, Optional
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '.')))
+sys.path.insert(0, os.path.abspath(
+    os.path.join(os.path.dirname(__file__), '.')))
 
 from clogger import clogger
 from split_text import split_text
@@ -20,15 +21,14 @@ def strip_tags(string):
     """
     return re.sub('<.*?>', '', string)
 
+
 class DiceAnalytics(commands.Cog):
     """Cog"""
 
     def __init__(self, bot):
         self.bot = bot
 
-            
-        
-    @commands.command(aliases=["da","diceanal"])
+    @commands.command(aliases=["da", "diceanal"])
     async def diceanalytics(self, ctx):
         """Show the distribution of dice rolls."""
 
@@ -46,24 +46,26 @@ class DiceAnalytics(commands.Cog):
         }
 
         def strip(s):
-            return str(s.replace("[","").replace("]",""))
+            return str(s.replace("[", "").replace("]", ""))
 
         with open("dicelogs.json", "r") as f:
             SESSION_RESULTS = json.load(f)
 
         for user_log in SESSION_RESULTS:
             for log in SESSION_RESULTS[user_log]:
-                diceroll = log[3].replace("[","").replace("]","").split(",")
+                diceroll = log[3].replace("[", "").replace("]", "").split(",")
                 if len(diceroll):
                     if len(diceroll[0]):
                         for dr in diceroll:
                             DICE_DISTRIBUTION[str(dr)] += 1
         embed = discord.Embed(title="Dice Roll Analysis - Result Frequency")
-        
+
         clogger(DICE_DISTRIBUTION)
-        embed.add_field(name="\u200b", value="```Result             Frequency```", inline=True)
+        embed.add_field(
+            name="\u200b", value="```Result             Frequency```", inline=True)
         for key in DICE_DISTRIBUTION:
-            embed.add_field(name=f"\u200b", value=f"```{key:<20}{DICE_DISTRIBUTION[key]:>6}```", inline=False)
+            embed.add_field(
+                name=f"\u200b", value=f"```{key:<20}{DICE_DISTRIBUTION[key]:>6}```", inline=False)
         await ctx.send(embed=embed)
         return
 

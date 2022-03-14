@@ -8,18 +8,21 @@ import sys
 
 from typing import List, Dict, Union, Optional
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '.')))
+sys.path.insert(0, os.path.abspath(
+    os.path.join(os.path.dirname(__file__), '.')))
 
 from clogger import clogger
 from split_text import split_text
 
 from boons import search_boons
 
+
 def strip_tags(string):
     """
     This function will strip all html tags from string returning the inner html text using regex only.
     """
     return re.sub('<.*?>', '', string)
+
 
 def get_boon_cost(description_text):
     if description_text.startswith("Cost"):
@@ -34,13 +37,14 @@ def get_boon_cost(description_text):
         return cost_text, dice_text, description_text_split[2:][0]
     return "\u200b"
 
+
 class BoonSearch(commands.Cog):
     """Cog"""
 
     def __init__(self, bot):
         self.bot = bot
-        
-    @commands.command(aliases=["b","sb","boon","searchboon","searchboons"])
+
+    @commands.command(aliases=["b", "sb", "boon", "searchboon", "searchboons"])
     async def boons(self, ctx):
         """Search Boons by full/partial name."""
         term = " ".join(ctx.message.clean_content.split(" ")[1:])
@@ -52,17 +56,18 @@ class BoonSearch(commands.Cog):
                 boon_count += 1
                 title = result[0]
                 cost, dice_pool, description = get_boon_cost(result[1])
-                
+
                 embed = discord.Embed(title=title)
                 embed_value = f"```{description}```"
-                embed.add_field(name=f"{cost}{dice_pool}", value=embed_value, inline=True)
+                embed.add_field(name=f"{cost}{dice_pool}",
+                                value=embed_value, inline=True)
                 await ctx.send(embed=embed)
             await ctx.send(f"```Finished search, {boon_count} boons found containing the term: `{term}` ```")
         else:
             await ctx.send(f"```No boon found with term(s): {term}```", delete_after=5.0)
 
     def chunks(lst):
-        for i in range(0 , len(lst) , 7):
+        for i in range(0, len(lst), 7):
             yield lst[i:i + 7]
 
 

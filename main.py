@@ -8,13 +8,14 @@ import os
 import sys
 
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '.')))
+sys.path.insert(0, os.path.abspath(
+    os.path.join(os.path.dirname(__file__), '.')))
 
 from clogger import clogger
 import discord
 from cogwatch import watch
 from discord.ext import commands
-
+from discord_components import ComponentsBot
 
 with open("config.json", "r") as f:
     config = json.load(f)
@@ -22,7 +23,8 @@ with open("config.json", "r") as f:
 # Declare Bots required perms via Intents().
 INTENTS = discord.Intents.all()
 
-class OracleBot(commands.AutoShardedBot):
+
+class OracleBot(ComponentsBot):
     """A bot for managing a discord server that extends discord.py Bot class."""
 
     def __init__(self):

@@ -8,7 +8,8 @@ import sys
 
 from typing import List, Dict, Union, Optional
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '.')))
+sys.path.insert(0, os.path.abspath(
+    os.path.join(os.path.dirname(__file__), '.')))
 
 from clogger import clogger
 from split_text import split_text
@@ -17,6 +18,7 @@ from pantheons import search_gods
 from pantheons import search_pantheon
 from pantheons import search_rivals
 from pantheons import search_favoured
+
 
 def strip_tags(string):
     """
@@ -31,19 +33,20 @@ def split_list(lst):
     new_list = []
 
     for i in range(0, len(lst), 10):
-        new_list.append(lst[i:i+10])
+        new_list.append(lst[i:i + 10])
 
     return new_list
+
 
 class PantheonSearch(commands.Cog):
     """Cog"""
 
     def __init__(self, bot):
         self.bot = bot
-        
-    @commands.command(aliases=["sf", "f", "searchfavoured","fe","fa","fp"])
+
+    @commands.command(aliases=["sf", "f", "searchfavoured", "fe", "fa", "fp"])
     async def favoured(self, ctx):
-        """Find which gods favor a given epic attirbute(epic dexterity, epic perception etc.), purview (water, arete, chaos...etc.) or ability (athletics, science, survival...etc.).""" 
+        """Find which gods favor a given epic attirbute(epic dexterity, epic perception etc.), purview (water, arete, chaos...etc.) or ability (athletics, science, survival...etc.)."""
         term = " ".join(ctx.message.clean_content.split(" ")[1:])
         god_count = 0
         if term:
@@ -51,8 +54,9 @@ class PantheonSearch(commands.Cog):
             favoured = split_list(search_favoured(term))
             for fav_set in favoured:
                 if god_count > 1:
-                    embed = discord.Embed(title=f"Gods with favoured aspects of \"{term.title()}\"")
-                else:    
+                    embed = discord.Embed(
+                        title=f"Gods with favoured aspects of \"{term.title()}\"")
+                else:
                     embed = discord.Embed(title=f"\u200b")
                 for god in fav_set:
                     god_count += 1
@@ -60,21 +64,22 @@ class PantheonSearch(commands.Cog):
                     god_name = god["name"].title()
                     pantheon = god["pantheon"].title()
                     purviews = [p.title() for p in god["favoured"]["purviews"]]
-                    epic_attributes = [p.title() for p in god["favoured"]["epic_attributes"]]
-                    abilities = [p.title() for p in god["favoured"]["abilities"]]
+                    epic_attributes = [p.title()
+                                       for p in god["favoured"]["epic_attributes"]]
+                    abilities = [p.title()
+                                 for p in god["favoured"]["abilities"]]
 
-                    god_text = (f"```Purivews: {', '.join(purviews)}\n\n" \
-                                f"Attributes: {', '.join(epic_attributes)}\n\n" \
+                    god_text = (f"```Purivews: {', '.join(purviews)}\n\n"
+                                f"Attributes: {', '.join(epic_attributes)}\n\n"
                                 f"Abilities: {', '.join(abilities)}```")
-                    
-                    embed.add_field(name=f"{god_name} (AKA: {aka}) of the {pantheon}", value=god_text, inline=False)
+
+                    embed.add_field(
+                        name=f"{god_name} (AKA: {aka}) of the {pantheon}", value=god_text, inline=False)
                 await ctx.send(embed=embed)
-                    
+
         await ctx.send(f"```Search complete! Found {god_count} rival god(s).```", delete_after=5.0)
 
-
-
-    @commands.command(aliases=["r","sr","searchrivals","searchrival","lookuprivals","rivallookup","lookuprival"])
+    @commands.command(aliases=["r", "sr", "searchrivals", "searchrival", "lookuprivals", "rivallookup", "lookuprival"])
     async def rivals(self, ctx):
         """List the rival gods of a given god."""
         term = " ".join(ctx.message.clean_content.split(" ")[1:])
@@ -92,13 +97,14 @@ class PantheonSearch(commands.Cog):
                     purviews = [p.title() for p in god["favoured"]["purviews"]]
 
                     god_text = f"```God of ({', '.join(purviews)})```"
-                    
-                    embed.add_field(name=f"{god_name} (AKA: {aka}) of the {pantheon}", value=god_text, inline=False)
+
+                    embed.add_field(
+                        name=f"{god_name} (AKA: {aka}) of the {pantheon}", value=god_text, inline=False)
                 await ctx.send(embed=embed)
-                    
+
         await ctx.send(f"```Search complete! Found {god_count} rival god(s).```", delete_after=5.0)
 
-    @commands.command(aliases=["p","sp","searchpantheon","searchpantheons"])
+    @commands.command(aliases=["p", "sp", "searchpantheon", "searchpantheons"])
     async def pantheons(self, ctx):
         """List the Gods of a given Pantheon."""
         term = " ".join(ctx.message.clean_content.split(" ")[1:])
@@ -116,21 +122,23 @@ class PantheonSearch(commands.Cog):
                     aka = ", ".join(god["aka"])
                     pantheon = god["pantheon"]
                     purviews = [p.title() for p in god["favoured"]["purviews"]]
-                    epic_attributes = [p.title() for p in god["favoured"]["epic_attributes"]]
-                    abilities = [p.title() for p in god["favoured"]["abilities"]]
+                    epic_attributes = [p.title()
+                                       for p in god["favoured"]["epic_attributes"]]
+                    abilities = [p.title()
+                                 for p in god["favoured"]["abilities"]]
 
-                    god_text = (f"```Purivews: {', '.join(purviews)}\n\n" \
-                                f"Attributes: {', '.join(epic_attributes)}\n\n" \
+                    god_text = (f"```Purivews: {', '.join(purviews)}\n\n"
+                                f"Attributes: {', '.join(epic_attributes)}\n\n"
                                 f"Abilities: {', '.join(abilities)}```")
 
-                    embed.add_field(name=f"{god_name} (AKA: {aka})", value=god_text, inline=False)
-                    
-                await ctx.send(embed=embed)                  
+                    embed.add_field(
+                        name=f"{god_name} (AKA: {aka})", value=god_text, inline=False)
+
+                await ctx.send(embed=embed)
                 total_god_count += god_count
         await ctx.send(f"```Search complete! Found {god_count} god(s) from {pantheon_count} pantheon(s).```", delete_after=5.0)
-        
 
-    @commands.command(aliases=["g","sg","god","searchgod","searchgods"])
+    @commands.command(aliases=["g", "sg", "god", "searchgod", "searchgods"])
     async def gods(self, ctx):
         """Search for a God by name."""
         term = " ".join(ctx.message.clean_content.split(" ")[1:])
@@ -143,44 +151,52 @@ class PantheonSearch(commands.Cog):
                 description_split = description_full.split("\n\n")
                 description_lists = split_list(description_split)
                 description_split_parsed = []
-                
+
                 for l in description_split:
                     l_new = [ln for ln in l.split(".")]
                     description_split_parsed.append(l_new)
-                
+
                 pantheon = god["pantheon"]
                 rivals = ", ".join(god["rivals"])
                 purviews = [p.title() for p in god["favoured"]["purviews"]]
-                epic_attributes = [p.title() for p in god["favoured"]["epic_attributes"]]
+                epic_attributes = [p.title()
+                                   for p in god["favoured"]["epic_attributes"]]
                 abilities = [p.title() for p in god["favoured"]["abilities"]]
 
-                god_text = (f"```Purivews: {', '.join(purviews)}\n\n" \
-                            f"Attributes: {', '.join(epic_attributes)}\n\n" \
+                god_text = (f"```Purivews: {', '.join(purviews)}\n\n"
+                            f"Attributes: {', '.join(epic_attributes)}\n\n"
                             f"Abilities: {', '.join(abilities)}```")
 
-                embed = discord.Embed(title=f"{god_name} (AKA: {aka}) of the {pantheon}")
-                
-                embed.add_field(name=f"Purviews", value=', '.join(purviews), inline=True)
-                embed.add_field(name=f"Epic Attributes", value=', '.join(epic_attributes), inline=True)
-                embed.add_field(name=f"Abilities", value=', '.join(abilities), inline=False)
-                await ctx.send(embed=embed)        
+                embed = discord.Embed(
+                    title=f"{god_name} (AKA: {aka}) of the {pantheon}")
+
+                embed.add_field(name=f"Purviews",
+                                value=', '.join(purviews), inline=True)
+                embed.add_field(name=f"Epic Attributes",
+                                value=', '.join(epic_attributes), inline=True)
+                embed.add_field(name=f"Abilities", value=', '.join(
+                    abilities), inline=False)
+                await ctx.send(embed=embed)
 
                 embed_rivals = discord.Embed(title=f"Rivals of {god_name}")
-                embed_rivals.add_field(name=f"\u200b", value=f"```{rivals}```", inline=True)
-                await ctx.send(embed=embed_rivals)        
-                
-                for idx,d in enumerate(description_split_parsed):
+                embed_rivals.add_field(
+                    name=f"\u200b", value=f"```{rivals}```", inline=True)
+                await ctx.send(embed=embed_rivals)
+
+                for idx, d in enumerate(description_split_parsed):
                     d_string = ". ".join(d)
                     if len(d_string):
                         if idx == 2:
                             break
                         if idx == 0:
-                            embed_desc = discord.Embed(title=f"About {god_name}")
+                            embed_desc = discord.Embed(
+                                title=f"About {god_name}")
                         else:
                             embed_desc = discord.Embed(title=f"\u200b")
-                        embed_desc.add_field(name=f"\u200b", value=f"```{d_string}```", inline=True)
-                        await ctx.send(embed=embed_desc)       
-                
+                        embed_desc.add_field(
+                            name=f"\u200b", value=f"```{d_string}```", inline=True)
+                        await ctx.send(embed=embed_desc)
+
                 await ctx.send(f"```Search for god with name containing `{term}` complete!```", delete_after=5.0)
                 return
 

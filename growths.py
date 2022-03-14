@@ -2,6 +2,7 @@
 1. Write a function that increases a number quadratically for N steps.
 """
 
+
 def quadratic_increase(n):
     result = []
     for i in range(n):
@@ -10,9 +11,11 @@ def quadratic_increase(n):
 
 # quadratic_increase(10)
 
+
 """
 2. Write a function that increases a number linearly for N steps.
 """
+
 
 def linear_increase(n):
     result = []
@@ -22,9 +25,11 @@ def linear_increase(n):
 
 # linear_increase(10)
 
+
 """
 3. Write a function that increases a number exponentially for N steps.
 """
+
 
 def exponential_increase(n):
     result = []
@@ -34,9 +39,11 @@ def exponential_increase(n):
 
 # exponential_increase(10)
 
+
 """
 4. Write a function that increases a number in logarithmic time for N steps.
 """
+
 
 def logarithmic_increase(n):
     result = []
@@ -46,9 +53,11 @@ def logarithmic_increase(n):
 
 # logarithmic_increase(10)
 
+
 """
 5. Write a function that increases a number in constant time for N steps.
 """
+
 
 def constant_increase(n):
     result = []

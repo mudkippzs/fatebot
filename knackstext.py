@@ -16,5 +16,6 @@ def split_text(text):
 
     return ". ".join(sentences) + "."
 
+
 if __name__ == "__main__":
     pass

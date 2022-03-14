@@ -30,7 +30,7 @@ class Cog(commands.Cog):
 
         
     @commands.command(aliases=["commands"])
-    async def command(self, ctx, *, name: str):
+    async def command(self, ctx):
         await ctx.send("Pong")
 
 
