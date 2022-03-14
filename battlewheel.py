@@ -5,15 +5,9 @@ from player import Player
 from main import rolldice
 from npc import NPC
 
-from characters import pc_bob
-from characters import pc_vasily
-from characters import pc_jean
-from characters import pc_set
-from characters import pc_set_ferdiad
-from characters import pc_set_standard_summon
-
 from npcs import npc_template
 
+import json
 
 class Battle:
     tick = {

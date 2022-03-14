@@ -1,5 +1,5 @@
 from epiccalc import calculate_epic
-from main import rolldice
+from cogs.roller import rolldice
 
 import argparse
 import json

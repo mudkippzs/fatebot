@@ -1,13 +1,13 @@
-import datetime
+from clogger import clogger
+import atexit
 from difflib import SequenceMatcher
 
 import discord
 from discord.ext import commands
-import glob
+import datetime
 import importlib
 import json
 import os
-import random
 import re
 import sys
 
@@ -15,16 +15,11 @@ from roller import Roller
 
 import characters
 
-from typing import List, Dict, Union, Optional
 from epiccalc import calculate_epic
 
 sys.path.insert(0, os.path.abspath(
     os.path.join(os.path.dirname(__file__), '.')))
 
-from clogger import clogger
-from split_text import split_text
-
-import atexit
 
 with open("config.json", "r") as f:
     config = json.load(f)
@@ -46,7 +41,8 @@ def save_global_inventory(gi):
 
 def strip_tags(string):
     """
-    This function will strip all html tags from string returning the inner html text using regex only.
+    This function will strip all html tags from string
+    returning the inner html text using regex only.
     """
     return re.sub('<.*?>', '', string)
 
@@ -105,7 +101,10 @@ def yards_to_meters(yards):
 
 
 def sort_abilities_list(ability_list_unsorted: list):
-    """Transpose the ability list so that it appears in discord embed in a mirror format of the character sheet."""
+    """
+    Transpose the ability list so that it appears
+    in discord embed in a mirror format of the character sheet.
+    """
     ability_list_sorted = {
         "academics": ability_list_unsorted["academics"],
         "craft": ability_list_unsorted["craft"],
@@ -137,7 +136,10 @@ def sort_abilities_list(ability_list_unsorted: list):
 
 
 def sort_attr_list(attr_list_unsorted: list, epic=False):
-    """Transpose the attribute list so that it appears in discord embed in a mirror format of the character sheet."""
+    """
+    Transpose the attribute list so that it appears
+    in discord embed in a mirror format of the character sheet.
+    """
 
     if epic:
         attr_list_sorted = {
@@ -172,10 +174,10 @@ class Character(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.character_roster = []
-        character_dir = characters.__path__[0]
+        char_dir = characters.__path__[0]
         self.storyteller = discord.utils.get(
             self.bot.get_all_members(), id=218521566412013568)
-        for root, dirs, files in os.walk(character_dir):  # pylint: disable=unused-variable
+        for root, _, files in os.walk(char_dir):
             for file in files:
                 # only python script is allowed to be imported.
                 if file.startswith("pc_") and file.endswith(".py"):
@@ -194,27 +196,28 @@ class Character(commands.Cog):
 
     @commands.Cog.listener()
     async def on_ready(self):
+        await self.initial_load_characters()
         self.storyteller = discord.utils.get(
             self.bot.get_all_members(), id=218521566412013568)
-        await self.initial_load_characters()
         self.recalculate_player_sheet()
         atexit.register(self.__save_characters)
 
     @commands.command()
     async def dc(self, ctx=None):
         if str(ctx.author.id) not in [config["gamemaster"][0]["ganj"]]:
-            await ctx.send("```Only the GM can dump the character cache.```", delete_after=5.0)
+            await ctx.send("```Only the GM can dump the character cache.```",
+                           delete_after=5.0)
             return
         for character in self.character_roster:
             clogger(character["inventory"])
 
-    def sync_inventories(self):
+    def syncinventories(self):
         global_inventory = load_global_inventory()
         for idx, character in enumerate(self.character_roster):
             pid = character["player_id"]
             try:
                 player_global_inventory = global_inventory[str(pid)]
-            except KeyError as e:
+            except KeyError:
                 clogger(f"No bag found for {character['name']} ({pid})")
                 global_inventory[str(pid)] = [[]]
                 player_global_inventory = global_inventory[str(pid)]
@@ -224,29 +227,40 @@ class Character(commands.Cog):
         save_global_inventory(global_inventory)
         return
 
-    @commands.command()
-    async def si(self, ctx=None):
-        if str(ctx.author.id) not in [config["gamemaster"][0]["ganj"]]:
-            await ctx.send("```Only the GM can sync inventories.```", delete_after=5.0)
-            return
+    @commands.command(aliases=["si", "syncinv"])
+    async def sync_inventories(self, ctx=None):
+        if ctx:
+            if str(ctx.author.id) not in [config["gamemaster"][0]["ganj"]]:
+                await ctx.send("```Only the GM can sync inventories.```",
+                               delete_after=5.0)
+                return
 
-        self.sync_inventories()
+        self.syncinventories()
         return
 
-    @commands.command()
-    async def load_characters(self, ctx=None):
+    def __load_characters(self):
+        clogger(f"Loading characters...")
         directory = "characters/exports/"
         player_ids = [pid for _, pid in config["players"][0].items()]
-        most_recent_characters_exports = [k for k in sorted(os.listdir(directory), key=lambda f: os.path.getmtime(
-            os.path.join(directory, f)), reverse=True) if k.endswith(".py") == False][0:len(player_ids)]
+        sorted_chars = sorted(os.listdir(directory),
+                              key=lambda f: os.path.getmtime(
+            os.path.join(directory, f)),
+            reverse=True)
+        char_exports = [k for k in sorted_chars if k.endswith(".py") is False]
+        char_exports = char_exports[0:len(player_ids)]
         import_roster = []
 
-        for filename in most_recent_characters_exports:
+        for filename in char_exports:
             for pid in player_ids:
                 if pid in filename[0:20]:
                     with open(os.path.join(directory, filename)) as f:
                         import_roster.append(json.load(f))
+        return import_roster
 
+    @commands.before_invoke
+    @commands.command()
+    async def load_characters(self, ctx=None):
+        import_roster = self.__load_characters()
         for import_character in import_roster:
             for idx, character in enumerate(self.character_roster):
                 if character["player_id"] == import_character["player_id"]:
@@ -258,25 +272,14 @@ class Character(commands.Cog):
         return None
 
     async def initial_load_characters(self):
-        directory = "characters/exports/"
-        player_ids = [pid for _, pid in config["players"][0].items()]
-        most_recent_characters_exports = [k for k in sorted(os.listdir(directory), key=lambda f: os.path.getmtime(
-            os.path.join(directory, f)), reverse=True) if k.endswith(".py") == False][0:len(player_ids)]
-        import_roster = []
-
-        for filename in most_recent_characters_exports:
-            for pid in player_ids:
-                if pid in filename[0:20]:
-                    with open(os.path.join(directory, filename)) as f:
-                        import_roster.append(json.load(f))
-
+        import_roster = self.__load_characters()
         for import_character in import_roster:
             for idx, character in enumerate(self.character_roster):
                 if character["player_id"] == import_character["player_id"]:
                     self.character_roster[idx] = import_character
 
         clogger("Import finished.")
-        self.sync_inventories()
+        await self.sync_inventories()
         self.refill_player_sheet_charges(initial=True)
         self.recalculate_player_sheet(initial=True)
 
@@ -285,17 +288,24 @@ class Character(commands.Cog):
     def __save_characters(self):
         for idx, character in enumerate(self.character_roster):
             timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S_%z")
-            with open(f"characters/exports/{character['player_id']}_{timestamp}_export.json", "w") as f:
+            filepath = (f"characters/exports/"
+                        f"{character['player_id']}_{timestamp}_export.json")
+            with open(filepath, "w") as f:
                 json.dump(self.character_roster[idx], f, indent=4)
 
+    @commands.after_invoke
     @commands.command()
     async def save_characters(self, ctx=None):
+        clogger(f"Saving characters...")
         if str(ctx.author.id) not in [config["gamemaster"][0]["ganj"]]:
-            await ctx.send("```Only the GM can save characters.```", delete_after=5.0)
+            await ctx.send("```Only the GM can save characters.```",
+                           delete_after=5.0)
             return
         self.__save_characters()
 
-    def refill_player_sheet_charges(self, target: discord.Member = None, initial=False):
+    def refill_player_sheet_charges(self,
+                                    target: discord.Member = None,
+                                    initial=False):
         def recharge(sheet):
             # Legend & Willpower
             sheet["legend_points_total"] = sheet["legend"] * sheet["legend"]
@@ -324,39 +334,54 @@ class Character(commands.Cog):
 
             # Soaks & @TODO: Armor
 
-            player_sheet["soak"]["bludgeon"] = player_sheet["attributes"]["sta"] + \
-                calculate_epic(player_sheet["epic_attributes"]["epic_sta"])
-            player_sheet["soak"]["lethal"] = round(
-                player_sheet["soak"]["bludgeon"] / 2)
-            player_sheet["soak"]["aggrevated"] = round(
-                player_sheet["epic_attributes"]["epic_sta"] / 2)
+            stre = player_sheet["attributes"]["stre"]
+            dex = player_sheet["attributes"]["dex"]
+            stam = player_sheet["attributes"]["sta"]
+            wits = player_sheet["attributes"]["wits"]
+
+            epic_stre = calculate_epic(
+                player_sheet["epic_attributes"]["epic_stre"])
+            epic_dex = calculate_epic(
+                player_sheet["epic_attributes"]["epic_dex"])
+            epic_sta = calculate_epic(
+                player_sheet["epic_attributes"]["epic_sta"])
+            epic_wits = calculate_epic(
+                player_sheet["epic_attributes"]["epic_wits"])
+
+            athletics = player_sheet["abilities"]["athletics"]
+            awareness = player_sheet["abilities"]["awareness"]
+            brawl = player_sheet["abilities"]["brawl"]
+            melee = player_sheet["abilities"]["melee"]
+
+            if melee >= brawl:
+                p_dv_attr_mod = melee
+            else:
+                p_dv_attr_mod = brawl
+
+            legend = player_sheet["legend"]
+            move = dex + epic_dex
+            jump_v = stre + epic_stre + athletics
 
             # Combat
-            player_sheet["combat"]["dodge"][0] = (player_sheet["attributes"]["dex"] + player_sheet["abilities"]
-                                                  ["athletics"] + player_sheet["legend"]) + calculate_epic(player_sheet["epic_attributes"]["epic_dex"]) / 2
-            pc_brawl = player_sheet["abilities"]["brawl"]
-            pc_melee = player_sheet["abilities"]["melee"]
+            player_sheet["soak"]["bludgeon"] = stam + epic_sta
+            s_bludgeon = player_sheet["soak"]["bludgeon"]
+            player_sheet["soak"]["lethal"] = round(s_bludgeon / 2)
+            player_sheet["soak"]["aggrevated"] = round(epic_sta / 2)
 
-            if pc_melee >= pc_brawl:
-                player_sheet["combat"]["parry"][0] = (
-                    player_sheet["attributes"]["dex"] + pc_melee) + calculate_epic(player_sheet["epic_attributes"]["epic_dex"]) / 2
-            else:
-                player_sheet["combat"]["parry"][0] = (
-                    player_sheet["attributes"]["dex"] + pc_brawl) + calculate_epic(player_sheet["epic_attributes"]["epic_dex"]) / 2
+            player_sheet["combat"]["dodge"][0] = (
+                (dex + athletics + legend) / 2) + epic_dex
+            player_sheet["combat"]["parry"][0] = (
+                (dex + p_dv_attr_mod) / 2) + epic_dex
 
-            player_sheet["join_battle"] = player_sheet["attributes"]["wits"] + \
-                player_sheet["abilities"]["awareness"] + \
-                calculate_epic(player_sheet["epic_attributes"]["epic_wits"])
+            player_sheet["join_battle"] = wits + awareness + epic_wits
 
             # Movement
-            player_sheet["movement"]["move"] = player_sheet["attributes"]["dex"] + \
-                calculate_epic(player_sheet["epic_attributes"]["epic_dex"])
-            player_sheet["movement"]["dash"] = player_sheet["movement"]["move"] + 6
-            player_sheet["movement"]["climb"] = player_sheet["movement"]["move"] / 2
-            player_sheet["movement"]["swim"] = player_sheet["movement"]["move"] / 2
-            player_sheet["movement"]["jump"]["vertical"] = player_sheet["attributes"]["stre"] + calculate_epic(
-                player_sheet["epic_attributes"]["epic_stre"]) + player_sheet["abilities"]["athletics"]
-            player_sheet["movement"]["jump"]["horizontal"] = player_sheet["movement"]["jump"]["vertical"] * 2
+            player_sheet["movement"]["move"] = move
+            player_sheet["movement"]["dash"] = move + 6
+            player_sheet["movement"]["climb"] = move / 2
+            player_sheet["movement"]["swim"] = move / 2
+            player_sheet["movement"]["jump"]["vertical"] = jump_v
+            player_sheet["movement"]["jump"]["horizontal"] = jump_v * 2
 
             self.character_roster[idx] = player_sheet
 
@@ -366,13 +391,16 @@ class Character(commands.Cog):
     async def ra(self, ctx):
         """Recalculate derived values and recharge legend and willpower."""
         if str(ctx.author.id) not in [config["gamemaster"][0]["ganj"]]:
-            await ctx.send("```Only the GM can regen all characters.```", delete_after=5.0)
+            await ctx.send("```Only the GM can regen all characters.```",
+                           delete_after=5.0)
             return
         self.refill_player_sheet_charges()
         self.recalculate_player_sheet()
 
     @commands.command(aliases=["sheet", "charstats", "charsheet", "statsheet"])
-    async def char(self, ctx, private=True, target: discord.Member = None, chained=False):
+    async def char(self, ctx, private=True,
+                   target: discord.Member = None,
+                   chained=False):
         await self.stats(ctx, private, target, True)
         await self.abilities(ctx, private, target, True)
         await self.movement(ctx, private, target, True)
@@ -381,23 +409,30 @@ class Character(commands.Cog):
         await self.myknacks(ctx, private, target, True)
 
     @commands.command(aliases=["cat", "charattr"])
-    async def stats(self, ctx, private=True, target: discord.Member = None, chained=False):
+    async def stats(self, ctx, private=True,
+                    target: discord.Member = None,
+                    chained=False):
         if str(ctx.author.id) in [config["gamemaster"][0]["ganj"]] and target:
             player_key = target.id
         else:
             player_key = ctx.author.id
             if target:
-                await ctx.send("```Only the GM can access other players character sheets.```", delete_after=5.0)
+                await ctx.send(
+                    "```Only the GM can access other \
+                    players character sheets.```",
+                    delete_after=5.0)
 
         player_sheet = [
-            pc for pc in self.character_roster if pc["player_id"] == player_key]
+            p for p in self.character_roster if p["player_id"] == player_key]
         player_sheet = player_sheet[0]
-        if chained == False:
+        if chained is False:
             embed = discord.Embed(
-                title=f"Attributes :: {player_sheet['name']} ```Player: {ctx.author.display_name}```")
+                title=f"Attributes :: {player_sheet['name']} \
+                ```Player: {ctx.author.display_name}```")
         else:
             embed = discord.Embed(
-                title=f"Character Sheet :: {player_sheet['name']} ```Player: {ctx.author.display_name}```")
+                title=f"Character Sheet :: {player_sheet['name']} \
+                ```Player: {ctx.author.display_name}```")
 
         sorted_attributes = sort_attr_list(player_sheet["attributes"], False)
         sorted_epic_attributes = sort_attr_list(
@@ -407,11 +442,12 @@ class Character(commands.Cog):
             attr_list.append(attr_to_dots(
                 sorted_attributes[attribute], False))  # Standard Attrs
             attr_list.append(attr_to_dots(
-                sorted_epic_attributes[f"epic_{attribute}"], True))  # Epic Attrs
+                sorted_epic_attributes[f"epic_{attribute}"],
+                True))  # Epic Attrs
             attr_string = "\n".join(attr_list)
             embed.add_field(name=attr_string_map(attribute), value=attr_string)
 
-        if ctx.author == self.storyteller and private == True:
+        if ctx.author == self.storyteller and private is True:
             await self.storyteller.send(embed=embed)
         elif private:
             await ctx.author.send(embed=embed)
@@ -419,26 +455,30 @@ class Character(commands.Cog):
             await ctx.send(embed=embed)
 
     @commands.command(aliases=["cb"])
-    async def myboons(self, ctx, private=True, target: discord.Member = None, chained=False):
+    async def myboons(self, ctx, private=True,
+                      target: discord.Member = None,
+                      chained=False):
         if str(ctx.author.id) in [config["gamemaster"][0]["ganj"]] and target:
             player_key = target.id
         else:
             player_key = ctx.author.id
             if target:
-                await ctx.send("```Only the GM can access other players character sheets.```", delete_after=5.0)
+                await ctx.send("```Only the GM can access other\
+                 players character sheets.```", delete_after=5.0)
         player_sheet = [
-            pc for pc in self.character_roster if pc["player_id"] == player_key]
+            p for p in self.character_roster if p["player_id"] == player_key]
         player_sheet = player_sheet[0]
         embed = discord.Embed()
-        if chained == False:
-            embed.title = f"Boons :: {player_sheet['name']} ```Player: {ctx.author.display_name}```"
+        if chained is False:
+            embed.title = f"Boons :: {player_sheet['name']}\
+             ```Player: {ctx.author.display_name}```"
 
         boon_list = player_sheet["boons"]
 
         embed.add_field(
             name="\u200b", value=f"```{', '.join(boon_list)}```", inline=True)
 
-        if ctx.author == self.storyteller and private == True:
+        if ctx.author == self.storyteller and private is True:
             await self.storyteller.send(embed=embed)
         elif private:
             await ctx.author.send(embed=embed)
@@ -446,26 +486,30 @@ class Character(commands.Cog):
             await ctx.send(embed=embed)
 
     @commands.command(aliases=["ck"])
-    async def myknacks(self, ctx, private=True, target: discord.Member = None, chained=False):
+    async def myknacks(self, ctx, private=True,
+                       target: discord.Member = None,
+                       chained=False):
         if str(ctx.author.id) in [config["gamemaster"][0]["ganj"]] and target:
             player_key = target.id
         else:
             player_key = ctx.author.id
             if target:
-                await ctx.send("```Only the GM can access other players character sheets.```", delete_after=5.0)
+                await ctx.send("```Only the GM can access other players\
+                 character sheets.```", delete_after=5.0)
         player_sheet = [
-            pc for pc in self.character_roster if pc["player_id"] == player_key]
+            p for p in self.character_roster if p["player_id"] == player_key]
         player_sheet = player_sheet[0]
         embed = discord.Embed()
-        if chained == False:
-            embed.title = f"Knacks :: {player_sheet['name']} ```Player: {ctx.author.display_name}```"
+        if chained is False:
+            embed.title = f"Knacks :: {player_sheet['name']} \
+            ```Player: {ctx.author.display_name}```"
 
         knack_list = player_sheet["knacks"]
 
         embed.add_field(
             name="\u200b", value=f"```{', '.join(knack_list)}```", inline=True)
 
-        if ctx.author == self.storyteller and private == True:
+        if ctx.author == self.storyteller and private is True:
             await self.storyteller.send(embed=embed)
         elif private:
             await ctx.author.send(embed=embed)
@@ -473,21 +517,25 @@ class Character(commands.Cog):
             await ctx.send(embed=embed)
 
     @commands.command(aliases=["cab", "charabil"])
-    async def abilities(self, ctx, private=True, target: discord.Member = None, chained=False):
+    async def abilities(self, ctx, private=True,
+                        target: discord.Member = None,
+                        chained=False):
         if str(ctx.author.id) in [config["gamemaster"][0]["ganj"]] and target:
             player_key = target.id
         else:
             player_key = ctx.author.id
             if target:
-                await ctx.send("```Only the GM can access other players character sheets.```", delete_after=5.0)
+                await ctx.send("```Only the GM can access other\
+                 players character sheets.```", delete_after=5.0)
         player_sheet = [
-            pc for pc in self.character_roster if pc["player_id"] == player_key]
+            p for p in self.character_roster if p["player_id"] == player_key]
         player_sheet = player_sheet[0]
         embed = discord.Embed()
-        if chained == False:
-            embed.title = f"Abilities :: {player_sheet['name']} ```Player: {ctx.author.display_name}```"
+        if chained is False:
+            embed.title = f"Abilities :: {player_sheet['name']}\
+             ```Player: {ctx.author.display_name}```"
 
-        #sorted_abilities = sort_abilities_list(player_sheet["abilities"])
+        # sorted_abilities = sort_abilities_list(player_sheet["abilities"])
         sorted_abilities = player_sheet["abilities"]
 
         for ability in sorted_abilities:
@@ -498,7 +546,7 @@ class Character(commands.Cog):
             embed.add_field(name=ability.title(),
                             value=ability_str, inline=True)
 
-        if ctx.author == self.storyteller and private == True:
+        if ctx.author == self.storyteller and private is True:
             await self.storyteller.send(embed=embed)
         elif private:
             await ctx.author.send(embed=embed)
@@ -506,16 +554,19 @@ class Character(commands.Cog):
             await ctx.send(embed=embed)
 
     @commands.command(aliases=["co", "comb", "combsat"])
-    async def combat(self, ctx, private=True, target: discord.Member = None, chained=False):
+    async def combat(self, ctx, private=True,
+                     target: discord.Member = None,
+                     chained=False):
         if str(ctx.author.id) in [config["gamemaster"][0]["ganj"]] and target:
             player_key = target.id
         else:
             player_key = ctx.author.id
             if target:
-                await ctx.send("```Only the GM can access other players character sheets.```", delete_after=5.0)
+                await ctx.send("```Only the GM can\
+                 access other players character sheets.```", delete_after=5.0)
 
         player_sheet = [
-            pc for pc in self.character_roster if pc["player_id"] == player_key]
+            p for p in self.character_roster if p["player_id"] == player_key]
         player_sheet = player_sheet[0]
         embed = discord.Embed()
         soak_b = player_sheet["soak"]["bludgeon"]
@@ -532,15 +583,17 @@ class Character(commands.Cog):
             player_sheet["abilities"]["awareness"]
 
         embed = discord.Embed(title="")
-        if chained == False:
-            embed.title = f"Combat Stats :: {player_sheet['name']} ```Player: {ctx.author.display_name}```"
+        if chained is False:
+            embed.title = f"Combat Stats :: {player_sheet['name']}\
+             ```Player: {ctx.author.display_name}```"
 
         embed.add_field(
             name="\u200b", value=f"**Dodge DV**  `{dodge_dv:^5}`", inline=True)
         embed.add_field(
             name="\u200b", value=f"**Parry DV**  `{parry_dv:^5}`", inline=True)
         embed.add_field(
-            name="\u200b", value=f"**Join Battle**  `{join_battle:^5}`", inline=True)
+            name="\u200b", value=f"**Join Battle** \
+             `{join_battle:^5}`", inline=True)
         embed.add_field(name="\u200b", value="**Soak**", inline=False)
         embed.add_field(
             name="\u200b", value=f"**Bludgeon**  `{soak_b:^5}`", inline=True)
@@ -554,9 +607,10 @@ class Character(commands.Cog):
         embed.add_field(
             name="\u200b", value=f"**Lethal**  `{armor_l:^5}`", inline=True)
         embed.add_field(
-            name="\u200b", value=f"**Aggrevated**  `{armor_a:^5}`", inline=True)
+            name="\u200b", value=f"**Aggrevated** \
+             `{armor_a:^5}`", inline=True)
 
-        if ctx.author == self.storyteller and private == True:
+        if ctx.author == self.storyteller and private is True:
             await self.storyteller.send(embed=embed)
         elif private:
             await ctx.author.send(embed=embed)
@@ -564,16 +618,20 @@ class Character(commands.Cog):
             await ctx.send(embed=embed)
 
     @commands.command(aliases=["mo", "mov", "movestat", "movestats"])
-    async def movement(self, ctx, private=True, target: discord.Member = None, chained=False):
+    async def movement(self, ctx, private=True,
+                       target: discord.Member = None,
+                       chained=False):
         if str(ctx.author.id) in [config["gamemaster"][0]["ganj"]] and target:
             player_key = target.id
         else:
             player_key = ctx.author.id
             if target:
-                await ctx.send("```Only the GM can access other players character sheets.```", delete_after=5.0)
+                await ctx.send("```Only the GM can access other players\
+                 character sheets.```",
+                               delete_after=5.0)
 
-        player_sheet = [
-            pc for pc in self.character_roster if pc["player_id"] == player_key]
+        player_sheet = [p for p in self.character_roster
+                        if p["player_id"] == player_key]
         player_sheet = player_sheet[0]
         embed = discord.Embed()
         move = player_sheet["movement"]["move"]
@@ -582,28 +640,35 @@ class Character(commands.Cog):
         jump_h = player_sheet["movement"]["jump"]["horizontal"]
         jump_v = player_sheet["movement"]["jump"]["vertical"]
 
-        if chained == False:
+        if chained is False:
             if target:
                 player = target
             else:
                 player = ctx.author
-            embed.title = f"Movement Stats :: {player_sheet['name']} ```Player: {player.display_name}```"
+            embed.title = f"Movement Stats :: {player_sheet['name']}\
+             ```Player: {player.display_name}```"
 
         embed.add_field(name="Move", value=f"```{move}```")
         embed.add_field(name="Dash", value=f"```{dash}```")
         embed.add_field(name="Climb", value=f"```{climb}```")
         embed.add_field(
-            name="\u200b", value=f"```{yards_to_kph(move)} KmH\n{yards_to_mps(move)} m/s\n{yards_to_mph(move)} MpH```")
+            name="\u200b", value=f"```{yards_to_kph(move)}\
+             KmH\n{yards_to_mps(move)} m/s\n{yards_to_mph(move)} MpH```")
         embed.add_field(
-            name="\u200b", value=f"```{yards_to_kph(dash)} KmH\n{yards_to_mps(dash)} m/s\n{yards_to_mph(dash)} MpH```")
+            name="\u200b", value=f"```{yards_to_kph(dash)}\
+             KmH\n{yards_to_mps(dash)} m/s\n{yards_to_mph(dash)} MpH```")
         embed.add_field(
-            name="\u200b", value=f"```{yards_to_kph(climb)} KmH\n{yards_to_mps(climb)} m/s\n{yards_to_mph(climb)} MpH```")
-        embed.add_field(name="Jump - Vertical",
-                        value=f"```{jump_v} ({yards_to_meters(jump_v)} meters)```")
-        embed.add_field(name="Jump - Horizontal",
-                        value=f"```{jump_h} ({yards_to_meters(jump_h)} meters)```")
+            name="\u200b", value=f"```{yards_to_kph(climb)}\
+             KmH\n{yards_to_mps(climb)} m/s\n{yards_to_mph(climb)} MpH```")
 
-        if ctx.author == self.storyteller and private == True:
+        embed.add_field(name="Jump - Vertical",
+                        value=f"```{jump_v}\
+                         ({yards_to_meters(jump_v)} meters)```")
+        embed.add_field(name="Jump - Horizontal",
+                        value=f"```{jump_h}\
+                         ({yards_to_meters(jump_h)} meters)```")
+
+        if ctx.author == self.storyteller and private is True:
             await self.storyteller.send(embed=embed)
         elif private:
             await ctx.author.send(embed=embed)
@@ -611,7 +676,10 @@ class Character(commands.Cog):
             await ctx.send(embed=embed)
 
     @commands.command(aliases=["ab", "rollfor"])
-    async def abilityroll(self, ctx, ability: str = None, attr: str = None, private=False, mod: int = 0, target: discord.Member = None):
+    async def abilityroll(self, ctx, abil: str = None,
+                          attr: str = None,
+                          private=False,
+                          mod: int = 0, target: discord.Member = None):
         def similar(a, b):
             if len(a) > 9:
                 a = a[0:8]
@@ -624,30 +692,40 @@ class Character(commands.Cog):
         else:
             player_key = ctx.author.id
             if target:
-                await ctx.send("```Only the GM can access other players character sheets.```", delete_after=5.0)
+                await ctx.send("```Only the GM can access other\
+                 players character sheets.```", delete_after=5.0)
 
-        player_sheet = [
-            pc for pc in self.character_roster if pc["player_id"] == player_key][0]
-        ability_check = [(a, player_sheet["abilities"][a])
-                         for a in player_sheet["abilities"] if similar(a, ability) > 0.6]
+        charsheet = [p for p in
+                     self.character_roster if p["player_id"] == player_key][0]
+        ability_check = [(a, charsheet["abilities"][a])
+                         for a in charsheet["abilities"]
+                         if similar(a, abil) > 0.6]
         if len(ability_check):
-            attr_check = [(a, player_sheet["attributes"][a])
-                          for a in player_sheet["attributes"] if similar(a, attr) > 0.6]
+            attr_check = [(a, charsheet["attributes"][a])
+                          for a in charsheet["attributes"]
+                          if similar(a, attr) > 0.6]
             if len(attr_check):
                 clogger(f"Rolling for {ability_check}, {attr_check}")
                 attr_str = attr_check[0][0]
-                attr_val = attr_check[0][1] + player_sheet[f"{attr_str}_mod"]
+                attr_val = attr_check[0][1] + charsheet[f"{attr_str}_mod"]
                 ability_str = ability_check[0][0]
                 ability_val = ability_check[0][1] + mod
-                clogger(
-                    f"Raw values - Epic Attr: {player_sheet['epic_attributes'][f'epic_{attr_str}']}")
-                clogger(
-                    f"Raw values - Epic Attr Mod: {player_sheet[f'epic_{attr_str}_mod']}")
-                epic_attr_val = player_sheet['epic_attributes'][f'epic_{attr_str}'] + \
-                    player_sheet[f'epic_{attr_str}_mod']
+                ep_attr_str = charsheet['epic_attributes'][f'epic_{attr_str}']
+                eas_mod = charsheet['epic_attributes'][f'epic_{attr_str}_mod']
+                clogger(f"Raw values - Epic Attr: {ep_attr_str}")
+                clogger(f"Raw values - Epic Attr Mod: {eas_mod}")
+                epic_attr_val = ep_attr_str + eas_mod
                 clogger(f"?roll {ability_val},{attr_val}, {epic_attr_val}")
-                await ctx.send(f"\n```markdown\n#> Rolling: {attr_str.title()} ({attr_val}) and {ability_str.title()} ({ability_val})```", delete_after=5.0)
-                await Roller.roll(None, ctx, f"{ability_val},{attr_val},{epic_attr_val}", private, self.storyteller)
+                await ctx.send(f"\n```markdown\n#> Rolling: \
+                    {attr_str.title()} ({attr_val}) and \
+                    {ability_str.title()} ({ability_val})```",
+                               delete_after=5.0)
+
+                await Roller.roll(None,
+                                  ctx,
+                                  f"{ability_val},{attr_val},{epic_attr_val}",
+                                  private,
+                                  self.storyteller)
 
 
 def setup(client):

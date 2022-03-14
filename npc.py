@@ -208,25 +208,29 @@ class NPC:
 
     def __choose_abilites(self):
         total_points = 30
-        parents_favoured = self.god_data["favoured"]["abilities"]
-        for favoured in parents_favoured:
-            spend = random.randint(1, 3)
-            favoured_ability = favoured.lower().replace(
-                " ", "_").split("_(")[0]
-            try:
-                self.template["abilities"][favoured_ability] += spend
-            except KeyError as e:
-                print(favoured_ability)
-                print(self.template["abilities"])
-                raise e
-            total_points -= spend
+        while total_points > 0:
+            if self.legend:
+                parents_favoured = self.god_data["favoured"]["abilities"]
+                for favoured in parents_favoured:
+                    spend = random.randint(1, 3)
+                    favoured_ability = favoured.lower().replace(
+                        " ", "_").split("_(")[0]
+                    try:
+                        self.template["abilities"][favoured_ability] += spend
+                    except KeyError as e:
+                        print(favoured_ability)
+                        print(self.template["abilities"])
+                        raise e
+                    total_points -= spend
 
-        for ability in self.template["abilities"]:
-            ability = ability.lower().replace(" ", "_")
-            if self.template["abilities"][ability] < 3:
-                self.template["abilities"][ability] += random.randint(
-                    0, 3 - self.template["abilities"][ability])
-
+            for ability in self.template["abilities"]:
+                if random.randint(0,1) == True:
+                    ability = ability.lower().replace(" ", "_")
+                    if self.template["abilities"][ability] < 3:
+                        spend = random.randint(
+                            0, 3 - self.template["abilities"][ability])
+                        self.template["abilities"][ability] += spend
+                        total_points -= spend
         return
 
     def __choose_boons(self, budget):
@@ -282,10 +286,10 @@ class NPC:
             attribute = random.choice(attribute_list)[1]
             standard_attribute = attribute.replace("epic_", "")
 
-            if attribute in parents_favoured:
-                epic_attr = self.template["epic_attributes"][attribute]
-                attr = self.template["attributes"][standard_attribute]
+            epic_attr = self.template["epic_attributes"][attribute]
+            attr = self.template["attributes"][standard_attribute]
 
+            if attribute in parents_favoured:
                 if (budget - (epic_attr * 4)) > 0:
                     if (epic_attr + 1) <= self.legend:
                         if (epic_attr + 1) < attr:
@@ -294,7 +298,7 @@ class NPC:
                             self.new_knacks[attribute.replace(
                                 "epic_", "")] += 1
             elif (budget - (epic_attr * 5)) > 0:
-                if random.randint(0, 1) is True:
+                if random.randint(0, 1) == True:
                     if (epic_attr + 1) <= self.legend:
                         if (epic_attr + 1) < attr:
                             budget -= epic_attr * 5
@@ -354,7 +358,7 @@ class NPC:
             "None": ["US", "IE", "ES", "DE", "JP", "FR", "IT", "US"]
         }
 
-        if self.pantheon:
+        if hasattr(self, 'pantheon'):
             random_country = random.choice(country_dict[self.pantheon])
         else:
             random_country = random.choice(country_dict["None"])
@@ -380,7 +384,6 @@ class NPC:
         self.__set_divinity(god, pantheon, final_legend)
         self.__set_legend(0)
         self.__choose_virtues()
-
         self.__choose_abilites()
         self.__randomly_distribute_attributes()
         self.new_knacks = {
