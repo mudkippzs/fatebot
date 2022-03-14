@@ -105,9 +105,7 @@ class InventoryManager(commands.Cog):
 
     def __init__(self, bot):
         self.bot = bot
-        load_global_inventory()
-
-    
+        load_global_inventory()    
         
     @commands.command(aliases=["ai", "ainv", "abag"])
     async def admininventory(self, ctx, user: discord.Member = None, command: str = "check", item: str = None, quantity: int = 1, description: str = "No description"):
@@ -168,9 +166,6 @@ class InventoryManager(commands.Cog):
                 await ctx.send(f"```{ctx.message.author} has no items in {user}'s inventory.```", delete_after=5.0)
 
         return
-
-
-
         
     @commands.command(aliases=["i", "inv", "bag"])
     async def inventory(self, ctx, command: str = "check", item: str = None, quantity: int = 1, description: str = "No description"):
