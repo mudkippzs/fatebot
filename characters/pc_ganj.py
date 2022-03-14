@@ -1,25 +1,25 @@
 PLAYER_CHARACTER_SHEET = {
 	"attributes": {
-		"stre": 1,
-		"dex": 2,
-		"sta": 3,
-		"cha": 4,
-		"man": 5,
-		"app": 6,
-		"per": 7,
-		"inte": 8,
-		"wits": 10
+		"stre": 3,
+		"dex": 4,
+		"sta": 4,
+		"cha": 3,
+		"man": 2,
+		"app": 3,
+		"per": 4,
+		"inte": 3,
+		"wits": 4
 	},
 	"epic_attributes": {
-		"epic_stre": 4,
-		"epic_dex": 6,
-		"epic_sta": 3,
-		"epic_cha": 1,
-		"epic_man": 6,
+		"epic_stre": 1,
+		"epic_dex": 3,
+		"epic_sta": 2,
+		"epic_cha": 3,
+		"epic_man": 2,
 		"epic_app": 3,
-		"epic_per": 11,
-		"epic_inte": 10,
-		"epic_wits": 6
+		"epic_per": 0,
+		"epic_inte": 0,
+		"epic_wits": 1
 	},
     "player_id": 218521566412013568,
     "name": "Tom Bombadil",

@@ -1,4 +1,6 @@
 import datetime
+from difflib import SequenceMatcher
+
 import discord
 from discord.ext import commands
 import glob
@@ -8,6 +10,8 @@ import os
 import random
 import re
 import sys
+
+from roller import Roller
 
 import characters
 
@@ -157,8 +161,8 @@ class Character(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.character_roster = []
-        self.storyteller = discord.utils.get(self.bot.get_all_members(), id=218521566412013568)
         character_dir = characters.__path__[0]
+        self.storyteller = discord.utils.get(self.bot.get_all_members(), id=218521566412013568)
         for root, dirs, files in os.walk(character_dir):  # pylint: disable=unused-variable
             for file in files:
                 if file.startswith("pc_") and file.endswith(".py"):  # only python script is allowed to be imported.
@@ -171,9 +175,9 @@ class Character(commands.Cog):
 
     @commands.Cog.listener()
     async def on_ready(self):
+        self.storyteller = discord.utils.get(self.bot.get_all_members(), id=218521566412013568)
         await self.initial_load_characters()
         atexit.register(self.__save_characters)
-
 
     @commands.command()
     async def dc(self, ctx = None):
@@ -543,5 +547,37 @@ class Character(commands.Cog):
         else:
             await ctx.send(embed=embed)
 
+    @commands.command(aliases=["ab", "rollfor"])
+    async def abilityroll(self, ctx, ability: str = None, attr: str = None, private = False, mod: int = 0, target: discord.Member = None):
+        def similar(a, b):
+            if len(a) > 9:
+                a = a[0:8]
+            if len(b) > 9:
+                b = b[0:8]
+            return SequenceMatcher(None, a, b).ratio()
+        
+        if str(ctx.author.id) in [config["gamemaster"][0]["ganj"]] and target:
+            player_key = target.id
+        else:
+            player_key = ctx.author.id
+            if target:
+                await ctx.send("```Only the GM can access other players character sheets.```", delete_after=5.0)
+
+        player_sheet = [pc for pc in self.character_roster if pc["player_id"] == player_key][0]
+        ability_check = [(a, player_sheet["abilities"][a]) for a in player_sheet["abilities"] if similar(a, ability) > 0.6]
+        if len(ability_check):
+            attr_check = [(a, player_sheet["attributes"][a]) for a in player_sheet["attributes"] if similar(a, attr) > 0.6]
+            if len(attr_check):                       
+                clogger(f"Rolling for {ability_check}, {attr_check}")
+                attr_str = attr_check[0][0]
+                attr_val = attr_check[0][1] + player_sheet[f"{attr_str}_mod"]
+                ability_str = ability_check[0][0]
+                ability_val = ability_check[0][1] + mod
+                clogger(f"Raw values - Epic Attr: {player_sheet['epic_attributes'][f'epic_{attr_str}']}")
+                clogger(f"Raw values - Epic Attr Mod: {player_sheet[f'epic_{attr_str}_mod']}")
+                epic_attr_val = player_sheet['epic_attributes'][f'epic_{attr_str}'] + player_sheet[f'epic_{attr_str}_mod']
+                clogger(f"?roll {ability_val},{attr_val}, {epic_attr_val}")
+                await ctx.send(f"\n```markdown\n#> Rolling: {attr_str.title()} ({attr_val}) and {ability_str.title()} ({ability_val})```", delete_after=5.0)
+                await Roller.roll(None, ctx, f"{ability_val},{attr_val},{epic_attr_val}", private, self.storyteller)
 def setup(client):
     client.add_cog(Character(client))

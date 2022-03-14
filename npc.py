@@ -21,7 +21,6 @@ from player import Player
 
 # Util functions.
 from dprint import Dprint
-from main import rolldice
 from npcs import npc_template
 
 import growths

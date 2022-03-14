@@ -20,7 +20,7 @@ def strip_tags(string):
     This function will strip all html tags from string returning the inner html text using regex only.
     """
     return re.sub('<.*?>', '', string)
-   
+
 def rolldice(roll_string:str = None):
     """Rolls dice for the given attribute, ability and epic attribute."""    
     if type(roll_string) == str:
@@ -55,13 +55,23 @@ def rolldice(roll_string:str = None):
 class Roller(commands.Cog):
     """Cog"""
 
+    storyteller = None
+
     def __init__(self, bot):
         self.bot = bot
+        self.storyteller = discord.utils.get(self.bot.get_all_members(), id=218521566412013568)
+        #self.storyteller = False # To disable GM DMs for rolls.
+
+    @commands.Cog.listener()
+    async def on_ready(self):
+        self.storyteller = discord.utils.get(self.bot.get_all_members(), id=218521566412013568)
 
     @commands.command(aliases=["ro", "dr", "diceroll", "rolldice"])
-    async def roll(self, ctx, roll_string:str = None):
+    async def roll(self, ctx, roll_string:str = None, privacy: bool = False, storyteller: discord.Member = None):
         """Roll a dice in Story Teller system. Fromat: Attr, Abil, Epic Attr. Example: ?roll 3,2,1"""
         roll_string = roll_string.split(",")
+        if storyteller == False:
+            storyteller = self.storyteller
 
         try:
             roll_string = [int(rs) for rs in roll_string]
@@ -85,15 +95,26 @@ class Roller(commands.Cog):
             dice_results_string = ",".join(sorted([str(dr) for dr in dice_results]))
             dice_results_plurarl_string = "s" if total_dice > 1 else ""
             clogger(f"{ctx.message.author.display_name} > {ctx.message.clean_content} <{success_total} successes> Raw Results: [{dice_results_string}] {successes} successes + {extra_successes} automatic successes")
-            await ctx.send(f"```markdown\n# {ctx.message.clean_content} - Raw Results: [{dice_results_string}] {successes} successes + {extra_successes} automatic successes``````markdown\n{ctx.message.author.display_name} rolled {total_dice}D10{dice_results_plurarl_string} and got <{success_total} successes>!```")
+            if privacy:
+                await ctx.author.send(f"```markdown\n# {ctx.message.clean_content} - Raw Results: [{dice_results_string}] {successes} successes + {extra_successes} automatic successes``````markdown\n{ctx.message.author.display_name} rolled {total_dice}D10{dice_results_plurarl_string} and got < {success_total} successes >!```")
+                                
+                with open("config.json", "r") as f:
+                    config = json.load(f)
+                #config["dm_snooze"] = False
+                if config["dm_snooze"] == False:
+                    await storyteller.send(f"```markdown\n# {ctx.message.clean_content} - Raw Results: [{dice_results_string}] {successes} successes + {extra_successes} automatic successes``````markdown\n{ctx.message.author.display_name} rolled {total_dice}D10{dice_results_plurarl_string} and got < {success_total} successes >!```")
+                else:
+                    await ctx.send(f"```No DM sent to Gamemaster - DM Snooze is enabled zZ!```", delete_after=5.0)
+            else:
+                await ctx.send(f"```markdown\n# {ctx.message.clean_content} - Raw Results: [{dice_results_string}] {successes} successes + {extra_successes} automatic successes``````markdown\n{ctx.message.author.display_name} rolled {total_dice}D10{dice_results_plurarl_string} and got < {success_total} successes >!```")
+            
             await ctx.message.delete()
 
             # Log it
             now = datetime.datetime.now()
             logstamp = now.strftime("%d-%m-%Y @ %H:%M:%S:%f")
             roll_log_string = [f"{logstamp}",f"{ctx.message.author}",f"{ctx.message.clean_content}",f"[{dice_results_string}]",f"{successes}",f"{extra_successes}",f"{success_total}"]
-            
-            
+                        
             with open("dicelogs.json", "r") as f:
                 SESSION_RESULTS = json.load(f)
 
