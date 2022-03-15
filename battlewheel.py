@@ -1,15 +1,18 @@
 from datetime import datetime
-from pprint import pprint as pp
+
+from clogger import clogger
 
 from player import Player
-from main import rolldice
+from cogs.roller import Roller
 from npc import NPC
 
 from npcs import npc_template
 
 import json
 
+
 class Battle:
+
     tick = {
         "0": [],
         "1": [],
@@ -20,6 +23,23 @@ class Battle:
         "6": [],
         "7": [],
         "8": [],
+        "9": [],
+        "10": [],
+        "11": [],
+        "12": [],
+        "13": [],
+        "14": [],
+        "15": [],
+        "16": [],
+        "17": [],
+        "18": [],
+        "19": [],
+        "20": [],
+        "21": [],
+        "22": [],
+        "23": [],
+        "24": [],
+        "25": []
     }
 
     current_tick = 0
@@ -50,25 +70,45 @@ class Battle:
                 name = player.label
             else:
                 name = player.name
+
             jb = player.join_battle()
+
             position = self.max_initiative - jb
             if position < 0:
                 position = 0
+
             self.tick[str(position)].append(player)
 
-    def player_action(player, action):
-        if action == "melee":
-            speed = player.combat["melee"]
-        elif action == "range":
-            speed = player.combat["range"]
-        elif action == "aim":
-            speed = player.combat["aim"]
-        elif action == "guard":
-            speed = player.combat["guard"]
-        elif action == "grapple":
-            speed = player.combat["grapple"]
-        elif action == "inactive":
-            speed = player.combat["inactive"]
+    async def before_tick(self, battle_context):
+        pass
+
+    async def do_tick(self, battle_context):
+        for idx, player in enumerate(self.tick[str(str(self.current_tick))]):
+            speed = 1
+            if player.is_dead is False:
+                roll_string = player.get_action_roll(action='unarmed')
+                clogger(roll_string)
+                successes_rolled = await Roller.roll(None,
+                                                     battle_context,
+                                                     roll_string,
+                                                     False,
+                                                     None)
+
+                await battle_context.send(
+                    f"```{player.name} ({player.npc}) rolled - got {successes_rolled} successes```")
+
+            if player.is_dead is False:
+                self.tick[str(self.current_tick + speed)].append(
+                    self.tick[str(self.current_tick)].pop(idx))
+            else:
+                dead_player = self.tick[str(self.current_tick)].pop(idx)
+                await battle_context.send(f"```{dead_player.name} \
+                    is dead! Sent to Gravyard!```")
+                self.graveyard.append(dead_player)
+        return
+
+    async def after_tick(self, battle_context):
+        pass
 
     def add_player(self, player: Player = None):
         if player:
@@ -89,41 +129,42 @@ class Battle:
 
 
 if __name__ == "__main__":
-    bob_joe = Player("Bob", 382348220405383171, False,
-                     3, pc_bob.PLAYER_CHARACTER_SHEET)
-    vasily_tom = Player("Vasily Volkov", 514859386116767765,
-                        False, 3, pc_vasily.PLAYER_CHARACTER_SHEET)
-    jean_potato = Player("Jeanne Chadwick", 374853432168808448,
-                         False, 3, pc_jean.PLAYER_CHARACTER_SHEET)
-    set_liddy = Player("Set", 433097995832000513, False,
-                       3, pc_set.PLAYER_CHARACTER_SHEET)
-    set_ferdiad = Player("Ferdiad (Set's Summon)", 433097995832000513,
-                         False, 3, pc_set_ferdiad.PLAYER_CHARACTER_SHEET)
-    set_standard_summon = Player("Fianna Warrior (Set's Summon)", 433097995832000513,
-                                 False, 3, pc_set_standard_summon.PLAYER_CHARACTER_SHEET)
+    # bob_joe = Player("Bob", 382348220405383171, False,
+    #                  3, pc_bob.PLAYER_CHARACTER_SHEET)
+    # vasily_tom = Player("Vasily Volkov", 514859386116767765,
+    #                     False, 3, pc_vasily.PLAYER_CHARACTER_SHEET)
+    # jean_potato = Player("Jeanne Chadwick", 374853432168808448,
+    #                      False, 3, pc_jean.PLAYER_CHARACTER_SHEET)
+    # set_liddy = Player("Set", 433097995832000513, False,
+    #                    3, pc_set.PLAYER_CHARACTER_SHEET)
+    # set_ferdiad = Player("Ferdiad (Set's Summon)", 433097995832000513,
+    #                      False, 3, pc_set_ferdiad.PLAYER_CHARACTER_SHEET)
+    # set_standard_summon = Player("Fianna Warrior (Set's Summon)", 433097995832000513,
+    #                              False, 3, pc_set_standard_summon.PLAYER_CHARACTER_SHEET)
 
     # Band
-    band = [
-        bob_joe,
-        vasily_tom,
-        jean_potato,
-        set_liddy,
-        set_ferdiad,
-        set_standard_summon,
-    ]
+    # band = [
+    #     bob_joe,
+    #     vasily_tom,
+    #     jean_potato,
+    #     set_liddy,
+    #     set_ferdiad,
+    #     set_standard_summon,
+    # ]
 
     # NPCs
-    npc_list = []
-    for _ in range(0, 5):
-        print(f"Generating NPC {_+1}...")
-        n = NPC(label="Grunt", legend=6, debug=True)
-        n.save_to_dict()
-        npc_list.append(n.player)
+    # npc_list = []
+    # for _ in range(0, 5):
+    #     print(f"Generating NPC {_+1}...")
+    #     n = NPC(label="Grunt", legend=6, debug=True)
+    #     n.save_to_dict()
+    #     npc_list.append(n.player)
 
-    all_battlers = band + npc_list
+    # all_battlers = band + npc_list
 
-    b = Battle(all_battlers)
-    b.join_battle()
-    for _ in range(20):
-        print(b)
-        b.next_tick()
+    # b = Battle(all_battlers)
+    # b.join_battle()
+    # for _ in range(20):
+    #     print(b)
+    #     b.next_tick()
+    pass

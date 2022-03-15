@@ -73,11 +73,12 @@ class Roller(commands.Cog):
             self.bot.get_all_members(), id=218521566412013568)
 
     @commands.command(aliases=["ro", "dr", "diceroll", "rolldice"])
-    async def roll(self, ctx, roll_string: str = None, privacy: bool = False, storyteller: discord.Member = None):
+    async def roll(self, ctx, roll_string: str = None, privacy: bool = False, storyteller: discord.Member = False):
         """Roll a dice in Story Teller system. Fromat: Attr, Abil, Epic Attr. Example: ?roll 3,2,1"""
         roll_string = roll_string.split(",")
-        if storyteller == False:
-            storyteller = self.storyteller
+        if storyteller is False:
+            self.storyteller = discord.utils.get(
+                self.bot.get_all_members(), id=218521566412013568)
 
         try:
             roll_string = [int(rs) for rs in roll_string]
@@ -117,8 +118,6 @@ class Roller(commands.Cog):
             else:
                 await ctx.send(f"```markdown\n# {ctx.message.clean_content} - Raw Results: [{dice_results_string}] {successes} successes + {extra_successes} automatic successes``````markdown\n{ctx.message.author.display_name} rolled {total_dice}D10{dice_results_plurarl_string} and got < {success_total} successes >!```")
 
-            await ctx.message.delete()
-
             # Log it
             now = datetime.datetime.now()
             logstamp = now.strftime("%d-%m-%Y @ %H:%M:%S:%f")
@@ -141,7 +140,7 @@ class Roller(commands.Cog):
             return
 
         await ctx.send(f"""```Command help: ?roll 1,2,3 (attribute, ability, epic attribute).```""", delete_after=5.0)
-        return
+        return success_total
 
 
 def setup(client):

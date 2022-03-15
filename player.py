@@ -9,6 +9,7 @@ with open("config.json", "r") as f:
     config = json.load(f)
 
 
+
 class Player:
     name = None
     npc = False
@@ -18,6 +19,19 @@ class Player:
     xp_spent = 0
     bonus_points = 0
     stunt_log = []
+    is_dead = False
+    hp = [0,0,0]
+
+    damage_map = {
+        "0": "0",
+        "1": "1",
+        "2": "1",
+        "3": "2",
+        "4": "2",
+        "5": "4",
+        "6": "I",
+        "7": "D",
+    }
 
     def __init__(self, name: str = None, discord_tag: str = None,
                  npc: bool = None, legend: int = 0, options: dict = {}):
@@ -62,6 +76,22 @@ class Player:
             value = value * -1
         self.legend_points_current -= value
         return
+
+    def take_damage(self, value, hptype=1):
+        self.hp[hptype] += value
+
+    def heal_damage(self, value, hptype=1):
+        self.hp[hptype] += value
+
+    def get_action_roll(self, action='unarmed'):
+        if 'unarmed' in action:
+            return f"{self.abilities['brawl']},{self.attributes['stre']},{self.epic_attributes['epic_stre']}"
+        elif 'melee' in action:
+            return f"{self.abilities['melee']},{self.attributes['stre']},{self.epic_attributes['epic_stre']}"
+        elif 'range' in action:
+            return f"{self.abilities['marksmanship']},{self.attributes['dex']},{self.epic_attributes['epic_dex']}"
+        else:
+            return f"{self.abilities['brawl']},{self.attributes['stre']},{self.epic_attributes['epic_stre']}"
 
     def add_willpower(self, value=1):
         if value < 0:

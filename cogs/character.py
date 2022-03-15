@@ -238,7 +238,7 @@ class Character(commands.Cog):
         self.syncinventories()
         return
 
-    def __load_characters(self):
+    def load_characters_from_files(self):
         clogger(f"Loading characters...")
         directory = "characters/exports/"
         player_ids = [pid for _, pid in config["players"][0].items()]
@@ -260,7 +260,7 @@ class Character(commands.Cog):
     @commands.before_invoke
     @commands.command()
     async def load_characters(self, ctx=None):
-        import_roster = self.__load_characters()
+        import_roster = self.load_characters_from_files()
         for import_character in import_roster:
             for idx, character in enumerate(self.character_roster):
                 if character["player_id"] == import_character["player_id"]:
@@ -272,7 +272,7 @@ class Character(commands.Cog):
         return None
 
     async def initial_load_characters(self):
-        import_roster = self.__load_characters()
+        import_roster = self.load_characters_from_files()
         for import_character in import_roster:
             for idx, character in enumerate(self.character_roster):
                 if character["player_id"] == import_character["player_id"]:
