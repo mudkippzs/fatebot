@@ -53,9 +53,9 @@ def random_encounter():
     # for _ in range(10):
     #     encounter["civilians"].append(NPC(legend=0, debug=True))
 
-    for _ in range(6):
+    for i in range(10):
         encounter["grunts"].append(
-            NPC(legend=random.randint(1, 2), debug=True))
+            NPC(label=f"Cultist of Ymir #{i}", legend=random.randint(1, 2), debug=True))
 
     # for _ in range(4):
     #     encounter["peons"].append(NPC(legend=random.randint(0, 1), debug=True))
@@ -102,31 +102,31 @@ class BattleEngine(commands.Cog):
                 encounter_group.append(npc_player)
 
         player_list = ", ".join([p.display_name for p in ctx.message.mentions])
-        player_ids = [p for p in ctx.message.mentions if p.bot is False]
+        player_ids = [p for p in ctx.message.mentions]
 
         import_roster = Character.load_characters_from_files(None)
+        player_count = 0
         for pc in import_roster:
-            clogger(pc)
-            if pc["player_id"] in player_ids:
+            if pc["player_id"] in [p.id for p in player_ids]:
+                player_count += 1
                 encounter_group.append(Player(name=pc["name"],
                                               discord_tag=pc["player_id"],
                                               npc=False,
                                               legend=pc["legend"],
                                               options=pc))
-
+   
         battle = Battle(encounter_group)
-        jb_results = battle.join_battle()
 
         group_size = len(encounter_group)
-        await ctx.send(f"```Starting encounter with {group_size}"
-                       f"players: {player_list}], "
-                       f"opponenets: {len(encounter_group)}.```")
+        await ctx.send(f"```Starting encounter with {player_count} "
+                       f"players: {player_list}, and "
+                       f"{len(encounter_group) - player_count} opponents.```")
 
         await ctx.send("```Rolling Join Battle```", delete_after=5.0)
         battle_engaged = True
         while battle_engaged:
             await battle.before_tick(ctx)
-            await battle.do_tick(ctx)
+            await battle.do_tick(ctx, self.bot)
             await battle.after_tick(ctx)
             battle.next_tick()
             if battle.current_tick >= 21:

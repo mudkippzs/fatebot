@@ -114,7 +114,8 @@ class Roller(commands.Cog):
                 if config["dm_snooze"] == False:
                     await storyteller.send(f"```markdown\n# {ctx.message.clean_content} - Raw Results: [{dice_results_string}] {successes} successes + {extra_successes} automatic successes``````markdown\n{ctx.message.author.display_name} rolled {total_dice}D10{dice_results_plurarl_string} and got < {success_total} successes >!```")
                 else:
-                    await ctx.send(f"```No DM sent to Gamemaster - DM Snooze is enabled zZ!```", delete_after=5.0)
+                    #await ctx.send(f"```No DM sent to Gamemaster - DM Snooze is enabled zZ!```", delete_after=5.0)
+                    pass
             else:
                 await ctx.send(f"```markdown\n# {ctx.message.clean_content} - Raw Results: [{dice_results_string}] {successes} successes + {extra_successes} automatic successes``````markdown\n{ctx.message.author.display_name} rolled {total_dice}D10{dice_results_plurarl_string} and got < {success_total} successes >!```")
 
@@ -137,10 +138,10 @@ class Roller(commands.Cog):
             with open("dicelogs.json", "w+") as f:
                 f.write(json.dumps(SESSION_RESULTS))
 
-            return
+            return success_total
 
         await ctx.send(f"""```Command help: ?roll 1,2,3 (attribute, ability, epic attribute).```""", delete_after=5.0)
-        return success_total
+        return
 
 
 def setup(client):

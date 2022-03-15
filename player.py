@@ -1,6 +1,8 @@
 from epiccalc import calculate_epic
 from cogs.roller import rolldice
 
+from clogger import clogger
+
 import argparse
 import json
 import math
@@ -112,6 +114,7 @@ class Player:
         return
 
     def join_battle(self):
+        clogger(f"Rolling join battle for {self.name}!")
         self.join_battle_result = 0
 
         wits = self.attributes["wits"]

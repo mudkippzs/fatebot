@@ -1,4 +1,5 @@
 from datetime import datetime
+from discord_components import DiscordComponents, ComponentsBot, Button, Select, SelectOption
 
 from clogger import clogger
 
@@ -9,7 +10,7 @@ from npc import NPC
 from npcs import npc_template
 
 import json
-
+import random
 
 class Battle:
 
@@ -49,7 +50,12 @@ class Battle:
     def __init__(self, players: list=[]):
         if len(players):
             for player in players:
-                jb = player.join_battle()
+                
+                if player.npc[0] is True:
+                    jb = player.join_battle()
+                else:
+                    jb = player.join_battle
+
                 if jb > 6:
                     max_initiative = 6
                 else:
@@ -57,12 +63,12 @@ class Battle:
 
             self.players = players
 
-            print(
-                f"Highest initiative in Player Join Battle rolls: {max_initiative}")
-            print(f"Rolling Join Battle for {len(players)} players...")
+            clogger(f"Highest initiative in Player\
+             Join Battle rolls: {max_initiative}")
+            clogger(f"Rolling Join Battle for {len(players)} players...")
             self.join_battle()
         else:
-            print("No players added to Battle.")
+            clogger("No players added to Battle.")
 
     def join_battle(self):
         for player in self.players:
@@ -70,9 +76,13 @@ class Battle:
                 name = player.label
             else:
                 name = player.name
+                
+            if player.npc[0] is True:
+                jb = player.join_battle()
+            else:
+                jb = player.join_battle
 
-            jb = player.join_battle()
-
+            
             position = self.max_initiative - jb
             if position < 0:
                 position = 0
@@ -80,31 +90,64 @@ class Battle:
             self.tick[str(position)].append(player)
 
     async def before_tick(self, battle_context):
-        pass
+        await battle_context.send(self.__str__())
+        return
 
-    async def do_tick(self, battle_context):
-        for idx, player in enumerate(self.tick[str(str(self.current_tick))]):
-            speed = 1
+    async def do_tick(self, battle_context, bot):
+        done_list = []
+        for idx, player in enumerate(self.tick[str(self.current_tick)]):
+            clogger(f"PLAYER UP: {player.name}")
             if player.is_dead is False:
-                roll_string = player.get_action_roll(action='unarmed')
-                clogger(roll_string)
-                successes_rolled = await Roller.roll(None,
-                                                     battle_context,
-                                                     roll_string,
-                                                     False,
-                                                     None)
+                speed = random.randint(1,5)
+                clogger((player.name, player.npc, self.current_tick, speed))
+                if player.npc[0]:
+                    roll_string = player.get_action_roll(action='unarmed')
+                    successes_rolled = await Roller.roll(None,
+                                                         battle_context,
+                                                         roll_string,
+                                                         True,
+                                                         None)
 
-                await battle_context.send(
-                    f"```{player.name} ({player.npc}) rolled - got {successes_rolled} successes```")
+                    await battle_context.send(
+                        f"```{player.name} rolled - got {successes_rolled} successes```")
+                else:
+                    mention = f"<@{player.discord_tag}>"
+                    interaction_message = await battle_context.send(f"{mention} `Its your turn to act, what do you do?`",
+                                                            components=[
+                                                                [
+                                                                    Button(
+                                                                        label="Melee!", custom_id="attack", style=4),
+                                                                    Button(
+                                                                        label="Shoot!", custom_id="shoot", style=4),
+                                                                    Button(
+                                                                        label="Throw!", custom_id="throw", style=4)
+                                                                ],
+                                                                [
+                                                                    Button(
+                                                                        label="Aim!", custom_id="aim", style=3),
+                                                                    Button(
+                                                                        label="Guard!", custom_id="guard", style=1),
+                                                                    Button(
+                                                                        label="Grapple!", custom_id="grapple", style=4)
+                                                                ]                                                                
+                                                            ])
 
-            if player.is_dead is False:
-                self.tick[str(self.current_tick + speed)].append(
-                    self.tick[str(self.current_tick)].pop(idx))
+                    interaction = await bot.wait_for("button_click", check=lambda i: i.custom_id in ["attack", "shoot", "throw", "aim", "guard", "grapple"] and i.user.id == player.discord_tag)
+                    await battle_context.send(f"```{player.name} choose: {interaction.custom_id.title()}!```")
+                    await interaction_message.delete()
+            
+                done_list.append((self.tick[str(self.current_tick)][idx], speed))
+            
             else:
                 dead_player = self.tick[str(self.current_tick)].pop(idx)
+                self.graveyard.append(dead_player)
                 await battle_context.send(f"```{dead_player.name} \
                     is dead! Sent to Gravyard!```")
-                self.graveyard.append(dead_player)
+                    
+        for p in done_list:
+            self.tick[str(self.current_tick + p[1])].append(p[0])
+        self.tick[self.current_tick] = []
+
         return
 
     async def after_tick(self, battle_context):
@@ -124,8 +167,8 @@ class Battle:
     def __str__(self):
         current_players = ",".join(
             [p.name for p in self.tick[str(self.current_tick)]])
-        return f"Current tick: {self.current_tick}\n" \
-            f"Active players: {current_players}"
+        return f"```Current tick: {self.current_tick}\n" \
+            f"Active players: {current_players}```"
 
 
 if __name__ == "__main__":
