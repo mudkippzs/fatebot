@@ -1,5 +1,5 @@
 from epiccalc import calculate_epic
-from cogs.roller import rolldice
+from cogs.roller import Roller
 
 from clogger import clogger
 
@@ -9,7 +9,6 @@ import math
 
 with open("config.json", "r") as f:
     config = json.load(f)
-
 
 
 class Player:
@@ -22,7 +21,7 @@ class Player:
     bonus_points = 0
     stunt_log = []
     is_dead = False
-    hp = [0,0,0]
+    hp = [0, 0, 0]
 
     damage_map = {
         "0": "0",
@@ -113,7 +112,7 @@ class Player:
         self.xp_total += value
         return
 
-    def join_battle(self):
+    async def join_battle(self):
         clogger(f"Rolling join battle for {self.name}!")
         self.join_battle_result = 0
 
@@ -123,8 +122,7 @@ class Player:
         awareness = self.abilities["awareness"]
 
         roll_string = f"{wits + wits_mod},{awareness},{wits_epic}"
-        dice_results, successes, extra_successes, success_total = rolldice(
-            roll_string)
+        success_total = await Roller.roll(None, context, roll_string, True, None)
         self.join_battle_result = success_total
 
         # To debug dice JB rolls - uncomment. @TODO: Refactor into a debugger.

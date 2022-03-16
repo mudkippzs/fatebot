@@ -35,7 +35,7 @@ def get_encounter():
     return
 
 
-def random_encounter():
+def random_encounter(context):
 
     encounter = {
         "civilians": [
@@ -50,12 +50,12 @@ def random_encounter():
         "deadly": [],
     }
 
-    # for _ in range(10):
-    #     encounter["civilians"].append(NPC(legend=0, debug=True))
+    for _ in range(10):
+        encounter["civilians"].append(NPC(legend=0, context=context, debug=True))
 
-    for i in range(10):
-        encounter["grunts"].append(
-            NPC(label=f"Cultist of Ymir #{i}", legend=random.randint(1, 2), debug=True))
+    # for i in range(10):
+    #     encounter["grunts"].append(
+    #         NPC(label=f"Cultist of Ymir #{i}", legend=random.randint(1, 2), debug=True))
 
     # for _ in range(4):
     #     encounter["peons"].append(NPC(legend=random.randint(0, 1), debug=True))
@@ -92,7 +92,7 @@ class BattleEngine(commands.Cog):
         if encounter_id > 0:
             encounter = get_encounter(encounter_id)
         else:
-            encounter = random_encounter()
+            encounter = random_encounter(ctx)
 
         encounter_group = []
 

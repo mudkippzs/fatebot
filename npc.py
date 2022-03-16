@@ -63,6 +63,7 @@ class NPC:
                  pantheon: str = None, god: str = None,
                  bonus_xp: int = 0, debug: bool = False):
         self.debug = debug
+        self.context = context
         # Clone the npc template dictionary.
         # This ensures the root dict isn't shared between objects.
         self.template = deepcopy(npc_template.PLAYER_CHARACTER_SHEET)
@@ -224,7 +225,7 @@ class NPC:
                     total_points -= spend
 
             for ability in self.template["abilities"]:
-                if random.randint(0,1) == True:
+                if random.randint(0, 1) == True:
                     ability = ability.lower().replace(" ", "_")
                     if self.template["abilities"][ability] < 3:
                         spend = random.randint(
@@ -417,7 +418,7 @@ class NPC:
 
         self.player = Player(f"{self.discord_tag} - {self.name}",
                              config["gamemaster"][0]["ganj"],
-                             True, self.legend, self.template)
+                             True, self.legend, options=self.template)
 
         return
 

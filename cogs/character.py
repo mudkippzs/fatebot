@@ -711,7 +711,7 @@ class Character(commands.Cog):
                 ability_str = ability_check[0][0]
                 ability_val = ability_check[0][1] + mod
                 ep_attr_str = charsheet['epic_attributes'][f'epic_{attr_str}']
-                eas_mod = charsheet['epic_attributes'][f'epic_{attr_str}_mod']
+                eas_mod = charsheet[f'epic_{attr_str}_mod']
                 clogger(f"Raw values - Epic Attr: {ep_attr_str}")
                 clogger(f"Raw values - Epic Attr Mod: {eas_mod}")
                 epic_attr_val = ep_attr_str + eas_mod

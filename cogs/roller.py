@@ -105,17 +105,9 @@ class Roller(commands.Cog):
             dice_results_plurarl_string = "s" if total_dice > 1 else ""
             clogger(
                 f"{ctx.message.author.display_name} > {ctx.message.clean_content} <{success_total} successes> Raw Results: [{dice_results_string}] {successes} successes + {extra_successes} automatic successes")
+            
             if privacy:
                 await ctx.author.send(f"```markdown\n# {ctx.message.clean_content} - Raw Results: [{dice_results_string}] {successes} successes + {extra_successes} automatic successes``````markdown\n{ctx.message.author.display_name} rolled {total_dice}D10{dice_results_plurarl_string} and got < {success_total} successes >!```")
-
-                with open("config.json", "r") as f:
-                    config = json.load(f)
-                #config["dm_snooze"] = False
-                if config["dm_snooze"] == False:
-                    await storyteller.send(f"```markdown\n# {ctx.message.clean_content} - Raw Results: [{dice_results_string}] {successes} successes + {extra_successes} automatic successes``````markdown\n{ctx.message.author.display_name} rolled {total_dice}D10{dice_results_plurarl_string} and got < {success_total} successes >!```")
-                else:
-                    #await ctx.send(f"```No DM sent to Gamemaster - DM Snooze is enabled zZ!```", delete_after=5.0)
-                    pass
             else:
                 await ctx.send(f"```markdown\n# {ctx.message.clean_content} - Raw Results: [{dice_results_string}] {successes} successes + {extra_successes} automatic successes``````markdown\n{ctx.message.author.display_name} rolled {total_dice}D10{dice_results_plurarl_string} and got < {success_total} successes >!```")
 
