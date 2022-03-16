@@ -31,27 +31,27 @@ def process_score(uid, score):
     scoreboard = load_score_board()
 
     # if user does not exist, add them to the scoreboard
-    users = [u["uid"] for u in scoreboard["pb_leaderboard"]]
+    users = [u["uid"] for u in scoreboard["xo_leaderboard"]]
 
     if uid not in users:
-        scoreboard["pb_leaderboard"].append({"uid": uid, "score": score})
+        scoreboard["xo_leaderboard"].append({"uid": uid, "score": score})
     # if user exists, update their score if it's higher than their current score
     else:
-        for i in range(len(scoreboard["pb_leaderboard"])):
-            if scoreboard["pb_leaderboard"][i]["uid"] == uid:
-                if score > scoreboard["pb_leaderboard"][i]["score"]:
-                    scoreboard["pb_leaderboard"][i]["score"] = score
+        for i in range(len(scoreboard["xo_leaderboard"])):
+            if scoreboard["xo_leaderboard"][i]["uid"] == uid:
+                if score > scoreboard["xo_leaderboard"][i]["score"]:
+                    scoreboard["xo_leaderboard"][i]["score"] = score
 
     sorted_scores = sorted(
-        scoreboard["pb_leaderboard"], key=lambda k: k['score'], reverse=True)
+        scoreboard["xo_leaderboard"], key=lambda k: k['score'], reverse=True)
 
     # save the updated leaderboards to file.
-    save_score_board({"pb_leaderboard": sorted_scores})
+    save_score_board({"xo_leaderboard": sorted_scores})
 
     return
 
 
-class ClickMe(commands.Cog):
+class ExsOhs(commands.Cog):
     """Cog"""
 
     def __init__(self, bot):
@@ -59,65 +59,67 @@ class ClickMe(commands.Cog):
         self.check_leaderboard.stop()
         self.check_leaderboard.start()
 
-    @commands.command(aliases=["pbl"])
-    async def paddleboard_leaderboard(self, ctx):
+    @commands.command(aliases=["xol", "xoleaderboard"])
+    async def xo_leaderboard(self, ctx):
         """Prints the current scoreboard."""
 
         with open("scoreboard.json", "r") as f:
             data = json.load(f)
 
-        pb_leaderboard = data["pb_leaderboard"]
+        xo_leaderboard = data["xo_leaderboard"]
 
         # Sort by score in descending order
-        pb_leaderboard = sorted(
-            pb_leaderboard, key=lambda x: x["score"], reverse=True)
+        xo_leaderboard = sorted(
+            xo_leaderboard, key=lambda x: x["score"], reverse=True)
 
         # Create a list of usernames from uid's
         user_names = []
 
-        for i in range(len(pb_leaderboard)):
-            user_names.append(str(pb_leaderboard[i]["uid"]))
+        for i in range(len(xo_leaderboard)):
+            user_names.append(str(xo_leaderboard[i]["uid"]))
 
         embed = discord.Embed()
 
         # Set author field of embed to "Leaderboards"
-        embed.set_author(name="Middle Ground Paddleball Tourney - Leaderboard")
+        embed.set_author(name="Middle Ground Xs and Os - Leaderboard")
         medals = ["🏅", "🥇", "🥈", "🥉", "🎖️", "🏆"]
         top_players_header = f"{medals[5]}Top Players{medals[5]}"
         other_players_header = f"{medals[4]}Everyone else{medals[4]}"
         embed.add_field(name="\u200b", value=f"```{top_players_header:^10}```",
                         inline=False)  # name, score
 
-        for i in range(len(data["pb_leaderboard"][0:3])):  # 0, 1, 2 (top 3)
+        for i in range(len(data["xo_leaderboard"][0:3])):  # 0, 1, 2 (top 3)
             user = self.bot.get_user(int(user_names[i]))
             username = user.name
             discriminator = user.discriminator
 
             embed.add_field(
-                name="\u200b", value=f"```markdown\n{medals[i + 1]} {username.title():<15}{pb_leaderboard[i]['score']:>5}```", inline=False)  # name, score
+                name="\u200b", value=f"```markdown\n{medals[i + 1]} {username.title():<15}{xo_leaderboard[i]['score']:>5}```", inline=False)  # name, score
 
         embed.add_field(name="\u200b", value=f"```{other_players_header:^10}```",
                         inline=False)  # name, score
 
-        for i in range(len(data["pb_leaderboard"][4:])):  # 0, 1, 2 (top 3)
+        for i in range(len(data["xo_leaderboard"][4:])):  # 0, 1, 2 (top 3)
             user = self.bot.get_user(int(user_names[i + 4])).display_name
             embed.add_field(
-                name="\u200b", value=f"```markdown\n{medals[0]}. {username:<15}{pb_leaderboard[i + 4]['score']:>5}```", inline=False)  # name, score
+                name="\u200b", value=f"```markdown\n{medals[0]}. {username:<15}{xo_leaderboard[i + 4]['score']:>5}```", inline=False)  # name, score
 
         await ctx.send(embed=embed)
 
-    @commands.command(aliases=["pb"])
-    async def paddleboard(self, ctx):
-        welcome_message = "Welcome to the Middle Ground Paddle Tourney!"
-        opening_message = "Many a newfag have joined when faced with the wall of deadening silence in chat!\n\nSo I hope this game provides enough wholesome pot-stiring, a fly-wheel for social engagement!"
-        task_message = "\n\n# How it works!\n\n* Paddle the ball!\n* Don't miss!\n* ????\n* Profit!"
+    @commands.command(aliases=["exsohs", "noughtsandcrosses", "naughtsandcrosses", "xos", "exoh"])
+    async def xo(self, ctx, opponent: discord.Member = None):
+        welcome_message = "Welcome to the Middle Ground X's and O's Game!"
+        opening_message = "Naughts and Crosses, Ex's and Oh's, Noughts? and Crosses! Whatever you call it, play it here with a buddy or play against the bot!"
+        task_message = "\n\n# How it works!\n\n* Take turns choosing positions to place symbols!\n* Make a line (diagonally or laterally) of 3 symbols!\n* Win!"
 
         intro_title = await ctx.send(f"```{welcome_message:<40}```")
         intro_message = await ctx.send(f"```markdown\n{opening_message:<50}{task_message:<50}```")
         interaction_message = await ctx.send(f"```Ready?```", components=[
             [
-                Button(label="I'm ready!", custom_id="ready", style=1),
-                Button(label="I'm not ready...", custom_id="cancel", style=3)
+                Button(label=f"I'll be {x_symbol}!",
+                       custom_id="ready", style=1),
+                Button(label=f"I'll be {y_symbol}", custom_id="cancel", style=1),                
+                Button(label=f"I don't want to play right now!", custom_id="cancel", style=3)
             ]
         ])
 
@@ -136,7 +138,27 @@ class ClickMe(commands.Cog):
         except:
             pass
 
-        game_interaction_message = await interaction_message.edit(f"```OK! READY? PADDLE THAT BALL!```")
+        await interaction_message.delete()
+        interaction_message = await ctx.send(f"```OK! {opponent}! Are you ready?```",
+                                             components=[
+                                                 [
+                                                     Button(label="I'm ready!!",
+                                                            custom_id="ready", style=1),
+                                                     Button(
+                                                         label="I don't want to play right now!", custom_id="cancel", style=3)
+                                                 ]
+                                             ])
+
+        interaction = await self.bot.wait_for("button_click", check=lambda i: i.custom_id in ["ready", "cancel"] and i.user.id == opponent.id)
+
+        if interaction.custom_id != "ready":
+            await ctx.send(f"```Ok, come back any time!```", delete_after=5.0)
+            await interaction_message.delete()
+            await ctx.message.delete()
+            await intro_title.delete()
+            await intro_message.delete()
+            return
+
         score = 0
         while True:
             game_text = random.choice(
@@ -183,37 +205,42 @@ class ClickMe(commands.Cog):
         await intro_title.delete()
         await intro_message.delete()
         await score_msg.delete()
-        await self.paddleboard_leaderboard(ctx)        
+        await self.paddleboard_leaderboard(ctx)
 
-    @tasks.loop(seconds=10)
+    @tasks.loop(seconds=15)
     async def check_leaderboard(self):
         #clogger("Updating PB Leaderboard.")
-        guild_whitelist = [820077049036406805,]
+        guild_whitelist = [820077049036406805, ]
         for guild in self.bot.guilds:
             if guild.id in guild_whitelist:
                 with open('scoreboard.json', 'r') as f:
                     data = json.load(f)
-                pb_leaderboard = data['pb_leaderboard']
+                xo_leaderboard = data['xo_leaderboard']
                 with open('roles.json', 'r') as f:
                     data = json.load(f)
                 roles = data['roles']
 
-                for i in range(len(pb_leaderboard)):
+                for i in range(len(xo_leaderboard)):
                     index = i
 
                     # Assign the Roles to the users in first, second and third place respectively
                     if index == 0:
-                        role = discord.utils.get(guild.roles, name=roles[0][0])  # Gold Role ID: 707926590981440779
+                        # Gold Role ID: 707926590981440779
+                        role = discord.utils.get(guild.roles, name=roles[1][0])
                     elif index == 1:
-                        role = discord.utils.get(guild.roles, name=roles[0][1])  # Silver Role ID: 707926590981440781
+                        # Silver Role ID: 707926590981440781
+                        role = discord.utils.get(guild.roles, name=roles[1][1])
                     elif index == 2:
-                        role = discord.utils.get(guild.roles, name=roles[0][2])  # Bronze Role ID: 707926590981440781
+                        # Bronze Role ID: 707926590981440781
+                        role = discord.utils.get(guild.roles, name=roles[1][2])
                     else:
-                        role = discord.utils.get(guild.roles, name=roles[0][3])  # Contender Role ID: 707926590981440781
+                        # Contender Role ID: 707926590981440781
+                        role = discord.utils.get(guild.roles, name=roles[1][3])
 
-                    uid = int(pb_leaderboard[index]['uid'])
+                    uid = int(xo_leaderboard[index]['uid'])
                     userobj = guild.get_member(uid)
-                    await guild.get_member(uid).add_roles([role] , f"Achieved `{role.name}` in MG PB Game.", atomic=True)
-            
+                    await guild.get_member(uid).add_roles([role], f"Achieved `{role.name}` in MG PB Game.", atomic=True)
+
+
 def setup(client):
-    client.add_cog(ClickMe(client))
+    client.add_cog(ExsOhs(client))

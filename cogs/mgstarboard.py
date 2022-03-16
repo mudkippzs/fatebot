@@ -1,8 +1,3 @@
-"""
-1. Make a Discord Task Dartboard that supports multiple channels.
-2. Use a custom emoji react as a Dartboard trigger.
-"""
-
 import discord
 from discord.ext import commands
 import asyncio
@@ -12,6 +7,8 @@ import os
 import json
 from datetime import datetime, timedelta
 from collections import defaultdict
+
+import timeago
 
 from clogger import clogger
 
@@ -129,7 +126,7 @@ class MgDartboard(commands.Cog):
     @commands.Cog.listener()
     async def on_reaction_add(self, reaction, user):
         server = reaction.message.guild
-        if reaction.message.channel.id == 938444879682478121:
+        if reaction.message.channel.id in [938444879682478121, 832999633185144832]:
             message = reaction.message
             if str(server.id) not in self.settings.keys():
                 return
@@ -137,8 +134,8 @@ class MgDartboard(commands.Cog):
             if self.settings[str(server.id)]['toggle'] is False:
                 return
 
-            if user == message.author:
-                return
+            # if user == message.author:
+            #    return
 
             if str(reaction.emoji) != self.settings[str(server.id)]['emoji']:
                 return
@@ -152,25 +149,49 @@ class MgDartboard(commands.Cog):
             if message.channel == self.get_starboard(server):
                 return
 
-            dartboard_channel = self.get_starboard(server)
-            embed = discord.Embed(
-                title=f"{message.author.display_name} in {message.channel.name}")
-            embed.add_field(name="Original Post",
-                            value=f"```{message.clean_content}```")
-            embed.set_thumbnail(url=message.author.avatar_url)
-            attachment_list = [{"filename": a.filename, "contenttype": a.content_type,
-                                "filesize": a.size, "url": a.url} for a in message.attachments]
-            for attachment in attachment_list:
-                for key, ele in enumerate(attachment):
-                    embed.add_field(name=f"{key}", value=f"```{ele[key]}```")
+            embed_list = []
 
-            await dartboard_channel.send(embed=embed)
+            dartboard_channel = self.get_starboard(server)
+            if len(message.embeds):
+                for embd in message.embeds:
+                    embd_title = embd.title or None
+                    await dartboard_channel.send(embd.video.url)
+                    embd_embed = discord.Embed(title=embd_title, video=embd.video.url, description="Click the link to see the video.",
+                                               colour=discord.Colour.dark_blue(), url=embd.url, timestamp=message.created_at)
+                    embd_embed.set_author(
+                        name=f"{message.author.display_name} post...", url=message.jump_url, icon_url=message.author.avatar_url)
+                    if embd.url:
+                        embd_embed.set_image(url=embd.image.url)
+                    embd_embed.add_field(name=f"\u200b",
+                                         value=f"🔗 [Link to OP]({message.jump_url})")
+                    embd_embed.set_footer(
+                        text=f"Posted in {message.channel.name}", icon_url=message.author.avatar_url)
+
+                    embed_list.append(embd_embed)
+
+            clogger(message.attachments)
+            if len(message.attachments):
+                for attachment in message.attachments:
+                    attach_embed = discord.Embed(title=f"{message.author.display_name} posted...", colour=discord.Colour.dark_blue(
+                    ), description=f"{message.clean_content}", timestamp=message.created_at)
+                    attach_embed.set_author(
+                        name=f"{message.author.display_name} post...", url=message.jump_url, icon_url=message.author.avatar_url)
+                    attach_embed.set_image(url=attachment.url)
+                    attach_embed.add_field(name=f"\u200b",
+                                           value=f"🔗 [Link to OP]({message.jump_url})")
+                    attach_embed.set_footer(
+                        text=f"Posted in {message.channel.name}", icon_url=message.author.avatar_url)
+
+                    embed_list.append(attach_embed)
+
+            for embed in embed_list:
+                await dartboard_channel.send(embed=embed)
 
     @commands.Cog.listener()
     async def on_reaction_remove(self, reaction, user):
         server = reaction.message.guild
         message = reaction.message
-        if reaction.message.channel.id == 938444879682478121:
+        if reaction.message.channel.id in [938444879682478121, 832999633185144832]:
             if server.id not in self.settings:
                 return
             if self.settings[str(server.id)]['toggle'] is False:
