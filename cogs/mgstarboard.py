@@ -44,7 +44,9 @@ class MgDartboard(commands.Cog):
         if str(ctx.message.author.id) in [config["gamemaster"][0]["ganj"]]:
 
             if ctx.invoked_subcommand is None:
-                await ctx.send(f"```No subcommand invoked: channel, emoji, threshold, toggle.```")
+                await ctx.send(f"```No subcommand invoked: channel, emoji, threshold, toggle.```", delete_after=5.0)
+
+            await ctx.message.delete()
 
     @dartboard.command(name='channel', pass_context=True, no_pm=True)
     async def _channel(self, ctx, channel: discord.TextChannel):
@@ -52,14 +54,14 @@ class MgDartboard(commands.Cog):
         if str(ctx.message.author.id) in [config["gamemaster"][0]["ganj"]]:
 
             if not channel:
-                await ctx.send('That channel does not exist.')
+                await ctx.send('That channel does not exist.', delete_after=5.0)
                 return
 
             server = ctx.message.guild
             print(self.settings)
             self.settings[str(server.id)]["channel"] = channel.id
             save_json(self.settings_file, self.settings)
-            await ctx.send('Dartboard channel set to {}.'.format(channel))
+            await ctx.send('Dartboard channel set to {}.'.format(channel), delete_after=5.0)
 
     @dartboard.command(name='emoji', pass_context=True, no_pm=True)
     async def _emoji(self, ctx, emoji: str):
@@ -67,13 +69,13 @@ class MgDartboard(commands.Cog):
         if str(ctx.message.author.id) in [config["gamemaster"][0]["ganj"]]:
 
             if len(emoji) < 2:
-                await ctx.send('That emoji is too small.')
+                await ctx.send('That emoji is too small.', delete_after=5.0)
                 return
 
             server = ctx.message.guild
             self.settings[str(server.id)]['emoji'] = emoji
             save_json(self.settings_file, self.settings)
-            await ctx.send('Dartboard emoji set to {}.'.format(emoji))
+            await ctx.send('Dartboard emoji set to {}.'.format(emoji), delete_after=5.0)
 
     @dartboard.command(name='limit', pass_context=True, no_pm=True)
     async def _limit(self, ctx, limit: int):
@@ -83,7 +85,7 @@ class MgDartboard(commands.Cog):
             server = ctx.message.guild
             self.settings[str(server.id)]['limit'] = limit
             save_json(self.settings_file, self.settings)
-            await ctx.send('Dartboard limit set to {}.'.format(limit))
+            await ctx.send('Dartboard limit set to {}.'.format(limit), delete_after=5.0)
 
     @dartboard.command(name='age', pass_context=True, no_pm=True)
     async def _age(self, ctx, days: int):
@@ -93,7 +95,7 @@ class MgDartboard(commands.Cog):
             server = ctx.message.guild
             self.settings[str(server.id)]['age'] = days
             save_json(self.settings_file, self.settings)
-            await ctx.send('Maximum message age set to {}.'.format(days))
+            await ctx.send('Maximum message age set to {}.'.format(days), delete_after=5.0)
 
     @dartboard.command(name='toggle', pass_context=True, no_pm=True)
     async def _toggle(self, ctx):
@@ -105,9 +107,9 @@ class MgDartboard(commands.Cog):
                 server.id)]['toggle']
             save_json(self.settings_file, self.settings)
             if self.settings[str(server.id)]['toggle']:
-                await ctx.send('Dartboard enabled.')
+                await ctx.send('Dartboard enabled.', delete_after=5.0)
             else:
-                await ctx.send('Dartboard disabled.')
+                await ctx.send('Dartboard disabled.', delete_after=5.0)
 
     @commands.Cog.listener()
     async def on_ready(self):
