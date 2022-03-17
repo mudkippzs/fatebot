@@ -58,7 +58,6 @@ class MgDartboard(commands.Cog):
                 return
 
             server = ctx.message.guild
-            print(self.settings)
             self.settings[str(server.id)]["channel"] = channel.id
             save_json(self.settings_file, self.settings)
             await ctx.send('Dartboard channel set to {}.'.format(channel), delete_after=5.0)
@@ -114,6 +113,7 @@ class MgDartboard(commands.Cog):
     @commands.Cog.listener()
     async def on_ready(self):
         self.settings = load_json(self.settings_file)
+        await self._status()
         for server in self.bot.guilds:
             if str(server.id) not in self.settings.keys():
                 self.settings[str(server.id)] = {
@@ -125,6 +125,29 @@ class MgDartboard(commands.Cog):
                 }
         save_json(self.settings_file, self.settings)
 
+    @dartboard.command(name='status', pass_context=True, no_pm=True)
+    async def _status(self, ctx=None):
+        """Toggle the starboard on or off."""
+        if ctx is not None:
+            if str(ctx.message.author.id) in [config["gamemaster"][0]["ganj"]]:
+                server = ctx.message.guild
+                toggle = self.settings[str(server.id)]["toggle"]
+
+                if toggle:
+                    clogger(f"[{server_id}] Dartboard is enabled.")
+                    await ctx.send(f"```Dartboard is enabled!```")
+                else:
+                    clogger(f"[{server_id}] Dartboard is disabled.")
+                    await ctx.send(f"```Dartboard is disabled!")
+        else:
+            for idx, server_id in enumerate(self.settings.keys()):
+                toggle = self.settings[server_id]["toggle"]
+
+                if toggle:
+                    clogger(f"[{server_id}] Dartboard is enabled.")
+                else:
+                    clogger(f"[{server_id}] Dartboard is disabled.")
+
     @commands.Cog.listener()
     async def on_reaction_add(self, reaction, user):
         server = reaction.message.guild
@@ -134,6 +157,9 @@ class MgDartboard(commands.Cog):
                 return
 
             if self.settings[str(server.id)]['toggle'] is False:
+                return
+
+            if str(message.id) in [m[0] for m in self.settings[str(server.id)]["message_ids"]]:
                 return
 
             # if user == message.author:
@@ -157,7 +183,6 @@ class MgDartboard(commands.Cog):
             if len(message.embeds):
                 for embd in message.embeds:
                     embd_title = embd.title or None
-                    await dartboard_channel.send(embd.video.url)
                     embd_embed = discord.Embed(title=embd_title, video=embd.video.url, description="Click the link to see the video.",
                                                colour=discord.Colour.dark_blue(), url=embd.url, timestamp=message.created_at)
                     embd_embed.set_author(
@@ -171,7 +196,6 @@ class MgDartboard(commands.Cog):
 
                     embed_list.append(embd_embed)
 
-            clogger(message.attachments)
             if len(message.attachments):
                 for attachment in message.attachments:
                     attach_embed = discord.Embed(title=f"{message.author.display_name} posted...", colour=discord.Colour.dark_blue(
@@ -187,7 +211,12 @@ class MgDartboard(commands.Cog):
                     embed_list.append(attach_embed)
 
             for embed in embed_list:
-                await dartboard_channel.send(embed=embed)
+                new_dartboard = await dartboard_channel.send(embed=embed)
+
+                self.settings[str(server.id)]["message_ids"].append(
+                    [str(message.id), str(new_dartboard.id)])
+
+                save_json(self.settings_file, self.settings)
 
     @commands.Cog.listener()
     async def on_reaction_remove(self, reaction, user):

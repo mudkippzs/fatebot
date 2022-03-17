@@ -124,9 +124,7 @@ def check_winner(position_list):
 
     position_list = sorted(position_list)
     for win_pos in winning_positions:
-        clogger(f"Win Pos: {win_pos} -> {position_list}")
         if set(win_pos).issubset(position_list):
-            clogger(f"{win_pos} is in {position_list}")
             return True
     return False
 
@@ -197,8 +195,7 @@ class ExsOhs(commands.Cog):
 
         engaged_check = check_engaged(ctx.author)
         opponent_engaged_check = check_engaged(opponent.id)
-        clogger((engaged_check, opponent_engaged_check))
-
+        
         if opponent_engaged_check is True:
             ctx.send(
                 f"```{opponent.display_name} is already playing: {opponent.display_name} vs {opponent_engaged_check[1]}```")
@@ -232,7 +229,6 @@ class ExsOhs(commands.Cog):
             interaction = await self.bot.wait_for("button_click", check=lambda i: i.custom_id in ["0", "1", "cancel_1"] and i.user.id == ctx.author.id)
 
             player_symbols[1] = player_symbol_choices.pop(int(interaction.custom_id))
-            clogger(player_symbol_choices)
             player_symbols[0] = player_symbol_choices[0]
             
 
@@ -357,7 +353,6 @@ class ExsOhs(commands.Cog):
                     elif current_player == 0:
                         current_player = 1
 
-            clogger(winner)
             if winner is not None:
                 if winner.bot is False:
                     score_msg = await ctx.send(f"🏆 {winner.mention} won! 🏆 Better luck next time {loser.mention}!\n\n```Type ?xo to play again, @someone or play against the bot!```")
