@@ -1,4 +1,4 @@
-"""Discord Bot: potatOS
+"""Discord Bot: Fatebot
 Author: Ganjdalf
 """
 import asyncio
@@ -23,12 +23,11 @@ with open("config.json", "r") as f:
 # Declare Bots required perms via Intents().
 INTENTS = discord.Intents.all()
 
-
 class OracleBot(ComponentsBot):
     """A bot for managing a discord server that extends discord.py Bot class."""
 
     def __init__(self):
-        """Kick off instance of potatOS."""
+        """Kick off instance of Fatebot."""
         super().__init__(
             command_prefix=config["prefix"],
             description="A bot for Scion 1e - Storyteller system.",
@@ -40,7 +39,7 @@ class OracleBot(ComponentsBot):
         for ext in Path("cogs").glob("./*.py"):
             dot_path = str(ext).replace(os.sep, ".")[:-3]
             self.load_extension(dot_path)
-            clogger(f"loaded: {dot_path}")
+            clogger(f"Cog loaded: {dot_path}")
 
     @watch(path='cogs', debug=False)
     async def on_ready(self):

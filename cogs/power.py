@@ -19,7 +19,11 @@ def strip_tags(string):
     """
     This function will strip all html tags from string returning the inner html text using regex only.
     """
-    return re.sub('<.*?>', '', string)
+    try:
+        return re.sub('<.*?>', '', string)
+    except Exception as e:
+        clogger((type(string), string))
+        pass
 
 
 class PowerSearch(commands.Cog):
@@ -101,39 +105,43 @@ class PowerSearch(commands.Cog):
         await ctx.send(f"```No power called `{name}` was found.```", delete_after=5.0)
 
     @commands.command(aliases=["randompowers"])
-    async def randompower(self, ctx):  # TODO: Add a random power command.
+    async def randompower(self, ctx, number: int = 1):  # TODO: Add a random power command.
         """Sends a random power from the database."""
-        await ctx.send(f"```Searching for a random power...```", delete_after=5.0)
+        if number == 1:
+            await ctx.send(f"```Searching for a random power...```", delete_after=5.0)
+        else:
+            await ctx.send(f"```Searching for {number} random powers...```", delete_after=5.0)
 
         # Load the database.
         with open("/home/dev/Code/powerswikia/powers.json", "r") as f:
             powers = json.load(f)
 
-        # Get a random power from the database and send an embed with it's information.
-        random_power = powers[random.randint(0, len(powers))]
-        img_path = random_power["image"]
-        image_path = f"/home/dev/Code/powerswikia/{img_path}"
-        description = None
-        quote_string_list = []
-        if len(random_power["quotes"]):
-            for quote_list in random_power["quotes"]:
-                quote = strip_tags(quote_list[0].replace("<br>", "\n"))
-                author = strip_tags(quote_list[1])
-                work = strip_tags(quote_list[2])
+        for _ in range(number):
+            # Get a random power from the database and send an embed with it's information.
+            random_power = powers[random.randint(0, len(powers))]
+            img_path = random_power["image"]
+            image_path = f"/home/dev/Code/powerswikia/{img_path}"
+            description = None
+            quote_string_list = []
+            if len(random_power["quotes"]):
+                for quote_list in random_power["quotes"]:
+                    quote = strip_tags(quote_list[0].replace("<br>", "\n"))
+                    author = strip_tags(quote_list[1])
+                    work = strip_tags(quote_list[2])
 
-                quote_string_list.append(
-                    f"**\"{quote}\"**\n\t```*-{author}, ({work})*```")
+                    quote_string_list.append(
+                        f"**\"{quote}\"**\n\t```*-{author}, ({work})*```")
 
-        description = "\n\n\n".join(quote_string_list)
+            description = "\n\n\n".join(quote_string_list)
 
-        # Get a random power from the database and send an embed with it's information.
-        e = discord.Embed(
-            title=random_power["name"], url=random_power["url"], description=description)
-        if image_path:
-            e.set_image(url=f"attachment:/{image_path}")
-            await ctx.send(file=discord.File(image_path), embed=e)
-        else:
-            await ctx.send(embed=e)
+            # Get a random power from the database and send an embed with it's information.
+            e = discord.Embed(
+                title=random_power["name"], url=random_power["url"], description=description)
+            if image_path:
+                e.set_image(url=f"attachment:/{image_path}")
+                await ctx.send(file=discord.File(image_path), embed=e)
+            else:
+                await ctx.send(embed=e)
 
 
 def setup(client):

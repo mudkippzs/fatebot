@@ -4,7 +4,7 @@ import json
 import os
 import random
 import sys
-import time
+import asyncio
 
 from discord_components import DiscordComponents, ComponentsBot, Button
 
@@ -13,7 +13,7 @@ sys.path.insert(0, os.path.abspath(
 
 from clogger import clogger
 
-scoreboard_file_name = "scoreboard_test.json"
+scoreboard_file_name = "scoreboard.json"
 
 engaged_list = []
 
@@ -110,7 +110,6 @@ def remove_engaged(uid):
 
 
 def check_winner(position_list):
-    print("Checking winner!")
     winning_positions = [
         ["0", "1", "2"],
         ["3", "4", "5"],
@@ -159,11 +158,11 @@ class ExsOhs(commands.Cog):
             embed = discord.Embed()
 
             # Set author field of embed to "Leaderboards"
-            embed.set_author(name="Middle Ground Xs and Os - Leaderboard")
+            embed.set_author(name=f"MG Xs&Os - Leaderboard")
             medals = ["🏅", "🥇", "🥈", "🥉", "🎖️", "🏆"]
-            top_players_header = f"{medals[5]}Top Players{medals[5]}"
-            other_players_header = f"{medals[4]}Everyone else{medals[4]}"
-            embed.add_field(name="\u200b", value=f"```{top_players_header:^10}```",
+            top_players_header = f"{medals[5]} Top Players {medals[5]}"
+            other_players_header = f"{medals[4]} Everyone Else {medals[4]}"
+            embed.add_field(name="\u200b", value=f"```{top_players_header:^30}```",
                             inline=False)  # name, score
 
             # 0, 1, 2 (top 3)
@@ -173,16 +172,16 @@ class ExsOhs(commands.Cog):
                 discriminator = user.discriminator
                 if xo_leaderboard[i]['score']:
                     embed.add_field(
-                        name="\u200b", value=f"```markdown\n{medals[i + 1]} {username.title():<15}{xo_leaderboard[i]['score']:>5}```", inline=False)  # name, score
+                        name="\u200b", value=f"```markdown\n{medals[i + 1]} {username.title():<15}{xo_leaderboard[i]['score']:>15}```", inline=False)  # name, score
 
-            embed.add_field(name="\u200b", value=f"```{other_players_header:^10}```",
+            embed.add_field(name="\u200b", value=f"```{other_players_header:^32}```",
                             inline=False)  # name, score
 
             # 0, 1, 2 (top 3)
-            for i in range(len(data[str(ctx.message.guild.id)]["xo_leaderboard"][4:])):
-                user = self.bot.get_user(int(user_names[i + 4])).display_name
+            for j in range(len(data[str(ctx.guild.id)]["xo_leaderboard"][4:])):
+                user = self.bot.get_user(int(user_names[j + 4])).name
                 embed.add_field(
-                    name="\u200b", value=f"```markdown\n{medals[0]}. {username:<15}{xo_leaderboard[i + 4]['score']:>5}```", inline=False)  # name, score
+                    name="\u200b", value=f"```markdown\n{medals[0]} {user:<15}\t{xo_leaderboard[j + 4]['score']:>12}```", inline=False)  # name, score
 
             await ctx.send(embed=embed)
         else:
@@ -194,8 +193,8 @@ class ExsOhs(commands.Cog):
             opponent = self.bot.user
 
         engaged_check = check_engaged(ctx.author)
-        opponent_engaged_check = check_engaged(opponent.id)
-        
+        opponent_engaged_check = check_engaged(opponent)
+
         if opponent_engaged_check is True:
             ctx.send(
                 f"```{opponent.display_name} is already playing: {opponent.display_name} vs {opponent_engaged_check[1]}```")
@@ -228,9 +227,10 @@ class ExsOhs(commands.Cog):
 
             interaction = await self.bot.wait_for("button_click", check=lambda i: i.custom_id in ["0", "1", "cancel_1"] and i.user.id == ctx.author.id)
 
-            player_symbols[1] = player_symbol_choices.pop(int(interaction.custom_id))
-            player_symbols[0] = player_symbol_choices[0]
-            
+            player_symbols[0] = player_symbol_choices[int(
+                interaction.custom_id)]
+            player_symbols[1] = player_symbol_choices[0] if int(
+                interaction.custom_id) == 1 else player_symbol_choices[1]
 
             if interaction.custom_id == "cancel_1":
                 await ctx.send(f"```Ok, come back any time!```", delete_after=5.0)
@@ -277,7 +277,6 @@ class ExsOhs(commands.Cog):
 
             player_list = [ctx.message.author, opponent]
 
-            random.shuffle(player_list)
             current_player = 0
             grid_positions = [
                 [
@@ -307,6 +306,12 @@ class ExsOhs(commands.Cog):
             ]
 
             while True:
+                possible_choices = [c for c in ["0", "1", "2", "3", "4", "5", "6", "7", "8"]
+                                    if c not in player_postitions[current_player] and c not in player_postitions[current_player - 1]]
+                if len(possible_choices) == 0:
+                    winner = None
+                    loser = None
+                    break
 
                 if player_list[current_player].bot is False:
                     await interaction_message.edit(f"```Choose a position...```")
@@ -345,7 +350,7 @@ class ExsOhs(commands.Cog):
                 if check_winner(player_postitions[current_player]):
                     winner = player_list[current_player]
                     loser = player_list[current_player - 1]
-                    time.sleep(2)
+                    await asyncio.sleep(1)
                     break
                 else:
                     if current_player == 1:
@@ -394,6 +399,9 @@ class ExsOhs(commands.Cog):
                     data = json.load(f)
                 roles = data['roles'][1]
 
+                medal_roles = [discord.utils.get(
+                    guild.roles, name=roles[r]) for r in range(0, 3)]
+
                 for i in range(len(xo_leaderboard)):
                     index = i
 
@@ -413,7 +421,13 @@ class ExsOhs(commands.Cog):
 
                     uid = int(xo_leaderboard[index]['uid'])
                     userobj = guild.get_member(uid)
-                    await guild.get_member(uid).add_roles([role], f"Achieved `{roles[i]}` in MG XOs Game.", atomic=True)
+                    for medal in medal_roles:
+                        try:
+                            await guild.get_member(uid).remove_roles([medal], atomic=True)
+                        except Exception as e:
+                            clogger((i,uid,guild.id, medal, medal_roles))
+                            raise e
+                    await guild.get_member(uid).add_roles([role], f"Achieved `{role.name}` in MG XOs Game.", atomic=True)
 
 
 def setup(client):

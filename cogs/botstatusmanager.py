@@ -1,7 +1,3 @@
-"""
-1. Discord task that rotates the bots status message between a list of status messages.
-"""
-
 import discord
 from discord.ext import commands
 import asyncio

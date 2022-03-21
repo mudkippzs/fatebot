@@ -136,9 +136,9 @@ class Moderation(commands.Cog):
         """Owner only - Delete messages from a channel."""
         if str(ctx.message.author.id) in [config["gamemaster"][0]["ganj"]]:
             if member is None:
-                await ctx.channel.purge(limit=limit)
+                await ctx.channel.purge(limit=(limit + 1))
             else:
-                await ctx.channel.purge(limit=limit, check=lambda m: m.author == member)
+                await ctx.channel.purge(limit=(limit + 1), check=lambda m: m.author == member)
         else:
             await ctx.send("```Sorry, only the owner can purge messages.```", delete_after=5.0)
 

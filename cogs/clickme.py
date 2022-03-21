@@ -12,16 +12,17 @@ sys.path.insert(0, os.path.abspath(
 
 from clogger import clogger
 
+scoreboard_file_name = "scoreboard.json"
 
 def load_score_board():
-    with open("scoreboard.json", "r") as f:
+    with open(scoreboard_file_name, "r") as f:
         scoreboard = json.load(f)
 
     return scoreboard
 
 
 def save_score_board(scoreboard):
-    with open("scoreboard.json", "w") as f:
+    with open(scoreboard_file_name, "w") as f:
         json.dump(scoreboard, f)
 
     return
@@ -31,21 +32,21 @@ def process_score(uid, guild_id, score):
     scoreboard = load_score_board()
 
     # if user does not exist, add them to the scoreboard
-    users = [u["uid"] for u in scoreboard[guild_id]["pb_leaderboard"]]
+    users = [u["uid"] for u in scoreboard[str(guild_id)]["pb_leaderboard"]]
 
     if uid not in users:
         scoreboard["pb_leaderboard"].append({"uid": uid, "score": score})
     # if user exists, update their score if it's higher than their current score
     else:
         for i in range(len(scoreboard["pb_leaderboard"])):
-            if scoreboard[guild_id]["pb_leaderboard"][i]["uid"] == uid:
-                if score > scoreboard[guild_id]["pb_leaderboard"][i]["score"]:
-                    scoreboard[guild_id]["pb_leaderboard"][i]["score"] = score
+            if scoreboard[str(guild_id)]["pb_leaderboard"][i]["uid"] == uid:
+                if score > scoreboard[str(guild_id)]["pb_leaderboard"][i]["score"]:
+                    scoreboard[str(guild_id)]["pb_leaderboard"][i]["score"] = score
 
     sorted_scores = sorted(
-        scoreboard[guild_id]["pb_leaderboard"], key=lambda k: k['score'], reverse=True)
+        scoreboard[str(guild_id)]["pb_leaderboard"], key=lambda k: k['score'], reverse=True)
 
-    scoreboard[guild_id]["pb_leaderboard"] = sorted_scores
+    scoreboard[str(guild_id)]["pb_leaderboard"] = sorted_scores
     # save the updated leaderboards to file.
     save_score_board(scoreboard)
 
@@ -64,7 +65,7 @@ class ClickMe(commands.Cog):
     async def paddleboard_leaderboard(self, ctx):
         """Prints the current scoreboard."""
 
-        with open("scoreboard.json", "r") as f:
+        with open(scoreboard_file_name, "r") as f:
             data = json.load(f)
 
         pb_leaderboard = data[str(ctx.guild.id)]["pb_leaderboard"]
@@ -83,28 +84,31 @@ class ClickMe(commands.Cog):
             embed = discord.Embed()
 
             # Set author field of embed to "Leaderboards"
-            embed.set_author(name="Middle Ground Paddleball Tourney - Leaderboard")
+            embed.set_author(
+                name="MG Paddleball Tourney - Leaderboard")
             medals = ["🏅", "🥇", "🥈", "🥉", "🎖️", "🏆"]
             top_players_header = f"{medals[5]}Top Players{medals[5]}"
             other_players_header = f"{medals[4]}Everyone else{medals[4]}"
-            embed.add_field(name="\u200b", value=f"```{top_players_header:^10}```",
+            embed.add_field(name="\u200b", value=f"```{top_players_header:^30}```",
                             inline=False)  # name, score
 
-            for i in range(len(data[str(ctx.guild.id)]["pb_leaderboard"][0:3])):  # 0, 1, 2 (top 3)
+            # 0, 1, 2 (top 3)
+            for i in range(len(data[str(ctx.guild.id)]["pb_leaderboard"][0:3])):
                 user = self.bot.get_user(int(user_names[i]))
                 username = user.name
                 discriminator = user.discriminator
 
                 embed.add_field(
-                    name="\u200b", value=f"```markdown\n{medals[i + 1]} {username.title():<15}{pb_leaderboard[i]['score']:>5}```", inline=False)  # name, score
+                    name="\u200b", value=f"```markdown\n{medals[i + 1]} {username.title():<15}{pb_leaderboard[i]['score']:>15}```", inline=False)  # name, score
 
-            embed.add_field(name="\u200b", value=f"```{other_players_header:^10}```",
+            embed.add_field(name="\u200b", value=f"```{other_players_header:^32}```",
                             inline=False)  # name, score
 
-            for i in range(len(data[str(ctx.guild.id)]["pb_leaderboard"][4:])):  # 0, 1, 2 (top 3)
-                user = self.bot.get_user(int(user_names[i + 4])).display_name
+            # 0, 1, 2 (top 3)
+            for j in range(len(data[str(ctx.guild.id)]["pb_leaderboard"][4:])):
+                user = self.bot.get_user(int(user_names[j + 4])).name
                 embed.add_field(
-                    name="\u200b", value=f"```markdown\n{medals[0]}. {username:<15}{pb_leaderboard[i + 4]['score']:>5}```", inline=False)  # name, score
+                    name="\u200b", value=f"```markdown\n{medals[0]} {user:<15}{pb_leaderboard[j + 4]['score']:>12}```", inline=False)  # name, score
 
             await ctx.send(embed=embed)
         else:
@@ -183,16 +187,16 @@ class ClickMe(commands.Cog):
 
         await interaction_message.delete()
         score_msg = await ctx.send(f"```{ctx.author.display_name}'s score: {score}```")
-        process_score(uid=ctx.author.id, score=score)
+        process_score(uid=ctx.author.id, guild_id=ctx.message.guild.id, score=score)
         await intro_title.delete()
         await intro_message.delete()
         await score_msg.delete()
-        await self.paddleboard_leaderboard(ctx)        
+        await self.paddleboard_leaderboard(ctx)
 
     @tasks.loop(seconds=10)
     async def check_leaderboard(self):
         #clogger("Updating PB Leaderboard.")
-        guild_whitelist = [820077049036406805,]
+        guild_whitelist = [820077049036406805, ]
         for guild in self.bot.guilds:
             if guild.id in guild_whitelist:
                 with open('scoreboard.json', 'r') as f:
@@ -201,6 +205,9 @@ class ClickMe(commands.Cog):
                 with open('roles.json', 'r') as f:
                     data = json.load(f)
                 roles = data['roles'][0]
+
+                medal_roles = [discord.utils.get(
+                    guild.roles, name=roles[r]) for r in range(0, 3)]
 
                 for i in range(len(pb_leaderboard)):
                     index = i
@@ -221,7 +228,10 @@ class ClickMe(commands.Cog):
 
                     uid = int(pb_leaderboard[index]['uid'])
                     userobj = guild.get_member(uid)
-                    await guild.get_member(uid).add_roles([role], f"Achieved `{roles[i]}` in MG XOs Game.", atomic=True)
-            
+                    for medal in medal_roles:
+                        await guild.get_member(uid).remove_roles([medal], atomic=True)
+                    await guild.get_member(uid).add_roles([role], f"Achieved `{role.name}` in MG XOs Game.", atomic=True)
+
+
 def setup(client):
     client.add_cog(ClickMe(client))

@@ -125,6 +125,28 @@ class MgDartboard(commands.Cog):
                 }
         save_json(self.settings_file, self.settings)
 
+    @dartboard.command(name='dart', pass_context=True, no_pm=True)
+    async def _dart(self, ctx):
+        if str(ctx.message.author.id) in [config["gamemaster"][0]["ganj"]]:
+            jump_url = ""
+            author_id = None
+            channel_id = None
+            message = None
+
+            server = ctx.message.guild
+            user = ctx.guild.get_member(author_id)
+            channel = ctx.guild.get_channel(channel_id)
+            starboard = self.get_starboard(ctx.message.guild)
+
+            embed = discord.Embed(description = message,colour=discord.Colour.dark_blue(), timestamp=datetime.now())
+            embed.add_field(name=f"\u200b",value=f"🔗 [Link to OP]({jump_url})")
+            embed.set_author(name=f"{user.display_name} post...", url=jump_url, icon_url=user.avatar_url)
+            embed.set_footer(text=f"Posted in {channel.name}", icon_url=user.avatar_url)
+
+            #await starboard.send(embed=embed)
+            
+        return
+
     @dartboard.command(name='status', pass_context=True, no_pm=True)
     async def _status(self, ctx=None):
         """Toggle the starboard on or off."""
@@ -177,46 +199,66 @@ class MgDartboard(commands.Cog):
             if message.channel == self.get_starboard(server):
                 return
 
-            embed_list = []
+            await self.add_to_starboard(server = server, channel = channel, message = message)
 
-            dartboard_channel = self.get_starboard(server)
-            if len(message.embeds):
-                for embd in message.embeds:
-                    embd_title = embd.title or None
-                    embd_embed = discord.Embed(title=embd_title, video=embd.video.url, description="Click the link to see the video.",
-                                               colour=discord.Colour.dark_blue(), url=embd.url, timestamp=message.created_at)
-                    embd_embed.set_author(
-                        name=f"{message.author.display_name} post...", url=message.jump_url, icon_url=message.author.avatar_url)
-                    if embd.url:
-                        embd_embed.set_image(url=embd.image.url)
-                    embd_embed.add_field(name=f"\u200b",
-                                         value=f"🔗 [Link to OP]({message.jump_url})")
-                    embd_embed.set_footer(
-                        text=f"Posted in {message.channel.name}", icon_url=message.author.avatar_url)
+    async def add_to_starboard(self, server, channel, message):
+        embed_list = []
 
-                    embed_list.append(embd_embed)
+        dartboard_channel = self.get_starboard(server)
+        if len(message.embeds):
+            for embd in message.embeds:
+                embd_title = embd.title or None
+                embd_embed = discord.Embed(title=embd_title, description="Click the link to see the video.",
+                                           colour=discord.Colour.dark_blue(), url=embd.url, timestamp=message.created_at)
+                embd_embed.set_author(
+                    name=f"{message.author.display_name} post...", url=message.jump_url, icon_url=message.author.avatar_url)
+                if embd.url:
+                    embd_embed.set_image(url=embd.image.url)
+                embd_embed.add_field(name=f"\u200b",
+                                     value=f"🔗 [Link to OP]({message.jump_url})")
+                embd_embed.set_footer(
+                    text=f"Posted in {message.channel.name}", icon_url=message.author.avatar_url)
 
-            if len(message.attachments):
-                for attachment in message.attachments:
-                    attach_embed = discord.Embed(title=f"{message.author.display_name} posted...", colour=discord.Colour.dark_blue(
-                    ), description=f"{message.clean_content}", timestamp=message.created_at)
-                    attach_embed.set_author(
-                        name=f"{message.author.display_name} post...", url=message.jump_url, icon_url=message.author.avatar_url)
-                    attach_embed.set_image(url=attachment.url)
-                    attach_embed.add_field(name=f"\u200b",
-                                           value=f"🔗 [Link to OP]({message.jump_url})")
-                    attach_embed.set_footer(
-                        text=f"Posted in {message.channel.name}", icon_url=message.author.avatar_url)
+                embed_list.append(embd_embed)
 
-                    embed_list.append(attach_embed)
+        if len(message.attachments):
+            for attachment in message.attachments:
+                attach_embed = discord.Embed(colour=discord.Colour.dark_blue(
+                ), description=f"{message.clean_content}", timestamp=message.created_at)
+                attach_embed.set_author(
+                    name=f"{message.author.display_name} post...", url=message.jump_url, icon_url=message.author.avatar_url)
+                attach_embed.set_image(url=attachment.url)
+                attach_embed.add_field(name=f"\u200b",
+                                       value=f"🔗 [Link to OP]({message.jump_url})")
+                attach_embed.set_footer(
+                    text=f"Posted in {message.channel.name}", icon_url=message.author.avatar_url)
 
+                embed_list.append(attach_embed)
+
+        if len(embed_list):
             for embed in embed_list:
                 new_dartboard = await dartboard_channel.send(embed=embed)
-
                 self.settings[str(server.id)]["message_ids"].append(
                     [str(message.id), str(new_dartboard.id)])
 
-                save_json(self.settings_file, self.settings)
+            save_json(self.settings_file, self.settings)
+        else:
+            embed = discord.Embed(description=message.clean_content,
+                                  colour=discord.Colour.dark_blue(), url=message.jump_url, timestamp=message.created_at)
+            embed.add_field(name=f"\u200b",
+                            value=f"🔗 [Link to OP]({message.jump_url})")
+            embed.set_author(
+                name=f"{message.author.display_name} post...", url=message.jump_url, icon_url=message.author.avatar_url)
+
+            embed.set_footer(
+                text=f"Posted in {message.channel.name}", icon_url=message.author.avatar_url)
+
+            new_dartboard = await dartboard_channel.send(embed=embed)
+
+            self.settings[str(server.id)]["message_ids"].append(
+                [str(message.id), str(new_dartboard.id)])
+
+        save_json(self.settings_file, self.settings)
 
     @commands.Cog.listener()
     async def on_reaction_remove(self, reaction, user):
