@@ -16,12 +16,6 @@ from split_text import split_text
 with open("config.json", "r") as f:
     config = json.load(f)
 
-def strip_tags(string):
-    """
-    This function will strip all html tags from string returning the inner html text using regex only.
-    """
-    return re.sub('<.*?>', '', string)
-
 class Cog(commands.Cog):
     """Cog"""
 

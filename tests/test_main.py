@@ -26,14 +26,9 @@ import fatebot.main as main
 
 #         conn.start = MagicMock(return_value=f)
 
-
-@pytest.fixture
-def client():
-    return OracleBot()
-
-
-@mock.patch('main.OracleBot')
-def test_main(mock_start):
-    mock_start.start.return_value = True
-    assert asyncio.run(main.main())
+def test_main():
+    fakeOracle = main.OracleBot()
+    fakeOracle.start = mock.MagicMock(return_value=True)
+    asyncio.run(main.main())
+    fakeOracle.start.assert_called_once()
 #    mock_start.assert_called_once()

@@ -51,7 +51,7 @@ PLAYER_CHARACTER_SHEET = {
 	"virtues": [3,2,0,2],
 	"inventory": [],
 	"knacks": ["Untouchable Opponent", "Inner Furnace", "Damage Conversion", "Hurl to the Horizon", "Solipsitic Wellbeing", "Holy Bound"],
-	"boons": ["Ríastrad", "Warrior Ideal", "Riastrad"],
+	"boons": ["Ríastrad", "Warrior Ideal"],
 	"relics": [
 		["Gae Bolga", 3],
 		["Fragarach", 2],

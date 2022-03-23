@@ -133,8 +133,6 @@ class ExsOhs(commands.Cog):
 
     def __init__(self, bot):
         self.bot = bot
-        self.check_leaderboard.stop()
-        self.check_leaderboard.start()
 
     @commands.command(aliases=["xol", "xoleaderboard"])
     async def xo_leaderboard(self, ctx):
@@ -372,6 +370,7 @@ class ExsOhs(commands.Cog):
             else:
                 score_msg = await ctx.send(f"🥴 Draw! Better luck next time!\n\n```Type ?xo to play again, @someone or play against the bot!```")
 
+            await self.check_leaderboard()
             # await intro_title.delete()
             # await intro_message.delete()
             await self.xo_leaderboard(ctx)
@@ -386,7 +385,6 @@ class ExsOhs(commands.Cog):
         remove_engaged(ctx.author)
         remove_engaged(opponent)
 
-    @tasks.loop(seconds=15)
     async def check_leaderboard(self):
         #clogger("Updating PB Leaderboard.")
         guild_whitelist = [820077049036406805, 832999632028041226]

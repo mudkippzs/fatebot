@@ -58,8 +58,6 @@ class ClickMe(commands.Cog):
 
     def __init__(self, bot):
         self.bot = bot
-        self.check_leaderboard.stop()
-        self.check_leaderboard.start()
 
     @commands.command(aliases=["pbl"])
     async def paddleboard_leaderboard(self, ctx):
@@ -188,12 +186,13 @@ class ClickMe(commands.Cog):
         await interaction_message.delete()
         score_msg = await ctx.send(f"```{ctx.author.display_name}'s score: {score}```")
         process_score(uid=ctx.author.id, guild_id=ctx.message.guild.id, score=score)
+
         await intro_title.delete()
         await intro_message.delete()
         await score_msg.delete()
         await self.paddleboard_leaderboard(ctx)
+        await self.check_leaderboard()
 
-    @tasks.loop(seconds=10)
     async def check_leaderboard(self):
         #clogger("Updating PB Leaderboard.")
         guild_whitelist = [820077049036406805, ]
