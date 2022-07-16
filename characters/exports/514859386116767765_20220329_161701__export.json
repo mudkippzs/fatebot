@@ -1,0 +1,326 @@
+{
+    "attributes": {
+        "stre": 3,
+        "dex": 4,
+        "sta": 4,
+        "cha": 3,
+        "man": 2,
+        "app": 3,
+        "per": 4,
+        "inte": 3,
+        "wits": 4
+    },
+    "epic_attributes": {
+        "epic_stre": 1,
+        "epic_dex": 3,
+        "epic_sta": 2,
+        "epic_cha": 3,
+        "epic_man": 2,
+        "epic_app": 3,
+        "epic_per": 0,
+        "epic_inte": 0,
+        "epic_wits": 1
+    },
+    "player_id": 514859386116767765,
+    "name": "Vasily Volkov",
+    "stre_mod": 0,
+    "dex_mod": 0,
+    "sta_mod": 0,
+    "cha_mod": 0,
+    "man_mod": 0,
+    "app_mod": 0,
+    "per_mod": 0,
+    "inte_mod": 0,
+    "wits_mod": 0,
+    "epic_stre_mod": 0,
+    "epic_dex_mod": 0,
+    "epic_sta_mod": 0,
+    "epic_cha_mod": 0,
+    "epic_man_mod": 0,
+    "epic_app_mod": 0,
+    "epic_per_mod": 0,
+    "epic_inte_mod": 0,
+    "epic_wits_mod": 0,
+    "xp": 0,
+    "xp_spent": 0,
+    "legend": 3,
+    "legend_points_total": 9,
+    "legend_points_current": 9,
+    "willpower_total": 4,
+    "willpower_current": 4,
+    "virtues": [
+        3,
+        1,
+        0,
+        0
+    ],
+    "inventory": [
+        [
+            "Backpack",
+            1,
+            "Hiking backpack"
+        ],
+        [
+            "IFAKs",
+            2,
+            "No morphine left :("
+        ],
+        [
+            "Jerky",
+            3,
+            "Some kind of dried meat"
+        ],
+        [
+            "Water",
+            5,
+            "Bottled water, sealed."
+        ],
+        [
+            "Hemp Rope",
+            50,
+            "A length of rope equal in ft to its quantity."
+        ],
+        [
+            "Lighters",
+            2,
+            "2 BIC lighters."
+        ],
+        [
+            "Grenades",
+            5,
+            "Fragmentation Grenades."
+        ],
+        [
+            "Teeth-Grenade",
+            1,
+            "Fragmentation Grenade, with extra fragmentation."
+        ],
+        [
+            "Mossberg Shotgun",
+            1,
+            "5L, 0B, +0 acc, sp5, penetrating"
+        ],
+        [
+            "AK-47",
+            1,
+            "5L, 0B, -1 acc, sp5, penetrating"
+        ],
+        [
+            "NVG",
+            1,
+            "Night-Vision Goggles"
+        ],
+        [
+            "Glue",
+            2,
+            "Adhesive liquid."
+        ],
+        [
+            "Crowbar",
+            1,
+            "the tool of the last free man"
+        ],
+        [
+            "Vodka",
+            2,
+            "Bottle of premium vodka"
+        ],
+        [
+            "Map",
+            1,
+            "A map showign the area around Holt, Iceland."
+        ],
+        [
+            "Maps",
+            15,
+            "A collection of old and new maps of various places around the world."
+        ],
+        [
+            "Napalm Molotov",
+            3,
+            "Glass bottle of a gasoline-glue mixture, wicked with Vasily's socks"
+        ]
+    ],
+    "knacks": [
+        "Hurl to the Horizon",
+        "Lightning Sprinter",
+        "Trick Shooter",
+        "Untouchable Opponent",
+        "Holy Fortitude",
+        "Solipsitic Wellbeing",
+        "Inspirational Figure",
+        "Opening Gambit"
+    ],
+    "boons": [
+        "Blessing of Bravery",
+        "Battle Cry",
+        "Warrior Ideal"
+    ],
+    "relics": [
+        [
+            "Dogtags of Mars",
+            1
+        ],
+        [
+            "Aphrodite's Kiss",
+            1
+        ],
+        [
+            "Spear of Thermopylae",
+            1
+        ],
+        [
+            "Shield of Leonidas",
+            2
+        ]
+    ],
+    "creatures": [],
+    "movement": {
+        "dash": 14,
+        "move": 8,
+        "climb": 4.0,
+        "swim": 4.0,
+        "jump": {
+            "horizontal": 14,
+            "vertical": 7
+        }
+    },
+    "join_battle": 7,
+    "combat": {
+        "gun": [
+            5,
+            "5L",
+            0,
+            0
+        ],
+        "spear": [
+            5,
+            "5L",
+            2,
+            0
+        ],
+        "shield": [
+            0,
+            "3B",
+            3,
+            0
+        ],
+        "melee": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "range": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "dodge": [
+            9,
+            0,
+            0,
+            0
+        ],
+        "parry": [
+            9,
+            0,
+            0,
+            0
+        ],
+        "coordattack": [
+            5,
+            0,
+            0,
+            -2
+        ],
+        "dash": [
+            3,
+            0,
+            0,
+            -2
+        ],
+        "aim": [
+            3,
+            0,
+            0,
+            -1
+        ],
+        "guard": [
+            3,
+            0,
+            0,
+            0
+        ],
+        "move": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "grapple": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "inactive": [
+            5,
+            0,
+            0,
+            0
+        ]
+    },
+    "health": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "abilities": {
+        "academics": 0,
+        "animal_ken": 0,
+        "art": 0,
+        "athletics": 3,
+        "awareness": 3,
+        "brawl": 3,
+        "command": 1,
+        "control": 2,
+        "craft": 0,
+        "empathy": 0,
+        "fortitude": 1,
+        "integrity": 0,
+        "investigation": 1,
+        "larceny": 0,
+        "marksmanship": 3,
+        "medicine": 2,
+        "melee": 3,
+        "occult": 0,
+        "politics": 1,
+        "presence": 2,
+        "science": 0,
+        "stealth": 2,
+        "survival": 2,
+        "thrown": 2
+    },
+    "armor": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak": {
+        "bludgeon": 6,
+        "lethal": 4,
+        "aggrevated": 2
+    },
+    "armor_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    },
+    "soak_mod": {
+        "bludgeon": 0,
+        "lethal": 0,
+        "aggrevated": 0
+    }
+}
