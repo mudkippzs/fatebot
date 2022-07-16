@@ -63,7 +63,6 @@ class NPC:
                  pantheon: str = None, god: str = None,
                  bonus_xp: int = 0, debug: bool = False):
         self.debug = debug
-        self.context = context
         # Clone the npc template dictionary.
         # This ensures the root dict isn't shared between objects.
         self.template = deepcopy(npc_template.PLAYER_CHARACTER_SHEET)

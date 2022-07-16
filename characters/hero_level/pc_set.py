@@ -1,25 +1,25 @@
 PLAYER_CHARACTER_SHEET = {
 	"attributes": {
-		"stre": 6,
-		"dex": 6,
-		"sta": 6,
-		"cha": 4,
-		"man": 2,
-		"app": 5,
-		"per": 3,
-		"inte": 2,
+		"stre": 5,
+		"dex": 4,
+		"sta": 4,
+		"cha": 3,
+		"man": 1,
+		"app": 4,
+		"per": 2,
+		"inte": 1,
 		"wits": 4
 	},
 	"epic_attributes": {
-		"epic_stre": 4,
-		"epic_dex": 4,
-		"epic_sta": 4,
-		"epic_cha": 1,
+		"epic_stre": 2,
+		"epic_dex": 1,
+		"epic_sta": 3,
+		"epic_cha": 0,
 		"epic_man": 0,
-		"epic_app": 1,
+		"epic_app": 0,
 		"epic_per": 0,
 		"epic_inte": 0,
-		"epic_wits": 2
+		"epic_wits": 0
 	},
 	"player_id": 433097995832000513,
     "name": "Set",
@@ -43,7 +43,7 @@ PLAYER_CHARACTER_SHEET = {
 	"epic_wits_mod": 0,
 	"xp": 0,
 	"xp_spent": 0,
-    "legend": 5,
+    "legend": 3,
 	"legend_points_total": 0,
 	"legend_points_current": 0,
 	"willpower_total": 0,
@@ -51,7 +51,7 @@ PLAYER_CHARACTER_SHEET = {
 	"virtues": [3,2,0,2],
 	"inventory": [],
 	"knacks": ["Untouchable Opponent", "Inner Furnace", "Damage Conversion", "Hurl to the Horizon", "Solipsitic Wellbeing", "Holy Bound"],
-	"boons": ["Ríastrad", "Warrior Ideal", "Gates of Tir na Marbh", "Army of One", "Wind's Freedom"],
+	"boons": ["Ríastrad", "Warrior Ideal"],
 	"relics": [
 		["Gae Bolga", 3],
 		["Fragarach", 2],
@@ -71,8 +71,7 @@ PLAYER_CHARACTER_SHEET = {
 	"join_battle": 0,
 	"combat": { # 1: speed, 2: damage, 3: def, 4: dv minus
 		"spear": [4, "5L", 1, 0],
-		"sword": [3, "2L", 2, 0],
-		"ak47": [5, "5L", 2, 0],
+		"fragarach": [3, "2L", 2, 0],
 		"dodge": [0, 0, 0, 0],
 		"parry": [0, 0, 0, 0],
 		"coordattack": [5, 0, 0, -2],
@@ -115,9 +114,9 @@ PLAYER_CHARACTER_SHEET = {
 		"thrown": 5
 	},
 	"armor": {
-		"bludgeon": 4,
-		"lethal": 2,
-		"aggrevated": 1
+		"bludgeon": 2,
+		"lethal": 1,
+		"aggrevated": 0
 	},
 	"soak": {
 		"bludgeon": 0,

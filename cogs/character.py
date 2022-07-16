@@ -8,6 +8,7 @@ import datetime
 import importlib
 import json
 import os
+import math
 import re
 import sys
 
@@ -166,6 +167,18 @@ def sort_attr_list(attr_list_unsorted: list, epic=False):
             "wits": attr_list_unsorted["wits"],  # WIT
         }
     return attr_list_sorted
+
+
+def highest_defense(gear):
+    highest = 0
+    for key in gear:
+        try:
+            if gear[key][2] >= highest:
+                highest = gear[key][2]
+        except TypeError:
+            pass
+
+    return highest
 
 
 class Character(commands.Cog):
@@ -365,15 +378,15 @@ class Character(commands.Cog):
             # Combat
             player_sheet["soak"]["bludgeon"] = stam + epic_sta
             s_bludgeon = player_sheet["soak"]["bludgeon"]
-            player_sheet["soak"]["lethal"] = round(s_bludgeon / 2)
-            player_sheet["soak"]["aggrevated"] = round(epic_sta / 2)
+            player_sheet["soak"]["lethal"] = math.ceil(stam/ 2) + epic_sta
+            player_sheet["soak"]["aggrevated"] = math.ceil(epic_sta)
 
-            player_sheet["combat"]["dodge"][0] = (
-                (dex + athletics + legend) / 2) + epic_dex
-            player_sheet["combat"]["parry"][0] = (
-                (dex + p_dv_attr_mod) / 2) + epic_dex
+            player_sheet["combat"]["dodge"][0] = math.ceil((
+                            (dex + athletics + legend) / 2) + epic_dex)
+            player_sheet["combat"]["parry"][0] = math.ceil((
+                (dex + p_dv_attr_mod + highest_defense(player_sheet["combat"])) / 2) + epic_dex)
 
-            player_sheet["join_battle"] = wits + awareness + epic_wits
+            player_sheet["join_battle"] = wits + awareness
 
             # Movement
             player_sheet["movement"]["move"] = move
@@ -408,7 +421,7 @@ class Character(commands.Cog):
         await self.myboons(ctx, private, target, True)
         await self.myknacks(ctx, private, target, True)
 
-    @commands.command(aliases=["cat", "charattr"])
+    @commands.command(aliases=["catt", "charattr"])
     async def stats(self, ctx, private=True,
                     target: discord.Member = None,
                     chained=False):
@@ -577,10 +590,10 @@ class Character(commands.Cog):
         armor_l = player_sheet["armor"]["lethal"]
         armor_a = player_sheet["armor"]["aggrevated"]
 
-        dodge_dv = player_sheet["combat"]["dodge"][0]
-        parry_dv = player_sheet["combat"]["parry"][0]
+        dodge_dv = math.ceil(player_sheet["combat"]["dodge"][0])
+        parry_dv = math.ceil(player_sheet["combat"]["parry"][0])
         join_battle = player_sheet["attributes"]["wits"] + \
-            player_sheet["abilities"]["awareness"]
+            player_sheet["abilities"]["awareness"] + player_sheet["epic_attributes"]["epic_wits"]
 
         embed = discord.Embed(title="")
         if chained is False:

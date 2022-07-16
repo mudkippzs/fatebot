@@ -29,17 +29,17 @@ def save_json(file, settings):
     return
 
 
-class MgDartboard(commands.Cog):
+class MgStarboard(commands.Cog):
 
     """A starboard to upvote posts."""
 
     def __init__(self, bot):
         self.bot = bot
-        self.settings_file = 'data/stoarboard/settings.json'
+        self.settings_file = 'data/starboard/settings.json'
         self.settings = load_json(self.settings_file)
 
     @commands.group(pass_context=True, no_pm=True)
-    async def dartboard(self, ctx):
+    async def starboard(self, ctx):
         """Manage the starboard settings."""
         if str(ctx.message.author.id) in [config["gamemaster"][0]["ganj"]]:
 
@@ -48,7 +48,7 @@ class MgDartboard(commands.Cog):
 
             await ctx.message.delete()
 
-    @dartboard.command(name='channel', pass_context=True, no_pm=True)
+    @starboard.command(name='channel', pass_context=True, no_pm=True)
     async def _channel(self, ctx, channel: discord.TextChannel):
         """Set the starboard channel."""
         if str(ctx.message.author.id) in [config["gamemaster"][0]["ganj"]]:
@@ -60,23 +60,24 @@ class MgDartboard(commands.Cog):
             server = ctx.message.guild
             self.settings[str(server.id)]["channel"] = channel.id
             save_json(self.settings_file, self.settings)
-            await ctx.send('Dartboard channel set to {}.'.format(channel), delete_after=5.0)
+            await ctx.send('Starboard channel set to {}.'.format(channel), delete_after=5.0)
 
-    @dartboard.command(name='emoji', pass_context=True, no_pm=True)
+    @starboard.command(name='emoji', pass_context=True, no_pm=True)
     async def _emoji(self, ctx, emoji: str):
         """Set the emoji for the starboard."""
         if str(ctx.message.author.id) in [config["gamemaster"][0]["ganj"]]:
 
-            if len(emoji) < 2:
+            if len(emoji) < 1:
+                print(len(emoji))
                 await ctx.send('That emoji is too small.', delete_after=5.0)
                 return
 
             server = ctx.message.guild
             self.settings[str(server.id)]['emoji'] = emoji
             save_json(self.settings_file, self.settings)
-            await ctx.send('Dartboard emoji set to {}.'.format(emoji), delete_after=5.0)
+            await ctx.send('Starboard emoji set to {}.'.format(emoji), delete_after=5.0)
 
-    @dartboard.command(name='limit', pass_context=True, no_pm=True)
+    @starboard.command(name='limit', pass_context=True, no_pm=True)
     async def _limit(self, ctx, limit: int):
         """Set the minimum number of stars required to show up."""
         if str(ctx.message.author.id) in [config["gamemaster"][0]["ganj"]]:
@@ -84,9 +85,9 @@ class MgDartboard(commands.Cog):
             server = ctx.message.guild
             self.settings[str(server.id)]['limit'] = limit
             save_json(self.settings_file, self.settings)
-            await ctx.send('Dartboard limit set to {}.'.format(limit), delete_after=5.0)
+            await ctx.send('Starboard limit set to {}.'.format(limit), delete_after=5.0)
 
-    @dartboard.command(name='age', pass_context=True, no_pm=True)
+    @starboard.command(name='age', pass_context=True, no_pm=True)
     async def _age(self, ctx, days: int):
         """Set the maximum age of a message valid for starring."""
         if str(ctx.message.author.id) in [config["gamemaster"][0]["ganj"]]:
@@ -96,7 +97,7 @@ class MgDartboard(commands.Cog):
             save_json(self.settings_file, self.settings)
             await ctx.send('Maximum message age set to {}.'.format(days), delete_after=5.0)
 
-    @dartboard.command(name='toggle', pass_context=True, no_pm=True)
+    @starboard.command(name='toggle', pass_context=True, no_pm=True)
     async def _toggle(self, ctx):
         """Toggle the starboard on or off."""
         if str(ctx.message.author.id) in [config["gamemaster"][0]["ganj"]]:
@@ -106,9 +107,9 @@ class MgDartboard(commands.Cog):
                 server.id)]['toggle']
             save_json(self.settings_file, self.settings)
             if self.settings[str(server.id)]['toggle']:
-                await ctx.send('Dartboard enabled.', delete_after=5.0)
+                await ctx.send('Starboard enabled.', delete_after=5.0)
             else:
-                await ctx.send('Dartboard disabled.', delete_after=5.0)
+                await ctx.send('Starboard disabled.', delete_after=5.0)
 
     @commands.Cog.listener()
     async def on_ready(self):
@@ -126,8 +127,8 @@ class MgDartboard(commands.Cog):
                 }
         save_json(self.settings_file, self.settings)
 
-    @dartboard.command(name='dart', pass_context=True, no_pm=True)
-    async def _dart(self, ctx):
+    @starboard.command(name='star', pass_context=True, no_pm=True)
+    async def _star(self, ctx):
         if str(ctx.message.author.id) in [config["gamemaster"][0]["ganj"]]:
             jump_url = ""
             author_id = None
@@ -148,7 +149,7 @@ class MgDartboard(commands.Cog):
             
         return
 
-    @dartboard.command(name='status', pass_context=True, no_pm=True)
+    @starboard.command(name='status', pass_context=True, no_pm=True)
     async def _status(self, ctx=None):
         """Toggle the starboard on or off."""
         if ctx is not None:
@@ -157,24 +158,25 @@ class MgDartboard(commands.Cog):
                 toggle = self.settings[str(server.id)]["toggle"]
 
                 if toggle:
-                    clogger(f"[{server_id}] Dartboard is enabled.")
-                    await ctx.send(f"```Dartboard is enabled!```")
+                    clogger(f"[{server_id}] Starboard is enabled.")
+                    await ctx.send(f"```Starboard is enabled!```")
                 else:
-                    clogger(f"[{server_id}] Dartboard is disabled.")
-                    await ctx.send(f"```Dartboard is disabled!")
+                    clogger(f"[{server_id}] Starboard is disabled.")
+                    await ctx.send(f"```Starboard is disabled!")
         else:
             for idx, server_id in enumerate(self.settings.keys()):
                 toggle = self.settings[server_id]["toggle"]
 
                 if toggle:
-                    clogger(f"[{server_id}] Dartboard is enabled.")
+                    clogger(f"[{server_id}] Starboard is enabled.")
                 else:
-                    clogger(f"[{server_id}] Dartboard is disabled.")
+                    clogger(f"[{server_id}] Starboard is disabled.")
 
     @commands.Cog.listener()
     async def on_reaction_add(self, reaction, user):
         server = reaction.message.guild
-        if reaction.message.channel.id in [938444879682478121, 832999633185144832]:
+        if reaction.message.channel.id not in [938444879682478121, 953469148053274695]:
+            
             message = reaction.message
             if str(server.id) not in self.settings.keys():
                 return
@@ -205,7 +207,7 @@ class MgDartboard(commands.Cog):
     async def add_to_starboard(self, server, channel, message):
         embed_list = []
 
-        dartboard_channel = self.get_starboard(server)
+        starboard_channel = self.get_starboard(server)
         if len(message.embeds):
             for embd in message.embeds:
                 embd_title = embd.title or None
@@ -238,9 +240,9 @@ class MgDartboard(commands.Cog):
 
         if len(embed_list):
             for embed in embed_list:
-                new_dartboard = await dartboard_channel.send(embed=embed)
+                new_starboard = await starboard_channel.send(embed=embed)
                 self.settings[str(server.id)]["message_ids"].append(
-                    [str(message.id), str(new_dartboard.id)])
+                    [str(message.id), str(new_starboard.id)])
 
             save_json(self.settings_file, self.settings)
         else:
@@ -254,10 +256,10 @@ class MgDartboard(commands.Cog):
             embed.set_footer(
                 text=f"Posted in {message.channel.name}", icon_url=message.author.avatar_url)
 
-            new_dartboard = await dartboard_channel.send(embed=embed)
+            new_starboard = await starboard_channel.send(embed=embed)
 
             self.settings[str(server.id)]["message_ids"].append(
-                [str(message.id), str(new_dartboard.id)])
+                [str(message.id), str(new_starboard.id)])
 
         save_json(self.settings_file, self.settings)
 
@@ -265,7 +267,7 @@ class MgDartboard(commands.Cog):
     async def on_reaction_remove(self, reaction, user):
         server = reaction.message.guild
         message = reaction.message
-        if reaction.message.channel.id in [938444879682478121, 832999633185144832]:
+        if reaction.message.channel.id not in [938444879682478121, 953469148053274695]:
             if server.id not in self.settings:
                 return
             if self.settings[str(server.id)]['toggle'] is False:
@@ -285,8 +287,8 @@ class MgDartboard(commands.Cog):
                 return
 
     def get_starboard(self, server):
-        dartboard_channel = self.settings[str(server.id)]['channel']
-        return server.get_channel(dartboard_channel)
+        starboard_channel = self.settings[str(server.id)]['channel']
+        return server.get_channel(starboard_channel)
 
 
 def is_json(myjson):
@@ -298,17 +300,17 @@ def is_json(myjson):
 
 
 def check_folders():
-    if not os.path.exists('data/stoarboard'):
-        print('Creating data/stoarboard folder...')
-        os.makedirs('data/stoarboard')
+    if not os.path.exists('data/starboard'):
+        print('Creating data/starboard folder...')
+        os.makedirs('data/starboard')
 
 
 def check_files():
-    f = 'data/stoarboard/settings.json'
+    f = 'data/starboard/settings.json'
     if not is_json(f):
         print('Creating default settings.json...')
         save_json(f, {})
 
 
 def setup(bot):
-    bot.add_cog(MgDartboard(bot))
+    bot.add_cog(MgStarboard(bot))

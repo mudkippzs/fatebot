@@ -73,11 +73,7 @@ def main(url):
 
     # print(content.find('p').text)
 
-    try:
-        return parse_scion(content, soup)
-    except Exception as e:
-        print(url)
-        raise e
+    return parse_scion(content, soup)
 
 
 if __name__ == '__main__':

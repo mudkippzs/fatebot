@@ -20,6 +20,9 @@ from discord_components import ComponentsBot
 with open("config.json", "r") as f:
     config = json.load(f)
 
+with open("strings.json", "r") as f:
+    strings = json.load(f)
+
 # Declare Bots required perms via Intents().
 INTENTS = discord.Intents.all()
 
@@ -30,7 +33,7 @@ class OracleBot(ComponentsBot):
         """Kick off instance of Fatebot."""
         super().__init__(
             command_prefix=config["prefix"],
-            description="A bot for Scion 1e - Storyteller system.",
+            description=strings["strings"]["welcome_message"],
             intents=INTENTS)
         self.load_extensions()
 

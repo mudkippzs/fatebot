@@ -17,34 +17,34 @@ from split_text import split_text
 with open("config.json", "r") as f:
     config = json.load(f)
 
-def get_cat():
-    cat = None
-    url = "https://some-random-api.ml/animal/cat"
+def get_bird():
+    bird = None
+    url = "https://some-random-api.ml/animal/bird"
 
     response = requests.get(url)
 
-    cat = response.json()
+    bird = response.json()
 
-    return cat
+    return bird
 
-class Cats(commands.Cog):
+class Birds(commands.Cog):
     """Cog"""
 
     def __init__(self, bot):
         self.bot = bot
 
         
-    @commands.command(aliases=["cat", "kat", "catto", "katto", "gatto", "gato", "kitty", "kittykat", "kittycat"])
-    async def cats(self, ctx):
+    @commands.command(aliases=["bird", "birdo", "burd", "burb", "burdo", "burbo"])
+    async def birds(self, ctx):
         embed = discord.Embed(title=f"\u200b", timestamp=ctx.message.created_at)
-        cat_data = get_cat()
-        embed.set_image(url=cat_data["image"])
+        bird_data = get_bird()
+        embed.set_image(url=bird_data["image"])
         embed.set_author(name=ctx.author, icon_url=ctx.author.avatar_url)
-        fact = f"...{cat_data['fact'][0].lower()}{cat_data['fact'][1:]}"
+        fact = f"...{bird_data['fact'][0].lower()}{bird_data['fact'][1:]}"
         embed.add_field(name=f"{ctx.author.display_name} did you know...", value=f"```{fact}```")
 
         await ctx.send(embed=embed)
 
 
 def setup(client):
-    client.add_cog(Cats(client))
+    client.add_cog(Birds(client))

@@ -3,7 +3,6 @@ def split_text(text):
     Split a long string into a list.
     len() of each list element should be equal or less than 500 and only split on the end of a sentence.
     """
-    text = text.replace('\n', ' ')
 
     # remove multiple spaces
     text = re.sub(r' +', ' ', text)

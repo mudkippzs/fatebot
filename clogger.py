@@ -10,5 +10,11 @@ watch_log.addHandler(watch_handler)
 
 
 def clogger(message):
+    """
+    Logging for stuff.
+
+    Params:
+        message: str The message to log.
+    """
     ts = datetime.datetime.now().strftime('%Y-%m-%d @ %H:%M:%S')
     watch_log.info(f"[{ts}] :: {message}")

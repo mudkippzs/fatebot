@@ -51,7 +51,7 @@ def random_encounter(context):
     }
 
     for _ in range(10):
-        encounter["civilians"].append(NPC(legend=0, context=context, debug=True))
+        encounter["civilians"].append(NPC(legend=0, debug=True))
 
     # for i in range(10):
     #     encounter["grunts"].append(

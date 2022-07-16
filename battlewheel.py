@@ -52,6 +52,8 @@ class Battle:
 
     def get_max_initiative(self, player):
         max_initiative = 0
+
+        clogger((player.name, player.npc))
         if player.npc[0] is True:
             jb = player.join_battle()
         else:
