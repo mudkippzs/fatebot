@@ -129,7 +129,7 @@ class MgDartboard(commands.Cog):
     @dartboard.command(name='dart', pass_context=True, no_pm=True)
     async def _dart(self, ctx):
         if str(ctx.message.author.id) in [config["gamemaster"][0]["ganj"]]:
-            jump_url = ""
+            jump_url = "https://discord.com/channels/820077049036406805/938444879682478121/999283162783952946"
             author_id = None
             channel_id = None
             message = None
@@ -175,6 +175,12 @@ class MgDartboard(commands.Cog):
     async def on_reaction_add(self, reaction, user):
         server = reaction.message.guild
         if reaction.message.channel.id in [938444879682478121, 832999633185144832]:
+            
+            if str(reaction.emoji) == "⭐":
+                clogger(f"Star used in wrong channel: Message: {reaction.message.id} / Emoji: {str(reaction.emoji)} / Channel: {str(reaction.message.channel.id)}")
+                await reaction.remove(user)
+                return
+
             message = reaction.message
             if str(server.id) not in self.settings.keys():
                 return
@@ -190,12 +196,6 @@ class MgDartboard(commands.Cog):
 
             if str(reaction.emoji) != self.settings[str(server.id)]['emoji']:
                 return
-
-            if reaction.message.channel.id == 938444879682478121 and str(reaction.emoji) == "⭐":
-                await reaction.remove(user)
-
-            if reaction.message.channel.id != 938444879682478121 and str(reaction.emoji) == "<:storbaord:954547894533373972>":
-                await reaction.remove(user)
         
             stars = reaction.count  # The bot's reaction shouldn't count
             if stars < self.settings[str(server.id)]['limit']:

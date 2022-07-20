@@ -177,6 +177,11 @@ class MgStarboard(commands.Cog):
         server = reaction.message.guild
         if reaction.message.channel.id not in [938444879682478121, 953469148053274695]:
             
+            if str(reaction.emoji) == "<:storbaord:954547894533373972>":
+                clogger(f"Memestar used in wrong channel: Message: {reaction.message.id} / Emoji: {str(reaction.emoji)} / Channel: {str(reaction.message.channel.id)}")
+                await reaction.remove(user)
+                return
+
             message = reaction.message
             if str(server.id) not in self.settings.keys():
                 return
@@ -193,11 +198,6 @@ class MgStarboard(commands.Cog):
             if str(reaction.emoji) != self.settings[str(server.id)]['emoji']:
                 return
 
-            if reaction.message.channel.id == 938444879682478121 and str(reaction.emoji) == "⭐":
-                await reaction.remove(user)
-
-            if reaction.message.channel.id != 938444879682478121 and str(reaction.emoji) == "<:storbaord:954547894533373972>":
-                await reaction.remove(user)
 
             channel = message.channel
 
