@@ -193,6 +193,12 @@ class MgStarboard(commands.Cog):
             if str(reaction.emoji) != self.settings[str(server.id)]['emoji']:
                 return
 
+            if reaction.message.channel.id == 938444879682478121 and str(reaction.emoji) == "⭐":
+                await reaction.remove(user)
+
+            if reaction.message.channel.id != 938444879682478121 and str(reaction.emoji) == "<:storbaord:954547894533373972>":
+                await reaction.remove(user)
+
             channel = message.channel
 
             stars = reaction.count  # The bot's reaction shouldn't count
