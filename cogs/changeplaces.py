@@ -157,7 +157,7 @@ class ChangePlaces(commands.Cog):
             embed.set_image(url="attachment://futurama-change-places.gif")
 
             #and send the damn thing
-            await channel.send(content="", embed=embed, file=discord.File("imgs/futurama-change-places.gif"))
+            await channel.send(content="@here", embed=embed, file=discord.File("imgs/futurama-change-places.gif"))
 
         else:
             await context.send("```You must not be a faggot to execute this command```", delete_after=5)
