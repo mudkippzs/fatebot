@@ -163,6 +163,16 @@ class ChangePlaces(commands.Cog):
             await context.send("```You must not be a faggot to execute this command```", delete_after=5)
 
     @commands.command()
+    async def changeplacesping(self, context):
+        channel = utils.find(lambda c: c.name == "📢announcements📢", self.client.get_all_channels())
+        
+        embed=discord.Embed(title="CHANGE PLACES!", description="For the next 24hrs all members nicknames have been swapped!")
+        embed.set_image(url="attachment://futurama-change-places.gif")
+
+        #and send the damn thing
+        await channel.send(content="@here", embed=embed, file=discord.File("imgs/futurama-change-places.gif"))
+    
+    @commands.command()
     async def restore(self, context):
         """Restores nicknames manually"""
         guild = context.guild
