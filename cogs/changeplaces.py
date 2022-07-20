@@ -115,7 +115,7 @@ class ChangePlaces(commands.Cog):
         
         if str(context.message.author.id) in [config["gamemaster"][0]["ganj"]]:  # Checks if owner using command
 
-            member_roles = [role for role in guild.roles if role.name == "Neutron"]
+            member_roles = [role for role in guild.roles if role.name == "Member"]
 
             for member in guild.members:  # Go through every member in the guild...
                 member_roles[0] in member.roles and member != guild.owner  # If they have the "Members" role and aren't the owner...
@@ -132,27 +132,24 @@ class ChangePlaces(commands.Cog):
             nicknames = {}  # Dict to hold member id's as keys and nicknames as values
             for member in guild.members:  # Go through every member in the guild...
                 if member_roles[0] in member.roles:  # If they have the "Members" role...
-                    if member != guild.owner:  # If they are not the owner...
+                    if member != guild.owner and member.bot is False:  # If they are not the owner...
                         nicknames[member.id] = member.display_name  # Add their nickname to the dict
 
             nicknames = list(nicknames)  # Turn our dict into a list of dict keys
 
-            while len(nicknames) > 0:  # While we still have members in our list...
+            while len(nicknames) > 1:  # While we still have members in our list...
 
-                random1 = random.randint(0, len(nicknames)-1)  # Pick two random numbers between 0 and length-1...
-                random2 = random.randint(0, len(nicknames)-1)
+                random1 = random.choice(nicknames)
+                nicknames.remove(random1)                
+                random2 = random.choice(nicknames)
+                nicknames.remove(random2)
 
-                temp = nicknames[random1]  # Switch members at those positions in our list
-
-                member1 = utils.get(guild.members, id=nicknames[random2])     # Get members from their id's from our dict keys/list items
-                member2 = utils.get(guild.members, id=temp)
-
-                nicknames[random1] = nicknames[random2]     # Set position 1 to position 2's old name to avoid dupes later on!
-
-                await member1.edit(nick=member2.display_name)      # Change their nicknames to each other's names! omg crazy! lol! xD :D :) :P ;P ;D ;D ;D <3 :heart: :smile: :sad: :crying: :angry: :stupid: :wut:
-                await member2.edit(nick=member1.display_name)
-
-                del nicknames[random2]  # Remove our list entry so we don't collide with this user again
+                member1 = utils.get(guild.members, id=random1)     # Get members from their id's from our dict keys/list items
+                member2 = utils.get(guild.members, id=random2)
+                member_1_new_nick = member2.display_name
+                member_2_new_nick = member1.display_name
+                await member1.edit(nick=member_1_new_nick)      # Change their nicknames to each other's names! omg crazy! lol! xD :D :) :P ;P ;D ;D ;D <3 :heart: :smile: :sad: :crying: :angry: :stupid: :wut:
+                await member2.edit(nick=member_2_new_nick)
 
             channel = utils.find(lambda c: c.name == "📢announcements📢", self.client.get_all_channels())      
             
@@ -160,7 +157,7 @@ class ChangePlaces(commands.Cog):
             embed.set_image(url="attachment://futurama-change-places.gif")
 
             #and send the damn thing
-            await channel.send(content="@here", embed=embed, file=discord.File("imgs/futurama-change-places.gif"))
+            await channel.send(content="", embed=embed, file=discord.File("imgs/futurama-change-places.gif"))
 
         else:
             await context.send("```You must not be a faggot to execute this command```", delete_after=5)
@@ -172,7 +169,7 @@ class ChangePlaces(commands.Cog):
         
         if str(context.message.author.id) in [config["gamemaster"][0]["ganj"]]:  # Checks if owner using command
 
-            member_roles = [role for role in guild.roles if role.name == "Neutron"]
+            member_roles = [role for role in guild.roles if role.name == "Member"]
 
             perms = Permissions()  # Create a permissions object and remove the change nickname permission
             perms.update(change_nickname=True)
