@@ -191,8 +191,12 @@ class MgDartboard(commands.Cog):
             if str(reaction.emoji) != self.settings[str(server.id)]['emoji']:
                 return
 
-            channel = message.channel
+            if reaction.message.channel.id == 938444879682478121 && str(reaction.emoji) == "⭐":
+                await reaction.remove(user)
 
+            if reaction.message.channel.id != 938444879682478121 && str(reaction.emoji) == "<:storbaord:954547894533373972>":
+                await reaction.remove(user)
+        
             stars = reaction.count  # The bot's reaction shouldn't count
             if stars < self.settings[str(server.id)]['limit']:
                 return
