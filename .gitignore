@@ -156,3 +156,4 @@ config.json
 npcs/generated/**/*.json
 *.json
 logs/*
+levels.json
