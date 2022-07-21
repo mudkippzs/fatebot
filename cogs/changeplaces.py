@@ -197,7 +197,11 @@ class ChangePlaces(commands.Cog):
                 for member in guild.members:  # Go through every member in the guild...
                     if member.id not in blacklist:
                         if member_roles[0] in member.roles and member != guild.owner:  # If they have the "Members" role and aren't the owner...
-                            await member.edit(nick=None)     # Make it so they have no nickname again!
+                            try:
+                                await member.edit(nick=None)     # Make it so they have no nickname again!
+                            except:
+                                clogger(f"Couldn't edit nick for {str(member.display_name)}")
+                                pass
 
             await context.send("```Restored members!```", delete_after=5)
 
