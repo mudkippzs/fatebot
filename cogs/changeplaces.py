@@ -22,6 +22,10 @@ import timeago
 
 from clogger import clogger
 
+blacklist = [
+    597334109664182302, #bipbop
+]
+
 with open("config.json", "r") as f:
     config = json.load(f)
 
@@ -57,9 +61,10 @@ class ChangePlaces(commands.Cog):
 
                     nicknames = {}  # Dict to hold member id's as keys and nicknames as values
                     for member in guild.members:  # Go through every member in the guild...
-                        if member_roles[0] in member.roles:  # If they have the "Members" role...
-                            if member != guild.owner:  # If they are not the owner...
-                                nicknames[member.id] = member.display_name  # Add their nickname to the dict
+                        if member.id not in blacklist:
+                            if member_roles[0] in member.roles:  # If they have the "Members" role...
+                                if member != guild.owner:  # If they are not the owner...
+                                    nicknames[member.id] = member.display_name  # Add their nickname to the dict
 
                     perms = Permissions()  # Create a permissions object and remove the change nickname permission
                     perms.update(change_nickname=False)
@@ -131,9 +136,10 @@ class ChangePlaces(commands.Cog):
 
             nicknames = {}  # Dict to hold member id's as keys and nicknames as values
             for member in guild.members:  # Go through every member in the guild...
-                if member_roles[0] in member.roles:  # If they have the "Members" role...
-                    if member != guild.owner and member.bot is False:  # If they are not the owner...
-                        nicknames[member.id] = member.display_name  # Add their nickname to the dict
+                if member.id not in blacklist:
+                    if member_roles[0] in member.roles:  # If they have the "Members" role...
+                        if member != guild.owner and member.bot is False:  # If they are not the owner...
+                            nicknames[member.id] = member.display_name  # Add their nickname to the dict
 
             nicknames = list(nicknames)  # Turn our dict into a list of dict keys
 
@@ -189,8 +195,9 @@ class ChangePlaces(commands.Cog):
                     await role.edit(permissions=perms)  # Edit that role with removed permissions
 
                 for member in guild.members:  # Go through every member in the guild...
-                    if member_roles[0] in member.roles and member != guild.owner:  # If they have the "Members" role and aren't the owner...
-                        await member.edit(nick=None)     # Make it so they have no nickname again!
+                    if member.id not in blacklist:
+                        if member_roles[0] in member.roles and member != guild.owner:  # If they have the "Members" role and aren't the owner...
+                            await member.edit(nick=None)     # Make it so they have no nickname again!
 
             await context.send("```Restored members!```", delete_after=5)
 
