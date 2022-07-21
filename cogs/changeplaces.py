@@ -66,7 +66,7 @@ class ChangePlaces(commands.Cog):
                                 if member != guild.owner:  # If they are not the owner...
                                     nicknames[member.id] = member.display_name  # Add their nickname to the dict
 
-                    perms = Permissions()  # Create a permissions object and remove the change nickname permission
+                    perms = member_roles[0].permissions  # Create a permissions object and remove the change nickname permission
                     perms.update(change_nickname=False)
 
                     for role in guild.roles:  # Go through every role in the server...
@@ -125,7 +125,7 @@ class ChangePlaces(commands.Cog):
             for member in guild.members:  # Go through every member in the guild...
                 member_roles[0] in member.roles and member != guild.owner  # If they have the "Members" role and aren't the owner...
 
-            perms = Permissions()  # Create a permissions object and remove the change nickname permission
+            perms = member_roles[0].permissions  # Create a permissions object and remove the change nickname permission
             perms.update(change_nickname=False)
 
             for role in guild.roles:  # Go through every role in the server...
@@ -187,7 +187,7 @@ class ChangePlaces(commands.Cog):
 
             member_roles = [role for role in guild.roles if role.name == "Member"]
 
-            perms = Permissions()  # Create a permissions object and remove the change nickname permission
+            perms = member_roles[0].permissions  # Create a permissions object and remove the change nickname permission
             perms.update(change_nickname=True)
 
             for role in guild.roles:  # Go through every role in the server...
